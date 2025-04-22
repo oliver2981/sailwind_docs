@@ -32,11 +32,11 @@ export default defineConfig({
     locales: [
       {
         lang: 'en',
-        outlineTitle: 'ON THIS Page',
+        outlineTitle: 'ON THIS PAGE',
       },
       {
         lang: 'zh',
-        outlineTitle: '大纲',
+        outlineTitle: '本页目录',
       },
     ],
 

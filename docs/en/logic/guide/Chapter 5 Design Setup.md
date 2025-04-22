@@ -9,7 +9,7 @@ SailWind Logic Guide
 
 69
 
-Design Setup
+Design Setup
 Setting Options
 
 ## Setting Options
@@ -66,7 +66,7 @@ backups to a file.
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Setting Part Editor Options
 
 Tip
@@ -138,7 +138,7 @@ SailWind Logic Guide
 
 71
 
-Design Setup
+Design Setup
 Preserving Reference Designators
 
 3. In the CAE Decal Editor, click the Tools > Options  menu item.
@@ -226,7 +226,7 @@ designators.
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Preserving Reference Designators
 
 Results
@@ -239,7 +239,7 @@ SailWind Logic Guide
 
 73
 
-Design Setup
+Design Setup
 Work Area and Grid Settings
 
 ### Work Area and Grid Settings
@@ -294,7 +294,7 @@ Logic saves setup information with the schematic.
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Setting Display Colors
 
 Procedure
@@ -362,7 +362,7 @@ SailWind Logic Guide
 
 75
 
-Design Setup
+Design Setup
 Setting Display Colors
 
 Related Topics
@@ -373,7 +373,7 @@ Display Colors Dialog Box - Part Editor
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Setting Fonts
 
 ## Setting Fonts
@@ -399,7 +399,7 @@ SailWind Logic Guide
 
 77
 
-Design Setup
+Design Setup
 Choosing Stroke Font or System Fonts
 
 ### Choosing Stroke Font or System Fonts
@@ -458,7 +458,7 @@ that is a standard font so that users on other systems can view your files using
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Setting Stroke Font Options
 
 Restrictions and Limitations
@@ -519,7 +519,7 @@ SailWind Logic Guide
 
 79
 
-Design Setup
+Design Setup
 Setting System Font Options
 
 Procedure
@@ -575,7 +575,7 @@ capability for you to add visual emphasis to objects in your design.
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Converting Stroke-to-System Fonts
 
 Procedure
@@ -639,7 +639,7 @@ SailWind Logic Guide
 
 81
 
-Design Setup
+Design Setup
 Converting System-to-Stroke Fonts
 
 ### Converting System-to-Stroke Fonts
@@ -690,7 +690,7 @@ Setting Fonts
 
 SailWind Logic Guide
 
-Design Setup
+Design Setup
 Managing Font Replacement
 
 ## Managing Font Replacement
@@ -739,7 +739,7 @@ SailWind Logic Guide
 
 83
 
-Design Setup
+Design Setup
 Manual Font Replacement
 
 ### Manual Font Replacement

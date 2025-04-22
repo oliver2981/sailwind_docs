@@ -9,7 +9,7 @@ SailWind Logic Guide
 
 37
 
-User Interface
+User Interface
 View Control
 
 ## View Control
@@ -64,7 +64,7 @@ bounding box displays.
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Numeric Keypad
 
 • To zoom out, click and hold the middle mouse button. Drag the cursor diagonally down. This
@@ -86,7 +86,7 @@ SailWind Logic Guide
 
 39
 
-User Interface
+User Interface
 Saving and Restoring Views
 
 Saving and Restoring Views
@@ -139,7 +139,7 @@ work area.
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 
 ## Project Explorer
 
@@ -177,7 +177,7 @@ SailWind Logic Guide
 
 41
 
-User Interface
+User Interface
 Output Window
 
 ## Output Window
@@ -205,7 +205,7 @@ CIS
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Session Log Management
 
 ## Session Log Management
@@ -278,7 +278,7 @@ SailWind Logic Guide
 
 43
 
-User Interface
+User Interface
 
 Filtering the Status Tab Display
 
@@ -358,7 +358,7 @@ The tab scrolls to the occurrence of the word, highlighting the word.
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Printing Session Log Messages
 
 ### Printing Session Log Messages
@@ -416,7 +416,7 @@ SailWind Logic Guide
 
 45
 
-User Interface
+User Interface
 Clearing the Session Log Display
 
 HKEY_CURRENT_USER\Software\Mentor Graphics\<version>\SailWind Layout\Status
@@ -437,7 +437,7 @@ This prevents you from viewing information from a previously opened file. It doe
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Macros
 
 ## Macros
@@ -496,7 +496,7 @@ SailWind Logic Guide
 
 47
 
-User Interface
+User Interface
 Opening an Existing Macro File
 
 • Compress Mouse Mode  — Compress mouse mode records only the start point and endpoint
@@ -558,7 +558,7 @@ Procedure
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Changing the Default Text Editor
 
 4. On the Macro  tab toolbar, click the Paste  button.
@@ -599,7 +599,7 @@ SailWind Logic Guide
 
 49
 
-User Interface
+User Interface
 Macro Playback
 
 ## Macro Playback
@@ -656,7 +656,7 @@ Using Command Line Switches with Macros [SailWind Logic Command Reference Manual
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Macro Script Debug
 
 ## Macro Script Debug
@@ -691,7 +691,7 @@ SailWind Logic Guide
 
 51
 
-User Interface
+User Interface
 Debugging the Macro Scripts
 
 ### Debugging the Macro Scripts
@@ -748,7 +748,7 @@ Step out  button.
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 Continue the Execution From the Current Point
 
 ### Continue the Execution From the Current Point
@@ -783,7 +783,7 @@ SailWind Logic Guide
 
 53
 
-User Interface
+User Interface
 CIS
 
 ## CIS
@@ -852,7 +852,7 @@ list, wherein:
 
 SailWind Logic Guide
 
-Name
+Name
 
 Description
 
@@ -937,7 +937,7 @@ SailWind Logic Guide
 
 55
 
-User Interface
+User Interface
 Comparing Part Attributes for Consistency Checking
 
 3. Use the filter to locate parts, and click Search  to activate the filter. Parts that match the search filter
@@ -1000,7 +1000,7 @@ takes effect only on parts found with "Attribute is not equal" error.
 
 SailWind Logic Guide
 
-User Interface
+User Interface
 
 Opening a File That is Already in Use
 
@@ -1036,7 +1036,7 @@ SailWind Logic Guide
 
 57
 
-User Interface
+User Interface
 
 Opening a File That is Already in Use
 
@@ -1044,5 +1044,5 @@ Opening a File That is Already in Use
 
 SailWind Logic Guide
 
-Use the file operations to create and save a new schematic file. You can also open and save existing
+Use the file operations to create and save a new schematic file. You can also open and save existing
 designs, import and export files from other file formats, and archive your schematics.

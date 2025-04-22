@@ -52,7 +52,7 @@ SailWind Logic Guide
 
 59
 
-File Operations
+File Operations
 Opening a Schematic File
 
 Restriction:
@@ -107,7 +107,7 @@ Exporting Files
 
 SailWind Logic Guide
 
-File Operations
+File Operations
 File Import and Export
 
 ## File Import and Export
@@ -177,7 +177,7 @@ SailWind Logic Guide
 
 61
 
-File Operations
+File Operations
 Importing a File
 
 Table  7. File Types Imported into the Current Schematic  (continued)
@@ -263,7 +263,7 @@ Import Rules from PCB
 
 SailWind Logic Guide
 
-File Operations
+File Operations
 Exporting Files
 
 ## Exporting Files
@@ -322,7 +322,7 @@ SailWind Logic Guide
 
 63
 
-File Operations
+File Operations
 Exporting Files
 
 Saving a Schematic File
@@ -333,7 +333,7 @@ Export Rules to PCB
 
 SailWind Logic Guide
 
-File Operations
+File Operations
 OLE Object Import and Export
 
 ## OLE Object Import and Export
@@ -392,7 +392,7 @@ SailWind Logic Guide
 
 65
 
-File Operations
+File Operations
 ASCII File Format
 
 3. Name the file and select a location in which to save the file.
@@ -474,7 +474,7 @@ Define what information you want to write to an ASCII file.
 
 SailWind Logic Guide
 
-File Operations
+File Operations
 Archiving Your Schematic
 
 Procedure
@@ -531,7 +531,7 @@ SailWind Logic Guide
 
 67
 
-File Operations
+File Operations
 Archiving Your Schematic
 
 Where YYYY is the year, MM is the month, DD is the day, HH is the hour (using a 24-hour format), MM is
@@ -542,6 +542,6 @@ structure as the archive folder.
 
 SailWind Logic Guide
 
-You can define various options for the initial setup of your design. These include the settings for the
+You can define various options for the initial setup of your design. These include the settings for the
 schematic editor, the part editor, file backups, the work area and grids. You can also specify colors
 settings, and fonts for your SailWind Logic schematic design.

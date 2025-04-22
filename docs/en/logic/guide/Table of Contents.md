@@ -49,7 +49,7 @@ Filtering the Status Tab Display................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Searching in the Status Tab.......................................................................................................... 44
 Printing Session Log Messages.................................................................................................... 45
@@ -104,7 +104,7 @@ SailWind Logic Guide
 
 5
 
-Table of Contents
+Table of Contents
 
  Chapter  5
 Design  Setup.................................................................................................................69
@@ -158,7 +158,7 @@ Managing Library Attributes.....................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Adding an Attribute to Multiple Library Items................................................................................... 98
 Deleting Attributes From Library Items.............................................................................................99
@@ -213,7 +213,7 @@ SailWind Logic Guide
 
 7
 
-Table of Contents
+Table of Contents
 
 Changing Sequence Numbers........................................................................................................129
 Attribute  Labels............................................................................................................................... 130
@@ -269,7 +269,7 @@ Deleting  an  Attribute.........................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Setting Default Attributes.............................................................................................................155
 Adding an Attribute From the Attribute Library........................................................................... 156
@@ -324,7 +324,7 @@ SailWind Logic Guide
 
 9
 
-Table of Contents
+Table of Contents
 
 Selecting All Objects on a Sheet....................................................................................................183
 Selecting an Object on All Sheets in a Schematic.........................................................................183
@@ -379,7 +379,7 @@ Group  Anchor  Points...........................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Management of Groups..................................................................................................................... 219
 Duplicating an Existing Group........................................................................................................ 219
@@ -433,7 +433,7 @@ SailWind Logic Guide
 
 11
 
-Table of Contents
+Table of Contents
 
 Creating  Net  Attributes.......................................................................................................................245
 Default Attributes for Nets..................................................................................................................246
@@ -488,7 +488,7 @@ Copying a Hierarchical Symbol...................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Deleting a Hierarchical Symbol..........................................................................................................271
 
@@ -543,7 +543,7 @@ SailWind Logic Guide
 
 13
 
-Table of Contents
+Table of Contents
 
 Setting Up Default Rules................................................................................................................... 306
 Setting Up Class Rules......................................................................................................................306
@@ -597,7 +597,7 @@ Plotting and Printing...........................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Setting Printing and Plotting Output Options..................................................................................... 347
 Previewing Your Output..................................................................................................................... 348
@@ -652,7 +652,7 @@ SailWind Logic Guide
 
 15
 
-Table of Contents
+Table of Contents
 
 Setting Up the SPICE Netlister.......................................................................................................378
 Setting Up Transient Analysis.........................................................................................................378
@@ -707,7 +707,7 @@ Creating a Custom Command.......................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Defining Properties for a New Command................................................................................... 403
 Editing a Custom Command....................................................................................................... 403
@@ -762,7 +762,7 @@ SailWind Logic Guide
 
 17
 
-Table of Contents
+Table of Contents
 
  Chapter  24
 SailWind Logic GUI Reference..................................................................................431
@@ -816,7 +816,7 @@ Conditional Rule Setup Dialog Box...............................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Connect to SailWind Layout Dialog Box............................................................................................512
 Connect to SailWind Router Dialog Box............................................................................................513
@@ -872,7 +872,7 @@ SailWind Logic Guide
 
 19
 
-Table of Contents
+Table of Contents
 
 Output  Window................................................................................................................................... 607
 Library Config Dialog Box...............................................................................................................609
@@ -928,7 +928,7 @@ Rules Report Dialog Box.........................................................
 
 SailWind Logic Guide
 
-Table of Contents
+Table of Contents
 
 Save CAE Decal to Library Dialog Box............................................................................................. 699
 Save Configuration Dialog Box..........................................................................................................700
@@ -965,7 +965,7 @@ SailWind Logic Guide
 
 21
 
-Table of Contents
+Table of Contents
 
 22
 

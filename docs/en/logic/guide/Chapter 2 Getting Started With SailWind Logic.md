@@ -1,4 +1,4 @@
-# Chapter 2 Getting Started With SailWind Logic
+# Chapter 2 Getting Started With SailWind Logic
 
 The SailWind Logic workflow guides you through the steps necessary to create a schematic design.
 
@@ -43,7 +43,7 @@ SailWind Logic Guide
 
 29
 
-Getting Started With SailWind Logic
+Getting Started With SailWind Logic
 Startup Options
 
 ◦ Locate parts in the library (See Managing Libraries and Library Data)
@@ -107,7 +107,7 @@ Do not use a forward slash ( / ) before the filename in the command line.
 
 SailWind Logic Guide
 
-Getting Started With SailWind Logic
+Getting Started With SailWind Logic
 Adding Startup Options to a Shortcut
 
 Table  1. SailWind Logic Command Line Options  (continued)
@@ -181,7 +181,7 @@ SailWind Logic Guide
 
 31
 
-Getting Started With SailWind Logic
+Getting Started With SailWind Logic
 Adding Startup Options to a Shortcut
 
 When specifying a file to start, do not use a / before the filename. You can specify multiple
@@ -195,7 +195,7 @@ might read:
 
 SailWind Logic Guide
 
-Getting Started With SailWind Logic
+Getting Started With SailWind Logic
 SailWind Updates
 
 ## SailWind Updates
@@ -249,7 +249,7 @@ SailWind Logic Guide
 
 33
 
-Getting Started With SailWind Logic
+Getting Started With SailWind Logic
 Migrating User Settings
 
 ## Migrating User Settings
@@ -313,7 +313,7 @@ rectangle appears at the cursor. This represents the current view size. The thin
 
 SailWind Logic Guide
 
-solid box represents the new view size in proportion to the old. The zoom-out ratio also displays with the
+solid box represents the new view size in proportion to the old. The zoom-out ratio also displays with the
 cursor.
 
 Getting Started With SailWind Logic
@@ -364,13 +364,13 @@ SailWind Logic Guide
 
 35
 
-Getting Started With SailWind Logic
+Getting Started With SailWind Logic
 Using the Numeric Keypad to Control the View
 
 36
 
 SailWind Logic Guide
 
-The software interface is robust and configurable. It offers numerous methods for viewing and navigating
+The software interface is robust and configurable. It offers numerous methods for viewing and navigating
 your designs, as well as extensive capabilities for generating custom macro scripts for playback and
 debugging.

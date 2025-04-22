@@ -45,7 +45,7 @@ SailWind Logic Guide
 
 431
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 
 Compare/ECO Tools Dialog Box
 Conditional Rule Setup Dialog Box
@@ -96,7 +96,7 @@ SailWind Layout Link Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 
 SailWind Router Link Dialog Box
 SailWind Suite Configuration Dialog Box
@@ -147,7 +147,7 @@ SailWind Logic Guide
 
 433
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 
 Selections Preview Dialog Box
 Server Busy Dialog Box
@@ -167,7 +167,7 @@ Update Selected Pin Decals From Library Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 AC Analysis Dialog Box
 
 ## AC Analysis Dialog Box
@@ -210,7 +210,7 @@ SailWind Logic Guide
 
 435
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Attribute Label Dialog Box
 
 ## Add Attribute Label Dialog Box
@@ -270,7 +270,7 @@ vertical (Up, Center, Down) justification of the text.
 
 SailWind Logic Guide
 
-Related Topics
+Related Topics
 
 Creating Attribute Labels
 
@@ -281,7 +281,7 @@ SailWind Logic Guide
 
 437
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Bus Dialog Box
 
 ## Add Bus Dialog Box
@@ -320,7 +320,7 @@ Specifies which bus names appear in the Bus Name list.
 
 SailWind Logic Guide
 
-Table  50. Add Bus Dialog Box Fields  (continued)
+Table  50. Add Bus Dialog Box Fields  (continued)
 
 Name
 
@@ -399,7 +399,7 @@ SailWind Logic Guide
 
 439
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add/Edit Command Dialog Box
 
 ## Add/Edit Command Dialog Box
@@ -454,7 +454,7 @@ Use the recommended image.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add/Edit Command Dialog Box
 
 Table  51. Add/Edit Dialog Box Fields  (continued)
@@ -486,7 +486,7 @@ SailWind Logic Guide
 
 441
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Field Dialog Box
 
 ## Add Field Dialog Box
@@ -526,7 +526,7 @@ Type coordinates to place the field label in a specified location.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Field Dialog Box
 
 Table  52. Add Field Dialog Box Fields  (continued)
@@ -588,7 +588,7 @@ SailWind Logic Guide
 
 443
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Free Text Dialog Box
 
 ## Add Free Text Dialog Box
@@ -633,7 +633,7 @@ Specifies the line width for stroke fonts only.
 
 SailWind Logic Guide
 
-Table  53. Add Free Text Dialog Box Fields  (continued)
+Table  53. Add Free Text Dialog Box Fields  (continued)
 
 Name
 
@@ -683,7 +683,7 @@ SailWind Logic Guide
 
 445
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Net to Class Dialog Box
 
 ## Add Net to Class Dialog Box
@@ -735,7 +735,7 @@ Lists all of the existing classes in the schematic.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add New Attribute Dialog Box
 
 ## Add New Attribute Dialog Box
@@ -775,7 +775,7 @@ SailWind Logic Guide
 
 447
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add New Attribute to Library Dialog Box
 
 ## Add New Attribute to Library Dialog Box
@@ -812,7 +812,7 @@ The value of the new attribute.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Part From Library Dialog Box
 
 ## Add Part From Library Dialog Box
@@ -868,7 +868,7 @@ SailWind Logic Guide
 
 449
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Part From Library Dialog Box
 
 Related Topics
@@ -878,7 +878,7 @@ Adding Parts
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Pins Dialog Box
 
 ## Add Pins Dialog Box
@@ -931,7 +931,7 @@ SailWind Logic Guide
 
 451
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Add Pins Dialog Box
 
 Table  58. Add Pins Dialog Box Fields  (continued)
@@ -970,7 +970,7 @@ Verify valid JEDEC pin numbering Ensures that legal alphanumeric values are used
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Archiver Dialog Box
 
 ## Archiver Dialog Box
@@ -1002,7 +1002,7 @@ SailWind Logic Guide
 
 453
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Archiver Dialog Box
 
 Name
@@ -1065,7 +1065,7 @@ Archiving Your Schematic
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Archiver Additional Files Dialog Box
 
 ## Archiver Additional Files Dialog Box
@@ -1114,7 +1114,7 @@ SailWind Logic Guide
 
 455
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Archiver Libraries Dialog Box
 
 ## Archiver Libraries Dialog Box
@@ -1165,7 +1165,7 @@ libraries list.
 
 SailWind Logic Guide
 
-Related Topics
+Related Topics
 
 Archiving Your Schematic
 
@@ -1176,7 +1176,7 @@ SailWind Logic Guide
 
 457
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 ASCII Output Dialog Box
 
 ## ASCII Output Dialog Box
@@ -1234,7 +1234,7 @@ cost, and notes.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 ASCII Output Dialog Box
 
 Name
@@ -1285,7 +1285,7 @@ SailWind Logic Guide
 
 459
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Alternatives for Ground Part Dialog Box
 
 ## Assign Alternatives for Ground Part Dialog Box
@@ -1329,7 +1329,7 @@ Opens the Browse for Special Symbols Dialog Box.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Alternatives for Ground Part Dialog Box
 
 Table  63. Assign Alternatives For Ground Part Dialog Box Fields  (continued)
@@ -1367,7 +1367,7 @@ SailWind Logic Guide
 
 461
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Alternatives for Off-Page Part Dialog Box
 
 ## Assign Alternatives for Off-Page Part Dialog Box
@@ -1410,7 +1410,7 @@ Opens the Browse for Special Symbols Dialog Box.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Alternatives for Off-Page Part Dialog Box
 
 Table  64. Assign Alternatives for Off-Page Part Dialog Box Fields  (continued)
@@ -1448,7 +1448,7 @@ SailWind Logic Guide
 
 463
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Alternatives for Power Part Dialog Box
 
 ## Assign Alternatives for Power Part Dialog Box
@@ -1495,7 +1495,7 @@ and only when the cell is available for editing.
 
 SailWind Logic Guide
 
-Table  65. Assign Alternatives for Power Part Dialog Box Fields  (continued)
+Table  65. Assign Alternatives for Power Part Dialog Box Fields  (continued)
 
 SailWind Logic GUI Reference
 Assign Alternatives for Power Part Dialog Box
@@ -1529,7 +1529,7 @@ SailWind Logic Guide
 
 465
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Decal to Gate Dialog Box
 
 ## Assign Decal to Gate Dialog Box
@@ -1591,7 +1591,7 @@ Lists all of the decals that have been assigned.
 
 SailWind Logic Guide
 
-Table  66. Assign Decal to Gate Dialog Box Fields  (continued)
+Table  66. Assign Decal to Gate Dialog Box Fields  (continued)
 
 Name
 
@@ -1612,7 +1612,7 @@ SailWind Logic Guide
 
 467
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign New Gate Decal Dialog Box
 
 ## Assign New Gate Decal Dialog Box
@@ -1642,7 +1642,7 @@ Enter the name of the new gate decal you intend to add to the library.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign New PCB Decal Dialog Box
 
 ## Assign New PCB Decal Dialog Box
@@ -1672,7 +1672,7 @@ SailWind Logic Guide
 
 469
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Assign Shortcut Dialog Box
 
 ## Assign Shortcut Dialog Box
@@ -1708,7 +1708,7 @@ Lists the shortcut keys already assigned to other commands.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Attribute Properties Dialog Box
 
 ## Attribute Properties Dialog Box
@@ -1753,7 +1753,7 @@ SailWind Logic Guide
 
 471
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Attribute Properties Dialog Box
 
 Table  70. Attribute Properties Dialog Box Fields  (continued)
@@ -1793,7 +1793,7 @@ Modifying Part Attribute Labels
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Auto Renumber Parts Dialog Box
 
 ## Auto Renumber Parts Dialog Box
@@ -1820,7 +1820,7 @@ SailWind Logic Guide
 
 473
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Basic Script Editor
 
 Name
@@ -1895,7 +1895,7 @@ applications. To open the editor:
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Basic Script Editor
 
 • Tools  > Basic Scripts  > Basic Script Editor  menu item
@@ -1906,7 +1906,7 @@ SailWind Logic Guide
 
 475
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Basic Scripts Dialog Box
 
 ## Basic Scripts Dialog Box
@@ -1962,7 +1962,7 @@ See also Managing the Sax Basic Engine  on page 389
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Basic Scripts Dialog Box
 
 Table  71. Basic Scripts Dialog Box Fields  (continued)
@@ -1999,7 +1999,7 @@ SailWind Logic Guide
 
 477
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box
 
 ## Bill of Materials Setup Dialog Box
@@ -2021,7 +2021,7 @@ Bill of Materials Setup Dialog Box, Format Tab
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 
 ### Bill of Materials Setup Dialog Box, Attributes Tab
 
@@ -2063,7 +2063,7 @@ SailWind Logic Guide
 
 479
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box, Attributes Tab
 
 Table  72. Bill of Materials Setup Dialog Box Fields  (continued)
@@ -2122,7 +2122,7 @@ The Bill of Materials Report
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box, BOM Config Tab
 
 ### Bill of Materials Setup Dialog Box, BOM Config Tab
@@ -2187,7 +2187,7 @@ SailWind Logic Guide
 
 481
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box, BOM Config Tab
 
 Table  73. Bill of Materials Setup Dialog Box-BOM Config Fields  (continued)
@@ -2210,7 +2210,7 @@ The Bill of Materials Report
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box, Format Tab
 
 ### Bill of Materials Setup Dialog Box, Format Tab
@@ -2243,7 +2243,7 @@ SailWind Logic Guide
 
 483
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box, Format Tab
 
 Table  74. Bill of Materials Setup Dialog Box-Format Tab Fields  (continued)
@@ -2333,7 +2333,7 @@ Select None to sort by Part Type.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bill of Materials Setup Dialog Box, Format Tab
 
 Related Topics
@@ -2344,7 +2344,7 @@ SailWind Logic Guide
 
 485
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Browse for Connectors Dialog Box
 
 ## Browse for Connectors Dialog Box
@@ -2394,7 +2394,7 @@ Browsing for Connectors
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Browse for Special Symbols Dialog Box
 
 ## Browse for Special Symbols Dialog Box
@@ -2448,7 +2448,7 @@ SailWind Logic Guide
 
 487
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Browse for Special Symbols Dialog Box
 
 Assigning Alternative Symbols for the Power Part
@@ -2459,7 +2459,7 @@ Assigning Alternate Logic Decals for Connector Symbols
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Browse Library Attributes Dialog Box
 
 ## Browse Library Attributes Dialog Box
@@ -2501,7 +2501,7 @@ SailWind Logic Guide
 
 489
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bus Name Properties Dialog Box
 
 ## Bus Name Properties Dialog Box
@@ -2546,7 +2546,7 @@ fonts. The size refers to the height of the tallest characters.
 
 SailWind Logic Guide
 
-Table  78. Bus Name Properties Dialog Box FIelds  (continued)
+Table  78. Bus Name Properties Dialog Box FIelds  (continued)
 
 Name
 
@@ -2590,7 +2590,7 @@ SailWind Logic Guide
 
 491
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Bus Properties Dialog Box
 
 ## Bus Properties Dialog Box
@@ -2632,7 +2632,7 @@ selected it.
 
 SailWind Logic Guide
 
-Table  79. Bus Properties Dialog Box Fields  (continued)
+Table  79. Bus Properties Dialog Box Fields  (continued)
 
 Name
 
@@ -2704,7 +2704,7 @@ SailWind Logic Guide
 
 493
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 CAE Decal Wizard Dialog Box
 
 ## CAE Decal Wizard Dialog Box
@@ -2771,7 +2771,7 @@ part.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 CAE Decal Wizard Dialog Box
 
 Table  80. CAE Decal Wizard Dialog Box contents  (continued)
@@ -2808,7 +2808,7 @@ SailWind Logic Guide
 
 495
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Capture a New View Dialog Box
 
 ## Capture a New View Dialog Box
@@ -2844,7 +2844,7 @@ Saving and Restoring Views
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Change Part Type Dialog Box
 
 ## Change Part Type Dialog Box
@@ -2889,7 +2889,7 @@ SailWind Logic Guide
 
 497
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Change Part Type Dialog Box
 
 Table  82. Change Part Type Dialog Box Contents  (continued)
@@ -2960,7 +2960,7 @@ Modifying Parts
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Check for Updates Dialog Box
 
 ## Check for Updates Dialog Box
@@ -3001,7 +3001,7 @@ SailWind Logic Guide
 
 499
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Class Rules Dialog Box
 
 ## Class Rules Dialog Box
@@ -3054,7 +3054,7 @@ Name box and then click Rename.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Class Rules Dialog Box
 
 Table  84. Class Rules Dialog Box Contents  (continued)
@@ -3104,7 +3104,7 @@ SailWind Logic Guide
 
 501
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Clearance Rules Dialog Box
 
 ## Clearance Rules Dialog Box
@@ -3158,7 +3158,7 @@ Specifies to restrict the trace width to a range of values.
 
 SailWind Logic Guide
 
-Table  85. Clearance Rules Dialog Box contents  (continued)
+Table  85. Clearance Rules Dialog Box contents  (continued)
 
 SailWind Logic GUI Reference
 Clearance Rules Dialog Box
@@ -3224,7 +3224,7 @@ SailWind Logic Guide
 
 503
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Compare/ECO Tools Dialog Box
 
 ## Compare/ECO Tools Dialog Box
@@ -3246,7 +3246,7 @@ Compare/ECO Tools Dialog Box, Comparison Tab
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Compare/ECO Tools Dialog Box, Documents Tab
 
 ### Compare/ECO Tools Dialog Box, Documents Tab
@@ -3272,7 +3272,7 @@ SailWind Logic Guide
 
 505
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Compare/ECO Tools Dialog Box, Documents Tab
 
 Objects
@@ -3343,7 +3343,7 @@ Contents of the Differences Report
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Compare/ECO Tools Dialog Box, Comparison Tab
 
 ### Compare/ECO Tools Dialog Box, Comparison Tab
@@ -3377,7 +3377,7 @@ SailWind Logic Guide
 
 507
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Compare/ECO Tools Dialog Box, Comparison Tab
 
 Table  87. Compare/ECO Tools Dialog Box, Comparison Tab Contents  (continued)
@@ -3468,7 +3468,7 @@ spaces.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Compare/ECO Tools Dialog Box, Comparison Tab
 
 Table  87. Compare/ECO Tools Dialog Box, Comparison Tab Contents  (continued)
@@ -3493,7 +3493,7 @@ SailWind Logic Guide
 
 509
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Conditional Rule Setup Dialog Box
 
 ## Conditional Rule Setup Dialog Box
@@ -3521,7 +3521,7 @@ Figure 54. Conditional Rule Setup Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Conditional Rule Setup Dialog Box
 
 Objects
@@ -3584,7 +3584,7 @@ SailWind Logic Guide
 
 511
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Connect to SailWind Layout Dialog Box
 
 ## Connect to SailWind Layout Dialog Box
@@ -3628,7 +3628,7 @@ SailWind Logic to connect to SailWind Layout.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Connect to SailWind Router Dialog Box
 
 ## Connect to SailWind Router Dialog Box
@@ -3672,7 +3672,7 @@ SailWind Logic Guide
 
 513
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Crash Detected Dialog Box
 
 ## Crash Detected Dialog Box
@@ -3719,7 +3719,7 @@ the project files.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Create PDF Dialog Box
 
 ## Create PDF Dialog Box
@@ -3746,7 +3746,7 @@ SailWind Logic Guide
 
 515
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Create PDF Dialog Box
 
 Objects
@@ -3836,7 +3836,7 @@ scheme shows all currently visible items in the schematic in black.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box
 
 ## Customize Dialog Box
@@ -3855,7 +3855,7 @@ SailWind Logic Guide
 
 517
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Commands Tab
 
 ### Customize Dialog Box, Commands Tab
@@ -3897,7 +3897,7 @@ Defining Properties for a New Command
 
 SailWind Logic Guide
 
-Editing a Custom Command
+Editing a Custom Command
 
 Adding Items to Toolbars and Menus
 
@@ -3908,7 +3908,7 @@ SailWind Logic Guide
 
 519
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Keyboard and Mouse Tab
 
 ### Customize Dialog Box, Keyboard and Mouse Tab
@@ -3955,7 +3955,7 @@ Lists what the selected command does.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Keyboard and Mouse Tab
 
 Table  94. Keyboard and Mouse Tab Contents  (continued)
@@ -3976,7 +3976,7 @@ SailWind Logic Guide
 
 521
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 
 ### Customize Dialog Box, Macro Files Tab
 
@@ -4015,7 +4015,7 @@ Lists what the selected macro does.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Options Tab
 
 ### Customize Dialog Box, Options Tab
@@ -4062,7 +4062,7 @@ SailWind Logic Guide
 
 523
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Options Tab
 
 Table  96. Options Tab Contents  (continued)
@@ -4110,7 +4110,7 @@ Customized Appearance of the Screen
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Toolbars and Menus Tab
 
 ### Customize Dialog Box, Toolbars and Menus Tab
@@ -4153,7 +4153,7 @@ SailWind Logic Guide
 
 525
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Customize Dialog Box, Toolbars and Menus Tab
 
 Table  97. Toolbars and Menus Tab Contents  (continued)
@@ -4181,7 +4181,7 @@ Customizing the SailWind Interface
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 DC Source Sweep Analysis Dialog Box
 
 ## DC Source Sweep Analysis Dialog Box
@@ -4226,7 +4226,7 @@ SailWind Logic Guide
 
 527
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Default Rules Dialog Box
 
 ## Default Rules Dialog Box
@@ -4266,7 +4266,7 @@ Opens the Rules Report Dialog Box.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Differential Pairs Dialog Box
 
 ## Differential Pairs Dialog Box
@@ -4294,7 +4294,7 @@ SailWind Logic Guide
 
 529
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Differential Pairs Dialog Box
 
 Table  100. Differential Pairs Dialog Box Contents  (continued)
@@ -4379,7 +4379,7 @@ Opens the Rules Report Dialog Box.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Display Colors Dialog Box
 
 ## Display Colors Dialog Box
@@ -4399,7 +4399,7 @@ SailWind Logic Guide
 
 531
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Display Colors Dialog Box
 
 Objects
@@ -4461,7 +4461,7 @@ Setting Display Colors
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Display Colors Dialog Box - Part Editor
 
 ## Display Colors Dialog Box - Part Editor
@@ -4510,7 +4510,7 @@ SailWind Logic Guide
 
 533
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Display Colors Dialog Box - Part Editor
 
 Table  102. Display Colors Dialog Box contents  (continued)
@@ -4569,7 +4569,7 @@ available.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Drafting Properties Dialog Box
 
 ## Drafting Properties Dialog Box
@@ -4635,7 +4635,7 @@ SailWind Logic Guide
 
 535
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Drafting Properties Dialog Box
 
 Related Topics
@@ -4646,7 +4646,7 @@ Modifying Drafting Objects
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Edit Button Image Dialog Box
 
 ## Edit Button Image Dialog Box
@@ -4679,7 +4679,7 @@ SailWind Logic Guide
 
 537
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Fields Dialog Box
 
 ## Fields Dialog Box
@@ -4730,7 +4730,7 @@ Makes the selected cell available for editing.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Fields Dialog Box
 
 Table  105. Fields Dialog Box Contents  (continued)
@@ -4749,7 +4749,7 @@ SailWind Logic Guide
 
 539
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Field Properties Dialog Box
 
 ## Field Properties Dialog Box
@@ -4794,7 +4794,7 @@ Specifies the line width for stroke fonts only.
 
 SailWind Logic Guide
 
-Table  106. Field Properties Dialog Box Contents  (continued)
+Table  106. Field Properties Dialog Box Contents  (continued)
 
 Name
 
@@ -4846,7 +4846,7 @@ SailWind Logic Guide
 
 541
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Font Replacement Dialog Box
 
 ## Font Replacement Dialog Box
@@ -4889,7 +4889,7 @@ from the Replace with font list.
 
 SailWind Logic Guide
 
-Table  107. Font Replacement Dialog Box Contents  (continued)
+Table  107. Font Replacement Dialog Box Contents  (continued)
 
 SailWind Logic GUI Reference
 Font Replacement Dialog Box
@@ -4950,7 +4950,7 @@ SailWind Logic Guide
 
 543
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Fonts Dialog Box
 
 ## Fonts Dialog Box
@@ -5000,7 +5000,7 @@ Setting Fonts
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Get Drafting Items From Library Dialog Box
 
 ## Get Drafting Items From Library Dialog Box
@@ -5049,7 +5049,7 @@ SailWind Logic Guide
 
 545
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Get Gate Decal From Library Dialog Box
 
 ## Get Gate Decal From Library Dialog Box
@@ -5097,7 +5097,7 @@ Getting Gate Decals From the Library
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Get PCB Decal From Library Dialog Box
 
 ## Get PCB Decal From Library Dialog Box
@@ -5145,7 +5145,7 @@ SailWind Logic Guide
 
 547
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Hierarchical Symbol Wizard Dialog Box
 
 ## Hierarchical Symbol Wizard Dialog Box
@@ -5209,7 +5209,7 @@ Type values or use the arrow buttons.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Hierarchical Symbol Wizard Dialog Box
 
 Table  112. Hierarchical Symbol Wizard Dialog Box Contents  (continued)
@@ -5258,7 +5258,7 @@ SailWind Logic Guide
 
 549
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 HiSpeed Rules Dialog Box
 
 ## HiSpeed Rules Dialog Box
@@ -5314,7 +5314,7 @@ can run together.
 
 SailWind Logic Guide
 
-Table  113. HiSpeed Rules Dialog Box contents  (continued)
+Table  113. HiSpeed Rules Dialog Box contents  (continued)
 
 SailWind Logic GUI Reference
 HiSpeed Rules Dialog Box
@@ -5406,7 +5406,7 @@ SailWind Logic Guide
 
 551
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 HiSpeed Rules Dialog Box
 
 Related Topics
@@ -5417,7 +5417,7 @@ Setting Up High-Speed Rules
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Installed Options Dialog Box
 
 ## Installed Options Dialog Box
@@ -5474,7 +5474,7 @@ SailWind Logic Guide
 
 553
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Installed Options Dialog Box
 
 Related Topics
@@ -5485,7 +5485,7 @@ Viewing a License File or License Status
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library List Dialog Box
 
 ## Library List Dialog Box
@@ -5544,7 +5544,7 @@ SailWind Logic Guide
 
 555
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library List Dialog Box
 
 Related Topics
@@ -5555,7 +5555,7 @@ Setting the Library List Order
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library Manager Dialog Box
 
 ## Library Manager Dialog Box
@@ -5596,7 +5596,7 @@ SailWind Logic Guide
 
 557
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library Manager Dialog Box
 
 Name
@@ -5688,7 +5688,7 @@ Copies the selected item to another name or another library.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library Manager Dialog Box
 
 Table  116. Library Manager Dialog Box Contents  (continued)
@@ -5749,7 +5749,7 @@ SailWind Logic Guide
 
 559
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Log Test Dialog Box
 
 ## Log Test Dialog Box
@@ -5789,7 +5789,7 @@ Replaying Session Playback Media With BLT
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Logic Families Dialog Box
 
 ## Logic Families Dialog Box
@@ -5837,7 +5837,7 @@ SailWind Logic Guide
 
 561
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Make Field Dialog Box
 
 ## Make Field Dialog Box
@@ -5876,7 +5876,7 @@ Type coordinates to place the field in a specified location.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Make Field Dialog Box
 
 Table  119. Make Field Dialog Box Contents  (continued)
@@ -5939,7 +5939,7 @@ SailWind Logic Guide
 
 563
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Manage Library Attributes Dialog Box
 
 ## Manage Library Attributes Dialog Box
@@ -5995,7 +5995,7 @@ Adds the selected attribute to the Rename list.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Manage Library Attributes Dialog Box
 
 Table  120. Manage Library Attributes Dialog Box Contents  (continued)
@@ -6038,7 +6038,7 @@ SailWind Logic Guide
 
 565
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Manage Schematic Attributes Dialog Box
 
 ## Manage Schematic Attributes Dialog Box
@@ -6096,7 +6096,7 @@ column in the Attributes Selected for Rename list is selected.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Manage Schematic Attributes Dialog Box
 
 Table  121. Manage Schematic Attributes Dialog Box Contents  (continued)
@@ -6126,7 +6126,7 @@ SailWind Logic Guide
 
 567
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Media Wizard Dialog Box
 
 ## Media Wizard Dialog Box
@@ -6186,7 +6186,7 @@ BMW and BLT
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 ## Modeless Commands and Keyboard Shortcuts
@@ -6266,7 +6266,7 @@ SailWind Logic Guide
 
 569
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  124. Modeless Commands for Grid Settings  (continued)
@@ -6390,7 +6390,7 @@ SRY 400.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  127. Modeless Commands for Searching  (continued)
@@ -6501,7 +6501,7 @@ SailWind Logic Guide
 
 571
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Name
@@ -6613,7 +6613,7 @@ The following is a complete list of all of the function key command assignments:
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  134. Function Key Command Assignments
@@ -6722,7 +6722,7 @@ SailWind Logic Guide
 
 573
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  135. Keypad Key Command Assignments  (continued)
@@ -6830,7 +6830,7 @@ Shift + MMB (Drag) Starts Zoom from Corner.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  136. Keyboard Shortcuts for Panning, Zooming and Navigation  (continued)
@@ -6974,7 +6974,7 @@ SailWind Logic Guide
 
 575
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  136. Keyboard Shortcuts for Panning, Zooming and Navigation  (continued)
@@ -7113,7 +7113,7 @@ Print/plot
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  138. Keyboard Shortcuts for File Operations  (continued)
@@ -7261,7 +7261,7 @@ SailWind Logic Guide
 
 577
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Modeless Commands and Keyboard Shortcuts
 
 Table  140. Keyboard Shortcuts for Placement Operations  (continued)
@@ -7389,7 +7389,7 @@ Cycles through alternate gate decals.
 
 SailWind Logic Guide
 
-Name
+Name
 
 Cut
 
@@ -7502,7 +7502,7 @@ SailWind Logic Guide
 
 579
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Attributes Dialog Box
 
 ## Net Attributes Dialog Box
@@ -7547,7 +7547,7 @@ Creating Net Attributes
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Name Properties Dialog Box
 
 ## Net Name Properties Dialog Box
@@ -7593,7 +7593,7 @@ SailWind Logic Guide
 
 581
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Name Properties Dialog Box
 
 Table  146. Net Name Properties Dialog Box Contents  (continued)
@@ -7633,7 +7633,7 @@ Modifying Part Type Labels
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Properties Dialog Box
 
 ## Net Properties Dialog Box
@@ -7686,7 +7686,7 @@ SailWind Logic Guide
 
 583
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Properties Dialog Box
 
 Table  147. Net Properties Dialog Box Contents  (continued)
@@ -7710,7 +7710,7 @@ Modifying Nets
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Rules Dialog Box
 
 ## Net Rules Dialog Box
@@ -7770,7 +7770,7 @@ SailWind Logic Guide
 
 585
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Net Rules Dialog Box
 
 Table  148. Net Rules Dialog Box  (continued)
@@ -7795,7 +7795,7 @@ rules apply.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Netlist to PCB Dialog Box
 
 ## Netlist to PCB Dialog Box
@@ -7819,7 +7819,7 @@ SailWind Logic Guide
 
 587
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Netlist to PCB Dialog Box
 
 Objects
@@ -7873,7 +7873,7 @@ check box and click OK.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Off-Page Properties Dialog Box
 
 ## Off-Page Properties Dialog Box
@@ -7905,7 +7905,7 @@ SailWind Logic Guide
 
 589
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box
 
 ## Options Dialog Box
@@ -7925,7 +7925,7 @@ Options Dialog Box, Text Category
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Design Category
 
 ### Options Dialog Box, Design Category
@@ -7961,7 +7961,7 @@ SailWind Logic Guide
 
 591
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Design Category
 
 Table  151. Options Dialog Box, Design Category  (continued)
@@ -8046,7 +8046,7 @@ Specifies the size sheet you want.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Design Category
 
 Table  151. Options Dialog Box, Design Category  (continued)
@@ -8134,7 +8134,7 @@ SailWind Logic Guide
 
 593
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Design Category
 
 Table  151. Options Dialog Box, Design Category  (continued)
@@ -8172,7 +8172,7 @@ Setting Schematic Editor Options
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, General Category
 
 ### Options Dialog Box, General Category
@@ -8208,7 +8208,7 @@ SailWind Logic Guide
 
 595
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, General Category
 
 Name
@@ -8297,7 +8297,7 @@ the container application.
 
 SailWind Logic Guide
 
-Table  152. Options Dialog Box, General Category  (continued)
+Table  152. Options Dialog Box, General Category  (continued)
 
 Name
 
@@ -8385,7 +8385,7 @@ SailWind Logic Guide
 
 597
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, General Category
 
 Table  152. Options Dialog Box, General Category  (continued)
@@ -8408,7 +8408,7 @@ Creating a Backup File
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Line Widths Category
 
 ### Options Dialog Box, Line Widths Category
@@ -8445,7 +8445,7 @@ SailWind Logic Guide
 
 599
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Text Category
 
 ### Options Dialog Box, Text Category
@@ -8461,7 +8461,7 @@ Figure 95. Options Dialog Box, Text Page - System Font
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Text Category
 
 Figure 96. Options Dialog Box, Text Page - Stroke Font
@@ -8505,7 +8505,7 @@ SailWind Logic Guide
 
 601
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box, Text Category
 
 Name
@@ -8547,7 +8547,7 @@ You cannot edit fields in the Type column.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box - Part Editor, General Category
 
 ## Options Dialog Box - Part Editor, General Category
@@ -8578,7 +8578,7 @@ SailWind Logic Guide
 
 603
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box - Part Editor, General Category
 
 Table  155. Options Dialog Box - Part Editor, General Category  (continued)
@@ -8665,7 +8665,7 @@ displayed in the design screen.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box - Part Editor, General Category
 
 Table  155. Options Dialog Box - Part Editor, General Category  (continued)
@@ -8691,7 +8691,7 @@ SailWind Logic Guide
 
 605
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Options Dialog Box - Print/Plot
 
 ## Options Dialog Box - Print/Plot
@@ -8731,7 +8731,7 @@ Moves all sheets to the Sheets to Print list.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Output Window
 
 Table  156. Options Dialog Box - Print/Plot  (continued)
@@ -8825,7 +8825,7 @@ SailWind Logic Guide
 
 607
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Output Window
 
 Status Tab
@@ -8867,7 +8867,7 @@ Part Manager Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library Config Dialog Box
 
 ### Library Config Dialog Box
@@ -8919,7 +8919,7 @@ SailWind Logic Guide
 
 609
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Library Config Dialog Box
 
 Table  157. Library Config Dialog Box Contents  (continued)
@@ -9004,7 +9004,7 @@ No checkbox selected means comparing all attributes by default.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Manager Dialog Box
 
 ### Part Manager Dialog Box
@@ -9062,7 +9062,7 @@ SailWind Logic Guide
 
 611
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Manager Dialog Box
 
 Table  158. Part Manager Dialog Box Contents  (continued)
@@ -9094,7 +9094,7 @@ the Update Selected Part From CIS popup menu item
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box
 
 ## SailWind Layout Link Dialog Box
@@ -9126,7 +9126,7 @@ SailWind Logic Guide
 
 613
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, Design Tab
 
 ### SailWind Layout Link Dialog Box, Design Tab
@@ -9179,7 +9179,7 @@ connectivity errors. For information, see Reports Dialog Box.
 
 SailWind Logic Guide
 
-Table  159. SailWind Layout Link Dialog Box, Design Tab Contents  (continued)
+Table  159. SailWind Layout Link Dialog Box, Design Tab Contents  (continued)
 
 Name
 
@@ -9264,7 +9264,7 @@ SailWind Logic Guide
 
 615
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, Design Tab
 
 Table  159. SailWind Layout Link Dialog Box, Design Tab Contents  (continued)
@@ -9320,7 +9320,7 @@ SailWind Layout Link Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, Document Tab
 
 ### SailWind Layout Link Dialog Box, Document Tab
@@ -9378,7 +9378,7 @@ SailWind Logic Guide
 
 617
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, ECO Names Tab
 
 ### SailWind Layout Link Dialog Box, ECO Names Tab
@@ -9436,7 +9436,7 @@ and so on.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, ECO Names Tab
 
 Table  161. SailWind Layout Link Dialog Box, ECO Names Tab Contents  (continued)
@@ -9464,7 +9464,7 @@ SailWind Logic Guide
 
 619
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, Preferences Tab
 
 ### SailWind Layout Link Dialog Box, Preferences Tab
@@ -9517,7 +9517,7 @@ Net check box.
 
 SailWind Logic Guide
 
-Table  162. SailWind Layout Link Dialog Box, Preferences Tab Contents  (continued)
+Table  162. SailWind Layout Link Dialog Box, Preferences Tab Contents  (continued)
 
 SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, Preferences Tab
@@ -9567,7 +9567,7 @@ SailWind Logic Guide
 
 621
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Layout Link Dialog Box, Selection Tab
 
 ### SailWind Layout Link Dialog Box, Selection Tab
@@ -9611,7 +9611,7 @@ SailWind Layout Link Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Router Link Dialog Box
 
 ## SailWind Router Link Dialog Box
@@ -9632,7 +9632,7 @@ SailWind Logic Guide
 
 623
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Router Link Dialog Box, Document Tab
 
 ### SailWind Router Link Dialog Box, Document Tab
@@ -9690,7 +9690,7 @@ SailWind Router Link Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Router Link Dialog Box, Selection Tab
 
 ### SailWind Router Link Dialog Box, Selection Tab
@@ -9734,7 +9734,7 @@ SailWind Logic Guide
 
 625
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SailWind Suite Configuration Dialog Box
 
 ## SailWind Suite Configuration Dialog Box
@@ -9780,7 +9780,7 @@ displays the status in the License status column.
 
 SailWind Logic Guide
 
-Field
+Field
 
 Description
 
@@ -9824,7 +9824,7 @@ SailWind Logic Guide
 
 627
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Attributes Dialog Box
 
 ## Part Attributes Dialog Box
@@ -9883,7 +9883,7 @@ design
 
 SailWind Logic Guide
 
-Related Topics
+Related Topics
 
 Modifying Part Attributes
 
@@ -9894,7 +9894,7 @@ SailWind Logic Guide
 
 629
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box
 
 ## Part Information Dialog Box
@@ -9915,7 +9915,7 @@ Part Information Dialog Box, Pins Tab
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Attributes Tab
 
 ### Part Information Dialog Box, Attributes Tab
@@ -9960,7 +9960,7 @@ SailWind Logic Guide
 
 631
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Attributes Tab
 
 Table  167. Part Information Dialog Box - Attributes Tab Contents  (continued)
@@ -10030,7 +10030,7 @@ Managing Attributes
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Connector Tab
 
 ### Part Information Dialog Box, Connector Tab
@@ -10055,7 +10055,7 @@ SailWind Logic Guide
 
 633
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Connector Tab
 
 Objects
@@ -10117,7 +10117,7 @@ Assigning Alternate Logic Decals for Connector Symbols
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Gates Tab
 
 ### Part Information Dialog Box, Gates Tab
@@ -10157,7 +10157,7 @@ SailWind Logic Guide
 
 635
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Gates Tab
 
 Table  169. Part Information Dialog Box - Gates Tab Contents  (continued)
@@ -10224,7 +10224,7 @@ Assigning Gates to Parts
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, General Tab
 
 ### Part Information Dialog Box, General Tab
@@ -10268,7 +10268,7 @@ SailWind Logic Guide
 
 637
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, General Tab
 
 Table  170. Part Information Dialog Box - General Tab Contents  (continued)
@@ -10351,7 +10351,7 @@ Prefix List
 
 SailWind Logic Guide
 
-Table  170. Part Information Dialog Box - General Tab Contents  (continued)
+Table  170. Part Information Dialog Box - General Tab Contents  (continued)
 
 Name
 
@@ -10431,7 +10431,7 @@ SailWind Logic Guide
 
 639
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, PCB Decals Tab
 
 ### Part Information Dialog Box, PCB Decals Tab
@@ -10475,7 +10475,7 @@ decals with the specified number of pins.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, PCB Decals Tab
 
 Table  171. Part Information Dialog Box - PCB Decal Tab Contents  (continued)
@@ -10566,7 +10566,7 @@ SailWind Logic Guide
 
 641
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, PCB Decals Tab
 
 Table  171. Part Information Dialog Box - PCB Decal Tab Contents  (continued)
@@ -10593,7 +10593,7 @@ Assigning PCB Decals
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Pin Mapping Tab
 
 ### Part Information Dialog Box, Pin Mapping Tab
@@ -10639,7 +10639,7 @@ SailWind Logic Guide
 
 643
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Pin Mapping Tab
 
 Table  172. Part Information Dialog Box - Pin Mapping Tab Contents  (continued)
@@ -10717,7 +10717,7 @@ Part Information - Pin Mapping
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Pins Tab
 
 ### Part Information Dialog Box, Pins Tab
@@ -10762,7 +10762,7 @@ SailWind Logic Guide
 
 645
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Pins Tab
 
 Name
@@ -10847,7 +10847,7 @@ Edit  button depends on the cells you select:
 
 SailWind Logic Guide
 
-Name
+Name
 
 Description
 
@@ -10932,7 +10932,7 @@ SailWind Logic Guide
 
 647
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Information Dialog Box, Pins Tab
 
 Name
@@ -10973,7 +10973,7 @@ Part Information - Pins
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Properties Dialog Box
 
 ## Part Properties Dialog Box
@@ -11017,7 +11017,7 @@ SailWind Logic Guide
 
 649
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Properties Dialog Box
 
 Table  173. Part Properties Dialog Box Contents  (continued)
@@ -11071,7 +11071,7 @@ Modifying Parts
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Signal Pins Dialog Box
 
 ## Part Signal Pins Dialog Box
@@ -11126,7 +11126,7 @@ SailWind Logic Guide
 
 651
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Signal Pins Dialog Box
 
 Table  174. Part Signal Pins Dialog Box Contents  (continued)
@@ -11148,7 +11148,7 @@ Modifying Parts
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Text Visibility Dialog Box
 
 ## Part Text Visibility Dialog Box
@@ -11196,7 +11196,7 @@ SailWind Logic Guide
 
 653
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Text Visibility Dialog Box
 
 Table  175. Part Text Visibility Dialog Box Contents  (continued)
@@ -11228,7 +11228,7 @@ Controlling Text Visibility for a Part
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Type Label Properties Dialog Box
 
 ## Part Type Label Properties Dialog Box
@@ -11273,7 +11273,7 @@ SailWind Logic Guide
 
 655
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Part Type Label Properties Dialog Box
 
 Table  176. Part Type Label Properties Dialog Box Contents  (continued)
@@ -11313,7 +11313,7 @@ Modifying Part Type Labels
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pen Plotter Advanced Setup Dialog Box
 
 ## Pen Plotter Advanced Setup Dialog Box
@@ -11373,7 +11373,7 @@ SailWind Logic Guide
 
 657
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pen Plotter Setup Dialog Box
 
 ## Pen Plotter Setup Dialog Box
@@ -11432,7 +11432,7 @@ Specifies the Plotter device to use.
 
 SailWind Logic Guide
 
-Table  178. Pen Plotter Setup Dialog Box Contents  (continued)
+Table  178. Pen Plotter Setup Dialog Box Contents  (continued)
 
 Name
 
@@ -11449,7 +11449,7 @@ SailWind Logic Guide
 
 659
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 PCB Decal Assignment Dialog Box
 
 ## PCB Decal Assignment Dialog Box
@@ -11508,7 +11508,7 @@ Specifies how parts are updated:
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 PCB Decal Assignment Dialog Box
 
 Table  179. PCB Decal Assignment Dialog Box Contents  (continued)
@@ -11530,7 +11530,7 @@ SailWind Logic Guide
 
 661
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Photo Plotter Advanced Setup Dialog Box
 
 ## Photo Plotter Advanced Setup Dialog Box
@@ -11591,7 +11591,7 @@ Specifies how to handle zero suppression in the output file:
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Photo Plotter Advanced Setup Dialog Box
 
 Table  180. Photo Plotter Advanced Setup Dialog Box Contents  (continued)
@@ -11637,7 +11637,7 @@ SailWind Logic Guide
 
 663
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Photo Plotter Setup Dialog Box
 
 ## Photo Plotter Setup Dialog Box
@@ -11705,7 +11705,7 @@ Specifies the maximum aperture count.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Photo Plotter Setup Dialog Box
 
 Table  181. Photo Plotter Setup Dialog Box Contents  (continued)
@@ -11727,7 +11727,7 @@ SailWind Logic Guide
 
 665
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Decal Browse Dialog Box
 
 ## Pin Decal Browse Dialog Box
@@ -11765,7 +11765,7 @@ Modifying Terminals
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Decal List Management Dialog Box
 
 ## Pin Decal List Management Dialog Box
@@ -11822,7 +11822,7 @@ SailWind Logic Guide
 
 667
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Decal List Management Dialog Box
 
 Table  183. Pin Decal List Management Box Contents  (continued)
@@ -11841,7 +11841,7 @@ You can display up to 100 pin decals.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Label Fonts Dialog Box
 
 ## Pin Label Fonts Dialog Box
@@ -11879,7 +11879,7 @@ SailWind Logic Guide
 
 669
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Label Fonts Dialog Box
 
 Table  184. Pin Label Fonts Dialog Box Contents  (continued)
@@ -11940,7 +11940,7 @@ underlined.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Label Fonts Dialog Box
 
 Table  184. Pin Label Fonts Dialog Box Contents  (continued)
@@ -11962,7 +11962,7 @@ SailWind Logic Guide
 
 671
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Pin Properties Dialog Box
 
 ## Pin Properties Dialog Box
@@ -12011,7 +12011,7 @@ Modifying Pins
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Plot Dialog Box
 
 ## Plot Dialog Box
@@ -12064,7 +12064,7 @@ SailWind Logic Guide
 
 673
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Print Dialog Box
 
 ## Print Dialog Box
@@ -12101,7 +12101,7 @@ reflect the changes you make.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Project Explorer
 
 Tip
@@ -12203,7 +12203,7 @@ SailWind Logic Guide
 
 675
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Project Explorer
 
 Table  187. Object Groups and Subgroups  (continued)
@@ -12263,7 +12263,7 @@ design
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Query Hierarchical Component Dialog Box
 
 ## Query Hierarchical Component Dialog Box
@@ -12319,7 +12319,7 @@ SailWind Logic Guide
 
 677
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Reference Designator Properties Dialog Box
 
 ## Reference Designator Properties Dialog Box
@@ -12364,7 +12364,7 @@ fonts. The size refers to the height of the tallest characters.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Reference Designator Properties Dialog Box
 
 Table  189. Reference Designator Properties Dialog Box Contents  (continued)
@@ -12404,7 +12404,7 @@ SailWind Logic Guide
 
 679
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Remap Special Symbols Dialog Box
 
 ## Remap Special Symbols Dialog Box
@@ -12442,7 +12442,7 @@ symbols currently associated with your design.
 
 SailWind Logic Guide
 
-Table  190. The Remap Special Symbols Dialog Box Options  (continued)
+Table  190. The Remap Special Symbols Dialog Box Options  (continued)
 
 SailWind Logic GUI Reference
 Remap Special Symbols Dialog Box
@@ -12500,7 +12500,7 @@ SailWind Logic Guide
 
 681
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Rename Gate Dialog Box
 
 ## Rename Gate Dialog Box
@@ -12531,7 +12531,7 @@ unused gate of a part with a different part type.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Rename Part Dialog Box
 
 ## Rename Part Dialog Box
@@ -12566,7 +12566,7 @@ SailWind Logic Guide
 
 683
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Renumber Pins Dialog Box
 
 ## Renumber Pins Dialog Box
@@ -12621,7 +12621,7 @@ stepped values.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Renumber Pins Dialog Box
 
 Table  193. Renumber Pins Dialog Box Contents  (continued)
@@ -12644,7 +12644,7 @@ SailWind Logic Guide
 
 685
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Report Manager Dialog Box
 
 ## Report Manager Dialog Box
@@ -12684,7 +12684,7 @@ attributes from the report.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Report Manager Dialog Box
 
 Table  194. Report Manager Dialog Box  (continued)
@@ -12754,7 +12754,7 @@ SailWind Logic Guide
 
 687
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Reports Dialog Box
 
 ## Reports Dialog Box
@@ -12814,7 +12814,7 @@ the net. SailWind Logic flags possible errors (for example, nets with no inputs
 
 SailWind Logic Guide
 
-Table  195. Reports Dialog Box Contents  (continued)
+Table  195. Reports Dialog Box Contents  (continued)
 
 Name
 
@@ -12899,7 +12899,7 @@ SailWind Logic Guide
 
 689
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Reports Dialog Box
 
 Related Topics
@@ -12910,7 +12910,7 @@ Generating Reports
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Routing Rules Dialog Box
 
 ## Routing Rules Dialog Box
@@ -12944,7 +12944,7 @@ SailWind Logic Guide
 
 691
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Routing Rules Dialog Box
 
 Table  196. Routing Rules Dialog Box Contents  (continued)
@@ -12991,7 +12991,7 @@ Router.
 
 SailWind Logic Guide
 
-Table  196. Routing Rules Dialog Box Contents  (continued)
+Table  196. Routing Rules Dialog Box Contents  (continued)
 
 Name
 
@@ -13053,7 +13053,7 @@ SailWind Logic Guide
 
 693
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Routing Rules Dialog Box
 
 Table  196. Routing Rules Dialog Box Contents  (continued)
@@ -13147,7 +13147,7 @@ Maximum of
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Routing Rules Dialog Box
 
 Table  196. Routing Rules Dialog Box Contents  (continued)
@@ -13173,7 +13173,7 @@ SailWind Logic Guide
 
 695
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Rules Dialog Box
 
 ## Rules Dialog Box
@@ -13226,7 +13226,7 @@ Specifies the units you want: Mils, Metric, or Inches
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Rules Report Dialog Box
 
 ## Rules Report Dialog Box
@@ -13282,7 +13282,7 @@ SailWind Logic Guide
 
 697
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Rules Report Dialog Box
 
 Related Topics
@@ -13293,7 +13293,7 @@ Creating a Rules Report
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save CAE Decal to Library Dialog Box
 
 ## Save CAE Decal to Library Dialog Box
@@ -13329,7 +13329,7 @@ SailWind Logic Guide
 
 699
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save Configuration Dialog Box
 
 ## Save Configuration Dialog Box
@@ -13358,7 +13358,7 @@ Configuration list in the Display Colors Dialog Box.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save Drafting Item to Library Dialog Box
 
 ## Save Drafting Item to Library Dialog Box
@@ -13394,7 +13394,7 @@ SailWind Logic Guide
 
 701
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save Off-Page to Library Dialog Box
 
 ## Save Off-Page to Library Dialog Box
@@ -13427,7 +13427,7 @@ Saving Off-Page to Library
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save Part and Gate Decals As Dialog Box
 
 ## Save Part and Gate Decals As Dialog Box
@@ -13473,7 +13473,7 @@ SailWind Logic Guide
 
 703
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save Part Types to Library Dialog Box
 
 ## Save Part Types to Library Dialog Box
@@ -13522,7 +13522,7 @@ Saving Part Types to a Library
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save Part Type to Library Dialog Box
 
 ## Save Part Type to Library Dialog Box
@@ -13558,7 +13558,7 @@ SailWind Logic Guide
 
 705
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save PCB Decal to Library Dialog Box
 
 ## Save PCB Decal to Library Dialog Box
@@ -13594,7 +13594,7 @@ Copying a Library Item
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Save View Dialog Box
 
 ## Save View Dialog Box
@@ -13647,7 +13647,7 @@ SailWind Logic Guide
 
 707
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Select Gate Decal Dialog Box
 
 ## Select Gate Decal Dialog Box
@@ -13686,7 +13686,7 @@ Assigning Pin Information to the CAE Decal
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Select Pin Decal Dialog Box
 
 ## Select Pin Decal Dialog Box
@@ -13720,7 +13720,7 @@ SailWind Logic Guide
 
 709
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Select Type of Editing Item Dialog Box
 
 ## Select Type of Editing Item Dialog Box
@@ -13790,7 +13790,7 @@ additional information.
 
 SailWind Logic Guide
 
-Related Topics
+Related Topics
 
 Getting Gate Decals From the Library
 
@@ -13801,7 +13801,7 @@ SailWind Logic Guide
 
 711
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Selection Filter Dialog Box
 
 ## Selection Filter Dialog Box
@@ -13850,7 +13850,7 @@ Specifies that you don’t want to select anything in the design.
 
 SailWind Logic Guide
 
-Related Topics
+Related Topics
 
 Using the Selection Filter
 
@@ -13861,7 +13861,7 @@ SailWind Logic Guide
 
 713
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Selections Preview Dialog Box
 
 ## Selections Preview Dialog Box
@@ -13900,7 +13900,7 @@ Specifies the sheet you want to preview.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Selections Preview Dialog Box
 
 Table  212. Selections Preview Dialog Box  (continued)
@@ -13925,7 +13925,7 @@ SailWind Logic Guide
 
 715
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Server Busy Dialog Box
 
 ## Server Busy Dialog Box
@@ -13966,7 +13966,7 @@ then click Retry.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Sheets Dialog Box
 
 ## Sheets Dialog Box
@@ -14009,7 +14009,7 @@ SailWind Logic Guide
 
 717
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Sheets Dialog Box
 
 Table  214. Sheets Dialog Box Contents  (continued)
@@ -14051,7 +14051,7 @@ Editing Sheets
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Signal Pin Nets Dialog Box
 
 ## Signal Pin Nets Dialog Box
@@ -14093,7 +14093,7 @@ SailWind Logic Guide
 
 719
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Simulation Setup Dialog Box
 
 ## Simulation Setup Dialog Box
@@ -14138,7 +14138,7 @@ Creating a SPICE Netlist
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 SPICEnet Dialog Box
 
 ## SPICEnet Dialog Box
@@ -14198,7 +14198,7 @@ SailWind Logic Guide
 
 721
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Step and Repeat Dialog Box
 
 ## Step and Repeat Dialog Box
@@ -14255,7 +14255,7 @@ Zoom Mode is available during Step and Repeat.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Text Properties Dialog Box
 
 ## Text Properties Dialog Box
@@ -14296,7 +14296,7 @@ SailWind Logic Guide
 
 723
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Text Properties Dialog Box
 
 Table  219. Text Properties Dialog Box Contents  (continued)
@@ -14357,7 +14357,7 @@ Add Free Text Dialog Box
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Transient Analysis Dialog Box
 
 ## Transient Analysis Dialog Box
@@ -14413,7 +14413,7 @@ SailWind Logic Guide
 
 725
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update From Library Dialog Box
 
 ## Update From Library Dialog Box
@@ -14444,7 +14444,7 @@ schematic items and generate a report file.
 
 SailWind Logic Guide
 
-Table  221. Update From Library Dialog Box Controls  (continued)
+Table  221. Update From Library Dialog Box Controls  (continued)
 
 Control
 
@@ -14532,7 +14532,7 @@ SailWind Logic Guide
 
 727
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update From Library Dialog Box
 
 Table  221. Update From Library Dialog Box Controls  (continued)
@@ -14619,7 +14619,7 @@ each of the pins you want to compare or update.
 
 SailWind Logic Guide
 
-Table  221. Update From Library Dialog Box Controls  (continued)
+Table  221. Update From Library Dialog Box Controls  (continued)
 
 Control
 
@@ -14681,7 +14681,7 @@ SailWind Logic Guide
 
 729
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected CAE Decals From Library Dialog Box
 
 ## Update Selected CAE Decals From Library Dialog Box
@@ -14718,7 +14718,7 @@ the library, and generate a report file
 
 SailWind Logic Guide
 
-Table  222. Update Selected CAE Decals From Library Dialog Box Controls  (continued)
+Table  222. Update Selected CAE Decals From Library Dialog Box Controls  (continued)
 
 SailWind Logic GUI Reference
 Update Selected CAE Decals From Library Dialog Box
@@ -14800,7 +14800,7 @@ SailWind Logic Guide
 
 731
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected CAE Decals From Library Dialog Box
 
 The Compare/Update Process
@@ -14811,7 +14811,7 @@ Updating Selected CAE Decals From the Library
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 
 ## Update Selected Part Type From Library Dialog Box
 
@@ -14843,7 +14843,7 @@ SailWind Logic Guide
 
 733
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected Part Type From Library Dialog Box
 
 Table  223. Update Selected Part Type From Library Dialog Box Controls  (continued)
@@ -14933,7 +14933,7 @@ the updated parts.
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected Part Type From Library Dialog Box
 
 Table  223. Update Selected Part Type From Library Dialog Box Controls  (continued)
@@ -15005,7 +15005,7 @@ SailWind Logic Guide
 
 735
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected Pin Decals From Library Dialog Box
 
 ## Update Selected Pin Decals From Library Dialog Box
@@ -15048,7 +15048,7 @@ SailWind Logic Library routines, but it is possible
 
 SailWind Logic Guide
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected Pin Decals From Library Dialog Box
 
 Table  224. Update Selected Pin Decals From Library Dialog Box Controls  (continued)
@@ -15111,7 +15111,7 @@ SailWind Logic Guide
 
 737
 
-SailWind Logic GUI Reference
+SailWind Logic GUI Reference
 Update Selected Pin Decals From Library Dialog Box
 
 738

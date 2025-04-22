@@ -1,4 +1,4 @@
-# Chapter 1 SailWind Logic QuickStart
+# Chapter 1 SailWind Logic QuickStart
 
 SailWind Logic is a robust, multi-sheet, schematic capture solution that builds an effective front-end
 environment for SailWind Layout.
@@ -52,7 +52,7 @@ SailWind Logic Guide
 
 23
 
-SailWind Logic QuickStart
+SailWind Logic QuickStart
 Step 3 - Add Parts and Connector Symbols
 
 ## Step 3 - Add Parts and Connector Symbols
@@ -62,7 +62,7 @@ You can add parts and connector symbols to your design as needed.
 Adding a Part
 Adding a Connector Symbol
 
-## Adding a Part
+### Adding a Part
 
 You can add parts to your design individually, or you can add multiple instances.
 
@@ -89,7 +89,7 @@ SailWind Logic automatically adds reference designators to parts as they are add
 
 7. Click Close  to close the Add Part from Library dialog box.
 
-## Adding a Connector Symbol
+### Adding a Connector Symbol
 
 Each pin of a connector has a unique symbol for the schematic. This results in multiple symbols that
 make up one part. All connector pins have the same reference designator to show that they are symbol
@@ -109,7 +109,7 @@ Library list, then click Apply.
 
 SailWind Logic Guide
 
-SailWind Logic QuickStart
+SailWind Logic QuickStart
 Step 4 - Add Buses
 
 Tip
@@ -164,7 +164,7 @@ SailWind Logic Guide
 
 25
 
-SailWind Logic QuickStart
+SailWind Logic QuickStart
 Step 5 - Add Connections to Parts, Connectors, and Buses
 
 ## Step 5 - Add Connections to Parts,
@@ -228,7 +228,7 @@ until you find the correctly oriented symbol.
 
 SailWind Logic Guide
 
-SailWind Logic QuickStart
+SailWind Logic QuickStart
 Step 7 - Add Power and Ground Symbols
 
 4. Click to place the symbol.
@@ -288,7 +288,7 @@ SailWind Logic Guide
 
 27
 
-SailWind Logic QuickStart
+SailWind Logic QuickStart
 Step 10 - Create a Layout Netlist
 
 Procedure
