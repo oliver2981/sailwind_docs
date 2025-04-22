@@ -1,5 +1,5 @@
 {
-  "name": "pzdocs",
+  "name": "SailWind3.0 Docs",
   "version": "1.0.1",
   "scripts": {
     "dev": "rspress dev",

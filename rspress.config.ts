@@ -3,16 +3,42 @@ import { defineConfig } from 'rspress/config';
 export default defineConfig({
   root: 'docs',
   base: '/sailwind3.0_docs/',
-  title: 'PZDocs',
-  description: 'PZDocs',
+  title: 'SailWind3.0',
+  description: 'SailWind',
   icon: '/favicon.ico',
-  logo: '/logo.png',
-  logoText: 'PZDocs',
+//   logo: '/logo.png',
+  logoText: 'SailWind3.0',
+  lang: 'en',
+  locales: [
+    {
+      lang: 'en',
+      // 导航栏切换语言的标签
+      label: 'English',
+      title: 'SailWind',
+      description: 'SailWind3.0 Docs',
+    },
+    {
+      lang: 'zh',
+      label: '简体中文',
+      title: 'SailWind',
+      description: 'SailWind3.0 文档',
+    },
+  ],
   themeConfig: {
     enableContentAnimation: true,
     enableAppearanceAnimation: true,
     enableScrollToTop: true,
     lastUpdated: true,
+    locales: [
+      {
+        lang: 'en',
+        outlineTitle: 'ON THIS Page',
+      },
+      {
+        lang: 'zh',
+        outlineTitle: '大纲',
+      },
+    ],
 
     footer: {
       message: `版权所有 © 2020-${new Date().getFullYear()} 派兹互连`,
@@ -29,17 +55,5 @@ export default defineConfig({
       filterPlaceholderText: '输入关键词',
       filterNoResultText: '未查询到结果',
     },
-//     socialLinks: [
-//       {
-//         icon: 'github',
-//         mode: 'link',
-//         content: 'https://github.com/mikigo/docs',
-//       },
-//       {
-//         icon: 'wechat',
-//         mode: 'text',
-//         content: 'mikigo_18782963750',
-//       }
-//     ],
   },
 });
