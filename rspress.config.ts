@@ -10,19 +10,19 @@ export default defineConfig({
   logoText: 'SailWind3.0',
   lang: 'en',
   locales: [
-    {
-      lang: 'en',
-      // 导航栏切换语言的标签
-      label: 'English',
-      title: 'SailWind',
-      description: 'SailWind3.0 Docs',
-    },
-    {
+      {
       lang: 'zh',
       label: '简体中文',
       title: 'SailWind',
       description: 'SailWind3.0 文档',
     },
+    {
+      lang: 'en',
+      label: 'English',
+      title: 'SailWind',
+      description: 'SailWind3.0 Docs',
+    },
+
   ],
   themeConfig: {
     enableContentAnimation: true,
