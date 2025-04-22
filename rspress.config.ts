@@ -2,7 +2,7 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   root: 'docs',
-  base: '/',
+  base: '/sailwind3.0_docs/',
   title: 'PZDocs',
   description: 'PZDocs',
   icon: '/favicon.ico',
