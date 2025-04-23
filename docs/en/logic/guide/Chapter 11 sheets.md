@@ -8,7 +8,7 @@ Adding a Field
 Changing a Text String Into a Field   
 Managing Fields  
 
-# Editing Sheets  
+## Editing Sheets  
 
 Use the Sheets dialog box to edit the sheet set of the current schematic in the work area. Using Sheets enables you to add and delete sheets from the set and to modify sheet names and the numeric order of the set. You can create up to 1024 sheets.  
 
@@ -26,7 +26,7 @@ Tip Spaces are not valid characters in a sheet name.
 
 Click Delete to remove a sheet from the list. • Click Up to change the numbering and position of the sheet. The sheet value changes as n-1. Click Down to change the numbering and position of the sheet. The sheet value changes as n $+1$ .  
 
-# Creating a Custom Sheet Border  
+## Creating a Custom Sheet Border  
 
 You can create a custom sheet border with a title block using specialized text strings called fields. When you add fields to the title block of a sheet border, these fields are automatically propagated to each new sheet.  
 
@@ -36,7 +36,7 @@ You can create a custom sheet border with a title block using specialized text s
 2. Add fields to the 2D line object. (See Adding a Field.)   
 3. Save the object to the lines library. (See Adding Drafting Items to a Library.)  
 
-# Adding a Field  
+## Adding a Field  
 
 Fields are used as placeholders for data that might change in a document. You can add fields to a schematic or any 2D line object. If you selected a 2D line object, the added field is automatically combined with it upon placement.  
 
@@ -75,7 +75,7 @@ You can also click a system font style you want applied: B for Bold, I for Itali
 
 Combining 2D Lines and Text  
 
-# Changing a Text String Into a Field  
+## Changing a Text String Into a Field  
 
 You can use the Make Field command to change an existing text string into a field.  
 
@@ -111,13 +111,13 @@ You can also click a system font style you want applied: B for Bold, I for Itali
 
 9. Click OK.  
 
-# Managing Fields  
+## Managing Fields  
 
 Use the Fields dialog box to manage multiple fields. You can manage the fields in the entire schematic or in a 2D line object.  
 
 Managing All Fields in the Schematic Managing the Fields in a 2D Line Item  
 
-# Managing All Fields in the Schematic  
+### Managing All Fields in the Schematic  
 
 If you selected nothing, the software lists all of the fields used in your schematic. The System fields display in the System area, and the fields you defined display in the User area. You can manage only the User fields.  
 
@@ -131,7 +131,7 @@ If you selected nothing, the software lists all of the fields used in your schem
 
 6. To edit the name or value of a field, select the Name or Value you want to edit and click Edit.  
 
-# Managing the Fields in a 2D Line Item  
+### Managing the Fields in a 2D Line Item  
 
 If you selected a 2D line object, the software lists all of the fields associated with the object. The System fields display in the System area, and the fields you defined display in the User area. You can delete System fields from the 2D line, but they are still available in the schematic.  
 

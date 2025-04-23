@@ -17,7 +17,7 @@ Adding Drafting Items to a Library
 Adding Drafting Items From a Library   
 Modifying Objects in a 2D Lines Library  
 
-# Creating 2D Line Items  
+## Creating 2D Line Items  
 
 To add drafting objects such as polygons, circles, rectangles, paths, as well as, arcs to polygons or paths, click the Create 2D Line button on the Schematic Editing toolbar. This changes the default popup menu to a specific popup menu for creating 2D line items.  
 
@@ -32,7 +32,7 @@ Table 27. Creating 2D Line Items - Options
 
 <table><tr><td>Option</td><td>Description</td></tr><tr><td>(Shape)</td><td>Select to add a Polygon, Circle, Rectangle, or Path.</td></tr><tr><td>Width</td><td>Specify a width value to override the default.</td></tr><tr><td>Orthogonal</td><td>Adds segments in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Adds segments in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Adds segments at any angle.</td></tr></table>  
 
-# Adding Text  
+## Adding Text  
 
 Free text is text not belonging to another object. All alpha, numeric, and special characters on the keyboard are valid. The maximum text string length is 72 characters including spaces.  
 
@@ -75,7 +75,7 @@ You can also click a font style: B for bold, I for Italic, or U for Underlined.
 
 Combining 2D Lines and Text  
 
-# Moving Text  
+## Moving Text  
 
 When you add a part to the schematic, all of the text associated with the symbol (reference designator, part name, pin number, attributes, etc.) appears in a predefined location. You can move the text to make room for other parts or connections or to make the schematic more readable.  
 
@@ -90,7 +90,7 @@ You can move a pin number a maximum of one inch from its pin terminal.
 2. Select the text string. It attaches to the cursor.   
 3. Move the cursor and indicate a new position for the text. While moving text, you can modify the string using commands in the popup menu. The commands listed in the popup menu are based on the type of text being moved.  
 
-# Adding Circles  
+## Adding Circles  
 
 You can use the 2D line drafting command to add circle drafting objects to your design.  
 
@@ -100,7 +100,7 @@ You can use the 2D line drafting command to add circle drafting objects to your 
 2. Indicate the center point of the circle. A circle outline follows the cursor movement.   
 3. Indicate the radius length to end the circle addition.  
 
-# Adding Polygons or Paths  
+## Adding Polygons or Paths  
 
 You can use the 2D drafting command to add polygons or paths (with or without arcs) to your design.  
 
@@ -117,7 +117,7 @@ You can use the 2D drafting command to add polygons or paths (with or without ar
 
 Polygons automatically close; paths terminate at the last-defined corner.  
 
-# Adding Rectangles  
+## Adding Rectangles  
 
 You can use the 2D drafting command to add rectangle drafting objects to your design.  
 
@@ -127,7 +127,7 @@ You can use the 2D drafting command to add rectangle drafting objects to your de
 2. Indicate one corner of the rectangle. A box outline follows the cursor movement.   
 3. Indicate the diagonally opposite corner at which to end the rectangle.  
 
-# Modifying 2D Line Items  
+## Modifying 2D Line Items  
 
 You can use the Modify 2D Line button to change drafting objects. This changes the default popup menu to a specific popup menu for modifying 2D line items.  
 
@@ -157,7 +157,7 @@ Table 29. Modify 2D Line Item - Corner Option
 
 3. Reposition the cursor and indicate a new location for the item.  
 
-# Pulling Arcs  
+## Pulling Arcs  
 
 Pull Arc moves the selected line segment to create an arc, as the cursor is moved. Horizontal lines move in the vertical direction. Vertical lines move in the horizontal direction. Diagonal lines move in all directions, unless anchored by a line at the end of the diagonal. If an existing arc is selected, its endpoints remain fixed and the arc chord follows the cursor.  
 
@@ -170,7 +170,7 @@ Use the Pull Arc command to convert a drafting segment or corner into an arc. Th
 3. Right-click and click the Pull Arc popup menu item. An arc follows the cursor movement.   
 4. Click to indicate the end of the arc conversion.  
 
-# Combining 2D Lines and Text  
+## Combining 2D Lines and Text  
 
 In SailWind Logic, combining is the process of merging two or more 2D line or text items into a single complex 2D line item. After you have combined them, you can manipulate the group (move, rotate, duplicate, and so forth) as a single item. This is useful for creating title blocks or other similar features.  
 
@@ -214,7 +214,7 @@ Selecting a 2D line item in the combination for move, duplicate, and so on, sele
 
 Adding Text Uncombining 2D Lines and Text Exploding Combinations  
 
-# Uncombining 2D Lines and Text  
+## Uncombining 2D Lines and Text  
 
 You can use the Uncombine command to remove individual objects from a combination.  
 
@@ -229,7 +229,7 @@ You can use the Uncombine command to remove individual objects from a combinatio
 
 Exploding Combinations  
 
-# Exploding Combinations  
+## Exploding Combinations  
 
 You can use the Explode command to separate all objects from a combination.  
 
@@ -249,7 +249,7 @@ a. On the Schematic Editing toolbar, click the Combine/Uncombine button.
 b. Right-click and click the Explode popup menu item and select the item to explode.   
 c. Right-click and click the Complete popup menu item.  
 
-# Adding Drafting Items to a Library  
+## Adding Drafting Items to a Library  
 
 You can save a 2D line item or a complex 2D line item in the schematic to a lines library. This makes it available in the current or future design sessions.  
 
@@ -259,7 +259,7 @@ You can save a 2D line item or a complex 2D line item in the schematic to a line
 2. Type the item name and specify the library location in the Save to Library dialog box.   
 3. Click OK.  
 
-# Adding Drafting Items From a Library  
+## Adding Drafting Items From a Library  
 
 Use the Get Drafting Item from Library dialog box to load a 2D line item from the available libraries to the current schematic.  
 
@@ -277,7 +277,7 @@ If the list does not contain the item you need, use the filter to search the ava
 
 5. Click to place the item.  
 
-# Modifying Objects in a 2D Lines Library  
+## Modifying Objects in a 2D Lines Library  
 
 To edit an object that is stored in a 2D Lines library, you must first bring that object into the design workspace, make the desired edits and then save it back into the library.  
 

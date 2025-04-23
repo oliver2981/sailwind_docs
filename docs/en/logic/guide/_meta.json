@@ -13,7 +13,6 @@
   "Chapter 9 Design and Editing Basics",
   "Chapter 10 Schematic Parts",
   "Chapter 11 sheets",
-  "Chapter 11 sheets",
   "Chapter 12 Non-Electrical Objects",
   "Chapter 13 Connections",
   "Chapter 14 Hierarchical Design",
@@ -21,5 +20,6 @@
   "Chapter 16 Rules",
   "Chapter 17 Reports",
   "Chapter 23 Crash Detection, BMW and BLT",
-  "Chapter 24 SailWind Logic GUI Reference"
+  "Chapter 24 SailWind Logic GUI Reference",
+  "Glossary"
 ]
