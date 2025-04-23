@@ -4,7 +4,7 @@ You can generate reports to view and analyze data related to your design. Availa
 
 Generating Reports The Bill of Materials Report  
 
-# Generating Reports  
+## Generating Reports
 
 Use the Reports dialog box to produce any of six different types of reports on the current schematic. You can save these reports as text files on your hard disk or output them to a printer.  
 
@@ -15,7 +15,7 @@ Use the Reports dialog box to produce any of six different types of reports on t
 3. To specify or modify the report characteristics of the Bill of Materials report, click Setup. See also The Bill of Materials Report.   
 4. Click OK. The reports are generated and the dialog box closes.  
 
-# The Bill of Materials Report  
+## The Bill of Materials Report
 
 The Bill of Materials report produces a user-configurable list of the parts contained in the current schematic. You can direct any part attribute in the schematic to a Bill of Materials report.  
 
@@ -23,7 +23,7 @@ In the Bill of Materials Setup dialog box on page 479 are three different tabs 
 
 Setting Up the Bill of Materials Attributes Setting Up the Bill of Materials Format Setting Up the Bill of Materials Configuration  
 
-# Setting Up the Bill of Materials Attributes  
+### Setting Up the Bill of Materials Attributes
 
 Use the Attributes tab to modify the Attribute content, the corresponding column headings, and column width of the report.  
 
@@ -71,7 +71,7 @@ You cannot edit the part attribute name, but you can select a new attribute to r
 
 12. Click OK.  
 
-# Setting Up the Bill of Materials Format  
+### Setting Up the Bill of Materials Format
 
 Use the Format tab to modify the output format of the Bill of Material report. This enables you to specify which fields to display and how the information will be displayed in the generated report.  
 
@@ -124,7 +124,7 @@ Tip Click Delete to remove the selected setting file from the list.
 
 12. Click OK.  
 
-# Setting Up the Bill of Materials Configuration  
+### Setting Up the Bill of Materials Configuration
 
 Use the BOM Config tab to preview the Bill of Materials report format and copy any selected lines of the file to a Windows clipboard. You can also export the BOM report to a TXT/CSV file.  
 

@@ -10,7 +10,7 @@ Backward Annotation Results
 Contents of the Differences Report   
 ECO File Format  
 
-# Creation of a New PCB Layout from a SailWind Logic Design  
+## Creation of a New PCB Layout from a SailWind Logic Design
 
 There are two ways to create a new PCB design from a SailWind Logic design: you can use the SailWind Layout Link, or you can manually exchange a netlist between SailWind Logic and SailWind Layout.  
 
@@ -20,7 +20,7 @@ Method 1 — Use if you have both SailWind Logic and SailWind Layout on your com
 
 Automatic Netlist Process Using the SailWind Layout Link Manual Netlist Process Between SailWind Logic and SailWind Layout Interpreting and Resolving the Netlist Process Error Report  
 
-# Automatic Netlist Process Using the SailWind Layout Link  
+### Automatic Netlist Process Using the SailWind Layout Link
 
 If you have both SailWind Logic and SailWind Layout on your computer, you can automatically process a SailWind Logic netlist using the SailWind Layout Link. This automated method is the simplest.  
 
@@ -29,7 +29,7 @@ If you have both SailWind Logic and SailWind Layout on your computer, you can au
 • Forward annotation of changes to an existing design requires a different process. See Forward Annotation From SailWind Logic to SailWind Layout.   
 • Transferring non-ECO-registered parts and non-electrical parts is constrained by settings in the Options. See the Design Options on page 591 for details.  
 
-# Prerequisites  
+**Prerequisites**
 
 You must have both SailWind Logic and SailWind Layout on the same computer.  
 
@@ -41,7 +41,7 @@ You must have both SailWind Logic and SailWind Layout on the same computer.
 
 2. In the SailWind Layout Link dialog box, click the Preferences Tab on page 620, then set the appropriate options.  
 
-# 3. On the Design Tab: on page 614  
+3. On the Design Tab: on page 614
 
 a. If needed, select the Include Design Rules in Net list or the AI layout reference data check box.  
 
@@ -58,7 +58,7 @@ The import process sources all the part types and decals from the library and st
 
 If an errors report file (ascii.err) is generated and errors are found in the netlist, see Interpreting and Resolving the Netlist Process Error Report for more information.  
 
-# Manual Netlist Process Between SailWind Logic and SailWind Layout  
+### Manual Netlist Process Between SailWind Logic and SailWind Layout
 
 If you don’t have both SailWind Logic and SailWind Layout on your computer, you can manually process the netlist. This manual method requires you to manually export the netlist from SailWind Logic and then import it into SailWind Layout.  
 
@@ -80,7 +80,7 @@ If you don’t have both SailWind Logic and SailWind Layout on your computer, yo
 
 4. Select the Include Subsheets check box to include any connections to hierarchical symbols in the netlist.  
 
-# Working With SailWind Layout and SailWind Router Interpreting and Resolving the Netlist Process Error Report  
+Working With SailWind Layout and SailWind Router Interpreting and Resolving the Netlist Process Error Report
 
 5. Select the format you want from the Output Formats list.   
 6. Set the remaining dialog box options.   
@@ -94,7 +94,7 @@ The import process sources all the part types and decals from the library and st
 
 If an errors report file (ascii.err) is generated and errors are found in the netlist, see Interpreting and Resolving the Netlist Process Error Report for more information.  
 
-# Interpreting and Resolving the Netlist Process Error Report  
+### Interpreting and Resolving the Netlist Process Error Report
 
 If errors are found in the netlist import process, an errors report file (ascii.err) is generated, and the error report file is displayed in a Notepad window. No errors file is generated if no errors are found.  
 
@@ -122,15 +122,15 @@ The following are reported in the errors report file:
 
 Creation of a New PCB Layout from a SailWind Logic Design  
 
-# Cross-Probe Between Sailwind Products  
+## Cross-Probe Between Sailwind Products
 
-You can cross-probe between SailWind Logic and SailWind Layout, or between SailWind Logic and SailWind Router, if the applications are on the same computer. You can cross-probe between only two applications at a time. In SailWind Logic, you can initiate cross-probing whether or not SailWind Layout or SailWind Router are open.  
+You can cross-probe between SailWind Logic and SailWind Layout, or between SailWind Logic and SailWind Router, if the applications are on the same computer. You can cross-probe between only two applications at a time. In SailWind Logic, you can initiate cross-probing whether or not SailWind Layout or SailWind Router are open.
 
 Through cross-probing, you can select items in both the schematic and design at the same time. For example, if you select objects in SailWind Layout (or SailWind Router), the object is automatically highlighted and centered in the SailWind Logic work area. For SailWind Logic and SailWind Layout only, cross-probing can also automate netlist comparisons and rules exports.  
 
 Cross-Probing With SailWind Layout Cross-Probing With SailWind Router  
 
-# Cross-Probing With SailWind Layout  
+### Cross-Probing With SailWind Layout
 
 Cross-probe with SailWind Layout to make simultaneous selections in both applications. Selecting an object in one of the programs will automatically select the same object in the other program.  
 
@@ -150,7 +150,7 @@ If SailWind Layout is not open, the Connect to SailWind Layout Dialog Box appear
 
 You can now proceed with cross-probing with SailWind Layout.  
 
-# Cross-Probing With SailWind Router  
+### Cross-Probing With SailWind Router
 
 Cross-probe with SailWind Router to actively make simultaneous selections in both applications.   
 Selecting an object in one of the programs will automatically select the same object in the other program.  
@@ -171,7 +171,7 @@ If SailWind Router is not open, the Connect to SailWind Router Dialog Box appear
 
 You can now proceed with cross-probing with SailWind Router.  
 
-# Forward Annotation From SailWind Logic to SailWind Layout  
+## Forward Annotation From SailWind Logic to SailWind Layout
 
 You can export your schematic changes “forward” (known as forward annotation) to an existing PCB layout. You can choose between any of the three methods to forward annotate design changes.  
 
@@ -183,7 +183,7 @@ You can export your schematic changes “forward” (known as forward annotation
 
 Automated Forward Annotation Process Generating the ECO File in SailWind Layout Generating the ECO File in SailWind Logic Forward Annotation Results  
 
-# Automated Forward Annotation Process  
+### Automated Forward Annotation Process
 
 If SailWind Logic and SailWind Layout are on the same computer, you can use the SailWind Layout Link dialog box to compare a newer schematic with an older PCB design and update the original design in Layout from the new design in Logic. You can also create a differences report.  
 
@@ -199,7 +199,7 @@ If SailWind Logic and SailWind Layout are on the same computer, you can use the 
 
 • During design comparison, a reuse definition is ignored and actual elements in the physical design reuse are used in the comparison.  
 
-# Prerequisites  
+**Prerequisites**
 
 You must have both SailWind Logic and SailWind Layout on the same computer.  
 
@@ -231,7 +231,7 @@ While the SailWind Layout Link dialog box is open, you can cross-probe. For more
 
 See “Forward Annotation Results”.  
 
-# Generating the ECO File in SailWind Layout  
+### Generating the ECO File in SailWind Layout
 
 You can create a netlist (.asc file) and send it to the layout designer who can then generate an ECO file by comparing the designs, and then import the changes into SailWind Layout.  
 
@@ -272,7 +272,7 @@ For the continuation of this process, see Forward Annotating Using an ECO File G
 
 See “Forward Annotation Results”.  
 
-# Generating the ECO File in SailWind Logic  
+### Generating the ECO File in SailWind Logic
 
 Use the Compare/ECO dialog box to compare the netlists for a newer schematic and an older PCB design and create an ECO (engineering change order) file for import into the PCB design. You can also create a differences report file.  
 
@@ -284,7 +284,7 @@ Use the Compare/ECO dialog box to compare the netlists for a newer schematic and
 You cannot forward annotate changes to SailWind Router. SailWind Router does not import ECO files.   
 • During design comparison, a reuse definition is ignored and actual elements in the physical design reuse are used in the comparison.  
 
-# Prerequisites  
+**Prerequisites**
 
 You must have the .asc file exported from SailWind Layout, and have the schematic open in SailWind Logic.  
 
@@ -322,11 +322,11 @@ For the continuation of this process, see Forward Annotating by Importing an ECO
 
 See “Forward Annotation Results”.  
 
-# Forward Annotation Results  
+### Forward Annotation Results
 
 The forward annotation process generates a group of files (even in the background during the automated forward annotation process). These include an ECO file, a differences report, ASCII netlist files, and (optionally) an error report.  
 
-Table 40. Forward Annotation Generated Files   
+Table 40. Forward Annotation Generated Files
 
 
 <table><tr><td><schematic_name>.eco</td><td>The ECO file. Contains ECO commands that describe the changes needed to update the original design to match the new design. Generated when you select Generate ECO File from the Compare/ECO Tools Documents tab. See “ECO File Format" on page 342 for a description of this file.</td></tr><tr><td>Logic.rep</td><td>The Differences Report file. Describes the differences between the “old" and the “new" compared files. Generated when you select Generate Differences Report from the Compare/ECO Tools Documents tab. See "Contents of the Differences Report" on page 340 for a description of this file.</td></tr><tr><td>ecogtmp0.asc ecogtmp1.asc</td><td>Temporary copy of the “old" netlist and a temporary copy of the “new" netlist.</td></tr><tr><td>ecogtmp[ 0|1 ].err</td><td>Generated only if errors are found in the netlist. A link to this file is displayed in the Output Window.</td></tr></table>  
@@ -345,7 +345,7 @@ Multiple subnet nets where one or more subnets is missing an off-page symbol •
 
 ECO File Format Contents of the Differences Report  
 
-# Backward Annotation From SailWind Layout to SailWind Logic  
+## Backward Annotation From SailWind Layout to SailWind Logic
 
 You can export your PCB layout changes “back” (known as backward annotation) to the schematic. You can choose between the three methods to backward annotate design changes.  
 
@@ -359,7 +359,7 @@ Method 3 — If SailWind Layout is on another computer and you must compare the 
 
 Automated Backward Annotation Process Creating the ECO File in SailWind Layout Creating the ECO File in SailWind Logic  
 
-# Automated Backward Annotation Process  
+### Automated Backward Annotation Process
 
 If SailWind Logic and SailWind Layout are on the same computer, you can use the SailWind Layout Link dialog box to compare a newer PCB design with an older schematic and update the older schematic from the newer PCB design. You can also create a differences report.  
 
@@ -371,7 +371,7 @@ Transferring non-ECO-registered parts and non-electrical parts is constrained. S
 • During design comparison, a reuse definition is ignored and actual elements in the physical design reuse are used in the comparison.   
 • You cannot perform backward annotation between SailWind Logic and SailWind Router because SailWind Router does not export ECO files.  
 
-# Prerequisites  
+**Prerequisites**
 
 You must have the older schematic open in SailWind Logic, and the newer PCB design open in SailWind Layout.  
 
@@ -397,7 +397,7 @@ The two versions are compared and differences written to Logic.rep in the \SailW
 a. If needed, check the Compare Design Rules and Show Net List errors report check boxes.   
 b. Click the ECO From PCB button.  
 
-# Creating the ECO File in SailWind Layout  
+### Creating the ECO File in SailWind Layout
 
 Create the .eco file of design changes using SailWind Layout and then import it into the SailWind Logic design. This enables you to synchronize changes done in SailWind Layout back to the schematic.  
 
@@ -431,7 +431,7 @@ If you neglected to record the .eco changes and you must generate the .eco file 
 
 If no errors occur, the schematic is updated. If errors occur, the schematic is not updated, and the errors, along with a link to the ECO Import errors file, are written to the Output window.  
 
-# Creating the ECO File in SailWind Logic  
+### Creating the ECO File in SailWind Logic
 
 Acquire the layout design in an .asc file format, compare it to the schematic design with the SailWind Logic Compare/ECO tools, and then import the .eco file of design changes into the SailWind Logic schematic design.  
 
@@ -443,7 +443,7 @@ Transferring non-ECO-registered parts and non-electrical parts is constrained. S
 • During design comparison, a reuse definition is ignored and actual elements in the physical design reuse are used in the comparison.   
 • You cannot perform backward annotation between SailWind Logic and SailWind Router because SailWind Router does not export ECO files.  
 
-# Prerequisites  
+**Prerequisites**
 
 You must have an .asc file exported from SailWind Layout. For more details, see Exporting an ASCII File in the SailWind Layout Guide.  
 
@@ -482,17 +482,17 @@ If no errors occur, the schematic is updated. If errors occur, the schematic is 
 
 Backward Annotation Results  
 
-# Backward Annotation Results  
+## Backward Annotation Results
 
 Backward annotation is supported at multiple levels of design activity. You can use backward annotation to exchange design updates and changes to attributes, parts, gates, nets, and pins. Results are dependent upon the type of design object data that you are updating.  
 
 Attribute Level Backward Annotation Part Level Backward Annotation Gate Level Backward Annotation Net Level Backward Annotation Pin Level Backward Annotation  
 
-# Attribute Level Backward Annotation  
+### Attribute Level Backward Annotation
 
 If you add, delete or modify attributes in SailWind Layout, you can backward annotate new attributes and deleted attributes.  
 
-# New Attributes  
+**New** Attributes
 
 A new attribute in a part updates all parts of the same type. If the attribute name does not exist, it is added with the assigned value.   
 An error is created if the part does not exist.  
@@ -501,7 +501,7 @@ An error is created if the part does not exist.
 
 Tip Unsupported attribute types, such as net or net class, are ignored.  
 
-# Deleted Attributes  
+**Deleted Attributes**
 
 • Deleting an attribute for a part-type deletes the attribute on all parts of that type in the design. • An error message is generated if the part or attribute name does not exist. If the attribute command specifies an object type not supported for general attributes, such as net or net class, the attribute command is ignored.  
 
@@ -509,11 +509,11 @@ Tip Unsupported attribute types, such as net or net class, are ignored.
 
 Creating the ECO File in SailWind Layout  
 
-# Part Level Backward Annotation  
+### Part Level Backward Annotation
 
 You can backward annotate added parts, changed parts, deleted parts, and the reference designator name.  
 
-# Added Parts  
+**Added Parts**
 
 • A new sheet is created and all new parts are added to the sheet. Parts are placed on a grid so that parts of a medium size do not overlap. No attempt is made to avoid overlapping of larger parts.  
 
@@ -525,18 +525,18 @@ Tip The part is not added to the schematic if the reference designator already e
 
 • If the part contains Signal Pins, these pins are included in the add pin function. Backward annotation does not currently support signal pins so an error message is created.  
 
-# Changed Parts  
+**Changed Parts**
 
 • If the changed part is a multigate part, all gates are updated to the new part type.  
 
 • An error message is generated if the new part does not exist in the design or in the Library, or if the gate or pin count is incompatible.  
 
-# Deleted Parts  
+**Deleted Parts**
 
 • If the deleted part is a multigate part, all gates are deleted.   
 • An error message is generated if the part is still connected to a net or the part does not exist.  
 
-# Reference Designator Name  
+**Reference Designator Name**
 
 • If the part being renamed is a multigate part, all gates are updated.   
 • An error message is generated if the old reference designator does not exist.  
@@ -545,7 +545,7 @@ Tip The part is not added to the schematic if the reference designator already e
 
 Creating the ECO File in SailWind Layout  
 
-# Gate Level Backward Annotation  
+### Gate Level Backward Annotation
 
 If you swap gates in SailWind Layout to improve your routing, you can backward annotate the swapped gates to the schematic.  
 
@@ -555,19 +555,19 @@ SailWind Logic creates an off-page symbol at each swapped gate. An error message
 
 Creating the ECO File in SailWind Layout  
 
-# Net Level Backward Annotation  
+### Net Level Backward Annotation
 
 You can backward annotate joined nets, nets created by splitting an existing net, and renamed nets.  
 
-# Joined Nets  
+ **Joined Nets**
 
 The first net is renamed to be the same name as the second net.  
 
-# Nets Created by Splitting an Existing Net  
+**Nets Created by Splitting an Existing Net**
 
 • A Delete Pin from Net operation is performed to remove them from the existing net, followed by an Add Pin to Net operation to add the pin to the new net.  
 
-# Renaming Nets  
+**Renaming Nets**
 
 • All subnets of the old net on all sheets are renamed. If any of the subnets contain Power or Ground symbols without netnames, netnames are added to these symbols.  
 
@@ -577,21 +577,21 @@ The first net is renamed to be the same name as the second net.
 
 Creating the ECO File in SailWind Layout  
 
-# Pin Level Backward Annotation  
+### Pin Level Backward Annotation
 
 You can backward annotate swapped pins, pins added to a net, and pins disconnected from a net.  
 
-# Swapped Pins  
+**Swapped Pins**
 
 • SailWind Logic creates an off-page symbol at each swapped pin.  
 
-# Pins Added to a Net  
+**Pins Added to a Net**
 
 • A pin can be added only if it is not already connected to another net. If the pin is a gate pin (a visible terminal pin on the gate symbol), an off-page symbol is created.  
 
 • An error is created if pin is already connected or the pin is a signal pin already assigned to a net.  
 
-# Pins Disconnected From a Net  
+**Pins Disconnected From a Net**
 
 • If the pin is a gate pin, the connection is deleted if it connects to a tie-dot or off-page symbol. If the connection goes to another gate pin, the connection is broken and, an off-page symbol is added. • This command generates an error message if the pin is not connected to the net in question.  
 
@@ -599,7 +599,7 @@ You can backward annotate swapped pins, pins added to a net, and pins disconnect
 
 Creating the ECO File in SailWind Layout  
 
-# Contents of the Differences Report  
+## Contents of the Differences Report
 
 When you compare two versions of a design (Tools $>$ Compare/ECO), you can create an output file that lists the differences between the two versions. The report file is named Logic.rep and is written to the \SailWind Projects folder.  
 
@@ -621,7 +621,7 @@ Compare/ECO Tools Dialog Box, Documents Tab
 
 Compare/ECO Tools Dialog Box, Comparison Tab  
 
-# ECO File Format  
+## ECO File Format
 
 The format used is similar to PADS-format ASCII. Each type of data begins with a header line with a key word surrounded by asterisks $(^{\star})$ .  
 
@@ -639,7 +639,7 @@ Add remark lines with the entry:
 
 The following are the available ECO commands.  
 
-# Add a Pin to the Net  
+**Add a Pin to the Net**
 
 The command starts with the format:  
 
@@ -665,7 +665,7 @@ refdes parttype
 
 where refdes is the part reference name and parttype is the part type name. When parts are added in the PCB, they will be placed at system origin of 0,0. If a board outline is present, the parts are instead placed at the lower left corner of its box.  
 
-# Join Two Nets Together  
+**Join Two Nets Together**
 
 The command starts with the format:  
 
@@ -701,7 +701,7 @@ refdes.pinnumber signame
 
 where refdes is the part reference name, pinnumber is the pin number to disconnect, and signame is the net of which the pin is currently part.  
 
-# Change a Component's Part Type  
+**Change a Component's Part Type**
 
 The command is formatted:  
 
@@ -737,7 +737,7 @@ oldrefdes newrefdes
 
 where oldrefdes is the old name and newrefdes is the new name. To facilitate the renaming operation, duplicate name checking is not run until after all rename information has been read. This allows the above rename list to run without a conflict. If any error is encountered, no parts in the list are renamed.  
 
-# Rename a Net  
+**Rename a Net**
 
 The command is formatted:  
 

@@ -19,13 +19,13 @@ Creating a Rules Report
 Import Rules from PCB   
 Export Rules to PCB  
 
-# Rules Setup  
+## Rules Setup
 
 Design Rules enable you to assign general routing constraints for your design, such as trace width and spacing. An option in the netlist lets you pass established design rules along with the connectivity and parts information to SailWind Layout.  
 
 To access and examine the Design Rules setup, click the Setup $>$ Design Rules menu item.  
 
-# Rule Categories  
+## Rule Categories
 
 Design rules are separated into three categories:  
 
@@ -35,7 +35,7 @@ Setting Up High-Speed Rules — Specifies minimum and maximum parameters for adv
 
 Information for each category is entered and edited in a separate dialog box that you can access through the Design Rules command from the Setup menu.  
 
-# Setting Up Clearance Rules  
+## Setting Up Clearance Rules
 
 Use the Clearance Rules dialog box to define the spacing permitted between objects. When objects are imported, the On-line DRC and Verify Design programs use these rules to check and report clearance violations.  
 
@@ -76,7 +76,7 @@ Table 34. Clearance Rules - Other - Clearance Options
 
 i Tip You cannot delete the Default Clearance rules.  
 
-# Same Net Matrix  
+## Same Net Matrix
 
 Use the Same Net Matrix to define edge-to-edge clearance values between items that are in the same net.  
 
@@ -91,11 +91,11 @@ Table 35. Same Net Matrix - Clearance Options
 
 <table><tr><td>Clearance</td><td>Description</td></tr><tr><td>SMD to Via</td><td>Minimum spacing between a surface mount pad and escape via.</td></tr><tr><td>SMD to Corner</td><td>Minimum spacing between a surface mount pad and the first trace bend point.</td></tr><tr><td>Via to Via</td><td>Minimum spacing between two vias in the same net.</td></tr><tr><td>Pad to Corner</td><td>Minimum spacing between a through hole pad and the first trace bend point.</td></tr><tr><td>Trace to Corner</td><td>Minimum spacing between a trace and the bend point of another trace; for example, when a trace splits at a T-junction and one of the two traces has a bend point.</td></tr></table>  
 
-# Routing Rules  
+## Routing Rules
 
 Use the Routing Rules dialog box to specify rules for interactive and automatic routing. You can specify the default set of routing rules and routing rules for specific nets.  
 
-# Setting Up High-Speed Rules  
+## Setting Up High-Speed Rules
 
 Use the Hi Speed Rules dialog box to define rules for Parallelism, Tandem, Shielding, Routed Length, Stub Length, Delay, Capacitance, Impedance, and Matched Length.  
 
@@ -166,7 +166,7 @@ When working with Length Matching, observe the following:
 
 0 Tip You cannot delete the Default High Speed rules.  
 
-# Setting Up Rules  
+## Setting Up Rules
 
 Use the Rules dialog box to enter item-to-item Clearance rules, routing guidelines, and values for the optional High Speed checking commands. You can also indicate the unit of measure for passing rules to SailWind Logic: mils, metric, or inches.  
 
@@ -186,7 +186,7 @@ When you specify one of the hierarchical levels, you can access the Clearance, R
 
 5. (Optional) Click the Report button to access the Rules Report dialog box where you can select a default report of a report for some or all of the rules you have defined.  
 
-# Rules Hierarchy  
+## Rules Hierarchy
 
 In the rules hierarchy, certain rules have precedence over other rules. For example, a net rule overrides a class rule, and a class rule overrides a default rule.  
 
@@ -195,7 +195,7 @@ Table 38. Rule Hierarchy and Order of Precedence
 
 <table><tr><td>Rules</td><td>Precedence</td><td>Description</td></tr><tr><td>Setting Up DefaultRules</td><td>Least</td><td>Rules that apply to an object if there are no other individually defined rules.</td></tr><tr><td>Setting_ Up Class Rules</td><td></td><td>Rules for a collection of nets, called a class, which needs identical rules.</td></tr><tr><td>Setting Up Net Rules</td><td>Highest</td><td>Rules for a specific net.</td></tr></table>  
 
-# Rules Hierarchy Order of Precedence  
+**Rules Hierarchy Order of Precedence**
 
 The complete order of precedence for all rules follows, from least to most specific. Default, 1, represents the lowest level of the hierarchy with the least amount of precedence. At the opposite end of the order is Net against Net with Level, which is the highest level of the hierarchy and has the highest possible precedence. It represents the most specific rule you can assign to an object in SailWind Logic.  
 
@@ -214,7 +214,7 @@ The complete order of precedence for all rules follows, from least to most speci
 
 See also Setting Up Default Rules, Setting Up Class Rules, Setting Up Net Rules, Creating a Rules Report.  
 
-# Setting Up Default Rules  
+## Setting Up Default Rules
 
 Use the Default Rules dialog box to define rules which apply to all objects that are not included in any other rule definitions within the hierarchy.  
 
@@ -224,7 +224,7 @@ Use the Default Rules dialog box to define rules which apply to all objects that
 2. To define default Clearance on page 300, Routing on page 302, or High Speed on page 302 rules, click the appropriate button.   
 3. Click the Report on page 310 button to produce a rules report.  
 
-# Setting Up Class Rules  
+## Setting Up Class Rules
 
 Use the Class Rules dialog box to define rules that apply to a collection of nets known as a net class and to multiple net classes.  
 
@@ -265,7 +265,7 @@ When you select a class name, an icon appears below each rule type to indicate t
 
 9. When you have finished defining all class rules, click OK.  
 
-# Setting Up Net Rules  
+## Setting Up Net Rules
 
 Use the Net Rules dialog box to define rules that apply to a single net or multiple nets.  
 
@@ -287,7 +287,7 @@ When you select a net name, an icon appears below each rule type to indicate the
 
 5. Click the Default button to restore the net rules back to the default rules.  
 
-# Setting Up Conditional Rules  
+## Setting Up Conditional Rules
 
 Use the Conditional Rule Setup dialog box to apply a third overriding set of rules that apply only when the item meets other specific levels of the hierarchical order.  
 
@@ -330,7 +330,7 @@ Select Layer to use a layer as an against object or to apply an item-to-item rul
 
 Setting Up Clearance Rules Setting Up High-Speed Rules  
 
-# Creating Differential Pairs  
+## Creating Differential Pairs
 
 dentify nets or pin pairs that behave electrically as differential pairs and define rules for them. You can set different properties for differential pairs, which affects how they are routed. Differential pair properties  
 
@@ -391,7 +391,7 @@ Tip Obstacle size in the start zone or end zone is not checked.
 
 12. Click OK.  
 
-# Differential Pair Layer Hierarchy  
+## Differential Pair Layer Hierarchy
 
 You can assign differential pair width and gap values to layers and categories of layers; however, a layer may also fall into one or more categories. For example, Layer 2 may also be a plane layer, and an outer layer.  
 
@@ -405,7 +405,7 @@ Therefore, the following hierarchy is followed to define which layer settings ta
 
 i Tip Individual Layers has highest priority.  
 
-# Creating a Rules Report  
+## Creating a Rules Report
 
 Use the Rules Report dialog box to produce a report of some or all of the rules you have defined. By default, a complete report of all rules is reported.  
 
@@ -418,7 +418,7 @@ Table 39. Rules Report Types
 
 <table><tr><td>Report Type</td><td>Description</td></tr><tr><td>Rule types</td><td>Displays the specified rules for the specified nets and classes. Click any combination of buttons, including Differential Pairs, to report net pairs.</td></tr><tr><td>Nets</td><td>Displays the specified rules for every net or selected nets. Click All Nets or select specific nets in the list box.</td></tr><tr><td>Classes</td><td>Displays the specified rules for every class or selected classes. Click All Classes or select specific net classes in the list box.</td></tr><tr><td>Output </td><td>Click Rule Sets to display all rules in the current hierarchy that are unique from the default rules. Click Rule Values to display all rules in the current hierarchy level, even if the values are the same as the default rules.</td></tr><tr><td>Default Rules</td><td>Displays the default rules for the specified nets and classes.</td></tr></table>  
 
-# Import Rules from PCB  
+## Import Rules from PCB
 
 Use the Design Tab of SailWind Layout Link to read design rules from a specified SailWind ASCII file, including layer setups and layer counts, etc.  
 
@@ -431,7 +431,7 @@ Use the Design Tab of SailWind Layout Link to read design rules from a specified
 
 The netlist in the current SailWind Logic schematic is compared to the part and netlist in the current SailWind Layout design and the schematic is updated.  
 
-# Export Rules to PCB  
+## Export Rules to PCB
 
 Use the Design Tab of SailWind Layout Link to export design rules to a specified SailWind ASCII file, including layer setups and layer counts, etc.  
 
@@ -442,7 +442,7 @@ Use the Design Tab of SailWind Layout Link to export design rules to a specified
 
 3. On the Design tab, select the Compare Design Rules check box.  
 
-# 4. Click ECO to PCB.  
+4. Click ECO to PCB.
 
 The netlist in the current SailWind Logic schematic is compared to the part and netlist in the current SailWind Layout design and the layout design is updated.  
 

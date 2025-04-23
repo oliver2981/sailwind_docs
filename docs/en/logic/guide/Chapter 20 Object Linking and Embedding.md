@@ -29,7 +29,7 @@ OLE and View Menu Commands
 Changing the OLE Object Background Color   
 Saving OLE Objects  
 
-# Insertion of OLE Objects in SailWind Logic  
+## Insertion of OLE Objects in SailWind Logic
 
 When you insert an OLE object in a SailWind Logic schematic, you can choose to either embed it or link to it.  
 
@@ -49,7 +49,7 @@ The following sections of this topic describe how to insert OLE objects in a Sai
 
 Inserting a New Embedded OLE Object Inserting an Existing File as an Embedded Object Inserting an Existing File as a Linked Object  
 
-# Inserting a New Embedded OLE Object  
+### Inserting a New Embedded OLE Object
 
 You can insert a new embedded OLE object in a SailWind Logic schematic. By embedding the object, it is not affected by changes made to an external source file.  
 
@@ -81,7 +81,7 @@ If the application associated with the object is not an OLE Linking and Embeddin
 
 7. When you are finished editing, close the object. You can reopen the object at any time by doubleclicking on it.  
 
-# Inserting an Existing File as an Embedded Object  
+### Inserting an Existing File as an Embedded Object
 
 An existing file inserted in a SailWind Logic schematic as an embedded object is a copy of the source file it is created from. It is not linked to the original source file, is not updated when the source file is changed, and can be accessed only from SailWind Logic.  
 
@@ -95,7 +95,7 @@ An existing file inserted in a SailWind Logic schematic as an embedded object is
 
 6. Click OK. The object is inserted in the schematic.  
 
-# Inserting an Existing File as a Linked Object  
+### Inserting an Existing File as a Linked Object
 
 An existing file inserted in a SailWind Logic schematic as a linked object is merely a link to the source file on the disk. The file is not copied permanently into the schematic, but is read in from disk each time the schematic is opened. It can be opened from within SailWind Logic, or directly from the disk.  
 
@@ -108,7 +108,7 @@ An existing file inserted in a SailWind Logic schematic as a linked object is me
 5. To display the object as an icon in the schematic, check the Display As Icon check box. The icon that will be displayed appears beneath the check box. Uncheck the check box to display the entire object; for example, to display the actual Word document instead of a Word icon.   
 6. Click OK. The object is inserted in the schematic.  
 
-# Embedding a Text Document  
+## Embedding a Text Document
 
 Using OLE, you can embed a text document in your schematic to more quickly add multiple lines of text since the Create Text tool on the Schematic Editing Toolbar only allows single lines of text.  
 
@@ -128,7 +128,7 @@ Follow the appropriate instructions in Insertion of OLE Objects in SailWind Logi
 
 You can resize the object within your design when the object is active for editing.  
 
-# Turning Off the Display of OLE Objects  
+## Turning Off the Display of OLE Objects
 
 SailWind Logic does not understand the format of an inserted object; it only communicates with the application that created the OLE linked or embedded object to display the information. If the application that created the linked or embedded OLE object is installed and registered on your system, then SailWind Logic calls upon that application to display the OLE object in SailWind Logic as it would appear in the source application. For example, a Word document can appear within SailWind Logic and the Word toolbars appear within SailWind Logic.  
 
@@ -141,7 +141,7 @@ You may want to turn off the display of OLE objects when SailWind Logic contains
 1. Click the Tools $>$ Options menu item, then in the Options dialog box, click the General category.   
 2. Clear the Display OLE Objects check box. See also Options Dialog Box, Design Category.  
 
-# OLE Object Selection  
+## OLE Object Selection
 
 Selection of OLE objects in SailWind Logic operates differently than selection of other objects such as pads, nets, components and so forth.  
 
@@ -156,7 +156,7 @@ When you click on an OLE object in SailWind Logic, it behaves like a non-text it
 
 Right-click a selected OLE object to access a shortcut menu that lists all commands that you can apply to the OLE object.  
 
-# Moving and Sizing OLE Objects  
+## Moving and Sizing OLE Objects
 
 Move and resize OLE linked or embedded objects just as you resize non-text objects in Word.  
 
@@ -167,7 +167,7 @@ Select the object.
 • To move the OLE object, click and hold the left mouse button. Move the cursor to move the object. Release the mouse button once the object is in the correct location.   
 • To size an OLE object, click and hold the left mouse button on one of the sizing handles. Move the cursor; the object changes size according to the cursor movements. Release the mouse button when the object is sized correctly.  
 
-# Changing an OLE Object's Icon or Label  
+## Changing an OLE Object's Icon or Label
 
 You can change the icon that represents an embedded or linked object in your schematic. You can also change the descriptive label that is displayed below the icon.  
 
@@ -184,7 +184,7 @@ You can change the icon that represents an embedded or linked object in your sch
 9. Click OK to return to the Convert dialog box.   
 10. In the Convert dialog box, click OK to save your changes.  
 
-# Converting an OLE Object to Another Type  
+## Converting an OLE Object to Another Type
 
 You can change the file format of an inserted OLE object so that you can open it in the applications you use. You can change the format temporarily--for a single editing session, after which the object is saved in its original format--or permanently, so that the object is converted to--and saved in--the new format.  
 
@@ -205,7 +205,7 @@ Uncheck the check box to display the entire object; for example, to display the 
 
 If an object's source application is not registered on your system, then the object can be displayed only as an icon.  
 
-# Edits of OLE Objects  
+## Edits of OLE Objects
 
 You can perform a limited set of edits on an OLE linked or embedded object. These include copy, paste, delete, open, and convert OLE Objects.  
 
@@ -215,7 +215,7 @@ Edit OLE Links • Open, Edit, Convert OLE Objects • Editing an OLE Object’s
 
 Cut, Copy, and Paste SailWind Logic OLE Objects Edit OLE Links Open, Edit, Convert OLE Objects Editing an OLE Object’s Content in SailWind Logic  
 
-# Cut, Copy, and Paste SailWind Logic OLE Objects  
+### Cut, Copy, and Paste SailWind Logic OLE Objects
 
 Editing an OLE linked or embedded object is similar to editing SailWind Logic objects. You can cut, copy, and paste OLE objects using the Cut, Copy, and Paste commands from the Edit menu. You must select the OLE object before you can edit the object. You can copy objects from one sheet to another.  
 
@@ -236,7 +236,7 @@ b. Click Edit $>$ Copy menu item (to copy the object) or the Edit $>$ Cut menu i
 
 Open, Edit, Convert OLE Objects Edit OLE Links  
 
-# Edit OLE Links  
+### Edit OLE Links
 
 You can edit a linked OLE object's link to change the source file, break the link to the source file, specify update options or manually update the linked object.  
 
@@ -249,7 +249,7 @@ The following sections of this topic describe how to edit an object’s link:
 
 Changing a Linked OLE Object's Source File Breaking the Link to a Linked OLE Object's Source File Setting the Update Mode For a Linked OLE Object Manually Updating a Linked OLE Object  
 
-# Changing a Linked OLE Object's Source File  
+#### Changing a Linked OLE Object's Source File
 
 If your design objectives change, you can change the source file that an object links to.  
 
@@ -260,7 +260,7 @@ If your design objectives change, you can change the source file that an object 
 3. Click the Change Source button.   
 4. In the Change Source dialog box, browse for and select the new source file for the object, and click Open. The object is linked to the new source file.  
 
-# Breaking the Link to a Linked OLE Object's Source File  
+#### Breaking the Link to a Linked OLE Object's Source File
 
 If you no longer want to be linked to a source object, you can break the link to an object’s source file so that it will not automatically update when the source file changes.  
 
@@ -278,7 +278,7 @@ Once an object's link has been broken, it cannot be reconnected.
 
 If the object whose link you broke is iconized, to view the object you must first convert on page 362 it to a Picture object.  
 
-# Setting the Update Mode For a Linked OLE Object  
+#### Setting the Update Mode For a Linked OLE Object
 
 You can set the update mode for a linked OLE object and choose between automatic or manual updating.  
 
@@ -288,7 +288,7 @@ You can set the update mode for a linked OLE object and choose between automatic
 2. From the list in the Links dialog box, select the object whose update mode you want to set.   
    . Click the Automatic or Manual radio button to set the update mode: a. Click Automatic to have the object automatically updated when you open the SailWind Logic file, and whenever the source file changes. b. Click Manual to have the object updated only when you execute an Update command for the object.  
 
-# Manually Updating a Linked OLE Object  
+#### Manually Updating a Linked OLE Object
 
 You can manually update a linked object whose update mode is set to Manual. (Objects set to Automatic update are automatically updated, so manually updating these objects has no effect.)  
 
@@ -302,7 +302,7 @@ You can manually update a linked object whose update mode is set to Manual. (Obj
 
 Open, Edit, Convert OLE Objects Cut, Copy, and Paste SailWind Logic OLE Objects Editing an OLE Object’s Content in SailWind Logic  
 
-# Open, Edit, Convert OLE Objects  
+### Open, Edit, Convert OLE Objects
 
 Once you insert an OLE object, the name of the object appears at the bottom of the Edit menu. For example, if you insert a video clip, Video Clip Object appears at the bottom of the Edit menu. If you highlight the Video Clip Object command, another menu appears listing all commands you can perform on the linked or embedded OLE object. For a Video Clip Object, you can click Play, Edit, or Open.  
 
@@ -328,11 +328,11 @@ Edit OLE Links
 Edits of OLE Objects   
 Cut, Copy, and Paste SailWind Logic OLE Objects Editing an OLE Object’s Content in SailWind Logic  
 
-# Editing an OLE Object’s Content in SailWind Logic  
+### Editing an OLE Object’s Content in SailWind Logic
 
 You can edit an object’s content within SailWind Logic (known as in-place visual editing), or in a separate window. In either case, you edit its contents as you normally would using all of the source application's commands and tools.  
 
-# In-place Visual Editing  
+**In-place Visual Editing**
 
 Visual Editing occurs when the source application for a linked or embedded OLE object opens within SailWind Logic. You can also edit an OLE object by opening the source application and editing the object in the environment in which it was created.  
 
@@ -377,7 +377,7 @@ Edit OLE Links
 Edits of OLE Objects   
 Cut, Copy, and Paste SailWind Logic OLE Objects  
 
-# OLE and Print/Plot  
+## OLE and Print/Plot
 
 You can print OLE linked or embedded objects to any Windows-supported printer or plotter. You cannot photo plot or pen plot OLE objects. Also, OLE objects do not appear when previewing prints.  
 
@@ -387,7 +387,7 @@ See also Plotting Output.
 
 Setting Up a Pen Plotter Setting Up a Photo Plotter Printing Output  
 
-# Deleting OLE Objects  
+## Deleting OLE Objects
 
 If they are no longer needed in your design, you can delete OLE linked or embedded objects.  
 
@@ -406,17 +406,17 @@ This enables you to remove all of the OLE objects in a design.
 
 The prompt, “All current OLE Linked and Embedded objects will be removed from this Design. Do you want to continue?” appears.  
 
-# Redraws of a Screen Containing OLE Objects  
+## Redraws of a Screen Containing OLE Objects
 
 When SailWind Logic redraws, SailWind Logic components are redrawn first, then OLE linked or embedded objects are redrawn. OLE objects always redraw in the same order and always redraw after SailWind Logic objects; therefore, they always appear on top of SailWind Logic components.  
 
 You can also choose to update linked and embedded objects when you redraw the work area using the Redraw OLE Objects check box on the Options $>$ Global category. This option is grayed when no OLE objects exist.  
 
-# OLE and View Menu Commands  
+## OLE and View Menu Commands
 
 You can use all of the View menu commands with OLE linked or embedded objects; you can zoom into and zoom out of the objects.  
 
-# Changing the OLE Object Background Color  
+## Changing the OLE Object Background Color
 
 OLE linked or embedded objects are displayed with a solid white background. You may, in some cases, prefer to display the OLE object with a transparent background; for example, since a bitmap already contains a background, you may prefer to use a transparent background. If your object is a Word document, then you may prefer a white background because black text on a transparent background results in black on black, or an invisible object.  
 
@@ -425,7 +425,7 @@ OLE linked or embedded objects are displayed with a solid white background. You 
 1. Select the OLE object.   
 2. Right-click and click White Background to change the background color. A check next to the command indicates that the object will use a white background.  
 
-# Saving OLE Objects  
+## Saving OLE Objects
 
 Linked and embedded objects are automatically saved as part of the schematic when you save a SailWind Logic schematic. If you want to save OLE objects separately, use File $>$ Export to save the objects in an .ole file. You can then use File $>$ Import to import the objects into other designs.  
 
@@ -440,3 +440,4 @@ SailWind Logic .ole files can be opened in other applications that understand th
 5. Type a name for the OLE file you are saving.   
 6. Click Save.  
 
+## 

@@ -13,7 +13,7 @@ Printing Output
 Printing to PDF   
 Setting the Printer to Print to a File  
 
-# Setting Printing and Plotting Output Options  
+## Setting Printing and Plotting Output Options
 
 Use the Options dialog box to set the output options for printing or plotting. Setting options enables you to set the position, orientation, and color of selected sheets and objects.  
 
@@ -49,7 +49,7 @@ The Preview area graphically shows the position, orientation, justification, and
 
 10. Click OK to return to the Print or Plot dialog box.  
 
-# Previewing Your Output  
+## Previewing Your Output
 
 You can use the Selections Preview dialog box to preview your options and output. This enables you to examine the output and determine if you need to make any changes before generating your final output files.  
 
@@ -67,7 +67,7 @@ You can navigate within the Selections Preview dialog box using the following me
 
 • Zoom into the Sheet or Extents of the selected sheet by clicking the appropriate buttons. • Click the left mouse button in the preview window to zoom in at the cursor location. Click the right mouse button to zoom out.  
 
-# Creating a PDF  
+## Creating a PDF
 
 You can create an intelligent PDF of your schematic, choosing which sheets you want to share and show to others in your organization. You can create the PDF in full-color or black and white, with hyperlinks to part attributes, and with search capabilities, making it easy to locate parts and nets. Once you locate a net, you can find other instances of it through the entire schematic, even when the net is on a different page. You can also create a black and white, non-searchable PDF of your schematic.  
 
@@ -134,7 +134,7 @@ The colors used in the Color on Black or Color on White schemes are the same col
 
 10. Click OK.  
 
-# Plotting Output  
+## Plotting Output
 
 After you have completed you design you can generate output for design review. You can output your designs to pen plotters or photo plotters.  
 
@@ -160,7 +160,7 @@ Printing to PDF
 Setting the Printer to Print to a File   
 Printing Output  
 
-# Setting Up a Pen Plotter  
+## Setting Up a Pen Plotter
 
 Before you can output your design to a pen plotter, specific options need to be configured so that the output is correctly reproduced by the plotting device. Use the Pen Plotter Setup dialog box to set various options for the plotter.  
 
@@ -174,7 +174,7 @@ Before you can output your design to a pen plotter, specific options need to be 
 6. Click a Plotting Size button, or click Other to define a custom size. If you click Other, type the X and Y dimensions to use.   
 7. In the Device list, select the plotter device to use.  
 
-# Adding a New Pen Plotter  
+## Adding a New Pen Plotter
 
 Use the Pen Plotter Advanced Setup dialog box to add a new pen plotter to the list of available plotters.  
 
@@ -199,7 +199,7 @@ You can also edit the data for an existing plotter, but only if it is a custom s
 
 Setting Up a Photo Plotter  
 
-# Setting Up a Photo Plotter  
+## Setting Up a Photo Plotter
 
 Before you can output your design to a photo plotter, specific options need to be configured so that the output is correctly reproduced by the plotting device. Use the Photo Plotter Setup dialog box to define the aperture and other photo plotter options.  
 
@@ -253,7 +253,7 @@ Click None if your photo plotter does not support circular interpolation. Arcs a
 
 Setting Up a Pen Plotter  
 
-# Printing Output  
+## Printing Output
 
 You can output your design to any standard printer that is connected to your system. Set up your print options as required by your installed printer driver.  
 
@@ -277,7 +277,7 @@ Note: If you have previously set up your printer configuration options, then on 
 
 Printing to PDF Setting the Printer to Print to a File  
 
-# Printing to PDF  
+## Printing to PDF
 
 You can print your schematic sheets to a single PDF. The resulting PDF is a non-searchable, black and white image of your schematic.  
 
@@ -297,7 +297,7 @@ You must have a PDF generator (such as Adobe PDF, Cute PDF, or Microsoft Print t
 
 Creating a PDF Plotting Output Printing Output  
 
-# Setting the Printer to Print to a File  
+## Setting the Printer to Print to a File
 
 SailWind Logic supports PostScript printing to a file through the use of the Windows printer properties.   
 Before you create a PostScript file, you must first set up the printer to print to a file.  
