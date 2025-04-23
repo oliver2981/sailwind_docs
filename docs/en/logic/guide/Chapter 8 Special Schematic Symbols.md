@@ -72,7 +72,7 @@ See “Special Schematic Symbols” on page 167 for additional information on t
 3. Click the Edit Electrical button.   
 4. Click Add. This creates a new entry for the symbol.  
 
-# 0 Tip  
+!Tip  
 
 To add a new off-page reference symbol, follow the procedure in Creating New Special Symbols.  
 
@@ -195,7 +195,7 @@ c. Select the symbol in the CAE Decals area.
 
 d. Click Edit.  
 
-# 0 Tip  
+!Tip  
 
 Edit is unavailable if the Library list is set to All Libraries. (The library name is listed before the item in the CAE Decals list.) Double-click on the symbol to enter the library and then click Edit.  
 

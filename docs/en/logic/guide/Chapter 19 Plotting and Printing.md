@@ -35,7 +35,7 @@ When setting an offset. observe the following:
 
 Example: A 2 to 1 scaling results in a printout or plot that is twice the actual size.  
 
-# 0 Tip  
+!Tip  
 
 The Preview area graphically shows the position, orientation, justification, and scaling of the output.  
 
@@ -128,7 +128,7 @@ In the resulting PDF, the hyperlinks will be invisible.
 
 9. In the Color Scheme area, click the scheme of your choice.  
 
-# 0 Tip  
+!Tip  
 
 The colors used in the Color on Black or Color on White schemes are the same colors currently used in your schematic. The Black on White scheme shows all currently visible items in the schematic in black.  
 

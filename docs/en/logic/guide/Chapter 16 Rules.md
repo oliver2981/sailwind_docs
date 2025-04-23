@@ -178,7 +178,7 @@ Use the Rules dialog box to enter item-to-item Clearance rules, routing guidelin
 
 3. Select the rules hierarchy level for which you want to set or modify rules.  
 
-# 0 Tip  
+!Tip  
 
 When you specify one of the hierarchical levels, you can access the Clearance, Routing, or High Speed forms.  
 
@@ -234,7 +234,7 @@ Use the Class Rules dialog box to define rules that apply to a collection of net
 
 2. In the Class Name list box, select a class name, or specify a new name for which you want to apply rules.  
 
-# 0 Tip  
+!Tip  
 
 The Class list box defines net classes by name and parenthetically notes the rules that apply, if any, to the class.  
 
@@ -346,7 +346,7 @@ While you can define these rules in SailWind Logic, they are used only in SailWi
 
 2. In the Available list, double-click the first net, and then double-click the second net.  
 
-# 0 Tip  
+!Tip  
 
 Nets cannot exist in more than one differential pair. The Available list displays only nets that have not been assigned to a differential pair.  
 

@@ -152,7 +152,7 @@ Restriction: If you select (All Libraries), the Delete button is unavailable.
 
 4. To filter the list, type wildcards or expressions on page 105 in the Filter box, and then click Apply.  
 
-# 0 Tip  
+!Tip  
 
 An empty filter box yields no results. If you do not want to restrict the results with a filter, but display all items, type \* (asterisk) and click Apply.  
 
@@ -187,7 +187,7 @@ Restriction: If you select (All Libraries), the Copy button is unavailable.
 
 4. To filter the list, type wildcards or expressions on page 105 in the Filter box, and then click Apply.  
 
-# 0 Tip  
+!Tip  
 
 An empty filter box yields no results. If you do not want to restrict the results with a filter, but display all items, type \* (asterisk) and click Apply.  
 
@@ -211,7 +211,7 @@ As library content is frequently changing, you can use the Library Manager to ed
 
 2. In the Library Manager Dialog Box, select a library from the Library list.  
 
-# 0 Tip  
+!Tip  
 
 If you select (All Libraries), the Edit button is unavailable.  
 

@@ -153,7 +153,7 @@ When you connect a part to ground or power nets, the normal convention is to use
 4. You can create and store a number of ground symbols in the library, each with its own net name. To select the appropriate ground symbol, right-click and click Alternate. Three symbols are available with the standard library. You can modify these or add additional symbols. SailWind Logic assigns the net name associated with the ground symbol to the connection, (for example, GND, Chassis ground, Analog-ground, etc.).   
 5. For each alternate power symbol, there is a different signal name: $+5V_{i}$ , $+24\vee$ , etc. To select the appropriate signal name, click Alternate while placing the symbol.  
 
-# 0 Tip  
+!Tip  
 
 As you view the power or ground alternates in the working window, you can locate in the status bar the net name to which you want to tie the connection.  
 
@@ -202,7 +202,7 @@ Warning: Disabling Floating Connections does not remove them from the design. Di
 
 5. Click OK to create the report.  
 
-# 0 Tip  
+!Tip  
 
 Multiple Floating Connections are easily selected for deletion. In the Search and Select box of the Selection Toolbar, type "dangling" to select all the Floating Connections.  
 
@@ -404,7 +404,7 @@ You can swap pins by selecting both pins first. After you have selected both pin
 2. Right-click and click Swap Pins. If the message “Swap connected pin?” appears, click Yes to continue. Click No to cancel the swap.   
 3. If the pin types you select do not match, the message “Warning, pin swap types don't match…” message appears. Click Yes to continue. Click No to cancel the swap.  
 
-# 0 Tip  
+!Tip  
 
 The message “Keep connections tied to same electrical pin?” may also appear. Click Yes to preserve the connections with the pin numbers. Click No to reconnect to the renumbered pins.  
 
@@ -504,7 +504,7 @@ Use the Bus Nets list in the Add Bus dialog box or the Bus Properties dialog box
 1. After you have added a bus, in the Add Bus dialog box, click Add to add a new row in the Bus Nets list.   
 2. Type the bus prefix in the Name/Prefix text box.  
 
-# 0 Tip  
+!Tip  
 
 Enter the names as follows:  
 
@@ -523,7 +523,7 @@ Enter the names as follows:
 
 8. Click Down to moves the selected row down one position in the Bus Nets list.  
 
-# 0 Tip  
+!Tip  
 
 The order in which nets appear in the Bus Nets list box determines the default order for naming nets as they are connected to a bus.  
 

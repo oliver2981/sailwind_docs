@@ -124,7 +124,7 @@ You can see a sample of this in the preview.sch sample design. See the Notes sec
 
 Follow the appropriate instructions in Insertion of OLE Objects in SailWind Logic.  
 
-# 0 Tip  
+!Tip  
 
 You can resize the object within your design when the object is active for editing.  
 
@@ -201,7 +201,7 @@ The icon that will be displayed appears beneath the check box.
 
 Uncheck the check box to display the entire object; for example, to display the actual Word document instead of a Word icon.  
 
-# 0 Tip  
+!Tip  
 
 If an object's source application is not registered on your system, then the object can be displayed only as an icon.  
 
@@ -264,7 +264,7 @@ If your design objectives change, you can change the source file that an object 
 
 If you no longer want to be linked to a source object, you can break the link to an object’s source file so that it will not automatically update when the source file changes.  
 
-# 0 Tip  
+!Tip  
 
 Once an object's link has been broken, it cannot be reconnected.  
 
@@ -366,7 +366,7 @@ For best performance clear this option.
 
 To return to the container application, select the File $>$ Exit and Return to <host> menu item.  
 
-# 0 Tip  
+!Tip  
 
 If you want to save the object you edit in the separate window, you can click the File $>$ Save Copy As menu item. The object is really a copy of the original, and this command lets you save this copy. You cannot open other files, create new files, or save original designs in the separate window.  
 

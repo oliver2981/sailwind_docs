@@ -38,7 +38,7 @@ Ensure that the off-page signals in the underlying schematic are consistent with
 
 5. Click OK. The hierarchical symbol appears in the Part Editor on page 109 window.  
 
-# 0 Tip  
+!Tip  
 
 Because the symbol is a hierarchical one, it has no pin numbers. The pin name associated with pins of the hierarchical symbol identify the net name of the connection that is tied to the pin. All pins on a hierarchical symbol must have a pin name. You cannot complete the hierarchical symbol until you assign a name to each pin.  
 
@@ -125,7 +125,7 @@ Once created, you can modify a hierarchical symbol to add or subtract design det
 
 3. Click the File $>$ Complete menu item when you are finished with the changes.  
 
-# 0 Tip  
+!Tip  
 
 If you add terminals to a hierarchical symbol, ensure that you give them pin names, and that the names also appear as off-page references in the sheet with the underlying schematic.  
 

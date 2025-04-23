@@ -218,7 +218,7 @@ Define what information you want to write to an ASCII file.
 
 2. Type a name for the output file, and then click Save.  
 
-# 0 Tip  
+!Tip  
 
 The filename and path appear at the bottom of the ASCII Output dialog box.  
 

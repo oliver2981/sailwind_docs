@@ -48,7 +48,7 @@ Restriction: This option is unavailable for circles, paths, and if you used Pull
 
 5. In the Rotation box, select the degree of rotation from the Rotation list.  
 
-# 0 Tip  
+!Tip  
 
 When rotating objects, observe the following:  
 
@@ -68,7 +68,7 @@ Use the Field Properties dialog box to modify a field name or change its text si
 3. In the Value box, type the value you want displayed. Note that the Value box is unavailable for system fields since the value is derived from your system.   
 4. To place the field at a precise X,Y coordinate location, type the value in the X and Y boxes.  
 
-# 0 Tip  
+!Tip  
 
 If this is blank when you click OK, the field attaches to the pointer until you click to indicate the location.  
 
@@ -135,7 +135,7 @@ Use the Change Part Type dialog box to change the selected part(s) to a new part
 
 8. Scroll through the Parts list to find a part type.  
 
-# 0 Tip  
+!Tip  
 
 When examining the parts list, note the following:  
 
@@ -146,7 +146,7 @@ When examining the parts list, note the following:
 
 10. Set how parts are updated in the “Apply update to” area.  
 
-# 0 Tip  
+!Tip  
 
 When updating parts, observe the following:  
 
@@ -192,7 +192,7 @@ Use the PCB Decal Assignment dialog box to assign alternate PCB decals to schema
 2. Click PCB Decals to assign alternate PCB decals.   
 3. In the PCB Decal Assignment dialog box, in the Assigned in Schematic box, type a new decal name for a decal you plan to create later in the PCB design.  
 
-# 0 Tip  
+!Tip  
 
 The Assigned in Schematic box displays the name of the currently selected decal as it is assigned to the schematic from the current library.  
 
@@ -490,7 +490,7 @@ Tip If you select a gate with only one part, Gate is unavailable.
 
 5. In the Size box, type the size in mils for the height of the stroke font (from the top of the tallest character to the bottom of the lowest character), or in points for system fonts.  
 
-# 0 Tip  
+!Tip  
 
 Type a stroke font size between 10 and 1000 mils or a system font size between 1 and 72 points.  
 
@@ -548,13 +548,13 @@ To rename a net or edit its attributes and values, you can use the Net Propertie
 
 1. Select a net, right-click and click Properties.  
 
-# 0 Tip  
+!Tip  
 
 Select the connection segment where it enters or exits a part. Selecting any other segment of the connection will not allow net name labels to be added.  
 
 2. Type a new name in the Net Name box or select an existing name from the list.  
 
-# 0 Tip  
+!Tip  
 
 When working with net names, observe the following:  
 
@@ -574,7 +574,7 @@ Tip Selecting This Instance will cause the net to be split into two separate net
 
 You must select the connection segment where it enters or exits a part, or the Net Name Label check box will be unavailable.  
 
-# 0 Tip  
+!Tip  
 
 Clearing the Net Name Label check box removes the visible label. The net and all subnets retain the net name.  
 
@@ -627,7 +627,7 @@ Rotation can be 0 or 90 degrees.
 
 6. In the Size box, type the size in mils for the height of the stroke font (from the top of the tallest character to the bottom of the lowest character), or in points for system fonts.  
 
-# 0 Tip  
+!Tip  
 
 Type a stroke font size between 10 and 1000 mils or a system font size between 1 and 72 points.  
 
@@ -656,7 +656,7 @@ As your design evolves, you may need to add or delete nets to or from a bus. Onc
 1. Select a bus, right-click and click Properties.   
 2. Type a new name for the bus in the Bus Name box or select an existing name from the list. See also Naming Buses.  
 
-# 0 Tip  
+!Tip  
 
 If you change the bit range for a bit format bus, the new bit range nn:mm must be equal to or greater than the old bit range. The signals attached to the bus will keep their old bit number, but take the new name.  
 
@@ -673,7 +673,7 @@ As your design evolves, you may find it necessary to change the type of a bus fr
 1. Select a bus, right-click and click Properties.   
 2. In the Bus Type area, click the bus type you want. The Bus Type determines which bus names appear in the Bus Name list.  
 
-# 0 Tip  
+!Tip  
 
 If you change the bus type from bit format to mixed net bus, the bus name changes to just the prefix. The bus name prefix and bit range are added to the Bus Nets list box.  
 
@@ -697,7 +697,7 @@ The Bus Nets area is not available when the Bit Format bus type is selected.
 2. Click Add to add a new row in the Bus Nets list.   
 3. Type the bus prefix in the Name/Prefix column.  
 
-# 0 Tip  
+!Tip  
 
 Use the following naming conventions:  
 
@@ -708,7 +708,7 @@ Use the following naming conventions:
 
 5. In the End column, type the ending bit number for a sequence of nets.  
 
-# 0 Tip  
+!Tip  
 
 To add an individual net to the bus, type the net name in the Prefix/Name column. Do not type Start and End values for a single net that is not sequenced by bit number.  
 
@@ -755,7 +755,7 @@ Type a stroke font size between 10 and 1000 mils or a system font size between 1
 
 9. Click OK.  
 
-# 0 Tip  
+!Tip  
 
 Font properties you specify in the Net Name Label Properties dialog box are also applied to the off-page reference label.  
 
@@ -784,7 +784,7 @@ All the labels selected must be of the same type; for example, all net name labe
 
 2. In the Properties dialog box, enter the new Size value.  
 
-# 0 Tip  
+!Tip  
 
 Type a stroke font size between 10 and 1000 mils or a system font size between 1 and 72 points.  
 
@@ -810,7 +810,7 @@ Use the Text Properties dialog box to modify free text or change its size, orien
 
 6. In the Size box, type the size  (in mils for stroke font, in points for system fonts).  
 
-# 0 Tip  
+!Tip  
 
 Type a stroke font size between 10 and 1000 mils or a system font size between 1 and 72 points.  
 

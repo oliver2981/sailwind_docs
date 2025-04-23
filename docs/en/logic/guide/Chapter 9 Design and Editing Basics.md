@@ -315,7 +315,7 @@ For example, type the part name, gate name, part type name, net name, or pin nam
 
 The workspace pans to the object and selects it.  
 
-# 0 Tip  
+!Tip  
 
 When working with the Selection List, note the following: ◦ The Selection List supports Wildcards and Expressions. ◦ You can search for several objects by separating entries with commas.  
 
@@ -335,7 +335,7 @@ When you make an area selection, the Selection list on the Selection toolbar dis
 
 5. Click the Next Object or Previous Object buttons to move the selection from one object to the next in the current multiple selection.  
 
-# 0 Tip  
+!Tip  
 
 Other selection methods:  
 

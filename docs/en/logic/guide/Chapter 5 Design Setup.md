@@ -174,7 +174,7 @@ When working with the color configuration, note the following:
 
 6. To save your color assignments to a file, click Save, and then type the configuration name in the Save Configuration dialog box.  
 
-# 0 Tip  
+!Tip  
 
 When saving the color configuration, observe the following:  
 
@@ -248,7 +248,7 @@ You can choose which font to use as the system font. “System” fonts are typi
 
 4. Click the button for the font style you want: B for Bold, I for Italic, or U for Underlined.  
 
-# 0 Tip  
+!Tip  
 
 You can select any combination of the available styles:  
 
@@ -342,7 +342,7 @@ Be sure the non-ASCII symbols, such as $+1-$ , ohm, and degrees are available on
 
 4. Click the button for the font style you want: B for bold, I for Italic, or U for Underlined.  
 
-# 0 Tip  
+!Tip  
 
 You can select any combination of the available styles:  
 
@@ -351,7 +351,7 @@ You can select any combination of the available styles:
 
 5. When you have finished selecting the desired font, click OK.  
 
-# 0 Tip  
+!Tip  
 
 Certain restrictions apply during the conversion:  
 
