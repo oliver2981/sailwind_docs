@@ -336,7 +336,7 @@ If you want to update all but a few part types, select all the parts/gates, then
 
 9. Click OK.  
 
-# Results  
+**Results**  
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
@@ -374,7 +374,7 @@ If you want to update all but a few CAE decals, select all the parts/gates, then
 
 7. Click OK.  
 
-# Results  
+**Results**  
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
@@ -405,7 +405,7 @@ As you make changes and updates to the content in your library, you may need to 
 4. Select the Pin Decals check box, and select the decals you want to compare/update.   
 5. Click OK.  
 
-# Results  
+**Results**  
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
@@ -428,7 +428,7 @@ As you make changes to the content in your library, you may need to refresh your
 
 7. Click OK.  
 
-# Results  
+**Results**  
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 

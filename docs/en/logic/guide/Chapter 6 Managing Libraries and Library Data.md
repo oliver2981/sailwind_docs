@@ -41,7 +41,7 @@ For more information, see Adding Libraries to the Library List.
 3. In the New Library dialog box, specify the folder and library filename, and then click Save.   
 4. Click Close.  
 
-# Results  
+**Results**  
 
 Your library is added to the bottom of the Library list, which is also the last library in the Library Search Order. To move your library up in the library list and search order, see Setting the Library List Order.  
 
@@ -74,7 +74,7 @@ Lines — Drafting objects
 
 An empty filter box yields no results. If you do not want to restrict the results with a filter, but display all items, type \* (asterisk) and click Apply.  
 
-# Results  
+**Results**  
 
 Library item names are displayed in the PCB Decals, Part Types, Line Items, or CAE Decals list. (The list name changes based on the Filter you’ve selected.) The preview window displays a graphic of the library object.  
 
@@ -298,7 +298,7 @@ Any errors, warnings, or messages created during the translation display in the 
 
 4. Specify the folder and filename of the library to add, and then click Open.  
 
-# Results  
+**Results**  
 
 The library is added beneath the currently selected library in the Library list. If a library is not selected, the new library is added to the bottom of the list.  
 
@@ -310,7 +310,7 @@ If you want to prevent the contents of a library from being used in a design, re
 
 1. Click the File $>$ Library menu item, then click the Manage Lib. List button. 2. In the Library List Dialog Box, select one or more libraries from the Library list and then click Remove.  
 
-# Results  
+**Results**  
 
 The library files are removed from the Library List but are not deleted from the computer.  
 
@@ -338,7 +338,7 @@ You can specify the order in which libraries are searched. The libraries are sea
 
 1. Click the File $>$ Library menu item, then click the Manage Lib. List button. 2. Select the library from the Library list in the Library List Dialog Box, and then click Up or Down as needed.  
 
-# Results  
+**Results**  
 
 With each click, the library moves up or down one place in the library list. The libraries are searched top to bottom.  
 
@@ -362,7 +362,7 @@ Tip You can select multiple libraries using the Shift and Ctrl keys.
 
 3. Select the Shared check box.  
 
-# Results  
+**Results**  
 
 More than one user can access the library file at the same time.  
 
@@ -404,7 +404,7 @@ By default, libraries installed with the software are located at C:\<install_fol
 
 4. Click OK.  
 
-# Results  
+**Results**  
 
 The library Read-Only check box in the Library List Dialog Box will not update until you reopen the dialog box.  
 
@@ -456,7 +456,7 @@ The Attribute Name appears in the Attributes in Library list.
 
 8. Click Close.  
 
-# Results  
+**Results**  
 
 Your new attribute is added. Check for the new attribute in the Decal Attributes dialog box (for PCB decals) or on the Attributes tab of the Part Information dialog box on page 631 (for Part Types).  
 
@@ -481,7 +481,7 @@ This process will yield no result or warning if the library you are working with
 5. In the prompt that appears, click OK.   
 6. Click Close.  
 
-# Results  
+**Results**  
 
 Your attribute(s) is deleted. Check for the deleted attribute in the Decal Attributes dialog box (for PCB decals) or on the Attributes tab of the Part Information dialog box on page 631 (for Part Types).  
 
@@ -514,7 +514,7 @@ You can specify the name of an existing attribute. No error message appears when
 
 6. Click Close.  
 
-# Results  
+**Results**  
 
 Your attribute is renamed. Check for the renamed attribute in the Decal Attributes dialog box (for PCB decals) or on the Attributes tab of the Part Information dialog box on page 631 (for Part Types).  
 
@@ -586,7 +586,7 @@ Tip To display all items in the library, type an asterisk (\*) and click Apply.
 
 6. In the Library Export File dialog box, specify the folder, type the filename, and then click Save.  
 
-# Results  
+**Results**  
 
 • The Special Purpose settings of any die parts and flip chips are cleared.   
 • Die parts and flip chips having a family designation other than DIE and FLP lose their die part or flip chip special purpose and become normal parts.   
@@ -645,7 +645,7 @@ You can select either of two formats:
 
 10. In the Report Manager dialog box, click Close.  
 
-# Results  
+**Results**  
 
 The Report Manager generates the report and displays a link to it in the Output window. To view or print the report, click the link. Notepad opens and displays the report.  
 
@@ -690,7 +690,7 @@ To select one or more specific item, use the filter field. Type an item name in 
 
 5. In the Library List File dialog box, specify a folder and filename for the report and click Save.  
 
-# Results  
+**Results**  
 
 Notepad appears, displaying a list of the item names and the date and time when each was last modified.   
 You can print the list from Notepad.  

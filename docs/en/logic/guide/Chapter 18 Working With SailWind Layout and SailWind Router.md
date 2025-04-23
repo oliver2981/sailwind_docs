@@ -52,7 +52,7 @@ The AI layout reference data item must be selected in order for the AI Intellige
 
 b. Click the Send Net List button.  
 
-# Results  
+**Results**  
 
 The import process sources all the part types and decals from the library and stacks the decals at the origin. You can then use the SailWind Layout Tools $>$ Disperse Components menu item to spread out the components.  
 
@@ -88,7 +88,7 @@ If you don’t have both SailWind Logic and SailWind Layout on your computer, yo
 8. Import the netlist into SailWind Layout. For instructions, see the Creating a New PCB Design by   
    Manually Importing the SailWind Logic Netlist topic in the SailWind Layout Guide.  
 
-# Results  
+**Results**  
 
 The import process sources all the part types and decals from the library and stacks the decals at the origin. You can then use the Tools $>$ Disperse Components menu item to spread out the components  
 

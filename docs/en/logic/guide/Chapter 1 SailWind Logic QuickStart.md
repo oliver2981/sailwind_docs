@@ -13,7 +13,7 @@ Step 8 - Print the Schematic
 Step 9 - Generate Reports   
 Step 10 - Create a Layout Netlist  
 
-# Step 1 - Start a New Design  
+## Step 1 - Start a New Design  
 
 Launch SailWind Logic and start a new design from the Welcome Screen.  
 
@@ -22,7 +22,7 @@ Launch SailWind Logic and start a new design from the Welcome Screen.
 1. Click the Windows Start $>$ SailWind [version] $>$ SailWind Logic menu item.   
 2. On the Welcome Screen, click New.  
 
-# Step 2 - Select the Sheet Size  
+## Step 2 - Select the Sheet Size  
 
 SailWind Logic starts with an empty schematic sheet of the default size. You can change the sheet size.  
 
@@ -41,13 +41,13 @@ d. Click OK to close the Options dialog box.
 
 4. To maximize the sheet size within your viewing area, on the main toolbar, click the Sheet button.  
 
-# Step 3 - Add Parts and Connector Symbols  
+## Step 3 - Add Parts and Connector Symbols  
 
 You can add parts and connector symbols to your design as needed.  
 
 Adding a Part Adding a Connector Symbol  
 
-# Adding a Part  
+### Adding a Part  
 
 You can add parts to your design individually, or you can add multiple instances.  
 
@@ -67,7 +67,7 @@ Tip SailWind Logic automatically adds reference designators to parts as they are
 
 7. Click Close to close the Add Part from Library dialog box.  
 
-# Adding a Connector Symbol  
+### Adding a Connector Symbol  
 
 Each pin of a connector has a unique symbol for the schematic. This results in multiple symbols that make up one part. All connector pins have the same reference designator to show that they are symbol pins of the same part.  
 
@@ -89,7 +89,7 @@ If the symbol faces the wrong direction when attached to the pointer, right-clic
 
 6. Close the dialog box.  
 
-# Step 4 - Add Buses  
+## Step 4 - Add Buses  
 
 Buses are used to consolidate a group of nets into one connection. This eliminates the potential clutter of many nets going from, or to, the same location in the design.  
 
@@ -117,7 +117,7 @@ Mixed Nets — The name of the bus must be unique. Add the names of all subnets 
 
 6. Click to place the bus name.  
 
-# Step 5 - Add Connections to Parts, Connectors, and Buses  
+## Step 5 - Add Connections to Parts, Connectors, and Buses  
 
 Add connections to parts, connectors, and buses to define the connectivity of your design.  
 
@@ -142,7 +142,7 @@ The connection and its name remain selected in the design.
 
 • If you are satisfied with the location of the net name label, click in empty space. • If the net name label is not in the correct location, right-click and click the Move popup menu item. The label attaches to the pointer. Click to place the label.  
 
-# Step 6 - Add Off-Page Symbols  
+## Step 6 - Add Off-Page Symbols  
 
 When connections need to connect to a circuit on another schematic sheet in the design, an off-page symbol is used. The off-page symbol has multiple representations, similar to a connector.  
 
@@ -156,7 +156,7 @@ When connections need to connect to a circuit on another schematic sheet in the 
 
 5. In the Add Net Name dialog box, type the net name and click OK.  
 
-# Step 7 - Add Power and Ground Symbols  
+## Step 7 - Add Power and Ground Symbols  
 
 Power and ground symbols are added to the end of a connection and have different representations according to the ground or power name.  
 
@@ -167,7 +167,7 @@ Power and ground symbols are added to the end of a connection and have different
 3. Right-click and click the Ground popup menu item or Power depending on the connection and the direction it has been drawn. The default ground or power symbol appears on the pointer. Notice the name that is annotated to the connection is displayed on the status bar in the lower left corner. If you clicked Power, it is $+5V$ ; if you clicked Ground, it is GND.   
 4. If you want a different voltage or ground, right-click and click the Alternate popup menu item for different graphical symbols and different names.  
 
-# Step 8 - Print the Schematic  
+## Step 8 - Print the Schematic  
 
 When you have finished editing your design, you can print it for checking and documentation purposes.  
 
@@ -179,7 +179,7 @@ When you have finished editing your design, you can print it for checking and do
 4. Click the Properties button to make any printer changes before printing/plotting. Do not change the orientation of the sheet (Portrait to Landscape) as this will conflict with the orientation set previously in the Options dialog box.   
 5. After completing this setup, click OK.  
 
-# Step 9 - Generate Reports  
+## Step 9 - Generate Reports  
 
 You can generate a number of different reports for design analysis.  
 
@@ -195,11 +195,11 @@ You can generate a number of different reports for design analysis.
 
 You can report on more than one item at a time, with each item generating a report (TXT file). These reports open in the default text editor and are formatted with a default set of customizable options.  
 
-# Results  
+**Results**  
 
 The report generates and a link to the report displays in the Output window. Click the link to view the report.  
 
-# Step 10 - Create a Layout Netlist  
+## Step 10 - Create a Layout Netlist  
 
 You can create a Layout netlist to examine the database and to pass the design data to SailWind Layout.  
 

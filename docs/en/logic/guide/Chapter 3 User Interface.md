@@ -232,7 +232,7 @@ You can clear a session log when it is no longer needed.
 
 Right-click and click Clear to clear the session log display each time you open a file.  
 
-# Results  
+**Results**  
 
 This prevents you from viewing information from a previously opened file. It does not delete the log file.  
 

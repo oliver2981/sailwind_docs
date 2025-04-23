@@ -190,7 +190,7 @@ Using the Part Editor you can construct a new CAE decal by adding gates and defi
 11. On the General tab, select a Logic Family and Prefix from the list and other electrical information as required. See also Modifying Electrical Information for a Part.   
 12. Click OK.  
 
-# Results  
+**Results**  
 
 The Part Editor now displays the assigned CAE Decal outlines. Note that no pin information appears.  
 
@@ -231,7 +231,7 @@ If you enter a value larger than needed to accommodate the number of input or ou
 
 14. Click OK.  
 
-# Results  
+**Results**  
 
 The Decal Wizard creates a rectangle of the correct size, adds the pins, and creates place holders for the sequence number, pin number, pin type, and swap information.  
 

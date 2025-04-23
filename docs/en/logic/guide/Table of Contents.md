@@ -15,7 +15,7 @@ Step 8 - Print the Schematic... . 27
 Step 9 - Generate Reports. . 27   
 Step 10 - Create a Layout Netlist.. .28  
 
-# Chapter 2 Getting Started With SailWind Logic.... 29  
+Chapter 2 Getting Started With SailWind Logic.... 29  
 
 SailWind Logic Flow.... 29   
 Startup Options... 30   
@@ -29,7 +29,7 @@ Customizing SailWind Logic Default Settings.. ..34
 Mouse Button Operations... . 34   
 Using the Numeric Keypad to Control the View.... .35  
 
-# User Interface... 37  
+User Interface... 37  
 
 View Control.. 38   
 View Commands and Scroll Bars... .38   
@@ -77,9 +77,9 @@ Adding Parts from CIS.. . 55
 Comparing Part Attributes for Consistency Checking... .56   
 Opening a File That is Already in Use.. . 57  
 
-# Chapter 4  
+Chapter 4  
 
-# ile Operations. 59  
+ile Operations. 59  
 
 Creating a New Schematic File.. 59   
 Saving a Schematic File.... . 59   
@@ -95,9 +95,9 @@ ASCII File Format.. .. 66
 Exporting to ASCII Output.. ... 66   
 Archiving Your Schematic. 67  
 
-# Chapter 5  
+Chapter 5  
 
-# Design Setup.. 69  
+Design Setup.. 69  
 
 Setting Options. .70   
 Setting Schematic Editor Options... .70   
@@ -122,7 +122,7 @@ Managing Font Replacement... .. 83
 Automatic Font Replacement.. ..83   
 Manual Font Replacement.. .84  
 
-# Chapter 6 Managing Libraries and Library Data.. 85  
+Chapter 6 Managing Libraries and Library Data.. 85  
 
 #  
 
@@ -158,9 +158,9 @@ Creating a Report of Decals, Lines or Logic Symbols in a Library... 104
 Wildcards and Expressions.... .105   
 Library Search Order... 106  
 
-# Chapter 7  
+Chapter 7  
 
-# ibrary Parts. 109  
+ibrary Parts. 109  
 
 Part Editor Operations.. .109   
 Object Selection Control in the Decal Editor. . 111   
@@ -264,7 +264,7 @@ Create a New Pin From an Existing Pin Decal.. .164
 Create a New Pin Decal.. ..164   
 Editing Objects in the Decal Editor. 165  
 
-# Chapter 8 Special Schematic Symbols.... 167  
+Chapter 8 Special Schematic Symbols.... 167  
 
 Special Symbol Naming Conventions.. .167   
 Assigning Alternative Symbols for the Ground Part.. . 168   
@@ -275,7 +275,7 @@ Creating New Special Symbols From Existing Symbols... 172
 Updating Special Symbol Mappings.. 173   
 Management of Special Symbols in the Library..... .174  
 
-# Chapter 9 Design and Editing Basics... 175  
+Chapter 9 Design and Editing Basics... 175  
 
 Design Operations... 175   
 Modes of Operation....... 176   
@@ -307,7 +307,7 @@ Selecting an Object With Area Selection.... 186
 Find Objects.. 187   
 Step and Repeat.. . 187  
 
-# Chapter 10 chematic Parts. 189  
+Chapter 10 chematic Parts. 189  
 
 Adding Parts.. 189   
 Adding Connector Pins... 190   
@@ -359,9 +359,9 @@ Renaming Attributes.... .224
 Deleting Attributes.. .225   
 Resistor Values Defined on Parts... .225  
 
-# Chapter 11  
+Chapter 11  
 
-# heets 227  
+heets 227  
 
 Editing Sheets. 227   
 Creating a Custom Sheet Border.. 227   
@@ -371,7 +371,7 @@ Managing Fields.... .. 230
 Managing All Fields in the Schematic.. . 230   
 Managing the Fields in a 2D Line Item.. 230  
 
-# Chapter 12 Non-Electrical Objects... 233  
+Chapter 12 Non-Electrical Objects... 233  
 
 Creating 2D Line Items.. 233   
 Adding Text... .234   
@@ -388,7 +388,7 @@ Adding Drafting Items to a Library... .240
 Adding Drafting Items From a Library..... 240   
 Modifying Objects in a 2D Lines Library... .240  
 
-# Chapter 13 Connections. 243  
+Chapter 13 Connections. 243  
 
 Adding Connections.. 243   
 Naming a Connection.. 244   
@@ -432,7 +432,7 @@ Delete a Bus and Its Connections.... . 263
 Deleting Connections.. . 264   
 Detach.. .264  
 
-# Chapter 14 Hierarchical Design.. 267  
+Chapter 14 Hierarchical Design.. 267  
 
 Hierarchical Design Overview... .267   
 Creating a Top-Down Hierarchy... ..267   
@@ -444,7 +444,7 @@ Copying a Hierarchical Symbol... .270
 
 Deleting a Hierarchical Symbol.. 271  
 
-# Chapter 15 Schematic Object Modification... 273  
+Chapter 15 Schematic Object Modification... 273  
 
 Modifying Drafting Objects.... .273   
 Modifying Fields... . 274   
@@ -481,11 +481,11 @@ Modifying Label Font Sizes.. .295
 Modifying Text.. 296   
 Modifying Hierarchical Components.. 296  
 
-# Chapter 16  
+Chapter 16  
 
 #  
 
-# Rules. 299  
+Rules. 299  
 
 Rules Setup... 299   
 Setting Up Clearance Rules.. 300   
@@ -504,11 +504,11 @@ Creating a Rules Report.. . 310
 Import Rules from PCB.. ..311   
 Export Rules to PCB.. .311  
 
-# hapter 17  
+hapter 17  
 
 #  
 
-# eports. 313  
+eports. 313  
 
 Generating Reports. . 313   
 The Bill of Materials Report. .. 314   
@@ -516,7 +516,7 @@ Setting Up the Bill of Materials Attributes.. ..314
 Setting Up the Bill of Materials Format.. . 315   
 Setting Up the Bill of Materials Configuration... 316  
 
-# Chapter 18 orking With SailWind Layout and SailWind Router.. 319  
+Chapter 18 orking With SailWind Layout and SailWind Router.. 319  
 
 Creation of a New PCB Layout from a SailWind Logic Design.. .320   
 Automatic Netlist Process Using the SailWind Layout Link.. . 320   
@@ -558,7 +558,7 @@ Printing Output... 353
 Printing to PDF.. ..354   
 Setting the Printer to Print to a File.. .354  
 
-# Chapter 20 Object Linking and Embedding.... 357  
+Chapter 20 Object Linking and Embedding.... 357  
 
 Insertion of OLE Objects in SailWind Logic. 358   
 Inserting a New Embedded OLE Object.. . 358   
@@ -586,7 +586,7 @@ OLE and View Menu Commands... ... 370
 Changing the OLE Object Background Color.... ..371   
 Saving OLE Objects... ..371  
 
-# Chapter 21 Using Advanced Procedures.. 373  
+Chapter 21 Using Advanced Procedures.. 373  
 
 Spice Simulation. .374   
 Analog Schematics for Simulation. ..375   
@@ -632,7 +632,7 @@ Managing Licensed Options..... ...394
 Viewing a License File or License Status... .. 394   
 License File Definition.. .394  
 
-# Chapter 22 Custom Interface... 397  
+Chapter 22 Custom Interface... 397  
 
 Customizing the SailWind Interface.. .398   
 Customizing Toolbars.. ..399   
@@ -678,7 +678,7 @@ Rearranging Tabs in a Window.... . 423
 Moving Tabs Between Windows... ..423   
 Converting Tabs to Windows... .423  
 
-# Chapter 23 Crash Detection, BMW and BLT.. 425  
+Chapter 23 Crash Detection, BMW and BLT.. 425  
 
 Crash Detection.. .425   
 BMW and BLT. .426   
@@ -692,7 +692,7 @@ Replaying Session Playback Media With BLT. .429
 The /BMW Command Line Switch. .430   
 Scripting and Macros... . 430  
 
-# Chapter 24 SailWind Logic GUI Reference... 431  
+Chapter 24 SailWind Logic GUI Reference... 431  
 
 AC Analysis Dialog Box. .435   
 Add Attribute Label Dialog Box..... ..436   
@@ -864,6 +864,6 @@ Update Selected CAE Decals From Library Dialog Box.. ..730
 Update Selected Part Type From Library Dialog Box..... 733   
 Update Selected Pin Decals From Library Dialog Box... .736  
 
-# Glossary  
+Glossary  
 
-# Third-Party Information  
+Third-Party Information  

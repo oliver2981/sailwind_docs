@@ -168,7 +168,7 @@ You can import an .ole file containing OLE objects into a SailWind Logic schemat
 5. Click Open and then click Yes at the prompt.   
    The OLE objects import into the current schematic.  
 
-# Results  
+**Results**  
 
 OLE objects are placed on the sheet on which they were created. For example, if you originally placed an OLE object on Sheet 1 and a second object on Sheet 2, these OLE objects are placed on Sheets 1 and 2 when imported.  
 
@@ -240,7 +240,7 @@ You can create a folder, a PDF, and/or a .zip file that contains all of your sch
 3. Select the files and folders you want to archive in the Archiver Dialog Box.   
 4. Click OK.  
 
-# Results  
+**Results**  
 
 An archive folder that contains the design and/or schematic files, the libraries, and any additional files and folders you have indicated is created.  
 

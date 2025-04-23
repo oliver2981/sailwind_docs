@@ -383,7 +383,7 @@ Tip Zoom Mode is available during Step and Repeat.
 
 6. After achieving the desired placement preview, click OK to place the objects.  
 
-# Results  
+**Results**  
 
 After using Step and Repeat, the original dynamic object is still attached to the cursor. You can continue to add or duplicate using this object, or you can press the Esc key to end the operation.  
 

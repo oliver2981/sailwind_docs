@@ -51,7 +51,7 @@ Tip Click to clear if you want your backup files in one, common backup directory
 
 6. Click OK.  
 
-# Results  
+**Results**  
 
 Table 10. Backup File Creation   
 
@@ -102,7 +102,7 @@ When reference designators are preserved, if conflicts with current parts exist,
 
 2. In the Options area, select the “Preserve Ref Des on Paste” check box to preserve group reference designators.  
 
-# Results  
+**Results**  
 
 If you enable preservation of group reference designators, SailWind Logic retains all reference designation when you copy the group. If you disable preservation, after pasting a group into a new design, reference designation starts at the first number; for example, U1. See also Options Dialog Box, Design Category.  
 
