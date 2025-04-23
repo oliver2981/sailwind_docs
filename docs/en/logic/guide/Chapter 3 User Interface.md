@@ -1,1048 +1,558 @@
-# Chapter 3 User Interface
+# Chapter 3 User Interface  
 
-View Control
-Project Explorer
-Output Window
-Opening a File That is Already in Use
+The software interface is robust and configurable. It offers numerous methods for viewing and navigating your designs, as well as extensive capabilities for generating custom macro scripts for playback and debugging.  
 
-SailWind Logic Guide
+View Control   
+Project Explorer   
+Output Window   
+Opening a File That is Already in Use  
 
-37
+# View Control  
 
-User Interface
-View Control
+You can use several methods to control which portion of the database is visible on the screen.  
 
-## View Control
+View Commands and Scroll Bars Middle Mouse Button Numeric Keypad Saving and Restoring Views  
 
-You can use several methods to control which portion of the database is visible on the screen.
+# View Commands and Scroll Bars  
 
-View Commands and Scroll Bars
-Middle Mouse Button
-Numeric Keypad
-Saving and Restoring Views
+There are a number of different ways to interact with the design environment to control the view of the design. SailWind Logic provides a comprehensive set of commands to enable you to pan and zoom within the design including using the mouse buttons/wheel, keyboard shortcuts and various items on the View menu.  
 
-View Commands and Scroll Bars
-There are a number of different ways to interact with the design environment to control the view of the
-design. SailWind Logic provides a comprehensive set of commands to enable you to pan and zoom within
-the design including using the mouse buttons/wheel, keyboard shortcuts and various items on the View
-menu.
+To control the view, use the scroll bars or the following commands in the View menu:  
 
-To control the view, use the scroll bars or the following commands in the View  menu:
+• Click the View $>$ Zoom menu item, or the Zoom button on the toolbar to enter Zoom mode. ◦ To zoom in, position the cursor at the desired view center, and click the left mouse button. ◦ To zoom out, position the cursor at the desired view center, and click the right mouse button. ◦ To define a specific view area, position the cursor at the desired view center, click and drag to define the extents, and release. Click the View $>$ Redraw menu item, or the Refresh button on the toolbar to redraw the current view.   
+Click the View $>$ Sheet menu item, or the Sheet button on the toolbar to display the entire sheet.   
+Click the View $>$ Extents menu item to resize the view to display all objects in the design.   
+• Use the scroll bars to pan the view.  
 
-• Click the View  > Zoom  menu item, or the Zoom  button on the toolbar to enter Zoom mode.
+# Middle Mouse Button  
 
-◦ To zoom in, position the cursor at the desired view center, and click the left mouse button.
+You can use the middle mouse button to perform a number of viewing operations.  
 
-◦ To zoom out, position the cursor at the desired view center, and click the right mouse button.
+Use the middle mouse button to perform panning and zooming operations:  
 
-◦ To define a specific view area, position the cursor at the desired view center, click and drag to
+To pan, click the middle mouse button. The view is centered at the cursor. To zoom in, click and hold the middle mouse button. Drag the cursor diagonally up. To adjust the bounding box, move the mouse. When you release the middle mouse button, the area within the bounding box displays.  
 
-define the extents, and release.
+To zoom out, click and hold the middle mouse button. Drag the cursor diagonally down. This draws an inner box, representing the current view. Moving the cursor adjusts the outer box, which represents the new view. The relative size of the outer box to the inner box determines how far the view zooms out. Release the middle mouse button to complete the zoom out operation.  
 
-• Click the View  > Redraw  menu item, or the Refresh  button on the toolbar to redraw the current
+• To view the entire design, click and hold the middle mouse button, drag the cursor horizontally, and release.  
 
-view.
+# Numeric Keypad  
 
-• Click the View  > Sheet  menu item, or the Sheet  button on the toolbar to display the entire sheet.
+Use the numeric keyboard to control the view.  
 
-• Click the View  > Extents  menu item to resize the view to display all objects in the design.
+For more information, see Using the Numeric Keypad to Control the View.  
 
-• Use the scroll bars to pan the view.
+# Saving and Restoring Views  
 
-Middle Mouse Button
-You can use the middle mouse button to perform a number of viewing operations.
+If you repeatedly pan or zoom to a particular area of your design, you can save time by saving a work area view so that you can instantly restore it when needed.  
 
-Use the middle mouse button to perform panning and zooming operations:
+Restriction: Capture is not available while in the Part Editor.  
 
-• To pan, click the middle mouse button. The view is centered at the cursor.
+Saving a View Restoring a View  
 
-• To zoom in, click and hold the middle mouse button. Drag the cursor diagonally up. To adjust the
-bounding box, move the mouse. When you release the middle mouse button, the area within the
-bounding box displays.
+# Saving a View  
 
-38
+You can save a view of your design for later recall.  
 
-SailWind Logic Guide
+**Procedure** 
 
-User Interface
-Numeric Keypad
+1. Arrange the work area to display the view you want to capture.  
 
-• To zoom out, click and hold the middle mouse button. Drag the cursor diagonally down. This
+2. Click the View $>$ Save View menu item.  
 
-draws an inner box, representing the current view. Moving the cursor adjusts the outer box, which
-represents the new view. The relative size of the outer box to the inner box determines how far
-the view zooms out. Release the middle mouse button to complete the zoom out operation.
+0 Tip In the Save View dialog box, the preview shows you the location of the selected view in relation to the extents of the design.  
 
-• To view the entire design, click and hold the middle mouse button, drag the cursor horizontally,
+3. In the Save View dialog box, click Capture.  
 
-and release.
+4. In the “Capture a new view” dialog box, type a new name for the view and then click OK. The new view name is listed in the View Name list.  
 
-Numeric Keypad
-Use the numeric keyboard to control the view.
+![](/images/3edc16b8106f10a910d49ffba7d17b600afa1254fbcd65639a8c1261b5d1b53a.jpg)  
 
-For more information, see Using the Numeric Keypad to Control the View.
+Tip You can create up to nine views. The view names appear at the bottom of the View menu.  
 
-SailWind Logic Guide
+5. Click Close.  
 
-39
+# Restoring a View  
 
-User Interface
-Saving and Restoring Views
+You can restore a previously saved view.  
 
-Saving and Restoring Views
+**Procedure** 
 
-If you repeatedly pan or zoom to a particular area of your design, you can save time by saving a work
-area view so that you can instantly restore it when needed.
+1. Click the View $>$ Save View menu item.   
+2. Select a name from the View Name list and click Apply to apply a previously selected view to the work area. Tip   
+   When you apply a view, the previous view saves automatically. Click the View $>$ Previous View menu item to restore the view.  
 
-Restriction:
-Capture is not available while in the Part Editor.
+3. Select a name from the View Name list and click Delete to remove it from the View Name list.  
 
-Saving a View
-Restoring a View
+# Project Explorer  
 
-Saving a View
-You can save a view of your design for later recall.
+The Project Explorer lists the objects in your design in a hierarchical structure. When you update your design, the hierarchical structure also updates automatically.  
 
-Procedure
+Restriction: The Project Explorer is unavailable in the Part Editor.  
 
-1. Arrange the work area to display the view you want to capture.
+Note: To open the Project Explorer, click the Project Explorer button.  
 
-2. Click the View > Save View  menu item.
+You can configure the Project Explorer so you can click on a listed object to select it in the workspace, or select it and zoom to it.  
 
-Tip
-In the Save View dialog box, the preview shows you the location of the selected view in
-relation to the extents of the design.
+**Procedure** 
 
-3. In the Save View dialog box, click Capture.
+1. Right-click in Project Explorer, and click the Allow Selection menu item. A check mark indicates that the functionality is enabled.   
+2. If you want to Zoom to the object you select, click the Zoom to selection menu item. A check mark indicates that the functionality is enabled.  
 
-4. In the “Capture a new view” dialog box, type a new name for the view and then click OK.
+# Output Window  
 
-The new view name is listed in the View Name list.
+Use the Output window for viewing reports and session logs, macro editing and debugging, and custom programming and debugging.  
 
-Tip
-You can create up to nine views. The view names appear at the bottom of the View  menu.
+The Output window is located in the lower left section of the display window. You can dock or float the Output window. You can also open or close the Output window.  
 
-5. Click Close.
+The Output window has two tabs:  
 
-Restoring a View
-You can restore a previously saved view.
+• Status Tab — Displays information on the current session.   
+Macro Tab — Enables you to run, edit, and debug scripts.   
+Session Log Management   
+Macros   
+Macro Playback   
+Macro Script Debug   
+Accessing Help on the Macro Language   
+CIS  
 
-Procedure
+# Session Log Management  
 
-1. Click the View  > Save View  menu item.
+Various methods are available for managing the session logs, including filtering, viewing, printing and saving the log data.  
 
-2. Select a name from the View Name list and click Apply  to apply a previously selected view to the
+Session Log Navigating Pages in the Status Tab Filtering the Status Tab Display Searching in the Status Tab Printing Session Log Messages Viewing and Printing Reports Saving a Session Log to File Clearing the Session Log Display  
 
-work area.
+# Session Log  
 
-40
+A session log, which appears in the Status tab of the Output window, contains all program output for the current session, including names of open and saved files, integrity test results.  
 
-SailWind Logic Guide
+The session log file messages in the Status tab are color coded by subject. Underlined items are links. The color codes are shown in the following table:  
 
-User Interface
+Table 3. Session Log Text Color Meanings   
 
-## Project Explorer
 
-Tip
-When you apply a view, the previous view saves automatically. Click the View > Previous
-View  menu item to restore the view.
+<html><body><table><tr><td>Color</td><td> Meaning</td></tr><tr><td>Red</td><td>Errors</td></tr><tr><td>Green</td><td>Warnings</td></tr><tr><td>Black</td><td>Messages</td></tr><tr><td>Blue</td><td>Links to files, Web pages, and database objects</td></tr></table></body></html>  
 
-3. Select a name from the View Name list and click Delete  to remove it from the View Name list.
+# Navigating Pages in the Status Tab  
 
-Project Explorer
+Use the Status tab toolbar buttons in the Output window to navigate to the previous or next page, and to refresh a display of reports and other pages. You can also stop updates to pages, and return to the session log display.  
 
-The Project Explorer lists the objects in your design in a hierarchical structure. When you update your
-design, the hierarchical structure also updates automatically.
+To perform these functions, use the following Status tab toolbar buttons:  
 
-Restriction:
-The Project Explorer is unavailable in the Part Editor.
+Table 4. Status Tab Toolbar Buttons   
 
-Note:
-To open the Project Explorer, click the Project Explorer  button.
 
-You can configure the Project Explorer so you can click on a listed object to select it in the workspace, or
-select it and zoom to it.
+<html><body><table><tr><td>Command</td><td>Description</td></tr><tr><td>Back</td><td>Displays the previous page.</td></tr><tr><td>Forward</td><td>Displays the next page.</td></tr></table></body></html>  
 
-Procedure
+Table 4. Status Tab Toolbar Buttons (continued)   
 
-1. Right-click in Project Explorer, and click the Allow Selection  menu item.
 
-A check mark indicates that the functionality is enabled.
+<html><body><table><tr><td>Command</td><td>Description</td></tr><tr><td> Stop</td><td>Stops page updates.</td></tr><tr><td>Refresh</td><td>Refreshes the display of reports and other pages.</td></tr><tr><td>Home</td><td>Returns to the session log.</td></tr></table></body></html>  
 
-2. If you want to Zoom to the object you select, click the Zoom to selection  menu item.
+# Filtering the Status Tab Display  
 
-A check mark indicates that the functionality is enabled.
+The session log file messages in the Status tab are color coded by subject. You can choose to view any combination of the color coded messages.  
 
-SailWind Logic Guide
+Use the following procedure to filter the display in the Status tab.  
 
-41
+**Procedure** 
 
-User Interface
-Output Window
+1. Right-click in the Output window and click one of the following commands from the Filter popup menu item:  
 
-## Output Window
+Table 5. Filter Submenu Commands   
 
-Use the Output window for viewing reports and session logs, macro editing and debugging, and custom
-programming and debugging.
 
-The Output window is located in the lower left section of the display window. You can dock or float the
-Output window. You can also open or close the Output window.
+<html><body><table><tr><td>Command</td><td>Description</td></tr><tr><td>Error</td><td>Displays errors.</td></tr><tr><td>Warning</td><td>Displays warnings.</td></tr><tr><td>Message</td><td>Displays messages.</td></tr><tr><td>Show all</td><td>Displays all items (errors, warnings, and messages).</td></tr></table></body></html>  
 
-The Output window has two tabs:
+2. Select an item to show it; clear the item to hide it.  
 
-• Status Tab  — Displays information on the current session.
+# Searching in the Status Tab  
 
-• Macro Tab  — Enables you to run, edit, and debug scripts.
+If you want to locate a specific item or term in the log, you can search for text in the Status tab. There are options available to search for whole word only and specific case matches.  
 
-Session Log Management
-Macros
-Macro Playback
-Macro Script Debug
-Accessing Help on the Macro Language
-CIS
+**Procedure** 
 
-42
+1. Right-click and click the Find popup menu item.   
+2. In the Find dialog box, type the text you want to find in the dialog box and complete any other dialog box options.   
+3. Click Next. The tab scrolls to the occurrence of the word, highlighting the word.  
 
-SailWind Logic Guide
+# Printing Session Log Messages  
 
-User Interface
-Session Log Management
+You can print a hard copy of the session log for review purposes.  
 
-## Session Log Management
+**Procedure** 
 
-Various methods are available for managing the session logs, including filtering, viewing, printing and
-saving the log data.
+1. Right-click and click Print.   
+2. In the Windows standard Print dialog box, set options as needed.   
+3. Click Print.  
 
-Session Log
-Navigating Pages in the Status Tab
-Filtering the Status Tab Display
-Searching in the Status Tab
-Printing Session Log Messages
-Viewing and Printing Reports
-Saving a Session Log to File
-Clearing the Session Log Display
+# Viewing and Printing Reports  
 
-### Session Log
+The session log contains links to reports that you can view and print.  
 
-A session log, which appears in the Status  tab of the Output window, contains all program output for the
-current session, including names of open and saved files, integrity test results.
+To view the report, click the link. The report appears replacing the session log as the active page in the Status tab.  
 
-The session log file messages in the Status  tab are color coded by subject. Underlined items are links.
-The color codes are shown in the following table:
+You can print the displayed report.  
 
-Table  3. Session Log Text Color Meanings
+**Procedure** 
 
-Color
+1. Right-click the displayed report and click Print.  
 
-Meaning
+![](/images/485e025aee2149de661b75e1e0a6bc717e2dec6012511387dc4868d2a60e3877.jpg)  
 
-Red
+Tip As an alternative, on the Status tab toolbar, click the Print button.  
 
-Errors
+2. In the Windows standard Print dialog box change any Print dialog box options as needed.  
 
-Green
+3. Click Print.  
 
-Warnings
+# Saving a Session Log to File  
 
-Black
+There are times when you might want to refer to something that was documented in the session log (such as when debugging a file or submitting a Support Center request. You can save a session log to a file for future reference.  
 
-Blue
+**Procedure** 
 
-Messages
+On the Status toolbar, click the Log to File button to save the session log for future reference.  
 
-Links to files, Web pages, and database objects
+If a session log file already exists, new information is appended. If a session log file does not exist, a new file is created.  
 
-### Navigating Pages in the Status Tab
+The default path for the session log comes from the .ini file entry:  
 
-Use the Status  tab toolbar buttons in the Output window to navigate to the previous or next page, and
-to refresh a display of reports and other pages. You can also stop updates to pages, and return to the
-session log display.
+FileDir $\mathtt{\Gamma}=\mathtt{C}$ :\SailWind Projects  
 
-To perform these functions, use the following Status  tab toolbar buttons:
+When you first start the software, the location is set in the following registry key:  
 
-Table  4. Status Tab Toolbar Buttons
+HKEY_CURRENT_USER\Software\Mentor Graphics\<version>\SailWind Layout\Status Window\LastLogName  
 
-Command
+# Clearing the Session Log Display  
 
-Description
+You can clear a session log when it is no longer needed.  
 
-Back
+**Procedure** 
 
-Displays the previous page.
+Right-click and click Clear to clear the session log display each time you open a file.  
 
-Forward
+# Results  
 
-Displays the next page.
+This prevents you from viewing information from a previously opened file. It does not delete the log file.  
 
-SailWind Logic Guide
+# Macros  
 
-43
+You can create macros to simplify redundant activities. You can record any set of procedural steps for replay as a single action. You can also nest macros.  
 
-User Interface
+![](/images/693e72d7f1168195f68c78815669cc65bc602cb2cbaf444b346c3d237906c74b.jpg)  
 
-Filtering the Status Tab Display
+!Tip  
 
-Table  4. Status Tab Toolbar Buttons  (continued)
+Dialog box actions are recorded as results rather than actions, so when you replay, you don't see the dialog boxes in the replay process. Because of this you can't create a macro that stops on an open dialog box; it must follow through to some result or action. For example, you can create a macro that selects the File $>$ Open menu item, selects a file, and selects OK. The macro, when played back, opens a file.  
 
-Command
+Creating a New Macro   
+Recording Mouse Movements   
+Opening an Existing Macro File   
+Viewing Multiple Open Macros   
+Editing a Macro   
+Changing the Default Text Editor   
+Saving the Macro  
 
-Description
+# Creating a New Macro  
 
-Stop
+Macros can be very flexible and helpful beyond your current design session. You can create a new macro by recording your keystrokes, mouse movements and commands and then save it for later recall.  
 
-Stops page updates.
+**Procedure** 
 
-Refresh
+1. On the main toolbar, click the Output Window button.   
+2. On the Macro tab, click the New button. New macros are given a name of Macro#, where # is a numeric sequence such as Macro1 or Macro2.   
+3. If desired, click the Compress mouse moves and/or Relative mouse moves buttons. See Recording Mouse Movements for more information.   
+4. On the Macro tab toolbar, click the Record button.   
+5. Perform the keystrokes, commands, and mouse clicks to include in the macro.   
+6. On the Macro tab toolbar, click the Stop button. Alternatively, you can also script a macro instead of recording mouse actions.  
 
-Refreshes the display of reports and other pages.
+# Recording Mouse Movements  
 
-Home
+Mouse movements are recorded in macros. You can record compressed or uncompressed mouse movements and relative or absolute movements.  
 
-Returns to the session log.
+Compress Mouse Mode — Compress mouse mode records only the start point and endpoint of a mouse movement. It does not record any of the intermediate coordinates between the start and end points. Compression is recommended under most circumstances because it significantly reduces the size of your macro file. Recording intermediate mouse movements increases the file size, but documents coordinate information if required for a special application.  
 
-### Filtering the Status Tab Display
+Relative Mouse Mode — Relative mouse mode records the start point and endpoint of a movement in incremental coordinates instead of absolute coordinates.  
 
-The session log file messages in the Status  tab are color coded by subject. You can choose to view any
-combination of the color coded messages.
+# Opening an Existing Macro File  
 
-Use the following procedure to filter the display in the Status  tab.
+Macros are created in and stored in macro files that have a .mcr extension. To open an existing macro file (.mcr), you can use the menus or the toolbar.  
 
-Procedure
+You can open multiple macros in the macro editor. The macro editor also supports nested macros.  
 
-1. Right-click in the Output window and click one of the following commands from the Filter  popup
+**Procedure** 
 
-menu item:
+1. On the main toolbar, click the Output Window button; then, in the Output window, click the Macro tab. 2. Click the Open button, or select the macro file in the Open File dialog box and click Open.  
 
-Table  5. Filter Submenu Commands
+# Viewing Multiple Open Macros  
 
-Command
+You can switch your view between multiple open macros. This enables you move back and forth between more than one macro without having to open and close them individually.  
 
-Description
+**Procedure** 
 
-Error
+Click a macro in the List of Open Macros area (left-hand pane) of the Macro tab to switch between open macros.  
 
-Displays errors.
+# Editing a Macro  
 
-Warning
+You can copy or cut selected text to the Clipboard. You can also paste the selection from the Clipboard into the text window. You can paste text from the Clipboard into other applications. You can also switch between open macros to edit multiple macros.  
 
-Displays warnings.
+![](/images/65a927d196cad38e7667d7905a6818115b8071b09a312de0ca82a2bb618d59cb.jpg)  
 
-Message
+# Restriction:  
 
-Displays messages.
+If you have Notepad as the default text editor, longer macro files may not be loaded because of size constraints in Notepad. See Changing the Default Text Editor for information on how to change the default text editor.  
 
-Show all
+**Procedure** 
 
-Displays all items (errors, warnings, and messages).
+1. Select the text you want to copy or cut.   
+2. On the Macro tab toolbar, click the Copy or Cut buttons.   
+3. Place the pointer at the insertion point where you want to place the copied text.  
 
-2. Select an item to show it; clear the item to hide it.
+4. On the Macro tab toolbar, click the Paste button.  
 
-### Searching in the Status Tab
+You will see that your selection has been pasted in the Output window at the insertion point.  
 
-If you want to locate a specific item or term in the log, you can search for text in the Status  tab. There are
-options available to search for whole word only and specific case matches.
+As an alternative, right-click in the Output window and click Copy, Cut, or Paste.  
 
-Procedure
+# Changing the Default Text Editor  
 
-1. Right-click and click the Find  popup menu item.
+To access large files using Edit, you must install an ASCII text editor with a suitable file size capacity.  
 
-2. In the Find dialog box, type the text you want to find in the dialog box and complete any other
+**Procedure** 
 
-dialog box options.
+1. Open the SailWindlogic.ini file in a text editor.   
+2. Modify the [general] section, specifying a new text editor executable name. Include the drive and folder if the new editor is not in your Windows folder.   
+3. Save the.ini file and close the text editor.  
 
-3. Click Next.
+# Saving the Macro  
 
-The tab scrolls to the occurrence of the word, highlighting the word.
+Macros are not limited to your current design session. You can save a macro for future recall.  
 
-44
+**Procedure** 
 
-SailWind Logic Guide
+1. Click the Save button.   
+2. In the standard Windows “Save As” dialog box, enter a filename, if necessary, and click Save.  
 
-User Interface
-Printing Session Log Messages
+# Related Topics  
 
-### Printing Session Log Messages
+Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]  
 
-You can print a hard copy of the session log for review purposes.
+# Macro Playback  
 
-Procedure
+You can play back an existing macro using Run. Run also resumes the playback of a paused macro.   
+When you play a macro, you cannot use the mouse in the workspace.  
 
-1. Right-click and click Print.
+Playing Back a Macro Pausing a Playing Macro Stopping a Playing Macro  
 
-2. In the Windows standard Print dialog box, set options as needed.
+# Playing Back a Macro  
 
-3. Click Print.
+Once a macro has been recorded, you can play it back.  
 
-### Viewing and Printing Reports
+**Procedure** 
 
-The session log contains links to reports that you can view and print.
+1. On the Macro tab, click the Open button and open a macro (.mcr) file. Recent macros can be found by clicking the Tools $>$ Macros menu item, and then selecting the desired macro from the list.   
+2. On the Macro tab toolbar, click the Run button. As an alternative, right-click in the Macro tab and click Run.  
 
-To view the report, click the link. The report appears replacing the session log as the active page in the
-Status  tab.
+# Pausing a Playing Macro  
 
-You can print the displayed report.
+You can pause a macro during playback.  
 
-Procedure
+**Procedure** 
 
-1. Right-click the displayed report and click Print.
+1. On the Macro tab toolbar, click the Pause button to pause a playing macro at any time.   
+2. Click the Play button to resume playing the macro.  
 
-Tip
-As an alternative, on the Status  tab toolbar, click the Print  button.
+# Stopping a Playing Macro  
 
-2. In the Windows standard Print dialog box change any Print dialog box options as needed.
+You can stop a macro that is currently playing.  
 
-3. Click Print.
+**Procedure** 
 
-### Saving a Session Log to File
+Right-click in the Macro tab and click Stop or on the Macro tab toolbar, click the Stop button to stop a playing macro.  
 
-There are times when you might want to refer to something that was documented in the session log (such
-as when debugging a file or submitting a Support Center request. You can save a session log to a file for
-future reference.
+You cannot resume the playback of the macro once you have stopped it. When you click Run, the macro starts from the beginning.  
 
-Procedure
+# Related Topics  
 
-On the Status toolbar, click the Log to File  button to save the session log for future reference.
+Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]  
 
-If a session log file already exists, new information is appended. If a session log file does not exist, a new
-file is created.
+# Macro Script Debug  
 
-The default path for the session log comes from the .ini  file entry:
+When playing back a macro, you can run it step-by-step, or to a certain location in the script. To perform these debugging tasks, insert breakpoints in the macro at the points at which you want the macro to stop  
 
-FileDir=C:\SailWind Projects
+Setting or Removing Breakpoints Debugging the Macro Scripts Run-Time Error Correction  
 
-When you first start the software, the location is set in the following registry key:
+# Setting or Removing Breakpoints  
 
-SailWind Logic Guide
+The ability to set or remove breakpoints is useful when you debug a macro. If the macro engine encounters a breakpoint when playing back a macro, it pauses the macro.  
 
-45
+**Procedure** 
 
-User Interface
-Clearing the Session Log Display
+1. Place the cursor on the line in which to add a breakpoint.   
+2. Right-click in the Macro tab and click Toggle Break, or as an alternative, on the Macro tab toolbar, click the Toggle Breakpoint button. This inserts a breakpoint at the current cursor location. A breakpoint marker appears in the gutter area. When the macro engine encounters a breakpoint while playing back a macro, it pauses the macro. The next line in the macro is marked with the instruction pointer.  
 
-HKEY_CURRENT_USER\Software\Mentor Graphics\<version>\SailWind Layout\Status
- Window\LastLogName
+# Debugging the Macro Scripts  
 
-### Clearing the Session Log Display
+Once breakpoints are inserted, you can debug macros.  
 
-You can clear a session log when it is no longer needed.
+Play a Single Line of the Macro   
+Perform a Subroutine Call on the Current Line   
+Play Back a Macro to a Point   
+Return From the Subroutine to the Point From Which it was Called   
+Continue the Execution From the Current Point  
 
-Procedure
+# Play a Single Line of the Macro  
 
-Right-click and click Clear  to clear the session log display each time you open a file.
+You can play a single line of a macro by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
-Results
-This prevents you from viewing information from a previously opened file. It does not delete the log file.
+**Procedure** 
 
-46
+Right-click in the Macro tab and click the Step Over menu item, or on the Macro tab toolbar, click the Step Over button  
 
-SailWind Logic Guide
+# Perform a Subroutine Call on the Current Line  
 
-User Interface
-Macros
+You can perform a subroutine call on the current line by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
-## Macros
+**Procedure** 
 
-You can create macros to simplify redundant activities. You can record any set of procedural steps for
-replay as a single action. You can also nest macros.
+Right-click in the Macro tab and click Step Into menu item, or, on the Macro tab toolbar, click the Step into button.  
 
-Tip
-Dialog box actions are recorded as results rather than actions, so when you replay, you don't see
-the dialog boxes in the replay process. Because of this you can't create a macro that stops on an
-open dialog box; it must follow through to some result or action. For example, you can create a
-macro that selects the File  > Open  menu item, selects a file, and selects OK. The macro, when
-played back, opens a file.
+# Play Back a Macro to a Point  
 
-Creating a New Macro
+You can play back a macro to a point by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
-Recording Mouse Movements
-Opening an Existing Macro File
-Viewing Multiple Open Macros
-Editing a Macro
-Changing the Default Text Editor
-Saving the Macro
+**Procedure** 
 
-### Creating a New Macro
+Right-click in the Macro tab and click the Step to Cursor menu item, or click the Step to cursor button on the Macro tab toolbar.  
 
-Macros can be very flexible and helpful beyond your current design session. You can create a new macro
-by recording your keystrokes, mouse movements and commands and then save it for later recall.
+# Return From the Subroutine to the Point From Which it was Called  
 
-Procedure
+You can return from the subroutine to the point from which it was called by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
-1. On the main toolbar, click the Output Window  button.
+**Procedure** 
 
-2. On the Macro  tab, click the New  button.
+Right-click in the Macro tab and click the Step Out menu item, or, on the Macro tab toolbar, click the Step out button.  
 
-New macros are given a name of Macro#, where # is a numeric sequence such as Macro1 or
-Macro2.
+# Continue the Execution From the Current Point  
 
-3. If desired, click the Compress mouse moves  and/or Relative mouse moves  buttons.
+You can continue the execution of a macro from the current point by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
-See Recording Mouse Movements  for more information.
+**Procedure** 
 
-4. On the Macro  tab toolbar, click the Record  button.
+Right click in the Macro tab and click the Run menu item, or, on the Macro tab toolbar, click the Run button.  
 
-5. Perform the keystrokes, commands, and mouse clicks to include in the macro.
+# Run-Time Error Correction  
 
-6. On the Macro  tab toolbar, click the Stop  button.
+If run-time errors occur, the macro debugger switches to step-by-step mode and displays a detailed message on the status bar. The instruction pointer is set on the line that produced the error. After fixing the error, you can resume playback of the macro.  
 
-Alternatively, you can also script a macro instead of recording mouse actions.
+# Related Topics  
 
-### Recording Mouse Movements
+Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]  
 
-Mouse movements are recorded in macros. You can record compressed or uncompressed mouse
-movements and relative or absolute movements.
+# Accessing Help on the Macro Language  
 
-SailWind Logic Guide
+You can access help on the macro language at any time.  
 
-47
+**Procedure** 
 
-User Interface
-Opening an Existing Macro File
+Click in the edit area of the Macro tab and press F1 for information on the term and a sample script.  
 
-• Compress Mouse Mode  — Compress mouse mode records only the start point and endpoint
+# CIS  
 
-of a mouse movement. It does not record any of the intermediate coordinates between the start
-and end points. Compression is recommended under most circumstances because it significantly
-reduces the size of your macro file. Recording intermediate mouse movements increases the file
-size, but documents coordinate information if required for a special application.
+The CIS tab displays part information from CIS as indicated. You can:  
 
-• Relative Mouse Mode  — Relative mouse mode records the start point and endpoint of a
+1. Speficy a new configuration for data source to use and choose what to display in the CIS tab.   
+2. Search and add part(s) from CIS.   
+3. Compare part attributes in design with those in CIS to check the consistency.  
 
-movement in incremental coordinates instead of absolute coordinates.
+Adding a New Configuration   
+Adding Parts from CIS   
+Comparing Part Attributes for Consistency Checking  
 
-### Opening an Existing Macro File 
+# Adding a New Configuration  
 
-Macros are created in and stored in macro files that have a .mcr  extension. To open an existing macro file
-(.mcr), you can use the menus or the toolbar.
+After launch, SailWind Logic automatically connects to the specified data source, from which to load data into the CIS tab.  
 
-You can open multiple macros in the macro editor. The macro editor also supports nested macros.
+Follow the steps below to specify a new configuration and choose what to display in the CIS tab.  
 
-Procedure
+**Procedure** 
 
-1. On the main toolbar, click the Output Window  button; then, in the Output window, click the Macro
+1. On the CIS tab toolbar, click the New button.   
+2. In the Library Config dailog box, add and connect to the target data source as follows: a. Click ODBC Config. b. Add an ODBC data source to use in the pop-up window. c. Click Update to make the newly added data source active and available in the ODBC DSN list. d. Select the target database from the list to establish connection and load its table list in the Database Tables area.  
 
-tab.
+3. Select the database table(s) to use by checking the To CIS checkbox.  
 
-2. Click the Open  button, or select the macro file in the Open File dialog box and click Open.
+Only those selected will be available in the CIS tab.  
 
-### Viewing Multiple Open Macros
+4. In the "Table Configuration" area, specify what and how table fields are displayed in the CIS tab. For more information, see the table below.  
 
-You can switch your view between multiple open macros. This enables you move back and forth between
-more than one macro without having to open and close them individually.
+Table 6. Table Configuration Description   
 
-Procedure
 
-Click a macro in the List of Open Macros area (left-hand pane) of the Macro  tab to switch between open
-macros.
+<html><body><table><tr><td>Name</td><td>Description</td></tr><tr><td>Field Name</td><td>Lists all fields in the table selected on the left.</td></tr><tr><td>Field Type</td><td>Specifies what type the table fields belong to from the drop-down list, wherein:</td></tr></table></body></html>  
 
-### Editing a Macro
+<html><body><table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>· Part_Type is mandatory, based on which to load data into the CIS tab. Besides, you can see schematic symbol and PCB decal assigned to the part type in the local libraries from the CIS preview window. · Part_Number is mandatory, based on which to check whether part attribute values in design are identical with those in CIS. · Category allows to show table structure hierarchically by subcategories in the CiS tab. · All field types except Normal must be unique.</td></tr><tr><td>Field Alias</td><td>Specifies the table heading for each field to display in the Cis tab. · Field aliases corresponding to Field Type "Part_Type" and "Part_Number" are defined by default, and no modification is allowed. · If nothing is set, Field Name will be used instead.</td></tr><tr><td>Transfer to Design</td><td>Specifies to add the Field Name to the part attributes. If yes, you can see it in the Part Attributes list by checking part properties in the design. Tip</td></tr><tr><td>Visibility in CIS</td><td>When set, Field Alias will be used instead. Specifies to display Field Name in the Cis tab. When set, Field Alias will be used instead.</td></tr><tr><td>Key</td><td>Reserved</td></tr><tr><td>Browsable</td><td>Specifies to add hyperlinks to the field contents in the Cis tab, which often links to such reference files as datasheets and drawings.</td></tr><tr><td>Property Checking</td><td>Specifies attribute(s) to compare in the Part Manager Dialog Box, checking whether the attribute values in design are identical with those in CiS.</td></tr></table></body></html>  
 
-You can copy or cut selected text to the Clipboard. You can also paste the selection from the Clipboard
-into the text window. You can paste text from the Clipboard into other applications. You can also switch
-between open macros to edit multiple macros.
+5. Click Save to save the configuration.  
 
-Restriction:
-If you have Notepad as the default text editor, longer macro files may not be loaded because
-of size constraints in Notepad. See Changing the Default Text Editor  for information on how to
-change the default text editor.
+SailWind Logic automatically connects to the data source and loads specified information into the CIS tab.  
 
-Procedure
+# Adding Parts from CIS  
 
-1. Select the text you want to copy or cut.
+After configuring data source as needed, you can check and use CIS data in the design. To locate parts effeciently, SailWind Logic provides you with filter feature. This section dsecribes how to use CIS data.  
 
-2. On the Macro  tab toolbar, click the Copy  or Cut  buttons.
+**Procedure** 
 
-3. Place the pointer at the insertion point where you want to place the copied text.
+1. Connect to the target data source and specify the table fields to display, as described in "Adding a New Configuration". 2. In the CIS tab, select a table on the left, and view its part information on the right.  
 
-48
+2. Use the filter to locate parts, and click Search to activate the filter. Parts that match the search filter settings are displayed.  
 
-SailWind Logic Guide
+Filtering by feild name and keyword is supported, whereas wildcard or expression is not currently supported.  
 
-User Interface
-Changing the Default Text Editor
+4. Select a part and check its part type (CAE decal) and PCB decal in the preview window.  
 
-4. On the Macro  tab toolbar, click the Paste  button.
+5. Add a part to the design as follows:  
 
-You will see that your selection has been pasted in the Output window at the insertion point.
+a. Double-click the target part in the table. The part attaches to and follows the cursor movement.   
+b. Click on the schematic to place the part; another instance attaches to the cursor automatically.   
+c. Press the Esc key when you are done adding the part(s).  
 
-As an alternative, right-click in the Output window and click Copy, Cut, or Paste.
+6. Select the part in the design, right-click and click the Attributes popup menu item. In the attributes list, you can see attribute(s) added by "Transfer to Design" feature in the Library Config Dialog Box.  
 
-### Changing the Default Text Editor
+# Comparing Part Attributes for Consistency Checking  
 
-To access large files using Edit, you must install an ASCII text editor with a suitable file size capacity.
+Use the Part Manager to compare part attributes in design with those in CIS to check the consistency. For inconsistent attributes, you can update from CIS with multiple options. You can also specify the attributes to compare.  
 
-Procedure
+**Procedure** 
 
-1. Open the SailWindlogic.ini  file in a text editor.
+1. Check that all attributes to compare are selected in the Library Config Dialog Box.  
 
-2. Modify the [general] section, specifying a new text editor executable name. Include the drive and
+2. On the CIS tab toolbar, click the Part... button to activate the comparision.  
 
-folder if the new editor is not in your Windows folder.
+![](/images/cc9c02e5132a2c05d0426c19f286f07061055e6270efbbf0bf1f326a93024a06.jpg)  
 
-3. Save the.ini  file and close the text editor.
+Note: The comparision is conducted on the basis of CIS attribute Part_Number.  
 
-### Saving the Macro
+3. Check the search results in the Part Attribute Info. area, where errors are highlighted in red. You can also:  
 
-Macros are not limited to your current design session. You can save a macro for future recall.
+• Use the filter to search for specific part(s) by the reference designator, schematic sheet, part number, error type, or the Show Error Only button.  
 
-Procedure
+Note:   
+Filtering by Component Name or Part Number is case-sensitive and no wildcard or expression is currently supported.  
 
-1. Click the Save  button.
+• Click on any item in the table, and in the "Comparision Results" area see respective attribute values assigned in design and CIS, with differences highlighted in red.  
 
-2. In the standard Windows “Save As” dialog box, enter a filename, if necessary, and click Save.
+4. Update inconsistent schematic part attribute(s) from CIS in either of the following ways, which takes effect only on parts found with "Attribute is not equal" error.  
 
-Related Topics
+• Click Update All to update all inconsistent part attributes from CIS. Select one or more items in the table, and click Update the Selected to update the inconsistent attributes of the selected parts only. Use Ctrl for multiple selections.   
+• Update attribute(s) for a specific part in the "Comparision Results" area, with two available options: • Update the selected attribute: Right-click on the attribute cell and click the Update Selected Attribute From CIS popup menu item • Update all attributes: Right-click and click the Update Selected Part From CIS popup menu item  
 
-Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]
+# Opening a File That is Already in Use  
 
-SailWind Logic Guide
+The SailWind products help you avoid making changes to a file that is already opened by another user.  
 
-49
+The first user to open a file in a shared location becomes the owner of the file for the duration the file is open; the file is locked to all other users. If you try to open a file that someone else has already opened, you will get a warning message letting you know the current owner and the name of the computer from where the file is locked. You have the option to view a read-only version of the file but you will not be able to update it while the owner still has it open. You can save the file with another name using Save As.  
 
-User Interface
-Macro Playback
+Use the file operations to create and save a new schematic file. You can also open and save existing designs, import and export files from other file formats, and archive your schematics.  
 
-## Macro Playback
-
-You can play back an existing macro using Run. Run also resumes the playback of a paused macro.
-When you play a macro, you cannot use the mouse in the workspace.
-
-Playing Back a Macro
-Pausing a Playing Macro
-Stopping a Playing Macro
-
-### Playing Back a Macro
-
-Once a macro has been recorded, you can play it back.
-
-Procedure
-
-1. On the Macro  tab, click the Open  button and open a macro (.mcr) file.
-
-Recent macros can be found by clicking the Tools > Macros  menu item, and then selecting the
-desired macro from the list.
-
-2. On the Macro  tab toolbar, click the Run  button.
-
-As an alternative, right-click in the Macro  tab and click Run.
-
-### Pausing a Playing Macro
-
-You can pause a macro during playback.
-
-Procedure
-
-1. On the Macro  tab toolbar, click the Pause button to pause a playing macro at any time.
-
-2. Click the Play  button to resume playing the macro.
-
-### Stopping a Playing Macro
-
-You can stop a macro that is currently playing.
-
-Procedure
-
-Right-click in the Macro  tab and click Stop  or on the Macro  tab toolbar, click the Stop  button to stop a
-playing macro.
-
-You cannot resume the playback of the macro once you have stopped it. When you click Run, the macro
-starts from the beginning.
-
-Related Topics
-
-Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]
-
-50
-
-SailWind Logic Guide
-
-User Interface
-Macro Script Debug
-
-## Macro Script Debug
-
-When playing back a macro, you can run it step-by-step, or to a certain location in the script. To perform
-these debugging tasks, insert breakpoints in the macro at the points at which you want the macro to stop.
-
-Setting or Removing Breakpoints
-Debugging the Macro Scripts
-Run-Time Error Correction
-
-### Setting or Removing Breakpoints
-
-The ability to set or remove breakpoints is useful when you debug a macro. If the macro engine
-encounters a breakpoint when playing back a macro, it pauses the macro.
-
-Procedure
-
-1. Place the cursor on the line in which to add a breakpoint.
-
-2. Right-click in the Macro  tab and click Toggle Break, or as an alternative, on the Macro  tab toolbar,
-
-click the Toggle Breakpoint  button.
-
-This inserts a breakpoint at the current cursor location. A breakpoint marker appears in the gutter
-area.
-
-When the macro engine encounters a breakpoint while playing back a macro, it pauses the macro.
-The next line in the macro is marked with the instruction pointer.
-
-SailWind Logic Guide
-
-51
-
-User Interface
-Debugging the Macro Scripts
-
-### Debugging the Macro Scripts
-
-Once breakpoints are inserted, you can debug macros.
-
-Play a Single Line of the Macro
-Perform a Subroutine Call on the Current Line
-Play Back a Macro to a Point
-Return From the Subroutine to the Point From Which it was Called
-Continue the Execution From the Current Point
-
-### Play a Single Line of the Macro
-
-You can play a single line of a macro by using a button on the Macro  tab toolbar or the right mouse button
-menu command.
-
-Procedure
-
-Right-click in the Macro  tab and click the Step Over  menu item, or on the Macro  tab toolbar, click the
-Step Over  button
-
-### Perform a Subroutine Call on the Current Line
-
-You can perform a subroutine call on the current line by using a button on the Macro  tab toolbar or the
-right mouse button menu command.
-
-Procedure
-
-Right-click in the Macro  tab and click Step Into  menu item, or, on the Macro  tab toolbar, click the Step
-into  button.
-
-### Play Back a Macro to a Point
-
-You can play back a macro to a point by using a button on the Macro  tab toolbar or the right mouse
-button menu command.
-
-Procedure
-
-Right-click in the Macro  tab and click the Step to Cursor  menu item, or click the Step to cursor  button
-on the Macro  tab toolbar.
-
-### Return From the Subroutine to the Point From Which it was Called
-
-You can return from the subroutine to the point from which it was called by using a button on the Macro
-tab toolbar or the right mouse button menu command.
-
-Procedure
-
-Right-click in the Macro  tab and click the Step Out  menu item, or, on the Macro  tab toolbar, click the
-Step out  button.
-
-52
-
-SailWind Logic Guide
-
-User Interface
-Continue the Execution From the Current Point
-
-### Continue the Execution From the Current Point
-
-You can continue the execution of a macro from the current point by using a button on the Macro  tab
-toolbar or the right mouse button menu command.
-
-Procedure
-
-Right click in the Macro  tab and click the Run  menu item, or, on the Macro  tab toolbar, click the Run
-button.
-
-### Run-Time Error Correction
-
-If run-time errors occur, the macro debugger switches to step-by-step mode and displays a detailed
-message on the status bar. The instruction pointer is set on the line that produced the error. After fixing
-the error, you can resume playback of the macro.
-
-Related Topics
-
-Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]
-
-## Accessing Help on the Macro Language
-
-You can access help on the macro language at any time.
-
-Procedure
-
-Click in the edit area of the Macro  tab and press F1 for information on the term and a sample script.
-
-SailWind Logic Guide
-
-53
-
-User Interface
-CIS
-
-## CIS
-
-The CIS  tab displays part information from CIS as indicated. You can:
-
-1. Speficy a new configuration for data source to use and choose what to display in the CIS tab.
-
-2. Search and add part(s) from CIS.
-
-3. Compare part attributes in design with those in CIS to check the consistency.
-
-Adding a New Configuration
-
-Adding Parts from CIS
-
-Comparing Part Attributes for Consistency Checking
-
-### Adding a New Configuration
-
-After launch, SailWind Logic automatically connects to the specified data source, from which to load data
-into the CIS  tab.
-
-Follow the steps below to specify a new configuration and choose what to display in the CIS  tab.
-
-Procedure
-
-1. On the CIS  tab toolbar, click the New  button.
-
-2. In the Library Config dailog box, add and connect to the target data source as follows:
-
-a. Click ODBC Config.
-
-b. Add an ODBC data source to use in the pop-up window.
-
-c. Click Update  to make the newly added data source active and available in the ODBC DSN  list.
-
-d. Select the target database from the list to establish connection and load its table list in the
-
-Database Tables area.
-
-3. Select the database table(s) to use by checking the To CIS  checkbox.
-
-Only those selected will be available in the CIS  tab.
-
-4. In the "Table Configuration" area, specify what and how table fields are displayed in the CIS  tab.
-
-For more information, see the table below.
-
-Table  6. Table Configuration Description
-
-Name
-
-Description
-
-Field Name
-
-Lists all fields in the table selected on the left.
-
-Field Type
-
-Specifies what type the table fields belong to from the drop-down
-list, wherein:
-
-54
-
-SailWind Logic Guide
-
-Name
-
-Description
-
-User Interface
-Adding Parts from CIS
-
-• Part_Type is mandatory, based on which to load data into the
-CIS tab. Besides, you can see schematic symbol and PCB
-decal assigned to the part type in the local libraries from the CIS
-preview window.
-
-• Part_Number is mandatory, based on which to check whether
-part attribute values in design are identical with those in CIS.
-
-• Category allows to show table structure hierarchically by
-
-subcategories in the CIS tab.
-
-• All field types except Normal must be unique.
-
-Field Alias
-
-Specifies the table heading for each field to display in the CIS  tab.
-• Field aliases corresponding to Field Type "Part_Type" and
-
-"Part_Number" are defined by default, and no modification is
-allowed.
-
-• If nothing is set, Field Name will be used instead.
-
-Transfer to
-Design
-
-Specifies to add the Field Name to the part attributes. If yes, you
-can see it in the Part Attributes list by checking part properties in
-the design.
-
- Tip
-When set, Field Alias will be used instead.
-
-Visibility in CIS
-
-Specifies to display Field Name in the CIS  tab. When set, Field
-Alias will be used instead.
-
-Key
-
-Reserved
-
-Browsable
-
-Property
-Checking
-
-Specifies to add hyperlinks to the field contents in the CIS  tab,
-which often links to such reference files as datasheets and
-drawings.
-
-Specifies attribute(s) to compare in the Part Manager Dialog Box,
-checking whether the attribute values in design are identical with
-those in CIS.
-
-5. Click Save  to save the configuration.
-
-SailWind Logic automatically connects to the data source and loads specified information into the
-CIS  tab.
-
-### Adding Parts from CIS
-
-After configuring data source as needed, you can check and use CIS data in the design. To locate parts
-effeciently, SailWind Logic provides you with filter feature. This section dsecribes how to use CIS data.
-
-Procedure
-
-1. Connect to the target data source and specify the table fields to display, as described in "Adding a
-
-New Configuration".
-
-2. In the CIS  tab, select a table on the left, and view its part information on the right.
-
-SailWind Logic Guide
-
-55
-
-User Interface
-Comparing Part Attributes for Consistency Checking
-
-3. Use the filter to locate parts, and click Search  to activate the filter. Parts that match the search filter
-
-settings are displayed.
-
-Filtering by feild name and keyword is supported, whereas wildcard or expression is not currently
-supported.
-
-4. Select a part and check its part type (CAE decal) and PCB decal in the preview window.
-
-5. Add a part to the design as follows:
-
-a. Double-click the target part in the table. The part attaches to and follows the cursor movement.
-
-b. Click on the schematic to place the part; another instance attaches to the cursor automatically.
-
-c. Press the Esc key when you are done adding the part(s).
-
-6. Select the part in the design, right-click and click the Attributes popup menu item. In the attributes
-
-list, you can see attribute(s) added by "Transfer to Design" feature in the Library Config Dialog Box.
-
-### Comparing Part Attributes for Consistency Checking
-
-Use the Part Manager to compare part attributes in design with those in CIS to check the consistency. For
-inconsistent attributes, you can update from CIS with multiple options. You can also specify the attributes
-to compare.
-
-Procedure
-
-1. Check that all attributes to compare are selected in the Library Config Dialog Box.
-
-2. On the CIS  tab toolbar, click the Part...  button to activate the comparision.
-
-Note:
-The comparision is conducted on the basis of CIS attribute Part_Number.
-
-3. Check the search results in the Part Attribute Info. area, where errors are highlighted in red. You
-
-can also:
-
-• Use the filter to search for specific part(s) by the reference designator, schematic sheet, part
-
-number, error type, or the Show Error Only  button.
-
-Note:
-Filtering by Component Name or Part Number is case-sensitive and no wildcard or
-expression is currently supported.
-
-• Click on any item in the table, and in the "Comparision Results" area see respective attribute
-
-values assigned in design and CIS, with differences highlighted in red.
-
-4. Update inconsistent schematic part attribute(s) from CIS in either of the following ways, which
-
-takes effect only on parts found with "Attribute is not equal" error.
-
-56
-
-SailWind Logic Guide
-
-User Interface
-
-Opening a File That is Already in Use
-
-• Click Update All  to update all inconsistent part attributes from CIS.
-
-• Select one or more items in the table, and click Update the Selected  to update the inconsistent
-
-attributes of the selected parts only. Use Ctrl for multiple selections.
-
-• Update attribute(s) for a specific part in the "Comparision Results" area, with two available
-
-options:
-
-• Update the selected attribute: Right-click on the attribute cell and click the Update Selected
-
-Attribute From CIS  popup menu item
-
-• Update all attributes: Right-click and click the Update Selected Part From CIS  popup
-
-menu item
-
-## Opening a File That is Already in Use
-
-The SailWind products help you avoid making changes to a file that is already opened by another user.
-
-The first user to open a file in a shared location becomes the owner of the file for the duration the file is
-open; the file is locked to all other users. If you try to open a file that someone else has already opened,
-you will get a warning message letting you know the current owner and the name of the computer from
-where the file is locked. You have the option to view a read-only version of the file but you will not be able
-to update it while the owner still has it open. You can save the file with another name using Save As.
-
-SailWind Logic Guide
-
-57
-
-User Interface
-
-Opening a File That is Already in Use
-
-58
-
-SailWind Logic Guide
-
-Use the file operations to create and save a new schematic file. You can also open and save existing
-designs, import and export files from other file formats, and archive your schematics.

@@ -1,3299 +1,1769 @@
-# **Chapter 7 Library Parts**
+# Chapter 7 Library Parts  
 
-The processes associated with creating, managing and editing library parts contain many levels of 
+The processes associated with creating, managing and editing library parts contain many levels of detail. You can use the Decal Editor to create CAE decals (schematic symbols) including the editing of gates, terminals, pins, pin numbers, sequence numbers, attribute labels, and then use the Part Editor to incorporate the data into part types.  
 
-detail. You can use the Decal Editor to create CAE decals (schematic symbols) including the editing of
+Part Editor Operations   
+Object Selection Control in the Decal Editor   
+Changing and Updating Library Parts   
+Creating New Parts from Existing Parts   
+Save the Part/Decal to the Library   
+Selecting Multiple Objects in the Decal Editor   
+CAE Decals   
+Part Types  
 
-gates, terminals, pins, pin numbers, sequence numbers, attribute labels, and then use the Part Editor to 
+# Part Editor Operations  
 
-incorporate the data into part types.
+Use the Part Editor to create and modify standard schematic symbols such as gates, resistors, capacitors, connectors, etc., and special symbols such as ground/power and off-page references. You also use the Part Editor to create new CAE decals, pin decals, and assign PCB decals, the physical representation of the part in a PCB design system.  
 
-Part Editor Operations
+You can access the Part Editor by clicking the Tools $>$ Part Editor menu item, or clicking the Edit button in the Library Manager dialog box.  
 
-Object Selection Control in the Decal Editor
+Unneeded menu commands and toolbar buttons are removed or replaced with menu commands and toolbar buttons specific to creating and modifying parts.  
 
-Changing and Updating Library Parts
+A SailWind Logic part is comprised of the three elements shown in the following table:  
 
-Creating New Parts from Existing Parts
+Table 15. SailWind Logic Part Elements   
 
-Save the Part/Decal to the Library
 
-Selecting Multiple Objects in the Decal Editor
+<html><body><table><tr><td>Element</td><td>Description</td></tr><tr><td>Part Type</td><td>The electrical information for a part. This includes the logic family, CAE Decal assignment, part name, connection pins, gate swapping information, attributes, etc. See also Modifying Electrical Information for a Part.</td></tr><tr><td>Decal</td><td>gate. See also Creating a New CAE Decal.</td></tr><tr><td>PCB Decal</td><td>The_graphical representation of the part when it is drawn in the PCB design program. It is often referred to as the footprint. Assigning a PCB Decal is optional and only required if you are passing a netlist to SailWind Layout.</td></tr></table></body></html>  
 
-CAE Decals
+• Changing and Updating Library Parts Creating Single Gate Parts Creating Multigate Parts Creating New Parts from Existing Parts Creating a New Connector Creating a New CAE Decal Creating a New Pin Decal Special Schematic Symbols  
 
-Part Types
+# Object Selection Control in the Decal Editor  
 
-## **Part Editor Operations**
+You can control object selection using the preset filter settings, or you can use the Selection Filter dialog box.  
 
-Use the Part Editor to create and modify standard schematic symbols such as gates, resistors, 
+Controlling Object Selection Using Preset Filter Settings Controlling Object Selection Using the Selection Filter Dialog Box  
 
-capacitors, connectors, etc., and special symbols such as ground/power and off-page references. You
+# Controlling Object Selection Using Preset Filter Settings  
 
-also use the Part Editor to create new CAE decals, pin decals, and assign PCB decals, the physical 
+You can control object selection using the preset filter settings that are available from the right mouse button menu. This enables quick access for selecting terminals, labels, drafting items or anything.  
 
-representation of the part in a PCB design system.
+**Procedure** 
 
-You can access the Part Editor by clicking the **Tools > Part Editor** menu item, or clicking the **Edit** button 
+1. Right-click in the Decal Editor.   
+2. Click Select Terminals, Select Labels, or Select Drafting Items. To select all of these options, click Select Anything.  
 
-in the Library Manager dialog box.
+# Controlling Object Selection Using the Selection Filter Dialog Box  
 
-Unneeded menu commands and toolbar buttons are removed or replaced with menu commands and 
+You can control which objects you can select by using the Selection Filter dialog box. This provides quick access for selecting parts, gates, nets, pins, buses, connections, 2D lines, text and other design objects.  
 
-toolbar buttons specific to creating and modifying parts.
+**Procedure** 
 
-A SailWind Logic part is comprised of the three elements shown in the following table:
+1. Do one of the following:  
 
-**Table 15. SailWind Logic Part Elements**
+• Click the Edit $>$ Filter menu item.   
+• Right-click in the workspace and click Filter.   
+• Right-click in the Decal Editor and click Filter.  
 
-**Element** 
+The Selection Filter dialog box appears.  
 
-**Description**
+See alsoUsing the Selection Filter.  
 
-Part Type 
+2. Select one or more of the items, for example: Pins, Labels, 2D Lines, or Text. To select all of these options, click Anything. To clear all of the options, click Nothing.  
 
-The electrical information for a part. This includes the logic family, CAE Decal 
+3. Click Close.  
 
-assignment, part name, connection pins, gate swapping information, attributes, etc.
+# Related Topics  
 
-See also Modifying Electrical Information for a Part.
+Selecting Multiple Objects in the Decal Editor  
 
-Logic or CAE 
+# Changing and Updating Library Parts  
 
-Decal
+When you add a part to a schematic, SailWind Logic creates a copy of the library part and adds it to the schematic database. Thereafter, the schematic representation is uncoupled from the library. Modifying a part in the Part Editor will only affect the library entry of that part, not the current version of the part type in the schematic.  
 
-The CAE decal is the logic symbol that appears on the schematic, for example, a NAND 
+# Related Topics  
 
-gate.
+Modifying Parts The Update From Library Function  
 
-See also Creating a New CAE Decal.
+# Creating New Parts from Existing Parts  
 
-PCB Decal 
+You can create a new part by adapting an existing part. Make a copy of an existing CAE decal if pins need to be added or deleted. Modifying an existing CAE Decal without first making a copy will modify all parts that use that decal.  
 
-The graphical representation of the part when it is drawn in the PCB design program. It 
+# Prerequisites  
 
-is often referred to as the footprint. Assigning a PCB Decal is optional and only required 
+• Verify which CAE decal is referenced by the part you are going to copy.   
+• Modify that CAE decal and save it with a new name.  
 
-if you are passing a netlist to SailWind Layout.
+**Procedure** 
 
-SailWind Logic Guide 
+1. In the Part Editor, click the File $>$ Open menu item, or click the Open button on the toolbar.   
+2. In the Select Type of Editing Item Dialog Box, click CAE Decal and then click OK. The Get Gate Decal from Library dialog box displays.   
+3. In the Items box, type a wildcard or expression on page 105 to filter the symbols, and click Apply.   
+4. Click OK. You enter the Decal Editor and the decal appears.   
+5. Modify the decal as required.   
+6. Click the File $>$ Save As menu item. The Save CAE Decal to Library dialog box displays.   
+7. Type a name for the new CAE decal and select a library folder.   
+8. Click OK.   
+9. Click the File $>$ Exit menu item.  
 
-109Library Parts
+# Note:  
 
-Part Editor Operations
+Making a copy of the part uses the same process as making a copy of the CAE decal, except you select Part Type instead of selecting CAE Decal from the Select type of editing item dialog box.  
 
-• Changing and Updating Library Parts
+• Change both the CAE decal and the electrical information, then save it as a new part.   
+• You can rename a modified decal that you accessed through the part type.  
 
-• Creating Single Gate Parts
+See also Saving Part Types.  
 
-• Creating Multigate Parts
+# Save the Part/Decal to the Library  
 
-• Creating New Parts from Existing Parts
+From within the Part Editor, you can save a part/decal to the library. After adding the part to the library, you can then place it into a design.  
 
-• Creating a New Connector
+**Procedure** 
 
-• Creating a New CAE Decal
+1. Click the File $>$ Save As menu item.   
+   The Save Part and Gate Decals As dialog box appears.   
+2. Select a library folder for the new part. The default is C:\<install_folder>\<version>\Libraries.   
+3. Type a name for the new part or decal.   
+4. Click OK.   
+5. Click the File $>$ Exit Part Editor menu item.  
 
-• Creating a New Pin Decal
+![](/images/c2ff244e1ef9815ba90f686c257069d6b8e84f5de23f9c333d3b83166b507d40.jpg)  
 
-• Special Schematic Symbols
+Tip   
+A checking routine is executed when you save a part. Resolve all errors before exiting the Part Editor; parts with errors cannot be added to the schematic.  
 
-110 
+# Selecting Multiple Objects in the Decal Editor  
 
-SailWind Logic GuideLibrary Parts
+You can select multiple objects in the Decal Editor. This enables you to move, rotate of mirror multiple objects simultaneously.  
 
-Object Selection Control in the Decal Editor
+**Procedure** 
 
-## **Object Selection Control in the Decal Editor**
+1. Use the Filter Selection to determine which objects you can select. See also Object Selection Control in the Decal Editor.  
 
-You can control object selection using the preset filter settings, or you can use the Selection Filter dialog
+2. Do one of the following:  
 
-box.
+Right-click in the Decal Editor and select a filter, or click Select All to select all of the objects that are selected in the Filter Selection dialog box.   
+Click and drag over the objects you want to select.   
+Ctrl+click on each object you want to select.  
 
-Controlling Object Selection Using Preset Filter Settings
+![](/images/49462c3067e4137af8005f7e0e4245393b0f4a2cdf22de76e9bf41d9557f9a6c.jpg)  
 
-Controlling Object Selection Using the Selection Filter Dialog Box
+!Tip  
 
-### **Controlling Object Selection Using Preset Filter** 
+When moving multiple objects in the Decal Editor, right-click to access the Rotate 90, X Mirror, and Y Mirror commands.  
 
-**Settings**
+# CAE Decals  
 
-You can control object selection using the preset filter settings that are available from the right mouse
+Use the CAE Decal Editor to create and edit CAE Decals, otherwise known as schematic symbols or logic decals.  
 
-button menu. This enables quick access for selecting terminals, labels, drafting items or anything.
+Constructing the New CAE Decal   
+Using the Decal Wizard   
+Manually Construct the New Part   
+Creating a New CAE Decal   
+Creating Single Gate Parts   
+Creating Multigate Parts   
+Adding Terminals   
+Changing Objects in the Decal Editor   
+Setting a Pin Number   
+Setting a Pin Name   
+Setting a Pin Type   
+Setting Pin Swaps   
+Changing a Pin Number   
+Changing a Pin Name   
+Changing a Pin Decal   
+Changing Sequence Numbers   
+Attribute Labels   
+Creating Attribute Labels   
+Modifying Terminals   
+Setting the Origin for a Part   
+Getting Gate Decals From the Library   
+Assigning Pin Information to the CAE Decal   
+Saving a Modified Decal With a Different Name  
 
-**Procedure**
+# Constructing the New CAE Decal  
 
-1. Right-click in the Decal Editor.
-2. Click **Select Terminals**, **Select Labels**, or **Select Drafting Items**. To select all of these options,
+Using the Part Editor you can construct a new CAE decal by adding gates and defining the logic family.  
 
-click **Select Anything**.
+**Procedure** 
 
-### **Controlling Object Selection Using the Selection** Filter Dialog Box**
+1. Click the Tools $>$ Part Editor menu item.   
+2. In the Part Editor, on the toolbar, click the Edit Electrical button. This displays the “Part Information for Part dialog box” on page 134.   
+3. In the Part Information for Part dialog box, select the PCB Decals tab to assign the PCB decal. The pin count for the assigned PCB decal must be equal to or greater than the number in the electrical description.   
+4. Select the Gates tab.   
+5. Click Add, once for the each gate in the part. The gates are listed alphanumerically in the Gates multicolumn list box. 6. Double-click on the CAE Decal column for a gate, and then select the Browse (…) button. The Assign Decal to Gate dialog box appears.   
+6. To filter the decals, type a wildcard or expression on page 105 in the Filter box, and click Apply.   
+7. Click Assign. Click OK when you finish assigning decals for the gate.   
+8. (Optional) Assign gate swapping information for the part. Refer to the Gates Tab on page 144 topic for additional information.   
+9. Repeat steps 5 through 8 for the other gates.   
+10. Click the Pins tab to use Pin Count to indicate the number of pins in the part. Enter the number of pins for the entire package including signal pins, not for an individual gate.   
+11. On the General tab, select a Logic Family and Prefix from the list and other electrical information as required. See also Modifying Electrical Information for a Part.   
+12. Click OK.  
 
-You can control which objects you can select by using the Selection Filter dialog box. This provides quick
+# Results  
 
-access for selecting parts, gates, nets, pins, buses, connections, 2D lines, text and other design objects.
+The Part Editor now displays the assigned CAE Decal outlines. Note that no pin information appears.  
 
-**Procedure**
+# Using the Decal Wizard  
 
-1. Do one of the following:
+Use the Decal Wizard dialog box to automatically create a new CAE decal. You must be in the Decal Editor mode of the Part Editor, and creating gate information, to use this feature.  
 
-• Click the **Edit > Filter** menu item.
+**Procedure** 
 
-• Right-click in the workspace and click **Filter**.
+1. Click the Tools $>$ Part Editor menu item.   
+2. In the Part Editor, on the standard toolbar, click the New button.   
+3. In the Select Type of Editing Item dialog box, click CAE Decal, and click OK. You are now in the Decal Editor and ready to create a new CAE decal.   
+4. Click the Decal Editing Toolbar button.   
+5. Click the CAE Decal Wizard button.   
+6. To set the horizontal and vertical distance from the terminal connection point to the decal outline, type a value or use the arrows to indicate the pin length in the Pin Length area.   
+7. To set the horizontal and vertical distance between pins, type a value or use the arrows to specify the distance in the Pin Spacing area.   
+8. To set the width of the decal outline, type a value or use the arrows in the Min Width box.  
 
-• Right-click in the Decal Editor and click **Filter**.
+![](/images/bc5db5136d178339bb64d0d2c5cc55f3abb6612720503cf190c912712b9a8188.jpg)  
 
-The Selection Filter dialog box appears.
+Tip Pin decals are moved left or right to accommodate the box width.  
 
-See alsoUsing the Selection Filter.
+9. To set the minimum height of the decal outline, type a value or use the arrows in the Min Height box.  
 
-2. Select one or more of the items, for example: **Pins**, **Labels**, **2D Lines**, or **Text**. To select all of
+![](/images/19a1694443ac0557c5a39105372d422782f8f32850992dfcf8e6c694ba405984.jpg)  
 
-these options, click **Anything**. To clear all of the options, click **Nothing**.
+!Tip  
 
-3. Click **Close**.
+If you enter a value larger than needed to accommodate the number of input or output pins, space is added to the bottom of the decal.  
 
-**Related Topics**
+10. In the Left Pins area, select the pin decals for the left, or input, side of the part from the Pin Decal list, and then type the number of pins in the Pin Count box or use arrows to indicate the pin count.  
 
-Selecting Multiple Objects in the Decal Editor
+11. In the Right Pins area, select the pin decals for the right, or output, side of the part from the Pin Decal list, and then type the number of pins in the Pin Count box or use arrows to indicate the pin count.  
 
-SailWind Logic Guide 
+12. In the Upper Pins area, select the pin decal to use for the upper pins, and then type the number of pins in the Pin Count box or use arrows to indicate the pin count.  
 
-111Library Parts
+13. In the Lower Pins area, select the pin decal to use for the lower pins, and then type the number of pins in the Pin Count box or use arrows to indicate the pin count.  
 
-Changing and Updating Library Parts
+14. Click OK.  
 
-## **Changing and Updating Library Parts**
+# Results  
 
-When you add a part to a schematic, SailWind Logic creates a copy of the library part and adds it to the 
+The Decal Wizard creates a rectangle of the correct size, adds the pins, and creates place holders for the sequence number, pin number, pin type, and swap information.  
 
-schematic database. Thereafter, the schematic representation is uncoupled from the library. Modifying a
+![](/images/fb3ccdb64a9fcbfcfa9085875156830aa280640abc73f18fc7e86c29b108d8e8.jpg)  
 
-part in the Part Editor will only affect the library entry of that part, not the current version of the part type in
+Tip Use the Part Editor Drafting toolbar to modify the basic information created by the decal wizard. You can add additional terminals, change the pin decal, or change the pin sequence number.  
 
-the schematic.
+# Manually Construct the New Part  
 
-**Related Topics**
+You can manually construct a new part for use in your design by creating the 2D line body shape, adding terminals, assigning pin numbers and pin names.  
 
-Modifying Parts
+**Procedure** 
 
-The Update From Library Function
+1. Click the Tools $>$ Part Editor menu item.   
+2. In the Part Editor, on the Part Editor toolbar, click the New button.   
+3. In the “Select type of editing” dialog box, click Part Type, and click OK.   
+4. On the Part Editor toolbar, click the Edit Graphics button. When prompted, click OK to confirm the   
+   creation of a new part.  
 
-## **Creating New Parts from Existing Parts**
+5. On the Part Editor toolbar, click the Decal Editing Toolbar button to open the Symbol Editing toolbar.  
 
-You can create a new part by adapting an existing part. Make a copy of an existing CAE decal if pins
+6. Click the Create 2D Line button, then construct the body of the decal. Refer to the Creating 2D Line Items topic for additional information.  
 
-need to be added or deleted. Modifying an existing CAE Decal without first making a copy will modify all 
+7. Click the Add Terminal button. See also Adding Terminals.  
 
-parts that use that decal.
+8. Indicate the locations for the terminals.  
 
-**Prerequisites**
+9. Right-click and click Cancel when finished adding terminals.  
 
-• Verify which CAE decal is referenced by the part you are going to copy.
+10. Click the Set Pin Number button.  
 
-• Modify that CAE decal and save it with a new name.
+11. In the Set Pin Number dialog box, in the Start pin number area, type values in the Prefix and/or Suffix boxes.  
 
-**Procedure**
+A preview of pin numbers based on your input is displayed below the boxes.  
 
-1. In the Part Editor, click the **File > Open** menu item, or click the **Open** button on the toolbar.
-2. In the Select Type of Editing Item Dialog Box, click CAE Decal and then click **OK**.
+![](/images/fa9047a3ab59c6ac4426cd8b2a41e129990427e368f6f101d73863514ed3abdb.jpg)  
 
-The Get Gate Decal from Library dialog box displays.
+!Tip  
 
-3. In the Items box, type a wildcard or expression on page 105 to filter the symbols, and click **Apply**.
-4. Click **OK**.
+Exceptions can be applied:  
 
-You enter the Decal Editor and the decal appears.
+• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.   
+• For a single numeric, use either Prefix or Suffix box, and void the other box.  
 
-5. Modify the decal as required.
-6. Click the **File > Save As** menu item.
+12. In the Increment options area, choose what to increment by clicking either Increment prefix or Increment suffix.  
 
-The Save CAE Decal to Library dialog box displays.
+13. In the Step value box, type a positive or negative number to increase or decrease the pin numbers with consecutive or stepped values.  
 
-7. Type a name for the new CAE decal and select a library folder.
-8. Click **OK.**
-9. Click the **File > Exit** menu item.
+14. If using alphanumerics, you can select the Use JEDEC pin numbering check box to ensure legal alphanumeric values are used.  
 
-112 
+15. Click OK.  
 
-SailWind Logic GuideLibrary Parts
+16. Select each pin or pin text in ascending sequence to assign a number. You can click twice on a pin to skip a number.  
 
-Save the Part/Decal to the Library
+![](/images/c9181d9eac12827796de71da0ebcaed515ffc921d79352edcf90207ffc6c3850.jpg)  
 
-**Note:**
+Note: You can use the Change Pin Number button to change a pin number if necessary.  
 
-Making a copy of the part uses the same process as making a copy of the CAE decal, 
+17. Use the other options of the Symbol Editing toolbar to modify the pin numbers and add pin names, pin swapping information, pin type, etc.  
 
-except you select Part Type instead of selecting CAE Decal from the Select type of editing
+18. On the File menu, select Return to Part, and then click Yes when the keep changes to gate message appears.  
 
-item dialog box.
+# Creating a New CAE Decal  
 
-• Change both the CAE decal and the electrical information, then save it as a new part.
+Creating a CAE Decal follows the same basic steps as creating a new packaged part. Start by placing SailWind Logic directly into decal editing mode, and then create the new CAE decal.  
 
-• You can rename a modified decal that you accessed through the part type.
+**Procedure** 
 
-See also Saving Part Types.
+1. Click the Tools $>$ Part Editor menu item.  
 
-## **Save the Part/Decal to the Library**
+2. In the Part Editor, on the Part Editor toolbar, click the New button.  
 
-From within the Part Editor, you can save a part/decal to the library. After adding the part to the library,
+3. In the Select Type of Editing Item Dialog Box, select CAE Decal.  
 
-you can then place it into a design.
+4. Click OK. Four text entries are displayed in the working area  
 
-**Procedure**
+Table 16. CAE Decal Editing Mode - Text Entries In Working Area   
 
-1. Click the **File > Save As** menu item.
 
-The Save Part and Gate Decals As dialog box appears.
+<html><body><table><tr><td>Entry</td><td>Description</td></tr><tr><td>REF</td><td>The default space reserved for the reference designator in the schematic.</td></tr><tr><td>PART-TYPE</td><td>The default location of the part type name in the schematic.</td></tr><tr><td>* Free Label 1</td><td>The default location for the first displayed attribute.</td></tr><tr><td>* Free Label 2</td><td>The default location for the second displayed attribute.</td></tr></table></body></html>  
 
-2. Select a library folder for the new part. The default is *C:\<install_folder>\<version>\Libraries.*
-3. Type a name for the new part or decal.
-4. Click **OK**.
-5. Click the **File > Exit Part Editor** menu item.
+5. Construct the new CAE decal for the part manually or with SailWind-Logic’s Decal Wizard automatic part creation tool.  
 
-**Tip**
+• Use the Decal Wizard on page 116 to create the outline and add terminals. (Optional) Use the Part Editor Symbol Editing Toolbar to add additional terminals, change the pin decal, or change the pin sequence number.   
+(Optional) Add additional attribute labels. See the Creating Attribute Labels topic for more information.  
 
-A checking routine is executed when you save a part. Resolve all errors before exiting the 
+6. Save the part on page 113 to the library.  
 
-Part Editor; parts with errors cannot be added to the schematic.
+# Creating Single Gate Parts  
 
-## **Selecting Multiple Objects in the Decal Editor**
+Single gate parts are parts that are represented by a single schematic symbol, such as an applicationspecific integrated circuit. Perform the basic procedure for creating a single gate part in the Part Editor.  
 
-You can select multiple objects in the Decal Editor. This enables you to move, rotate of mirror multiple
+Creating a new part involves multiple steps, with dialog boxes and information windows to for assistance.   
+See the referenced documentation in the steps that follow for additional information.  
 
-objects simultaneously.
+In the following steps, you create the CAE Decal before entering electrical information. This causes the part type and the CAE decal to share the same name. If you want to use an existing CAE decal instead of creating a new one, specify the electrical information first.  
 
-**Procedure**
+See also Creating Multigate Parts.  
 
-1. Use the Filter Selection to determine which objects you can select.
+**Procedure** 
 
-See also Object Selection Control in the Decal Editor.
+1. Click the Tools $>$ Part Editor menu item.  
 
-2. Do one of the following:
+2. In the Part Editor, click the Edit $>$ CAE Decal Editor menu item, or on the Part Editor toolbar, click the Edit Graphics button.  
 
-SailWind Logic Guide 
+3. In the Select Gate Decal dialog box, enter a name for the decal and click OK when prompted to create a decal for the new part.  
 
-113Library Parts
+Four text entries are displayed in the working area: REF is the default space reserved for the reference designator in the schematic. PART-TYPE is the default location of the part type name in the schematic. \*Free Label 1 is the default location for the first displayed attribute. \*Free Label 2 is the default location for the second displayed attribute.  
 
-Selecting Multiple Objects in the Decal Editor
+See also Attribute Labels.  
 
-• Right-click in the Decal Editor and select a filter, or click **Select All** to select all of the objects 
+4. Construct the new CAE decal for the part manually on page 117 or with the automatic part creation tool in the Decal Wizard on page 116.  
 
-that are selected in the Filter Selection dialog box.
+5. Within the Part Editor, if you created the CAE decal in step 4 using the Decal Wizard, use the Decal Editing Toolbar to modify the pin numbers created by the decal wizard and add pin names, gate swapping information, and so forth.  
 
-• Click and drag over the objects you want to select.
+6. On the File menu, select Complete.  
 
-• Ctrl+click on each object you want to select.
+7. Assign electrical information to the part.  
 
-**Tip**
+a. On the Part Editor toolbar, click the Edit Electrical button. The “Part Information for Part” on page 134 dialog box displays.   
+b. Set the pin count to indicate the total number of pins in the part. This is mandatory if there are signal pins in the part that were not added when you created the CAE decal in the steps above. (Optional) Click the Decals tab to assign the PCB decal. The pin count for the assigned PCB decal must be equal to or greater than the electrical description.   
+c. On the General tab, select a Logic Family from the list. See also Viewing and Setting General Part Information. (Optional) Select the Pins tab and assign power and ground signal information.   
+d. Select the Attributes tab and assign bill of material and part list information.   
+e. Click OK. The Part Editor displays the CAE Decal.  
 
-When moving multiple objects in the Decal Editor, right-click to access the Rotate 90, X
+8. Save the part on page 113 to the library.  
 
-Mirror, and Y Mirror commands.
+# Creating Multigate Parts  
 
-114 
+Multigate parts are parts that use more than one symbol or gate to represent a complete part in the PCB design system, for example, a 7400. This topic discusses the basic procedure for creating a multigate part in SailWind Logic.  
 
-SailWind Logic GuideLibrary Parts
+See the referenced documentation in the topics below for additional information.  
 
-CAE Decals
+The steps required to create a multigate part are as follows:  
 
-## **CAE Decals**
+1. Construct the new CAE decal on page 115 for the part.   
+2. Assigning Pin Information to the CAE Decal   
+3. Save the Part/Decal to the Library.  
 
-Use the CAE Decal Editor to create and edit CAE Decals, otherwise known as schematic symbols or logic 
+# Adding Terminals  
 
-decals.
+A terminal consists of a pin decal and a series of text strings that define the terminal's number, swap data, etc.  
 
-Constructing the New CAE Decal
+**Procedure** 
 
-Using the Decal Wizard
+1. On the Decal Editing Toolbar, click the Add Terminal button.   
+2. In the Pin Decal Browse dialog box, select a decal, then click OK. The pin decal attaches to the cursor.   
+3. Move the cursor into position and click to anchor the pin. Before placing the terminal, you can use the popup menu to modify the orientation of the terminal and modify terminal information, including the pin number, pin name, pin type, and swap class. After a terminal is placed, a new terminal, identical to the first, is attached to the cursor for placement. If you defined a pin number or pin name, these are automatically incremented to the next number and name for the new terminal. If you assigned pin type and swap class, the values are copied to the new terminal.   
+4. When finished, right-click and click Cancel.  
 
-Manually Construct the New Part
+# Changing Objects in the Decal Editor  
 
-Creating a New CAE Decal
+Depending upon the object type that you select, you can choose between a number of different methods to change one or more objects in the Decal Editor. These include such operations as query/modify, move, copy, delete and combine or explode.  
 
-Creating Single Gate Parts
+**Procedure** 
 
-Creating Multigate Parts
+1. Select the objects you want to modify. See also Selecting Multiple Objects in the Decal Editor.  
 
-Adding Terminals
+2. Right-click in the Decal Editor for editing options.  
 
-Changing Objects in the Decal Editor
+3. Refer to the following table to see which editing options are available, depending on the objects selected.  
 
-Setting a Pin Number
+Table 17. Decal Editor - Editing Options Based on Selected Object   
 
-Setting a Pin Name
 
-Setting a Pin Type
+<html><body><table><tr><td>Objects Selected</td><td>Menu Commands Available</td></tr><tr><td>Drafting Items</td><td>Query/Modify, Move, Copy, and Delete. Explode and Combine are available when multiple objects are selected. (See Modifying Drafting Objects)</td></tr><tr><td>Labels</td><td>Move</td></tr><tr><td>Terminals</td><td>Query/Modify, Move, Copy, and Delete (See Modifying Terminals)</td></tr><tr><td>Combination</td><td>Move is available for any combination of objects. Copy and Delete are available for all objects except labels.</td></tr></table></body></html>  
 
-Setting Pin Swaps
+# Setting a Pin Number  
 
-Changing a Pin Number
+Use Set Pin Number to assign pin numbers to several pins. The pin number is incremented each time you select a pin.  
 
-Changing a Pin Name
+**Procedure** 
 
-Changing a Pin Decal
+1. On the Decal Editing toolbar, click the Set Pin Number button.  
 
-Changing Sequence Numbers
+2. In the Set pin number dialog box, in the Start pin number area, type values in the Prefix and/or Suffix boxes.  
 
-Attribute Labels
+A preview of pin numbers based on your input is displayed below the boxes.  
 
-Creating Attribute Labels
+!Tip  
 
-Modifying Terminals
+When entering pin numbers, observe the following:  
 
-Setting the Origin for a Part
+• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.   
+• For a single numeric, use either Prefix or Suffix box, and void the other box.  
 
-Getting Gate Decals From the Library
+3. In the Increment options area, choose what to increment by clicking either Increment prefix or Increment suffix.  
 
-Assigning Pin Information to the CAE Decal
+4. In the Step value box, type a positive or negative number to increase or decrease the pin numbers with consecutive or stepped values.  
 
-Saving a Modified Decal With a Different Name
+5. If using alphanumerics, you can select the “Use JEDEC pin numbering” check box to ensure legal alphanumeric values are used.  
 
-### **Constructing the New CAE Decal**
+6. Click OK.  
 
-Using the Part Editor you can construct a new CAE decal by adding gates and defining the logic family.
+7. Select each pin or pin text in ascending sequence to assign a number.  
 
-**Procedure**
+You can click twice on a pin to skip a number.   
+Use the Change Pin Number button in the Editing Toolbar within the Part Editor to change a pin number if necessary.   
+Right-click and click Cancel when finished.  
 
-1. Click the **Tools > Part Editor** menu item.
-2. In the Part Editor, on the toolbar, click the **Edit Electrical** button.
+# Setting a Pin Name  
 
-This displays the “Part Information for Part dialog box” on page 134.
+Use Set Pin Name to add or change the name for several pins. Pin names label the function of a pin, for example, CLK, DATA0, and so forth. The suffix of the name increments each time you select a pin. This command does not check for duplicate naming conventions.  
 
-3. In the Part Information for Part dialog box, select the **PCB Decals** tab to assign the PCB decal.
+Precede the text with the backslash character (\) to add a bar over the text characters.  
 
-The pin count for the assigned PCB decal must be equal to or greater than the number in the 
+**Procedure** 
 
-electrical description.
+1. On the Decal Editing toolbar, click the Set Pin Name button.  
 
-4. Select the **Gates** tab.
+2. Type the pin name in the information window.  
 
-SailWind Logic Guide 
+3. Click OK.  
 
-115Library Parts
+4. Select each pin to assign names.  
 
-Using the Decal Wizard
+The pin name increments each time you click a pin, enabling you to assign pin names to a part sequentially (for example, D0, D1, D2, and so forth). To skip a particular pin name in the sequence, select the same pin until the desired pin name appears, then continue selecting other pins.  
 
-5. Click **Add**, once for the each gate in the part.
+5. Right-click and click Cancel when finished.  
 
-The gates are listed alphanumerically in the Gates multicolumn list box.
+6. Use the Change Pin Name button from the Part Editor Decal Editing toolbar to change the name of a single pin.  
 
-6. Double-click on the CAE Decal column for a gate, and then select the **Browse (…)** button.
+# Setting a Pin Type  
 
-The Assign Decal to Gate dialog box appears.
+Use Set Pin Type to change the type of pin the terminal represents, for example, load, source, and so on.   
+You can choose between verb mode or object mode when performing this task.  
 
-7. To filter the decals, type a wildcard or expression on page 105 in the Filter box, and click **Apply**.
-8. Click **Assign**. Click **OK** when you finish assigning decals for the gate.
-9. (Optional) Assign gate swapping information for the part.
+Setting a Pin Type Using Verb Mode Setting a Pin Type Using Object Mode  
 
-Refer to the Gates Tab on page 144 topic for additional information.
+# Setting a Pin Type Using Verb Mode  
 
-10. Repeat steps 5 through 8 for the other gates.
-11. Click the **Pins** tab to use Pin Count to indicate the number of pins in the part. Enter the number of 
+You can use verb mode to set pin types. Start the command and then select one or more objects to which you want to apply the command.  
 
-pins for the entire package including signal pins, not for an individual gate.
+**Procedure** 
 
-12. On the **General** tab, select a Logic Family and Prefix from the list and other electrical information 
+1. On the Decal Editing toolbar, click the Set Pin Type button. The Pin Type information window appears.   
+2. Select a pin type from the dropdown list box Table 18 lists the available pin types and their corresponding letters.   
+3. Select the pins to which to apply the pin type information. The text string associated with the pin is modified to reflect the new pin type.   
+4. Repeat steps 2 and 3 if necessary.   
+5. Right-click and click the Cancel popup menu item to exit the verb mode.  
 
-as required.
+# Setting a Pin Type Using Object Mode  
 
-See also Modifying Electrical Information for a Part.
+You can use object mode to set pin types. Select one or more objects and then select the command you want to use to perform an action on them.  
 
-13. Click **OK**.
+**Procedure** 
 
-**Results**
+1. Select the decal pins to which to apply the pin type information.   
+2. On the Decal Editing toolbar, click the Set Pin Type button. The Pin Type information window appears.   
+3. Select a pin type from the dropdown list box. Table 18 lists the available pin types and their corresponding letters.  
 
-The Part Editor now displays the assigned CAE Decal outlines. Note that no pin information appears.
+4. Click OK.  
 
-### **Using the Decal Wizard**
+Table 18. Characters Used to Represent Pin Types   
 
-Use the Decal Wizard dialog box to automatically create a new CAE decal. You must be in the Decal
 
-Editor mode of the Part Editor, and creating gate information, to use this feature.
+<html><body><table><tr><td>Letter</td><td>Represents this pin type</td></tr><tr><td>B</td><td>Bidirectional Pin</td></tr><tr><td>C</td><td>Open Collector Pin</td></tr><tr><td>G</td><td>Ground Pin</td></tr><tr><td>L</td><td>Load Pin</td></tr><tr><td>Ｏ</td><td>Or-Tieable Source Pin</td></tr><tr><td>P</td><td>Power Pin</td></tr><tr><td>Ｓ</td><td>Source Pin</td></tr><tr><td>T</td><td>Tristate Pin</td></tr><tr><td>U</td><td>Undefined</td></tr><tr><td>Z</td><td>Terminator Pin</td></tr></table></body></html>  
 
-**Procedure**
+# Setting Pin Swaps  
 
-1. Click the **Tools > Part Editor** menu item.
-2. In the Part Editor, on the standard toolbar, click the **New** button.
-3. In the Select Type of Editing Item dialog box, click CAE Decal, and click **OK**.
+Use Set Pin Swap to define a swap class for a terminal. The PCB layout software uses swapping information for length minimization and routing optimization. The swap class is assigned by a numeric value. The number for classes is 0, if the pin is not to be swapped under any circumstances, and 1 through 99. A pin can be swapped with any other pin within the gate that has the same swap class number.  
 
-You are now in the Decal Editor and ready to create a new CAE decal.
+Setting Pin Swaps Using Verb Mode Setting Pin Swaps Using Object Mode  
 
-4. Click the **Decal Editing Toolbar** button.
-5. Click the **CAE Decal Wizard** button.
-6. To set the horizontal and vertical distance from the terminal connection point to the decal outline,
+# Setting Pin Swaps Using Verb Mode  
 
-type a value or use the arrows to indicate the pin length in the Pin Length area.
+You can set pin swaps using verb mode. Start the command and then select one or more objects to which you want to apply the command.  
 
-7. To set the horizontal and vertical distance between pins, type a value or use the arrows to specify
+**Procedure** 
 
-the distance in the Pin Spacing area.
+1. On the Decal Editing toolbar, click the Set Pin Swap button.   
+2. Type the number that identifies the swap class in the information window.   
+3. Click OK.   
+4. Select the pins to assign as this swap class.   
+5. Right-click and click the Cancel popup menu item to exit the verb mode.  
 
-8. To set the width of the decal outline, type a value or use the arrows in the Min Width box.
+# Setting Pin Swaps Using Object Mode  
 
-116 
+You can set pin swaps using object mode. Select one or more objects and then select the command you want to use to perform an action on them.  
 
-SailWind Logic GuideLibrary Parts
+**Procedure** 
 
-Manually Construct the New Part
+1. Select the decal pins to assign as the swap class.   
+2. On the Decal Editing toolbar, click the Set Pin Swap button.   
+3. Type the character that identifies the swap class in the information window.   
+4. Click OK.  
 
-**Tip**
+# Changing a Pin Number  
 
-Pin decals are moved left or right to accommodate the box width.
+This command changes the number assigned to a pin. It does not check for duplicate numbering.  
 
-9. To set the minimum height of the decal outline, type a value or use the arrows in the Min Height
+![](/images/a12ddaf923a25df1e9bc24da275831292b6be2b5848a063049e5f5ca85fe06f1.jpg)  
 
-box.
+Tip   
+To assign numbers to several pins in an ascending sequence, use the Set Pin Number button from the Editing Toolbar in the Part Editor.  
 
-**Tip**
+Changing Pin Numbers Using Verb Mode Changing Pin Numbers Using Object Mode  
 
-If you enter a value larger than needed to accommodate the number of input or output 
+# Changing Pin Numbers Using Verb Mode  
 
-pins, space is added to the bottom of the decal.
+You can change pin numbers using verb mode. Start the command and then select one or more objects to which you want to apply the command.  
 
-10. In the Left Pins area, select the pin decals for the left, or input, side of the part from the Pin Decal 
+**Procedure** 
 
-list, and then type the number of pins in the Pin Count box or use arrows to indicate the pin count.
+1. On the Decal Editing toolbar, click the Change Pin Number button.  
 
-11. In the Right Pins area, select the pin decals for the right, or output, side of the part from the Pin 
+2. Type the new number in the information window.  
 
-Decal list, and then type the number of pins in the Pin Count box or use arrows to indicate the pin 
+? Tip Alphanumeric pin numbers are valid.  
 
-count.
+3. Click OK.  
 
-12. In the Upper Pins area, select the pin decal to use for the upper pins, and then type the number of 
+4. Select the terminal requiring a new number.  
 
-pins in the Pin Count box or use arrows to indicate the pin count.
+5. Right-click and click the Cancel popup menu item to exit verb mode.  
 
-13. In the Lower Pins area, select the pin decal to use for the lower pins, and then type the number of 
+# Changing Pin Numbers Using Object Mode  
 
-pins in the Pin Count box or use arrows to indicate the pin count.
+You can change pin numbers using object mode. Select one or more objects and then select the command you want to use to perform an action on them.  
 
-14. Click **OK**.
+**Procedure** 
 
-**Results**
+1. Select the decal terminal.  
 
-The Decal Wizard creates a rectangle of the correct size, adds the pins, and creates place holders for the 
+2. On the Decal Editing toolbar, click the Change Pin Number button.  
 
-sequence number, pin number, pin type, and swap information.
+3. Type the new number in the information window.  
 
-**Tip**
+0 Tip Alphanumeric pin numbers are valid.  
 
-Use the Part Editor Drafting toolbar to modify the basic information created by the decal wizard. 
+4. Click OK to update the selected terminal.  
 
-You can add additional terminals, change the pin decal, or change the pin sequence number.
+# Changing a Pin Name  
 
-### **Manually Construct the New Part**
+Changes the name assigned to a single pin. Pin names are used to label the function of a pin, for example, CLK, DATA0, and so on. This command does not check for duplicate naming conventions.  
 
-You can manually construct a new part for use in your design by creating the 2D line body shape, adding
+Precede the text with the back slash character (\) to add a bar over the text characters.  
 
-terminals, assigning pin numbers and pin names.
+![](/images/e543e96d3975e1caa6b3144a8b2548717685140ac1b188a01925061452a8701a.jpg)  
 
-**Procedure**
+Tip   
+To assign names to several pins in an ascending sequence, use the Set Pin Name button from the Editing Toolbar in the Part Editor.  
 
-1. Click the **Tools > Part Editor** menu item.
-2. In the Part Editor, on the Part Editor toolbar, click the **New** button.
-3. In the “Select type of editing” dialog box, click Part Type, and click **OK**.
-4. On the Part Editor toolbar, click the **Edit Graphics** button. When prompted, click **OK** to confirm the 
+Changing Pin Names Using Verb Mode Changing Pin Names Using Object Mode  
 
-creation of a new part.
+# Changing Pin Names Using Verb Mode  
 
-SailWind Logic Guide 
+You can change pin names using verb mode. Start the command and then select one or more objects to which you want to apply the command.  
 
-117Library Parts
+**Procedure** 
 
-Manually Construct the New Part
+1. On the Decal Editing toolbar, click the Change Pin Name button.   
+2. Select the decal terminal requiring a new name.   
+3. Type the new name in the information window.   
+4. Click OK.   
+5. Right-click and click the Cancel popup menu item to exit verb mode.  
 
-5. On the Part Editor toolbar, click the **Decal Editing Toolbar** button to open the Symbol Editing 
+# Changing Pin Names Using Object Mode  
 
-toolbar.
+You can change pin names using object mode. Select one or more objects and then select the command you want to use to perform an action on them.  
 
-6. Click the **Create 2D Line** button, then construct the body of the decal.
+**Procedure** 
 
-Refer to the Creating 2D Line Items topic for additional information.
+1. Select the decal terminal.   
+2. On the Decal Editing toolbar, click the Change Pin Name button.   
+3. Type the new name in the information window.   
+4. Click OK to update the selected terminal.  
 
-7. Click the **Add Terminal** button.
+# Changing a Pin Decal  
 
-See also Adding Terminals.
+You can select a different pin decal for existing terminals in your schematic symbol. This is especially useful when defining connector pin usage or when redefining a symbol in the library.  
 
-8. Indicate the locations for the terminals.
-9. Right-click and click **Cancel** when finished adding terminals.
-10. Click the **Set Pin Number** button.
-11. In the Set Pin Number dialog box, in the Start pin number area, type values in the Prefix and/or 
+Changing Pin Decals Using Verb Mode Changing Pin Decals Using Object Mode  
 
-Suffix boxes.
+# Changing Pin Decals Using Verb Mode  
 
-A preview of pin numbers based on your input is displayed below the boxes.
+You can change pin decals using verb mode. Start the command and then select one or more objects to which you want to apply the command.  
 
-**Tip**
+**Procedure** 
 
-Exceptions can be applied:
+1. On the Decal Editing toolbar, click the Change Pin Decal button. The Pin Decal Browse Dialog   
+   Box appears.   
+2. Select the new pin decal from the list to add to the gate.   
+3. Click OK.   
+4. Select the terminals requiring new decals to complete the change.   
+5. Right-click and click the Cancel popup menu item to exit the verb mode.  
 
-• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.
+# Changing Pin Decals Using Object Mode  
 
-• For a single numeric, use either Prefix or Suffix box, and void the other box.
+You can change pin decals using object mode. Select one or more objects and then select the command you want to use to perform an action on them.  
 
-12. In the Increment options area, choose what to increment by clicking either Increment prefix or 
+**Procedure** 
 
-Increment suffix.
+1. Select one or more decal terminals.   
+2. Click the Change Pin Decal button.   
+3. Select the in decal required from the list of pin decals.   
+4. Click OK to update the selected terminals.  
 
-13. In the Step value box, type a positive or negative number to increase or decrease the pin numbers 
+# Changing Sequence Numbers  
 
-with consecutive or stepped values.
+Use Change Sequence Number from the Part Editor Decal Editing Toolbar to change the sequence for pins in the part. The pin sequence number is used to set a corresponding number for the pins in alternate CAE decals. When you assign pin numbers with Set Pin Number or change a pin number with Change Pin Number, the same number is assigned to any alternate decals.  
 
-14. If using alphanumerics, you can select the Use JEDEC pin numbering check box to ensure legal 
+**Procedure** 
 
-alphanumeric values are used.
+1. On the Decal Editing toolbar, click the Change Sequence Number button.   
+2. Select the pin requiring a new sequence number.   
+3. Type the new sequence number in the information window.   
+4. Click OK.  
 
-15. Click **OK**.
-16. Select each pin or pin text in ascending sequence to assign a number.
+# Attribute Labels  
 
-You can click twice on a pin to skip a number.
+Attribute Labels are placeholders for attributes within a CAE Decal. When you add an attribute to a part, it is placed in this reserved location. SailWind Logic lets you create an unlimited number of attribute labels.  
 
-**Note:**
+# See also Attributes Overview.  
 
-You can use the **Change Pin Number** button to change a pin number if necessary.
+Use attribute labels to customize attribute locations in the design. You can create and place attribute labels so that when a part is added to a design, assigned attributes are less likely to exist where a connection or other design information exists. You can also specify a unique justification or orientation for the label.  
 
-17. Use the other options of the Symbol Editing toolbar to modify the pin numbers and add pin names, 
+!Tip  
 
-pin swapping information, pin type, etc.
+When working with attribute labels, observe the following:  
 
-18. On the **File** menu, select **Return to Part**, and then click **Yes** when the keep changes to gate 
+• If you add an attribute and do not have an available attribute label, the attribute is added just below the insertion point of the part. Additional attributes are added below the last one.   
+• Attribute labels do not display in the Schematic Editor or the Part Editor. You must be viewing a decal to view an attribute label. Use Display Colors to control the display of attribute labels when creating or edit a decal. See also Setting Display Colors.   
+• You can create an attribute label with a specific name; one that matches the actual attribute's name. This makes placement of specific attribute information easier. You can also use a generic attribute label name, or free label, for any attribute assigned to the part. The name used is \*Free Label N, where N is the number of the labe   
+• As you add attributes, they are placed at either the location that matches the attribute name, if specified, or the first available free label location. See also Creating Attribute Labels.  
 
-message appears.
+# Creating Attribute Labels  
 
-118 
+You can create attribute labels while editing or creating a CAE Decal.  
 
-SailWind Logic GuideLibrary Parts
+**Procedure** 
 
-Creating a New CAE Decal
+1. On the Decal Editing toolbar, click the Add Attribute Label button.  
 
-### **Creating a New CAE Decal**
+2. Define the attribute label using one of the following methods:  
 
-Creating a CAE Decal follows the same basic steps as creating a new packaged part. Start by placing 
+Type a name in the Attribute Name list box for the label that corresponds to an attribute. Select a name from the Attribute Name list box. When you select an attribute name, it is removed from the list box.  
 
-SailWind Logic directly into decal editing mode, and then create the new CAE decal.
+Select \*Free Label to use a free label. When you Select Free Label, the number increments to the next available number.   
+Select Browse Lib Attr to open the Browse Library Attributes dialog box, select an attribute name from the list and then click OK.  
 
-**Procedure**
+3. (Optional) Set the text size, width, or justification.  
 
-1. Click the **Tools > Part Editor** menu item.
-2. In the Part Editor, on the Part Editor toolbar, click the **New** button.
-3. In the Select Type of Editing Item Dialog Box, select CAE Decal.
-4. Click **OK**. Four text entries are displayed in the working area
+4. Click OK. See also Setting Display Colors.  
 
-**Table 16. CAE Decal Editing Mode - Text Entries In Working Area**
+# Modifying Terminals  
 
-**Entry** 
+Use the Terminal Properties dialog box to view or modify the properties of the terminals selected in the Decal Editor.  
 
-**Description**
+**Procedure** 
 
-REF 
+1. In the Decal Editor, right-click a decal terminal and click the Properties popup menu item. This opens the Terminal Properties dialog box.   
+2. To change the pin decal for all the terminals selected in the Decal Editor, click Change Pin Decal.   
+3. In the Pin Decal Browse dialog box, select a pin decal, and then click OK.   
+4. To change the terminal number, type the new value in the Number box. If you select multiple terminals in the Decal Editor, this option is unavailable.   
+5. To change the terminal name, type the new name in the Name box. If you select multiple terminals in the Decal Editor, this option is unavailable.   
+6. To change the swap class value, type a new value in the Swap class box. If the values of the terminals differ, this text box is blank.  
 
-The default space reserved for the reference designator in the schematic.
+7. Click OK.  
 
-PART-TYPE 
+# Setting the Origin for a Part  
 
-The default location of the part type name in the schematic.
+From within the Part Editor, use the Setup $>$ Set Origin menu item to specify a new origin for a CAE Decal. When you add a part in SailWind Logic, the point of insertion is determined by the origin of the decal. You can perform this task while creating or modifying a decal.  
 
-\* Free Label 1 
+**Procedure** 
 
-The default location for the first displayed attribute.
+1. Open a CAE Decal in the Decal Editor and click the Setup $>$ Set Origin menu item.   
+2. Indicate a new origin. An information window with the new X,Y coordinate appears.   
+3. Click Yes to accept the new origin.  
 
-\* Free Label 2 
+# Related Topics  
 
-The default location for the second displayed attribute.
+Creating a New CAE Decal  
 
-5. Construct the new CAE decal for the part manually or with SailWind-Logic’s Decal Wizard
+# Getting Gate Decals From the Library  
 
-automatic part creation tool.
+Use the “Get Gate Decal from Library” dialog box to open an existing CAE Decal in the Part Editor.  
 
-• Use the Decal Wizard on page 116 to create the outline and add terminals.
+**Procedure** 
 
-• (Optional) Use the Part Editor Symbol Editing Toolbar to add additional terminals, change the
+1. In the Part Editor, click the Open button.   
+2. In the “Select Type of Editing Item” dialog box, click CAE Decal and then click OK.   
+3. Type a wildcard or expression on page 105 in the Items box to filter the symbols, and click Apply.   
+4. Select the part from the decals area.   
+5. Click OK. The selected decal displays.  
 
-pin decal, or change the pin sequence number.
+# Assigning Pin Information to the CAE Decal  
 
-• (Optional) Add additional attribute labels. See the Creating Attribute Labels topic for more 
+You can view and modify pin information for a CAE decal in the Part Editor. You can also assign JEDEC pin numbering if your symbol requires you to use that standard.  
 
-information.
+**Procedure** 
 
-6. Save the part on page 113 to the library.
+1. In the Part Editor, open a Part Type, and click the Edit Graphics button.   
+2. In the Select Gate Decal dialog box, select a gate from the Gate list, or select a gate from the work area. The decal displays in the CAE Decal Editor.   
+3. Click the Decal Editing Toolbar button to display the Decal Editing Toolbar, then click the Set Pin Number button.   
+4. In the “Set pin number” dialog box, in the “Start pin number” area, type values in the Prefix and/or Suffix boxes. A preview of pin numbers based on your input is displayed below the boxes.  
 
-### **Creating Single Gate Parts**
+# 0 Tip  
 
-Single gate parts are parts that are represented by a single schematic symbol, such as an application
+When specifying the pin numbers, note the following:  
 
-specific integrated circuit. Perform the basic procedure for creating a single gate part in the Part Editor.
+• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.   
+• For a single numeric, use either Prefix or Suffix box, and void the other box.  
 
-Creating a new part involves multiple steps, with dialog boxes and information windows to for assistance. 
+5. In the Increment options area, choose what to increment by clicking either Increment prefix or Increment suffix.  
 
-See the referenced documentation in the steps that follow for additional information.
+6. In the Step value box, type a positive or negative number to increase or decrease the pin numbers with consecutive or stepped values.  
 
-In the following steps, you create the CAE Decal before entering electrical information. This causes the 
+7. If using alphanumerics, select the “Use JEDEC pin numbering” check box if you want to ensure legal alphanumeric values are used.  
 
-part type and the CAE decal to share the same name. If you want to use an existing CAE decal instead of 
+8. Click OK.  
 
-creating a new one, specify the electrical information first.
+9. Select each pin or pin text in ascending sequence to assign a number.  
 
-See also Creating Multigate Parts.
+You can click twice on a pin to skip a number.  
 
-SailWind Logic Guide 
+Use Change Pin Number to change a pin number if necessary. Refer to the Terminal Toolbox topic for additional information.  
 
-119Library Parts
+The software assigns the same pin numbers to any alternate CAE decals.  
 
-Creating Single Gate Parts
+10. Set other pin information such as pin type and pin swapping, as needed.  
 
-**Procedure**
+11. Right-click and click the Cancel popup menu item to exit the process.  
 
-1. Click the **Tools > Part Editor** menu item.
-2. In the Part Editor, click the **Edit > CAE Decal Editor** menu item, or on the Part Editor toolbar, click
+12. Repeat the steps for the other gates.  
 
-the **Edit Graphics** button.
+# Saving a Modified Decal With a Different Name  
 
-3. In the Select Gate Decal dialog box, enter a name for the decal and click **OK** when prompted to 
+If you modify a decal associated with a part type, use the Save Part and Gate Decals As dialog box to rename the decal. After modifying the decal, you can save it with a different name.  
 
-create a decal for the new part.
+**Procedure** 
 
-Four text entries are displayed in the working area: REF is the default space reserved for the 
+1. Click the File $>$ Return to Part menu item, and then click Yes to the “Returning to Part level - Keep changes to Gate?” prompt.   
+2. Click the File $>$ Save As menu item. The “Save Part and Gate Decals As” dialog box appears.   
+3. Select the decal in the Name of Gate Decal multicolumn list box and click Edit.   
+4. Type a new name for the Decal and click OK.   
+5. Click Yes to the “Part Type item exists. Overwrite item?” prompt to replace the current library part with the one containing the modified decal.  
 
-reference designator in the schematic. PART-TYPE is the default location of the part type name in
+# Related Topics  
 
-the schematic. *Free Label 1 is the default location for the first displayed attribute. *Free Label 2 is 
+Saving Part Types  
 
-the default location for the second displayed attribute.
+# Part Types  
 
-See also Attribute Labels.
+You use the Part Editor to work with part information. This is a collection of the electrical and attribute information that represents the physical characteristics of a part as opposed to the graphical representation contained in the CAE decal.  
 
-4. Construct the new CAE decal for the part manually on page 117 or with the automatic part 
+Modifying Electrical Information for a Part   
+Viewing and Setting General Part Information   
+Editing Logic Families   
+Assigning PCB Decals   
+Assigning Gates to Parts   
+Assigning CAE Decals to Gates   
+Part Information - Pins   
+Managing Attributes   
+Browsing Library Attributes   
+Part Information - Pin Mapping   
+Assigning Alternate Logic Decals for Connector Symbols   
+Saving Part Types   
+Library Management for Saved Part Types   
+Saving a Modified Part Type With a Different Name   
+Creating a New Connector   
+Browsing for Connectors   
+Creating a New Pin Decal   
+Editing Objects in the Decal Editor  
 
-creation tool in the Decal Wizard on page 116.
+# Modifying Electrical Information for a Part  
 
-5. Within the Part Editor, if you created the CAE decal in step 4 using the Decal Wizard, use the
+Use the Part Information dialog box to modify electrical information for a part. Electrical information includes the part statistics, the logic family, the PCB decal assignment, the CAE decal assignment, gate and signal pins, gate swapping information, and various other attributes.  
 
-Decal Editing Toolbar to modify the pin numbers created by the decal wizard and add pin names,
+You must identify the electrical or part type information, before assigning a CAE Decal to the part.  
 
-gate swapping information, and so forth.
+You access this information by clicking the Tools $>$ Part Editor menu item, and then, on the toolbar, click the Edit Electrical button.  
 
-6. On the **File** menu, select **Complete**.
-7. Assign electrical information to the part.
+You can perform the following actions in the Part Information dialog box:  
 
-a. On the Part Editor toolbar, click the **Edit Electrical** button.
+• Viewing and Setting General Part Information - General tab   
+• Assigning PCB Decals to library parts - PCB Decals tab   
+• Assigning Gates to Parts - Gates tab Part Information - Pins tab Managing Attributes - Attributes tab  
 
-The “Part Information for Part” on page 134 dialog box displays.
+Part Information - Pin Mapping tab • Assigning Alternate Logic Decals for Connector Symbols - Connector tab  
 
-b. Set the pin count to indicate the total number of pins in the part.
+# Related Topics  
 
-This is mandatory if there are signal pins in the part that were not added when you created the 
+Managing Libraries and Library Data  
 
-CAE decal in the steps above.
+# Viewing and Setting General Part Information  
 
-(Optional) Click the **Decals** tab to assign the PCB decal.
+Use the General tab in the Part Information dialog box to view part statistics and set family information.  
 
-The pin count for the assigned PCB decal must be equal to or greater than the electrical 
+Viewing Part Statistics Setting the Logic Family Setting General Part Information  
 
-description.
+# Viewing Part Statistics  
 
-c. On the **General** tab, select a Logic Family from the list.
+Information about the part you are creating or editing is listed under part statistic categories.  
 
-See also Viewing and Setting General Part Information.
+Table 19. Part Statistic Categories   
 
-(Optional) Select the **Pins** tab and assign power and ground signal information.
 
-d. Select the **Attributes** tab and assign bill of material and part list information.
+<html><body><table><tr><td>Category</td><td>Description</td></tr><tr><td>Pin Count</td><td>Displays the total number of pins in the part. Includes gate pins, signal pins, and unused pins. If multiple decals are assigned with different pin counts, a range of smallest to largest decal pin counts is shown.</td></tr><tr><td>Decal</td><td>Displays the name of the decal, as chosen on the PCB Decals tab.</td></tr><tr><td>Gate Count</td><td>Displays how many gates exist in the part.</td></tr><tr><td>Signal Pin Count</td><td>Displays the number of signal pins in the part.</td></tr></table></body></html>  
 
-e. Click **OK**.
+# Setting the Logic Family  
 
-The Part Editor displays the CAE Decal.
+You can set the logic family to define a component type and assign an alphanumeric Reference Designator (RefDes) prefix for part recognition in your design.  
 
-8. Save the part on page 113 to the library.
+![](/images/e2cb616d1c7cb2de9dc46606603cfe258cb4a582095316d0c87c5980cb46156a.jpg)  
 
-120 
+# Note:  
 
-SailWind Logic GuideLibrary Parts
+Beginning with PADS 9.0, die parts and flip chips are identified by the Special Purpose settings in the Part Type rather than by the DIE and FLP logic families. With this change, any reference designator (logic family) can be assigned to a die part or flip chip.  
 
-Creating Multigate Parts
+**Procedure** 
 
-### **Creating Multigate Parts**
+1. In the Part Editor, click the Edit Electrical button and in the Part Information for Part dialog box, click the General tab.  
 
-Multigate parts are parts that use more than one symbol or gate to represent a complete part in the PCB 
+2. To identify the logic family, select a logic family from the list in the Logic Family area.  
 
-design system, for example, a 7400. This topic discusses the basic procedure for creating a multigate part 
+When you select a logic family, the default reference designator prefix for this part appears next to Ref. Prefix.  
 
-in SailWind Logic.
+# 0 Tip  
 
-See the referenced documentation in the topics below for additional information.
+The default is UND, or undefined. If you leave the logic family undefined, the software prompts you for the reference designator prefix when you add a part. You can specify an alpha prefix or an alphanumeric prefix.  
 
-The steps required to create a multigate part are as follows:
+3. Alternatively, if you want to add, delete, and edit logic families and default reference designator prefixes, click Families.  
 
-1. Construct the new CAE decal on page 115 for the part.
-2. Assigning Pin Information to the CAE Decal
-3. Save the Part/Decal to the Library.
+The Logic Families dialog box opens.  
 
-### **Adding Terminals**
+a. Make your changes and then click OK to return to the Part Information for Part dialog box.   
+b. Select the new or updated logic family from the list.  
 
-A terminal consists of a pin decal and a series of text strings that define the terminal's number, swap data,
+See also Editing Logic Families.  
 
-etc.
+# Setting General Part Information  
 
-**Procedure**
+You can set the general part information such as logical to physical pin mapping, special purpose part definitions and ECO registration for a part.  
 
-1. On the Decal Editing Toolbar, click the **Add Terminal** button.
-2. In the Pin Decal Browse dialog box, select a decal, then click **OK**.
+**Procedure** 
 
-The pin decal attaches to the cursor.
+1. In the Part Editor, click the Edit Electrical button and in the Part Information for Part dialog box, click the General tab. 2. Select the “Define mapping of Part Type pin numbers to PCB Decal” check box to activate the Pin Mapping tab where you can map logical pin numbers to different physical pin numbers.  
 
-3. Move the cursor into position and click to anchor the pin.
+# Restriction:  
 
-Before placing the terminal, you can use the popup menu to modify the orientation of the terminal 
+Note the following restrictions:  
 
-and modify terminal information, including the pin number, pin name, pin type, and swap class.
+• The check box is unavailable after you add one or more alphanumeric decals to the part type. Remove the assigned alphanumeric decal to make the check box available. The check box also becomes available if you assign a numeric decal. However, you will still need to remove the alphanumeric decal from the list to make the part valid. • You must assign a decal to use the Pin Mapping tab. • Only decals with sequential numerical pin numbers can be used with pin mapping.  
 
-After a terminal is placed, a new terminal, identical to the first, is attached to the cursor for 
+3. Select the Special Purpose check box, then select the appropriate radio button to identify the part as one of the following types:  
 
-placement.
+• Connector — In contrast to other part types, connectors do not require a prefix list, or gate definitions.  
 
-If you defined a pin number or pin name, these are automatically incremented to the next number 
+# Restriction:  
 
-and name for the new terminal.
+When working with connectors, note the following restrictions:  
 
-If you assigned pin type and swap class, the values are copied to the new terminal.
+• This check box is automatically selected when you create or modify connectors. It is unavailable if you open a part other than a connector.   
+• This check box is unavailable when the part already has gate or pin assignments.   
+• The Gate Decals tab is unavailable when the Connector check box is selected.   
+• Some Pins tab controls not applicable to connector parts are disabled.  
 
-4. When finished, right-click and click **Cancel**.
+Die Part — See the following note.  
 
-### **Changing Objects in the Decal Editor**
+• Flip Chip — See the following note.  
 
-Depending upon the object type that you select, you can choose between a number of different methods
+![](/images/50976a96086fb5ae4e6c36066a8cc57e7c2647350239c2691c5bd7698bf20beb.jpg)  
 
-to change one or more objects in the Decal Editor. These include such operations as query/modify, move,
+# Note:  
 
-copy, delete and combine or explode.
+Beginning with PADS 9.0, die parts and flip chips are identified by the Special Purpose settings in the Part Type rather than by the DIE and FLP logic families. With this change, any reference designator (logic family) can be assigned to a die part or flip chip.  
 
-SailWind Logic Guide 
+4. To enable a part to be passed between the design and schematic file for forward and backward annotation, click ECO Registered Part. By default, all existing part types in your design are ECO registered.  
 
-121Library Parts
+![](/images/e6eb81415ad8b4c36fc161c11e4b6761534b27e6fff42cb0e5328c5e91f35929.jpg)  
 
-Setting a Pin Number
+!Tip  
 
-**Procedure**
+Typically, you do not select this check box for non-electrical parts. For example, if you create and add a mounting hole to your design in the layout software, you would not need the part (mounting hole) to pass back to your schematic when you perform a backward annotation of the design.  
 
-1. Select the objects you want to modify.
+5. To apply the part information edits to other parts in the library, type prefixes and wildcards into the Prefix List box matching the names of the other parts to update.  
 
-See also Selecting Multiple Objects in the Decal Editor.
+![](/images/3975e6019670137b1f57693e63c7cc454b4718e70b81ea32f6e090a145213618.jpg)  
 
-2. Right-click in the Decal Editor for editing options.
-3. Refer to the following table to see which editing options are available, depending on the objects 
+# Note:  
 
-selected.
+Examples of prefix and wildcard usage:  
 
-**Table 17. Decal Editor - Editing Options Based on Selected Object**
+• Question mark ? in a prefix acts as a wildcard for one character. The prefix $"?4"$ is the equivalent of $"54"$ or “74”. • If you type $"\textdegree2"$ as the suffix, the edits are applied to all parts ending in 02.  
 
-**Objects Selected** 
+![](/images/335384dbaa5e6d1d7a64be90c717120d42b350b3b69f1998cb6177fb664c6157.jpg)  
 
-**Menu Commands Available**
+# CAUTION:  
 
-Drafting Items 
+The software applies the contents of the Prefix List box when you click OK or Save As from other tabs in the Part Information dialog box.  
 
-Query/Modify, Move, Copy, and Delete. Explode and Combine are 
+6. Click the Check Part button to check the part for missing or inconsistent information while the Part Information dialog box is open.  
 
-available when multiple objects are selected. (See Modifying Drafting 
+7. Click OK.  
 
-Objects)
+# Editing Logic Families  
 
-Labels 
+To add, delete, or modify logic family names and default reference designator prefixes, use the Logic Families dialog box.  
 
-Move
+Adding a Logic Family   
+Changing the Name or Prefix of a Logic Family   
+Deleting a Logic Family  
 
-Terminals 
+# Adding a Logic Family  
 
-Query/Modify, Move, Copy, and Delete (See Modifying Terminals)
+If you are creating a new part for your design that requires a logic family definition that does not exist in the predefined list, you can add a new logic family to the database for use in current and future designs.  
 
-Combination 
+**Procedure** 
 
-Move is available for any combination of objects. Copy and Delete are 
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the General tab and then click the Families button.   
+3. In the Logic Families dialog box, click Add. A new entry opens in the Logic Families list.   
+4. In the Family text box, type the new logic family name.   
+5. Click in the Prefix text box, and type the prefix you want to use for the new family. You can specify an alphabetic prefix or an alphanumeric prefix. The maximum length for the prefi is six characters. The last character must be an alphabetic character.  
 
-available for all objects except labels.
+6. Click OK.  
 
-### **Setting a Pin Number**
+# Changing the Name or Prefix of a Logic Family  
 
-Use Set Pin Number to assign pin numbers to several pins. The pin number is incremented each time you 
+If your design requirements require it, you can change the name or prefix of an existing logic family.  
 
-select a pin.
+**Procedure** 
 
-**Procedure**
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the General tab and then click the Families button.   
+3. In the Logic Families dialog box, select the logic family from the list.   
+4. In the Family text box, type the name of the new family.   
+5. In the Prefix text box, type the new prefix to associate with the new family.   
+6. Click OK.  
 
-1. On the Decal Editing toolbar, click the **Set Pin Number** button.
-2. In the Set pin number dialog box, in the Start pin number area, type values in the Prefix and/or 
+# Deleting a Logic Family  
 
-Suffix boxes.
+If your design requirements change, or you no longer need or support a particular logic family, you can delete a logic family.  
 
-A preview of pin numbers based on your input is displayed below the boxes.
+**Procedure** 
 
-**Tip**
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the General tab and then click the Families button.   
+3. In the Logic Families dialog box, select the logic family that you want to delete from the list.   
+4. Click the Delete button.   
+5. Click OK.  
 
-When entering pin numbers, observe the following:
+# Related Topics  
 
-• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.
+Modifying Electrical Information for a Part  
 
-• For a single numeric, use either Prefix or Suffix box, and void the other box.
+# Assigning PCB Decals  
 
-3. In the Increment options area, choose what to increment by clicking either Increment prefix or 
+To assign decals, or footprints, to library parts, use the PCB Decals tab in the Part Information dialog box.   
+You must assign a decal before assigning gate information, signal pin names, or pin mapping to a part.   
+The decal also specifies the number of pins in the part.  
 
-Increment suffix.
+Assigning an Existing Decal Assigning a New Decal Unassigning a Decal Changing the Default Decal Resetting the Tab Data  
 
-4. In the Step value box, type a positive or negative number to increase or decrease the pin numbers 
+# Assigning an Existing Decal  
 
-with consecutive or stepped values.
+There are situations where you might want to define more than one PCB decal to a part. This enables one symbol to represent different versions of a part that exist in different physical packages. You can assign up to sixteen PCB decals to a part.  
 
-5. If using alphanumerics, you can select the “Use JEDEC pin numbering” check box to ensure legal 
+**Procedure** 
 
-alphanumeric values are used.
+1. Open a Part Type.   
+2. On the toolbar in the Part Editor, click the Edit Electrical button and then, in the Part Information dialog box, click the PCB Decals tab.   
+3. In the Library dropdown list, select the library from which you want to assign decals. The available decals from the selected library appear in the Unassigned Decals list box.  
 
-6. Click **OK**.
+4. To filter the contents of the Unassigned Decals list use any of the following:  
 
-122 
+a. Type Wildcards and Expressions into the Filter box.  
 
-SailWind Logic GuideLibrary Parts
+Tip Type asterisk \* in the Filter box to display all decals.  
 
-Setting a Pin Name
+b. Type a number in the Pin Count box, and then click Apply.  
 
-7. Select each pin or pin text in ascending sequence to assign a number.
+0 Tip Delete all numbers in the Pin Count box to display all decals. This box is always available as a filter to enable decals of differing pin counts to be assigned.  
 
-You can click twice on a pin to skip a number.
+c. Click the “Show only Decals with pin numbers matching Part Type” check box to filter out decals that do not have pin numbers matching existing gate and signal pins on the Pins tab, or the physical pin numbers on the Pin Mapping tab.  
 
-Use the **Change Pin Number** button in the Editing Toolbar within the Part Editor to change a pin
+5. Select a decal name from the Unassigned Decals list box.  
 
-number if necessary.
+6. Click Assign. The selected decal is assigned to the part and moved to the Assigned Decals list box.  
 
-8. Right-click and click **Cancel** when finished.
+![](/images/9a8e700d1f91afbf0693a5e90618a025d6a6053268c0a7d872399d22e67dd3ae.jpg)  
 
-### **Setting a Pin Name**
+!Tip  
 
-Use Set Pin Name to add or change the name for several pins. Pin names label the function of a pin, for 
+As a shortcut, double-click on a decal name to assign it to the part.  
 
-example, CLK, DATA0, and so forth. The suffix of the name increments each time you select a pin. This
+# Restriction:  
 
-command does not check for duplicate naming conventions.
+Note the following restrictions:  
 
-Precede the text with the backslash character (\) to add a bar over the text characters.
+• You must assign a decal with enough pins for all the defined gate pins and signal pins on the Pins tab. • Only decals with sequential numerical pin numbers can be used with pin mapping.  
 
-**Procedure**
+7. To assign additional decals to the part, repeat Steps 4 and 5 above.  
 
-1. On the Decal Editing toolbar, click the **Set Pin Name** button.
-2. Type the pin name in the information window.
-3. Click **OK**.
-4. Select each pin to assign names.
+8. You can check the part for missing or inconsistent information while the Part Information dialog box is open. Click the Check Part button.  
 
-The pin name increments each time you click a pin, enabling you to assign pin names to a part 
+The software checks the assigned decals when you exit the tab (regardless of whether you click the Check Part button) to ensure they contain physical pin numbers for all the gate and signal pins defined in the Pins tab.  
 
-sequentially (for example, D0, D1, D2, and so forth). To skip a particular pin name in the sequence,
+# Assigning a New Decal  
 
-select the same pin until the desired pin name appears, then continue selecting other pins.
+You can specify a decal that does not exist in the library yet, but may exist in another PCB designer’s library, or may be created later.  
 
-5. Right-click and click **Cancel** when finished.
-6. Use the **Change Pin Name** button from the Part Editor Decal Editing toolbar to change the name 
+**Procedure** 
 
-of a single pin.
+1. Open a Part Type.   
+2. In the Part Editor, on the toolbar, click the Edit Electrical button and then in the Part Information dialog box, click the PCB Decals tab.   
+3. Click Assign New.   
+4. In the New PCB Decal dialog box, type a name and click OK. The name is added to the end of the Assigned Decals list.  
 
-SailWind Logic Guide 
+# Unassigning a Decal  
 
-123Library Parts
+As your design needs change, you may need to remove a current decal assignment so that you can reassign a different decal to a part.  
 
-Setting a Pin Type
+**Procedure** 
 
-### **Setting a Pin Type**
+1. Open a Part Type.   
+2. In the Part Editor, on the toolbar, click the Edit Electrical button and then in the Part Information   
+   dialog box, click the PCB Decals tab.   
+3. Select a decal name from the Assigned Decals list box.   
+4. Click Unassign.  
 
-Use Set Pin Type to change the type of pin the terminal represents, for example, load, source, and so on.
+The decal is unassigned from the part, and moved to the Unassigned Decals list box.  
 
-You can choose between verb mode or object mode when performing this task.
+Tip As a shortcut, double-click on a decal name to remove it from the Assigned Decals list.  
 
-Setting a Pin Type Using Verb Mode
+# Changing the Default Decal  
 
-Setting a Pin Type Using Object Mode
+The first decal listed in the Assigned Decals list box is the default decal used when you add the part to Layout. You can make any decal in the Assigned Decals list the default decal by moving it to the top of the list.  
 
-#### **Setting a Pin Type Using Verb Mode**
+**Procedure** 
 
-You can use verb mode to set pin types. Start the command and then select one or more objects to which
+1. Open a Part Type.   
+2. In the Part Editor, on the toolbar, click the Edit Electrical button and then in the Part Information dialog box, click the PCB Decals tab.   
+3. In the Assigned Decals list, select the decal that you want to make the default.   
+4. Click Up until the decal is at the top of the list. The decal becomes the default decal.  
 
-you want to apply the command.
+# Resetting the Tab Data  
 
-**Procedure**
+You may sometimes want to discard changes you have made in the current session with the PCB Decals tab, and return the tab’s data to its original state.  
 
-1. On the Decal Editing toolbar, click the **Set Pin Type** button.
+**Procedure** 
 
-The Pin Type information window appears.
+1. Open a Part Type.   
+2. In the Part Editor, on the toolbar, click the Edit Electrical button and then in the Part Information dialog box, click the PCB Decals tab.   
+3. Click Reset. 一 Tip Clicking Reset affects the current tab only.  
 
-2. Select a pin type from the dropdown list box
+# Related Topics  
 
-Table 18 lists the available pin types and their corresponding letters.
+Modifying Electrical Information for a Part  
 
-3. Select the pins to which to apply the pin type information.
+# Assigning Gates to Parts  
 
-The text string associated with the pin is modified to reflect the new pin type.
+Use the Gates tab to assign gate information to a part, including the number of gates, gate swap information, and CAE Decals for the part.  
 
-4. Repeat steps 2 and 3 if necessary.
-5. Right-click and click the **Cancel** popup menu item to exit the verb mode.
+Note: A space and a period (.) are illegal characters for pin names.  
 
-#### **Setting a Pin Type Using Object Mode**
+Gate Decal and Alternates Gate and Pin Swap Information Assigning Gates to a Part  
 
-You can use object mode to set pin types. Select one or more objects and then select the command you
+# Gate Decal and Alternates  
 
-want to use to perform an action on them.
+For each gate, you can enter the CAE Decal name which is the name of the logic symbol that is used to display the part in the schematic. Alternate decal assignments must have the same number of pins. One primary and three alternate decals may be defined for each gate. Assigning a CAE Decal is optional in SailWind Layout, but required in SailWind Logic.  
 
-**Procedure**
+# Gate and Pin Swap Information  
 
-1. Select the decal pins to which to apply the pin type information.
-2. On the Decal Editing toolbar, click the **Set Pin Type** button.
+If at least one decal is assigned to a part, you can enter or modify its gate information. This includes enabling or disabling swaps for gates within a part or between similar parts. This information lets SailWind Logic know which gates it can substitute for connection length minimization after placement.  
 
-The Pin Type information window appears.
+To gate swap, assign a number to the gate on the Gates tab. Gates with like numbers can swap within the part, or to other similar parts. A value of one (1) indicates that the gate is swappable with gates of the same part type in the schematic database. If a part contains more than one type of swappable gate, then identify the second type with the number 2, the third type with 3, etc. The number 0 indicates that no swapping can occur.  
 
-3. Select a pin type from the dropdown list box.
+# Assigning Gates to a Part  
 
-Table 18 lists the available pin types and their corresponding letters.
+You can assign gates to a part.  
 
-4. Click **OK**.
+**Procedure** 
 
-124 
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Gates tab.   
+2. To add a gate to the part, click Add. The gate appears in the Gate list. The first gate is automatically designated A, the second gate B, and so forth. When you select a gate, the Pins list shows the number of pins for the selected gate.   
+3. To swap gates with the same Swap ID number, select the gate click Edit, and then type a value between 1 and 100 in the Swap column. To disable swap for the gate, type a value of 0.  
 
-SailWind Logic GuideLibrary Parts
+4. To define Logic decals for the gate, select the cell under CAE Decal 1 click Edit, and then type a decal name in the CAE Decal box or click the Browse button to search for a decal from a library.  
 
-Setting a Pin Type Using Object Mode
+The Browse button opens the Assign Decal to Gate dialog box.  
 
-**Table 18. Characters Used** 
+# 0 Tip  
 
-**to Represent Pin Types**
+You can define up to 4 alternates; you do not have to define alternates.  
 
-**Letter** 
+See also Assigning CAE Decals to Gates.  
 
-**Represents this pin type**
+5. To remove the selected gate from the Gates list, click Delete.  
 
-B 
+The gates following the removed gate are automatically renamed in sequential order.  
 
-Bidirectional Pin
+![](/images/65ce2c044a17d74d4acbfccddd05bda401b3825f4ba34fd03099db98affaf67a.jpg)  
 
-C 
+!Tip  
 
-Open Collector Pin
+If you delete a gate, the pins information in the Pins tab is reset. You can add a gate and move the pins from one gate to the other on the Pins tab to retain pin information before you delete the gate.  
 
-G 
+6. To return the options on the tab to the original settings when the tab first appeared, click Reset. This resets only the current tab.  
 
-Ground Pin
+Gate pins are added on the Pins tab.  
 
-L 
+See also Part Information - Pins.  
 
-Load Pin
+# Assigning CAE Decals to Gates  
 
-O 
+The Assign Decal to Gate dialog box is used to assign a decal to each of the gates in a part. Some parts may have multiple gates of different types, so you can assign individual specific decals to each of the gates.  
 
-Or-Tieable Source Pin
+**Procedure** 
 
-P 
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Gates tab.   
+2. Select the cell under CAE Decal 1 and click the Edit button or double-click the cell under CAE Decal 1.   
+3. Type a decal name in the CAE Decal box or click the “...” Browse button to search for a decal from a library. The Browse button opens the Assign Decal to Gate dialog box.   
+4. Select the library from which you want to assign decals. The available decals from the selected library appear in the Unassigned Decals list box. The list changes according to the library you select.   
+5. To limit the items that appear in the Unassigned Decals list box, type a wildcard or expression on page 105 in the Filter box and click Apply.   
+6. Select the decals you want to assign to the gate from the Unassigned Decals list and click Assign.  
 
-Power Pin
+![](/images/f6689cc63f13b60e49b0fc364eb3849fe09ce9d2e5a97658d28bf71da99348c0.jpg)  
 
-S 
+!Tip  
 
-Source Pin
+When assigning decals, observe the following:  
 
-T 
+• The decal you select in the Unassigned Decals list box is displayed in the preview box.   
+• You can assign up to four decals. Assigned decals must have the same number of pins. The first decal is the default decal, the decal used when you add a part to the schematic.  
 
-Tristate Pin
+7. To change the order, select the decal in the Assigned Decals list and click Up or Down.  
 
-U 
+8. To remove a decal from the gate, select it from the Assigned Decals list and click Unassign.  
 
-Undefined
+9. To assign a decal name of a nonexistent decal in the library, click Assign New. The Assign New Gate Decal dialog box appears.  
 
-Z 
+# 0 Tip  
 
-Terminator Pin
+You can specify a decal that does not exist in your library, but may exist in another designer’s library, or that you may create later.  
 
-SailWind Logic Guide 
+10. Click OK to apply your changes.  
 
-125Library Parts
+# Part Information - Pins  
 
-Setting Pin Swaps
+Use the Pins tab in the Part Information dialog box to assign gate pins, signal pins, and unused pins to the part. Pin numbers added to the Pins tab, must match those of the PCB Decal. Use the Pin Mapping tab to overlay logical (schematic) alphanumeric pin numbers onto the physical numeric PCB decal.  
 
-### **Setting Pin Swaps**
+![](/images/7091c9f3e5710c1bf7e390b2dca2a95a0a647fbbaff399741a09cee542e6398e.jpg)  
 
-Use Set Pin Swap to define a swap class for a terminal. The PCB layout software uses swapping 
+Tip To undo all changes for this tab only, click Reset.  
 
-information for length minimization and routing optimization. The swap class is assigned by a numeric 
+Adding One or More Pins to a Part   
+Editing Pin Data   
+Assigning a Signal Pin   
+Assigning an Unused Pin   
+Sorting Table Data   
+Renumbering Pins   
+Deleting Pins   
+Error Checking   
+Signal Pin Nets  
 
-value. The number for classes is 0, if the pin is not to be swapped under any circumstances, and 1 
+# Adding One or More Pins to a Part  
 
-through 99. A pin can be swapped with any other pin within the gate that has the same swap class 
+You can add pins to a part using several methods. You can add all pins automatically by assigning a decal. You can add a single pin to the part, add a series of pins, and paste pins from a database; or you can import pins using a comma separate value (CSV) file.  
 
-number.
+Adding a Single Pin   
+Adding a Series of Pins   
+Assigning a Decal   
+Pasting Pin Information   
+Importing Pins Using a CSV File  
 
-Setting Pin Swaps Using Verb Mode
+# Adding a Single Pin  
 
-Setting Pin Swaps Using Object Mode
+You can use the Pins tab on the Part Information dialog box to add a single pin to a part.  
 
-#### **Setting Pin Swaps Using Verb Mode**
+**Procedure** 
 
-You can set pin swaps using verb mode. Start the command and then select one or more objects to which
+1. Open a Part Type, then, on the toolbar, click the Edit Electrical button.  
 
-you want to apply the command.
+2. On the Pins tab of the Part Information dialog box, click the Add Pin button.  
 
-**Procedure**
+Note:   
+You must add a pin number to make the pin valid, and then change any other fields as needed.  
 
-1. On the Decal Editing toolbar, click the **Set Pin Swap** button.
-2. Type the number that identifies the swap class in the information window.
-3. Click **OK**.
-4. Select the pins to assign as this swap class.
-5. Right-click and click the **Cancel** popup menu item to exit the verb mode.
+If this is the first pin to be added, it takes the default of belonging to Gate-A. If pins already exist, the new pin takes the Pin Group of the currently selected pin.  
 
-#### **Setting Pin Swaps Using Object Mode**
+# Adding a Series of Pins  
 
-You can set pin swaps using object mode. Select one or more objects and then select the command you
+You can use the Pins tab on the Part Information dialog box to add a series of pins to a part.  
 
-want to use to perform an action on them.
+**Procedure** 
 
-**Procedure**
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.   
+2. On the Pins tab of the Part Information dialog box, click the Add Pins button.   
+3. In the Add Pins dialog box, type the number of pins to add in the Number of pins box.   
+   0 Tip Total pins for the part can not exceed 32,767.  
 
-1. Select the decal pins to assign as the swap class.
-2. On the Decal Editing toolbar, click the **Set Pin Swap** button.
-3. Type the character that identifies the swap class in the information window.
-4. Click **OK**.
+4. In the Start pin number area, type values in the Prefix and/or Suffix boxes. A preview of pin numbers based on your input is displayed below the boxes.  
 
-126 
+![](/images/f8dc31d425e3f59b6e0f76ff7e1ed803d3ecc87d6c040519731668af9082cce1.jpg)  
 
-SailWind Logic GuideLibrary Parts
+!Tip  
 
-Changing a Pin Number
+When entering pin numbers, observe the following:  
 
-### **Changing a Pin Number**
+• Alphabetic and numeric values can be used in either box. For example, A1 or 1A. If you type alphanumerics and the decal uses numerics, you must use the Pin Mapping tab to map the alphanumerics onto the decal. • For a single numeric, use either the Prefix or Suffix box, and void the other box.  
 
-This command changes the number assigned to a pin. It does not check for duplicate numbering.
+5. In the Increment options area, choose what to increment by clicking either Increment prefix or Increment suffix.  
 
-**Tip**
+6. In the Step value box, type a positive or negative number by which to increase or decrease the pin numbers with consecutive or stepped values.  
 
-To assign numbers to several pins in an ascending sequence, use the **Set Pin Number** button 
+7. If using alphanumerics, you can select the “Use JEDEC pin numbering” check box to ensure that legal alphanumeric values are used.  
 
-from the Editing Toolbar in the Part Editor.
+8. Click OK.  
 
-Changing Pin Numbers Using Verb Mode
+The new pins display in the list on the Pins tab of the Part Information dialog box.  
 
-Changing Pin Numbers Using Object Mode
+# Assigning a Decal  
 
-#### **Changing Pin Numbers Using Verb Mode**
+When you assign a decal on the PCB Decals tab, the pin numbers from the decal are automatically populated into the Pins tab table. PCB Decal pin numbers can be alphanumeric or numeric and the pin numbers in the PCB Decal must match the pin numbers listed in the Pins tab table.  
 
-You can change pin numbers using verb mode. Start the command and then select one or more objects
+# Pasting Pin Information  
 
-to which you want to apply the command.
+You can copy selected table data from the Pins tab or from Microsoft Excel and paste it into the Pins table. The selected cell in the table is the paste origin. Data is pasted below and to the right of the paste origin.  
 
-**Procedure**
+**Procedure** 
 
-1. On the Decal Editing toolbar, click the **Change Pin Number** button.
-2. Type the new number in the information window.
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.   
+2. If you are copying from Excel, select data and use the Excel Copy command. If you are copying from the Pins tab, select data and click the Copy button on the Pins tab.   
+3. Click the Paste button to paste the data into the table starting at the paste origin.  
 
-**Tip**
+# Restriction:  
 
-Alphanumeric pin numbers are valid.
+When the pasted data includes either Pin Group or Pin Number data, the software adds extra pin rows automatically, otherwise the paste will fail if the number of rows and columns in the pasted data does not match those available in the table below and to the right of the paste origin.  
 
-3. Click **OK**.
-4. Select the terminal requiring a new number.
-5. Right-click and click the **Cancel** popup menu item to exit verb mode.
+# Importing Pins Using a CSV File  
 
-#### **Changing Pin Numbers Using Object Mode**
+You can import data from a comma separated value file into a pins table.  
 
-You can change pin numbers using object mode. Select one or more objects and then select the
+**Procedure** 
 
-command you want to use to perform an action on them.
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.  
 
-**Procedure**
+2. Click the Import CSV button.  
 
-1. Select the decal terminal.
-2. On the Decal Editing toolbar, click the **Change Pin Number** button.
-3. Type the new number in the information window.
+3. In the File Open dialog box, browse and select the CSV file.  
 
-**Tip**
+4. Click Open to begin the import.  
 
-Alphanumeric pin numbers are valid.
+The entire contents of the Pins tab table is replaced with the data of the CSV file.  
 
-4. Click **OK** to update the selected terminal.
+# Note:  
 
-SailWind Logic Guide 
+CSV field names must correspond to the column headers in the Pins tab table. Only the first two characters of the header must match. For example, “Pi” for the Pin Group column. Gate or “Ga” are acceptable alternatives to the Pin Group header.  
 
-127Library Parts
+![](/images/c8c9b726f8645132c6f71ec580a4ea852c775fad5652a777a0bf04e210a51d10.jpg)  
 
-Changing a Pin Name
+Tip A sample CSV file is located in your \SailWind projects\Samples folder.  
 
-### **Changing a Pin Name**
+# Editing Pin Data  
 
-Changes the name assigned to a single pin. Pin names are used to label the function of a pin, for 
+You can click a cell in the row of the pin you are editing to edit the cell contents, or select one or more cells of the same column and click the Edit button.  
 
-example, CLK, DATA0, and so on. This command does not check for duplicate naming conventions.
+**Procedure** 
 
-Precede the text with the back slash character (\) to add a bar over the text characters.
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.   
+2. Click the Pin Group cell and choose gate, signal pin, or unused pin from the list. Gates listed in the Pin Group cell list are added using the Gates tab. Signal pins require a signal name in the Name cell. See Assigning a Signal Pin, Assigning an Unused Pin.   
+3. Click the Number cell and type a pin number for the pin. The Number cell must contain at least 1 character and can contain up to 15 characters.  
 
-**Tip**
+Note: The pin number must match the PCB decal. For example, alphanumeric to alphanumeric.  
 
-To assign names to several pins in an ascending sequence, use the **Set Pin Name** button from 
+![](/images/2a1aafcedf219c67192ebf587392a006169a1d78126845c520071faf9a498979.jpg)  
 
-the Editing Toolbar in the Part Editor.
+!Tip  
 
-Changing Pin Names Using Verb Mode
+Pin numbers can be either numeric or alphanumeric. Prior to PADS2007, alphanumeric pin numbers were not legal on the PCB decal but overlaid the numeric decal numbers, and were stored within the Part Type. You can continue to keep numeric PCB decals and use the Pin Mapping tab to overlay different pin numbers onto the numeric PCB decal pin numbers. See Part Information - Pin Mapping.  
 
-Changing Pin Names Using Object Mode
+4. Click the Name cell and type a pin signal or function name. For example, “Clock” or “CLK.” A pin name is not required. The Name column is not used for unused pins.  
 
-#### **Changing Pin Names Using Verb Mode**
+![](/images/8c29ad8688f7028708ca5a2a8ee338d323cf6924983298fa88e263d5c7cbc5fe.jpg)  
 
-You can change pin names using verb mode. Start the command and then select one or more objects to
+# Restriction:  
 
-which you want to apply the command.
+Gate pin names can contain up to 40 characters, while signal pin names can contain up to 47. All alphanumeric characters are accepted. In signal pin names, you cannot use special characters such as question marks ?, curly braces $\{\}$ , asterisks \*, periods ., commas , , or spaces. But in gate pin names, you can use any character except a space.  
 
-**Procedure**
+5. Click the Type cell and choose a pin type from the list.  
 
-1. On the Decal Editing toolbar, click the **Change Pin Name** button.
-2. Select the decal terminal requiring a new name.
-3. Type the new name in the information window.
-4. Click **OK**.
-5. Right-click and click the **Cancel** popup menu item to exit verb mode.
+The type column is only used with gate pins.  
 
-#### **Changing Pin Names Using Object Mode**
+6. Click the Swap cell and type a swap number, or use the up/down arrows.  
 
-You can change pin names using object mode. Select one or more objects and then select the command
+# 0 Tip  
 
-you want to use to perform an action on them.
+You swap pins within gates to uncross connections and facilitate routing. Pins with like numbers can swap within a gate. Type 0 to disable swapping.  
 
-**Procedure**
+7. Click the Sequence (Seq.) cell and type the gate sequence number. The sequence number determines the mapping of CAE gate pins to PCB decal pins. The sequence is automatically shared with alternate CAE decals. For example, the sequence number shows how pin numbers appear on the CAE gate decal; therefore, in Gate A, sequence number 1 could be pin 1, but in Gate B, sequence number 1 would be pin 4.  
 
-1. Select the decal terminal.
-2. On the Decal Editing toolbar, click the **Change Pin Name** button.
-3. Type the new name in the information window.
-4. Click **OK** to update the selected terminal.
+![](/images/dd3be48dff1702fb1dd34aba27b85cf1338511ab6e9f84b7e04c0430d84cabf1.jpg)  
 
-128 
+# Note:  
 
-SailWind Logic GuideLibrary Parts
+Exception: When editing pin data for connectors, only the Pin Group and Number columns are relevant. Data entered in other columns is rejected. Connectors do not have gates, so the Pin Group column just indicates whether a pin is a connector pin or an unused pin.  
 
-Changing a Pin Decal
+# Assigning a Signal Pin  
 
-### **Changing a Pin Decal**
+Assign signal names to implicit pins—pins which are not displayed on any gate in the schematic. Typically, ground and power pins are the only implicit pins. You are not required to use Signal Pins. Instead, you can add power and ground pins to a gate or create a separate gate for power and/or ground pins. For the parts in the libraries shipped with SailWind Logic, the standard ground signal name is GND. The standard power signal name is $+5V.$  
 
-You can select a different pin decal for existing terminals in your schematic symbol. This is especially
+# Assigning an Unused Pin  
 
-useful when defining connector pin usage or when redefining a symbol in the library.
+You can assign a pin to be an unused pin. An unused pin is a pin that is defined in a PCB decal but has no electrical function in the part type. The unused pin information is not saved in the part type, but is derived automatically based on the number of assigned gate and signal pins to the number of pins in the assigned PCB decal.  
 
-Changing Pin Decals Using Verb Mode
+# Sorting Table Data  
 
-Changing Pin Decals Using Object Mode
+You can sort the columns in a pins table in ascending order.  
 
-#### **Changing Pin Decals Using Verb Mode**
+**Procedure** 
 
-You can change pin decals using verb mode. Start the command and then select one or more objects to
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.   
+2. Double-click a column header to sort the column.  
 
-which you want to apply the command.
+# Renumbering Pins  
 
-**Procedure**
+You can renumber pins in a pins table on the Pins tab of the Part Information dialog box. If required, you can use JEDEC pin numbering.  
 
-1. On the Decal Editing toolbar, click the **Change Pin Decal** button. The Pin Decal Browse Dialog 
+**Procedure** 
 
-Box appears.
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.   
+2. Select one or more cells in the Number column.   
+3. Click the Renumber button. In the Renumber Pins dialog box, the Number of pins box displays the number of pins selected for renumbering.   
+4. In the Start pin number area, type values in the Prefix and/or Suffix boxes. A preview of pin numbers based on your input is displayed below the boxes.  
 
-2. Select the new pin decal from the list to add to the gate.
-3. Click **OK**.
-4. Select the terminals requiring new decals to complete the change.
-5. Right-click and click the **Cancel** popup menu item to exit the verb mode.
+# 0 Tip  
 
-#### **Changing Pin Decals Using Object Mode**
+When entering pin numbers, observe the following:  
 
-You can change pin decals using object mode. Select one or more objects and then select the command
+• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.   
+• For a single numeric, use either the Prefix or Suffix box, and void the other box.   
 
-you want to use to perform an action on them.
+5. In the Increment options area, choose what to increment by clicking either Increment prefix or Increment suffix.   
+6. In the Step value box, type a positive or negative number by which to increase or decrease the pin numbers with consecutive or stepped values.   
+7. If using alphanumerics, you can select the “Use JEDEC pin numbering” check box to ensure that legal alphanumeric values are used.  
 
-**Procedure**
+8. Click OK to apply your changes.  
 
-1. Select one or more decal terminals.
-2. Click the **Change Pin Decal** button.
-3. Select the in decal required from the list of pin decals.
-4. Click **OK** to update the selected terminals.
+The renumbered pins display on the Pins tab of the Part Information dialog box.  
 
-### **Changing Sequence Numbers**
+# Deleting Pins  
 
-Use Change Sequence Number from the Part Editor Decal Editing Toolbar to change the sequence for
+If you need to modify the part, you can delete pins in the Pin table on the Pins tab.  
 
-pins in the part. The pin sequence number is used to set a corresponding number for the pins in alternate 
+**Procedure** 
 
-CAE decals. When you assign pin numbers with Set Pin Number or change a pin number with Change 
+1. Open a Part Type, on the toolbar, click the Edit Electrical button, and then click the Pins tab in the Part Information dialog box.   
+2. Select one or more cells in the Pin column you want to delete and then click the Delete Pins button.  
 
-Pin Number, the same number is assigned to any alternate decals.
+# Error Checking  
 
-SailWind Logic Guide 
+When you click Check Part, OK, or Save As, or when you click a different tab, validation occurs and checks are run for error conditions.  
 
-129Library Parts
+The following conditions are checked:  
 
-Attribute Labels
+• Empty pin numbers, pin numbers with embedded spaces, duplicated Pin numbers or special characters such as question marks ?, curly braces $\{\}$ , asterisks \*, periods ., commas , , or spaces. • Empty, duplicated, or non-sequential sequence numbers within a single gate. • Non-empty Type cells for signal pins or unused pins, or empty Type cells for gate pins. • Pin names with illegal characters for gate pins, net names with illegal characters for signal pins, empty name for signal pins. Blank pin names are permitted for gate pins. • Empty pin swap for gate pins, non-empty pin swap for signal and unused pins. Pin swap values for gate pins outside of the range 0 to 100.  
 
-**Procedure**
+# Signal Pin Nets  
 
-1. On the Decal Editing toolbar, click the **Change Sequence Number** button.
-2. Select the pin requiring a new sequence number.
-3. Type the new sequence number in the information window.
-4. Click **OK**.
+If signal pin nets are invisible, they do not belong to any particular sheet; therefore, they cannot be individually selected using the mouse.  
 
-### **Attribute Labels**
+See also Signal Pin Nets Dialog Box.  
 
-Attribute Labels are placeholders for attributes within a CAE Decal. When you add an attribute to a part, it 
+# Managing Attributes  
 
-is placed in this reserved location. SailWind Logic lets you create an unlimited number of attribute labels.
+Use the Attributes tab in the Part Information dialog box to add an attribute to a part. A large number of predefined attribute types are available for selection.  
 
-See also Attributes Overview.
+See also “Attributes Overview” on page 222.  
 
-Use attribute labels to customize attribute locations in the design. You can create and place attribute
+Adding an Attribute   
+Modifying an Attribute   
+Pasting Attribute Information   
+Deleting an Attribute   
+Setting Default Attributes   
+Adding an Attribute From the Attribute Library   
+Resetting the Attribute List  
 
-labels so that when a part is added to a design, assigned attributes are less likely to exist where a 
+# Adding an Attribute  
 
-connection or other design information exists. You can also specify a unique justification or orientation for
+You can add attribute names and values to a part using the Part Editor.  
 
-the label.
+**Procedure** 
 
-**Tip**
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the Attributes tab.   
+3. Click Add.   
+4. Type an attribute name in the Attribute column.   
+5. Type an attribute value in the Value column.   
+6. Click OK to assign the new attribute.  
 
-When working with attribute labels, observe the following:
+# Modifying an Attribute  
 
-• If you add an attribute and do not have an available attribute label, the attribute is added just 
+You can modify attribute names and values for a part using the Part Editor.  
 
-below the insertion point of the part. Additional attributes are added below the last one.
+**Procedure** 
 
-• Attribute labels do not display in the Schematic Editor or the Part Editor. You must be viewing
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the Attributes tab.   
+3. Double-click an attribute from the Attribute multi-column list box, or select the attribute and click Edit.  
 
-a decal to view an attribute label. Use Display Colors to control the display of attribute labels 
+4. Type a new attribute name or value in the appropriate text box.  
 
-when creating or edit a decal. See also Setting Display Colors.
+![](/images/bf98be76b3784514266c6abbcc42d9aeca181fc11ec394eb97158e246465c031.jpg)  
 
-• You can create an attribute label with a specific name; one that matches the actual attribute's
+!Tip  
 
-name. This makes placement of specific attribute information easier. You can also use a
+Modifying attributes in the Attributes tab modifies the attribute only in the part being edited. Use the Manage Schematic Attributes Dialog Box and the Library Manager Dialog Box to manage attributes design-wide or in all libraries.  
 
-generic attribute label name, or free label, for any attribute assigned to the part. The name used 
+# Pasting Attribute Information  
 
-is *Free Label N, where N is the number of the labe
+You can copy selected table data from the Attribute tab or from Microsoft Excel and paste it into the Attributes table. The selected cell in the table is the paste origin. Data is pasted below and to the right of the paste origin.  
 
-• As you add attributes, they are placed at either the location that matches the attribute name, if 
+**Procedure** 
 
-specified, or the first available free label location. See also Creating Attribute Labels.
+1. In Excel, select data and use the Copy command in Excel, or on the Attributes tab, select data and click the Attributes tab Copy button.   
+2. Click the Paste button to paste the data into the table starting at the paste origin.   
+3. Click OK.  
 
-### **Creating Attribute Labels**
+# Deleting an Attribute  
 
-You can create attribute labels while editing or creating a CAE Decal.
+You can delete attribute names and values for a part using the Part Editor.  
 
-**Procedure**
+**Procedure** 
 
-1. On the Decal Editing toolbar, click the **Add Attribute Label** button.
-2. Define the attribute label using one of the following methods:
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the Attributes tab.   
+3. Select an attribute.   
+4. Click Delete.   
+5. Click OK.  
 
-• Type a name in the Attribute Name list box for the label that corresponds to an attribute.
+# Setting Default Attributes  
 
-• Select a name from the Attribute Name list box. When you select an attribute name, it is 
+You can save a set of attributes as default attributes to be added automatically each time a new part is created.  
 
-removed from the list box.
+**Procedure** 
 
-130 
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the Attributes tab.   
+3. Add all desired default attributes to the list of attributes for a part.   
+4. Click Save As Default.  
 
-SailWind Logic GuideLibrary Parts
+Restriction:   
+Values are not saved along with the default attributes.   
+Tip   
+When the default attribute list is created, it is saved in a defaultattribute.txt file that is shared between SailWind Logic and SailWind Layout.  
 
-Modifying Terminals
+5. Click OK.  
 
-• Select *Free Label to use a free label. When you Select Free Label, the number increments to 
+# Adding an Attribute From the Attribute Library  
 
-the next available number.
+You can search through all of the other attribute lists in the library for attributes to add to your current list.  
 
-• Select **Browse Lib Attr** to open the Browse Library Attributes dialog box, select an attribute 
+**Procedure** 
 
-name from the list and then click **OK**.
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the Attributes tab.   
+3. Click Browse Lib. Attr to search for an attribute. See also Browsing Library Attributes.   
+4. In the Browse Library Attributes dialog box, select an attribute group from the Group dropdown list to limit the display of attributes to only those of a particular group.   
+5. Locate the attribute you want to add from the list and double-click it or select it and click OK to add it to the Attributes tab in the Part Information dialog box.   
+6. Click OK to close the Part Information dialog box.  
 
-3. (Optional) Set the text size, width, or justification.
-4. Click **OK**.
+# Resetting the Attribute List  
 
-See also Setting Display Colors.
+If you make changes to the attribute list and then later decide you do not want to keep them, you can reset the Attribute list for the current session back to the state it was in before the tab was accessed.  
 
-### **Modifying Terminals**
+**Procedure** 
 
-Use the Terminal Properties dialog box to view or modify the properties of the terminals selected in the
+1. In the Part Editor, open a Part Type, and click the Edit Electrical button.   
+2. In the Part Information dialog box, click the Attributes tab.   
+3. Click the Reset button to undo all changes made in the current editing session (returns the attribute list to before the tab was accessed).  
 
-Decal Editor.
+Restriction: Only the current tab is reset.  
 
-**Procedure**
+# Browsing Library Attributes  
 
-1. In the Decal Editor, right-click a decal terminal and click the **Properties** popup menu item.
+You can browse and list all of the attribute names from libraries specified in the Library List dialog box.  
 
-This opens the Terminal Properties dialog box.
+**Procedure** 
 
-2. To change the pin decal for all the terminals selected in the Decal Editor, click **Change Pin Decal**.
-3. In the Pin Decal Browse dialog box, select a pin decal, and then click **OK**.
-4. To change the terminal number, type the new value in the Number box.
+1. Click the Browse Lib. Attr button to open the Browse Library Attributes dialog box.  
 
-If you select multiple terminals in the Decal Editor, this option is unavailable.
+2. In the Filter list, select a category of attributes to match your search.  
 
-5. To change the terminal name, type the new name in the Name box.
+Note: Click Refresh to update the Attributes in library list.  
 
-If you select multiple terminals in the Decal Editor, this option is unavailable.
+3. Select an attribute from the list.  
 
-6. To change the swap class value, type a new value in the Swap class box.
+4. Click OK.  
 
-If the values of the terminals differ, this text box is blank.
+![](/images/3436bb6bcf6e5998ac3f83d40bef174d57b44b1b759615221a1fe88ecde12ffc.jpg)  
 
-7. Click **OK**.
+Tip The Attributes in library list includes part type and decal attributes.  
 
-### **Setting the Origin for a Part**
+# Part Information - Pin Mapping  
 
-From within the Part Editor, use the **Setup > Set Origin** menu item to specify a new origin for a CAE 
+Use the Pin Mapping tab in the Part Information dialog box to overlay alphanumeric pin numbers onto numeric PCB decal pins. Prior to PADS 2007, alphanumeric pin numbers could not be saved in PCB decals.  
 
-Decal. When you add a part in SailWind Logic, the point of insertion is determined by the origin of the 
+# Requirements:  
 
-decal. You can perform this task while creating or modifying a decal.
+• On the General tab, select the “Define mapping of Part Type pin numbers to PCB Decal” check box to make the Pin Mapping tab available. On the PCB Decals tab, assign a decal with sequential numerical pin numbers to use the Pin Mapping tab. The decal determines the number of pins in the part.  
 
-**Procedure**
+!Tip  
 
-1. Open a CAE Decal in the Decal Editor and click the **Setup > Set Origin** menu item.
-2. Indicate a new origin.
+To undo all changes for this tab only, click Reset.  
 
-An information window with the new X,Y coordinate appears.
+Mapping Alphanumeric Pin Numbers to Numeric Decals   
+Unmapping Pins   
+Checking the part  
 
-3. Click **Yes** to accept the new origin.
+# Mapping Alphanumeric Pin Numbers to Numeric Decals  
 
-SailWind Logic Guide 
+You can use the Pin Mapping tab to map alphanumeric pin numbers to numeric decals.  
 
-131Library Parts
+# Prerequisites  
 
-Getting Gate Decals From the Library
+• On the General tab of the Part Information dialog box, select the “Define mapping of Part Type pin numbers to PCB Decal” check box to make the Pin Mapping tab available. On the PCB Decals tab, assign a decal with sequential numerical pin numbers to use the Pin Mapping tab. The decal determines the number of pins in the part.  
 
-**Related Topics**
+**Procedure** 
 
-Creating a New CAE Decal
+1. Click the Pin Mapping tab of the Part Information dialog box. In the decal list above the preview window, select the assigned decal to which you want to map alphanumeric pins.  
 
-### **Getting Gate Decals From the Library**
+2. Map the pins using one of the following methods:  
 
-Use the “Get Gate Decal from Library” dialog box to open an existing CAE Decal in the Part Editor.
+• In the Unmapped Pins list, select one or more alphanumerics. Select one or the starting row in the Part Type column if you have a consecutive list to map. Click Map.   
+• Select a cell in the Part Type column and click the Edit button, or simply double-click the cell. Select an alphanumeric in the Unmapped Pins list and double click the pin in the decal preview window to map the alphanumeric to the pin. The next row in the Unmapped Pins list becomes the next selected alphanumeric for mapping.  
 
-**Procedure**
+Click Copy Map to copy both columns of the mapping table. Paste the mapping table into Excel. Make mass edits. Copy the data from Excel and click Paste Map on the Pin Mapping tab.  
 
-1. In the Part Editor, click the **Open** button.
-2. In the “Select Type of Editing Item” dialog box, click CAE Decal and then click **OK**.
-3. Type a wildcard or expression on page 105 in the Items box to filter the symbols, and click **Apply**.
-4. Select the part from the decals area.
-5. Click **OK**. The selected decal displays.
+Restriction:   
+Copy Map and Paste Map only work with the whole pin mapping table and not selective rows.  
 
-### **Assigning Pin Information to the CAE Decal**
+3. Repeat as necessary.  
 
-You can view and modify pin information for a CAE decal in the Part Editor. You can also assign JEDEC
+4. Click OK.  
 
-pin numbering if your symbol requires you to use that standard.
+# Unmapping Pins  
 
-**Procedure**
+You can use the Pin Mapping tab to unmap pins from a decal.  
 
-1. In the Part Editor, open a Part Type, and click the **Edit Graphics** button.
-2. In the Select Gate Decal dialog box, select a gate from the Gate list, or select a gate from the work 
+# Prerequisites  
 
-area.
+• On the General tab of the Part Information dialog box, select the “Define mapping of Part Type pin numbers to PCB Decal” check box to make the Pin Mapping tab available. On the PCB Decals tab, assign a decal with sequential numerical pin numbers to use the Pin Mapping tab. The decal determines the number of pins in the part.  
 
-The decal displays in the CAE Decal Editor.
+**Procedure** 
 
-3. Click the **Decal Editing Toolbar** button to display the Decal Editing Toolbar, then click the **Set Pin** 
+1. On the Pin Mapping tab of the Part Information dialog box, select a Decal pin number.   
+2. Click Unmap.  
 
-**Number** button.
+# Checking the part  
 
-4. In the “Set pin number” dialog box, in the “Start pin number” area, type values in the Prefix and/or 
+After you have finished entering or editing part information, you can check to ensure the information entered in the Part Information dialog box is correct.  
 
-Suffix boxes.
+**Procedure** 
 
-A preview of pin numbers based on your input is displayed below the boxes.
+Click the Check Part button to check for missing or inconsistent information entered in the Part Information dialog box.  
 
-**Tip**
+# Assigning Alternate Logic Decals for Connector Symbols  
 
-When specifying the pin numbers, note the following:
+Use the Connector tab to define the alternate Logic decals to display in a schematic. Decals are referred to as Special Symbols. You can associate a logical Pin Type with each alternate so that you can have a graphical indication of the connector pin function in the schematic.  
 
-• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.
+# Restriction:  
 
-• For a single numeric, use either Prefix or Suffix box, and void the other box.
+The Connector tab is available only when you open an existing connector or create a new connector.  
 
-5. In the Increment options area, choose what to increment by clicking either Increment prefix or 
+# 0 Tip  
 
-Increment suffix.
+Many users like to use a different symbol, or decal, to distinguish between input (Source) and output (Load) pins. You may define multiple symbols for each of the ten different pin types.  
 
-6. In the Step value box, type a positive or negative number to increase or decrease the pin numbers 
+You can define Special Symbols, or connector decals, for different pin types in the part.  
 
-with consecutive or stepped values.
+**Procedure** 
 
-132 
+1. Open a Part Type, click the Edit Electrical button on the toolbar and then click the Connector tab.   
+2. Click Add.   
+3. Type a Special Symbol or select one from a library by clicking the Browse button.   
+   The Browse button opens the Browse for Special Symbols Dialog Box.   
+4. Double-click the new Pin Type entry, or select the new entry and click Edit.   
+5. Select a Pin Type from the Pin Type dropdown list.   
+6. If you want to remove the special symbol from the list, click Delete.   
+7. To return the options on the tab to the original settings when the tab first appeared, click Reset.  
 
-SailWind Logic GuideLibrary Parts
+0 Tip Reset only resets the current tab.  
 
-Saving a Modified Decal With a Different Name
+# Saving Part Types  
 
-7. If using alphanumerics, select the “Use JEDEC pin numbering” check box if you want to ensure 
+After you finish defining or editing your Part Types, you can save them to the library for further use in the current and future design sessions.  
 
-legal alphanumeric values are used.
+Use the Save Part and Gate Decals As Dialog Box to save part types to the library. You can also rename the associated decal during the save process. If you change the pin count or other information in the decal, this prevents other parts that use the same decal from being affected.  
 
-8. Click **OK**.
-9. Select each pin or pin text in ascending sequence to assign a number.
+![](/images/2cd0f39c49622fc6ec4f334a34035cac1854373abf5c4ff298611c5f5e53f942.jpg)  
 
-You can click twice on a pin to skip a number.
+Tip   
+The Change Type option of the Part Properties dialog box will not update the schematic copy of the part with the modified version in the library if you decrease the number of pins in the associated decal.  
 
-Use **Change Pin Number** to change a pin number if necessary. Refer to the Terminal Toolbox
+**Procedure** 
 
-topic for additional information.
+1. Click the File $>$ Save As menu item.  
 
-The software assigns the same pin numbers to any alternate CAE decals.
+2. In the “Save Part and Gate Decals As” dialog box, type a name in the Name of Part text box.  
 
-10. Set other pin information such as pin type and pin swapping, as needed.
-11. Right-click and click the **Cancel** popup menu item to exit the process.
-12. Repeat the steps for the other gates.
+3. Select a library location from the Library dropdown list box.  
 
-### **Saving a Modified Decal With a Different Name**
+To change the name of the associated decal, select the decal from the CAE Decal column of the Names of Decals multicolumn list box and click Edit.  
 
-If you modify a decal associated with a part type, use the Save Part and Gate Decals As dialog box to 
+Type a new name for the decal.  
 
-rename the decal. After modifying the decal, you can save it with a different name.
+4. ClickOK.  
 
-**Procedure**
+5. If the part type already exists, the message “Part Type item exists. Overwrite item Y/N?” appears. Click Yes to overwrite the part or No to cancel the save.  
 
-1. Click the **File > Return to Part** menu item, and then click **Yes** to the “Returning to Part level - Keep 
+6. If you modified the part using Edit Part/Hierarchical Symbol to enter the Part Editor, the message “Update all parts of Part Type” appears. Click Yes to update parts on the schematic with the revised library version or No to leave the schematic version of the part unchanged.  
 
-changes to Gate?” prompt.
+# Library Management for Saved Part Types  
 
-2. Click the **File > Save As** menu item.
+Knowing where parts are located can help you to better manage your library content. Part Type and decals are saved in specific locations so that they can be logically arranged and found when needed.  
 
-The “Save Part and Gate Decals As” dialog box appears.
+The library folder used for part types and associated decals is described below:  
 
-3. Select the decal in the Name of Gate Decal multicolumn list box and click **Edit**.
-4. Type a new name for the Decal and click **OK**.
-5. Click **Yes** to the “Part Type item exists. Overwrite item?” prompt to replace the current library part
+• Part type data is saved under the name and library chosen in the Save Part and Gate Decals As dialog box.   
+• Decals created when editing the part type are saved in the same library as the part type.   
+Decals that are modified but not renamed are saved to the library from which they were opened.   
+Renamed decals, whether modified or not, if unique across all libraries, are saved in the same library as the part type.   
+• Renamed decals that are not unique across all libraries display the overwrite warning prompt. If you click Yes to overwrite an existing decal with the renamed decal, it replaces the library copy in its current library. If you answer No to the overwrite prompt, you can select a different decal name and folder.  
 
-with the one containing the modified decal.
+# Related Topics  
 
-**Related Topics**
+Save Part and Gate Decals As Dialog Box  
 
-Saving Part Types
+Saving a Modified Decal With a Different Name  
 
-SailWind Logic Guide 
+Saving a Modified Part Type With a Different Name  
 
-133Library Parts
+# Saving a Modified Part Type With a Different Name  
 
-Part Types
+If you modify a part type and want to keep the existing library copy, use the Save Part and Gate Decals As dialog box to rename the part. After modifying the electrical information you can save the modified part.  
 
-## **Part Types**
+**Procedure** 
 
-You use the Part Editor to work with part information. This is a collection of the electrical and
+1. Click the File $>$ Save As menu item. The Save Part and Gate Decals As dialog box appears.   
+2. Type a new name for the part type in the Name of Part text box.   
+3. (Optional) Use the Library dropdown list box to specify a new library location. See also Library Management for Saved Part Types, Saving a Modified Decal With a Different Name.   
+4. Click OK.  
 
-attribute information that represents the physical characteristics of a part as opposed to the graphical 
+Related Topics Saving Part Types  
 
-representation contained in the CAE decal.
+# Creating a New Connector  
 
-Modifying Electrical Information for a Part
+Connectors differ from other parts in that a connector is typically shown as a number of individual pins, rather than a single complete part. When a connector is used on a schematic, the pin number rather than the reference designation is incremented, for example, P1-1, P1-2, P1-3, not P1, P2, P3.  
 
-Viewing and Setting General Part Information
+Also, you can assign several CAE Decals to a connector for left and right side locations on the schematic and for alternate decals. The connectors supplied with SailWind Logic use the prefix CON in their name. You can open an existing connector to see how they are constructed.  
 
-Editing Logic Families
+**Procedure** 
 
-Assigning PCB Decals
+1. In the Part Editor, click the New button.   
+2. In the Select type of editing item dialog box, select “Connector” and then click OK.   
+3. Click the Edit Electrical button. The Part Information for Part -- New Connector dialog box on page 134 displays.   
+4. On the Pins tab, add pins. For more information, see Part Information - Pins.   
+5. Select the Connector tab.   
+6. Add the schematic symbols for the connector in the Special Symbols area. See also Connector Tab on page 159.   
+7. Select the PCB Decals tab to assign PCB decals for the connector. See also PCB Decals Tab on page 141.  
 
-Assigning Gates to Parts
+8. Select the Attributes tab to assign attribute information. See the Managing Attributes topic for more information. 9. Click OK to close the Part Information dialog box. The connector symbols display in the Part Editor. 10. Click the File $>$ Save As menu item. 11. Enter a name and library folder location. 12. Click OK. 13. Click the File $>$ Exit Part Editor menu item.  
 
-Assigning CAE Decals to Gates
+# Browsing for Connectors  
 
-Part Information - Pins
+Use the Browse for Connector dialog box to access the library and open an existing connector.  
 
-Managing Attributes
+**Procedure** 
 
-Browsing Library Attributes
+1. Type a wildcard or expression on page 105 in the Items box to filter the connectors, and click Apply.   
+2. Select a connector from the list.   
+3. Click OK. The connector decal(s) display in the Part Editor.  
 
-Part Information - Pin Mapping
+# Related Topics  
 
-Assigning Alternate Logic Decals for Connector Symbols
+Creating a New Connector  
 
-Saving Part Types
+# Creating a New Pin Decal  
 
-Library Management for Saved Part Types
+Pin Decals are used to represent the terminal pins on a part. You can make a copy of an existing pin decal and modify it or you can create a new pin decal.  
 
-Saving a Modified Part Type With a Different Name
+Create a New Pin From an Existing Pin Decal Create a New Pin Decal  
 
-Creating a New Connector
+# Create a New Pin From an Existing Pin Decal  
 
-Browsing for Connectors
+To save design time and promote reuse, you can create a new pin from an existing pin decal.  
 
-Creating a New Pin Decal
+**Procedure** 
 
-Editing Objects in the Decal Editor
+1. In the Part Editor, click the Open button.   
+2. In the Select Type of Editing Item Dialog Box, select “Pin Decal” and then click OK The Pin Decal Browse dialog box displays.   
+3. Select an existing pin decal from the Pins area. The highlighted decal is displayed in the Picture area.   
+4. Click OK.   
+5. Modify the graphics for the decal and position the text strings as required.   
+6. Click the File $>$ Save As menu item. The Save Item to Library dialog box displays.   
+7. Enter a name and library location for the new pin decal.   
+8. Click OK.  
 
-### **Modifying Electrical Information for a Part**
+# Create a New Pin Decal  
 
-Use the Part Information dialog box to modify electrical information for a part. Electrical information 
+When you create a new Pin Decal, SailWind Logic automatically creates the necessary text strings for the associated pin information. You only need to specify the 2D lines that represent the terminal pin, then reposition the text strings.  
 
-includes the part statistics, the logic family, the PCB decal assignment, the CAE decal assignment, gate
+**Procedure** 
 
-and signal pins, gate swapping information, and various other attributes.
+1. In the Part Editor, click the New button.   
+2. In the Select Type of Editing Item Dialog Box, select Pin Decal.   
+3. Click OK. Four text entries are displayed in the working area:   
+   • #E is a placeholder for the pin number.   
+   • PNAME is a placeholder for the pin name. NETNAME is a placeholder for the net name.   
+   • #0:TYP $\cdot=\cup$ SWP $\scriptstyle=0$ are placeholders for the sequence number, pin type and swap class.  
 
-You must identify the electrical or part type information, before assigning a CAE Decal to the part.
+4. Use the Create 2D Line button in the Decal Editing toolbar to create the pin decal.  
 
-You access this information by clicking the **Tools > Part Editor** menu item, and then, on the toolbar, click
+5. Reposition the text strings, if necessary.  
 
-the **Edit Electrical** button.
+6. Click the File $>$ Save menu item.  
 
-You can perform the following actions in the Part Information dialog box:
+The Save Item to Library dialog box appears.  
 
-• Viewing and Setting General Part Information - **General** tab
+7. Enter a name and library location for the new pin decal.  
 
-• Assigning PCB Decals to library parts - **PCB Decals** tab
+8. Click OK.  
 
-• Assigning Gates to Parts - **Gates** tab
+Tip To control which decals are displayed in the Pin Decal List, use the Pin List Manager  
 
-• Part Information - Pins tab
+# Editing Objects in the Decal Editor  
 
-• Managing Attributes - **Attributes** tab
+The Decal Editor offers a flexible environment for editing your decals. You can create new parts, edit existing parts and also create derivative parts from existing parts.  
 
-134 
+To edit objects in the Decal Editor, refer to the following topics:  
 
-SailWind Logic GuideLibrary Parts
+• Object Selection Control in the Decal Editor Selecting Multiple Objects in the Decal Editor Changing Objects in the Decal Editor Modifying Terminals  
 
-Modifying Electrical Information for a Part
-
-• Part Information - Pin Mapping tab
-
-• Assigning Alternate Logic Decals for Connector Symbols - **Connector** tab
-
-**Related Topics**
-
-Managing Libraries and Library Data
-
-SailWind Logic Guide 
-
-135Library Parts
-
-Viewing and Setting General Part Information
-
-### **Viewing and Setting General Part Information**
-
-Use the **General** tab in the Part Information dialog box to view part statistics and set family information.
-
-Viewing Part Statistics
-
-Setting the Logic Family
-
-Setting General Part Information
-
-#### **Viewing Part Statistics**
-
-Information about the part you are creating or editing is listed under part statistic categories.
-
-**Table 19. Part Statistic Categories**
-
-**Category** 
-
-**Description**
-
-Pin Count 
-
-Displays the total number of pins in the part. Includes gate pins, signal 
-
-pins, and unused pins. If multiple decals are assigned with different pin 
-
-counts, a range of smallest to largest decal pin counts is shown.
-
-Decal 
-
-Displays the name of the decal, as chosen on the **PCB Decals** tab.
-
-Gate Count 
-
-Displays how many gates exist in the part.
-
-Signal Pin Count 
-
-Displays the number of signal pins in the part.
-
-#### **Setting the Logic Family**
-
-You can set the logic family to define a component type and assign an alphanumeric Reference
-
-Designator (RefDes) prefix for part recognition in your design.
-
-**Note:**
-
-Beginning with PADS 9.0, die parts and flip chips are identified by the Special Purpose settings
-
-in the Part Type rather than by the DIE and FLP logic families. With this change, any reference
-
-designator (logic family) can be assigned to a die part or flip chip.
-
-**Procedure**
-
-1. In the Part Editor, click the **Edit Electrical** button and in the Part Information for Part dialog box, 
-
-click the **General** tab.
-
-2. To identify the logic family, select a logic family from the list in the Logic Family area.
-
-When you select a logic family, the default reference designator prefix for this part appears next to
-
-Ref. Prefix.
-
-136 
-
-SailWind Logic GuideLibrary Parts
-
-Setting General Part Information
-
-**Tip**
-
-The default is UND, or undefined. If you leave the logic family undefined, the software 
-
-prompts you for the reference designator prefix when you add a part. You can specify an
-
-alpha prefix or an alphanumeric prefix.
-
-3. Alternatively, if you want to add, delete, and edit logic families and default reference designator
-
-prefixes, click **Families**.
-
-The Logic Families dialog box opens.
-
-a. Make your changes and then click **OK** to return to the Part Information for Part dialog box.
-
-b. Select the new or updated logic family from the list.
-
-See also Editing Logic Families.
-
-#### **Setting General Part Information**
-
-You can set the general part information such as logical to physical pin mapping, special purpose part
-
-definitions and ECO registration for a part.
-
-**Procedure**
-
-1. In the Part Editor, click the **Edit Electrical** button and in the Part Information for Part dialog box, 
-
-click the **General** tab.
-
-2. Select the “Define mapping of Part Type pin numbers to PCB Decal” check box to activate the **Pin** 
-
-**Mapping** tab where you can map logical pin numbers to different physical pin numbers.
-
-**Restriction:**
-
-Note the following restrictions:
-
-• The check box is unavailable after you add one or more alphanumeric decals to the part 
-
-type. Remove the assigned alphanumeric decal to make the check box available. The 
-
-check box also becomes available if you assign a numeric decal. However, you will still
-
-need to remove the alphanumeric decal from the list to make the part valid.
-
-• You must assign a decal to use the **Pin Mapping** tab.
-
-• Only decals with sequential numerical pin numbers can be used with pin mapping.
-
-3. Select the Special Purpose check box, then select the appropriate radio button to identify the part 
-
-as one of the following types:
-
-• **Connector** — In contrast to other part types, connectors do not require a prefix list, or gate 
-
-definitions.
-
-**Restriction:**
-
-When working with connectors, note the following restrictions:
-
-• This check box is automatically selected when you create or modify connectors. It is 
-
-unavailable if you open a part other than a connector.
-
-• This check box is unavailable when the part already has gate or pin assignments.
-
-• The **Gate Decals** tab is unavailable when the Connector check box is selected.
-
-• Some **Pins** tab controls not applicable to connector parts are disabled.
-
-SailWind Logic Guide 
-
-137Library Parts
-
-Setting General Part Information
-
-• **Die Part** — See the following note.
-
-• **Flip Chip** — See the following note.
-
-**Note:**
-
-Beginning with PADS 9.0, die parts and flip chips are identified by the Special Purpose
-
-settings in the Part Type rather than by the DIE and FLP logic families. With this change,
-
-any reference designator (logic family) can be assigned to a die part or flip chip.
-
-4. To enable a part to be passed between the design and schematic file for forward and backward
-
-annotation, click **ECO Registered Part**. By default, all existing part types in your design are ECO 
-
-registered.
-
-**Tip**
-
-Typically, you do not select this check box for non-electrical parts. For example, if you
-
-create and add a mounting hole to your design in the layout software, you would not need 
-
-the part (mounting hole) to pass back to your schematic when you perform a backward 
-
-annotation of the design.
-
-5. To apply the part information edits to other parts in the library, type prefixes and wildcards into the
-
-Prefix List box matching the names of the other parts to update.
-
-**Note:**
-
-Examples of prefix and wildcard usage:
-
-• Question mark ? in a prefix acts as a wildcard for one character. The prefix “?4” is the
-
-equivalent of “54” or “74”.
-
-• If you type “\02” as the suffix, the edits are applied to all parts ending in 02.
-
-**CAUTION:**
-
-The software applies the contents of the Prefix List box when you click **OK** or **Save As** 
-
-from other tabs in the Part Information dialog box.
-
-6. Click the **Check Part** button to check the part for missing or inconsistent information while the Part 
-
-Information dialog box is open.
-
-7. Click **OK**.
-
-138 
-
-SailWind Logic GuideLibrary Parts
-
-Editing Logic Families
-
-### **Editing Logic Families**
-
-To add, delete, or modify logic family names and default reference designator prefixes, use the Logic
-
-Families dialog box.
-
-Adding a Logic Family
-
-Changing the Name or Prefix of a Logic Family
-
-Deleting a Logic Family
-
-#### **Adding a Logic Family**
-
-If you are creating a new part for your design that requires a logic family definition that does not exist in 
-
-the predefined list, you can add a new logic family to the database for use in current and future designs.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **General** tab and then click the **Families** button.
-3. In the Logic Families dialog box, click **Add**. A new entry opens in the Logic Families list.
-4. In the Family text box, type the new logic family name.
-5. Click in the Prefix text box, and type the prefix you want to use for the new family.
-
-You can specify an alphabetic prefix or an alphanumeric prefix. The maximum length for the prefix
-
-is six characters. The last character must be an alphabetic character.
-
-6. Click **OK**.
-
-#### **Changing the Name or Prefix of a Logic Family**
-
-If your design requirements require it, you can change the name or prefix of an existing logic family.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **General** tab and then click the **Families** button.
-3. In the Logic Families dialog box, select the logic family from the list.
-4. In the Family text box, type the name of the new family.
-5. In the Prefix text box, type the new prefix to associate with the new family.
-6. Click **OK**.
-
-#### **Deleting a Logic Family**
-
-If your design requirements change, or you no longer need or support a particular logic family, you can
-
-delete a logic family.
-
-SailWind Logic Guide 
-
-139Library Parts
-
-Deleting a Logic Family
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **General** tab and then click the **Families** button.
-3. In the Logic Families dialog box, select the logic family that you want to delete from the list.
-4. Click the **Delete** button.
-5. Click **OK**.
-
-**Related Topics**
-
-Modifying Electrical Information for a Part
-
-140 
-
-SailWind Logic GuideLibrary Parts
-
-Assigning PCB Decals
-
-### **Assigning PCB Decals**
-
-To assign decals, or footprints, to library parts, use the **PCB Decals** tab in the Part Information dialog box. 
-
-You must assign a decal before assigning gate information, signal pin names, or pin mapping to a part.
-
-The decal also specifies the number of pins in the part.
-
-Assigning an Existing Decal
-
-Assigning a New Decal
-
-Unassigning a Decal
-
-Changing the Default Decal
-
-Resetting the Tab Data
-
-#### **Assigning an Existing Decal**
-
-There are situations where you might want to define more than one PCB decal to a part. This enables one 
-
-symbol to represent different versions of a part that exist in different physical packages. You can assign
-
-up to sixteen PCB decals to a part.
-
-**Procedure**
-
-1. Open a Part Type.
-2. On the toolbar in the Part Editor, click the **Edit Electrical** button and then, in the Part Information 
-
-dialog box, click the **PCB Decals** tab.
-
-3. In the Library dropdown list, select the library from which you want to assign decals.
-
-The available decals from the selected library appear in the Unassigned Decals list box.
-
-4. To filter the contents of the Unassigned Decals list use any of the following:
-
-a. Type Wildcards and Expressions into the Filter box.
-
-**Tip**
-
-Type asterisk * in the Filter box to display all decals.
-
-b. Type a number in the Pin Count box, and then click **Apply**.
-
-**Tip**
-
-Delete all numbers in the Pin Count box to display all decals. This box is always 
-
-available as a filter to enable decals of differing pin counts to be assigned.
-
-c. Click the “Show only Decals with pin numbers matching Part Type” check box to filter out
-
-decals that do not have pin numbers matching existing gate and signal pins on the **Pins** tab, or 
-
-the physical pin numbers on the **Pin Mapping** tab.
-
-5. Select a decal name from the Unassigned Decals list box.
-6. Click **Assign**. The selected decal is assigned to the part and moved to the Assigned Decals list 
-
-box.
-
-SailWind Logic Guide 
-
-141Library Parts
-
-Assigning a New Decal
-
-**Tip**
-
-As a shortcut, double-click on a decal name to assign it to the part.
-
-**Restriction:**
-
-Note the following restrictions:
-
-• You must assign a decal with enough pins for all the defined gate pins and signal pins on
-
-the **Pins** tab.
-
-• Only decals with sequential numerical pin numbers can be used with pin mapping.
-
-7. To assign additional decals to the part, repeat Steps 4 and 5 above.
-8. You can check the part for missing or inconsistent information while the Part Information dialog box
-
-is open. Click the **Check Part** button.
-
-The software checks the assigned decals when you exit the tab (regardless of whether you click 
-
-the **Check Part** button) to ensure they contain physical pin numbers for all the gate and signal pins 
-
-defined in the **Pins** tab.
-
-#### **Assigning a New Decal**
-
-You can specify a decal that does not exist in the library yet, but may exist in another PCB designer’s
-
-library, or may be created later.
-
-**Procedure**
-
-1. Open a Part Type.
-2. In the Part Editor, on the toolbar, click the **Edit Electrical** button and then in the Part Information 
-
-dialog box, click the **PCB Decals** tab.
-
-3. Click **Assign New**.
-4. In the New PCB Decal dialog box, type a name and click **OK**.
-
-The name is added to the end of the Assigned Decals list.
-
-#### **Unassigning a Decal**
-
-As your design needs change, you may need to remove a current decal assignment so that you can 
-
-reassign a different decal to a part.
-
-**Procedure**
-
-1. Open a Part Type.
-2. In the Part Editor, on the toolbar, click the **Edit Electrical** button and then in the Part Information 
-
-dialog box, click the **PCB Decals** tab.
-
-3. Select a decal name from the Assigned Decals list box.
-4. Click **Unassign**.
-
-142 
-
-SailWind Logic GuideLibrary Parts
-
-Changing the Default Decal
-
-The decal is unassigned from the part, and moved to the Unassigned Decals list box.
-
-**Tip**
-
-As a shortcut, double-click on a decal name to remove it from the Assigned Decals list.
-
-#### **Changing the Default Decal**
-
-The first decal listed in the Assigned Decals list box is the default decal used when you add the part to 
-
-Layout. You can make any decal in the Assigned Decals list the default decal by moving it to the top of the
-
-list.
-
-**Procedure**
-
-1. Open a Part Type.
-2. In the Part Editor, on the toolbar, click the **Edit Electrical** button and then in the Part Information 
-
-dialog box, click the **PCB Decals** tab.
-
-3. In the Assigned Decals list, select the decal that you want to make the default.
-4. Click **Up** until the decal is at the top of the list.
-
-The decal becomes the default decal.
-
-#### **Resetting the Tab Data**
-
-You may sometimes want to discard changes you have made in the current session with the **PCB Decals** 
-
-tab, and return the tab’s data to its original state.
-
-**Procedure**
-
-1. Open a Part Type.
-2. In the Part Editor, on the toolbar, click the **Edit Electrical** button and then in the Part Information 
-
-dialog box, click the **PCB Decals** tab.
-
-3. Click **Reset**.
-
-**Tip**
-
-Clicking **Reset** affects the current tab only.
-
-**Related Topics**
-
-Modifying Electrical Information for a Part
-
-SailWind Logic Guide 
-
-143Library Parts
-
-Assigning Gates to Parts
-
-### **Assigning Gates to Parts**
-
-Use the **Gates** tab to assign gate information to a part, including the number of gates, gate swap 
-
-information, and CAE Decals for the part.
-
-**Note:**
-
-A space and a period (.) are illegal characters for pin names.
-
-Gate Decal and Alternates
-
-Gate and Pin Swap Information
-
-Assigning Gates to a Part
-
-#### **Gate Decal and Alternates**
-
-For each gate, you can enter the CAE Decal name which is the name of the logic symbol that is used to 
-
-display the part in the schematic. Alternate decal assignments must have the same number of pins. One 
-
-primary and three alternate decals may be defined for each gate. Assigning a CAE Decal is optional in 
-
-SailWind Layout, but required in SailWind Logic.
-
-#### **Gate and Pin Swap Information**
-
-If at least one decal is assigned to a part, you can enter or modify its gate information. This includes 
-
-enabling or disabling swaps for gates within a part or between similar parts. This information lets SailWind 
-
-Logic know which gates it can substitute for connection length minimization after placement.
-
-To gate swap, assign a number to the gate on the **Gates** tab. Gates with like numbers can swap within 
-
-the part, or to other similar parts. A value of one (1) indicates that the gate is swappable with gates of 
-
-the same part type in the schematic database. If a part contains more than one type of swappable gate, 
-
-then identify the second type with the number 2, the third type with 3, etc. The number 0 indicates that no 
-
-swapping can occur.
-
-#### **Assigning Gates to a Part**
-
-You can assign gates to a part.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Gates** tab.
-2. To add a gate to the part, click **Add**.
-
-The gate appears in the Gate list. The first gate is automatically designated A, the second gate B, 
-
-and so forth.
-
-When you select a gate, the Pins list shows the number of pins for the selected gate.
-
-3. To swap gates with the same Swap ID number, select the gate click **Edit**, and then type a value 
-
-between 1 and 100 in the Swap column.
-
-To disable swap for the gate, type a value of 0.
-
-144 
-
-SailWind Logic GuideLibrary Parts
-
-Assigning CAE Decals to Gates
-
-4. To define Logic decals for the gate, select the cell under CAE Decal 1 click **Edit**, and then type a 
-
-decal name in the CAE Decal box or click the **Browse** button to search for a decal from a library.
-
-The **Browse** button opens the Assign Decal to Gate dialog box.
-
-**Tip**
-
-You can define up to 4 alternates; you do not have to define alternates.
-
-See also Assigning CAE Decals to Gates.
-
-5. To remove the selected gate from the Gates list, click **Delete**.
-
-The gates following the removed gate are automatically renamed in sequential order.
-
-**Tip**
-
-If you delete a gate, the pins information in the **Pins** tab is reset. You can add a gate and
-
-move the pins from one gate to the other on the **Pins** tab to retain pin information before 
-
-you delete the gate.
-
-6. To return the options on the tab to the original settings when the tab first appeared, click **Reset**. 
-
-This resets only the current tab.
-
-Gate pins are added on the **Pins** tab.
-
-See also Part Information - Pins.
-
-### **Assigning CAE Decals to Gates**
-
-The Assign Decal to Gate dialog box is used to assign a decal to each of the gates in a part. Some parts 
-
-may have multiple gates of different types, so you can assign individual specific decals to each of the
-
-gates.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Gates** tab.
-2. Select the cell under CAE Decal 1 and click the **Edit** button or double-click the cell under CAE 
-
-Decal 1.
-
-3. Type a decal name in the CAE Decal box or click the “...” **Browse** button to search for a decal from 
-
-a library.
-
-The **Browse** button opens the Assign Decal to Gate dialog box.
-
-4. Select the library from which you want to assign decals.
-
-The available decals from the selected library appear in the Unassigned Decals list box. The list 
-
-changes according to the library you select.
-
-5. To limit the items that appear in the Unassigned Decals list box, type a wildcard or expression on 
-
-page 105 in the Filter box and click **Apply**.
-
-6. Select the decals you want to assign to the gate from the Unassigned Decals list and click **Assign**.
-
-SailWind Logic Guide 
-
-145Library Parts
-
-Assigning CAE Decals to Gates
-
-**Tip**
-
-When assigning decals, observe the following:
-
-• The decal you select in the Unassigned Decals list box is displayed in the preview box.
-
-• You can assign up to four decals. Assigned decals must have the same number of pins.
-
-The first decal is the default decal, the decal used when you add a part to the schematic.
-
-7. To change the order, select the decal in the Assigned Decals list and click **Up** or **Down**.
-8. To remove a decal from the gate, select it from the Assigned Decals list and click **Unassign**.
-9. To assign a decal name of a nonexistent decal in the library, click **Assign New**.
-
-The Assign New Gate Decal dialog box appears.
-
-**Tip**
-
-You can specify a decal that does not exist in your library, but may exist in another
-
-designer’s library, or that you may create later.
-
-10. Click **OK** to apply your changes.
-
-146 
-
-SailWind Logic GuideLibrary Parts
-
-Part Information - Pins
-
-### **Part Information - Pins**
-
-Use the **Pins** tab in the Part Information dialog box to assign gate pins, signal pins, and unused pins to 
-
-the part. Pin numbers added to the **Pins** tab, must match those of the PCB Decal. Use the **Pin Mapping** 
-
-tab to overlay logical (schematic) alphanumeric pin numbers onto the physical numeric PCB decal.
-
-**Tip**
-
-To undo all changes for this tab only, click **Reset**.
-
-Adding One or More Pins to a Part
-
-Editing Pin Data
-
-Assigning a Signal Pin
-
-Assigning an Unused Pin
-
-Sorting Table Data
-
-Renumbering Pins
-
-Deleting Pins
-
-Error Checking
-
-Signal Pin Nets
-
-SailWind Logic Guide 
-
-147Library Parts
-
-Adding One or More Pins to a Part
-
-#### **Adding One or More Pins to a Part**
-
-You can add pins to a part using several methods. You can add all pins automatically by assigning a
-
-decal. You can add a single pin to the part, add a series of pins, and paste pins from a database; or you
-
-can import pins using a comma separate value (CSV) file.
-
-Adding a Single Pin
-
-Adding a Series of Pins
-
-Assigning a Decal
-
-Pasting Pin Information
-
-Importing Pins Using a CSV File
-
-##### **Adding a Single Pin**
-
-You can use the **Pins** tab on the Part Information dialog box to add a single pin to a part.
-
-**Procedure**
-
-1. Open a Part Type, then, on the toolbar, click the **Edit Electrical** button.
-2. On the **Pins** tab of the Part Information dialog box, click the **Add Pin** button.
-
-**Note:**
-
-You must add a pin number to make the pin valid, and then change any other fields as
-
-needed.
-
-If this is the first pin to be added, it takes the default of belonging to Gate-A. If pins already exist, 
-
-the new pin takes the Pin Group of the currently selected pin.
-
-##### **Adding a Series of Pins**
-
-You can use the **Pins** tab on the Part Information dialog box to add a series of pins to a part.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. On the **Pins** tab of the Part Information dialog box, click the **Add Pins** button.
-3. In the Add Pins dialog box, type the number of pins to add in the Number of pins box.
-
-**Tip**
-
-Total pins for the part can not exceed 32,767.
-
-4. In the Start pin number area, type values in the Prefix and/or Suffix boxes.
-
-A preview of pin numbers based on your input is displayed below the boxes.
-
-148 
-
-SailWind Logic GuideLibrary Parts
-
-Assigning a Decal
-
-**Tip**
-
-When entering pin numbers, observe the following:
-
-• Alphabetic and numeric values can be used in either box. For example, A1 or 1A. If you 
-
-type alphanumerics and the decal uses numerics, you must use the **Pin Mapping** tab to 
-
-map the alphanumerics onto the decal.
-
-• For a single numeric, use either the Prefix or Suffix box, and void the other box.
-
-5. In the Increment options area, choose what to increment by clicking either Increment prefix or 
-
-Increment suffix.
-
-6. In the Step value box, type a positive or negative number by which to increase or decrease the pin 
-
-numbers with consecutive or stepped values.
-
-7. If using alphanumerics, you can select the “Use JEDEC pin numbering” check box to ensure that 
-
-legal alphanumeric values are used.
-
-8. Click **OK**.
-
-The new pins display in the list on the **Pins** tab of the Part Information dialog box.
-
-##### **Assigning a Decal**
-
-When you assign a decal on the **PCB Decals** tab, the pin numbers from the decal are automatically 
-
-populated into the **Pins** tab table. PCB Decal pin numbers can be alphanumeric or numeric and the pin 
-
-numbers in the PCB Decal must match the pin numbers listed in the **Pins** tab table.
-
-##### **Pasting Pin Information**
-
-You can copy selected table data from the **Pins** tab or from Microsoft Excel and paste it into the Pins 
-
-table. The selected cell in the table is the paste origin. Data is pasted below and to the right of the paste 
-
-origin.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. If you are copying from Excel, select data and use the Excel Copy command.
-
-If you are copying from the **Pins** tab, select data and click the **Copy** button on the **Pins** tab.
-
-3. Click the **Paste** button to paste the data into the table starting at the paste origin.
-
-**Restriction:**
-
-When the pasted data includes either Pin Group or Pin Number data, the software adds 
-
-extra pin rows automatically, otherwise the paste will fail if the number of rows and columns
-
-in the pasted data does not match those available in the table below and to the right of the 
-
-paste origin.
-
-##### **Importing Pins Using a CSV File**
-
-You can import data from a comma separated value file into a pins table.
-
-SailWind Logic Guide 
-
-149Library Parts
-
-Editing Pin Data
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. Click the **Import CSV** button.
-3. In the File Open dialog box, browse and select the CSV file.
-4. Click **Open** to begin the import.
-
-The entire contents of the **Pins** tab table is replaced with the data of the CSV file.
-
-**Note:**
-
-CSV field names must correspond to the column headers in the **Pins** tab table. Only the 
-
-first two characters of the header must match. For example, “Pi” for the Pin Group column. 
-
-Gate or “Ga” are acceptable alternatives to the Pin Group header.
-
-**Tip**
-
-A sample CSV file is located in your *\SailWind projects\Samples* folder.
-
-#### **Editing Pin Data**
-
-You can click a cell in the row of the pin you are editing to edit the cell contents, or select one or more
-
-cells of the same column and click the **Edit** button.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. Click the Pin Group cell and choose gate, signal pin, or unused pin from the list.
-
-Gates listed in the Pin Group cell list are added using the **Gates** tab. Signal pins require a signal 
-
-name in the Name cell.
-
-See Assigning a Signal Pin, Assigning an Unused Pin.
-
-3. Click the Number cell and type a pin number for the pin.
-
-The Number cell must contain at least 1 character and can contain up to 15 characters.
-
-**Note:**
-
-The pin number must match the PCB decal. For example, alphanumeric to alphanumeric.
-
-150 
-
-SailWind Logic GuideLibrary Parts
-
-Assigning a Signal Pin
-
-**Tip**
-
-Pin numbers can be either numeric or alphanumeric. Prior to PADS2007, alphanumeric
-
-pin numbers were not legal on the PCB decal but overlaid the numeric decal numbers, 
-
-and were stored within the Part Type. You can continue to keep numeric PCB decals and
-
-use the **Pin Mapping** tab to overlay different pin numbers onto the numeric PCB decal pin
-
-numbers. See Part Information - Pin Mapping.
-
-4. Click the Name cell and type a pin signal or function name. For example, “Clock” or “CLK.” A pin 
-
-name is not required. The Name column is not used for unused pins.
-
-**Restriction:**
-
-Gate pin names can contain up to 40 characters, while signal pin names can contain up to 
-
-47. All alphanumeric characters are accepted. In signal pin names, you cannot use special 
-
-characters such as question marks ?, curly braces {}, asterisks *, periods ., commas , , or 
-
-spaces. But in gate pin names, you can use any character except a space.
-
-5. Click the Type cell and choose a pin type from the list.
-
-The type column is only used with gate pins.
-
-6. Click the Swap cell and type a swap number, or use the up/down arrows.
-
-**Tip**
-
-You swap pins within gates to uncross connections and facilitate routing. Pins with like
-
-numbers can swap within a gate. Type 0 to disable swapping.
-
-7. Click the Sequence (Seq.) cell and type the gate sequence number. The sequence number
-
-determines the mapping of CAE gate pins to PCB decal pins. The sequence is automatically 
-
-shared with alternate CAE decals. For example, the sequence number shows how pin numbers 
-
-appear on the CAE gate decal; therefore, in Gate A, sequence number 1 could be pin 1, but in 
-
-Gate B, sequence number 1 would be pin 4.
-
-**Note:**
-
-**Exception**: When editing pin data for connectors, only the Pin Group and Number columns 
-
-are relevant. Data entered in other columns is rejected. Connectors do not have gates, so 
-
-the Pin Group column just indicates whether a pin is a connector pin or an unused pin.
-
-#### **Assigning a Signal Pin**
-
-Assign signal names to implicit pins—pins which are not displayed on any gate in the schematic. 
-
-Typically, ground and power pins are the only implicit pins. You are not required to use Signal Pins.
-
-Instead, you can add power and ground pins to a gate or create a separate gate for power and/or ground 
-
-pins. For the parts in the libraries shipped with SailWind Logic, the standard ground signal name is GND. 
-
-The standard power signal name is +5V.
-
-SailWind Logic Guide 
-
-151Library Parts
-
-Assigning an Unused Pin
-
-#### **Assigning an Unused Pin**
-
-You can assign a pin to be an unused pin. An unused pin is a pin that is defined in a PCB decal but has
-
-no electrical function in the part type. The unused pin information is not saved in the part type, but is 
-
-derived automatically based on the number of assigned gate and signal pins to the number of pins in the 
-
-assigned PCB decal.
-
-#### **Sorting Table Data**
-
-You can sort the columns in a pins table in ascending order.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. Double-click a column header to sort the column.
-
-#### **Renumbering Pins**
-
-You can renumber pins in a pins table on the **Pins** tab of the Part Information dialog box. If required, you 
-
-can use JEDEC pin numbering.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. Select one or more cells in the Number column.
-3. Click the **Renumber** button. In the Renumber Pins dialog box, the Number of pins box displays the 
-
-number of pins selected for renumbering.
-
-4. In the Start pin number area, type values in the Prefix and/or Suffix boxes.
-
-A preview of pin numbers based on your input is displayed below the boxes.
-
-**Tip**
-
-When entering pin numbers, observe the following:
-
-• Alphabetic and numeric values can be used in either box. For example, A1 or 1A.
-
-• For a single numeric, use either the Prefix or Suffix box, and void the other box.
-
-5. In the Increment options area, choose what to increment by clicking either Increment prefix or 
-
-Increment suffix.
-
-6. In the Step value box, type a positive or negative number by which to increase or decrease the pin 
-
-numbers with consecutive or stepped values.
-
-7. If using alphanumerics, you can select the “Use JEDEC pin numbering” check box to ensure that 
-
-legal alphanumeric values are used.
-
-152 
-
-SailWind Logic GuideLibrary Parts
-
-Deleting Pins
-
-8. Click **OK** to apply your changes.
-
-The renumbered pins display on the **Pins** tab of the Part Information dialog box.
-
-#### **Deleting Pins**
-
-If you need to modify the part, you can delete pins in the Pin table on the **Pins** tab.
-
-**Procedure**
-
-1. Open a Part Type, on the toolbar, click the **Edit Electrical** button, and then click the **Pins** tab in the 
-
-Part Information dialog box.
-
-2. Select one or more cells in the Pin column you want to delete and then click the **Delete Pins** 
-
-button.
-
-#### **Error Checking**
-
-When you click **Check Part**, **OK**, or **Save As**, or when you click a different tab, validation occurs and
-
-checks are run for error conditions.
-
-The following conditions are checked:
-
-• Empty pin numbers, pin numbers with embedded spaces, duplicated Pin numbers or special 
-
-characters such as question marks ?, curly braces {}, asterisks *, periods ., commas , , or spaces.
-
-• Empty, duplicated, or non-sequential sequence numbers within a single gate.
-
-• Non-empty Type cells for signal pins or unused pins, or empty Type cells for gate pins.
-
-• Pin names with illegal characters for gate pins, net names with illegal characters for signal pins, 
-
-empty name for signal pins. Blank pin names are permitted for gate pins.
-
-• Empty pin swap for gate pins, non-empty pin swap for signal and unused pins. Pin swap values 
-
-for gate pins outside of the range 0 to 100.
-
-#### **Signal Pin Nets**
-
-If signal pin nets are invisible, they do not belong to any particular sheet; therefore, they cannot be 
-
-individually selected using the mouse.
-
-See also Signal Pin Nets Dialog Box.
-
-SailWind Logic Guide 
-
-153Library Parts
-
-Managing Attributes
-
-### **Managing Attributes**
-
-Use the **Attributes** tab in the Part Information dialog box to add an attribute to a part. A large number of 
-
-predefined attribute types are available for selection.
-
-See also “Attributes Overview” on page 222.
-
-Adding an Attribute
-
-Modifying an Attribute
-
-Pasting Attribute Information
-
-Deleting an Attribute
-
-Setting Default Attributes
-
-Adding an Attribute From the Attribute Library
-
-Resetting the Attribute List
-
-#### **Adding an Attribute**
-
-You can add attribute names and values to a part using the Part Editor.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **Attributes** tab.
-3. Click **Add**.
-4. Type an attribute name in the Attribute column.
-5. Type an attribute value in the Value column.
-6. Click **OK** to assign the new attribute.
-
-#### **Modifying an Attribute**
-
-You can modify attribute names and values for a part using the Part Editor.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **Attributes** tab.
-3. Double-click an attribute from the Attribute multi-column list box, or select the attribute and click 
-
-**Edit**.
-
-154 
-
-SailWind Logic GuideLibrary Parts
-
-Pasting Attribute Information
-
-4. Type a new attribute name or value in the appropriate text box.
-
-**Tip**
-
-Modifying attributes in the **Attributes** tab modifies the attribute only in the part being 
-
-edited. Use the Manage Schematic Attributes Dialog Box and the Library Manager Dialog 
-
-Box to manage attributes design-wide or in all libraries.
-
-#### **Pasting Attribute Information**
-
-You can copy selected table data from the **Attribute** tab or from Microsoft Excel and paste it into the 
-
-Attributes table. The selected cell in the table is the paste origin. Data is pasted below and to the right of 
-
-the paste origin.
-
-**Procedure**
-
-1. In Excel, select data and use the **Copy** command in Excel, or on the **Attributes** tab, select data 
-
-and click the **Attributes** tab **Copy** button.
-
-2. Click the **Paste** button to paste the data into the table starting at the paste origin.
-3. Click **OK**.
-
-#### **Deleting an Attribute**
-
-You can delete attribute names and values for a part using the Part Editor.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **Attributes** tab.
-3. Select an attribute.
-4. Click **Delete**.
-5. Click **OK**.
-
-#### **Setting Default Attributes**
-
-You can save a set of attributes as default attributes to be added automatically each time a new part is
-
-created.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **Attributes** tab.
-3. Add all desired default attributes to the list of attributes for a part.
-4. Click **Save As Default**.
-
-SailWind Logic Guide 
-
-155Library Parts
-
-Adding an Attribute From the Attribute Library
-
-**Restriction:**
-
-Values are not saved along with the default attributes.
-
-**Tip**
-
-When the default attribute list is created, it is saved in a *defaultattribute.txt* file that is 
-
-shared between SailWind Logic and SailWind Layout.
-
-5. Click **OK**.
-
-#### **Adding an Attribute From the Attribute Library**
-
-You can search through all of the other attribute lists in the library for attributes to add to your current list.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **Attributes** tab.
-3. Click **Browse Lib. Attr** to search for an attribute.
-
-See also Browsing Library Attributes.
-
-4. In the Browse Library Attributes dialog box, select an attribute group from the Group dropdown list 
-
-to limit the display of attributes to only those of a particular group.
-
-5. Locate the attribute you want to add from the list and double-click it or select it and click **OK** to add 
-
-it to the **Attributes** tab in the Part Information dialog box.
-
-6. Click **OK** to close the Part Information dialog box.
-
-#### **Resetting the Attribute List**
-
-If you make changes to the attribute list and then later decide you do not want to keep them, you can 
-
-reset the Attribute list for the current session back to the state it was in before the tab was accessed.
-
-**Procedure**
-
-1. In the Part Editor, open a Part Type, and click the **Edit Electrical** button.
-2. In the Part Information dialog box, click the **Attributes** tab.
-3. Click the **Reset** button to undo all changes made in the current editing session (returns the 
-
-attribute list to before the tab was accessed).
-
-**Restriction:**
-
-Only the current tab is reset.
-
-156 
-
-SailWind Logic GuideLibrary Parts
-
-Browsing Library Attributes
-
-### **Browsing Library Attributes**
-
-You can browse and list all of the attribute names from libraries specified in the Library List dialog box.
-
-**Procedure**
-
-1. Click the **Browse Lib. Attr** button to open the Browse Library Attributes dialog box.
-2. In the Filter list, select a category of attributes to match your search.
-
-**Note:**
-
-Click **Refresh** to update the Attributes in library list.
-
-3. Select an attribute from the list.
-4. Click **OK**.
-
-**Tip**
-
-The Attributes in library list includes part type and decal attributes.
-
-SailWind Logic Guide 
-
-157Library Parts
-
-Part Information - Pin Mapping
-
-### **Part Information - Pin Mapping**
-
-Use the **Pin Mapping** tab in the Part Information dialog box to overlay alphanumeric pin numbers onto 
-
-numeric PCB decal pins. Prior to PADS 2007, alphanumeric pin numbers could not be saved in PCB
-
-decals.
-
-**Requirements:**
-
-• On the **General** tab, select the “Define mapping of Part Type pin numbers to PCB Decal” check
-
-box to make the **Pin Mapping** tab available.
-
-• On the **PCB Decals** tab, assign a decal with sequential numerical pin numbers to use the **Pin** 
-
-**Mapping** tab. The decal determines the number of pins in the part.
-
-**Tip**
-
-To undo all changes for this tab only, click **Reset**.
-
-Mapping Alphanumeric Pin Numbers to Numeric Decals
-
-Unmapping Pins
-
-Checking the part
-
-#### **Mapping Alphanumeric Pin Numbers to Numeric Decals**
-
-You can use the **Pin Mapping** tab to map alphanumeric pin numbers to numeric decals.
-
-**Prerequisites**
-
-• On the **General** tab of the Part Information dialog box, select the “Define mapping of Part Type
-
-pin numbers to PCB Decal” check box to make the **Pin Mapping** tab available.
-
-• On the **PCB Decals** tab, assign a decal with sequential numerical pin numbers to use the **Pin** 
-
-**Mapping** tab. The decal determines the number of pins in the part.
-
-**Procedure**
-
-1. Click the **Pin Mapping** tab of the Part Information dialog box. In the decal list above the preview 
-
-window, select the assigned decal to which you want to map alphanumeric pins.
-
-2. Map the pins using one of the following methods:
-
-• In the Unmapped Pins list, select one or more alphanumerics. Select one or the starting row in 
-
-the Part Type column if you have a consecutive list to map. Click **Map**.
-
-• Select a cell in the Part Type column and click the **Edit** button, or simply double-click the cell.
-
-• Select an alphanumeric in the Unmapped Pins list and double click the pin in the decal preview 
-
-window to map the alphanumeric to the pin. The next row in the Unmapped Pins list becomes 
-
-the next selected alphanumeric for mapping.
-
-158 
-
-SailWind Logic GuideLibrary Parts
-
-Unmapping Pins
-
-• Click **Copy Map** to copy both columns of the mapping table. Paste the mapping table into 
-
-Excel. Make mass edits. Copy the data from Excel and click **Paste Map** on the **Pin Mapping** 
-
-tab.
-
-**Restriction:**
-
-**Copy Map** and **Paste Map** only work with the whole pin mapping table and not selective 
-
-rows.
-
-3. Repeat as necessary.
-4. Click **OK**.
-
-#### **Unmapping Pins**
-
-You can use the **Pin Mapping** tab to unmap pins from a decal.
-
-**Prerequisites**
-
-• On the **General** tab of the Part Information dialog box, select the “Define mapping of Part Type
-
-pin numbers to PCB Decal” check box to make the **Pin Mapping** tab available.
-
-• On the **PCB Decals** tab, assign a decal with sequential numerical pin numbers to use the **Pin** 
-
-**Mapping** tab. The decal determines the number of pins in the part.
-
-**Procedure**
-
-1. On the **Pin Mapping** tab of the Part Information dialog box, select a Decal pin number.
-2. Click **Unmap**.
-
-#### **Checking th4e part**
-
-After you have finished entering or editing part information, you can check to ensure the information 
-
-entered in the Part Information dialog box is correct.
-
-**Procedure**
-
-Click the **Check Part** button to check for missing or inconsistent information entered in the Part 
-
-Information dialog box.
-
-### **Assigning Alternate Logic Decals for Connector** 
-
-**Symbols**
-
-Use the **Connector** tab to define the alternate Logic decals to display in a schematic. Decals are referred 
-
-to as Special Symbols. You can associate a logical Pin Type with each alternate so that you can have a
-
-graphical indication of the connector pin function in the schematic.
-
-SailWind Logic Guide 
-
-159Library Parts
-
-Saving Part Types
-
-**Restriction:**
-
-The **Connector** tab is available only when you open an existing connector or create a new 
-
-connector.
-
-**Tip**
-
-Many users like to use a different symbol, or decal, to distinguish between input (Source) and
-
-output (Load) pins. You may define multiple symbols for each of the ten different pin types.
-
-You can define Special Symbols, or connector decals, for different pin types in the part.
-
-**Procedure**
-
-1. Open a Part Type, click the **Edit Electrical** button on the toolbar and then click the **Connector** tab.
-2. Click **Add**.
-3. Type a Special Symbol or select one from a library by clicking the **Browse** button.
-
-The **Browse** button opens the Browse for Special Symbols Dialog Box.
-
-4. Double-click the new Pin Type entry, or select the new entry and click **Edit.**
-5. Select a Pin Type from the Pin Type dropdown list.
-6. If you want to remove the special symbol from the list, click **Delete**.
-7. To return the options on the tab to the original settings when the tab first appeared, click **Reset**.
-
-**Tip**
-
-**Reset** only resets the current tab.
-
-### **Saving Part Types**
-
-After you finish defining or editing your Part Types, you can save them to the library for further use in the
-
-current and future design sessions.
-
-Use the Save Part and Gate Decals As Dialog Box to save part types to the library. You can also rename
-
-the associated decal during the save process. If you change the pin count or other information in the 
-
-decal, this prevents other parts that use the same decal from being affected.
-
-**Tip**
-
-The Change Type option of the Part Properties dialog box will not update the schematic copy
-
-of the part with the modified version in the library if you decrease the number of pins in the 
-
-associated decal.
-
-160 
-
-SailWind Logic GuideLibrary Parts
-
-Library Management for Saved Part Types
-
-**Procedure**
-
-1. Click the **File > Save As** menu item.
-2. In the “Save Part and Gate Decals As” dialog box, type a name in the Name of Part text box.
-3. Select a library location from the Library dropdown list box.
-
-To change the name of the associated decal, select the decal from the CAE Decal column of the
-
-Names of Decals multicolumn list box and click **Edit**.
-
-Type a new name for the decal.
-
-4. Click**OK**.
-5. If the part type already exists, the message “Part Type item exists. Overwrite item Y/N?” appears.
-
-Click **Yes** to overwrite the part or **No** to cancel the save.
-
-6. If you modified the part using Edit Part/Hierarchical Symbol to enter the Part Editor, the message
-
-“Update all parts of Part Type” appears. Click **Yes** to update parts on the schematic with the 
-
-revised library version or **No** to leave the schematic version of the part unchanged.
-
-### **Library Management for Saved Part Types**
-
-Knowing where parts are located can help you to better manage your library content. Part Type and
-
-decals are saved in specific locations so that they can be logically arranged and found when needed.
-
-The library folder used for part types and associated decals is described below:
-
-• Part type data is saved under the name and library chosen in the Save Part and Gate Decals As 
-
-dialog box.
-
-• Decals created when editing the part type are saved in the same library as the part type.
-
-• Decals that are modified but not renamed are saved to the library from which they were opened.
-
-• Renamed decals, whether modified or not, if unique across all libraries, are saved in the same 
-
-library as the part type.
-
-• Renamed decals that are not unique across all libraries display the overwrite warning prompt. If 
-
-you click **Yes** to overwrite an existing decal with the renamed decal, it replaces the library copy in 
-
-its current library. If you answer **No** to the overwrite prompt, you can select a different decal name
-
-and folder.
-
-**Related Topics**
-
-Save Part and Gate Decals As Dialog Box
-
-Saving a Modified Decal With a Different Name
-
-Saving a Modified Part Type With a Different Name
-
-SailWind Logic Guide 
-
-161Library Parts
-
-Saving a Modified Part Type With a Different Name
-
-### **Saving a Modified Part Type With a Different Name**
-
-If you modify a part type and want to keep the existing library copy, use the Save Part and Gate Decals
-
-As dialog box to rename the part. After modifying the electrical information you can save the modified 
-
-part.
-
-**Procedure**
-
-1. Click the **File > Save As** menu item.
-
-The Save Part and Gate Decals As dialog box appears.
-
-2. Type a new name for the part type in the Name of Part text box.
-3. (Optional) Use the Library dropdown list box to specify a new library location.
-
-See also Library Management for Saved Part Types, Saving a Modified Decal With a Different
-
-Name.
-
-4. Click **OK**.
-
-**Related Topics**
-
-Saving Part Types
-
-### **Creating a New Connector**
-
-Connectors differ from other parts in that a connector is typically shown as a number of individual pins,
-
-rather than a single complete part. When a connector is used on a schematic, the pin number rather than 
-
-the reference designation is incremented, for example, P1-1, P1-2, P1-3, not P1, P2, P3.
-
-Also, you can assign several CAE Decals to a connector for left and right side locations on the schematic 
-
-and for alternate decals. The connectors supplied with SailWind Logic use the prefix CON in their name. 
-
-You can open an existing connector to see how they are constructed.
-
-**Procedure**
-
-1. In the Part Editor, click the **New** button.
-2. In the Select type of editing item dialog box, select “Connector” and then click **OK**.
-3. Click the **Edit Electrical** button. The Part Information for Part -- New Connector dialog box on 
-
-page 134 displays.
-
-4. On the **Pins** tab, add pins.
-
-For more information, see Part Information - Pins.
-
-5. Select the **Connector** tab.
-6. Add the schematic symbols for the connector in the Special Symbols area.
-
-See also Connector Tab on page 159.
-
-7. Select the **PCB Decals** tab to assign PCB decals for the connector.
-
-See also PCB Decals Tab on page 141.
-
-162 
-
-SailWind Logic GuideLibrary Parts
-
-Browsing for Connectors
-
-8. Select the **Attributes** tab to assign attribute information.
-
-See the Managing Attributes topic for more information.
-
-9. Click **OK** to close the Part Information dialog box. The connector symbols display in the Part Editor.
-10. Click the **File > Save As** menu item.
-11. Enter a name and library folder location.
-12. Click **OK**.
-13. Click the **File > Exit Part Editor** menu item.
-
-### **Browsing for Connectors**
-
-Use the Browse for Connector dialog box to access the library and open an existing connector.
-
-**Procedure**
-
-1. Type a wildcard or expression on page 105 in the Items box to filter the connectors, and click 
-
-**Apply**.
-
-2. Select a connector from the list.
-3. Click **OK**. The connector decal(s) display in the Part Editor.
-
-**Related Topics**
-
-Creating a New Connector
-
-SailWind Logic Guide 
-
-163Library Parts
-
-Creating a New Pin Decal
-
-### **Creating a New Pin Decal**
-
-Pin Decals are used to represent the terminal pins on a part. You can make a copy of an existing pin
-
-decal and modify it or you can create a new pin decal.
-
-Create a New Pin From an Existing Pin Decal
-
-Create a New Pin Decal
-
-#### **Create a New Pin From an Existing Pin Decal**
-
-To save design time and promote reuse, you can create a new pin from an existing pin decal.
-
-**Procedure**
-
-1. In the Part Editor, click the **Open** button.
-2. In the Select Type of Editing Item Dialog Box, select “Pin Decal” and then click **OK**.
-
-The Pin Decal Browse dialog box displays.
-
-3. Select an existing pin decal from the Pins area.
-
-The highlighted decal is displayed in the Picture area.
-
-4. Click **OK**.
-5. Modify the graphics for the decal and position the text strings as required.
-6. Click the **File > Save As** menu item.
-
-The Save Item to Library dialog box displays.
-
-7. Enter a name and library location for the new pin decal.
-8. Click **OK**.
-
-#### **Create a New Pin Decal**
-
-When you create a new Pin Decal, SailWind Logic automatically creates the necessary text strings for 
-
-the associated pin information. You only need to specify the 2D lines that represent the terminal pin, then
-
-reposition the text strings.
-
-**Procedure**
-
-1. In the Part Editor, click the **New** button.
-2. In the Select Type of Editing Item Dialog Box, select Pin Decal.
-3. Click **OK**.
-
-Four text entries are displayed in the working area:
-
-164 
-
-SailWind Logic GuideLibrary Parts
-
-Editing Objects in the Decal Editor
-
-• #E is a placeholder for the pin number.
-
-• PNAME is a placeholder for the pin name.
-
-• NETNAME is a placeholder for the net name.
-
-• #0:TYP=U SWP=0 are placeholders for the sequence number, pin type and swap class.
-
-4. Use the Create 2D Line button in the Decal Editing toolbar to create the pin decal.
-5. Reposition the text strings, if necessary.
-6. Click the **File > Save** menu item.
-
-The Save Item to Library dialog box appears.
-
-7. Enter a name and library location for the new pin decal.
-8. Click **OK**.
-
-**Tip**
-
-To control which decals are displayed in the Pin Decal List, use the Pin List Manager
-
-### **Editing Objects in the Decal Editor**
-
-The Decal Editor offers a flexible environment for editing your decals. You can create new parts, edit
-
-existing parts and also create derivative parts from existing parts.
-
-To edit objects in the Decal Editor, refer to the following topics:
-
-• Object Selection Control in the Decal Editor
-
-• Selecting Multiple Objects in the Decal Editor
-
-• Changing Objects in the Decal Editor
-
-• Modifying Terminals
-
-SailWind Logic Guide 
-
-165Library Parts
-
-Editing Objects in the Decal Editor
-
-166 
-
-SailWind Logic Guide

@@ -31,9 +31,9 @@ Resizing the Sheets List
 
 Use the Toolbars and Menus tab on the Customize dialog box (Tools $>$ Customize $>$ Toolbars and Menus tab) to create custom toolbars and shortcut menus.  
 
-![](images/f25090c6d6fd3504b23048463c61f5a55026079ea49c9e1dacc3f92ecbe75764.jpg)  
+![](/images/f25090c6d6fd3504b23048463c61f5a55026079ea49c9e1dacc3f92ecbe75764.jpg)  
 
-# Tip  
+!Tip  
 
 To create a custom main menu, use the Commands tab on the Customize dialog box. See Creating a Custom Menu.  
 
@@ -45,7 +45,7 @@ Creating a Custom Toolbar Showing or Hiding a Toolbar Deleting a Custom Toolbar 
 
 To create a custom toolbar, you create a new empty toolbar and add items (commands) to it.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.  
 
@@ -76,7 +76,7 @@ If you are working in a special mode in SailWind Layout or SailWind Logic (for e
 
 To increase space in the software interface, you can show the toolbars you need to use and hide others.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.   
 2. In the Toolbars list, select the toolbar.   
@@ -84,7 +84,7 @@ To increase space in the software interface, you can show the toolbars you need 
    toolbar, clear the check box.   
 4. Click Close.  
 
-![](images/2183199ce784837b8043eed38db3010cca792a0179a6a1d4357fc26d97f44d35.jpg)  
+![](/images/2183199ce784837b8043eed38db3010cca792a0179a6a1d4357fc26d97f44d35.jpg)  
 
 Tip   
 For information on other ways you can customize the appearance of toolbars and menus, see Customized Appearance of the Screen.  
@@ -97,7 +97,7 @@ If you decide it is no longer needed, you can delete a custom toolbar (a toolbar
 
 You cannot delete a system toolbar.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.   
 2. In the Toolbars list, select a custom toolbar. Then click the Delete button.  
@@ -110,7 +110,7 @@ After it has been created, you can rename a custom toolbar (a toolbar you create
 
 You cannot rename a system toolbar.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.   
 2. In the Toolbars list, select a custom toolbar and click the Edit button.   
@@ -120,7 +120,7 @@ You cannot rename a system toolbar.
 
 If you decide changes you have made are no longer needed, you can reset one or all system toolbars to their default buttons.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.  
 
@@ -128,7 +128,7 @@ If you decide changes you have made are no longer needed, you can reset one or a
 
 3. Click Reset.  
 
-![](images/d45427201af39fcfb8ffd2c60e06c2ec6dcbc4c2ca4020724ca783078dd544d6.jpg)  
+![](/images/d45427201af39fcfb8ffd2c60e06c2ec6dcbc4c2ca4020724ca783078dd544d6.jpg)  
 
 Tip To reset all system toolbars to defaults, click Reset All.  
 
@@ -146,13 +146,13 @@ Then you define the properties of your new command.
 
 You can also create a custom command from a macro command file. See Creating a Command From a Macro and Adding it to a Menu.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Commands tab.  
 
 2. In the Categories list, click a menu or toolbar name to display items (commands) specific to that menu or toolbar, or click All Commands.  
 
-![](images/09f792ce9d68c0166dbc7371e63d857e3c360cd507671c06dfba3d04d2df1aa2.jpg)  
+![](/images/09f792ce9d68c0166dbc7371e63d857e3c360cd507671c06dfba3d04d2df1aa2.jpg)  
 
 Tip If you made macro commands (on the Macro Files tab) available as commands, the Categories list includes the Macro category and the Commands list includes the macros. For more information, see Creating a Command From a Macro and Adding it to a Menu.  
 
@@ -174,7 +174,7 @@ To add the command to a toolbar or menu, click the command and drag it from the 
 
 Once you create a new command, you can use the Commands tab to set the properties for a new command.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, the click the Commands tab.   
 2. In the Commands list, click New, then click the New button. The Add command dialog box opens.   
@@ -189,7 +189,7 @@ Once you create a new command, you can use the Commands tab to set the propertie
 
 You can edit only custom commands (commands you created). You cannot edit system commands.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Commands tab.   
 2. In the Categories list, click a menu or toolbar name to display items (commands) specific to that menu or toolbar, or click All Commands.   
@@ -204,7 +204,7 @@ You can edit only custom commands (commands you created). You cannot edit system
 
 You can delete only custom commands (commands you created). You cannot delete system commands.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Commands tab.   
 2. In the Categories list, click a menu or toolbar name to display items (commands) specific to that   
@@ -220,7 +220,7 @@ Adding Items to Toolbars and Menus Resetting Toolbars to Defaults
 
 Create a custom menu, you first create a new empty menu and then add items (commands) to it:  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Commands tab.   
 2. In the Categories list, select New Menu.   
@@ -244,13 +244,13 @@ If you are working in a special mode in SailWind Layout or SailWind Logic (for e
 
 If there are commands that you frequently use that are not on the standard toolbars and menus, or you want to include them on frequently-used toolbars and menus, you can add these items.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Commands tab.  
 
 2. In the Categories list, select a toolbar or menu name to display commands specific to that menu or toolbar, or select All Commands.  
 
-![](images/2fa381639ba7047de4c853a69e94c314b5e02db09037a9685d773e50c6274c08.jpg)  
+![](/images/2fa381639ba7047de4c853a69e94c314b5e02db09037a9685d773e50c6274c08.jpg)  
 
 # Restriction:  
 
@@ -258,9 +258,9 @@ If you are working in a special mode in SailWind Layout or SailWind Logic (for e
 
 3. In the Commands list, select the command you want and drag it to the toolbar or menu.  
 
-![](images/ca70ac7f894c20d6d0995c4ff069dd4c12ce083372ea2887be7346a60d61a652.jpg)  
+![](/images/ca70ac7f894c20d6d0995c4ff069dd4c12ce083372ea2887be7346a60d61a652.jpg)  
 
-# Tip  
+!Tip  
 
 To remove an item from a toolbar or menu (while the Customize dialog box is open), click the item and drag it outside the toolbar or menu.  
 
@@ -274,13 +274,13 @@ Moving Items on Menus
 
 You can rearrange buttons on a toolbar. You can also move or copy a button from one toolbar to another.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item.  
 
 2. With the Customize dialog box is open, click the toolbar button and drag it to a new place on the same toolbar or to a different toolbar.  
 
-![](images/6ec7a8cc59fa00abe642b3fc5780c3a26d6afa3f7e42443040d1f835277d10d7.jpg)  
+![](/images/6ec7a8cc59fa00abe642b3fc5780c3a26d6afa3f7e42443040d1f835277d10d7.jpg)  
 
 Tip   
 Instead of moving a button, you can copy it and move the copy. Press and hold the Ctrl key while dragging the button.  
@@ -293,14 +293,14 @@ You can rearrange items on a menu. You can also move or copy an item from one me
 
 To move menu items, the Customize dialog box must be open.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item.   
 2. In the main window of the SailWind application, display the menu containing the item you want to move.   
 3. Click the menu item and drag it to its new location on the same menu or to a different menu. Tip   
    Instead of moving a menu item, you can copy it and move the copy. Press and hold the Ctrl key while dragging the item.  
 
-![](images/c2e0e2bb9c269d195bafb67eb95afcd9ed05aeaf58f46dc1fe25fe84d6707e0d.jpg)  
+![](/images/c2e0e2bb9c269d195bafb67eb95afcd9ed05aeaf58f46dc1fe25fe84d6707e0d.jpg)  
 
 4. Click Close.  
 
@@ -312,7 +312,7 @@ Adding Items to Toolbars and Menus Resetting Toolbars to Defaults
 
 If there are items that your do not use or want to appear, you can remove a menu item or toolbar button.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item.   
 2. With the Customize dialog box is open, drag the item outside the toolbar or menu.  
@@ -357,7 +357,7 @@ Subsequent characters may consist of the following:
 
 There are some exceptions: Some combinations, like Alt+Tab, are intercepted by Windows and thus are not available.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
 2. In the Mode box, select the mode to which you want to apply the shortcut. The available commands for that mode appear in the Commands box.   
@@ -387,7 +387,7 @@ The new shortcut appears in the Current shortcuts box on the Customize dialog bo
 
 You can create a table of commands and the shortcuts assigned to them in an HTML file, letting you share the information over the Web with other members of the design team.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
 2. Click Report and then select or type the HTML filename, then click Save. A hyperlink to the file appears in the Output window, under the Status tab.  
@@ -412,7 +412,7 @@ Table 47. Shortcut Key Expression Examples
 
 Delete shortcuts you no longer want to use, or as the first step to changing an existing shortcut.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
 2. In the Mode box, select the mode for the shortcut you want to delete. The available commands for that mode appear in the Commands box.   
@@ -426,7 +426,7 @@ Delete shortcuts you no longer want to use, or as the first step to changing an 
 
 If you have made modifications that you no longer require, you can restore all shortcut keys to the default settings.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
 2. Click Reset All.   
@@ -436,13 +436,13 @@ If you have made modifications that you no longer require, you can restore all s
 
 To simplify your design tasks, you can create a shortcut key that executes a macro.  
 
-![](images/68bedc1bad0acf945c73733323ddfbea1db77c769a03562dd748ac00826163b6.jpg)  
+![](/images/68bedc1bad0acf945c73733323ddfbea1db77c769a03562dd748ac00826163b6.jpg)  
 
-# Tip  
+!Tip  
 
 To assign a macro to a shortcut key, the macro command file (.mcr) must already exist. You can create a macro by recording it in a SailWind tool or scripting it in Macro language. For more information, see Macros.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Macro Files tab.  
 
@@ -472,9 +472,9 @@ Custom Interface Creating a Command From a Macro and Adding it to a Menu
 
 • To assign shortcut keys, select “Press new shortcut ${\mathsf{k e y}}({\mathsf{s}})^{\mathsf{*}}$ , and then press the keys that you want to use. For detailed information about rules and restrictions for creating shortcut keys, see the restrictions and limitations section of Creating a New Shortcut Key.  
 
-![](images/1e666ff2d52d7d4904d854385e98806e10b89eb01fd5899def19bcbb32e1e893.jpg)  
+![](/images/1e666ff2d52d7d4904d854385e98806e10b89eb01fd5899def19bcbb32e1e893.jpg)  
 
-# Tip  
+!Tip  
 
 As you enter the new shortcut, similar shortcuts appear in the “Similar shortcuts assigned to other commands” box. This helps you to avoid creating a new shortcut that conflicts with an existing shortcut.  
 
@@ -488,12 +488,12 @@ The new shortcut appears in the Current shortcuts box on the Customize dialog bo
 
 You can create commands from macro files and add them to toolbars and menus.  
 
-![](images/8d3a467df1bdd8cfab2f227a42de39e424bb23a6f589b806d614a7cc6ce723ed.jpg)  
+![](/images/8d3a467df1bdd8cfab2f227a42de39e424bb23a6f589b806d614a7cc6ce723ed.jpg)  
 
 Tip   
 To create a command from a macro command file or add it to a menu, the macro command file (.mcr) must already exist. You can create a macro by recording it in a SailWind tool or scripting it in Macro language. For more information, see Macros.  
 
-# Procedure  
+**Procedure** 
 
 1. Click the Tools $>$ Customize menu item, then click the Macro Files tab.  
 
@@ -529,7 +529,7 @@ For more information, see “Customize Dialog Box, Options Tab” on page 523.
 
 You can change the width of the Sheets list on the Standard toolbar of the Schematic Editor.  
 
-# Procedure  
+**Procedure** 
 
 1. In the Schematic Editor, click the Tools $>$ Customize menu item.   
 2. On the Standard toolbar, select the Sheets list box.   
@@ -554,7 +554,7 @@ Managing Window Tabs
 
 When you first start the application, several windows display. You can show, hide, and automatically hide any of the windows in the application.  
 
-# Procedure  
+**Procedure** 
 
 On the View menu, click the name of the window you want to show.  
 
@@ -570,7 +570,7 @@ Closing Windows Hiding Windows Automatically
 
 If you do not want a particular window to appear in the workspace, you can hide windows by closing them manually.  
 
-# Procedure  
+**Procedure** 
 
 1. Move your pointer to the title bar of the window you want to hide.   
 2. Click the small downward pointing arrow  on the right side of the window's title bar.   
@@ -580,7 +580,7 @@ If you do not want a particular window to appear in the workspace, you can hide 
 
 You can also set a window to hide automatically so that it appears when you hover the pointer near it, and automatically minimizes when you move the pointer away from it.  
 
-# Procedure  
+**Procedure** 
 
 1. Move your pointer to the right side of the title bar in the window you want to hide.   
 2. Click the thumbtack I in the window's title bar.  
@@ -605,13 +605,13 @@ You can detach a window from the current view. This is called floating. A floati
 
 You cannot float a window that is currently set to hide automatically. Turn off the Auto Hide feature before floating a window.  
 
-# Procedure  
+**Procedure** 
 
 Double-click the window's title bar. The window detaches and you can move it to any part of the screen.  
 
-![](images/04bc166e8ce0b7860a804a7c7827d66fd8d3a7caddc342be735804b017531323.jpg)  
+![](/images/04bc166e8ce0b7860a804a7c7827d66fd8d3a7caddc342be735804b017531323.jpg)  
 
-# Tip  
+!Tip  
 
 To undo the floating, see Attach Windows to the Current View.  
 
@@ -625,7 +625,7 @@ Docking to the Last Location Docking to a New Location
 
 If you have moved a window, you can use a title bar keystroke command to dock it to its last docked location.  
 
-# Procedure  
+**Procedure** 
 
 Double-click the window's title bar. The window reattaches to the interface.  
 
@@ -633,7 +633,7 @@ Double-click the window's title bar. The window reattaches to the interface.
 
 You can use a drag operation to dock a window to a new location.  
 
-# Procedure  
+**Procedure** 
 
 1. Using the title bar, drag the window.  
 
@@ -641,9 +641,9 @@ When you start dragging the window, additional graphics appear in the user inter
 
 Figure 7. Window Dragging Graphic  
 
-![](images/e1402601d20f3f8391f6077490ac471f80e6ca1cfb5abe286469c82503c24c42.jpg)  
+![](/images/e1402601d20f3f8391f6077490ac471f80e6ca1cfb5abe286469c82503c24c42.jpg)  
 
-![](images/eb5c94c14a4fc128f6083f652ea49edcaa4e0e401953e3e6d7bf4e757d835191.jpg)  
+![](/images/eb5c94c14a4fc128f6083f652ea49edcaa4e0e401953e3e6d7bf4e757d835191.jpg)  
 
 Tip   
 A similar group of arrows appears in a group near the center of the screen. Ignore that group of arrows for this procedure.  
@@ -652,7 +652,7 @@ A similar group of arrows appears in a group near the center of the screen. Igno
 
 A transparent colored block appears along the side of the user interface to which you are pointing. This block indicates where the window will be docked when you release the mouse button. For example, if you hover over the arrow on the left side of the user interface, a block appears along the left side of the screen, as shown in Figure 8.  
 
-![](images/74ff2ef3b32a30221305f46b97ff916ba2d8dee6d525066d76d3a7028ea131aa.jpg)  
+![](/images/74ff2ef3b32a30221305f46b97ff916ba2d8dee6d525066d76d3a7028ea131aa.jpg)  
 Figure 8. Docking a Window  
 
 3. Release the mouse button while hovering over the arrow that indicates where you want to dock the window.  
@@ -669,18 +669,18 @@ Two Windows Sharing One Window Space Creating Tabs Within Windows
 
 Use a drag operation to embed a window and share another window's space.  
 
-# Procedure  
+**Procedure** 
 
 1. Using the title bar, drag a window into another window.  
 
 When you start dragging a window, additional graphics appear in the user interface. A group of arrows containing graphics appears in the center of the window you are dragging, as shown in Figure 9. Depending on the window you are dragging, the group of arrows may also have a tab graphic in the center.  
 
-![](images/21153c97290f0ea7edfd84943ff7fa32bea403174d8da6d0c8db45668d6ddcbb.jpg)  
+![](/images/21153c97290f0ea7edfd84943ff7fa32bea403174d8da6d0c8db45668d6ddcbb.jpg)  
 Figure 9. Dragging a Window—Arrow Group  
 
-![](images/c92eb3fd10613d3ad5299c86574bfe2aeadc77cbaed38382b52ecdb64555de68.jpg)  
+![](/images/c92eb3fd10613d3ad5299c86574bfe2aeadc77cbaed38382b52ecdb64555de68.jpg)  
 
-# Tip  
+!Tip  
 
 A similar group of arrows appears at the sides of the user interface. Ignore those arrows for this procedure.  
 
@@ -688,14 +688,14 @@ A similar group of arrows appears at the sides of the user interface. Ignore tho
 
 A transparent colored block appears along the side of the window you are dragging, as shown in Figure 10. This block indicates where the window will be docked when you release the mouse button. For example, if you hover over the left arrow, a block appears along the left side of the Project Explorer.  
 
-![](images/dd29295f7b99c48c96f23b458fff7594aa1a2383964e58fbf967622cd2b061d2.jpg)  
+![](/images/dd29295f7b99c48c96f23b458fff7594aa1a2383964e58fbf967622cd2b061d2.jpg)  
 Figure 10. Dragging and Docking a Window  
 
 3. Release the mouse button while hovering over the arrow that indicates where you want to dock the window.  
 
 The window is embedded within another window, both sharing the space the original window occupied.  
 
-![](images/63b5ff3e78fed46137e3a70ac265e1a705cef000fbbe1128f131289b9c1571ed.jpg)  
+![](/images/63b5ff3e78fed46137e3a70ac265e1a705cef000fbbe1128f131289b9c1571ed.jpg)  
 
 Tip   
 To maximize your workspace, try setting these embedded windows to hide automatically. Ctrl+click the thumbtack in one of the window's title bars, and all of the windows within the original window frame hide automatically.  
@@ -704,13 +704,13 @@ To maximize your workspace, try setting these embedded windows to hide automatic
 
 Embed a window and use the whole space by creating tabs.  
 
-# Procedure  
+**Procedure** 
 
 1. Using the title bar, drag a window into another window.  
 
 When you start dragging a window, additional graphics appear in the user interface. A group of arrows containing graphics appears in the center of the window you are dragging, as shown in Figure 11. Depending on the window you are dragging, the group of arrows may also have a tab graphic in the center.  
 
-![](images/fc06ad6e5469a578f842e784ec8d36dd260e9f049369e6b1c16f61d517877358.jpg)  
+![](/images/fc06ad6e5469a578f842e784ec8d36dd260e9f049369e6b1c16f61d517877358.jpg)  
 Figure 11. Dragging and Docking a Window—Arrow Commands  
 
 # 0 Tip  
@@ -721,14 +721,14 @@ A similar group of arrows appears at the sides of the user interface. Ignore tho
 
 A transparent colored block appears over the window you are dragging, as shown in Figure 12. This block indicates where the window will be docked when you release the mouse button. For example, if you hover over the tab in the Project Explorer window, a block appears over the Project Explorer.  
 
-![](images/8e770548872f2b7ce5e1ea1701489d47e88f8b6049511f9b3a833e6cd334f309.jpg)  
+![](/images/8e770548872f2b7ce5e1ea1701489d47e88f8b6049511f9b3a833e6cd334f309.jpg)  
 Figure 12. Dragging a Window—Transparent Block  
 
 3. Release the mouse button while hovering over the tab.  
 
 The window is embedded as a tab within a window, as shown in Figure 13. You can click each tab to access each window.  
 
-![](images/7ed47b200df49ce08e57461c976f614c32092f41268499aa307b9f1f3975adf2.jpg)  
+![](/images/7ed47b200df49ce08e57461c976f614c32092f41268499aa307b9f1f3975adf2.jpg)  
 Figure 13. Window Embedded as a Tab  
 
 Tip   
@@ -747,7 +747,7 @@ Rearranging Tabs in a Window Moving Tabs Between Windows Converting Tabs to Wind
 You can only rearrange tabs that you created by embedding a window within one of the docking windows.   
 You cannot rearrange regular tabs, such as those in the Output window.  
 
-# Procedure  
+**Procedure** 
 
 Drag the tab to a new position within the row of tabs.  
 
@@ -757,7 +757,7 @@ You can only move tabs that you have embedded in other windows. In windows that 
 
 See also “Embed Windows Within Other Windows” on page 419.  
 
-# Procedure  
+**Procedure** 
 
 1. Drag the tab to a new window. When you start dragging, the tab automatically behaves like a window.   
 2. Place the tab as you would a window. See also “Organizing Windows” on page 414.  
@@ -766,7 +766,7 @@ See also “Embed Windows Within Other Windows” on page 419.
 
 You can use a drag operation to create a new window from a tab.  
 
-# Procedure  
+**Procedure** 
 
 1. Drag the tab. When you start dragging, the tab automatically behaves like a window.   
 2. Release the mouse button. Make sure the pointer is not over any arrow graphics. You now have a floating window.  

@@ -1,376 +1,155 @@
-# Chapter 2 Getting Started With SailWind Logic
+# Chapter 2 Getting Started With SailWind Logic  
 
-The SailWind Logic workflow guides you through the steps necessary to create a schematic design.
+The SailWind Logic workflow guides you through the steps necessary to create a schematic design.  
 
-SailWind Logic Flow
-Startup Options
-Adding Startup Options to a Shortcut
-SailWind Updates
-Migrating User Settings
-Customizing SailWind Logic Default Settings
-Mouse Button Operations
-Using the Numeric Keypad to Control the View
+SailWind Logic Flow   
+Startup Options   
+Adding Startup Options to a Shortcut   
+SailWind Updates   
+Migrating User Settings   
+Customizing SailWind Logic Default Settings   
+Mouse Button Operations   
+Using the Numeric Keypad to Control the View  
 
-## SailWind Logic Flow
+# SailWind Logic Flow  
 
-Creating a schematic design of your system requires a number of steps to get from initial concept to
-completed design. Each step is presented in a logical order so that you can manage the entire process of
-creating the schematics for your system.
+Creating a schematic design of your system requires a number of steps to get from initial concept to completed design. Each step is presented in a logical order so that you can manage the entire process of creating the schematics for your system.  
 
-1. Set up a new design
+1. Set up a new design  
 
-◦ Create a new design (See Creating a New Schematic File)
+◦ Create a new design (See Creating a New Schematic File)   
+◦ Select a sheet size (See Setting Schematic Editor Options) Add 2D line objects (See Adding Drafting Items From a Library)   
+◦ Set up options • Global (See Options Dialog Box, General Category) Design (See Options Dialog Box, Design Category)  
 
-◦ Select a sheet size (See Setting Schematic Editor Options)
+2. Set up rules and constraints ◦ Decide which design rules you need (See Setting Up Rules) ◦ Set up design rules (See Rules Setup)  
 
-◦ Add 2D line objects (See Adding Drafting Items From a Library)
+3. Place parts  
 
-◦ Set up options
+◦ Locate parts in the library (See Managing Libraries and Library Data)   
+◦ Place parts (See Schematic Parts) Set attributes (See Attributes Overview)  
 
-• Global (See Options Dialog Box, General Category)
+4. Wire the schematic  
 
-• Design (See Options Dialog Box, Design Category)
+◦ Connect the components (See Connections) ◦ Edit the connections (See Changing a Connection) ◦ Name the connections (See Naming a Connection) ◦ Assign net constraints (design rules) (See Setting Up Net Rules)  
 
-2. Set up rules and constraints
+5. Prepare the Design for Layout 。 Output a netlist to SailWind Layout (See Creation of a New PCB Layout from a SailWind Logic Design) Generate reports (See Reports)  
 
-◦ Decide which design rules you need (See Setting Up Rules)
+6. Perform Design Annotations Forward annotate design changes to SailWind Layout (See Forward Annotation From SailWind Logic to SailWind Layout) Backward annotate design changes from SailWind Layout (See Backward Annotation Fro SailWind Layout to SailWind Logic)  
 
-◦ Set up design rules (See Rules Setup)
+# Startup Options  
 
-3. Place parts
+You can use startup options, known as command line switches, to control the initial SailWind Logic configuration. Use command line switches to enable different options, to open a file, start macros, and record a SailWind Logic session. You can type multiple command line options.  
 
-SailWind Logic Guide
+For instructions to add options to a program shortcut, see “Adding Startup Options to a Shortcut”.  
 
-29
+Table 1. SailWind Logic Command Line Options   
 
-Getting Started With SailWind Logic
-Startup Options
 
-◦ Locate parts in the library (See Managing Libraries and Library Data)
+<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td rowspan="3">filename</td><td>Opens the specified design file when you start SailWind Logic. Type the folder path and filename. Use quotation marks for directories or filenames with spaces,</td></tr><tr><td>for example: "C:\SailWind Projects\Sampleslpreviewpart.sch" Restriction:</td></tr><tr><td>Do not use a forward slash (/ ) before the filename in the command line.</td></tr></table></body></html>  
 
-◦ Place parts (See Schematic Parts)
+Table 1. SailWind Logic Command Line Options (continued)   
 
-◦ Set attributes (See Attributes Overview)
 
-4. Wire the schematic
+<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>/BMW[initials]</td><td>Opens the Media Wizard. Use the Media Wizard to start recording a session log or to convert the previous session log to media that can be replayed by Basic Log Test. To create session media files for the current SailWind Logic session, use the BMW modeless command. To use the BMW command line switch, type /BMW or /BMWxx, where xx is your initials, in the command line. Capitalization. [] represents optional text. This option is associated with another modeless command, BLT. BLT is the Log Test; it finds and runs the session media created by BMW to play back a recorded SailWind Logic session. For information, see Modeless Commands and Keyboard</td></tr><tr><td>/</td><td>Shortcuts on page 569.</td></tr><tr><td>/mmacro name</td><td>Opens the last file you had open when you start SailWind Logic. Runs the specified macro in the default macro file. For example, to run the macro</td></tr><tr><td>/Mmacro file</td><td>MyMacro, type /mMyMacro. Specifies the file to use as the default macro file. For example, to run the macro MyMacro contained in the file user1.mcr, type /Muser1.mcr /mMyMacro. Note the</td></tr><tr><td>/nc </td><td>required capitalization. Starts SailWind Logic without displaying the splash screen that includes copyright information.</td></tr><tr><td>/sXXX</td><td>Starts a Basic script when you start SailWind Logic. Use quotation marks for filenames with spaces, for example:/s"C:\<install_folder>\SailWind<version>\Samples\Scripts\Logic\Unsuppo rted\AttributestoExcel.bas"</td></tr></table></body></html>  
 
-◦ Connect the components (See Connections)
+# Adding Startup Options to a Shortcut  
 
-◦ Edit the connections (See Changing a Connection)
+If you repeatedly start your design sessions with the intention of launching a specific design file or specifying a particular design environment setting, then you can add startup options to the properties of a shortcut.  
 
-◦ Name the connections (See Naming a Connection)
+![](/images/99632d4f4f470d6fcecedeec68a8df6378fdb2180432bd1781d444962c9c99f5.jpg)  
 
-◦ Assign net constraints (design rules) (See Setting Up Net Rules)
+!Tip  
 
-5. Prepare the Design for Layout
+If you create your own shortcuts, copy the Start menu shortcuts instead of generating them from the executables in the install directory. Start menu shortcuts contain a "wrapper" that enables the proper environment variables to be defined as the program launches.  
 
-◦ Output a netlist to SailWind Layout (See Creation of a New PCB Layout from a SailWind
+**Procedure** 
 
-Logic Design)
+1. In the shortcut properties, click in the box with the pathname.   
+2. Press End, press Spacebar, and then type the command line switch you want to use, and enclose with double quotes " " each string that contains a space.  
 
-◦ Generate reports (See Reports)
+When specifying a file to start, do not use a / before the filename. You can specify multiple command line switches. For example, to start the program with preview.sch, the command line might read:  
 
-6. Perform Design Annotations
+“\<install_folder>\<version>\Programs\SailWindLogic.exe” “C:\SailWind projects\Samples\preview.sch”  
 
-◦ Forward annotate design changes to SailWind Layout (See Forward Annotation From
+# SailWind Updates  
 
-SailWind Logic to SailWind Layout)
+The SailWind products automatically check for a new software version when you launch an application. If a new version is detected, a tooltip is displayed in the system tray.  
 
-◦ Backward annotate design changes from SailWind Layout (See Backward Annotation From
+Downloading the Update Disabling the Check for Updates Checking for Updates Manually  
 
-SailWind Layout to SailWind Logic)
+# Downloading the Update  
 
-## Startup Options
+When a new version of SailWind is detected, you can download the update.  
 
-You can use startup options, known as command line switches, to control the initial SailWind Logic
-configuration. Use command line switches to enable different options, to open a file, start macros, and
-record a SailWind Logic session. You can type multiple command line options.
+# Prerequisites  
 
-For instructions to add options to a program shortcut, see “Adding Startup Options to a Shortcut”.
+An Internet connection is required for the check.  
 
-Option
+**Procedure** 
 
-filename
+1. Right-click the icon in the system tray.   
+2. Click the Open download page popup menu item.   
+3. Follow the instructions on the download page.  
 
-Table  1. SailWind Logic Command Line Options
+# Disabling the Check for Updates  
 
-Description
+If you do not want to check for updates automatically, disable the Check for Updates functionality. You can enable the check at any time, or you can manually check for updates.  
 
-Opens the specified design file when you start SailWind Logic. Type the folder
-path and filename. Use quotation marks for directories or filenames with spaces,
-for example: “C:\SailWind Projects\Samples\previewpart.sch”
+**Procedure** 
 
- Restriction:
-Do not use a forward slash ( / ) before the filename in the command line.
+1. Click the Help $>$ Check for Updates  menu item.   
+2. In the Check for Updates Dialog Box, select the “Disable ‘Check for Updates’ functionality” check box.  
 
-30
+# Checking for Updates Manually  
 
-SailWind Logic Guide
+Do not check for updates manually unless you have disabled the automatic check.  
 
-Getting Started With SailWind Logic
-Adding Startup Options to a Shortcut
+**Procedure** 
 
-Table  1. SailWind Logic Command Line Options  (continued)
+1. Click the Help $>$ Check for Updates menu item.   
+2. In the Check for Updates Dialog Box, click Check for Updates.  
 
-Option
+# Migrating User Settings  
 
-Description
+You can use the SailWind User Settings Migration tool to extract your settings from one installation of SailWind Logic, Layout, and Router and import them into another installation or version.  
 
-/BMW[initials]
+For information on how to do this, see User Settings Migration in the SailWind User Settings Migration Guide.  
 
-Opens the Media Wizard. Use the Media Wizard to start recording a session log
-or to convert the previous session log to media that can be replayed by Basic Log
-Test. To create session media files for the current SailWind Logic session, use the
-BMW modeless command.
+# Customizing SailWind Logic Default Settings  
 
-To use the BMW command line switch, type /BMW or /BMWxx, where xx  is your
-initials, in the command line. Capitalization. [] represents optional text.
+Several settings define the default ASCII parameters of operation of SailWind Logic. You can customize the user interface by modifying these system settings and saving the files.  
 
-This option is associated with another modeless command, BLT. BLT is the Log
-Test; it finds and runs the session media created by BMW to play back a recorded
-SailWind Logic session. For information, see Modeless Commands and Keyboard
-Shortcuts  on page 569.
+The file default.txt is a SailWind Logic ASCII file that contains default option settings. It is read into memory when you start SailWind Logic or click the File $>$ New menu item to begin a new design.  
 
-/l
+**Procedure** 
 
-Opens the last file you had open when you start SailWind Logic.
+1. Click the Tools $>$ Options menu item.   
+2. Change the settings as desired using the General and Design categories to change the sheet size and design grid, and so forth.   
+3. Click OK to save the changes.   
+4. Click the File $>$ Export menu item, and then set the folder to C:\<install_folder>\SailWind<version> \Settings.   
+5. Select default.txt from the list of files. Type the name in the File name area if it does not exist.   
+6. Click Save. This displays the ASCII Output dialog box.   
+7. In the ASCII Output dialog box, click Select All.   
+8. Leave the output format at the current setting and click OK.  
 
-/mmacro name
+# Mouse Button Operations  
 
-Runs the specified macro in the default macro file. For example, to run the macro
-MyMacro, type /mMyMacro.
+SailWind Logic follows Microsoft® Windows® conventions for two-button mouse operations. SailWind Logic also supports the use of a three-button mouse. The middle button provides quick access to the pan and zoom commands.  
 
-/Mmacro file
+Use the middle mouse button to pan (to move the view from side to side or up and down) without changing the size. Click the middle mouse button where you want to center the work area. The screen repaints, placing the point you chose at the center.  
 
-Specifies the file to use as the default macro file. For example, to run the macro
-MyMacro contained in the file user1.mcr, type /Muser1.mcr /mMyMacro. Note the
-required capitalization.
+To define a specific area that you want to enlarge, hold the middle mouse button down, and move the mouse diagonally and up across the area you want to zoom. A dynamic rectangle expands with the cursor movement. When you release the middle mouse button, the view zooms to the rectangle.  
 
-/nc
+To zoom out, press the middle mouse button and drag diagonally and down. When you zoom out, a solid rectangle appears at the cursor. This represents the current view size. The thin line that expands from the  
 
-/sXXX
+solid box represents the new view size in proportion to the old. The zoom-out ratio also displays with the cursor.  
 
-Starts SailWind Logic without displaying the splash screen that includes copyright
-information.
+# Using the Numeric Keypad to Control the View  
 
-Starts a Basic script when you start SailWind Logic.
-Use quotation marks for filenames with spaces, for
-example:/s“C:\<install_folder>\SailWind<version>\Samples\Scripts\Logic\Unsuppo
-rted\Attributes to Excel.bas”
+You can control the view using the extended keypad or the numeric keypad, located on the far right of most keyboards. The NumLock light can be on or off except where specified.  
 
-## Adding Startup Options to a Shortcut
+Table 2. Numeric Keypad Functions   
 
-If you repeatedly start your design sessions with the intention of launching a specific design file or
-specifying a particular design environment setting, then you can add startup options to the properties of a
-shortcut.
 
-Tip
-If you create your own shortcuts, copy the Start  menu shortcuts instead of generating them from
-the executables in the install directory. Start  menu shortcuts contain a "wrapper" that enables the
-proper environment variables to be defined as the program launches.
+<html><body><table><tr><td>Click</td><td>To</td></tr><tr><td>Home</td><td>Fits board to the view.</td></tr><tr><td>End</td><td>Redraws current view.</td></tr><tr><td>Arrows</td><td>With Num Lock On, pans the viewing window. Moves one-half the screen width in the direction of the arrow. With Num Lock Off, moves cursor on grid unit.</td></tr><tr><td>5</td><td>With Num Lock On, draws zoom rectangle.</td></tr><tr><td>Pg Up</td><td>Zooms In centered at cursor location.</td></tr><tr><td>Pg Dn</td><td>Zooms Out centered at cursor location.</td></tr><tr><td> Ins</td><td>Centers the view at current cursor location, without zooming.</td></tr></table></body></html>  
 
-Procedure
-
-1. In the shortcut properties, click in the box with the pathname.
-
-2. Press End, press Spacebar, and then type the command line switch you want to use, and enclose
-
-with double quotes " " each string that contains a space.
-
-SailWind Logic Guide
-
-31
-
-Getting Started With SailWind Logic
-Adding Startup Options to a Shortcut
-
-When specifying a file to start, do not use a / before the filename. You can specify multiple
-command line switches. For example, to start the program with preview.sch, the command line
-might read:
-
-“\<install_folder>\<version>\Programs\SailWindLogic.exe” “C:\SailWind
- projects\Samples\preview.sch”
-
-32
-
-SailWind Logic Guide
-
-Getting Started With SailWind Logic
-SailWind Updates
-
-## SailWind Updates
-
-The SailWind products automatically check for a new software version when you launch an application. If
-a new version is detected, a tooltip is displayed in the system tray.
-
-Downloading the Update
-Disabling the Check for Updates
-Checking for Updates Manually
-
-## Downloading the Update
-
-When a new version of SailWind is detected, you can download the update.
-
-Prerequisites
-An Internet connection is required for the check.
-
-Procedure
-
-1. Right-click the icon in the system tray.
-
-2. Click the Open download page  popup menu item.
-
-3. Follow the instructions on the download page.
-
-## Disabling the Check for Updates
-
-If you do not want to check for updates automatically, disable the Check for Updates functionality. You can
-enable the check at any time, or you can manually check for updates.
-
-Procedure
-
-1. Click the Help > Check for Updates  menu item.
-
-2. In the Check for Updates Dialog Box, select the “Disable ‘Check for Updates’ functionality” check
-
-box.
-
-## Checking for Updates Manually
-
-Do not check for updates manually unless you have disabled the automatic check.
-
-Procedure
-
-1. Click the Help > Check for Updates  menu item.
-
-2. In the Check for Updates Dialog Box, click Check for Updates.
-
-SailWind Logic Guide
-
-33
-
-Getting Started With SailWind Logic
-Migrating User Settings
-
-## Migrating User Settings
-
-You can use the SailWind User Settings Migration tool to extract your settings from one installation of
-SailWind Logic, Layout, and Router and import them into another installation or version.
-
-For information on how to do this, see User Settings Migration in the SailWind User Settings Migration
-Guide.
-
-## Customizing SailWind Logic Default Settings
-
-Several settings define the default ASCII parameters of operation of SailWind Logic. You can customize
-the user interface by modifying these system settings and saving the files.
-
-The file default.txt  is a SailWind Logic ASCII file that contains default option settings. It is read into
-memory when you start SailWind Logic or click the File > New  menu item to begin a new design.
-
-Procedure
-
-1. Click the Tools > Options  menu item.
-
-2. Change the settings as desired using the General  and Design  categories to change the sheet size
-
-and design grid, and so forth.
-
-3. Click OK  to save the changes.
-
-4. Click the File > Export  menu item, and then set the folder to C:\<install_folder>\SailWind<version>
-
-\Settings.
-
-5. Select default.txt  from the list of files. Type the name in the File name area if it does not exist.
-
-6. Click Save.
-
-This displays the ASCII Output dialog box.
-
-7. In the ASCII Output dialog box, click Select All.
-
-8. Leave the output format at the current setting and click OK.
-
-## Mouse Button Operations
-
-SailWind Logic follows Microsoft®  Windows®  conventions for two-button mouse operations. SailWind
-Logic also supports the use of a three-button mouse. The middle button provides quick access to the pan
-and zoom commands.
-
-Use the middle mouse button to pan (to move the view from side to side or up and down) without
-changing the size. Click the middle mouse button where you want to center the work area. The screen
-repaints, placing the point you chose at the center.
-
-To define a specific area that you want to enlarge, hold the middle mouse button down, and move the
-mouse diagonally and up across the area you want to zoom. A dynamic rectangle expands with the
-cursor movement. When you release the middle mouse button, the view zooms to the rectangle.
-
-To zoom out, press the middle mouse button and drag diagonally and down. When you zoom out, a solid
-rectangle appears at the cursor. This represents the current view size. The thin line that expands from the
-
-34
-
-SailWind Logic Guide
-
-solid box represents the new view size in proportion to the old. The zoom-out ratio also displays with the
-cursor.
-
-Getting Started With SailWind Logic
-Using the Numeric Keypad to Control the View
-
-## Using the Numeric Keypad to Control the View
-
-You can control the view using the extended keypad or the numeric keypad, located on the far right of
-most keyboards. The NumLock light can be on or off except where specified.
-
-Table  2. Numeric Keypad Functions
-
-Click
-
-Home
-
-End
-
-Arrows
-
-5
-
-Pg Up
-
-Pg Dn
-
-Ins
-
-To
-
-Fits board to the view.
-
-Redraws current view.
-
-With Num Lock On, pans the viewing window. Moves one-half the screen
-width in the direction of the arrow. With Num Lock Off, moves cursor on grid
-unit.
-
-With Num Lock On, draws zoom rectangle.
-
-Zooms In centered at cursor location.
-
-Zooms Out centered at cursor location.
-
-Centers the view at current cursor location, without zooming.
-
-SailWind Logic Guide
-
-35
-
-Getting Started With SailWind Logic
-Using the Numeric Keypad to Control the View
-
-36
-
-SailWind Logic Guide
-
-The software interface is robust and configurable. It offers numerous methods for viewing and navigating
-your designs, as well as extensive capabilities for generating custom macro scripts for playback and
-debugging.

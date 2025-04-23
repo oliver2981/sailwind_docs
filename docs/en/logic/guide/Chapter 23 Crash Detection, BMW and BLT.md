@@ -42,7 +42,7 @@ The following table specifies which of the procedures described below you must u
 
 You can use the Basic Media Wizard (BMW) to create session playback media when the session you are recreating did not cause a SailWind tool crash.  
 
-# Procedure  
+**Procedure** 
 
 1. Start the SailWind tool, but do not open the file which you encountered the problematical behavior. (You must enable session logging before you open the file.)  
 
@@ -77,7 +77,7 @@ You can use the Basic Media Wizard (BMW) to create session playback media when t
 • This procedure works only if the previous (crashed) session started with BMW logging already enabled and logging remained enabled throughout the session.   
 • This procedure does not give useful results if any additional instance of the SailWind tool ran concurrently (for any period) with the previous (crashed) session.  
 
-# Procedure  
+**Procedure** 
 
 1. Start the SailWind tool, but do not open the file which you encountered the problematic behavior. (You must enable session logging before you open the file.).   
 2. Type the modeless command BMW ON and press the Enter key to enable session logging. Logging remains enabled for this and all future sessions until you disable it with the BMW OFF command.  
@@ -98,7 +98,7 @@ You can use the Basic Media Wizard (BMW) to manually create session playback med
 
 The automatic procedure is described in Automatically Creating Session Playback Media for a Crashed Session.  
 
-# Procedure  
+**Procedure** 
 
 1. Start the SailWind tool, but do not open the file which you encountered the problematic behavio (You must enable session logging before you open the file.).   
 2. Type the modeless command BMW ON and press the Enter key to enable session logging. Logging remains enabled for this and all future sessions until you disable it with the BMW OFF command.   
@@ -122,7 +122,7 @@ These files are dynamic; each time you start a session, the current session log 
 
 Whenever you elect to create session media files for a session, the appropriate set of these log files is saved in a permanent location, as described in Session Media Files.  
 
-![](images/43062625e9a95860585f5443faefecd8708071beed68cbfce7fa37a4039ed0ab.jpg)  
+![](/images/43062625e9a95860585f5443faefecd8708071beed68cbfce7fa37a4039ed0ab.jpg)  
 
 Tip   
 You may see a log file named <pads_tool>_Session.log listed in the \SailWind Projects folder. This file is unrelated to the session playback media created by BMW.  
@@ -147,15 +147,15 @@ When creating the session playback media, the following files are written to the
 
 You can use BLT to replay session playback media created by BMW.  
 
-# Procedure  
+**Procedure** 
 
 1. Type BLT (the Modeless command) and press Enter.  
 
 2. Select the session playback media from the Media Directories list and click OK. The session is replayed.  
 
-![](images/00b21778abc49d1daac1df754da5aa2382906f1bb9ed80762a11669c3498acf2.jpg)  
+![](/images/00b21778abc49d1daac1df754da5aa2382906f1bb9ed80762a11669c3498acf2.jpg)  
 
-# Tip  
+!Tip  
 
 To personalize the media folder and session playback media filenames, select a media session from the Media Directories list, type the new name into the New name box, and then click Rename.  
 
