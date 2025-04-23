@@ -347,8 +347,12 @@ You can search for objects in SailWind Logic using a number of different options
 
 Table 24. Search for Objects in SailWind Logic Using These Options   
 
-
-<table><tr><td>Option</td><td>Description</td></tr><tr><td>Modeless Commands and Keyboard Shortcuts on page 569</td><td>Use keystrokes to locate specific objects or types of objects.</td></tr><tr><td>Selection Toolbar</td><td>Controls which types of objects you can select, locates specific objects from a multiple selection, or moves between sheets in the schematic.</td></tr><tr><td>Using the Selection Filter</td><td>Controls types of objects you can select. Enables you to select the object you want even when several objects exist at the same location.</td></tr><tr><td>View Control</td><td>Changes the perspective and size of the work area.</td></tr></table>  
+| Option                                               | Description                                                  |
+| ---------------------------------------------------- | ------------------------------------------------------------ |
+| Modeless Commands and Keyboard Shortcuts on page 569 | Use keystrokes to locate specific objects or types of objects. |
+| Selection Toolbar                                    | Controls which types of objects you can select, locates specific objects from a multiple selection, or moves between sheets in the schematic. |
+| Using the Selection Filter                           | Controls types of objects you can select. Enables you to select the object you want even when several objects exist at the same location. |
+| View Control                                         | Changes the perspective and size of the work area.           |
 
 ## Step and Repeat  
 

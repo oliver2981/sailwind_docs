@@ -10,23 +10,32 @@ The special symbols in the SailWind Logic library use specific names or a unique
 
 Table 20. Off-Page Reference Symbols   
 
-
-<table><tr><td>Symbol</td><td>Description</td></tr><tr><td>REFIN</td><td>Off -page reference for left side</td></tr><tr><td>REFOUT</td><td>Off -page reference for right side</td></tr></table>  
+| Symbol | Description                        |
+| ------ | ---------------------------------- |
+| REFIN  | Off -page reference for left side  |
+| REFOUT | Off -page reference for right side |
 
 Table 21. Power Symbols   
 
-
-<table><tr><td>Symbol</td><td></td></tr><tr><td>+</td><td>+5 volt and +12 volt symbols, arrow pointing up</td></tr><tr><td></td><td>-5 volt and 12 volt symbols, arrow pointing down</td></tr><tr><td>BUBBLE</td><td>+5 volt symbol with a circle</td></tr><tr><td>Y</td><td>+5 volt symbol with a 'Y' shape</td></tr></table>  
+| Symbol |                                                  |
+| ------ | ------------------------------------------------ |
+| +      | +5 volt and +12 volt symbols, arrow pointing up  |
+|        | -5 volt and 12 volt symbols, arrow pointing down |
+| BUBBLE | +5 volt symbol with a circle                     |
+| Y      | +5 volt symbol with a 'Y' shape                  |
 
 Table 22. Ground Symbols   
 
-
-<table><tr><td> Symbol</td><td>Description</td></tr><tr><td>GND</td><td>Standard ground</td></tr></table>  
+| Symbol | Description     |
+| ------ | --------------- |
+| GND    | Standard ground |
 
 Table 22. Ground Symbols (continued)   
 
-
-<table><tr><td>Symbol</td><td>Description</td></tr><tr><td>AGND</td><td>Analog ground</td></tr><tr><td>CHGND</td><td>Chassis ground</td></tr></table>  
+| Symbol | Description    |
+| ------ | -------------- |
+| AGND   | Analog ground  |
+| CHGND  | Chassis ground |
 
 ## Assigning Alternative Symbols for the Ground Part  
 
@@ -211,7 +220,11 @@ Refer to the following topics for information on assigning the new decal as an a
 
 Table 23. Topic List Regarding Assigning New Decal as Alternate Decal  
 
-<table><tr><td>Alternate symbols</td><td> Topic to see</td></tr><tr><td>Off-page symbols</td><td>Assigning Alternative Symbols for the Off-Page Part</td></tr><tr><td>Power symbols</td><td>Assigning Alternative Symbols for the Power Part</td></tr><tr><td>Ground symbols</td><td>Assigning Alternative Symbols for the Ground Part</td></tr></table>  
+| Alternate symbols | Topic to see                                        |
+| ----------------- | --------------------------------------------------- |
+| Off-page symbols  | Assigning Alternative Symbols for the Off-Page Part |
+| Power symbols     | Assigning Alternative Symbols for the Power Part    |
+| Ground symbols    | Assigning Alternative Symbols for the Ground Part   |
 
 ## Updating Special Symbol Mappings  
 

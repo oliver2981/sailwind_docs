@@ -23,8 +23,11 @@ A SailWind Logic part is comprised of the three elements shown in the following 
 
 Table 15. SailWind Logic Part Elements   
 
-
-<table><tr><td>Element</td><td>Description</td></tr><tr><td>Part Type</td><td>The electrical information for a part. This includes the logic family, CAE Decal assignment, part name, connection pins, gate swapping information, attributes, etc. See also Modifying Electrical Information for a Part.</td></tr><tr><td>Decal</td><td>gate. See also Creating a New CAE Decal.</td></tr><tr><td>PCB Decal</td><td>The_graphical representation of the part when it is drawn in the PCB design program. It is often referred to as the footprint. Assigning a PCB Decal is optional and only required if you are passing a netlist to SailWind Layout.</td></tr></table>  
+| Element   | Description                                                  |
+| --------- | ------------------------------------------------------------ |
+| Part Type | The electrical information for a part. This includes the logic family, CAE Decal assignment, part name, connection pins, gate swapping information, attributes, etc. See also Modifying Electrical Information for a Part. |
+| Decal     | gate. See also Creating a New CAE Decal.                     |
+| PCB Decal | The_graphical representation of the part when it is drawn in the PCB design program. It is often referred to as the footprint. Assigning a PCB Decal is optional and only required if you are passing a netlist to SailWind Layout. |
 
 • Changing and Updating Library Parts Creating Single Gate Parts Creating Multigate Parts Creating New Parts from Existing Parts Creating a New Connector Creating a New CAE Decal Creating a New Pin Decal Special Schematic Symbols  
 
@@ -310,8 +313,12 @@ Creating a CAE Decal follows the same basic steps as creating a new packaged par
 
 Table 16. CAE Decal Editing Mode - Text Entries In Working Area   
 
-
-<table><tr><td>Entry</td><td>Description</td></tr><tr><td>REF</td><td>The default space reserved for the reference designator in the schematic.</td></tr><tr><td>PART-TYPE</td><td>The default location of the part type name in the schematic.</td></tr><tr><td>* Free Label 1</td><td>The default location for the first displayed attribute.</td></tr><tr><td>* Free Label 2</td><td>The default location for the second displayed attribute.</td></tr></table>  
+| Entry          | Description                                                  |
+| -------------- | ------------------------------------------------------------ |
+| REF            | The default space reserved for the reference designator in the schematic. |
+| PART-TYPE      | The default location of the part type name in the schematic. |
+| * Free Label 1 | The default location for the first displayed attribute.      |
+| * Free Label 2 | The default location for the second displayed attribute.     |
 
 5. Construct the new CAE decal for the part manually or with SailWind-Logic’s Decal Wizard automatic part creation tool.  
 
@@ -396,8 +403,12 @@ Depending upon the object type that you select, you can choose between a number 
 
 Table 17. Decal Editor - Editing Options Based on Selected Object   
 
-
-<table><tr><td>Objects Selected</td><td>Menu Commands Available</td></tr><tr><td>Drafting Items</td><td>Query/Modify, Move, Copy, and Delete. Explode and Combine are available when multiple objects are selected. (See Modifying Drafting Objects)</td></tr><tr><td>Labels</td><td>Move</td></tr><tr><td>Terminals</td><td>Query/Modify, Move, Copy, and Delete (See Modifying Terminals)</td></tr><tr><td>Combination</td><td>Move is available for any combination of objects. Copy and Delete are available for all objects except labels.</td></tr></table>  
+| Objects Selected | Menu Commands Available                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Drafting Items   | Query/Modify, Move, Copy, and Delete. Explode and Combine are available when multiple objects are selected. (See Modifying Drafting Objects) |
+| Labels           | Move                                                         |
+| Terminals        | Query/Modify, Move, Copy, and Delete (See Modifying Terminals) |
+| Combination      | Move is available for any combination of objects. Copy and Delete are available for all objects except labels. |
 
 ### Setting a Pin Number  
 
@@ -487,8 +498,18 @@ You can use object mode to set pin types. Select one or more objects and then se
 
 Table 18. Characters Used to Represent Pin Types   
 
-
-<table><tr><td>Letter</td><td>Represents this pin type</td></tr><tr><td>B</td><td>Bidirectional Pin</td></tr><tr><td>C</td><td>Open Collector Pin</td></tr><tr><td>G</td><td>Ground Pin</td></tr><tr><td>L</td><td>Load Pin</td></tr><tr><td>Ｏ</td><td>Or-Tieable Source Pin</td></tr><tr><td>P</td><td>Power Pin</td></tr><tr><td>Ｓ</td><td>Source Pin</td></tr><tr><td>T</td><td>Tristate Pin</td></tr><tr><td>U</td><td>Undefined</td></tr><tr><td>Z</td><td>Terminator Pin</td></tr></table>  
+| Letter | Represents this pin type |
+| ------ | ------------------------ |
+| B      | Bidirectional Pin        |
+| C      | Open Collector Pin       |
+| G      | Ground Pin               |
+| L      | Load Pin                 |
+| Ｏ     | Or-Tieable Source Pin    |
+| P      | Power Pin                |
+| Ｓ     | Source Pin               |
+| T      | Tristate Pin             |
+| U      | Undefined                |
+| Z      | Terminator Pin           |
 
 ### Setting Pin Swaps  
 
@@ -829,8 +850,12 @@ Information about the part you are creating or editing is listed under part stat
 
 Table 19. Part Statistic Categories   
 
-
-<table><tr><td>Category</td><td>Description</td></tr><tr><td>Pin Count</td><td>Displays the total number of pins in the part. Includes gate pins, signal pins, and unused pins. If multiple decals are assigned with different pin counts, a range of smallest to largest decal pin counts is shown.</td></tr><tr><td>Decal</td><td>Displays the name of the decal, as chosen on the PCB Decals tab.</td></tr><tr><td>Gate Count</td><td>Displays how many gates exist in the part.</td></tr><tr><td>Signal Pin Count</td><td>Displays the number of signal pins in the part.</td></tr></table>  
+| Category         | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| Pin Count        | Displays the total number of pins in the part. Includes gate pins, signal pins, and unused pins. If multiple decals are assigned with different pin counts, a range of smallest to largest decal pin counts is shown. |
+| Decal            | Displays the name of the decal, as chosen on the PCB Decals tab. |
+| Gate Count       | Displays how many gates exist in the part.                   |
+| Signal Pin Count | Displays the number of signal pins in the part.              |
 
 #### Setting the Logic Family  
 

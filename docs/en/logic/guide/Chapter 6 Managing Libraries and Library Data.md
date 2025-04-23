@@ -6,8 +6,12 @@ The parts, symbols and other items you use to create a schematic in SailWind res
 
 Table 12. SailWind Library Files   
 
-
-<table><tr><td>File Extension</td><td>File Contents</td></tr><tr><td>.pt </td><td>Parts —— Data about a part, such as a 74LSo2, including logic family, attributes, pins,and gates.</td></tr><tr><td>.pd</td><td>Decals -— The graphical representation of the part when it is drawn. It is often referred to as the footprint.</td></tr><tr><td>.ld</td><td>Logic_—— The graphical representation of a schematic part, such as a NOR gate. This section functions as a part list reader only. Use SailWind Logic to create and modify Logic decals (sometimes called CAE Decals).</td></tr><tr><td>.In</td><td>Lines —— General graphical data you can store in the library, such as a company logo, to use in any design file.</td></tr></table>  
+| File Extension | File Contents                                                |
+| -------------- | ------------------------------------------------------------ |
+| .pt            | Parts —— Data about a part, such as a 74LSo2, including logic family, attributes, pins,and gates. |
+| .pd            | Decals -— The graphical representation of the part when it is drawn. It is often referred to as the footprint. |
+| .ld            | Logic_—— The graphical representation of a schematic part, such as a NOR gate. This section functions as a part list reader only. Use SailWind Logic to create and modify Logic decals (sometimes called CAE Decals). |
+| .In            | Lines —— General graphical data you can store in the library, such as a company logo, to use in any design file. |
 
 For information on creating PCB decals, see Creation of a New Decal in the SailWind Layout Guide.  
 
@@ -707,18 +711,35 @@ The filter supports the wildcards and expressions listed in Table 13. Table 14 g
 
 Table 13. Wildcards and Expressions   
 
-
-<table><tr><td>Expression:</td><td>Use to:</td></tr><tr><td>*</td><td>Match any number of characters.</td></tr><tr><td>？</td><td>Match any one character.</td></tr><tr><td>[set] </td><td>Match any character in the specified set.</td></tr></table>  
+| Expression: | Use to:                                   |
+| ----------- | ----------------------------------------- |
+| *           | Match any number of characters.           |
+| ？          | Match any one character.                  |
+| [set]       | Match any character in the specified set. |
 
 Table 13. Wildcards and Expressions (continued)   
 
-
-<table><tr><td>Expression:</td><td>Use to:</td></tr><tr><td></td><td>Tip: A set is composed of characters or a range of characters; for example, A-Z or 0-9 or a-z.</td></tr><tr><td>[!set] or [^set]</td><td>Match any character not in the specified set.</td></tr><tr><td>一</td><td>Match a special syntactic character exactly, suppressing the special character's syntactic significance. Tip: The following characters need the \ before them: *[*?!^-\'</td></tr></table>  
+| Expression:      | Use to:                                                      |
+| ---------------- | ------------------------------------------------------------ |
+|                  | Tip: A set is composed of characters or a range of characters; for example, A-Z or 0-9 or a-z. |
+| [!set] or [^set] | Match any character not in the specified set.                |
+| 一               | Match a special syntactic character exactly, suppressing the special character's syntactic significance. Tip: The following characters need the \ before them: *[*?!^-\' |
 
 Table 14. Usage Examples of Wildcards and Expressions   
 
-
-<table><tr><td>Expression:</td><td>Results in all items that:</td></tr><tr><td>74*</td><td>Start with 74: 7404,74LS04,74622.</td></tr><tr><td>74??</td><td>Start with 74 followed by any two characters: 7404, 74T2, 74TP.</td></tr><tr><td>74??08</td><td>Start with 74, followed by any two characters, and end with 08: 74LS08, 74HC08,744608.</td></tr><tr><td>*08</td><td>Start with any number of characters and end with 08: 2146108, 5408, 54HCT08,744608.</td></tr><tr><td>*08*</td><td>Start with any number of characters, followed by 08, and end with any number of characters: 5408, 5408BE,54HCT08AE,74ABT08CE2, 941M70839.</td></tr><tr><td>[57]*</td><td>Start with 5 or 7 with any number of characters after: 54HCT244, 5968BAE4,74ACT44.</td></tr><tr><td>[5-7]*</td><td>Start with 5, 6, or 7 followed by any number of characters: 54LS08, 6225BE,69TF77,74ALS02.</td></tr><tr><td>[57]4HCT??</td><td>Start with 5 or 7, followed by 4HCT, and end with any two characters: 54HCT04,54HCT74,74HCT27,74HCT84.</td></tr><tr><td>74A[CH]*</td><td>Start with 74A, followed by C or H, and end with any number of characters: 74AC244,74AHCT27.</td></tr><tr><td>74A[!C-H]*</td><td>Start with 74A, followed by any character except the letters C through H, and end with any number of characters: 74ABT44, 74ALS244, 74ABF365.</td></tr><tr><td>[M]*08</td><td>Start with the character\, followed by any number of characters, and end with08: \LS08,\HCT08,\ABT08.</td></tr></table>  
+| Expression: | Results in all items that:                                   |
+| ----------- | ------------------------------------------------------------ |
+| 74*         | Start with 74: 7404,74LS04,74622.                            |
+| 74??        | Start with 74 followed by any two characters: 7404, 74T2, 74TP. |
+| 74??08      | Start with 74, followed by any two characters, and end with 08: 74LS08, 74HC08,744608. |
+| *08         | Start with any number of characters and end with 08: 2146108, 5408, 54HCT08,744608. |
+| *08*        | Start with any number of characters, followed by 08, and end with any number of characters: 5408, 5408BE,54HCT08AE,74ABT08CE2, 941M70839. |
+| [57]*       | Start with 5 or 7 with any number of characters after: 54HCT244, 5968BAE4,74ACT44. |
+| [5-7]*      | Start with 5, 6, or 7 followed by any number of characters: 54LS08, 6225BE,69TF77,74ALS02. |
+| [57]4HCT??  | Start with 5 or 7, followed by 4HCT, and end with any two characters: 54HCT04,54HCT74,74HCT27,74HCT84. |
+| 74A[CH]*    | Start with 74A, followed by C or H, and end with any number of characters: 74AC244,74AHCT27. |
+| 74A[!C-H]*  | Start with 74A, followed by any character except the letters C through H, and end with any number of characters: 74ABT44, 74ALS244, 74ABF365. |
+| [M]*08      | Start with the character\, followed by any number of characters, and end with08: \LS08,\HCT08,\ABT08. |
 
 ## Library Search Order  
 

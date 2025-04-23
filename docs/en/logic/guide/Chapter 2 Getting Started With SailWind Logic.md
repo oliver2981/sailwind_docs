@@ -44,13 +44,24 @@ For instructions to add options to a program shortcut, see “Adding Startup Opt
 
 Table 1. SailWind Logic Command Line Options   
 
+| Option                                                       | Description                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| filename                                                     | Opens the specified design file when you start SailWind Logic. Type the folder path and filename. Use quotation marks for directories or filenames with spaces, |
+| for example: "C:\SailWind Projects\Sampleslpreviewpart.sch" Restriction: |                                                              |
+| Do not use a forward slash (/ ) before the filename in the command line. |                                                              |
 
-<table><tr><td>Option</td><td>Description</td></tr><tr><td rowspan="3">filename</td><td>Opens the specified design file when you start SailWind Logic. Type the folder path and filename. Use quotation marks for directories or filenames with spaces,</td></tr><tr><td>for example: "C:\SailWind Projects\Sampleslpreviewpart.sch" Restriction:</td></tr><tr><td>Do not use a forward slash (/ ) before the filename in the command line.</td></tr></table>  
+Table 1. SailWind Logic Command Line Options (continued)
 
-Table 1. SailWind Logic Command Line Options (continued)   
+| Option         | Description                                                  |
+| -------------- | ------------------------------------------------------------ |
+| /BMW[initials] | Opens the Media Wizard. Use the Media Wizard to start recording a session log or to convert the previous session log to media that can be replayed by Basic Log Test. To create session media files for the current SailWind Logic session, use the BMW modeless command. To use the BMW command line switch, type /BMW or /BMWxx, where xx is your initials, in the command line. Capitalization. [] represents optional text. This option is associated with another modeless command, BLT. BLT is the Log Test; it finds and runs the session media created by BMW to play back a recorded SailWind Logic session. For information, see Modeless Commands and Keyboard |
+| /              | Shortcuts on page 569.                                       |
+| /mmacro name   | Opens the last file you had open when you start SailWind Logic. Runs the specified macro in the default macro file. For example, to run the macro |
+| /Mmacro file   | MyMacro, type /mMyMacro. Specifies the file to use as the default macro file. For example, to run the macro MyMacro contained in the file user1.mcr, type /Muser1.mcr /mMyMacro. Note the |
+| /nc            | required capitalization. Starts SailWind Logic without displaying the splash screen that includes copyright information. |
+| /sXXX          | Starts a Basic script when you start SailWind Logic. Use quotation marks for filenames with spaces, for example:/s"C:\\SailWind\Samples\Scripts\Logic\Unsuppo rted\AttributestoExcel.bas" |
 
-
-<table><tr><td>Option</td><td>Description</td></tr><tr><td>/BMW[initials]</td><td>Opens the Media Wizard. Use the Media Wizard to start recording a session log or to convert the previous session log to media that can be replayed by Basic Log Test. To create session media files for the current SailWind Logic session, use the BMW modeless command. To use the BMW command line switch, type /BMW or /BMWxx, where xx is your initials, in the command line. Capitalization. [] represents optional text. This option is associated with another modeless command, BLT. BLT is the Log Test; it finds and runs the session media created by BMW to play back a recorded SailWind Logic session. For information, see Modeless Commands and Keyboard</td></tr><tr><td>/</td><td>Shortcuts on page 569.</td></tr><tr><td>/mmacro name</td><td>Opens the last file you had open when you start SailWind Logic. Runs the specified macro in the default macro file. For example, to run the macro</td></tr><tr><td>/Mmacro file</td><td>MyMacro, type /mMyMacro. Specifies the file to use as the default macro file. For example, to run the macro MyMacro contained in the file user1.mcr, type /Muser1.mcr /mMyMacro. Note the</td></tr><tr><td>/nc </td><td>required capitalization. Starts SailWind Logic without displaying the splash screen that includes copyright information.</td></tr><tr><td>/sXXX</td><td>Starts a Basic script when you start SailWind Logic. Use quotation marks for filenames with spaces, for example:/s"C:\<install_folder>\SailWind<version>\Samples\Scripts\Logic\Unsuppo rted\AttributestoExcel.bas"</td></tr></table>  
+  
 
 ## Adding Startup Options to a Shortcut  
 
@@ -150,6 +161,13 @@ You can control the view using the extended keypad or the numeric keypad, locate
 
 Table 2. Numeric Keypad Functions   
 
-
-<table><tr><td>Click</td><td>To</td></tr><tr><td>Home</td><td>Fits board to the view.</td></tr><tr><td>End</td><td>Redraws current view.</td></tr><tr><td>Arrows</td><td>With Num Lock On, pans the viewing window. Moves one-half the screen width in the direction of the arrow. With Num Lock Off, moves cursor on grid unit.</td></tr><tr><td>5</td><td>With Num Lock On, draws zoom rectangle.</td></tr><tr><td>Pg Up</td><td>Zooms In centered at cursor location.</td></tr><tr><td>Pg Dn</td><td>Zooms Out centered at cursor location.</td></tr><tr><td> Ins</td><td>Centers the view at current cursor location, without zooming.</td></tr></table>  
+| Click  | To                                                           |
+| ------ | ------------------------------------------------------------ |
+| Home   | Fits board to the view.                                      |
+| End    | Redraws current view.                                        |
+| Arrows | With Num Lock On, pans the viewing window. Moves one-half the screen width in the direction of the arrow. With Num Lock Off, moves cursor on grid unit. |
+| 5      | With Num Lock On, draws zoom rectangle.                      |
+| Pg Up  | Zooms In centered at cursor location.                        |
+| Pg Dn  | Zooms Out centered at cursor location.                       |
+| Ins    | Centers the view at current cursor location, without zooming. |
 

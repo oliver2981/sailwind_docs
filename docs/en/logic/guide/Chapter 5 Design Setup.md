@@ -55,8 +55,13 @@ Tip Click to clear if you want your backup files in one, common backup directory
 
 Table 10. Backup File Creation   
 
-
-<table><tr><td colspan="2">If this is selected:</td><td>The Backup File is Saved</td></tr><tr><td>Create backup files in design directory</td><td>Use design Name in backup file name</td><td></td></tr><tr><td></td><td></td><td>in one common directory without the design name.</td></tr><tr><td>X</td><td>X</td><td>in the design directory using the design name.</td></tr><tr><td>X</td><td></td><td>in the design directory without the design name.</td></tr><tr><td></td><td>X</td><td>in one common directory using the design name</td></tr></table>  
+| If this is selected:                    | The Backup File is Saved            |                                                  |
+| --------------------------------------- | ----------------------------------- | ------------------------------------------------ |
+| Create backup files in design directory | Use design Name in backup file name |                                                  |
+|                                         |                                     | in one common directory without the design name. |
+| X                                       | X                                   | in the design directory using the design name.   |
+| X                                       |                                     | in the design directory without the design name. |
+|                                         | X                                   | in one common directory using the design name    |
 
 ### Setting Part Editor Options  
 
@@ -83,8 +88,9 @@ Table 11 lists the options that are saved and set as defaults.
 
 Table 11. Part Editor Options Saved and Set as Defaults   
 
-
-<table><tr><td>From the Options Dialog General Category</td><td>From the Options Dialog Text Category</td><td>From Setup menu > Fonts Dialog</td></tr><tr><td>Design grid Labels and Text grid Display grid Snap to Grid</td><td>Font, style and size of: Pin Number Pin Name Ref-Des Part Type</td><td>Current font mode (system or stroke)</td></tr></table>  
+| From the Options Dialog General Category                   | From the Options Dialog Text Category                        | From Setup menu > Fonts Dialog       |
+| ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------ |
+| Design grid Labels and Text grid Display grid Snap to Grid | Font, style and size of: Pin Number Pin Name Ref-Des Part Type | Current font mode (system or stroke) |
 
 8. When you finish setting options, click OK.  
 

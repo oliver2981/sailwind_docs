@@ -85,18 +85,31 @@ For information on more complex translations, such as translating only selected 
 
 Table 7. File Types Imported into the Current Schematic   
 
-
-<table><tr><td>File Type</td><td>Description</td></tr><tr><td rowspan="2">ASCll File Format (*.txt)</td><td>PADS-format ASCll. The ASCll files you can import include those created from PowerLogic and SailWind Logic. Note: Beginning with PADS 9.0, die parts and flip chips are identified by</td></tr><tr><td>the Special Purpose settings in the Part Type rather than being designated by the DiE and FLP logic families. When you import an ASCll file created by a previous PADS version, these Special Purpose setings are automatically set for parts having the logic family DIE or FLP. The part's family designation remains the same.</td></tr><tr><td>OLE Import/Export on page 65(*.ole)</td><td>SailWind Logic enables you to embed files from other applications as OLE objects in your schematic using Edit/lnsert New Object. Once you have an OLE object in your design, you can export the object as a singular item to an .ole file using File Export (see</td></tr></table>  
+| File Type                                                    | Description                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ASCll File Format (*.txt)                                    | PADS-format ASCll. The ASCll files you can import include those created from PowerLogic and SailWind Logic. Note: Beginning with PADS 9.0, die parts and flip chips are identified by |
+| the Special Purpose settings in the Part Type rather than being designated by the DiE and FLP logic families. When you import an ASCll file created by a previous PADS version, these Special Purpose setings are automatically set for parts having the logic family DIE or FLP. The part's family designation remains the same. |                                                              |
+| OLE Import/Export on page 65(*.ole)                          | SailWind Logic enables you to embed files from other applications as OLE objects in your schematic using Edit/lnsert New Object. Once you have an OLE object in your design, you can export the object as a singular item to an .ole file using File Export (see |
 
 Table 7. File Types Imported into the Current Schematic (continued)   
 
-
-<table><tr><td>File Type</td><td>Description</td></tr><tr><td></td><td>Exporting Files). You can then import the .o/e file into other SailWind Logic schematics.</td></tr><tr><td>ECO files (*eco)</td><td>Similar to PADS-format ASCll. Each type of data begins with a header line with a key word surrounded by asterisks (*).</td></tr><tr><td>(.asc) files</td><td>SailWind Layout rules.</td></tr></table>  
+| File Type        | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+|                  | Exporting Files). You can then import the .o/e file into other SailWind Logic schematics. |
+| ECO files (*eco) | Similar to PADS-format ASCll. Each type of data begins with a header line with a key word surrounded by asterisks (*). |
+| (.asc) files     | SailWind Layout rules.                                       |
 
 Table 8. File Types Opened as New Schematics   
 
-
-<table><tr><td>File Type</td><td>Description</td></tr><tr><td>CAD .csa files</td><td>CADSTAR Archive files (ASCII)</td></tr><tr><td>CADSTAR .scm files</td><td>CADSTAR Schematic files (binary)</td></tr><tr><td>OrCAD .dsn files</td><td>OrCAD Capture files</td></tr><tr><td>P-CAD .sch files</td><td>P-CAD Schematic files (ASCll & binary) generated in P-CAD 2002 & newer</td></tr><tr><td>Protel .sch files</td><td>Protel 99 Schematic files (ASCll & binary)</td></tr><tr><td>Protel .schdoc files</td><td>Protel DXP/Altium Designer Schematic files (ASCll & binary)</td></tr><tr><td>Protel .prjpcb files</td><td>Protel combined design/schematic files</td></tr></table>  
+| File Type            | Description                                                  |
+| -------------------- | ------------------------------------------------------------ |
+| CAD .csa files       | CADSTAR Archive files (ASCII)                                |
+| CADSTAR .scm files   | CADSTAR Schematic files (binary)                             |
+| OrCAD .dsn files     | OrCAD Capture files                                          |
+| P-CAD .sch files     | P-CAD Schematic files (ASCll & binary) generated in P-CAD 2002 & newer |
+| Protel .sch files    | Protel 99 Schematic files (ASCll & binary)                   |
+| Protel .schdoc files | Protel DXP/Altium Designer Schematic files (ASCll & binary)  |
+| Protel .prjpcb files | Protel combined design/schematic files                       |
 
 ### Importing a File  
 
@@ -202,8 +215,18 @@ Following this, all of the data for each sheet is grouped together in the $^{\st
 
 Table 9. ASCII File Formatting Sections   
 
-
-<table><tr><td>Option</td><td>Description</td></tr><tr><td>*TXT*</td><td>Free text items in the sheet.</td></tr><tr><td>*LINES*</td><td>2D line items, including library entry.</td></tr><tr><td>*CAEDECAL*</td><td>Description of the CAE symbol decals for all parts in the sheet.</td></tr><tr><td>*PARTTYPE*</td><td>Description of the part types that appear in the sheet.</td></tr><tr><td>*BUSSES*</td><td>Description of buses in the sheet, including the name and location.</td></tr><tr><td>*PART*</td><td>List of all parts, including their atributes, which appear in the sheet. Gates and connector pins are each listed separately.</td></tr><tr><td>*OFFPAGE REFS*</td><td>List of all off-page flags in the sheet. This includes power and ground symbols and bus connections.</td></tr><tr><td>*TIE-DOTS*</td><td>List of all tie-dots in the sheet.</td></tr><tr><td>*CONNECTION*</td><td>List of the connections in the sheet, with the signal name and path.</td></tr><tr><td>*NETNAMES*</td><td>List of all net names that are displayed in the schematic.</td></tr></table>
+| Option         | Description                                                  |
+| -------------- | ------------------------------------------------------------ |
+| *TXT*          | Free text items in the sheet.                                |
+| *LINES*        | 2D line items, including library entry.                      |
+| *CAEDECAL*     | Description of the CAE symbol decals for all parts in the sheet. |
+| *PARTTYPE*     | Description of the part types that appear in the sheet.      |
+| *BUSSES*       | Description of buses in the sheet, including the name and location. |
+| *PART*         | List of all parts, including their atributes, which appear in the sheet. Gates and connector pins are each listed separately. |
+| *OFFPAGE REFS* | List of all off-page flags in the sheet. This includes power and ground symbols and bus connections. |
+| *TIE-DOTS*     | List of all tie-dots in the sheet.                           |
+| *CONNECTION*   | List of the connections in the sheet, with the signal name and path. |
+| *NETNAMES*     | List of all net names that are displayed in the schematic.   |
 
 After all sheets are listed, the file ends with \*END\*.  
 

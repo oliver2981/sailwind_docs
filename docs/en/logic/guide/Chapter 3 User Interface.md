@@ -130,8 +130,12 @@ The session log file messages in the Status tab are color coded by subject. Unde
 
 Table 3. Session Log Text Color Meanings   
 
-
-<table><tr><td>Color</td><td> Meaning</td></tr><tr><td>Red</td><td>Errors</td></tr><tr><td>Green</td><td>Warnings</td></tr><tr><td>Black</td><td>Messages</td></tr><tr><td>Blue</td><td>Links to files, Web pages, and database objects</td></tr></table>  
+| Color | Meaning                                         |
+| ----- | ----------------------------------------------- |
+| Red   | Errors                                          |
+| Green | Warnings                                        |
+| Black | Messages                                        |
+| Blue  | Links to files, Web pages, and database objects |
 
 #### Navigating Pages in the Status Tab  
 
@@ -141,13 +145,18 @@ To perform these functions, use the following Status tab toolbar buttons:
 
 Table 4. Status Tab Toolbar Buttons   
 
-
-<table><tr><td>Command</td><td>Description</td></tr><tr><td>Back</td><td>Displays the previous page.</td></tr><tr><td>Forward</td><td>Displays the next page.</td></tr></table>  
+| Command | Description                 |
+| ------- | --------------------------- |
+| Back    | Displays the previous page. |
+| Forward | Displays the next page.     |
 
 Table 4. Status Tab Toolbar Buttons (continued)   
 
-
-<table><tr><td>Command</td><td>Description</td></tr><tr><td> Stop</td><td>Stops page updates.</td></tr><tr><td>Refresh</td><td>Refreshes the display of reports and other pages.</td></tr><tr><td>Home</td><td>Returns to the session log.</td></tr></table>  
+| Command | Description                                       |
+| ------- | ------------------------------------------------- |
+| Stop    | Stops page updates.                               |
+| Refresh | Refreshes the display of reports and other pages. |
+| Home    | Returns to the session log.                       |
 
 #### Filtering the Status Tab Display  
 
@@ -161,8 +170,12 @@ Use the following procedure to filter the display in the Status tab.
 
 Table 5. Filter Submenu Commands   
 
-
-<table><tr><td>Command</td><td>Description</td></tr><tr><td>Error</td><td>Displays errors.</td></tr><tr><td>Warning</td><td>Displays warnings.</td></tr><tr><td>Message</td><td>Displays messages.</td></tr><tr><td>Show all</td><td>Displays all items (errors, warnings, and messages).</td></tr></table>  
+| Command  | Description                                          |
+| -------- | ---------------------------------------------------- |
+| Error    | Displays errors.                                     |
+| Warning  | Displays warnings.                                   |
+| Message  | Displays messages.                                   |
+| Show all | Displays all items (errors, warnings, and messages). |
 
 2. Select an item to show it; clear the item to hide it.  
 
@@ -489,10 +502,20 @@ Only those selected will be available in the CIS tab.
 
 Table 6. Table Configuration Description   
 
+| Name       | Description                                                  |
+| ---------- | ------------------------------------------------------------ |
+| Field Name | Lists all fields in the table selected on the left.          |
+| Field Type | Specifies what type the table fields belong to from the drop-down list, wherein: |
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Field Name</td><td>Lists all fields in the table selected on the left.</td></tr><tr><td>Field Type</td><td>Specifies what type the table fields belong to from the drop-down list, wherein:</td></tr></table>  
-
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>· Part_Type is mandatory, based on which to load data into the CIS tab. Besides, you can see schematic symbol and PCB decal assigned to the part type in the local libraries from the CIS preview window. · Part_Number is mandatory, based on which to check whether part attribute values in design are identical with those in CIS. · Category allows to show table structure hierarchically by subcategories in the CiS tab. · All field types except Normal must be unique.</td></tr><tr><td>Field Alias</td><td>Specifies the table heading for each field to display in the Cis tab. · Field aliases corresponding to Field Type "Part_Type" and "Part_Number" are defined by default, and no modification is allowed. · If nothing is set, Field Name will be used instead.</td></tr><tr><td>Transfer to Design</td><td>Specifies to add the Field Name to the part attributes. If yes, you can see it in the Part Attributes list by checking part properties in the design. Tip</td></tr><tr><td>Visibility in CIS</td><td>When set, Field Alias will be used instead. Specifies to display Field Name in the Cis tab. When set, Field Alias will be used instead.</td></tr><tr><td>Key</td><td>Reserved</td></tr><tr><td>Browsable</td><td>Specifies to add hyperlinks to the field contents in the Cis tab, which often links to such reference files as datasheets and drawings.</td></tr><tr><td>Property Checking</td><td>Specifies attribute(s) to compare in the Part Manager Dialog Box, checking whether the attribute values in design are identical with those in CiS.</td></tr></table>  
+| Name               | Description                                                  |
+| ------------------ | ------------------------------------------------------------ |
+|                    | · Part_Type is mandatory, based on which to load data into the CIS tab. Besides, you can see schematic symbol and PCB decal assigned to the part type in the local libraries from the CIS preview window. · Part_Number is mandatory, based on which to check whether part attribute values in design are identical with those in CIS. · Category allows to show table structure hierarchically by subcategories in the CiS tab. · All field types except Normal must be unique. |
+| Field Alias        | Specifies the table heading for each field to display in the Cis tab. · Field aliases corresponding to Field Type "Part_Type" and "Part_Number" are defined by default, and no modification is allowed. · If nothing is set, Field Name will be used instead. |
+| Transfer to Design | Specifies to add the Field Name to the part attributes. If yes, you can see it in the Part Attributes list by checking part properties in the design. Tip |
+| Visibility in CIS  | When set, Field Alias will be used instead. Specifies to display Field Name in the Cis tab. When set, Field Alias will be used instead. |
+| Key                | Reserved                                                     |
+| Browsable          | Specifies to add hyperlinks to the field contents in the Cis tab, which often links to such reference files as datasheets and drawings. |
+| Property Checking  | Specifies attribute(s) to compare in the Part Manager Dialog Box, checking whether the attribute values in design are identical with those in CiS. |
 
 5. Click Save to save the configuration.  
 
