@@ -45,7 +45,7 @@ Opening a Schematic File Import File Types Exporting Files
 
 You can open a schematic file in different ways.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Files opened by another user are locked to any edits. See Opening a File That is Already in Use on page 57.  
 

@@ -384,7 +384,7 @@ Tip You can select multiple libraries using the Shift and Ctrl keys.
 
 The Read Only check box is only a status indicator. It is always shaded and unavailable. You can set library read-only status only in the Microsoft Windows File Manager.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 To ensure file protection, the system administrator who owns the files is the only one who can control the process.  
 
@@ -436,7 +436,7 @@ Adding an Attribute to Multiple Library Items Deleting Attributes From Library I
 
 You can add an attribute to all parts and decals, or just to parts or decals individually, in one or all libraries.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 This process will yield no result or warning if the library you are working with is read-only. Check the status of the library in the Library List Dialog Box.  
 
@@ -468,7 +468,7 @@ Manage Attributes in a Schematic
 
 You can delete one or more attributes from all parts and decals, or just from parts or decals individually, in one or all libraries.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 This process will yield no result or warning if the library you are working with is read-only. Check the status of the library in the Library List Dialog Box.  
 
@@ -493,7 +493,7 @@ Manage Attributes in a Schematic
 
 You can rename an attributes of all parts and decals, or just of parts or decals individually, in one or all libraries.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 This process will yield no result or warning if the library you are working with is read-only. Check the status of the library in the Library List Dialog Box.  
 

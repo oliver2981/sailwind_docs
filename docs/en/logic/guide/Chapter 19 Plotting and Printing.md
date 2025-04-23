@@ -77,7 +77,7 @@ See also Printing to PDF.
 
 Tip Adobe® Acrobat® Distiller™ is not required on your system to create a PDF.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 To search a PDF, you must substitute the Stroke font with a System font.  
 
@@ -178,7 +178,7 @@ Before you can output your design to a pen plotter, specific options need to be 
 
 Use the Pen Plotter Advanced Setup dialog box to add a new pen plotter to the list of available plotters.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 You can also edit the data for an existing plotter, but only if it is a custom setup.   
 • You cannot modify the SailWind-supplied advanced plotter settings.  
@@ -283,7 +283,7 @@ You can print your schematic sheets to a single PDF. The resulting PDF is a non-
 
 To create a color PDF that is searchable, see the Creating a PDF topic.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 You must have a PDF generator (such as Adobe PDF, Cute PDF, or Microsoft Print to PDF) installed before you can print to PDF.  
 

@@ -29,7 +29,7 @@ Use the Attributes tab to modify the Attribute content, the corresponding column
 
 The attribute order in the content list determines the column arrangement in the BOM report. There is a limit of 12 attributes in the Bill of Materials report.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Including non-ECO-registered parts and non-electrical parts in the bill of materials is constrained. See Options Dialog Box, Design Category for details.  
 
@@ -77,7 +77,7 @@ Use the Format tab to modify the output format of the Bill of Material report. T
 
 The default settings originate from the .ini file.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Including non-ECO-registered parts and non-electrical parts in the bill of materials is constrained. See Options Dialog Box, Design Category for details.  
 
@@ -130,7 +130,7 @@ Use the BOM Config tab to preview the Bill of Materials report format and copy a
 
 The default view orders the attributes by the sort field you specified on the Format tab.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Including non-ECO-registered parts and non-electrical parts in the bill of materials is constrained. See Options Dialog Box, Design Category for details.  
 

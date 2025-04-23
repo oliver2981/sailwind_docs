@@ -687,7 +687,7 @@ You can change a mixed net bus to a bit format bus only if all of the connected 
 
 You may find it necessary to expand the range of a bus to include additional sequential nets. Use Properties to add sequential nets to a bus.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 The Bus Nets area is not available when the Bit Format bus type is selected.  
 

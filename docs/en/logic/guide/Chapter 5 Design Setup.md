@@ -208,7 +208,7 @@ Stroke Font System Fonts
 
 Use the Fonts dialog box to set or change the font type in your design. The “stroke” font is a simple font that is represented in SailWind Logic using lines and arcs. It does not depend upon any specific Windows font being on the system. There are some limitations imposed by the use of the stroke font.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Graphical symbols and special characters, such as arrows, check boxes, and bullets are not available in a stroke font.   
 Other symbols such as mathematical, technical, and geometrical symbols, plus arrows and dingbat blocks are not available in a stroke font.  
@@ -234,7 +234,7 @@ When changing the font type, the following conditions may apply:
 
 You can choose which font to use as the system font. “System” fonts are typically fonts that are resident in your Windows environment and include a large selection of font styles. Be careful to use a font selection that is a standard font so that users on other systems can view your files using the same font.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • Be sure the non-ASCII symbols, such as $+1-$ , ohm, and degrees are available on your system for the fonts you select. If the character sets you select are not available, a blank space or blank text box appears where the symbols should be. In this case, select character sets or fonts that are available on your system, and the symbols will display in your schematic.  
 
@@ -330,7 +330,7 @@ Use the Line Widths category to change the size of line widths in the workspace.
 
 If your design or visual style objectives change, you can convert text from stroke to system fonts.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Be sure the non-ASCII symbols, such as $+1-$ , ohm, and degrees are available on your system for the fonts you select. If the character sets you select are not available, a blank space or blank text box appears where the symbols should be. In this case, select character sets or fonts that are available on your system, and the symbols will display in your schematic.  
 
@@ -369,7 +369,7 @@ However, a text string with a size of 100 is rounded to 7 points (97 mils).
 
 If your design or visual style objectives change, you can convert text from system to stroke fonts.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Graphical symbols and special characters, such as arrows, check boxes, and bullets are not available in a stroke font.   
 Other symbols such as mathematical, technical, and geometrical symbols, plus arrows and   
