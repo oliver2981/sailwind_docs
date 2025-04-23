@@ -61,7 +61,7 @@ SailWind Logic reserves a space to separate columns. Therefore, the actual colum
 
 9. To edit an attribute, select the box to edit and click Edit.  
 
-# Restriction:  
+**Restriction:**  
 
 You cannot edit the part attribute name, but you can select a new attribute to replace the one currently listed.  
 

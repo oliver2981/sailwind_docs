@@ -64,7 +64,7 @@ TheToolbars and Menus tab lists the new toolbar, showing it as selected and enab
 
 6. In the Categories list, select a menu or toolbar name to display commands specific to that menu or toolbar. Or select All Commands.  
 
-# Restriction:  
+**Restriction:**  
 
 If you are working in a special mode in SailWind Layout or SailWind Logic (for example, the Decal Editor in SailWind Layout), some categories of commands are not available for customization.  
 
@@ -232,7 +232,7 @@ Create a custom menu, you first create a new empty menu and then add items (comm
 6. To add items (commands) to your new menu, click the Commands tab.   
 7. In the Categories list, select a menu or toolbar name to display commands specific to that menu or toolbar. Or select All Commands.  
 
-# Restriction:  
+**Restriction:**  
 
 If you are working in a special mode in SailWind Layout or SailWind Logic (for example, the Decal Editor in SailWind Layout), some categories of commands are not available for customization.  
 
@@ -252,7 +252,7 @@ If there are commands that you frequently use that are not on the standard toolb
 
 ![](/images/2fa381639ba7047de4c853a69e94c314b5e02db09037a9685d773e50c6274c08.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 If you are working in a special mode in SailWind Layout or SailWind Logic (for example, the Decal Editor in SailWind Layout), some categories of commands are not available for customization.  
 
@@ -345,7 +345,7 @@ All function keys
 • Numerical keypad keys (when Num Lock is off): Up, Down, Left, Right, Insert, Home, PageUp, PageDown, Del, End, /, \*, +, -   
 • Mouse pointer events: Click, Double-click, RotateForward, RotateBackward  
 
-# Restriction:  
+**Restriction:**  
 
 Mouse pointer events cannot be combined with key sequences, although the Ctrl, Alt, and Shift modifiers are allowed.  
 

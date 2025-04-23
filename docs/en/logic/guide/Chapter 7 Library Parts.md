@@ -871,7 +871,7 @@ You can set the general part information such as logical to physical pin mapping
 
 1. In the Part Editor, click the Edit Electrical button and in the Part Information for Part dialog box, click the General tab. 2. Select the “Define mapping of Part Type pin numbers to PCB Decal” check box to activate the Pin Mapping tab where you can map logical pin numbers to different physical pin numbers.  
 
-# Restriction:  
+**Restriction:**  
 
 Note the following restrictions:  
 
@@ -881,7 +881,7 @@ Note the following restrictions:
 
 • Connector — In contrast to other part types, connectors do not require a prefix list, or gate definitions.  
 
-# Restriction:  
+**Restriction:**  
 
 When working with connectors, note the following restrictions:  
 
@@ -1019,7 +1019,7 @@ c. Click the “Show only Decals with pin numbers matching Part Type” check bo
 
 As a shortcut, double-click on a decal name to assign it to the part.  
 
-# Restriction:  
+**Restriction:**  
 
 Note the following restrictions:  
 
@@ -1259,7 +1259,7 @@ You can copy selected table data from the Pins tab or from Microsoft Excel and p
 2. If you are copying from Excel, select data and use the Excel Copy command. If you are copying from the Pins tab, select data and click the Copy button on the Pins tab.   
 3. Click the Paste button to paste the data into the table starting at the paste origin.  
 
-# Restriction:  
+**Restriction:**  
 
 When the pasted data includes either Pin Group or Pin Number data, the software adds extra pin rows automatically, otherwise the paste will fail if the number of rows and columns in the pasted data does not match those available in the table below and to the right of the paste origin.  
 
@@ -1309,7 +1309,7 @@ Pin numbers can be either numeric or alphanumeric. Prior to PADS2007, alphanumer
 
 ![](/images/8c29ad8688f7028708ca5a2a8ee338d323cf6924983298fa88e263d5c7cbc5fe.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 Gate pin names can contain up to 40 characters, while signal pin names can contain up to 47. All alphanumeric characters are accepted. In signal pin names, you cannot use special characters such as question marks ?, curly braces $\{\}$ , asterisks \*, periods ., commas , , or spaces. But in gate pin names, you can use any character except a space.  
 
@@ -1594,7 +1594,7 @@ Click the Check Part button to check for missing or inconsistent information ent
 
 Use the Connector tab to define the alternate Logic decals to display in a schematic. Decals are referred to as Special Symbols. You can associate a logical Pin Type with each alternate so that you can have a graphical indication of the connector pin function in the schematic.  
 
-# Restriction:  
+**Restriction:**  
 
 The Connector tab is available only when you open an existing connector or create a new connector.  
 

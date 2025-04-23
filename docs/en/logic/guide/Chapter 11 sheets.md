@@ -143,7 +143,7 @@ If you selected a 2D line object, the software lists all of the fields associate
 
 4. To edit the value of a user field, select the Value you want to edit and click Edit.  
 
-# Restriction:  
+**Restriction:**  
 
 When editing a user field, note the following: • You cannot edit the name of the user field. • You cannot add a field for later use in a 2D line.  
 

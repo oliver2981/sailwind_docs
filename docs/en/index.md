@@ -4,7 +4,14 @@ pageType: home
 
 hero:
   name: SailWind3.0
-  text: "Logic / Layout / Router \nChinese&English Help Manual"
+  text: "Logic / Layout / Router \nEnglish Help Manual"
   tagline: 
+#  image:
+#      src: /hero.png
+#      alt: PZDocs
+  actions:
+    - theme: brand
+      text: 中文
+      link: /zh/index
 
 ---

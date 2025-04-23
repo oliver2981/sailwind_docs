@@ -902,7 +902,7 @@ You can rotate or mirror a group while the group is selected. You can also rotat
 1. Select a group and right-click.   
 2. Click the Rotate 90, X Mirror, or Y Mirror popup menu item.  
 
-# Restriction:  
+**Restriction:**  
 
 The group must consist of mixed items. The commands are not available if only components are selected.  
 

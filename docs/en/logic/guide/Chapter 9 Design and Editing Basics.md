@@ -301,7 +301,7 @@ You can search for one or many objects by entering search criteria in the Select
 
 ![](/images/2fbe4345bb738f2bf8b4c4b2b6e0b84763f27fbad6d3d5c9a0cd7f9d5f7a80d9.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 You must set the selection filter to enable selection of the object type being searched.  
 

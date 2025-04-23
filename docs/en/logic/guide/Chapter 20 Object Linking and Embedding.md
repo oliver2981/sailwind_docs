@@ -4,7 +4,7 @@ SailWind Logic object embedding capabilities enable design engineers to embed an
 
 ![](/images/ce33b2dfde0e7c441b1c9d2f576c80b64e73b99e44f9b5840befdd87c7e60164.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 The insertion of SailWind Logic, Layout or Router files as OLE objects in other files (including other SailWind files) is not supported. Any SailWind Logic, Layout or Router file inserted in another file will not behave properly and cannot be edited within the “container” application (Visual Editing).  
 
@@ -37,7 +37,7 @@ When you insert an OLE object in a SailWind Logic schematic, you can choose to e
 
 ![](/images/b91ee93636a8d6bdc470b939c7980f9c15264b11fde7d8a6ffa947894d38a93e.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 Insertion of SailWind Logic, Layout or Router files as OLE objects in other files (including other SailWind files) is not supported. Any SailWind Logic, Layout or Router file inserted in another file will not behave properly and cannot be edited within the “container” application (Visual Editing).  
 

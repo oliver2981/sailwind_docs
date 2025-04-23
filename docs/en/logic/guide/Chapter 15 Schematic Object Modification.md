@@ -679,7 +679,7 @@ If you change the bus type from bit format to mixed net bus, the bus name change
 
 ![](/images/97da91ee9ea03bb1ce7b2b327cd4596c153d79c860c19637b248d857154da713.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 You can change a mixed net bus to a bit format bus only if all of the connected nets conform to the bit sequenced names, which you define in the Bus Name text box. Before you can change a mixed net bus to a bit format bus, you must delete the bus nets from the Bus Nets list box.  
 
@@ -778,7 +778,7 @@ New labels are created using a system default font size. You can’t change this
 
 1. Select the labels you want to change, right-click and click Properties.  
 
-# Restriction:  
+**Restriction:**  
 
 All the labels selected must be of the same type; for example, all net name labels or all reference designator labels.  
 

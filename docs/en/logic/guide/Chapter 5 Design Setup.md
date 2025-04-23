@@ -190,7 +190,7 @@ Display Colors Dialog Box - Part Editor
 
 You can set up your designs to use stroke font or the system fonts that ship with the Windows operating system. The system fonts installed on your system are available for use.  
 
-# Restriction:  
+**Restriction:**  
 
 If the schematic uses fonts or character sets that are not installed on your system, a font substitution process begins automatically when the file is loaded. During this process, you are asked to select fonts to substitute for those that are missing from your system.  
 

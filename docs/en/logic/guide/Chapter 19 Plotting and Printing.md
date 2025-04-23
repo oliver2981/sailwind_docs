@@ -103,7 +103,7 @@ Tip By default, all schematic sheets are selected for PDF creation.
 
 Use the Font style buttons to add Bold, Italic, or Underline styles.  
 
-# Restriction:  
+**Restriction:**  
 
 When replacing stroke fonts, the following restrictions apply:  
 
@@ -116,7 +116,7 @@ In the resulting PDF, you will see yellow boxes around each part. If you click i
 
 7. To enable finding the next instance of a net or bus in the PDF, select the “Create hyperlinks that will pan through nets” check box.  
 
-# Restriction:  
+**Restriction:**  
 
 If the net name is not visible in the schematic, you will not be able to pan through the nets.  
 

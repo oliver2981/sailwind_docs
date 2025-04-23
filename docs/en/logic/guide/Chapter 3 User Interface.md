@@ -299,7 +299,7 @@ You can copy or cut selected text to the Clipboard. You can also paste the selec
 
 ![](/images/65a927d196cad38e7667d7905a6818115b8071b09a312de0ca82a2bb618d59cb.jpg)  
 
-# Restriction:  
+**Restriction:**  
 
 If you have Notepad as the default text editor, longer macro files may not be loaded because of size constraints in Notepad. See Changing the Default Text Editor for information on how to change the default text editor.  
 
