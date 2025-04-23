@@ -11,7 +11,7 @@ Customizing SailWind Logic Default Settings
 Mouse Button Operations   
 Using the Numeric Keypad to Control the View  
 
-# SailWind Logic Flow  
+## SailWind Logic Flow  
 
 Creating a schematic design of your system requires a number of steps to get from initial concept to completed design. Each step is presented in a logical order so that you can manage the entire process of creating the schematics for your system.  
 
@@ -36,7 +36,7 @@ Creating a schematic design of your system requires a number of steps to get fro
 
 6. Perform Design Annotations Forward annotate design changes to SailWind Layout (See Forward Annotation From SailWind Logic to SailWind Layout) Backward annotate design changes from SailWind Layout (See Backward Annotation Fro SailWind Layout to SailWind Logic)  
 
-# Startup Options  
+## Startup Options  
 
 You can use startup options, known as command line switches, to control the initial SailWind Logic configuration. Use command line switches to enable different options, to open a file, start macros, and record a SailWind Logic session. You can type multiple command line options.  
 
@@ -52,7 +52,7 @@ Table 1. SailWind Logic Command Line Options (continued)
 
 <table><tr><td>Option</td><td>Description</td></tr><tr><td>/BMW[initials]</td><td>Opens the Media Wizard. Use the Media Wizard to start recording a session log or to convert the previous session log to media that can be replayed by Basic Log Test. To create session media files for the current SailWind Logic session, use the BMW modeless command. To use the BMW command line switch, type /BMW or /BMWxx, where xx is your initials, in the command line. Capitalization. [] represents optional text. This option is associated with another modeless command, BLT. BLT is the Log Test; it finds and runs the session media created by BMW to play back a recorded SailWind Logic session. For information, see Modeless Commands and Keyboard</td></tr><tr><td>/</td><td>Shortcuts on page 569.</td></tr><tr><td>/mmacro name</td><td>Opens the last file you had open when you start SailWind Logic. Runs the specified macro in the default macro file. For example, to run the macro</td></tr><tr><td>/Mmacro file</td><td>MyMacro, type /mMyMacro. Specifies the file to use as the default macro file. For example, to run the macro MyMacro contained in the file user1.mcr, type /Muser1.mcr /mMyMacro. Note the</td></tr><tr><td>/nc </td><td>required capitalization. Starts SailWind Logic without displaying the splash screen that includes copyright information.</td></tr><tr><td>/sXXX</td><td>Starts a Basic script when you start SailWind Logic. Use quotation marks for filenames with spaces, for example:/s"C:\<install_folder>\SailWind<version>\Samples\Scripts\Logic\Unsuppo rted\AttributestoExcel.bas"</td></tr></table>  
 
-# Adding Startup Options to a Shortcut  
+## Adding Startup Options to a Shortcut  
 
 If you repeatedly start your design sessions with the intention of launching a specific design file or specifying a particular design environment setting, then you can add startup options to the properties of a shortcut.  
 
@@ -71,17 +71,17 @@ When specifying a file to start, do not use a / before the filename. You can spe
 
 “\<install_folder>\<version>\Programs\SailWindLogic.exe” “C:\SailWind projects\Samples\preview.sch”  
 
-# SailWind Updates  
+## SailWind Updates  
 
 The SailWind products automatically check for a new software version when you launch an application. If a new version is detected, a tooltip is displayed in the system tray.  
 
 Downloading the Update Disabling the Check for Updates Checking for Updates Manually  
 
-# Downloading the Update  
+### Downloading the Update  
 
 When a new version of SailWind is detected, you can download the update.  
 
-# Prerequisites  
+**Prerequisites**  
 
 An Internet connection is required for the check.  
 
@@ -91,7 +91,7 @@ An Internet connection is required for the check.
 2. Click the Open download page popup menu item.   
 3. Follow the instructions on the download page.  
 
-# Disabling the Check for Updates  
+### Disabling the Check for Updates  
 
 If you do not want to check for updates automatically, disable the Check for Updates functionality. You can enable the check at any time, or you can manually check for updates.  
 
@@ -100,7 +100,7 @@ If you do not want to check for updates automatically, disable the Check for Upd
 1. Click the Help $>$ Check for Updates  menu item.   
 2. In the Check for Updates Dialog Box, select the “Disable ‘Check for Updates’ functionality” check box.  
 
-# Checking for Updates Manually  
+### Checking for Updates Manually  
 
 Do not check for updates manually unless you have disabled the automatic check.  
 
@@ -109,13 +109,13 @@ Do not check for updates manually unless you have disabled the automatic check.
 1. Click the Help $>$ Check for Updates menu item.   
 2. In the Check for Updates Dialog Box, click Check for Updates.  
 
-# Migrating User Settings  
+## Migrating User Settings  
 
 You can use the SailWind User Settings Migration tool to extract your settings from one installation of SailWind Logic, Layout, and Router and import them into another installation or version.  
 
 For information on how to do this, see User Settings Migration in the SailWind User Settings Migration Guide.  
 
-# Customizing SailWind Logic Default Settings  
+## Customizing SailWind Logic Default Settings  
 
 Several settings define the default ASCII parameters of operation of SailWind Logic. You can customize the user interface by modifying these system settings and saving the files.  
 
@@ -132,7 +132,7 @@ The file default.txt is a SailWind Logic ASCII file that contains default option
 7. In the ASCII Output dialog box, click Select All.   
 8. Leave the output format at the current setting and click OK.  
 
-# Mouse Button Operations  
+## Mouse Button Operations  
 
 SailWind Logic follows Microsoft® Windows® conventions for two-button mouse operations. SailWind Logic also supports the use of a three-button mouse. The middle button provides quick access to the pan and zoom commands.  
 
@@ -144,7 +144,7 @@ To zoom out, press the middle mouse button and drag diagonally and down. When yo
 
 solid box represents the new view size in proportion to the old. The zoom-out ratio also displays with the cursor.  
 
-# Using the Numeric Keypad to Control the View  
+## Using the Numeric Keypad to Control the View  
 
 You can control the view using the extended keypad or the numeric keypad, located on the far right of most keyboards. The NumLock light can be on or off except where specified.  
 

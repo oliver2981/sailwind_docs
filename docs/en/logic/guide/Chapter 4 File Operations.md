@@ -7,11 +7,11 @@ File Import and Export
 Archiving Your Schematic
 Creating a New Schematic File Saving a Schematic File Opening a Schematic File File Import and Export Archiving Your Schematic  
 
-# Creating a New Schematic File  
+## Creating a New Schematic File  
 
 You can create a new blank schematic file for your design. SailWind Logic uses previously-defined default settings to define the starting design configuration.  
 
-# Prerequisites  
+**Prerequisites**  
 
 • Use the File $>$ New menu item to clear the current schematic from memory and start a new schematic.  
 
@@ -27,7 +27,7 @@ a. In File Explorer, go to the folder where you want to create the file.
 b. Right-click, and then click the New $>$ SailWind Logic Schematic menu item. This action creates a new design file in the current folder.   
 c. Type a name for the file and click Enter. Make sure the file has a .sch extension. This creates a zero byte file. When you open this file in SailWind Logic, SailWind Logic recognizes the zero byte file and performs a File $>$ New command using default.txt.  
 
-# Saving a Schematic File  
+## Saving a Schematic File  
 
 Use the File $>$ Save (or Save As) menu item to write design information to a file. The File Save As dialog box displays the schematic files contained in the default \SailWind Projects folder. The list of displayed files includes those created in PowerLogic and SailWind Logic.  
 
@@ -41,7 +41,7 @@ You can also save a file by clicking the Save button on the Standard toolbar.
 
 Opening a Schematic File Import File Types Exporting Files  
 
-# Opening a Schematic File  
+## Opening a Schematic File  
 
 You can open a schematic file in different ways.  
 
@@ -61,7 +61,7 @@ Creating a New Schematic File
 Import File Types   
 Exporting Files  
 
-# File Import and Export  
+## File Import and Export  
 
 Using SailWind Logic, you can import different file types, including data from schematics created with other tools. You can extract design information from an open schematic and save it in an ASCII format compatible with the previous or current software version.  
 
@@ -72,7 +72,7 @@ OLE Object Import and Export
 ASCII File Format   
 Exporting to ASCII Output  
 
-# Import File Types  
+### Import File Types  
 
 SailWind Logic enables you to import different file types, including data from various formats and schematics created with other tools.  
 
@@ -98,7 +98,7 @@ Table 8. File Types Opened as New Schematics
 
 <table><tr><td>File Type</td><td>Description</td></tr><tr><td>CAD .csa files</td><td>CADSTAR Archive files (ASCII)</td></tr><tr><td>CADSTAR .scm files</td><td>CADSTAR Schematic files (binary)</td></tr><tr><td>OrCAD .dsn files</td><td>OrCAD Capture files</td></tr><tr><td>P-CAD .sch files</td><td>P-CAD Schematic files (ASCll & binary) generated in P-CAD 2002 & newer</td></tr><tr><td>Protel .sch files</td><td>Protel 99 Schematic files (ASCll & binary)</td></tr><tr><td>Protel .schdoc files</td><td>Protel DXP/Altium Designer Schematic files (ASCll & binary)</td></tr><tr><td>Protel .prjpcb files</td><td>Protel combined design/schematic files</td></tr></table>  
 
-# Importing a File  
+### Importing a File  
 
 SailWind Logic supports the importing of different file types into the design environment.  
 
@@ -113,7 +113,7 @@ SailWind Logic supports the importing of different file types into the design en
 
 Exporting Files Opening a Schematic File Import Rules from PCB  
 
-# Exporting Files  
+### Exporting Files  
 
 Extract design information from an open schematic file and save it in an ASCII format compatible with the previous or current software version. You can also use Export to create default startup conditions for SailWind Logic.  
 
@@ -126,8 +126,7 @@ You can save all or some of the open design in ASCII format.
 1. Click the File $>$ Export menu item.   
 2. From the “Save as type” dropdown list, select the type of file you want to export to.   
 3. Type a name for the ASCII file in the File Name text box. The default is the name of the currently open design.  
-
-# 4. Click Save.  
+4. Click Save.  
 
 This opens the Exporting to ASCII Output Dialog Box. Select the appropriate check boxes to indicate the information that you want to write to the ASCII file.  
 
@@ -149,13 +148,13 @@ Import File Types Opening a Schematic File
 
 Saving a Schematic File Export Rules to PCB  
 
-# OLE Object Import and Export  
+### OLE Object Import and Export  
 
 You can import and export .ole files in SailWind Logic to add images, text files, and other objects created in other programs and link to or embed them into your design. You can also export images and objects from SailWind Logic so that they can be included in documentation or reports.  
 
 Importing OLE Files Exporting OLE Files  
 
-# Importing OLE Files  
+#### Importing OLE Files  
 
 You can import an .ole file containing OLE objects into a SailWind Logic schematic, and you can export an OLE object from a schematic to an .ole file.  
 
@@ -174,7 +173,7 @@ OLE objects are placed on the sheet on which they were created. For example, if 
 
 If some of the OLE objects you want to import exist on sheets that do not exist in the current schematic, these objects are deleted. For example, you originally created OLE objects on Sheets 1, 2, and 3. The schematic you are importing the OLE objects into only has Sheets 1 and 2. The OLE objects from Sheet 3 are deleted.  
 
-# Exporting OLE Files  
+#### Exporting OLE Files  
 
 You can export OLE objects from SailWind Logic so that they can be utilized by other programs or other SailWind Logic design sessions.  
 
@@ -191,7 +190,7 @@ You can export OLE objects from SailWind Logic so that they can be utilized by o
 
 0 Tip You can also import application files from other sources using the Edit $>$ Insert New Object menu item. You cannot import an .ole file.  
 
-# ASCII File Format  
+### ASCII File Format  
 
 You can export SailWind design files to the ASCII file format to edit information outside of the SailWind design environment. The ASCII files for SailWind Logic are organized into sections, beginning with a keyword enclosed with an asterisk.  
 
@@ -208,7 +207,7 @@ Table 9. ASCII File Formatting Sections
 
 After all sheets are listed, the file ends with \*END\*.  
 
-# Exporting to ASCII Output  
+### Exporting to ASCII Output  
 
 Define what information you want to write to an ASCII file.  
 
@@ -229,7 +228,7 @@ You can click Select All to select all items, or click Unselect All to clear all
 4. In the SailWind Logic Output Version area, select the appropriate version of the software you are using from the list.   
 5. Click OK.  
 
-# Archiving Your Schematic  
+## Archiving Your Schematic  
 
 You can create a folder, a PDF, and/or a .zip file that contains all of your schematic files and supporting files. This includes the schematic itself, a design file, libraries, and any additional files or folders you want. You choose what to archive; all fields are optional.  
 

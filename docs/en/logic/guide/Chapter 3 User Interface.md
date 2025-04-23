@@ -7,13 +7,13 @@ Project Explorer
 Output Window   
 Opening a File That is Already in Use  
 
-# View Control  
+## View Control  
 
 You can use several methods to control which portion of the database is visible on the screen.  
 
 View Commands and Scroll Bars Middle Mouse Button Numeric Keypad Saving and Restoring Views  
 
-# View Commands and Scroll Bars  
+### View Commands and Scroll Bars  
 
 There are a number of different ways to interact with the design environment to control the view of the design. SailWind Logic provides a comprehensive set of commands to enable you to pan and zoom within the design including using the mouse buttons/wheel, keyboard shortcuts and various items on the View menu.  
 
@@ -24,7 +24,7 @@ Click the View $>$ Sheet menu item, or the Sheet button on the toolbar to displa
 Click the View $>$ Extents menu item to resize the view to display all objects in the design.   
 • Use the scroll bars to pan the view.  
 
-# Middle Mouse Button  
+### Middle Mouse Button  
 
 You can use the middle mouse button to perform a number of viewing operations.  
 
@@ -36,13 +36,13 @@ To zoom out, click and hold the middle mouse button. Drag the cursor diagonally 
 
 • To view the entire design, click and hold the middle mouse button, drag the cursor horizontally, and release.  
 
-# Numeric Keypad  
+### Numeric Keypad  
 
 Use the numeric keyboard to control the view.  
 
 For more information, see Using the Numeric Keypad to Control the View.  
 
-# Saving and Restoring Views  
+### Saving and Restoring Views  
 
 If you repeatedly pan or zoom to a particular area of your design, you can save time by saving a work area view so that you can instantly restore it when needed.  
 
@@ -50,7 +50,7 @@ Restriction: Capture is not available while in the Part Editor.
 
 Saving a View Restoring a View  
 
-# Saving a View  
+#### Saving a View  
 
 You can save a view of your design for later recall.  
 
@@ -72,7 +72,7 @@ Tip You can create up to nine views. The view names appear at the bottom of the 
 
 5. Click Close.  
 
-# Restoring a View  
+#### Restoring a View  
 
 You can restore a previously saved view.  
 
@@ -84,7 +84,7 @@ You can restore a previously saved view.
 
 3. Select a name from the View Name list and click Delete to remove it from the View Name list.  
 
-# Project Explorer  
+## Project Explorer  
 
 The Project Explorer lists the objects in your design in a hierarchical structure. When you update your design, the hierarchical structure also updates automatically.  
 
@@ -99,7 +99,7 @@ You can configure the Project Explorer so you can click on a listed object to se
 1. Right-click in Project Explorer, and click the Allow Selection menu item. A check mark indicates that the functionality is enabled.   
 2. If you want to Zoom to the object you select, click the Zoom to selection menu item. A check mark indicates that the functionality is enabled.  
 
-# Output Window  
+## Output Window  
 
 Use the Output window for viewing reports and session logs, macro editing and debugging, and custom programming and debugging.  
 
@@ -116,13 +116,13 @@ Macro Script Debug
 Accessing Help on the Macro Language   
 CIS  
 
-# Session Log Management  
+### Session Log Management  
 
 Various methods are available for managing the session logs, including filtering, viewing, printing and saving the log data.  
 
 Session Log Navigating Pages in the Status Tab Filtering the Status Tab Display Searching in the Status Tab Printing Session Log Messages Viewing and Printing Reports Saving a Session Log to File Clearing the Session Log Display  
 
-# Session Log  
+#### Session Log  
 
 A session log, which appears in the Status tab of the Output window, contains all program output for the current session, including names of open and saved files, integrity test results.  
 
@@ -133,7 +133,7 @@ Table 3. Session Log Text Color Meanings
 
 <table><tr><td>Color</td><td> Meaning</td></tr><tr><td>Red</td><td>Errors</td></tr><tr><td>Green</td><td>Warnings</td></tr><tr><td>Black</td><td>Messages</td></tr><tr><td>Blue</td><td>Links to files, Web pages, and database objects</td></tr></table>  
 
-# Navigating Pages in the Status Tab  
+#### Navigating Pages in the Status Tab  
 
 Use the Status tab toolbar buttons in the Output window to navigate to the previous or next page, and to refresh a display of reports and other pages. You can also stop updates to pages, and return to the session log display.  
 
@@ -149,7 +149,7 @@ Table 4. Status Tab Toolbar Buttons (continued)
 
 <table><tr><td>Command</td><td>Description</td></tr><tr><td> Stop</td><td>Stops page updates.</td></tr><tr><td>Refresh</td><td>Refreshes the display of reports and other pages.</td></tr><tr><td>Home</td><td>Returns to the session log.</td></tr></table>  
 
-# Filtering the Status Tab Display  
+#### Filtering the Status Tab Display  
 
 The session log file messages in the Status tab are color coded by subject. You can choose to view any combination of the color coded messages.  
 
@@ -166,7 +166,7 @@ Table 5. Filter Submenu Commands
 
 2. Select an item to show it; clear the item to hide it.  
 
-# Searching in the Status Tab  
+#### Searching in the Status Tab  
 
 If you want to locate a specific item or term in the log, you can search for text in the Status tab. There are options available to search for whole word only and specific case matches.  
 
@@ -176,7 +176,7 @@ If you want to locate a specific item or term in the log, you can search for tex
 2. In the Find dialog box, type the text you want to find in the dialog box and complete any other dialog box options.   
 3. Click Next. The tab scrolls to the occurrence of the word, highlighting the word.  
 
-# Printing Session Log Messages  
+#### Printing Session Log Messages  
 
 You can print a hard copy of the session log for review purposes.  
 
@@ -186,7 +186,7 @@ You can print a hard copy of the session log for review purposes.
 2. In the Windows standard Print dialog box, set options as needed.   
 3. Click Print.  
 
-# Viewing and Printing Reports  
+#### Viewing and Printing Reports  
 
 The session log contains links to reports that you can view and print.  
 
@@ -206,7 +206,7 @@ Tip As an alternative, on the Status tab toolbar, click the Print button.
 
 3. Click Print.  
 
-# Saving a Session Log to File  
+#### Saving a Session Log to File  
 
 There are times when you might want to refer to something that was documented in the session log (such as when debugging a file or submitting a Support Center request. You can save a session log to a file for future reference.  
 
@@ -224,7 +224,7 @@ When you first start the software, the location is set in the following registry
 
 HKEY_CURRENT_USER\Software\Mentor Graphics\<version>\SailWind Layout\Status Window\LastLogName  
 
-# Clearing the Session Log Display  
+#### Clearing the Session Log Display  
 
 You can clear a session log when it is no longer needed.  
 
@@ -236,7 +236,7 @@ Right-click and click Clear to clear the session log display each time you open 
 
 This prevents you from viewing information from a previously opened file. It does not delete the log file.  
 
-# Macros  
+### Macros  
 
 You can create macros to simplify redundant activities. You can record any set of procedural steps for replay as a single action. You can also nest macros.  
 
@@ -254,7 +254,7 @@ Editing a Macro
 Changing the Default Text Editor   
 Saving the Macro  
 
-# Creating a New Macro  
+#### Creating a New Macro  
 
 Macros can be very flexible and helpful beyond your current design session. You can create a new macro by recording your keystrokes, mouse movements and commands and then save it for later recall.  
 
@@ -267,7 +267,7 @@ Macros can be very flexible and helpful beyond your current design session. You 
 5. Perform the keystrokes, commands, and mouse clicks to include in the macro.   
 6. On the Macro tab toolbar, click the Stop button. Alternatively, you can also script a macro instead of recording mouse actions.  
 
-# Recording Mouse Movements  
+#### Recording Mouse Movements  
 
 Mouse movements are recorded in macros. You can record compressed or uncompressed mouse movements and relative or absolute movements.  
 
@@ -275,7 +275,7 @@ Compress Mouse Mode — Compress mouse mode records only the start point and end
 
 Relative Mouse Mode — Relative mouse mode records the start point and endpoint of a movement in incremental coordinates instead of absolute coordinates.  
 
-# Opening an Existing Macro File  
+#### Opening an Existing Macro File  
 
 Macros are created in and stored in macro files that have a .mcr extension. To open an existing macro file (.mcr), you can use the menus or the toolbar.  
 
@@ -285,7 +285,7 @@ You can open multiple macros in the macro editor. The macro editor also supports
 
 1. On the main toolbar, click the Output Window button; then, in the Output window, click the Macro tab. 2. Click the Open button, or select the macro file in the Open File dialog box and click Open.  
 
-# Viewing Multiple Open Macros  
+#### Viewing Multiple Open Macros  
 
 You can switch your view between multiple open macros. This enables you move back and forth between more than one macro without having to open and close them individually.  
 
@@ -293,7 +293,7 @@ You can switch your view between multiple open macros. This enables you move bac
 
 Click a macro in the List of Open Macros area (left-hand pane) of the Macro tab to switch between open macros.  
 
-# Editing a Macro  
+#### Editing a Macro  
 
 You can copy or cut selected text to the Clipboard. You can also paste the selection from the Clipboard into the text window. You can paste text from the Clipboard into other applications. You can also switch between open macros to edit multiple macros.  
 
@@ -315,7 +315,7 @@ You will see that your selection has been pasted in the Output window at the ins
 
 As an alternative, right-click in the Output window and click Copy, Cut, or Paste.  
 
-# Changing the Default Text Editor  
+#### Changing the Default Text Editor  
 
 To access large files using Edit, you must install an ASCII text editor with a suitable file size capacity.  
 
@@ -325,7 +325,7 @@ To access large files using Edit, you must install an ASCII text editor with a s
 2. Modify the [general] section, specifying a new text editor executable name. Include the drive and folder if the new editor is not in your Windows folder.   
 3. Save the.ini file and close the text editor.  
 
-# Saving the Macro  
+#### Saving the Macro  
 
 Macros are not limited to your current design session. You can save a macro for future recall.  
 
@@ -338,14 +338,14 @@ Macros are not limited to your current design session. You can save a macro for 
 
 Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]  
 
-# Macro Playback  
+### Macro Playback  
 
 You can play back an existing macro using Run. Run also resumes the playback of a paused macro.   
 When you play a macro, you cannot use the mouse in the workspace.  
 
 Playing Back a Macro Pausing a Playing Macro Stopping a Playing Macro  
 
-# Playing Back a Macro  
+#### Playing Back a Macro  
 
 Once a macro has been recorded, you can play it back.  
 
@@ -354,7 +354,7 @@ Once a macro has been recorded, you can play it back.
 1. On the Macro tab, click the Open button and open a macro (.mcr) file. Recent macros can be found by clicking the Tools $>$ Macros menu item, and then selecting the desired macro from the list.   
 2. On the Macro tab toolbar, click the Run button. As an alternative, right-click in the Macro tab and click Run.  
 
-# Pausing a Playing Macro  
+#### Pausing a Playing Macro  
 
 You can pause a macro during playback.  
 
@@ -363,7 +363,7 @@ You can pause a macro during playback.
 1. On the Macro tab toolbar, click the Pause button to pause a playing macro at any time.   
 2. Click the Play button to resume playing the macro.  
 
-# Stopping a Playing Macro  
+#### Stopping a Playing Macro  
 
 You can stop a macro that is currently playing.  
 
@@ -377,13 +377,13 @@ You cannot resume the playback of the macro once you have stopped it. When you c
 
 Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]  
 
-# Macro Script Debug  
+### Macro Script Debug  
 
 When playing back a macro, you can run it step-by-step, or to a certain location in the script. To perform these debugging tasks, insert breakpoints in the macro at the points at which you want the macro to stop  
 
 Setting or Removing Breakpoints Debugging the Macro Scripts Run-Time Error Correction  
 
-# Setting or Removing Breakpoints  
+#### Setting or Removing Breakpoints  
 
 The ability to set or remove breakpoints is useful when you debug a macro. If the macro engine encounters a breakpoint when playing back a macro, it pauses the macro.  
 
@@ -392,7 +392,7 @@ The ability to set or remove breakpoints is useful when you debug a macro. If th
 1. Place the cursor on the line in which to add a breakpoint.   
 2. Right-click in the Macro tab and click Toggle Break, or as an alternative, on the Macro tab toolbar, click the Toggle Breakpoint button. This inserts a breakpoint at the current cursor location. A breakpoint marker appears in the gutter area. When the macro engine encounters a breakpoint while playing back a macro, it pauses the macro. The next line in the macro is marked with the instruction pointer.  
 
-# Debugging the Macro Scripts  
+#### Debugging the Macro Scripts  
 
 Once breakpoints are inserted, you can debug macros.  
 
@@ -402,7 +402,7 @@ Play Back a Macro to a Point
 Return From the Subroutine to the Point From Which it was Called   
 Continue the Execution From the Current Point  
 
-# Play a Single Line of the Macro  
+##### Play a Single Line of the Macro  
 
 You can play a single line of a macro by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
@@ -410,7 +410,7 @@ You can play a single line of a macro by using a button on the Macro tab toolbar
 
 Right-click in the Macro tab and click the Step Over menu item, or on the Macro tab toolbar, click the Step Over button  
 
-# Perform a Subroutine Call on the Current Line  
+##### Perform a Subroutine Call on the Current Line  
 
 You can perform a subroutine call on the current line by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
@@ -418,7 +418,7 @@ You can perform a subroutine call on the current line by using a button on the M
 
 Right-click in the Macro tab and click Step Into menu item, or, on the Macro tab toolbar, click the Step into button.  
 
-# Play Back a Macro to a Point  
+##### Play Back a Macro to a Point  
 
 You can play back a macro to a point by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
@@ -426,7 +426,7 @@ You can play back a macro to a point by using a button on the Macro tab toolbar 
 
 Right-click in the Macro tab and click the Step to Cursor menu item, or click the Step to cursor button on the Macro tab toolbar.  
 
-# Return From the Subroutine to the Point From Which it was Called  
+##### Return From the Subroutine to the Point From Which it was Called  
 
 You can return from the subroutine to the point from which it was called by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
@@ -434,7 +434,7 @@ You can return from the subroutine to the point from which it was called by usin
 
 Right-click in the Macro tab and click the Step Out menu item, or, on the Macro tab toolbar, click the Step out button.  
 
-# Continue the Execution From the Current Point  
+##### Continue the Execution From the Current Point  
 
 You can continue the execution of a macro from the current point by using a button on the Macro tab toolbar or the right mouse button menu command.  
 
@@ -442,7 +442,7 @@ You can continue the execution of a macro from the current point by using a butt
 
 Right click in the Macro tab and click the Run menu item, or, on the Macro tab toolbar, click the Run button.  
 
-# Run-Time Error Correction  
+#### Run-Time Error Correction  
 
 If run-time errors occur, the macro debugger switches to step-by-step mode and displays a detailed message on the status bar. The instruction pointer is set on the line that produced the error. After fixing the error, you can resume playback of the macro.  
 
@@ -450,7 +450,7 @@ If run-time errors occur, the macro debugger switches to step-by-step mode and d
 
 Using Command Line Switches with Macros [SailWind Logic Command Reference Manual]  
 
-# Accessing Help on the Macro Language  
+### Accessing Help on the Macro Language  
 
 You can access help on the macro language at any time.  
 
@@ -458,7 +458,7 @@ You can access help on the macro language at any time.
 
 Click in the edit area of the Macro tab and press F1 for information on the term and a sample script.  
 
-# CIS  
+### CIS  
 
 The CIS tab displays part information from CIS as indicated. You can:  
 
@@ -470,7 +470,7 @@ Adding a New Configuration
 Adding Parts from CIS   
 Comparing Part Attributes for Consistency Checking  
 
-# Adding a New Configuration  
+#### Adding a New Configuration  
 
 After launch, SailWind Logic automatically connects to the specified data source, from which to load data into the CIS tab.  
 
@@ -498,7 +498,7 @@ Table 6. Table Configuration Description
 
 SailWind Logic automatically connects to the data source and loads specified information into the CIS tab.  
 
-# Adding Parts from CIS  
+#### Adding Parts from CIS  
 
 After configuring data source as needed, you can check and use CIS data in the design. To locate parts effeciently, SailWind Logic provides you with filter feature. This section dsecribes how to use CIS data.  
 
@@ -520,7 +520,7 @@ c. Press the Esc key when you are done adding the part(s).
 
 6. Select the part in the design, right-click and click the Attributes popup menu item. In the attributes list, you can see attribute(s) added by "Transfer to Design" feature in the Library Config Dialog Box.  
 
-# Comparing Part Attributes for Consistency Checking  
+#### Comparing Part Attributes for Consistency Checking  
 
 Use the Part Manager to compare part attributes in design with those in CIS to check the consistency. For inconsistent attributes, you can update from CIS with multiple options. You can also specify the attributes to compare.  
 
@@ -548,7 +548,7 @@ Filtering by Component Name or Part Number is case-sensitive and no wildcard or 
 • Click Update All to update all inconsistent part attributes from CIS. Select one or more items in the table, and click Update the Selected to update the inconsistent attributes of the selected parts only. Use Ctrl for multiple selections.   
 • Update attribute(s) for a specific part in the "Comparision Results" area, with two available options: • Update the selected attribute: Right-click on the attribute cell and click the Update Selected Attribute From CIS popup menu item • Update all attributes: Right-click and click the Update Selected Part From CIS popup menu item  
 
-# Opening a File That is Already in Use  
+## Opening a File That is Already in Use  
 
 The SailWind products help you avoid making changes to a file that is already opened by another user.  
 
