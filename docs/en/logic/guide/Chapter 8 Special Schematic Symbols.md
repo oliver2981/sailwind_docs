@@ -4,7 +4,7 @@ Special Symbols in SailWind Logic include power symbols, ground symbols, and off
 
 Special Symbol Naming Conventions Assigning Alternative Symbols for the Ground Part Assigning Alternative Symbols for the Off-Page Part Assigning Alternative Symbols for the Power Part Creating New Special Symbols Creating New Special Symbols From Existing Symbols Updating Special Symbol Mappings Management of Special Symbols in the Library  
 
-# Special Symbol Naming Conventions  
+## Special Symbol Naming Conventions  
 
 The special symbols in the SailWind Logic library use specific names or a unique naming prefix. This topic contains tables that provide definitions that can help you to locate a special symbol in the library.  
 
@@ -28,7 +28,7 @@ Table 22. Ground Symbols (continued)
 
 <table><tr><td>Symbol</td><td>Description</td></tr><tr><td>AGND</td><td>Analog ground</td></tr><tr><td>CHGND</td><td>Chassis ground</td></tr></table>  
 
-# Assigning Alternative Symbols for the Ground Part  
+## Assigning Alternative Symbols for the Ground Part  
 
 If your design requires the use of multiple ground symbols, use the Assign Alternatives for Ground Part dialog box to assign ground symbols.  
 
@@ -58,7 +58,7 @@ Tip To add a new ground symbol, follow the procedure in Creating New Special Sym
 12. Select and edit the text box for the Signal Name.   
 13. Click OK.  
 
-# Assigning Alternative Symbols for the Off-Page Part  
+## Assigning Alternative Symbols for the Off-Page Part  
 
 If your design requires the use of multiple different off-page symbols, use the Assign Alternatives for OffPage Part dialog box to assign additional off-page reference symbols.  
 
@@ -96,7 +96,7 @@ Tip For left side off-page references, select Source, for right side, select Loa
 
 12. Click OK.  
 
-# Assigning Alternative Symbols for the Power Part  
+## Assigning Alternative Symbols for the Power Part  
 
 If your design requires the use of multiple different power symbols, use the Assign Alternatives for Power Part dialog box to assign additional power symbols.  
 
@@ -119,7 +119,7 @@ To add a new power symbol, follow the procedure in Creating New Special Symbols.
 8. Select and edit the text box for the Signal Name.   
 9. Click OK.  
 
-# Creating New Special Symbols  
+## Creating New Special Symbols  
 
 Special symbols in SailWind Logic include power symbols, ground symbols, and off-page reference symbols. SailWind Logic enables only one part definition in the library for special symbols. For this reason, the options for these types are unavailable when you are in the Part Editor and you select the File $>$ New menu item.  
 
@@ -165,7 +165,7 @@ If the Save Part Type to Library Dialog Box displays, accept the defaults and cl
 Tip   
 For SailWind Logic to recognize the new special symbol, perform the instructions in The Update From Library Function.  
 
-# Creating New Special Symbols From Existing Symbols  
+## Creating New Special Symbols From Existing Symbols  
 
 Special symbols in SailWind Logic include power symbols, ground symbols, and off-page reference symbols. SailWind Logic enables only one part definition in the library for off-page reference symbols, so this option is unavailable when you click the New button to create a new part. You can modify the existing symbols and/or add new symbols.  
 
@@ -213,7 +213,7 @@ Table 23. Topic List Regarding Assigning New Decal as Alternate Decal
 
 <table><tr><td>Alternate symbols</td><td> Topic to see</td></tr><tr><td>Off-page symbols</td><td>Assigning Alternative Symbols for the Off-Page Part</td></tr><tr><td>Power symbols</td><td>Assigning Alternative Symbols for the Power Part</td></tr><tr><td>Ground symbols</td><td>Assigning Alternative Symbols for the Ground Part</td></tr></table>  
 
-# Updating Special Symbol Mappings  
+## Updating Special Symbol Mappings  
 
 You can change the assignment or “mapping” of a special symbol using the Update from Library function For example, you can assign a new ground symbol to both a common ground and an analog ground.  
 
@@ -242,7 +242,7 @@ SailWind Logic updates the symbols and generates the Update From Library report 
 
 The updated symbols appear in the “Mapped to” column of the report.  
 
-# Management of Special Symbols in the Library  
+## Management of Special Symbols in the Library  
 
 Special Symbols are those used to create off-page reference, power and ground symbols, and connectors. The default location of these special symbols is the C:\<install_folder>\<version>\Libraries.  
 

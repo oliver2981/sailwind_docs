@@ -22,7 +22,7 @@ Attributes Overview
 Manage Attributes in a Schematic   
 Resistor Values Defined on Parts  
 
-# Adding Parts  
+## Adding Parts  
 
 Use the Add Part from Library dialog box to load a part from a library into the current schematic drawing.   
 SailWind Logic automatically assigns a reference designator when you add the part.  
@@ -55,13 +55,13 @@ Use the filter to locate the part. Use the wildcard convention, with or without 
 
 Using Alternate Symbols Adding Connector Pins  
 
-# Adding Connector Pins  
+## Adding Connector Pins  
 
 Connector pins are special symbols within SailWind Logic libraries. You add them like multigate parts, whereby the pin number increments each time you add a connector symbol. SailWind Logic does not increment the reference designator until you use all the connector pins.  
 
 After adding one or more pins of a connector and establishing a reference designator, use Using Duplicate Mode to add additional pins. This causes SailWind Logic to use the same reference designator for new pins.  
 
-# Adding Single Gate Parts  
+## Adding Single Gate Parts  
 
 Single gate parts are parts that are represented by a single schematic symbol. When you add the part to the schematic, unique reference designator assignment starts with the next available reference designator number.  
 
@@ -73,7 +73,7 @@ Related Topics
 
 Adding Multigate Parts  
 
-# Adding Multigate Parts  
+## Adding Multigate Parts  
 
 Multigate parts are parts that consist of more than one symbol or gate to represent a complete part; for example, a 7400 which contains 4 gates. You can create parts that have multiple gates of a single type or multiple gates of different types.  
 
@@ -81,7 +81,7 @@ When you add a new multigate part, the gate with the lowest set of pin numbers i
 
 SailWind Logic continually manages the packaging of gates in a schematic. If you delete, rename, or change the part type of a gate, SailWind Logic keeps track of these changes and fills in the gaps when a new gate is added.  
 
-# Using Alphanumeric Prefixes  
+## Using Alphanumeric Prefixes  
 
 You can use any combination of letters and numbers in SailWind Logic to define a reference designator prefix.  
 
@@ -95,7 +95,7 @@ Rename Gate
 Rename Part   
 Modifying Parts  
 
-# Controlling Text Visibility for a Part  
+## Controlling Text Visibility for a Part  
 
 Use the Part Text Visibility dialog box to control the display of text associated with the selected part. You can control the visibility of one part or all parts of the same type.  
 
@@ -118,7 +118,7 @@ This Gate — Updates the selected gate. This Part — Updates a part or all ass
 
 When using object mode selection on page 177, with multiple parts selected, check boxes may be in an intermediate state (selected, yet you cannot edit them) because some selected parts have the check box selected and others have it cleared. You can select or clear the check box and update all selected parts.  
 
-# Using Alternate Symbols  
+## Using Alternate Symbols  
 
 Some parts can be shown in the schematic with more than one representation. One example of this is the NAND gate, with its DeMorgan representation. A second example is the use of IEEE and ANSII symbol standards. Within SailWind Logic’s library, it is possible to define one primary and up to three alternate symbols for a part.  
 
@@ -132,13 +132,13 @@ When you add a new part or duplicate an existing part, and you want the alternat
 
 Right-click and click the Alternate popup menu item while in Duplicate or Move mode.  
 
-# Swapping Reference Designators  
+## Swapping Reference Designators  
 
 To swap reference designators, you can use the Swap Ref. Des. button on the Schematic Editing toolbar or Swap Ref. Des. on the popup menu. If the reference designator prefixes of the selected parts are different, swapping also updates the reference designators of other parts in the package.  
 
 Swapping Reference Designators Using Verb Mode Swapping Reference Designators by Selecting One Part at a Time Swapping Reference Designators by Selecting Both Parts First  
 
-# Swapping Reference Designators Using Verb Mode  
+### Swapping Reference Designators Using Verb Mode  
 
 You can swap reference designators using verb mode. Using verb mode enables you to initiate the command and then perform consecutive swap operations without having to restart the command each time.  
 
@@ -148,7 +148,7 @@ You can swap reference designators using verb mode. Using verb mode enables you 
 2. Select the first part.   
 3. Select the second part with which to swap reference designators. The software changes or swaps the reference designators on the selected parts. Alternatively, to use the popup menu to swap reference designators, you can either select one part at a time or select both parts at once.  
 
-# Swapping Reference Designators by Selecting One Part at a Time  
+### Swapping Reference Designators by Selecting One Part at a Time  
 
 You can swap reference designators by selecting one part at a time.  
 
@@ -158,7 +158,7 @@ You can swap reference designators by selecting one part at a time.
 2. Right-click and click the Swap Ref. Des. popup menu item.   
 3. Select another component to complete the swap.  
 
-# Swapping Reference Designators by Selecting Both Parts First  
+### Swapping Reference Designators by Selecting Both Parts First  
 
 You can swap reference designators by selecting both parts first, and then specifying the command.  
 
@@ -167,13 +167,13 @@ You can swap reference designators by selecting both parts first, and then speci
 1. Using Ctrl $^+$ click, select the component reference designators you want to swap.   
 2. Right-click and click the Swap Ref. Des. popup menu item to complete the swap.  
 
-# Saving Part Types to a Library  
+## Saving Part Types to a Library  
 
 You can save one part type, multiple part types, or all part types in a schematic to the library.  
 
 Saving One or More Part Types in the Schematic Saving All of the Part Types in the Schematic Saving Off-Page to Library  
 
-# Saving One or More Part Types in the Schematic  
+### Saving One or More Part Types in the Schematic  
 
 You can save one or more part types to a library. Once saved to the library, these parts are available for use in the current design as well as future design sessions.  
 
@@ -185,7 +185,7 @@ You can save one or more part types to a library. Once saved to the library, the
 3. Select the library where you want to save the part types.   
 4. Click OK.  
 
-# Saving All of the Part Types in the Schematic  
+### Saving All of the Part Types in the Schematic  
 
 You can save all of the part types in the schematic to a library. This enables you to quickly save all of the part types and make them available for the current and future design sessions.  
 
@@ -205,7 +205,7 @@ When saving part types, observe the following:
 
 • If a part type or logic decal you are saving already exists in the library, a message box appears. Click Yes to overwrite the part type or logic decal in the library. Click No to save only those part types that do not already exist in the library. Click Cancel to return to the Save Parts to Library dialog box without saving the part types to the library. • When parts of the same type have attributes with the same values, the attribute names and values are saved in the library with the part type. When parts of the same type have different values for the same attribute name, only the attribute name with a blank value is saved to the library.  
 
-# Saving Off-Page to Library  
+### Saving Off-Page to Library  
 
 Use Save Off-page to Library to update the off-page, ground, or power symbols in the library with the current version(s) in the schematic.  
 
@@ -223,7 +223,7 @@ Use Save Off-page to Library to update the off-page, ground, or power symbols in
 
 Special Schematic Symbols  
 
-# The Update From Library Function  
+## The Update From Library Function  
 
 In SailWind Logic, when you add parts from the library to a schematic, a copy of the library content for the parts is written into the schematic. Over time, however, as updates are made to the library, the parts in the schematic can become out of sync with newer versions in the library. Use Update From Library to synchronize the parts in your design with the latest versions from the library.  
 
@@ -242,7 +242,7 @@ You can compare or update:
 • All of any or all of these categories.   
 • Selected part types, CAE decals, and pin decals. You cannot compare/update selected ground, power, or off-page symbols.  
 
-# CAUTION:  
+**CAUTION:**  
 
 Since the only link between library and schematic content for an item is the item’s name, updating can have unforeseen and unintended consequences. When part types or gates are replaced globally in a schematic, they are replaced without regard to any local editing of the item; edited instances of parts or gates are replaced with the common instance from the library. The undesirable consequences of such changes could range from minor, like a repositioned label, to catastrophic, like deleted pins or disconnected nets.  
 
@@ -262,13 +262,13 @@ Updating Selected Pin Decals From the Library
 The Compare/Update Process   
 How to Read the Update Report  
 
-# Undoing an Update  
+### Undoing an Update  
 
 The update process creates an undo checkpoint before it begins the update. If after the update you determine that you want to reinstate the design to its previous state you can revert to the previous checkpoint.  
 
 You can undo any update (whether completed, canceled, or failed) to the last-saved checkpoint using the Edit $>$ Undo menu command.  
 
-# Updating a Schematic From the Library  
+### Updating a Schematic From the Library  
 
 Information in your library can be subject to changes and updates. To ensure that the content in your design is in agreement with the latest updated library content, you can update a schematic with new versions of parts from the library.  
 
@@ -301,7 +301,7 @@ When the comparison or update operation is completed, the update report opens an
 
 The Compare/Update Process How to Read the Update Report Update From Library Dialog Box Updating Selected Part Types From the Library Updating Selected CAE Decals From the Library Updating Selected Pin Decals From the Library  
 
-# Updating Selected Part Types From the Library  
+### Updating Selected Part Types From the Library  
 
 As you make changes and updates to your library content, you may also need to selectively update parts in your design. You can select one or more parts and then update the part types of all parts having the same part type(s) to synchronize with the latest version in the library.  
 
@@ -344,7 +344,7 @@ When the comparison or update operation completes, the update report opens and a
 
 The Compare/Update Process How to Read the Update Report Updating a Schematic From the Library Updating Selected CAE Decals From the Library Updating Selected Pin Decals From the Library  
 
-# Updating Selected CAE Decals From the Library  
+### Updating Selected CAE Decals From the Library  
 
 You can select one or more parts, and then update the CAE decals of all parts that use the same decal(s)  
 
@@ -387,13 +387,13 @@ Updating a Schematic From the Library
 Updating Selected Part Types From the Library   
 Updating Selected Pin Decals From the Library  
 
-# Updating Selected Pin Decals From the Library  
+### Updating Selected Pin Decals From the Library  
 
 You can update selected pin decals from the library using the Update from Library dialog box or directly from within the schematic editor.  
 
 Updating Selected Pin Decals Using the Update From Library Dialog Box Updating Selected Pin Decals Using the Schematic Editor  
 
-# Updating Selected Pin Decals Using the Update From Library Dialog Box  
+#### Updating Selected Pin Decals Using the Update From Library Dialog Box  
 
 As you make changes and updates to the content in your library, you may need to synchronize pin decals in your design with the updated library content. You can use the Update From Library dialog box to update all instances of one or more selected pin decal(s).  
 
@@ -409,7 +409,7 @@ As you make changes and updates to the content in your library, you may need to 
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
-# Updating Selected Pin Decals Using the Schematic Editor  
+#### Updating Selected Pin Decals Using the Schematic Editor  
 
 As you make changes to the content in your library, you may need to refresh your design content to reflect those updates. You can use the Update Selected Pin Decals from Library dialog box to select one or more pins, and update all instances of the pin decal(s) used by the selected pin(s).  
 
@@ -441,11 +441,11 @@ Updating a Schematic From the Library
 Updating Selected Part Types From the Library   
 Updating Selected CAE Decals From the Library  
 
-# The Compare/Update Process  
+### The Compare/Update Process  
 
 The update process begins with a comparison of the schematic content with the library content. When schematic content is found to be different from the library content, the schematic content is updated according to the options set in the Update From Library dialog box, and the results documented in the report file. The compare process is the same, except that the schematic is not updated.  
 
-# General Compare/Update Rules  
+**General Compare/Update Rules**  
 
 There are a number of rules that govern the compare/update process.  
 
@@ -470,7 +470,7 @@ Timestamp in schematic is newer — If the timestamp in the schematic is newer t
 
 • What is updated — When an item is updated, the content from the library replaces the entire content of the item in the schematic.  
 
-# Skipped Updates  
+**Skipped Updates**  
 
 There are 3 situations in which the update of an item is skipped.  
 
@@ -480,11 +480,11 @@ When an item in the design is newer than the equivalent item in the library, and
 • When a newer item in the library has fewer pins than the equivalent older item in the design.   
 • When the number of GND, POWER or OFF symbols in the library is fewer than the number of available symbols in the design.  
 
-# Older Schematics  
+**Older Schematics**  
 
 Schematics of PADS versions prior to 2005 SPac2 do not have timestamps. When one of these is opened, the timestamps on all part types, decals, pin decals, and off-page, power & ground symbols are set to zero. To determine if the content of the part types and decals in the schematic is in sync with the library, compare the schematic and library with the Hide identical results check box selected.  
 
-# What is Compared  
+**What is Compared**  
 
 Many design objects are examined during the compare process.  
 
@@ -500,7 +500,7 @@ Table 25. Compared and Reported Part Structures (continued)
 
 <table><tr><td> Item</td><td>Item Component</td><td>What is Compared & Reported</td></tr><tr><td rowspan="3">Pin Decals</td><td rowspan="3"></td><td>Pin Decal name.</td></tr><tr><td>Update notes: · Because default pin name and pin number label locations are "hard-wired" in the CAE decal when it is created, the locations of</td></tr><tr><td>pin names and numbers in the schematic are unaffected when a Pin decal is updated. · Pin decals do provide a default location for net names on the schematic, but the actual used net name locations are stored separately and therefore net name locations are not affected by an update.</td></tr><tr><td>Power & Ground Symbols</td><td></td><td>Symbol name, type, Signal Pin name</td></tr><tr><td>Off-Page Symbols</td><td></td><td>Symbol name, type</td></tr></table>  
 
-# How to Read the Update Report  
+### How to Read the Update Report  
 
 Every time you update a design from the library or generate a comparison report, Update from Library writes the results of the operation to a new UpdateReport.txt file in C:\SailWind Projects. You can use a text editor to open and review the content of this report and verify that the design objects are the intended versions.  
 
@@ -646,7 +646,7 @@ Related Topics
 
 The Update From Library Function The Compare/Update Process  
 
-# Deleting a Part  
+## Deleting a Part  
 
 When deleting a part that is selected in object mode, you can choose to delete the part only, or the part and its connections.  
 
@@ -663,7 +663,7 @@ Tip Preserve Connections is enabled when a check mark appears next to it in the 
 
 The software leaves the connections at their original locations.  
 
-# Deleting a Part and Its Connections  
+## Deleting a Part and Its Connections  
 
 If a design no longer requires a part, and you are not going to replace the part with a similar one (and therefore you do not need to preserve its connections), you can delete the part and its connections.  
 
@@ -682,7 +682,7 @@ The software deletes the part and its connections.
 
 Object Select Mode (Select Object First) Adding Off-Page References Working With Floating Connections  
 
-# Cut, Copy, and Paste  
+## Cut, Copy, and Paste  
 
 In a manner similar to other standard applications, you can cut, copy and paste objects in your design.  
 
@@ -691,7 +691,7 @@ In a manner similar to other standard applications, you can cut, copy and paste 
 • SailWind Logic only maintains one cut or copy in the paste buffer.   
 • You can paste into a new design.  
 
-# Copy as Bitmap  
+## Copy as Bitmap  
 
 The Copy as Bitmap command lets you define a rectangular area to copy graphics information to the paste buffer as a bitmap image. Once copied, you can, for example switch to Microsoft Word and use the Home $>$ Paste menu item to insert the bitmap into a document.  
 
@@ -701,7 +701,7 @@ The Copy as Bitmap command lets you define a rectangular area to copy graphics i
 2. Drag the cursor over the area to copy. All items in the rectangle including the background, dot grid, color, etc., are copied.   
 3. Open the application in which to place the bitmap and use the Paste command to place the image.  
 
-# Creation of Groups  
+## Creation of Groups  
 
 A group is a collection of objects on the schematic. By default, connections that extend outside the group are clipped so they stop at the boundary used to define the group. Once you select a group, you can move it, copy it to the paste buffer, delete it, duplicate it, or save it to a file for use in another design.  
 
@@ -713,7 +713,7 @@ See also Combining 2D Lines and Text.
 
 Creating a Group Setting the Origin of Groups  
 
-# Creating a Group  
+### Creating a Group  
 
 To perform an operation on multiple objects simultaneously, create a group and then move it, copy it to the paste buffer, delete it, duplicate it, or save it to a file for use in another design.  
 
@@ -731,7 +731,7 @@ To perform an operation on multiple objects simultaneously, create a group and t
 
 The software highlights the included objects.  
 
-# Setting the Origin of Groups  
+### Setting the Origin of Groups  
 
 When you create a group, the software creates an origin automatically. The software uses this origin when moving or placing groups. You may want to change the origin when it is optimal to have the origin at a specific location.  
 
@@ -750,7 +750,7 @@ When the boundary is not visible, the group rotates around the center of the sel
 
 Management of Groups  
 
-# Group Anchor Points  
+## Group Anchor Points  
 
 When duplicating or moving a group, SailWind Logic places the anchor point of the group at a pre-defined location.  
 
@@ -766,7 +766,7 @@ Figure 3. Anchor Point with “Preserve by Boundary”
 ![](/images/d18b456e202eaffd72640cfcc7c07bf84e7b15e5629b5f8b0a85d951d73288b4.jpg)  
 Figure 4. Anchor Point with no “Preserve by Boundary”  
 
-# Management of Groups  
+## Management of Groups  
 
 Using a group, you can perform an operation on its contents as a single entity. Once you create a group, you can save it, delete it, move it, or reuse it.  
 
@@ -778,7 +778,7 @@ Pasting Groups From a File
 Automatic Connection When Pasting   
 Rotate or Mirror a Group  
 
-# Duplicating an Existing Group  
+### Duplicating an Existing Group  
 
 You can duplicate all of the items in a group that already exist on a schematic. When you duplicate a group of objects, reference designator names are assigned automatically.  
 
@@ -799,7 +799,7 @@ The anchor point of the duplicate group depends on certain conditions. For more 
 
 See also Creation of Groups.  
 
-# Moving Groups  
+### Moving Groups  
 
 Using the Move command, you can move a group to any location on the sheet.  
 
@@ -821,7 +821,7 @@ Tip You can set SailWind Logic to display only the group’s outline during move
 
 See also Creation of Groups.  
 
-# Deleting Groups  
+### Deleting Groups  
 
 When deleting a group, you can choose to delete or retain the connections that are outside the group boundary.  
 
@@ -842,7 +842,7 @@ When preserving connections, note the following:
 
 See also Detach, Working With Floating Connections.  
 
-# Saving Groups  
+### Saving Groups  
 
 You can save the contents of a group for use on other schematic sheets or a different design. Saved groups are stored in the \SailWind Projects folder with a .grp extension.  
 
@@ -856,7 +856,7 @@ You can save the contents of a group for use on other schematic sheets or a diff
 2. In the File Name area, type a name.   
 3. Click Save.  
 
-# Pasting Groups From a File  
+### Pasting Groups From a File  
 
 You can save a group to a file so that you can use it again in the current or future designs. Use Paste from File to insert a group that was previously saved to a file.  
 
@@ -887,13 +887,13 @@ If the design contains parts with the same reference designation as those in the
 
 See also Preserving Reference Designators.  
 
-# Automatic Connection When Pasting  
+### Automatic Connection When Pasting  
 
 When pasting a group from a file into your design, unconnected pins, unterminated wires, or bus segments in a group can connect automatically.  
 
 • Unconnected pins connect automatically with unterminated wire ends or unconnected pins. • Unterminated wire ends connect automatically to bus segments only if the unterminated wire is a named subnet of the bus.  
 
-# Rotate or Mirror a Group  
+### Rotate or Mirror a Group  
 
 You can rotate or mirror a group while the group is selected. You can also rotate or mirror a group during a move.  
 
@@ -910,7 +910,7 @@ The group must consist of mixed items. The commands are not available if only co
 
 Creation of Groups  
 
-# Attributes Overview  
+## Attributes Overview  
 
 Attributes enable you to associate information with a schematic symbol. Attributes are made of two parts: an attribute name, and its corresponding value. For example, you can create an attribute named Part Description and assign its value as Hex Inverter.  
 
@@ -924,7 +924,7 @@ See also Modifying Part Attributes and Resistor Values Defined on Parts.
 To display attributes in the schematic after creating them, use the visibility controls. See also Controlling Text Visibility for a Part.   
 • To create placeholders in CAE Decals so that attributes are placed in a predefined locations, use attribute labels. See also Attribute Labels.  
 
-# Manage Attributes in a Schematic  
+## Manage Attributes in a Schematic  
 
 Use the Manage Schematic Attributes dialog box to manage attributes at the schematic level. You can create a new attribute and automatically assign it to every part in your design. You can also rename an attribute in, or delete an attribute from, the schematic. All parts are automatically updated.  
 
@@ -932,7 +932,7 @@ See also Attributes Overview.
 
 Creating Attributes Renaming Attributes Deleting Attributes  
 
-# Creating Attributes  
+### Creating Attributes  
 
 You can create a new attribute and automatically assign it to every part in a design.  
 
@@ -952,7 +952,7 @@ Type a name for the attribute in the Attribute Name text box. • Click Browse L
 
 6. Click Close to close the Manage Schematic Attributes dialog box.  
 
-# Renaming Attributes  
+### Renaming Attributes  
 
 You can rename an existing attribute and apply the change to each part in the design.  
 
@@ -974,7 +974,7 @@ You can rename an existing attribute and apply the change to each part in the de
 
 0 Tip Click Remove or Remove All to place the selected attributes back into the Attributes in Schematic list and keep the current name.  
 
-# Deleting Attributes  
+### Deleting Attributes  
 
 You can delete an attribute from all parts in the design:  
 
@@ -985,7 +985,7 @@ You can delete an attribute from all parts in the design:
 3. Click Delete Attrs then click Yes at the prompt.   
 4. Click Close.  
 
-# Resistor Values Defined on Parts  
+## Resistor Values Defined on Parts  
 
 Discrete parts such as resistors and capacitors are created with Value and Tolerance attributes. The value for these attributes is not defined in the part symbol, but is set when the part is added to the drawing.  
 

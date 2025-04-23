@@ -12,7 +12,7 @@ Selection List
 Find Objects   
 Step and Repeat  
 
-# Design Operations  
+## Design Operations  
 
 When you start SailWind Logic or select New from the File menu, a drawing format is automatically added to the work area. The drawing format is the representation of the sheet on which you will begin to create your schematic design.  
 
@@ -29,13 +29,13 @@ Add connections
 
 Part Editor Operations  
 
-# Modes of Operation  
+## Modes of Operation  
 
 You can use the different modes of operation to edit designs in SailWind Logic. These include verb mode and object mode. There are also multiple choices available for zooming to various areas of your design using your pointer device or keyboard commands. To accommodate repetitive operations, you can use duplicate mode, delete mode, or move mode  
 
 Editing Basics Zooming Using Duplicate Mode Using Delete Mode Using Move Mode  
 
-# Editing Basics  
+### Editing Basics  
 
 Most design work involves editing the database—adding, modifying, and deleting items. This section describes the modes of operation in SailWind Logic that enable you to edit your designs.  
 
@@ -43,7 +43,7 @@ SailWind Logic has two basic modes of operation: Object Select Mode (Select Obje
 
 Verb Mode (Select Command First) Object Select Mode (Select Object First)  
 
-# Verb Mode (Select Command First)  
+#### Verb Mode (Select Command First)  
 
 Commands that operate on a selected object are considered verb commands. In Verb mode, select the mode, and then select the objects on which to perform the command.  
 
@@ -58,7 +58,7 @@ Using Duplicate Mode Using Move Mode
 
 3. To exit Verb mode, on the Schematic Editing toolbar, click the Select button or press the Esc key.  
 
-# Object Select Mode (Select Object First)  
+#### Object Select Mode (Select Object First)  
 
 In Object Select mode, select the object, and then select a command to perform an action.  
 
@@ -69,7 +69,7 @@ In Object Select mode, select the object, and then select a command to perform a
 • Right-click and click a command. Click a command from a menu.   
 • Click a button.  
 
-# Zooming  
+### Zooming  
 
 The Zoom button acts as a toggle. You can zoom in, out or to a specific area of the design.  
 
@@ -77,7 +77,7 @@ Zooming In
 Zooming Out   
 Specify the Zoom Area  
 
-# Zooming In  
+#### Zooming In  
 
 You can zoom into the view to see more detail in your design.  
 
@@ -86,7 +86,7 @@ You can zoom into the view to see more detail in your design.
 1. On the standard toolbar, click Zoom to enter zoom mode.   
 2. Point to the new view center and click.  
 
-# Zooming Out  
+#### Zooming Out  
 
 You can zoom out from the current view to see more of the objects in your design.  
 
@@ -95,7 +95,7 @@ You can zoom out from the current view to see more of the objects in your design
 1. On the standard toolbar, click Zoom to enter zoom mode.   
 2. Point to the new view center and right-click.  
 
-# Specify the Zoom Area  
+#### Specify the Zoom Area  
 
 To view a specific area of your design, you can drag a rectangle to specify the zoom area.  
 
@@ -105,7 +105,7 @@ To view a specific area of your design, you can drag a rectangle to specify the 
 2. Press and hold the left button and drag diagonally upward to zoom in.   
 3. Press and hold the left button and drag diagonally downward to zoom out. See also Creation of Groups.  
 
-# Using Duplicate Mode  
+### Using Duplicate Mode  
 
 Use Duplicate Mode to replicate existing parts, text, and drafting objects. When you copy parts, SailWind Logic automatically increments the reference designator and gate modifier.  
 
@@ -127,7 +127,7 @@ SailWind Logic remains in duplicate mode until you select another mode or the Se
 
 Schematic Parts Non-Electrical Objects Step and Repeat  
 
-# Using Delete Mode  
+### Using Delete Mode  
 
 Use Delete mode to remove parts, connections, unconnected buses, text, drafting objects, and hierarchical symbols from the design. If you delete a part with connections, SailWind Logic also deletes the connections.  
 
@@ -145,7 +145,7 @@ If you are in Object Select Mode (Select Object First), you can delete a part wi
 
 SailWind Logic remains in Delete mode until you select another mode or the Select button from the standard toolbar. You can also press the Esc key to exit the mode.  
 
-# Using Move Mode  
+### Using Move Mode  
 
 Use Move Mode to adjust the position of existing parts, connections, text, and drafting objects.  
 
@@ -164,7 +164,7 @@ The object follows the cursor movement.
 
 SailWind Logic remains in move mode until you select another mode or the Select button from the toolbar. You can also press the Esc key to exit the mode.  
 
-# Selecting Objects  
+## Selecting Objects  
 
 You can select individual or multiple objects in your design. Selecting multiple objects enables you to apply a specific action to multiple objects simultaneously.  
 
@@ -178,7 +178,7 @@ Selecting All Objects in an Area
 Selecting All Objects on a Sheet   
 Selecting an Object on All Sheets in a Schematic  
 
-# Selecting One Object  
+### Selecting One Object  
 
 To highlight or apply a command only to one object, you can select a single object in your design.  
 
@@ -194,7 +194,7 @@ If you try to select an object in a dense or crowded area, use the Using the Sel
 
 To select invisible signal pin nets, which you cannot select by clicking on them, see the Signal Pin Nets topic.  
 
-# Selecting Several Objects  
+### Selecting Several Objects  
 
 To highlight or apply a command to multiple objects, you can select several objects in your design.  
 
@@ -204,7 +204,7 @@ Press and hold the Ctrl key while you select multiple items.
 If you did not select an object previously, the software adds it to the set of selected objects.   
 If you selected the object previously, the software removes it from the set of selected objects.  
 
-# Selecting All Objects in an Area  
+### Selecting All Objects in an Area  
 
 To highlight or apply a command to all objects, you can select all of the objects in a particular area of the design.  
 
@@ -213,7 +213,7 @@ To highlight or apply a command to all objects, you can select all of the object
 1. Hold the left mouse button down and drag a selection rectangle around one or more objects; start at one corner of the area and drag to the opposite diagonal corner.   
 2. When you release the button, the software selects all objects contained within the rectangle. You can add additional objects to the selection or remove objects from the selection using Ctrl +click.  
 
-# Selecting All Objects on a Sheet  
+### Selecting All Objects on a Sheet  
 
 On the sheet you are viewing, you can select all objects of a particular type, depending on the Selection Filter you are using.  
 
@@ -223,7 +223,7 @@ For example, you could select all nets or all gates on the sheet.
 
 To select all objects of a particular type on the sheet you are viewing, click the Edit $>$ Select All on Sheet menu item, or press Ctr $+\mathsf{A}$ .  
 
-# Selecting an Object on All Sheets in a Schematic  
+### Selecting an Object on All Sheets in a Schematic  
 
 Across the entire schematic, you can select all objects of a particular type, depending on the Selection Filter you are using. For example, you could select all nets or all gates on every sheet in the schematic.  
 
@@ -231,7 +231,7 @@ Across the entire schematic, you can select all objects of a particular type, de
 
 To select all objects of a particular type on every sheet in the schematic, click the Edit $>$ Select All on Schematic menu item, or press Shift $+\mathsf{C t r l}+\mathsf{A}$ .  
 
-# Controlling Selections  
+## Controlling Selections  
 
 Sometimes you cannot easily select the object you want because several objects exist at the same location. You can use the Selection Filter to specify specific object types so that only those items can be selected.  
 
@@ -239,13 +239,13 @@ To control what information you select, use the Using the Selection Filter.
 
 See also Selection List.  
 
-# Filtering Object Selections  
+## Filtering Object Selections  
 
 There are three ways to filter the objects you select: the Selection toolbar buttons, the popup menu when nothing is selected, and the Selection Filter Dialog Box.  
 
 Filtering With the Selection Toolbar Filtering With the Popup Menu Filtering With the Selection Filter Dialog Box  
 
-# Filtering With the Selection Toolbar  
+### Filtering With the Selection Toolbar  
 
 Use the Selection toolbar buttons to enable or disable object selection. This enables you to limit your selection to only specific object types.  
 
@@ -256,7 +256,7 @@ Use the Selection toolbar buttons to enable or disable object selection. This en
 
 Tip You cannot use the Parts Filter and the Gates Filter at the same time.  
 
-# Filtering With the Popup Menu  
+### Filtering With the Popup Menu  
 
 With nothing selected, you can use the popup menu that appears to set the selection filter to the desired object type.  
 
@@ -265,7 +265,7 @@ With nothing selected, you can use the popup menu that appears to set the select
 1. With nothing selected in the schematic, right-click to open the popup menu.   
 2. Select the object you want to filter from the list.  
 
-# Filtering With the Selection Filter Dialog Box  
+### Filtering With the Selection Filter Dialog Box  
 
 You can use the Selection Filter dialog box to specify a specific filter. This enables very precise selection of objects by enabling only those object types that you want to select.  
 
@@ -274,7 +274,7 @@ You can use the Selection Filter dialog box to specify a specific filter. This e
 1. Click the Edit $>$ Filter menu item.   
 2. Select the desired item or items for your filter.  
 
-# Using the Selection Filter  
+## Using the Selection Filter  
 
 Use the Selection Filter dialog box to control which objects you can select. The Selection Filter offers the capability to set very precise filters enabling you to select anything, a very narrow subset of the available design objects, or nothing at all. You can use the Nothing selection to quickly reset the filter and then you can make a new filter selection.  
 
@@ -289,13 +289,13 @@ Use the Selection Filter dialog box to control which objects you can select. The
 
 Filtering Object Selections Object Select Mode (Select Object First)  
 
-# Selection List  
+## Selection List  
 
 The Selection list provides an efficient means of searching and selecting particular objects in your design.  
 
 Searching for an Object by Typing Information Selecting an Object With Area Selection  
 
-# Searching for an Object by Typing Information  
+### Searching for an Object by Typing Information  
 
 You can search for one or many objects by entering search criteria in the Selection List box of the Selection toolbar.  
 
@@ -321,7 +321,7 @@ When working with the Selection List, note the following: ◦ The Selection List
 
 See also Filtering Object Selections.  
 
-# Selecting an Object With Area Selection  
+### Selecting an Object With Area Selection  
 
 When you make an area selection, the Selection list on the Selection toolbar displays the selected objects and the sheet on which they are located. When multiple objects are selected, All in List appears in the list, making it easier for you to locate a particular object by just selecting the item, especially in a congested design.  
 
@@ -341,7 +341,7 @@ Other selection methods:
 
 • To make multiple selections in the schematic, use Ctrl or Shift and click. • To locate a very small object, zoom in on the current sheet, then select the object from the list.  
 
-# Find Objects  
+## Find Objects  
 
 You can search for objects in SailWind Logic using a number of different options. These include the modeless commands, the Selection Toolbar, the Selection Filter, and by controlling the view.  
 
@@ -350,7 +350,7 @@ Table 24. Search for Objects in SailWind Logic Using These Options
 
 <table><tr><td>Option</td><td>Description</td></tr><tr><td>Modeless Commands and Keyboard Shortcuts on page 569</td><td>Use keystrokes to locate specific objects or types of objects.</td></tr><tr><td>Selection Toolbar</td><td>Controls which types of objects you can select, locates specific objects from a multiple selection, or moves between sheets in the schematic.</td></tr><tr><td>Using the Selection Filter</td><td>Controls types of objects you can select. Enables you to select the object you want even when several objects exist at the same location.</td></tr><tr><td>View Control</td><td>Changes the perspective and size of the work area.</td></tr></table>  
 
-# Step and Repeat  
+## Step and Repeat  
 
 Use Step and Repeat to multiply objects as you place them during an add or duplicate operation. Step and Repeat is available in the Schematic Editor and the Decal Editor. In the Schematic Editor, the Step and Repeat command copies parts, connections, text, or drafting items. In the Decal Editor, the Step and Repeat command copies terminals, text, or drafting items.  
 
@@ -391,7 +391,7 @@ When duplicating connections, only connections with valid start and end points r
 
 SailWind Logic automatically assigns new bus netnames to bus segment copies. The new netname is based on the original bus segment netname, plus one. For example, if you make a duplicate of bus segment D00, the duplicate is assigned the netname D01.  
 
-# See also Working With Floating Connections.  
+**See also Working With Floating Connections.**  
 
 If you manually place a duplicate within $0.5"$ of the original (in both X and Y directions), the next connection is placed at the same offset. Then press the Space Bar to place a new duplicate. You can continue to use this semi-automated Step and Repeat process to place subsequent duplicates.  
 

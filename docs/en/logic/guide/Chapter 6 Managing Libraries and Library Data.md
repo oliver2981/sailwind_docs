@@ -22,13 +22,13 @@ Creating Library Reports
 Wildcards and Expressions   
 Library Search Order  
 
-# Convert PADS Libraries to the Current Format  
+## Convert PADS Libraries to the Current Format  
 
 You can convert libraries from a previous version of PADS to the current format. This enables you to reuse library content from previous designs and to edit the content in the newer design environment.  
 
 For information on how to convert your older PADS libraries to the current SailWind format, see Converting Your Libraries in the SailWind Netlist Library Converter Guide.  
 
-# Creating a Library  
+## Creating a Library  
 
 To add a new library to your library list, you first create a new empty library, and then populate it with content. After adding it, you can reposition it in the library list to the preferred location in the search order.  
 
@@ -45,7 +45,7 @@ For more information, see Adding Libraries to the Library List.
 
 Your library is added to the bottom of the Library list, which is also the last library in the Library Search Order. To move your library up in the library list and search order, see Setting the Library List Order.  
 
-# Displaying Items in a Library  
+## Displaying Items in a Library  
 
 You can display the items that exist in a library in the Library Manager dialog box. You can choose to view PCB decals, part types, drafting items, or logic CAE decals.  
 
@@ -90,13 +90,13 @@ Creating a Report of the Parts in a Library
 
 Creating a Report of Decals, Lines or Logic Symbols in a Library  
 
-# Modifying Library Data  
+## Modifying Library Data  
 
 You can modify library data by adding, deleting, copying, editing, or transferring data to meet the requirements of your specific design.  
 
 Adding Items to a Library Deleting Items From a Library Copying a Library Item Editing Items in a Library Deleting All Items in a Library Transferring Library Data  
 
-# Adding Items to a Library  
+### Adding Items to a Library  
 
 You can add new items to a library. When added to the library, the items are available for the current and future design sessions.  
 
@@ -132,7 +132,7 @@ Related Topics
 
 Copying a Library Item  
 
-# Deleting Items From a Library  
+### Deleting Items From a Library  
 
 You can delete one or more selected items from a library. This enables you to purge old or unwanted data from your library and improve library search times.  
 
@@ -169,7 +169,7 @@ Use Ctrl+click to select multiple non-sequential items. Use Shift $^+$ click or 
 
 Deleting All Items in a Library  
 
-# Copying a Library Item  
+### Copying a Library Item  
 
 You can copy a selected item to another name or another library.  
 
@@ -201,7 +201,7 @@ Related Topics
 
 Importing and Exporting Libraries  
 
-# Editing Items in a Library  
+### Editing Items in a Library  
 
 As library content is frequently changing, you can use the Library Manager to edit items in a library. Select the item that you want to edit, make the desired edits, and then save the edits to the current library item or rename the item as a new library object.  
 
@@ -240,7 +240,7 @@ To add new drafting items to the library, create and combine on page 237 the it
 
 • Logic — Opens the CAE Decal Editor with the selected decal. See Creating a New CAE Decal.  
 
-# Deleting All Items in a Library  
+### Deleting All Items in a Library  
 
 When you choose to delete all of the items in a library, the software replaces the existing library with a new empty one of the same name. By doing so, the software ensures that there are no leftover items in your library.  
 
@@ -258,7 +258,7 @@ Restriction: You cannot delete the contents of a read-only library.
 
 Deleting Items From a Library  
 
-# Transferring Library Data  
+### Transferring Library Data  
 
 There may be times when it is desirable to transfer library objects from one library to another. This may be useful when you want to archive a specific library with a design or for creating libraries with a specific mixture of content for new designs.  
 
@@ -273,14 +273,14 @@ To copy over single items, see Copying a Library Item.
 1. Follow the steps to export library data from the library on page 102.   
 2. Follow the steps of the Importing Library Data topic of the SailWind Layout Guide to import the library data to another library.  
 
-# Setting Library Availability and Search Options  
+## Setting Library Availability and Search Options  
 
 Specify the libraries available to the design, the library search order, and other search-related options.   
 Operations affect the contents of the Library list in the Library Manager dialog box.  
 
 Adding Libraries to the Library List Removing Libraries From the Library List Library Content and the Search Order Setting the Library List Order Sharing a Library Across a Network Controlling Library Search Access Protecting Library Files Synchronizing With SailWind Layout  
 
-# Adding Libraries to the Library List  
+### Adding Libraries to the Library List  
 
 You add libraries to the library list to make their contents available. The library must be listed in the Library Manager to search it and use its parts, decals, or line items in your design.  
 
@@ -302,7 +302,7 @@ Any errors, warnings, or messages created during the translation display in the 
 
 The library is added beneath the currently selected library in the Library list. If a library is not selected, the new library is added to the bottom of the list.  
 
-# Removing Libraries From the Library List  
+### Removing Libraries From the Library List  
 
 If you want to prevent the contents of a library from being used in a design, remove the library from the library list.  
 
@@ -314,7 +314,7 @@ If you want to prevent the contents of a library from being used in a design, re
 
 The library files are removed from the Library List but are not deleted from the computer.  
 
-# Library Content and the Search Order  
+### Library Content and the Search Order  
 
 Parts, symbols, and decals you create do not have to be located in the same library together. When your part refers to a symbol or decal in a different library, the software automatically picks up the symbol or decal when needed.  
 
@@ -330,7 +330,7 @@ When you have multiple libraries available, they are processed in their order in
 
 You can change the search order of libraries using the “Library List Dialog Box” on page 555.  
 
-# Setting the Library List Order  
+### Setting the Library List Order  
 
 You can specify the order in which libraries are searched. The libraries are searched in the order in which they are listed in the Library list.  
 
@@ -346,7 +346,7 @@ With each click, the library moves up or down one place in the library list. The
 
 Library Search Order  
 
-# Sharing a Library Across a Network  
+### Sharing a Library Across a Network  
 
 You can share a library across a networked environment, to enable more than one user to access the library simultaneously.  
 
@@ -366,7 +366,7 @@ Tip You can select multiple libraries using the Shift and Ctrl keys.
 
 More than one user can access the library file at the same time.  
 
-# Controlling Library Search Access  
+### Controlling Library Search Access  
 
 You can enable or disable the searching of a particular library when performing operations that involve libraries, such as adding parts.  
 
@@ -380,7 +380,7 @@ Tip You can select multiple libraries using the Shift and Ctrl keys.
 
 3. Select the “Allow Search” check box.  
 
-# Protecting Library Files  
+### Protecting Library Files  
 
 The Read Only check box is only a status indicator. It is always shaded and unavailable. You can set library read-only status only in the Microsoft Windows File Manager.  
 
@@ -408,7 +408,7 @@ By default, libraries installed with the software are located at C:\<install_fol
 
 The library Read-Only check box in the Library List Dialog Box will not update until you reopen the dialog box.  
 
-# Synchronizing With SailWind Layout  
+### Synchronizing With SailWind Layout  
 
 You can enable or disable the synchronizing of library settings between SailWind Logic and SailWind Layout. When the Synchronize with SailWind Layout check box is checked in SailWind Logic, all changes made in the libraries within SailWind Logic are pushed to SailWind Layout.  
 
@@ -421,7 +421,7 @@ Tip To ensure a round-trip synchronization, select the same check box in SailWin
 1. Click the File $>$ Library menu item, then click the Manage Lib. List button.   
 2. In the Library List Dialog Box, select the Synchronize with SailWind Layout check box.  
 
-# Managing Library Attributes  
+## Managing Library Attributes  
 
 Use the Manage Library Attributes dialog box to manage attributes on a library-by-library basis. You can add, delete, and rename attributes for all parts or decals in an individual library or in all libraries. You can also display all the attributes in a library, whether the attributes apply to all items or to individual items.  
 
@@ -432,7 +432,7 @@ This dialog box does not manage attributes in the current design. Use the Manage
 
 Adding an Attribute to Multiple Library Items Deleting Attributes From Library Items Renaming Attributes of Library Items  
 
-# Adding an Attribute to Multiple Library Items  
+### Adding an Attribute to Multiple Library Items  
 
 You can add an attribute to all parts and decals, or just to parts or decals individually, in one or all libraries.  
 
@@ -464,7 +464,7 @@ Your new attribute is added. Check for the new attribute in the Decal Attributes
 
 Manage Attributes in a Schematic  
 
-# Deleting Attributes From Library Items  
+### Deleting Attributes From Library Items  
 
 You can delete one or more attributes from all parts and decals, or just from parts or decals individually, in one or all libraries.  
 
@@ -489,7 +489,7 @@ Your attribute(s) is deleted. Check for the deleted attribute in the Decal Attri
 
 Manage Attributes in a Schematic  
 
-# Renaming Attributes of Library Items  
+### Renaming Attributes of Library Items  
 
 You can rename an attributes of all parts and decals, or just of parts or decals individually, in one or all libraries.  
 
@@ -522,13 +522,13 @@ Your attribute is renamed. Check for the renamed attribute in the Decal Attribut
 
 Manage Attributes in a Schematic  
 
-# Importing and Exporting Libraries  
+## Importing and Exporting Libraries  
 
 Use the Library Manager dialog box to import or export library data in ASCII format.  
 
 Importing Library Data Exporting Library Data  
 
-# Importing Library Data  
+### Importing Library Data  
 
 You can import library data from a previously-exported library ASCII file. This provides a convenient method for importing library data from another design or from another designer’s library.  
 
@@ -563,7 +563,7 @@ Tip Import fails if the library to receive imported items is read-only.
 
 Transferring Library Data  
 
-# Exporting Library Data  
+### Exporting Library Data  
 
 You can export library data into an ASCII file for importing into a library. This provides a convenient method for exporting library data to another design or to another designer’s library.  
 
@@ -592,13 +592,13 @@ Tip To display all items in the library, type an asterisk (\*) and click Apply.
 • Die parts and flip chips having a family designation other than DIE and FLP lose their die part or flip chip special purpose and become normal parts.   
 • Any normal parts that have the DIE or FLP family designation are treated as die parts or flip chips in the previous PADS version.  
 
-# Creating Library Reports  
+## Creating Library Reports  
 
 You can create reports from the Library Manager to list any number of library objects. The Parts report can be configured to list the values of attributes that you choose to include in the report.  
 
 Creating a Report of the Parts in a Library Creating a Report of Decals, Lines or Logic Symbols in a Library  
 
-# Creating a Report of the Parts in a Library  
+### Creating a Report of the Parts in a Library  
 
 From the Library Manager, you can generate a report about the parts in a single library or all libraries. The report (an ASCII file) lists each part and its associated attributes.  
 
@@ -661,7 +661,7 @@ Report Manager Dialog Box
 Creating a Report of Decals, Lines or Logic Symbols in a Library   
 Managing Libraries and Library Data  
 
-# Creating a Report of Decals, Lines or Logic Symbols in a Library  
+### Creating a Report of Decals, Lines or Logic Symbols in a Library  
 
 From the Library Manager, you can generate a report listing the decals, lines, or logic symbols in a single library. The report is an ASCII file listing each item’s name and the date and time the item was modified.  
 
@@ -699,7 +699,7 @@ You can print the list from Notepad.
 
 Creating a Report of the Parts in a Library Managing Libraries and Library Data  
 
-# Wildcards and Expressions  
+## Wildcards and Expressions  
 
 You can use wildcards and expressions to filter the information that is displayed. This promotes rapid and precise browsing of library content.  
 
@@ -720,7 +720,7 @@ Table 14. Usage Examples of Wildcards and Expressions
 
 <table><tr><td>Expression:</td><td>Results in all items that:</td></tr><tr><td>74*</td><td>Start with 74: 7404,74LS04,74622.</td></tr><tr><td>74??</td><td>Start with 74 followed by any two characters: 7404, 74T2, 74TP.</td></tr><tr><td>74??08</td><td>Start with 74, followed by any two characters, and end with 08: 74LS08, 74HC08,744608.</td></tr><tr><td>*08</td><td>Start with any number of characters and end with 08: 2146108, 5408, 54HCT08,744608.</td></tr><tr><td>*08*</td><td>Start with any number of characters, followed by 08, and end with any number of characters: 5408, 5408BE,54HCT08AE,74ABT08CE2, 941M70839.</td></tr><tr><td>[57]*</td><td>Start with 5 or 7 with any number of characters after: 54HCT244, 5968BAE4,74ACT44.</td></tr><tr><td>[5-7]*</td><td>Start with 5, 6, or 7 followed by any number of characters: 54LS08, 6225BE,69TF77,74ALS02.</td></tr><tr><td>[57]4HCT??</td><td>Start with 5 or 7, followed by 4HCT, and end with any two characters: 54HCT04,54HCT74,74HCT27,74HCT84.</td></tr><tr><td>74A[CH]*</td><td>Start with 74A, followed by C or H, and end with any number of characters: 74AC244,74AHCT27.</td></tr><tr><td>74A[!C-H]*</td><td>Start with 74A, followed by any character except the letters C through H, and end with any number of characters: 74ABT44, 74ALS244, 74ABF365.</td></tr><tr><td>[M]*08</td><td>Start with the character\, followed by any number of characters, and end with08: \LS08,\HCT08,\ABT08.</td></tr></table>  
 
-# Library Search Order  
+## Library Search Order  
 
 The list of libraries in the Library Manager dialog box displays the library search order. When you have multiple libraries available, they are processed in their order in the library list whenever the libraries are searched.  
 
