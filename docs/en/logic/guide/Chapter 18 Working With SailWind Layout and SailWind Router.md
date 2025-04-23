@@ -24,7 +24,7 @@ Automatic Netlist Process Using the SailWind Layout Link Manual Netlist Process 
 
 If you have both SailWind Logic and SailWind Layout on your computer, you can automatically process a SailWind Logic netlist using the SailWind Layout Link. This automated method is the simplest.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • Forward annotation of changes to an existing design requires a different process. See Forward Annotation From SailWind Logic to SailWind Layout.   
 • Transferring non-ECO-registered parts and non-electrical parts is constrained by settings in the Options. See the Design Options on page 591 for details.  
@@ -62,7 +62,7 @@ If an errors report file (ascii.err) is generated and errors are found in the ne
 
 If you don’t have both SailWind Logic and SailWind Layout on your computer, you can manually process the netlist. This manual method requires you to manually export the netlist from SailWind Logic and then import it into SailWind Layout.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • Forward annotation of changes to an existing design requires a different process. See Forward Annotation From SailWind Logic to SailWind Layout.  
 
@@ -134,7 +134,7 @@ Cross-Probing With SailWind Layout Cross-Probing With SailWind Router
 
 Cross-probe with SailWind Layout to make simultaneous selections in both applications. Selecting an object in one of the programs will automatically select the same object in the other program.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • The SailWind Logic selection filter on page 712 should be set to parts, gates, nets, or pins before you select items in SailWind Logic. • Some parts may not exist in both of the databases. Non-ECO-registered parts and non-electrical parts may have been constrained. See Options Dialog Box, Design Category for details.  
 
@@ -155,7 +155,7 @@ You can now proceed with cross-probing with SailWind Layout.
 Cross-probe with SailWind Router to actively make simultaneous selections in both applications.   
 Selecting an object in one of the programs will automatically select the same object in the other program.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • The SailWind Logic selection filter on page 712 should be set to parts, gates, nets, or pins before you select items in SailWind Logic. Some parts may not exist in both of the databases. Non-ECO-registered parts and non-electrica parts may have been constrained. See Options Dialog Box, Design Category for details.  
 
@@ -187,7 +187,7 @@ Automated Forward Annotation Process Generating the ECO File in SailWind Layout 
 
 If SailWind Logic and SailWind Layout are on the same computer, you can use the SailWind Layout Link dialog box to compare a newer schematic with an older PCB design and update the original design in Layout from the new design in Logic. You can also create a differences report.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • If you are creating a new PCB by sending a netlist for the first time, see Creation of a New PCB Layout from a SailWind Logic Design.  
 
@@ -235,7 +235,7 @@ See “Forward Annotation Results”.
 
 You can create a netlist (.asc file) and send it to the layout designer who can then generate an ECO file by comparing the designs, and then import the changes into SailWind Layout.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • If you’re creating a new pcb by sending a netlist for the first time, see Creation of a New PCB Layout from a SailWind Logic Design.  
 
@@ -276,7 +276,7 @@ See “Forward Annotation Results”.
 
 Use the Compare/ECO dialog box to compare the netlists for a newer schematic and an older PCB design and create an ECO (engineering change order) file for import into the PCB design. You can also create a differences report file.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • If you’re creating a new pcb by sending a netlist for the first time, see Creation of a New PCB Layout from a SailWind Logic Design.   
 • To avoid unexpected changes during forward annotation, consider comparing data before you forward-annotate.   
@@ -365,7 +365,7 @@ If SailWind Logic and SailWind Layout are on the same computer, you can use the 
 
 This method generates a new .eco file and does not use a recorded .eco file. Recording the exact changes in an .eco file gives the best back annotation results. Use Method 2 for the best results. For more information, see Recorded Versus Generated ECO Files in the SailWind Layout Guide.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Transferring non-ECO-registered parts and non-electrical parts is constrained. See Options dialog box, Design Category on page 591 for details.   
 • During design comparison, a reuse definition is ignored and actual elements in the physical design reuse are used in the comparison.   
@@ -405,7 +405,7 @@ This procedure only documents recording the .eco file as you made engineering ch
 
 If you neglected to record the .eco changes and you must generate the .eco file by comparing two designs, see Comparing Two Versions of a Design in the SailWind Layout Guide.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • Transferring non-ECO-registered parts and non-electrical parts is constrained. See Options dialog box, Design Category on page 591 for details.  
 
@@ -437,7 +437,7 @@ Acquire the layout design in an .asc file format, compare it to the schematic de
 
 This method generates a new .eco file and does not use a recorded .eco file. Recording the exact changes in an .eco file gives the best back annotation results. Use Method 2 for the best results. For more information, see Recorded Versus Generated ECO Files in the SailWind Layout Guide.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 Transferring non-ECO-registered parts and non-electrical parts is constrained. See Options dialog box, Design Category on page 591 for details.   
 • During design comparison, a reuse definition is ignored and actual elements in the physical design reuse are used in the comparison.   

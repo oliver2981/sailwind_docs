@@ -116,7 +116,7 @@ Embedding is recommended over linking since the embedded document will reside in
 
 You can see a sample of this in the preview.sch sample design. See the Notes section on the lower left corner of sheet 1. Double-click the text to activate the Microsoft Word document.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • OLE objects can only be printed. They cannot be plotted by a pen or photo plotter. • OLE objects must be enabled in the print Options dialog box on page 606 to appear in the printout, but they will never be visible when viewing the Print Preview. • OLE objects can only be printed using a zero plot orientation.  
 

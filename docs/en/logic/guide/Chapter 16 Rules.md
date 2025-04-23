@@ -336,7 +336,7 @@ dentify nets or pin pairs that behave electrically as differential pairs and def
 
 determine the gap between the traces in the Controlled Gap Area, the minimum and maximum trace lengths, and how to respond to Obstacles in the controlled gap area.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 While you can define these rules in SailWind Logic, they are used only in SailWind Router.  
 

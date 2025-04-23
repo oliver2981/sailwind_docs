@@ -79,7 +79,7 @@ Combining 2D Lines and Text
 
 When you add a part to the schematic, all of the text associated with the symbol (reference designator, part name, pin number, attributes, etc.) appears in a predefined location. You can move the text to make room for other parts or connections or to make the schematic more readable.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 You can move a pin number a maximum of one inch from its pin terminal.   
 • If you select and move a visible net name, with snap to grid enabled, the new net name snaps to the Labels and Text grid. To set the labels and text grid, use the General page in the Options dialog box. See “Options Dialog Box, General Category” on page 595.  
@@ -174,7 +174,7 @@ Use the Pull Arc command to convert a drafting segment or corner into an arc. Th
 
 In SailWind Logic, combining is the process of merging two or more 2D line or text items into a single complex 2D line item. After you have combined them, you can manipulate the group (move, rotate, duplicate, and so forth) as a single item. This is useful for creating title blocks or other similar features.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • A combination can only include 2D lines or text. This differs from a group on page 215, which is a collection of objects (which may or may not include 2D lines or text) on the schematic.  
 

@@ -305,7 +305,7 @@ The Compare/Update Process How to Read the Update Report Update From Library Dia
 
 As you make changes and updates to your library content, you may also need to selectively update parts in your design. You can select one or more parts and then update the part types of all parts having the same part type(s) to synchronize with the latest version in the library.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 All parts having the same part type as a selected part are updated, but attributes are updated only for the parts actually selected.  
 
@@ -348,7 +348,7 @@ The Compare/Update Process How to Read the Update Report Updating a Schematic Fr
 
 You can select one or more parts, and then update the CAE decals of all parts that use the same decal(s)  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 This procedure updates the pin decal assignments in the CAE decals, but does not update the pin decals themselves. Use one of the procedures in Updating Selected Pin Decals From the Library to update the pin decals.  
 
@@ -717,7 +717,7 @@ Creating a Group Setting the Origin of Groups
 
 To perform an operation on multiple objects simultaneously, create a group and then move it, copy it to the paste buffer, delete it, duplicate it, or save it to a file for use in another design.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • Certain group commands are available only if the group consists of mixed items. For example, the “Preserve by Boundary” popup menu item is unavailable if the group consists of components only.  
 
@@ -735,7 +735,7 @@ The software highlights the included objects.
 
 When you create a group, the software creates an origin automatically. The software uses this origin when moving or placing groups. You may want to change the origin when it is optimal to have the origin at a specific location.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 You must enable the Preserve by Boundary option and the boundary must be visible to set the origin.   
 When the boundary is not visible, the group rotates around the center of the selection.  
@@ -846,7 +846,7 @@ See also Detach, Working With Floating Connections.
 
 You can save the contents of a group for use on other schematic sheets or a different design. Saved groups are stored in the \SailWind Projects folder with a .grp extension.  
 
-# Restrictions and Limitations  
+**Restrictions and Limitations**  
 
 • The group must consist of mixed items. The “Save to File” command is not available if you select only components or other objects.  
 
