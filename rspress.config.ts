@@ -37,6 +37,16 @@ export default defineConfig({
       {
         lang: 'zh',
         outlineTitle: '本页目录',
+        outlineTitle: '本页目录',
+        prevPageText: '上一页',
+        nextPageText: '下一页',
+        lastUpdatedText: '最近更新时间',
+        searchPlaceholderText: '搜索文档',
+        overview: {
+          filterNameText: '快速查找',
+          filterPlaceholderText: '输入关键词',
+          filterNoResultText: '未查询到结果',
+        },
       },
     ],
 
@@ -44,16 +54,5 @@ export default defineConfig({
       message: `版权所有 © 2020-${new Date().getFullYear()} 派兹互连`,
     },
     hideNavbar: 'auto',
-
-    outlineTitle: '本页目录',
-    prevPageText: '上一页',
-    nextPageText: '下一页',
-    lastUpdatedText: '最近更新时间',
-    searchPlaceholderText: '搜索文档',
-    overview: {
-      filterNameText: '快速查找',
-      filterPlaceholderText: '输入关键词',
-      filterNoResultText: '未查询到结果',
-    },
   },
 });
