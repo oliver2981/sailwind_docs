@@ -212,7 +212,7 @@ You can delete only custom commands (commands you created). You cannot delete sy
 3. In the Commands list, select a command and click the Delete button.   
 4. Click Close.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Items to Toolbars and Menus Resetting Toolbars to Defaults  
 
@@ -266,7 +266,7 @@ To remove an item from a toolbar or menu (while the Customize dialog box is open
 
 4. When you have finished adding commands, click Close.  
 
-# Related Topics  
+**Related Topics**  
 
 Moving Items on Menus  
 
@@ -304,7 +304,7 @@ To move menu items, the Customize dialog box must be open.
 
 4. Click Close.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Items to Toolbars and Menus Resetting Toolbars to Defaults  
 
@@ -321,7 +321,7 @@ If there are items that your do not use or want to appear, you can remove a menu
 
 Note that you can reset a toolbar or shortcut menu back to its default list of items. See Resetting Toolbars to Defaults.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Items to Toolbars and Menus  
 
@@ -353,7 +353,7 @@ Subsequent characters may consist of the following:
 
 • Alphanumeric (a-z0-9)  
 
-# Note:  
+!Note:  
 
 There are some exceptions: Some combinations, like Alt+Tab, are intercepted by Windows and thus are not available.  
 
@@ -399,14 +399,14 @@ You can substitute a regular expression for characters in shortcut key command a
 Table 46. Expressions in Shortcut Keys   
 
 
-<html><body><table><tr><td>Expression</td><td>Use to</td></tr><tr><td>*</td><td>Match any number of characters.</td></tr><tr><td>？</td><td>Match any one character.</td></tr><tr><td>[set] </td><td>Match any character in the specified set. Tip A set is composed of characters or ranges. A range has the form: Character Hyphen Character, such as A-Z or 0-9. The minimum set of characters supported in a set consists of [O-9a-zA-Z_].</td></tr><tr><td>[!set] or [^set]</td><td>Match any character not in the specified set.</td></tr><tr><td>一</td><td>To suppress the special syntactic significance of the characters * []* ? !^ -\' within a set, and to match the character exactly.</td></tr></table></body></html>  
+<table><tr><td>Expression</td><td>Use to</td></tr><tr><td>*</td><td>Match any number of characters.</td></tr><tr><td>？</td><td>Match any one character.</td></tr><tr><td>[set] </td><td>Match any character in the specified set. Tip A set is composed of characters or ranges. A range has the form: Character Hyphen Character, such as A-Z or 0-9. The minimum set of characters supported in a set consists of [O-9a-zA-Z_].</td></tr><tr><td>[!set] or [^set]</td><td>Match any character not in the specified set.</td></tr><tr><td>一</td><td>To suppress the special syntactic significance of the characters * []* ? !^ -\' within a set, and to match the character exactly.</td></tr></table>  
 
 The following table shows examples of regular expressions used in command arguments using the preview.pcb design, see Table 47.  
 
 Table 47. Shortcut Key Expression Examples   
 
 
-<html><body><table><tr><td>Shortcut key</td><td>Result</td></tr><tr><td>HA*</td><td>Highlights all nets starting with A, such as AoO, AO1, A02.</td></tr><tr><td>H+??</td><td>Highlights all nets starting with +, having two digits or characters after O, such as +5V.</td></tr><tr><td>HA?0</td><td>Highlights all nets starting with A, ending with 0, and with any character in between, such as Aoo and A10.</td></tr><tr><td>H [C-D]*</td><td>Highlights all nets starting with C or D, such as CLKIN, D00.</td></tr><tr><td>H [!C-D]*</td><td>Highlights all nets not starting with C or D, such as Aoo, GND.</td></tr></table></body></html>  
+<table><tr><td>Shortcut key</td><td>Result</td></tr><tr><td>HA*</td><td>Highlights all nets starting with A, such as AoO, AO1, A02.</td></tr><tr><td>H+??</td><td>Highlights all nets starting with +, having two digits or characters after O, such as +5V.</td></tr><tr><td>HA?0</td><td>Highlights all nets starting with A, ending with 0, and with any character in between, such as Aoo and A10.</td></tr><tr><td>H [C-D]*</td><td>Highlights all nets starting with C or D, such as CLKIN, D00.</td></tr><tr><td>H [!C-D]*</td><td>Highlights all nets not starting with C or D, such as Aoo, GND.</td></tr></table>  
 
 # Deleting a Shortcut Key  
 
@@ -515,7 +515,7 @@ To close the macro file, or make it unavailable in the Customize dialog box, cle
 
 7. When you finish adding macros, click Close.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Items to Toolbars and Menus  
 

@@ -232,7 +232,7 @@ b. Click Edit $>$ Copy menu item (to copy the object) or the Edit $>$ Cut menu i
 
 3. Relocate the pasted object as necessary.  
 
-# Related Topics  
+**Related Topics**  
 
 Open, Edit, Convert OLE Objects Edit OLE Links  
 
@@ -298,7 +298,7 @@ You can manually update a linked object whose update mode is set to Manual. (Obj
 2. From the list in the Links dialog box, select the object you want to update.   
 3. Click the Update Now button; the object is updated.  
 
-# Related Topics  
+**Related Topics**  
 
 Open, Edit, Convert OLE Objects Cut, Copy, and Paste SailWind Logic OLE Objects Editing an OLE Object’s Content in SailWind Logic  
 
@@ -322,7 +322,7 @@ Edit — Use Edit to edit the linked or embedded OLE object in SailWind Logic. Y
 
 Tip The object's source application determines what the object can be converted to.  
 
-# Related Topics  
+**Related Topics**  
 
 Edit OLE Links   
 Edits of OLE Objects   
@@ -370,7 +370,7 @@ To return to the container application, select the File $>$ Exit and Return to <
 
 If you want to save the object you edit in the separate window, you can click the File $>$ Save Copy As menu item. The object is really a copy of the original, and this command lets you save this copy. You cannot open other files, create new files, or save original designs in the separate window.  
 
-# Related Topics  
+**Related Topics**  
 
 Open, Edit, Convert OLE Objects   
 Edit OLE Links   
@@ -383,7 +383,7 @@ You can print OLE linked or embedded objects to any Windows-supported printer or
 
 See also Plotting Output.  
 
-# Related Topics  
+**Related Topics**  
 
 Setting Up a Pen Plotter Setting Up a Photo Plotter Printing Output  
 

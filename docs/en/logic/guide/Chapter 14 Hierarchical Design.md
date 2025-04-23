@@ -52,7 +52,7 @@ This closes the Part Editor, and the new symbol attaches to the cursor.
 
 9. You can navigate this hierarchy with the View $>$ Push Hierarchy, and View $>$ Pop Hierarchy menu commands.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating a Bottom-Up Hierarchy  
 
@@ -84,7 +84,7 @@ This closes the Part Editor, and the new symbol attaches to the cursor.
 
 9. You can navigate this hierarchy with the View $>$ Push Hierarchy and View $>$ Pop Hierarchy menu commands.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating a Top-Down Hierarchy  
 
@@ -129,7 +129,7 @@ Once created, you can modify a hierarchical symbol to add or subtract design det
 
 If you add terminals to a hierarchical symbol, ensure that you give them pin names, and that the names also appear as off-page references in the sheet with the underlying schematic.  
 
-# Related Topics  
+**Related Topics**  
 
 Hierarchical Symbol Wizard Dialog Box Deleting a Hierarchical Symbol  
 
@@ -149,7 +149,7 @@ When you select a hierarchical symbol in copy mode, a warning prompt appears. If
 3. In the warning prompt, click Yes. The symbol copy attaches to the cursor.   
 4. Click the place the symbol.  
 
-# Related Topics  
+**Related Topics**  
 
 Hierarchical Symbol Wizard Dialog Box Modifying a Hierarchical Symbol Deleting a Hierarchical Symbol  
 

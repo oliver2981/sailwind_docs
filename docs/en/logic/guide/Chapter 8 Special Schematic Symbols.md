@@ -11,22 +11,22 @@ The special symbols in the SailWind Logic library use specific names or a unique
 Table 20. Off-Page Reference Symbols   
 
 
-<html><body><table><tr><td>Symbol</td><td>Description</td></tr><tr><td>REFIN</td><td>Off -page reference for left side</td></tr><tr><td>REFOUT</td><td>Off -page reference for right side</td></tr></table></body></html>  
+<table><tr><td>Symbol</td><td>Description</td></tr><tr><td>REFIN</td><td>Off -page reference for left side</td></tr><tr><td>REFOUT</td><td>Off -page reference for right side</td></tr></table>  
 
 Table 21. Power Symbols   
 
 
-<html><body><table><tr><td>Symbol</td><td></td></tr><tr><td>+</td><td>+5 volt and +12 volt symbols, arrow pointing up</td></tr><tr><td></td><td>-5 volt and 12 volt symbols, arrow pointing down</td></tr><tr><td>BUBBLE</td><td>+5 volt symbol with a circle</td></tr><tr><td>Y</td><td>+5 volt symbol with a 'Y' shape</td></tr></table></body></html>  
+<table><tr><td>Symbol</td><td></td></tr><tr><td>+</td><td>+5 volt and +12 volt symbols, arrow pointing up</td></tr><tr><td></td><td>-5 volt and 12 volt symbols, arrow pointing down</td></tr><tr><td>BUBBLE</td><td>+5 volt symbol with a circle</td></tr><tr><td>Y</td><td>+5 volt symbol with a 'Y' shape</td></tr></table>  
 
 Table 22. Ground Symbols   
 
 
-<html><body><table><tr><td> Symbol</td><td>Description</td></tr><tr><td>GND</td><td>Standard ground</td></tr></table></body></html>  
+<table><tr><td> Symbol</td><td>Description</td></tr><tr><td>GND</td><td>Standard ground</td></tr></table>  
 
 Table 22. Ground Symbols (continued)   
 
 
-<html><body><table><tr><td>Symbol</td><td>Description</td></tr><tr><td>AGND</td><td>Analog ground</td></tr><tr><td>CHGND</td><td>Chassis ground</td></tr></table></body></html>  
+<table><tr><td>Symbol</td><td>Description</td></tr><tr><td>AGND</td><td>Analog ground</td></tr><tr><td>CHGND</td><td>Chassis ground</td></tr></table>  
 
 # Assigning Alternative Symbols for the Ground Part  
 
@@ -211,7 +211,7 @@ Refer to the following topics for information on assigning the new decal as an a
 
 Table 23. Topic List Regarding Assigning New Decal as Alternate Decal  
 
-<html><body><table><tr><td>Alternate symbols</td><td> Topic to see</td></tr><tr><td>Off-page symbols</td><td>Assigning Alternative Symbols for the Off-Page Part</td></tr><tr><td>Power symbols</td><td>Assigning Alternative Symbols for the Power Part</td></tr><tr><td>Ground symbols</td><td>Assigning Alternative Symbols for the Ground Part</td></tr></table></body></html>  
+<table><tr><td>Alternate symbols</td><td> Topic to see</td></tr><tr><td>Off-page symbols</td><td>Assigning Alternative Symbols for the Off-Page Part</td></tr><tr><td>Power symbols</td><td>Assigning Alternative Symbols for the Power Part</td></tr><tr><td>Ground symbols</td><td>Assigning Alternative Symbols for the Ground Part</td></tr></table>  
 
 # Updating Special Symbol Mappings  
 

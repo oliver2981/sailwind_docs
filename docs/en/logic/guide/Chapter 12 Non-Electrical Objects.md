@@ -30,7 +30,7 @@ Right-click and set one or more of the following values before you add the draft
 Table 27. Creating 2D Line Items - Options   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>(Shape)</td><td>Select to add a Polygon, Circle, Rectangle, or Path.</td></tr><tr><td>Width</td><td>Specify a width value to override the default.</td></tr><tr><td>Orthogonal</td><td>Adds segments in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Adds segments in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Adds segments at any angle.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>(Shape)</td><td>Select to add a Polygon, Circle, Rectangle, or Path.</td></tr><tr><td>Width</td><td>Specify a width value to override the default.</td></tr><tr><td>Orthogonal</td><td>Adds segments in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Adds segments in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Adds segments at any angle.</td></tr></table>  
 
 # Adding Text  
 
@@ -71,7 +71,7 @@ You can also click a font style: B for bold, I for Italic, or U for Underlined.
 
 10. Click OK.  
 
-# Related Topics  
+**Related Topics**  
 
 Combining 2D Lines and Text  
 
@@ -144,16 +144,16 @@ Use the popup menu to enable other 2D line modifications. If you select a segmen
 Table 28. Modify 2D Line Item Options   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>Pull Arc</td><td>Converts a segment or corner into an arc.</td></tr><tr><td>Split </td><td>Divides a segment into two segments.</td></tr><tr><td>Del Segment</td><td>Deletes the line segment at the pick point.</td></tr><tr><td>Width</td><td>Changes the line width of the item.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>Pull Arc</td><td>Converts a segment or corner into an arc.</td></tr><tr><td>Split </td><td>Divides a segment into two segments.</td></tr><tr><td>Del Segment</td><td>Deletes the line segment at the pick point.</td></tr><tr><td>Width</td><td>Changes the line width of the item.</td></tr></table>  
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>Filled </td><td>Fills a closed polygon.</td></tr><tr><td>Solid Style and Dotted Style</td><td>Changes the line style to a solid or a dashed line. You cannot specify dotted lines for circles or arcs.</td></tr><tr><td>Orthogonal</td><td>Moves are made in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Moves are made in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Moves are made at any angle.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>Filled </td><td>Fills a closed polygon.</td></tr><tr><td>Solid Style and Dotted Style</td><td>Changes the line style to a solid or a dashed line. You cannot specify dotted lines for circles or arcs.</td></tr><tr><td>Orthogonal</td><td>Moves are made in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Moves are made in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Moves are made at any angle.</td></tr></table>  
 
 If you choose a corner, the popup menu uses most of the options as selected segments, plus the following:  
 
 Table 29. Modify 2D Line Item - Corner Option   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>Del Corner</td><td>Deletes the corner. A line segment is created between the corner's original endpoints.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>Del Corner</td><td>Deletes the corner. A line segment is created between the corner's original endpoints.</td></tr></table>  
 
 3. Reposition the cursor and indicate a new location for the item.  
 
@@ -210,7 +210,7 @@ e. Click the Select button or press the Esc key to exit the Combine/Uncombine fu
 
 Selecting a 2D line item in the combination for move, duplicate, and so on, selects all items for the operation. Selecting text first does not select the whole group.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Text Uncombining 2D Lines and Text Exploding Combinations  
 
@@ -225,7 +225,7 @@ You can use the Uncombine command to remove individual objects from a combinatio
 3. Continue selecting items to remove as necessary.   
 4. Right-click and click the Complete popup menu item or press the Esc key when you finish removing objects from the group. The objects return to their original states and locations.  
 
-# Related Topics  
+**Related Topics**  
 
 Exploding Combinations  
 

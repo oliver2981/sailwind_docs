@@ -353,7 +353,7 @@ Use the Part Attributes dialog box to assign or modify part attributes, which is
 
 Adding or changing attributes in a part at the schematic level does not update the part type (in the library). Edit the part in the Part Editor to update the library part.  
 
-# Related Topics  
+**Related Topics**  
 
 Part Editor Operations Attributes Overview  
 
@@ -722,7 +722,7 @@ To add an individual net to the bus, type the net name in the Prefix/Name column
 
 9. Click Up to move the selected row up one position in the Bus Nets list.  
 
-# Related Topics  
+**Related Topics**  
 
 Managing Buses Modifying Bus Name Labels  
 
@@ -793,7 +793,7 @@ Type a stroke font size between 10 and 1000 mils or a system font size between 1
 Table 32. Related Topics   
 
 
-<html><body><table><tr><td>Attribute Properties Dialog Box</td><td>Part Type Label Properties Dialog Box</td></tr><tr><td>Bus Name Properties Dialog Box</td><td>Pin Label Fonts Dialog Box</td></tr><tr><td>Net Name Properties Dialog Box</td><td>Reference Designator Properties Dialog Box</td></tr></table></body></html>  
+<table><tr><td>Attribute Properties Dialog Box</td><td>Part Type Label Properties Dialog Box</td></tr><tr><td>Bus Name Properties Dialog Box</td><td>Pin Label Fonts Dialog Box</td></tr><tr><td>Net Name Properties Dialog Box</td><td>Reference Designator Properties Dialog Box</td></tr></table>  
 
 # Modifying Text  
 
@@ -824,7 +824,7 @@ You can also click a font style: B for bold, I for Italic, or U for Underlined.
 
 10. Click OK.  
 
-# Related Topics  
+**Related Topics**  
 
 Modifying Drafting Objects Combining 2D Lines and Text  
 

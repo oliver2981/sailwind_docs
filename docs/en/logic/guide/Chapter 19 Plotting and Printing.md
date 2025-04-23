@@ -154,7 +154,7 @@ The Plot dialog box displays the following information related to the plot confi
 
 • The Summary area lists the numbered available sheets you can plot, and the items contained in the sheets. • The File Prefix box lists the prefix name of the file you want to plot.  
 
-# Related Topics  
+**Related Topics**  
 
 Printing to PDF   
 Setting the Printer to Print to a File   
@@ -195,7 +195,7 @@ You can also edit the data for an existing plotter, but only if it is a custom s
 8. Click OK to return to the Pen Plot Setup dialog box.   
 9. Click OK to return to the Plot dialog box.  
 
-# Related Topics  
+**Related Topics**  
 
 Setting Up a Photo Plotter  
 
@@ -249,7 +249,7 @@ Click None if your photo plotter does not support circular interpolation. Arcs a
 16. Click OK to return to the Photo Plotter Setup dialog box.   
 17. Click OK to return to the Plot dialog box.  
 
-# Related Topics  
+**Related Topics**  
 
 Setting Up a Pen Plotter  
 
@@ -273,7 +273,7 @@ Note: If you have previously set up your printer configuration options, then on 
 5. Preview your output on page 348.   
 6. Click OK to send the output to the printer.  
 
-# Related Topics  
+**Related Topics**  
 
 Printing to PDF Setting the Printer to Print to a File  
 
@@ -293,7 +293,7 @@ You must have a PDF generator (such as Adobe PDF, Cute PDF, or Microsoft Print t
 2. In the Print dialog box, select your preferred PDF generator in the Printer name list.   
 3. Click OK.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating a PDF Plotting Output Printing Output  
 
@@ -323,7 +323,7 @@ The options on the Ports tab may differ depending upon the specific version of y
 
 5. ClickOK.  
 
-# Related Topics  
+**Related Topics**  
 
 Printing to PDF Plotting Output Printing Output  
 

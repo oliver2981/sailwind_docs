@@ -56,7 +56,7 @@ Tip Click to clear if you want your backup files in one, common backup directory
 Table 10. Backup File Creation   
 
 
-<html><body><table><tr><td colspan="2">If this is selected:</td><td>The Backup File is Saved</td></tr><tr><td>Create backup files in design directory</td><td>Use design Name in backup file name</td><td></td></tr><tr><td></td><td></td><td>in one common directory without the design name.</td></tr><tr><td>X</td><td>X</td><td>in the design directory using the design name.</td></tr><tr><td>X</td><td></td><td>in the design directory without the design name.</td></tr><tr><td></td><td>X</td><td>in one common directory using the design name</td></tr></table></body></html>  
+<table><tr><td colspan="2">If this is selected:</td><td>The Backup File is Saved</td></tr><tr><td>Create backup files in design directory</td><td>Use design Name in backup file name</td><td></td></tr><tr><td></td><td></td><td>in one common directory without the design name.</td></tr><tr><td>X</td><td>X</td><td>in the design directory using the design name.</td></tr><tr><td>X</td><td></td><td>in the design directory without the design name.</td></tr><tr><td></td><td>X</td><td>in one common directory using the design name</td></tr></table>  
 
 # Setting Part Editor Options  
 
@@ -84,7 +84,7 @@ Table 11 lists the options that are saved and set as defaults.
 Table 11. Part Editor Options Saved and Set as Defaults   
 
 
-<html><body><table><tr><td>From the Options Dialog General Category</td><td>From the Options Dialog Text Category</td><td>From Setup menu > Fonts Dialog</td></tr><tr><td>Design grid Labels and Text grid Display grid Snap to Grid</td><td>Font, style and size of: Pin Number Pin Name Ref-Des Part Type</td><td>Current font mode (system or stroke)</td></tr></table></body></html>  
+<table><tr><td>From the Options Dialog General Category</td><td>From the Options Dialog Text Category</td><td>From Setup menu > Fonts Dialog</td></tr><tr><td>Design grid Labels and Text grid Display grid Snap to Grid</td><td>Font, style and size of: Pin Number Pin Name Ref-Des Part Type</td><td>Current font mode (system or stroke)</td></tr></table>  
 
 8. When you finish setting options, click OK.  
 
@@ -92,7 +92,7 @@ Table 11. Part Editor Options Saved and Set as Defaults
 
 When you paste a group in a design, SailWind Logic uses the reference designators current in the saved group file. You have the option of enabling or disabling the preservation of group reference designators.  
 
-# Note:  
+!Note:  
 
 When reference designators are preserved, if conflicts with current parts exist, SailWind Logic renames the duplicate reference designators and generates an error report containing the renamed parts. The report displays in the default text editor.  
 
@@ -154,7 +154,7 @@ Tip Click Default Palette to restore the default color settings in the Selected 
 
 ![](/images/4d06034e5ef0035aa5f8ab16b60cbfc67e8bbb6fe7eb9a898d005268228542e0.jpg)  
 
-# Note:  
+!Note:  
 
 Two color box columns appear next to the items in the Titles area. “Frg” indicates the foreground color of the text item. “Box” indicates the color of the box that is drawn around the text item. This box serves two purposes:  
 
@@ -182,7 +182,7 @@ When saving the color configuration, observe the following:
 
 7. To change the default palette, complete the modifications to the Selected Color area and click Save. Type default in the Save configuration dialog box to override the existing default configuration, and click OK.  
 
-# Related Topics  
+**Related Topics**  
 
 Display Colors Dialog Box - Part Editor  
 
@@ -221,7 +221,7 @@ Other symbols such as mathematical, technical, and geometrical symbols, plus arr
 
 3. Click Yes when asked to verify that you want to change to stroke font.  
 
-# Note:  
+!Note:  
 
 When changing the font type, the following conditions may apply:  
 
@@ -259,7 +259,7 @@ You can select any combination of the available styles:
 
 6. Click Yes when asked to verify that you want to change the system font.  
 
-# Note:  
+!Note:  
 
 When changing the font type, the following conditions may apply:  
 
@@ -268,7 +268,7 @@ When changing the font type, the following conditions may apply:
 • You cannot undo the change once you switch font styles in your schematic. To revert to a prior font, you must change it to a new font.   
 • Non-letter symbols, such as ampersand (&), pound sign (#), and copyright $\left(\odot\right)$ , registered trademark $(\circledast)$ , and trademark (™) symbols, as well as the Euro, Pound, Yen, and Cent are supported in system fonts.  
 
-# Related Topics  
+**Related Topics**  
 
 Setting Fonts  
 
@@ -299,7 +299,7 @@ You can set the system font options to control how text objects in your design w
 
 2. To change the font for a type of text, select a text Type and click the Edit button, and then select the font you want from the list.  
 
-# Note:  
+!Note:  
 
 Fonts are displayed in the list in the following order:  
 
@@ -383,7 +383,7 @@ dingbat blocks are not available in a stroke font.
 
 3. Click Yes when asked to verify that you want to change to stroke font.  
 
-# Note:  
+!Note:  
 
 When changing the font type, the following conditions may apply:  
 
@@ -396,7 +396,7 @@ When changing the font type, the following conditions may apply:
 
 A system font text string with a size of 9 points becomes a stroke font text string with a size of 125 mils, and a text string with a size of 7 points is rounded to 100 mils.  
 
-# Related Topics  
+**Related Topics**  
 
 Setting Fonts  
 
@@ -446,7 +446,7 @@ If the design you are editing uses a font that is not resident on your system, y
 
 ![](/images/d7d47ffd296540ffd4b7d917d50d17632c350af3d621f5bff5714e3f994ab3ca.jpg)  
 
-# Note:  
+!Note:  
 
 If you need to replace only one font, only one font displays; clicking in the box has no effect.  
 

@@ -51,7 +51,7 @@ Use the filter to locate the part. Use the wildcard convention, with or without 
 
 5. When you are done adding the part(s), right-click and click the Cancel popup menu item or press the Esc key.  
 
-# Related Topics  
+**Related Topics**  
 
 Using Alternate Symbols Adding Connector Pins  
 
@@ -219,7 +219,7 @@ Use Save Off-page to Library to update the off-page, ground, or power symbols in
 6. Follow the prompts to replace the versions currently in the library and update the symbols in the   
    schematic.  
 
-# Related Topics  
+**Related Topics**  
 
 Special Schematic Symbols  
 
@@ -297,7 +297,7 @@ You can update all items in any or all of these categories:
 Tip   
 When the comparison or update operation is completed, the update report opens and a link to the report file displays in the Output Window.  
 
-# Related Topics  
+**Related Topics**  
 
 The Compare/Update Process How to Read the Update Report Update From Library Dialog Box Updating Selected Part Types From the Library Updating Selected CAE Decals From the Library Updating Selected Pin Decals From the Library  
 
@@ -340,7 +340,7 @@ If you want to update all but a few part types, select all the parts/gates, then
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
-# Related Topics  
+**Related Topics**  
 
 The Compare/Update Process How to Read the Update Report Updating a Schematic From the Library Updating Selected CAE Decals From the Library Updating Selected Pin Decals From the Library  
 
@@ -378,7 +378,7 @@ If you want to update all but a few CAE decals, select all the parts/gates, then
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
-# Related Topics  
+**Related Topics**  
 
 The Compare/Update Process   
 How to Read the Update Report   
@@ -432,7 +432,7 @@ As you make changes to the content in your library, you may need to refresh your
 
 When the comparison or update operation completes, the update report opens and a link to the report file displays in the Output Window.  
 
-# Related Topics  
+**Related Topics**  
 
 The Compare/Update Process   
 How to Read the Update Report   
@@ -493,12 +493,12 @@ The following table lists the content compared and reported for each item select
 Table 25. Compared and Reported Part Structures   
 
 
-<html><body><table><tr><td> Item</td><td>Item Component</td><td>What is Compared & Reported</td></tr><tr><td colspan="2">Timestamps</td><td>See“General Compare/Update Rules" on page 203.</td></tr><tr><td colspan="2">Part Type</td><td>Logic Family, Number of gates, Number of connector pins, Number of Signal pins, List of attribute names</td></tr><tr><td></td><td>For each gate:</td><td>Number of CAE Decals, CAE Decal names, Number of electrical pins on gate, Gate swap class.</td></tr><tr><td></td><td>For each gate pin:</td><td>Pin number (alphanumeric if defined), Pin name, Pin type, Pin swap class</td></tr><tr><td></td><td>For each signal pin:</td><td>Pin Number (alphanumeric if defined), Net name</td></tr><tr><td></td><td>For each attribute:</td><td>Value string Note: There can be attributes in the library that are just placeholders, with blank values that must be set for each individual part in the schematic. Any attribute in the library with a blank. value is considered to be such a placeholder, and updates of corresponding attributes in the schematic is controlled by the“Allow overwriting of attribute values in design with blank values from library" check box in the Options Dialog Box, Design Category.</td></tr><tr><td colspan="2">PCB Decal assignment</td><td>The part's assigned PCB Decal name is on the list of PCB Decal alternates for the Library part type. If it is not, a warning is written to the report, but the decal</td></tr><tr><td colspan="3">PCB Decal pin count</td></tr><tr><td></td><td>For connectors: For normal parts:</td><td>Number of pins in the PCB Decal assigned to each connector part is equal to the number of connector pins defined for the part type. Number of pins in the PCB Decal assigned to each normal part is</td></tr><tr><td></td><td></td><td>equal to or greater than the highest electrical pin number used in the gates defined for the Library part type. Restriction: Pin counts cannot be updated in the schematic. Pin count differences are flagged as warnings in the update report.</td></tr><tr><td colspan="3">CAE Decals</td></tr><tr><td rowspan="2"></td><td rowspan="2">Gate Decal details:</td><td>Number of attribute labels, attribute label name, number of text, number of terminals.</td></tr><tr><td>Restrictions: · CAE Decal graphics are not compared.</td></tr><tr><td></td><td>Terminal details:</td><td>· Details of text items are not compared. Pin decal name assigned to each terminal.</td></tr><tr><td></td><td></td><td>Restriction: If terminal pin counts differ, the decal cannot be updated in the schematic separately from the part types.</td></tr></table></body></html>  
+<table><tr><td> Item</td><td>Item Component</td><td>What is Compared & Reported</td></tr><tr><td colspan="2">Timestamps</td><td>See“General Compare/Update Rules" on page 203.</td></tr><tr><td colspan="2">Part Type</td><td>Logic Family, Number of gates, Number of connector pins, Number of Signal pins, List of attribute names</td></tr><tr><td></td><td>For each gate:</td><td>Number of CAE Decals, CAE Decal names, Number of electrical pins on gate, Gate swap class.</td></tr><tr><td></td><td>For each gate pin:</td><td>Pin number (alphanumeric if defined), Pin name, Pin type, Pin swap class</td></tr><tr><td></td><td>For each signal pin:</td><td>Pin Number (alphanumeric if defined), Net name</td></tr><tr><td></td><td>For each attribute:</td><td>Value string Note: There can be attributes in the library that are just placeholders, with blank values that must be set for each individual part in the schematic. Any attribute in the library with a blank. value is considered to be such a placeholder, and updates of corresponding attributes in the schematic is controlled by the“Allow overwriting of attribute values in design with blank values from library" check box in the Options Dialog Box, Design Category.</td></tr><tr><td colspan="2">PCB Decal assignment</td><td>The part's assigned PCB Decal name is on the list of PCB Decal alternates for the Library part type. If it is not, a warning is written to the report, but the decal</td></tr><tr><td colspan="3">PCB Decal pin count</td></tr><tr><td></td><td>For connectors: For normal parts:</td><td>Number of pins in the PCB Decal assigned to each connector part is equal to the number of connector pins defined for the part type. Number of pins in the PCB Decal assigned to each normal part is</td></tr><tr><td></td><td></td><td>equal to or greater than the highest electrical pin number used in the gates defined for the Library part type. Restriction: Pin counts cannot be updated in the schematic. Pin count differences are flagged as warnings in the update report.</td></tr><tr><td colspan="3">CAE Decals</td></tr><tr><td rowspan="2"></td><td rowspan="2">Gate Decal details:</td><td>Number of attribute labels, attribute label name, number of text, number of terminals.</td></tr><tr><td>Restrictions: · CAE Decal graphics are not compared.</td></tr><tr><td></td><td>Terminal details:</td><td>· Details of text items are not compared. Pin decal name assigned to each terminal.</td></tr><tr><td></td><td></td><td>Restriction: If terminal pin counts differ, the decal cannot be updated in the schematic separately from the part types.</td></tr></table>  
 
 Table 25. Compared and Reported Part Structures (continued)   
 
 
-<html><body><table><tr><td> Item</td><td>Item Component</td><td>What is Compared & Reported</td></tr><tr><td rowspan="3">Pin Decals</td><td rowspan="3"></td><td>Pin Decal name.</td></tr><tr><td>Update notes: · Because default pin name and pin number label locations are "hard-wired" in the CAE decal when it is created, the locations of</td></tr><tr><td>pin names and numbers in the schematic are unaffected when a Pin decal is updated. · Pin decals do provide a default location for net names on the schematic, but the actual used net name locations are stored separately and therefore net name locations are not affected by an update.</td></tr><tr><td>Power & Ground Symbols</td><td></td><td>Symbol name, type, Signal Pin name</td></tr><tr><td>Off-Page Symbols</td><td></td><td>Symbol name, type</td></tr></table></body></html>  
+<table><tr><td> Item</td><td>Item Component</td><td>What is Compared & Reported</td></tr><tr><td rowspan="3">Pin Decals</td><td rowspan="3"></td><td>Pin Decal name.</td></tr><tr><td>Update notes: · Because default pin name and pin number label locations are "hard-wired" in the CAE decal when it is created, the locations of</td></tr><tr><td>pin names and numbers in the schematic are unaffected when a Pin decal is updated. · Pin decals do provide a default location for net names on the schematic, but the actual used net name locations are stored separately and therefore net name locations are not affected by an update.</td></tr><tr><td>Power & Ground Symbols</td><td></td><td>Symbol name, type, Signal Pin name</td></tr><tr><td>Off-Page Symbols</td><td></td><td>Symbol name, type</td></tr></table>  
 
 # How to Read the Update Report  
 
@@ -623,26 +623,26 @@ Table 26 lists and describes the messages returned for compared/updated items in
 Table 26. Update Report Messages   
 
 
-<html><body><table><tr><td>Message</td><td>Reption</td><td>Refers to:</td><td>Means</td></tr><tr><td>Cannot get CAE DECAL from Library!!!</td><td>Details</td><td>CAE decal</td><td>CAE decal exists in design but not in library.</td></tr></table></body></html>  
+<table><tr><td>Message</td><td>Reption</td><td>Refers to:</td><td>Means</td></tr><tr><td>Cannot get CAE DECAL from Library!!!</td><td>Details</td><td>CAE decal</td><td>CAE decal exists in design but not in library.</td></tr></table>  
 
 Table 26. Update Report Messages (continued)   
 
 
-<html><body><table><tr><td>Message</td><td>Reptort</td><td> Refers to:</td><td> Means</td></tr><tr><td>Cannot get GATE from Library!!!</td><td>Details</td><td>Gate</td><td>Gate exists in design but not in library.</td></tr><tr><td>Cannot get GATE from Library - Comparison Skipped</td><td>Details</td><td>Gate</td><td>Gate exists in design but not in library.</td></tr><tr><td>Cannot get PACKAGE from Library!!!</td><td>Details</td><td>Package</td><td>Package exists in design but not in library.</td></tr><tr><td>Cannot get PIN DECAL from Library!!!</td><td>Details</td><td>Pin decal</td><td>Pin decal exists in design but not in library.</td></tr><tr><td>CANCELLED</td><td> Summary</td><td>Item update</td><td>Operation was canceled by user.</td></tr><tr><td>COMPARE CANCELLED</td><td>Summary & Details</td><td>Compare operation</td><td>Operation was canceled by user.</td></tr><tr><td>COMPARE ERROR</td><td>Details</td><td>Compare operation</td><td>No items selected or item(s) unavailable.</td></tr><tr><td>COMPARE SKIPPED</td><td>Details</td><td>Compare operation</td><td>Cannot compare because CAE decal terminal count differs in design and library.</td></tr><tr><td>COMPARE STOPPED!</td><td>Details</td><td>Compare operation</td><td>Operation was canceled by user.</td></tr><tr><td>Compared items match</td><td> Summary</td><td>Item content</td><td>All compared item content is the same in the design and the library. The following items are not compared: · CAE Decal graphics · Details of CAE Decal</td></tr><tr><td>CONTENT UPDATED</td><td>Details</td><td>Item update status</td><td>text items Content in the design updated with content from library.</td></tr><tr><td>Decal Count Mismatch</td><td>Details</td><td>CAE decal</td><td>CAE decal terminal count in design differs from count in library.</td></tr><tr><td>Different</td><td>Summary & Details</td><td>Item content</td><td>Item content in design differs from content in library.</td></tr></table></body></html>  
+<table><tr><td>Message</td><td>Reptort</td><td> Refers to:</td><td> Means</td></tr><tr><td>Cannot get GATE from Library!!!</td><td>Details</td><td>Gate</td><td>Gate exists in design but not in library.</td></tr><tr><td>Cannot get GATE from Library - Comparison Skipped</td><td>Details</td><td>Gate</td><td>Gate exists in design but not in library.</td></tr><tr><td>Cannot get PACKAGE from Library!!!</td><td>Details</td><td>Package</td><td>Package exists in design but not in library.</td></tr><tr><td>Cannot get PIN DECAL from Library!!!</td><td>Details</td><td>Pin decal</td><td>Pin decal exists in design but not in library.</td></tr><tr><td>CANCELLED</td><td> Summary</td><td>Item update</td><td>Operation was canceled by user.</td></tr><tr><td>COMPARE CANCELLED</td><td>Summary & Details</td><td>Compare operation</td><td>Operation was canceled by user.</td></tr><tr><td>COMPARE ERROR</td><td>Details</td><td>Compare operation</td><td>No items selected or item(s) unavailable.</td></tr><tr><td>COMPARE SKIPPED</td><td>Details</td><td>Compare operation</td><td>Cannot compare because CAE decal terminal count differs in design and library.</td></tr><tr><td>COMPARE STOPPED!</td><td>Details</td><td>Compare operation</td><td>Operation was canceled by user.</td></tr><tr><td>Compared items match</td><td> Summary</td><td>Item content</td><td>All compared item content is the same in the design and the library. The following items are not compared: · CAE Decal graphics · Details of CAE Decal</td></tr><tr><td>CONTENT UPDATED</td><td>Details</td><td>Item update status</td><td>text items Content in the design updated with content from library.</td></tr><tr><td>Decal Count Mismatch</td><td>Details</td><td>CAE decal</td><td>CAE decal terminal count in design differs from count in library.</td></tr><tr><td>Different</td><td>Summary & Details</td><td>Item content</td><td>Item content in design differs from content in library.</td></tr></table>  
 
 Table 26. Update Report Messages (continued)   
 
 
-<html><body><table><tr><td>Message</td><td>Report Section</td><td>Refers to:</td><td> Means</td></tr><tr><td>Different timestamp</td><td>Summary</td><td>Pin Decal timestamp</td><td>Timestamps in design and library differ.</td></tr><tr><td>FAILED</td><td> Summary</td><td>Item update status</td><td>Update has failed due to an unspecified error.</td></tr><tr><td>In library: Not in design</td><td>Details</td><td>Item status</td><td>Item in library not found in design.</td></tr><tr><td>Newer than library</td><td>Summary & Details</td><td>Timestamp in design</td><td>Timestamp in design newer than in library.</td></tr><tr><td>No CAE Decal found!!!</td><td>Details</td><td>CAE decal</td><td>CAE Decals check box selected in dialog box but no CAE decal found in design.</td></tr><tr><td>No PIN Decal found or selected!!!</td><td>Details</td><td>Pin decal</td><td>Either: · Pin decal selected in. dialog box not found in design, or · Pin decals check box selected but no pins selected.</td></tr><tr><td>Not assigned</td><td>Details</td><td>Gate pin</td><td>Gate pin assigned in design is not assigned in library.</td></tr><tr><td>Not assigned in library part</td><td>Details</td><td>Compared item</td><td>The PCB Decal assigned to the part in the design is not in the set of decals assigned to the part in the library.</td></tr><tr><td>Not in design</td><td> Summary</td><td>Off-page, PWR and GND symbols</td><td>The symbol exists in the library, but is not used in the design.</td></tr><tr><td> Not in library</td><td>Details</td><td>Compared item</td><td>Item in design not found in library.</td></tr><tr><td>Older than library</td><td>Summary & Details</td><td>Timestamp in design</td><td>Timestamp in design older than in library.</td></tr><tr><td>Operation canceled by USER!!!</td><td>Details</td><td>Update or Compare operation</td><td>Operation was canceled by user.</td></tr><tr><td>PERFORMED UNDO OPERATION</td><td>Details</td><td>Update or Compare operation</td><td>Operation canceled by user.</td></tr></table></body></html>  
+<table><tr><td>Message</td><td>Report Section</td><td>Refers to:</td><td> Means</td></tr><tr><td>Different timestamp</td><td>Summary</td><td>Pin Decal timestamp</td><td>Timestamps in design and library differ.</td></tr><tr><td>FAILED</td><td> Summary</td><td>Item update status</td><td>Update has failed due to an unspecified error.</td></tr><tr><td>In library: Not in design</td><td>Details</td><td>Item status</td><td>Item in library not found in design.</td></tr><tr><td>Newer than library</td><td>Summary & Details</td><td>Timestamp in design</td><td>Timestamp in design newer than in library.</td></tr><tr><td>No CAE Decal found!!!</td><td>Details</td><td>CAE decal</td><td>CAE Decals check box selected in dialog box but no CAE decal found in design.</td></tr><tr><td>No PIN Decal found or selected!!!</td><td>Details</td><td>Pin decal</td><td>Either: · Pin decal selected in. dialog box not found in design, or · Pin decals check box selected but no pins selected.</td></tr><tr><td>Not assigned</td><td>Details</td><td>Gate pin</td><td>Gate pin assigned in design is not assigned in library.</td></tr><tr><td>Not assigned in library part</td><td>Details</td><td>Compared item</td><td>The PCB Decal assigned to the part in the design is not in the set of decals assigned to the part in the library.</td></tr><tr><td>Not in design</td><td> Summary</td><td>Off-page, PWR and GND symbols</td><td>The symbol exists in the library, but is not used in the design.</td></tr><tr><td> Not in library</td><td>Details</td><td>Compared item</td><td>Item in design not found in library.</td></tr><tr><td>Older than library</td><td>Summary & Details</td><td>Timestamp in design</td><td>Timestamp in design older than in library.</td></tr><tr><td>Operation canceled by USER!!!</td><td>Details</td><td>Update or Compare operation</td><td>Operation was canceled by user.</td></tr><tr><td>PERFORMED UNDO OPERATION</td><td>Details</td><td>Update or Compare operation</td><td>Operation canceled by user.</td></tr></table>  
 
 Table 26. Update Report Messages (continued)   
 
 
-<html><body><table><tr><td>Message</td><td>Report Section</td><td>Refers to:</td><td>Means</td></tr><tr><td>Same as library</td><td>Summary & Details</td><td>Timestamp in design Item content in design</td><td>Timestamps in design and library are equal. Item content is the same in design and library.</td></tr><tr><td>SKIPPED</td><td>Summary</td><td>Item update</td><td>User has replied “No" to the “<item> in the schematic has a more recent time stamp than in the library. OK to overwrite the version in the schematic?" prompt.</td></tr><tr><td>STOPPED</td><td>Summary</td><td>Item update</td><td>Operation canceled by user.</td></tr><tr><td>UPDATE CANCELLED</td><td>Details</td><td>Item update</td><td>Operation was canceled by user.</td></tr><tr><td>UPDATE FAILED</td><td>Details</td><td>Item update</td><td>An error occurred in the update process and the update failed.</td></tr><tr><td>UPDATE MESSAGE</td><td>Details</td><td>Item update</td><td>Explains cause of an Update failure.</td></tr><tr><td>UPDATE SKIPPED</td><td>Details</td><td>Item update</td><td>User has replied “No” to the “<item> in the schematic has a more recent time stamp than in the library. OK to overwrite the version in the schematic?" prompt.</td></tr><tr><td>UPDATE STOPPED!</td><td>Details</td><td>Item update</td><td>Operation canceled by user.</td></tr><tr><td>WARNING</td><td>Details</td><td>PCB Decal</td><td>PCB Decal in the library has fewer pins than in the design.</td></tr></table></body></html>
+<table><tr><td>Message</td><td>Report Section</td><td>Refers to:</td><td>Means</td></tr><tr><td>Same as library</td><td>Summary & Details</td><td>Timestamp in design Item content in design</td><td>Timestamps in design and library are equal. Item content is the same in design and library.</td></tr><tr><td>SKIPPED</td><td>Summary</td><td>Item update</td><td>User has replied “No" to the “<item> in the schematic has a more recent time stamp than in the library. OK to overwrite the version in the schematic?" prompt.</td></tr><tr><td>STOPPED</td><td>Summary</td><td>Item update</td><td>Operation canceled by user.</td></tr><tr><td>UPDATE CANCELLED</td><td>Details</td><td>Item update</td><td>Operation was canceled by user.</td></tr><tr><td>UPDATE FAILED</td><td>Details</td><td>Item update</td><td>An error occurred in the update process and the update failed.</td></tr><tr><td>UPDATE MESSAGE</td><td>Details</td><td>Item update</td><td>Explains cause of an Update failure.</td></tr><tr><td>UPDATE SKIPPED</td><td>Details</td><td>Item update</td><td>User has replied “No” to the “<item> in the schematic has a more recent time stamp than in the library. OK to overwrite the version in the schematic?" prompt.</td></tr><tr><td>UPDATE STOPPED!</td><td>Details</td><td>Item update</td><td>Operation canceled by user.</td></tr><tr><td>WARNING</td><td>Details</td><td>PCB Decal</td><td>PCB Decal in the library has fewer pins than in the design.</td></tr></table>
 
 Related Topics  
 
-# Related Topics  
+**Related Topics**  
 
 The Update From Library Function The Compare/Update Process  
 
@@ -678,7 +678,7 @@ If a design no longer requires a part, and you are not going to replace the part
 
 The software deletes the part and its connections.  
 
-# Related Topics  
+**Related Topics**  
 
 Object Select Mode (Select Object First) Adding Off-Page References Working With Floating Connections  
 
@@ -746,7 +746,7 @@ When the boundary is not visible, the group rotates around the center of the sel
 2. Right-click and click the Set Origin popup menu item. A bullseye attaches to the pointer.   
 3. Move the cursor to the new origin and click to set it.  
 
-# Related Topics  
+**Related Topics**  
 
 Management of Groups  
 
@@ -809,7 +809,7 @@ Using the Move command, you can move a group to any location on the sheet.
 
 ![](/images/79e9d76b8a8260554e5a2a6a64ac32e0a2cb02646c3dccebb62a0f2f752fe7e3.jpg)  
 
-# Note:  
+!Note:  
 
 As you move the group, its anchor point depends on certain conditions. For more information, see Group Anchor Points.  
 
@@ -906,7 +906,7 @@ You can rotate or mirror a group while the group is selected. You can also rotat
 
 The group must consist of mixed items. The commands are not available if only components are selected.  
 
-# Related Topics  
+**Related Topics**  
 
 Creation of Groups  
 

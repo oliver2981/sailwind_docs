@@ -118,7 +118,7 @@ The following are reported in the errors report file:
 
 5. When all the errors have been resolved, repeat the procedure you used to pass the netlist from SailWind Logic to SailWind Layout.  
 
-# Related Topics  
+**Related Topics**  
 
 Creation of a New PCB Layout from a SailWind Logic Design  
 
@@ -329,7 +329,7 @@ The forward annotation process generates a group of files (even in the backgroun
 Table 40. Forward Annotation Generated Files   
 
 
-<html><body><table><tr><td><schematic_name>.eco</td><td>The ECO file. Contains ECO commands that describe the changes needed to update the original design to match the new design. Generated when you select Generate ECO File from the Compare/ECO Tools Documents tab. See “ECO File Format" on page 342 for a description of this file.</td></tr><tr><td>Logic.rep</td><td>The Differences Report file. Describes the differences between the “old" and the “new" compared files. Generated when you select Generate Differences Report from the Compare/ECO Tools Documents tab. See "Contents of the Differences Report" on page 340 for a description of this file.</td></tr><tr><td>ecogtmp0.asc ecogtmp1.asc</td><td>Temporary copy of the “old" netlist and a temporary copy of the “new" netlist.</td></tr><tr><td>ecogtmp[ 0|1 ].err</td><td>Generated only if errors are found in the netlist. A link to this file is displayed in the Output Window.</td></tr></table></body></html>  
+<table><tr><td><schematic_name>.eco</td><td>The ECO file. Contains ECO commands that describe the changes needed to update the original design to match the new design. Generated when you select Generate ECO File from the Compare/ECO Tools Documents tab. See “ECO File Format" on page 342 for a description of this file.</td></tr><tr><td>Logic.rep</td><td>The Differences Report file. Describes the differences between the “old" and the “new" compared files. Generated when you select Generate Differences Report from the Compare/ECO Tools Documents tab. See "Contents of the Differences Report" on page 340 for a description of this file.</td></tr><tr><td>ecogtmp0.asc ecogtmp1.asc</td><td>Temporary copy of the “old" netlist and a temporary copy of the “new" netlist.</td></tr><tr><td>ecogtmp[ 0|1 ].err</td><td>Generated only if errors are found in the netlist. A link to this file is displayed in the Output Window.</td></tr></table>  
 
 In addition to the files listed above, messages or errors that occur during comparison are also written to logic_session.log and logic.err in the \SailWind Projects folder. The following are reported in the errors report file:  
 
@@ -341,7 +341,7 @@ In addition to the files listed above, messages or errors that occur during comp
 
 Multiple subnet nets where one or more subnets is missing an off-page symbol • Single subnet nets with an off-page symbol (lonely subnet warning) • User named subnets that have no visible net name label  
 
-# Related Topics  
+**Related Topics**  
 
 ECO File Format Contents of the Differences Report  
 
@@ -478,7 +478,7 @@ Output files are written to the \SailWind Projects folder.
 
 If no errors occur, the schematic is updated. If errors occur, the schematic is not updated, and the errors, along with a link to the ECO Import errors file, are written to the Output window.  
 
-# Related Topics  
+**Related Topics**  
 
 Backward Annotation Results  
 
@@ -505,7 +505,7 @@ Tip Unsupported attribute types, such as net or net class, are ignored.
 
 • Deleting an attribute for a part-type deletes the attribute on all parts of that type in the design. • An error message is generated if the part or attribute name does not exist. If the attribute command specifies an object type not supported for general attributes, such as net or net class, the attribute command is ignored.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating the ECO File in SailWind Layout  
 
@@ -541,7 +541,7 @@ Tip The part is not added to the schematic if the reference designator already e
 • If the part being renamed is a multigate part, all gates are updated.   
 • An error message is generated if the old reference designator does not exist.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating the ECO File in SailWind Layout  
 
@@ -551,7 +551,7 @@ If you swap gates in SailWind Layout to improve your routing, you can backward a
 
 SailWind Logic creates an off-page symbol at each swapped gate. An error message is created if the gate does not exist.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating the ECO File in SailWind Layout  
 
@@ -573,7 +573,7 @@ The first net is renamed to be the same name as the second net.
 
 • An error message is created if the new net already exists.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating the ECO File in SailWind Layout  
 
@@ -595,7 +595,7 @@ You can backward annotate swapped pins, pins added to a net, and pins disconnect
 
 • If the pin is a gate pin, the connection is deleted if it connects to a tie-dot or off-page symbol. If the connection goes to another gate pin, the connection is broken and, an off-page symbol is added. • This command generates an error message if the pin is not connected to the net in question.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating the ECO File in SailWind Layout  
 
@@ -606,16 +606,16 @@ When you compare two versions of a design (Tools $>$ Compare/ECO), you can creat
 Table 41. Sections of the Difference Report   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>Part differences</td><td>This section of the report includes the reference designator and the part type for both the old and new designs. Parts that exist only in the old design are listed under the New Design column as <none>. Parts that exist only in the new design are listed under the Old Design column as <none>. Parts that have identical reference designators and part types in both designs are not listed.</td></tr><tr><td> Net differences</td><td>This section lists names of the nets that do not exist under two columns: New Design and Old Design. It lists the names of the nets that do not exist in one design or the other. It also lists the nets that match, but that have different names, including nets in the old design that have been split into multiple nets in the new design. A net split operation appears as pin differences. Nets are listed alphabetically under the Old Design column, except where multiple nets are combined, where they are listed in succession. Nets that do not exist in the old design are listed at the end of this section.</td></tr><tr><td>Unmatched net pins in old design</td><td>This section lists any connected pins in the old design that are missing or connected to other nets in the old design. These pins are deleted from nets during the ECO process. This list provides net names in the old design followed by unmatched pins in the net. If the net does not exist in the new design, all pins in the net are listed.</td></tr><tr><td>Unmatched net pins in new design</td><td>This section lists any connected pins in the new design that are missing or connected to other nets in the old design. These pins are added to nets during the ECO process. This list provides net names in the new design followed by unmatched pins in the net. If the net does not exist in the old design, all pins in the net are listed.</td></tr><tr><td>Attribute differences</td><td>This section of the report lists each object under the headings: Atribute Name, Old Value, and New Value. Subheadings, including object type, object name in old design, and object name in new design appear for each object in the list if different.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>Part differences</td><td>This section of the report includes the reference designator and the part type for both the old and new designs. Parts that exist only in the old design are listed under the New Design column as <none>. Parts that exist only in the new design are listed under the Old Design column as <none>. Parts that have identical reference designators and part types in both designs are not listed.</td></tr><tr><td> Net differences</td><td>This section lists names of the nets that do not exist under two columns: New Design and Old Design. It lists the names of the nets that do not exist in one design or the other. It also lists the nets that match, but that have different names, including nets in the old design that have been split into multiple nets in the new design. A net split operation appears as pin differences. Nets are listed alphabetically under the Old Design column, except where multiple nets are combined, where they are listed in succession. Nets that do not exist in the old design are listed at the end of this section.</td></tr><tr><td>Unmatched net pins in old design</td><td>This section lists any connected pins in the old design that are missing or connected to other nets in the old design. These pins are deleted from nets during the ECO process. This list provides net names in the old design followed by unmatched pins in the net. If the net does not exist in the new design, all pins in the net are listed.</td></tr><tr><td>Unmatched net pins in new design</td><td>This section lists any connected pins in the new design that are missing or connected to other nets in the old design. These pins are added to nets during the ECO process. This list provides net names in the new design followed by unmatched pins in the net. If the net does not exist in the old design, all pins in the net are listed.</td></tr><tr><td>Attribute differences</td><td>This section of the report lists each object under the headings: Atribute Name, Old Value, and New Value. Subheadings, including object type, object name in old design, and object name in new design appear for each object in the list if different.</td></tr></table>  
 
-<html><body><table><tr><td colspan="2">Table 41.Sectl terenceReport (cohtihued)</td></tr><tr><td>Option</td><td> Description</td></tr><tr><td></td><td>Attribute differences are included only for objects that exist in both the old and new design. If an attribute is missing in either design, the value is listed as <no attr>. If the attribute exists, but has no value, it is listed as <no value>.</td></tr><tr><td></td><td>This section reports each object or object pair that has rules differences. Each object or object pair has three columns of information (Object Type, Object Name, and Rule Type) and a subheading that lists Rule Name, Old Value, and New Value. If a rule set is missing on an object in either the old or new design, then the old or new values of all missing rule entries are listed as <no rule>. The following example shows a high-speed rule change for net $$$1963 that </td></tr><tr><td>NET MAX_LENGTH MIN_IMPEDANCE</td><td>$$$1963 HIGH_SPEED 50000 20000 50.0 70.0</td></tr><tr><td>Net class differences</td><td>This section reports the names of net classes that: · Do not exist in one design or the other. (Classes that do not exist in the Original Design appear at the end of the section.) · Match but have different names</td></tr><tr><td>Added class nets</td><td>This section reports nets that are not in the Original Design and are added in the New Design. (The net class in the New Design has nets either not included in the Original Design or are included in different net classes in the Original Design.) This section lists: ·Each net class that has added nets in the New Design and the names of the</td></tr><tr><td>Removed class nets</td><td>Original Design) This section reports nets that are in the Original Design but have been removed from the New Design.(The net class in the Original Design has nets either not included in the New Design or included in different net classes in the New Design.) This section lists:</td></tr><tr><td>Pin-pair group differences</td><td>of those removed nets · All of the nets in the net class if the net class does not exist in the New Design This section lists pin-pair groups that: · Do not exist in one design or the other. (Pin-pair groups that do not exist in the</td></tr><tr><td> Removed group</td><td>Original Design appear at the end of the section.) · Match but have different names. This section reports pin-pairs that are in the Original Design but removed from the</td></tr></table></body></html>  
+<table><tr><td colspan="2">Table 41.Sectl terenceReport (cohtihued)</td></tr><tr><td>Option</td><td> Description</td></tr><tr><td></td><td>Attribute differences are included only for objects that exist in both the old and new design. If an attribute is missing in either design, the value is listed as <no attr>. If the attribute exists, but has no value, it is listed as <no value>.</td></tr><tr><td></td><td>This section reports each object or object pair that has rules differences. Each object or object pair has three columns of information (Object Type, Object Name, and Rule Type) and a subheading that lists Rule Name, Old Value, and New Value. If a rule set is missing on an object in either the old or new design, then the old or new values of all missing rule entries are listed as <no rule>. The following example shows a high-speed rule change for net $$$1963 that </td></tr><tr><td>NET MAX_LENGTH MIN_IMPEDANCE</td><td>$$$1963 HIGH_SPEED 50000 20000 50.0 70.0</td></tr><tr><td>Net class differences</td><td>This section reports the names of net classes that: · Do not exist in one design or the other. (Classes that do not exist in the Original Design appear at the end of the section.) · Match but have different names</td></tr><tr><td>Added class nets</td><td>This section reports nets that are not in the Original Design and are added in the New Design. (The net class in the New Design has nets either not included in the Original Design or are included in different net classes in the Original Design.) This section lists: ·Each net class that has added nets in the New Design and the names of the</td></tr><tr><td>Removed class nets</td><td>Original Design) This section reports nets that are in the Original Design but have been removed from the New Design.(The net class in the Original Design has nets either not included in the New Design or included in different net classes in the New Design.) This section lists:</td></tr><tr><td>Pin-pair group differences</td><td>of those removed nets · All of the nets in the net class if the net class does not exist in the New Design This section lists pin-pair groups that: · Do not exist in one design or the other. (Pin-pair groups that do not exist in the</td></tr><tr><td> Removed group</td><td>Original Design appear at the end of the section.) · Match but have different names. This section reports pin-pairs that are in the Original Design but removed from the</td></tr></table>  
 
 Table 41. Sections of the Difference Report (continued)   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td></td><td>This section lists: · Each group in the old design from which pin-pairs were removed and the names of its removed pin-pairs · All of the pin-pairs in the group if the group does not exist in the New Design</td></tr><tr><td>Added group pin-pairs</td><td>This section reports pin-pairs in the New Design that are not in the Original Design. (The pin-pair group in the New Design has pin-pairs either not included in the Original Design or included in different groups in the Original Design.) An ECO operation adds these pin-pairs. This section lists: · Each group with added pin-pairs in the New Design and the names of added</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td></td><td>This section lists: · Each group in the old design from which pin-pairs were removed and the names of its removed pin-pairs · All of the pin-pairs in the group if the group does not exist in the New Design</td></tr><tr><td>Added group pin-pairs</td><td>This section reports pin-pairs in the New Design that are not in the Original Design. (The pin-pair group in the New Design has pin-pairs either not included in the Original Design or included in different groups in the Original Design.) An ECO operation adds these pin-pairs. This section lists: · Each group with added pin-pairs in the New Design and the names of added</td></tr></table>  
 
-# Related Topics  
+**Related Topics**  
 
 Compare/ECO Tools Dialog Box, Documents Tab  
 
@@ -657,7 +657,7 @@ Add a Part
 
 The command is formatted:  
 
-<html><body><table><tr><td>*PART*</td></tr></table></body></html>  
+<table><tr><td>*PART*</td></tr></table>  
 
 The part entry line is formatted:  
 
@@ -681,7 +681,7 @@ Delete a Part
 
 The command is formatted:  
 
-<html><body><table><tr><td>*DELPART*</td></tr><tr><td></td></tr></table></body></html>  
+<table><tr><td>*DELPART*</td></tr><tr><td></td></tr></table>  
 
 The line is formatted:  
 
@@ -705,7 +705,7 @@ where refdes is the part reference name, pinnumber is the pin number to disconne
 
 The command is formatted:  
 
-<html><body><table><tr><td>*CHGPART*</td></tr></table></body></html>  
+<table><tr><td>*CHGPART*</td></tr></table>  
 
 The change part line is formatted:  
 

@@ -44,7 +44,7 @@ Special Symbols in SailWind Logic include power symbols, ground symbols, and off
 
 ![](/images/32459aaa0778a24b44502d96dc3d5d5fa788d7b75b05477e148d315f4e0a6ecb.jpg)  
 
-# Note:  
+!Note:  
 
 When you end a connection at another connection, SailWind Logic places a tie dot at the junction. The resulting net name is the name of the added connection, not the existing connection, unless you assign a name to the existing connection.  
 
@@ -56,7 +56,7 @@ When you end a connection at another connection, SailWind Logic places a tie dot
 
 If you select and move a visible net name, with snap to grid enabled, the new net name snaps to the Labels and Text grid. To set the labels and text grid, use the settings on the Tools $>$ Options $>$ General page. See “Options Dialog Box, General Category” on page 595.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Power and Ground Connections Adding Off-Page References  
 
@@ -88,7 +88,7 @@ For example, typing MAIN_\CLK\ places a bar over CLK.
 
 The \ character factors into the 47 character limit for the net name.  
 
-# Related Topics  
+**Related Topics**  
 
 Modifying Nets  
 
@@ -134,12 +134,12 @@ Refer to the Listing of Default Attributes for Nets table to determine which net
 Table 30. Listing of Default Attributes for Nets   
 
 
-<html><body><table><tr><td>Attributes</td><td>Type</td><td>Description and Use</td></tr><tr><td>HyperLynx.Frequency</td><td>Frequency (Measure)</td><td>Lists the working frequency for nets in BoardSim simulations. Range: 0 Hz-1000 GHz Units: Hz kHz MHz GHz (case-sensitive)</td></tr><tr><td>HyperLynx.Duty Cycle</td><td>Percentage (Measure)</td><td>Lists the percent of time the signal is in high state. Used for BoardSim simulations. Range: 0%-100%</td></tr><tr><td>HyperLynx Signal Type</td><td>List</td><td>Lists the signal type. Used in BoardSim simulations. Values (case-insensitive): One of, Clock, Strobe, Data, Address, Power Supply, Analog High Speed, Analog Low Speed, Do Not</td></tr><tr><td>HyperLynx.Default ic.Model</td><td>Free Text</td><td>Analyze Lists the part model in the file used for BoardSim simulations. Values: Text (model name)</td></tr><tr><td>HyperLynx.Default iC.Model File</td><td>Free Text</td><td>Lists the part model file in the file used for BoardSim simulations. Values: Text (filename)</td></tr><tr><td>HyperLynx.Default IC.Model Pin</td><td>Free Text</td><td>Lists the specific pin for the model in the above attribute, if applicable. Used in BoardSim simulations.</td></tr><tr><td>PowerGround</td><td>Yes/No</td><td>Values: Text (pin name or number) Identifies nets as Ground and Power nets.</td></tr></table></body></html>  
+<table><tr><td>Attributes</td><td>Type</td><td>Description and Use</td></tr><tr><td>HyperLynx.Frequency</td><td>Frequency (Measure)</td><td>Lists the working frequency for nets in BoardSim simulations. Range: 0 Hz-1000 GHz Units: Hz kHz MHz GHz (case-sensitive)</td></tr><tr><td>HyperLynx.Duty Cycle</td><td>Percentage (Measure)</td><td>Lists the percent of time the signal is in high state. Used for BoardSim simulations. Range: 0%-100%</td></tr><tr><td>HyperLynx Signal Type</td><td>List</td><td>Lists the signal type. Used in BoardSim simulations. Values (case-insensitive): One of, Clock, Strobe, Data, Address, Power Supply, Analog High Speed, Analog Low Speed, Do Not</td></tr><tr><td>HyperLynx.Default ic.Model</td><td>Free Text</td><td>Analyze Lists the part model in the file used for BoardSim simulations. Values: Text (model name)</td></tr><tr><td>HyperLynx.Default iC.Model File</td><td>Free Text</td><td>Lists the part model file in the file used for BoardSim simulations. Values: Text (filename)</td></tr><tr><td>HyperLynx.Default IC.Model Pin</td><td>Free Text</td><td>Lists the specific pin for the model in the above attribute, if applicable. Used in BoardSim simulations.</td></tr><tr><td>PowerGround</td><td>Yes/No</td><td>Values: Text (pin name or number) Identifies nets as Ground and Power nets.</td></tr></table>  
 
 Table 30. Listing of Default Attributes for Nets (continued)   
 
 
-<html><body><table><tr><td>Attributes</td><td> Type</td><td>Description and Use</td></tr><tr><td></td><td></td><td>Values: Yes or No (case-insensitive)</td></tr><tr><td>Voltage</td><td>Measure</td><td>Describes the voltage of the net. Range: -100kV-100kV (-100,000-100,000V) Units: nV uV mV V kV (case-sensitive)</td></tr><tr><td>DFT.Nail Count Per Net</td><td>Number</td><td>Indicates the ID of the probe in the test fixture. Values: (integer) O-2000 (all exact limits are allowed; for example, both 0 and 2000 are acceptable)</td></tr></table></body></html>  
+<table><tr><td>Attributes</td><td> Type</td><td>Description and Use</td></tr><tr><td></td><td></td><td>Values: Yes or No (case-insensitive)</td></tr><tr><td>Voltage</td><td>Measure</td><td>Describes the voltage of the net. Range: -100kV-100kV (-100,000-100,000V) Units: nV uV mV V kV (case-sensitive)</td></tr><tr><td>DFT.Nail Count Per Net</td><td>Number</td><td>Indicates the ID of the probe in the test fixture. Values: (integer) O-2000 (all exact limits are allowed; for example, both 0 and 2000 are acceptable)</td></tr></table>  
 
 # Adding Power and Ground Connections  
 
@@ -159,7 +159,7 @@ As you view the power or ground alternates in the working window, you can locate
 
 Connections Adding Power and Ground Connections  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Connections Using Alternate Symbols  
 
@@ -192,7 +192,7 @@ You can disable floating connections in your design. Once you have finished crea
 
 1. Click the Tools $>$ Options menu item, and then click the Design category. 2. In the Parameters area, clear the Allow Floating Connections check box to disable Floating Connections in the design. If Floating Connections exist in the design, a warning message appears.  
 
-# Note:  
+!Note:  
 
 Warning: Disabling Floating Connections does not remove them from the design. Disabling the preference only prevents additional Floating Connections from being cr Floating Connections are undesirable on a finished schematic. A floating end should either be connected to a pin or terminated on an off-page symbol. Run the Connections Report to find the locations of Floating Connections in your design.  
 
@@ -304,7 +304,7 @@ Use Move to change a connection from one endpoint to another, without deleting t
 5. A connection cannot end in open space. Locate the cursor and double-click to end the connection or right-click and click Complete.   
 6. To end a connection with a power, ground, or off-page reference symbol, right-click and click the appropriate symbol during the last step of this procedure.  
 
-# Related Topics  
+**Related Topics**  
 
 Adding Connections Adding Power and Ground Connections Adding Off-Page References  
 
@@ -314,7 +314,7 @@ When you move a part, existing part connections follow the part movement. After 
 
 You can reposition a connection segment that is not a connection endpoint, or you can reconnect a segment endpoint. Refer to the Changing a Connection topic for information on disconnecting from a part or connection and reconnecting to another part or connection.  
 
-# Related Topics  
+**Related Topics**  
 
 Working With Floating Connections  
 
@@ -346,7 +346,7 @@ All line segments in a 2D line must have the same line width and style. If you n
 Table 31. Splitting Segments Options   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>Swap Corner</td><td>Selects the other corner or line segment created by the split.</td></tr><tr><td>Del Corner</td><td>Deletes the current corner.</td></tr><tr><td>Width</td><td>Changes the line width of the item.</td></tr><tr><td>Solid Style and Dotted Style</td><td>Changes the line style to a solid or a dashed line. You cannot specify dotted lines for circles or arcs.</td></tr><tr><td>Orthogonal</td><td>Moves are made in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Moves are made in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Moves are made at any angle.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>Swap Corner</td><td>Selects the other corner or line segment created by the split.</td></tr><tr><td>Del Corner</td><td>Deletes the current corner.</td></tr><tr><td>Width</td><td>Changes the line width of the item.</td></tr><tr><td>Solid Style and Dotted Style</td><td>Changes the line style to a solid or a dashed line. You cannot specify dotted lines for circles or arcs.</td></tr><tr><td>Orthogonal</td><td>Moves are made in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Moves are made in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Moves are made at any angle.</td></tr></table>  
 
 4. Indicate the endpoint of the new segment to complete the split.  
 
@@ -627,7 +627,7 @@ You can delete connections, but be aware that when the deleted connections are s
 • When a system named subnet is joined with a user named subnet, the combined subnet automatically inherits the user assigned name.   
 • When two system named subnets are joined, the combined subnet inherits the name of one of the subnets.  
 
-# Related Topics  
+**Related Topics**  
 
 Splitting a Connection  
 
@@ -642,11 +642,11 @@ Use the detach command to free a gate, part, group of components, or group selec
 
 All nets are detached. Nets are given unconnected markers or off-page symbols, depending on the Floating Connections preference.  
 
-# Note:  
+!Note:  
 
 Warning: A group selection with Preserve by Boundary enabled detaches nets at the boundary and not at net terminations. The Net is split into two instances. Named nets retain their original names on both sides of the split.  
 
-# Related Topics  
+**Related Topics**  
 
 Working With Floating Connections Creation of Groups  
 

@@ -7,7 +7,7 @@ The parts, symbols and other items you use to create a schematic in SailWind res
 Table 12. SailWind Library Files   
 
 
-<html><body><table><tr><td>File Extension</td><td>File Contents</td></tr><tr><td>.pt </td><td>Parts —— Data about a part, such as a 74LSo2, including logic family, attributes, pins,and gates.</td></tr><tr><td>.pd</td><td>Decals -— The graphical representation of the part when it is drawn. It is often referred to as the footprint.</td></tr><tr><td>.ld</td><td>Logic_—— The graphical representation of a schematic part, such as a NOR gate. This section functions as a part list reader only. Use SailWind Logic to create and modify Logic decals (sometimes called CAE Decals).</td></tr><tr><td>.In</td><td>Lines —— General graphical data you can store in the library, such as a company logo, to use in any design file.</td></tr></table></body></html>  
+<table><tr><td>File Extension</td><td>File Contents</td></tr><tr><td>.pt </td><td>Parts —— Data about a part, such as a 74LSo2, including logic family, attributes, pins,and gates.</td></tr><tr><td>.pd</td><td>Decals -— The graphical representation of the part when it is drawn. It is often referred to as the footprint.</td></tr><tr><td>.ld</td><td>Logic_—— The graphical representation of a schematic part, such as a NOR gate. This section functions as a part list reader only. Use SailWind Logic to create and modify Logic decals (sometimes called CAE Decals).</td></tr><tr><td>.In</td><td>Lines —— General graphical data you can store in the library, such as a company logo, to use in any design file.</td></tr></table>  
 
 For information on creating PCB decals, see Creation of a New Decal in the SailWind Layout Guide.  
 
@@ -80,11 +80,11 @@ Library item names are displayed in the PCB Decals, Part Types, Line Items, or C
 
 ![](/images/b068539976c9d78c78c209c94effc0e32a6cac46e9b4ff27b4b470300b29713d.jpg)  
 
-# Note:  
+!Note:  
 
 Since library Parts have no visual representation, the preview window displays the first CAE decal associated with the part.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating a Report of the Parts in a Library  
 
@@ -165,7 +165,7 @@ Use Ctrl+click to select multiple non-sequential items. Use Shift $^+$ click or 
 
 6. Click Delete.  
 
-# Related Topics  
+**Related Topics**  
 
 Deleting All Items in a Library  
 
@@ -254,7 +254,7 @@ Restriction: You cannot delete the contents of a read-only library.
    prompted.   
 4. Click Close.  
 
-# Related Topics  
+**Related Topics**  
 
 Deleting Items From a Library  
 
@@ -342,7 +342,7 @@ You can specify the order in which libraries are searched. The libraries are sea
 
 With each click, the library moves up or down one place in the library list. The libraries are searched top to bottom.  
 
-# Related Topics  
+**Related Topics**  
 
 Library Search Order  
 
@@ -460,7 +460,7 @@ The Attribute Name appears in the Attributes in Library list.
 
 Your new attribute is added. Check for the new attribute in the Decal Attributes dialog box (for PCB decals) or on the Attributes tab of the Part Information dialog box on page 631 (for Part Types).  
 
-# Related Topics  
+**Related Topics**  
 
 Manage Attributes in a Schematic  
 
@@ -485,7 +485,7 @@ This process will yield no result or warning if the library you are working with
 
 Your attribute(s) is deleted. Check for the deleted attribute in the Decal Attributes dialog box (for PCB decals) or on the Attributes tab of the Part Information dialog box on page 631 (for Part Types).  
 
-# Related Topics  
+**Related Topics**  
 
 Manage Attributes in a Schematic  
 
@@ -518,7 +518,7 @@ You can specify the name of an existing attribute. No error message appears when
 
 Your attribute is renamed. Check for the renamed attribute in the Decal Attributes dialog box (for PCB decals) or on the Attributes tab of the Part Information dialog box on page 631 (for Part Types).  
 
-# Related Topics  
+**Related Topics**  
 
 Manage Attributes in a Schematic  
 
@@ -559,7 +559,7 @@ Tip Import fails if the library to receive imported items is read-only.
 
 5. In the Library Import File dialog box, specify the folder and the filename, and then click Open.  
 
-# Related Topics  
+**Related Topics**  
 
 Transferring Library Data  
 
@@ -655,7 +655,7 @@ Figure 2. Parts Report in .csv Format
 
 "Library","Part Name","Part Number","Description","Manufacturer #1","pcB Decal 1" "anlogdeV","AD1315","AD1315KZ","HIGH SPEED ACTIVE LOAD WITH INHIBIT" "ANALOG DEVICES","Z-16A", "anlogdev","AD1321","AD1321KZ","HIGH SPEED PIN DRIVER WITH INHIBIT",“ANALOG DEVICES",“Z-16A"， "anlogdew" "AD1322" "AD13ZZKZ","ULTRAHIGH SPEED PIN DRIVER WITH INHIBIT" "ANALOG DEVICES","Z-16A"， "anlogdev","AD1376","AD1376 (,KD",“HIGH SPEED,16-BIT A/D CONVERTER”,"ANALOG DEVICES",“DH-3ZE", "anlogdev","AD1377","AD1377 (,K)D","HIGH SPEED，16-BIT A/D CONVERTER","ANALOG DEVICES","DH-32E" “anlogdev","AD1382","AD1382KD","16-BIT， 5Q0KHZ， SAMPLING ADC","ANALOG DEVICES","DH-48A"，  
 
-# Related Topics  
+**Related Topics**  
 
 Report Manager Dialog Box   
 Creating a Report of Decals, Lines or Logic Symbols in a Library   
@@ -695,7 +695,7 @@ To select one or more specific item, use the filter field. Type an item name in 
 Notepad appears, displaying a list of the item names and the date and time when each was last modified.   
 You can print the list from Notepad.  
 
-# Related Topics  
+**Related Topics**  
 
 Creating a Report of the Parts in a Library Managing Libraries and Library Data  
 
@@ -708,17 +708,17 @@ The filter supports the wildcards and expressions listed in Table 13. Table 14 g
 Table 13. Wildcards and Expressions   
 
 
-<html><body><table><tr><td>Expression:</td><td>Use to:</td></tr><tr><td>*</td><td>Match any number of characters.</td></tr><tr><td>？</td><td>Match any one character.</td></tr><tr><td>[set] </td><td>Match any character in the specified set.</td></tr></table></body></html>  
+<table><tr><td>Expression:</td><td>Use to:</td></tr><tr><td>*</td><td>Match any number of characters.</td></tr><tr><td>？</td><td>Match any one character.</td></tr><tr><td>[set] </td><td>Match any character in the specified set.</td></tr></table>  
 
 Table 13. Wildcards and Expressions (continued)   
 
 
-<html><body><table><tr><td>Expression:</td><td>Use to:</td></tr><tr><td></td><td>Tip: A set is composed of characters or a range of characters; for example, A-Z or 0-9 or a-z.</td></tr><tr><td>[!set] or [^set]</td><td>Match any character not in the specified set.</td></tr><tr><td>一</td><td>Match a special syntactic character exactly, suppressing the special character's syntactic significance. Tip: The following characters need the \ before them: *[*?!^-\'</td></tr></table></body></html>  
+<table><tr><td>Expression:</td><td>Use to:</td></tr><tr><td></td><td>Tip: A set is composed of characters or a range of characters; for example, A-Z or 0-9 or a-z.</td></tr><tr><td>[!set] or [^set]</td><td>Match any character not in the specified set.</td></tr><tr><td>一</td><td>Match a special syntactic character exactly, suppressing the special character's syntactic significance. Tip: The following characters need the \ before them: *[*?!^-\'</td></tr></table>  
 
 Table 14. Usage Examples of Wildcards and Expressions   
 
 
-<html><body><table><tr><td>Expression:</td><td>Results in all items that:</td></tr><tr><td>74*</td><td>Start with 74: 7404,74LS04,74622.</td></tr><tr><td>74??</td><td>Start with 74 followed by any two characters: 7404, 74T2, 74TP.</td></tr><tr><td>74??08</td><td>Start with 74, followed by any two characters, and end with 08: 74LS08, 74HC08,744608.</td></tr><tr><td>*08</td><td>Start with any number of characters and end with 08: 2146108, 5408, 54HCT08,744608.</td></tr><tr><td>*08*</td><td>Start with any number of characters, followed by 08, and end with any number of characters: 5408, 5408BE,54HCT08AE,74ABT08CE2, 941M70839.</td></tr><tr><td>[57]*</td><td>Start with 5 or 7 with any number of characters after: 54HCT244, 5968BAE4,74ACT44.</td></tr><tr><td>[5-7]*</td><td>Start with 5, 6, or 7 followed by any number of characters: 54LS08, 6225BE,69TF77,74ALS02.</td></tr><tr><td>[57]4HCT??</td><td>Start with 5 or 7, followed by 4HCT, and end with any two characters: 54HCT04,54HCT74,74HCT27,74HCT84.</td></tr><tr><td>74A[CH]*</td><td>Start with 74A, followed by C or H, and end with any number of characters: 74AC244,74AHCT27.</td></tr><tr><td>74A[!C-H]*</td><td>Start with 74A, followed by any character except the letters C through H, and end with any number of characters: 74ABT44, 74ALS244, 74ABF365.</td></tr><tr><td>[M]*08</td><td>Start with the character\, followed by any number of characters, and end with08: \LS08,\HCT08,\ABT08.</td></tr></table></body></html>  
+<table><tr><td>Expression:</td><td>Results in all items that:</td></tr><tr><td>74*</td><td>Start with 74: 7404,74LS04,74622.</td></tr><tr><td>74??</td><td>Start with 74 followed by any two characters: 7404, 74T2, 74TP.</td></tr><tr><td>74??08</td><td>Start with 74, followed by any two characters, and end with 08: 74LS08, 74HC08,744608.</td></tr><tr><td>*08</td><td>Start with any number of characters and end with 08: 2146108, 5408, 54HCT08,744608.</td></tr><tr><td>*08*</td><td>Start with any number of characters, followed by 08, and end with any number of characters: 5408, 5408BE,54HCT08AE,74ABT08CE2, 941M70839.</td></tr><tr><td>[57]*</td><td>Start with 5 or 7 with any number of characters after: 54HCT244, 5968BAE4,74ACT44.</td></tr><tr><td>[5-7]*</td><td>Start with 5, 6, or 7 followed by any number of characters: 54LS08, 6225BE,69TF77,74ALS02.</td></tr><tr><td>[57]4HCT??</td><td>Start with 5 or 7, followed by 4HCT, and end with any two characters: 54HCT04,54HCT74,74HCT27,74HCT84.</td></tr><tr><td>74A[CH]*</td><td>Start with 74A, followed by C or H, and end with any number of characters: 74AC244,74AHCT27.</td></tr><tr><td>74A[!C-H]*</td><td>Start with 74A, followed by any character except the letters C through H, and end with any number of characters: 74ABT44, 74ALS244, 74ABF365.</td></tr><tr><td>[M]*08</td><td>Start with the character\, followed by any number of characters, and end with08: \LS08,\HCT08,\ABT08.</td></tr></table>  
 
 # Library Search Order  
 

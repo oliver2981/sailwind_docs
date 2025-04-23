@@ -25,7 +25,7 @@ Add and edit parts from libraries Create hierarchical symbols
 Add connections   
 • Swap pins and reference designators Define bus structures Create and edit non-electrical information; text, charts, notes, etc  
 
-# Related Topics  
+**Related Topics**  
 
 Part Editor Operations  
 
@@ -123,7 +123,7 @@ A duplicate of the item follows the cursor movement.
 
 SailWind Logic remains in duplicate mode until you select another mode or the Select button from the toolbar. You can also press the Esc key to exit the mode.  
 
-# Related Topics  
+**Related Topics**  
 
 Schematic Parts Non-Electrical Objects Step and Repeat  
 
@@ -168,7 +168,7 @@ SailWind Logic remains in move mode until you select another mode or the Select 
 
 You can select individual or multiple objects in your design. Selecting multiple objects enables you to apply a specific action to multiple objects simultaneously.  
 
-# Note:  
+!Note:  
 
 You can also search and select objects. For more information, see Searching for an Object by Typing Information.  
 
@@ -285,7 +285,7 @@ Use the Selection Filter dialog box to control which objects you can select. The
 
 3. Click Close.  
 
-# Related Topics  
+**Related Topics**  
 
 Filtering Object Selections Object Select Mode (Select Object First)  
 
@@ -348,7 +348,7 @@ You can search for objects in SailWind Logic using a number of different options
 Table 24. Search for Objects in SailWind Logic Using These Options   
 
 
-<html><body><table><tr><td>Option</td><td>Description</td></tr><tr><td>Modeless Commands and Keyboard Shortcuts on page 569</td><td>Use keystrokes to locate specific objects or types of objects.</td></tr><tr><td>Selection Toolbar</td><td>Controls which types of objects you can select, locates specific objects from a multiple selection, or moves between sheets in the schematic.</td></tr><tr><td>Using the Selection Filter</td><td>Controls types of objects you can select. Enables you to select the object you want even when several objects exist at the same location.</td></tr><tr><td>View Control</td><td>Changes the perspective and size of the work area.</td></tr></table></body></html>  
+<table><tr><td>Option</td><td>Description</td></tr><tr><td>Modeless Commands and Keyboard Shortcuts on page 569</td><td>Use keystrokes to locate specific objects or types of objects.</td></tr><tr><td>Selection Toolbar</td><td>Controls which types of objects you can select, locates specific objects from a multiple selection, or moves between sheets in the schematic.</td></tr><tr><td>Using the Selection Filter</td><td>Controls types of objects you can select. Enables you to select the object you want even when several objects exist at the same location.</td></tr><tr><td>View Control</td><td>Changes the perspective and size of the work area.</td></tr></table>  
 
 # Step and Repeat  
 

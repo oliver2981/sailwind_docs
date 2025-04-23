@@ -71,7 +71,7 @@ You can also click a system font style you want applied: B for Bold, I for Itali
 
 10. Click OK.  
 
-# Related Topics  
+**Related Topics**  
 
 Combining 2D Lines and Text  
 
