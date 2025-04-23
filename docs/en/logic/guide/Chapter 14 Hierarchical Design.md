@@ -4,7 +4,7 @@ SailWind Logic supports hierarchical design where you can create symbols to repr
 
 Hierarchical Design Overview Creating a Top-Down Hierarchy Creating a Bottom-Up Hierarchy Pushing Into the Hierarchy Popping Up the Hierarchy Modifying a Hierarchical Symbol Copying a Hierarchical Symbol Deleting a Hierarchical Symbol  
 
-# Hierarchical Design Overview  
+## Hierarchical Design Overview
 
 Using hierarchical design, you can create high-level symbols to represent complex sub-schematics, or repetitive elements in your design. You can create a hierarchy by using either the top down or the bottom up design strategy.  
 
@@ -18,13 +18,13 @@ You can navigate the hierarchy with the Push Hierarchy on page 269 and Pop Hier
 
 When a hierarchical symbol is copied, any existing underlying schematic content is also copied. SailWind Logic updates the reference designator names of the underlying symbols. There is a one-to-one correspondence between hierarchy symbols and a schematic sheet. The underlying logic for duplicated hierarchical symbols is stored as a unique sheet, and can be edited without affecting the logic of other hierarchical symbols. Even though you copy a hierarchical symbol, its underlying schematics can be completely different from the copied symbol’s underlying schematics.  
 
-# Creating a Top-Down Hierarchy  
+## Creating a Top-Down Hierarchy
 
 In top-down design, you create a hierarchical symbol before the underlying schematic exists. This enables you to create the container object and then populate it with the lower level design elements. Pin names tie together signals between hierarchical levels.  
 
 SailWind Logic ties together all instances of a common signal name, regardless of where they are found in the design, into a single connection net. You establish connectivity across the hierarchy by using the same signal name in the underlying logic.  
 
-# Prerequisites  
+**Prerequisites**
 
 Ensure that the off-page signals in the underlying schematic are consistent with the pin names in the hierarchical symbol.  
 
@@ -56,7 +56,7 @@ This closes the Part Editor, and the new symbol attaches to the cursor.
 
 Creating a Bottom-Up Hierarchy  
 
-# Creating a Bottom-Up Hierarchy  
+## Creating a Bottom-Up Hierarchy
 
 In bottom-up design, you create a hierarchical symbol from an existing sheet that represents the underlying logic. This enables you to create the lower level design and then wrap it in the hierarchical symbol.  
 
@@ -72,7 +72,7 @@ SailWind Logic adds an input or output pin in the symbol for each off-page refer
 
 The Preview area displays the symbol outline. The number of input/output pins on the symbol is automatically set from the number and type of off-sheet reference symbols on the underlying schematic sheet and the pin count boxes are unavailable for editing.  
 
-# 6. Click OK.  
+6. Click OK.
 
 The hierarchical symbol appears in the Part Editor on page 109 window. An input or output pin is located on the symbol to match each off-page reference on the underlying schematic sheet.  
 
@@ -88,7 +88,7 @@ This closes the Part Editor, and the new symbol attaches to the cursor.
 
 Creating a Top-Down Hierarchy  
 
-# Pushing Into the Hierarchy  
+## Pushing Into the Hierarchy
 
 Use the Push Hierarchy command to look inside or push down into a hierarchical symbol to view the underlying logic.  
 
@@ -101,7 +101,7 @@ Alternatively, you can select the hierarchical symbol, right-click and click Pus
 
 0 Tip If there is no underlying schematic representation of the selected symbol, a blank sheet appears.  
 
-# Popping Up the Hierarchy  
+## Popping Up the Hierarchy
 
 Use the Pop Hierarchy command to replace the current sheet with its corresponding hierarchical symbol.  
 
@@ -113,7 +113,7 @@ In a hierarchical sub-schematic, click the View $>$ Pop Hierarchy menu item.
 
 Tip In the Sheets list on the main toolbar, a sub-schematic is displayed with an indented icon.  
 
-# Modifying a Hierarchical Symbol  
+## Modifying a Hierarchical Symbol
 
 Once created, you can modify a hierarchical symbol to add or subtract design detail.  
 
@@ -133,7 +133,7 @@ If you add terminals to a hierarchical symbol, ensure that you give them pin nam
 
 Hierarchical Symbol Wizard Dialog Box Deleting a Hierarchical Symbol  
 
-# Copying a Hierarchical Symbol  
+## Copying a Hierarchical Symbol
 
 When you copy a hierarchical symbol, the sheets that the symbol references will also be copied and added as new sheets to the schematic. SailWind Logic assigns new reference designators to the part types in the copied sheets. If the referenced sheet also contains hierarchical symbols, then SailWind  
 
@@ -153,7 +153,7 @@ When you select a hierarchical symbol in copy mode, a warning prompt appears. If
 
 Hierarchical Symbol Wizard Dialog Box Modifying a Hierarchical Symbol Deleting a Hierarchical Symbol  
 
-# Deleting a Hierarchical Symbol  
+## Deleting a Hierarchical Symbol
 
 You can delete a hierarchical symbol, but use caution when performing the operation.  
 

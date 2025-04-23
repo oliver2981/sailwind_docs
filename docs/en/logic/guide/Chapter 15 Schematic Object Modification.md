@@ -1,4 +1,4 @@
-# Chapter 15 Schematic Object Modification  
+# Chapter 15 Schematic Object Modification
 
 Changes and edits to your design objects are fully-supported in SailWind Logic. This includes the modification of drafting objects, fields, parts, reference designators, part attributes, labels, pins, and buses. You can modify individual instances of objects, or you can choose to update the library objects so that any modifications are available to your future design sessions.  
 
@@ -27,7 +27,7 @@ Modifying Label Font Sizes
 Modifying Text   
 Modifying Hierarchical Components  
 
-# Modifying Drafting Objects  
+## Modifying Drafting Objects
 
 Use the Drafting Properties dialog box to modify the line width, style, and orientation of selected drafting objects.  
 
@@ -57,7 +57,7 @@ When rotating objects, observe the following:
 
 6. Select the Mirror by X or Mirror by Y check boxes to mirror the selected drafting object in the X (horizontal) or Y (vertical) direction.  
 
-# Modifying Fields  
+## Modifying Fields
 
 Use the Field Properties dialog box to modify a field name or change its text size, orientation, or justification.  
 
@@ -90,7 +90,7 @@ You can also click a system font style you want applied: B for Bold, I for Itali
 
 10. Click OK.  
 
-# Modifying Parts  
+## Modifying Parts
 
 Use the Part Properties dialog box to create and edit part attributes. You can also define signal pins and control the visibility of attributes assigned to the part.  
 
@@ -106,7 +106,7 @@ Changing Part Attributes
 Changing PCB Decals   
 Assigning Unused Pins as Signal Pins  
 
-# Changing the Reference Designator  
+### Changing the Reference Designator
 
 If you need to reassign gates in your design, you can change the reference designator of a selected gate  
 
@@ -116,7 +116,7 @@ If you need to reassign gates in your design, you can change the reference desig
 2. In the Reference Designator area, click Rename Gate to change the reference designator of the selected gate, type the new gate reference designator information and click OK.   
 3. Click Rename Part to change the reference designator of the selected part, type the new part reference designator information and click OK.  
 
-# Changing the Part Type  
+### Changing the Part Type
 
 Use the Change Part Type dialog box to change the selected part(s) to a new part type. The new part type can be one that already exists in the schematic or in the parts library.  
 
@@ -154,7 +154,7 @@ When updating parts, observe the following:
 Select the same part name, then click All Parts This Type in the “Apply Update to” Area.   
 • If you change a part type to one with fewer pins, the connections going to the missing pins are not deleted. They are attached to automatically generated off-page symbols. You are notified of all disconnected pins.  
 
-# Changing Part Information  
+### Changing Part Information
 
 As your design needs evolve, you can change part properties as required.  
 
@@ -164,7 +164,7 @@ As your design needs evolve, you can change part properties as required.
 2. Click Statistics to display gate and connection information for the selected part. This information is displayed in the default text editor so you can save the contents to a file.   
 3. Select a gate decal name from the Gate Decal list to change the gate decal of the selected gate or part to one of the predefined alternate decals.  
 
-# Changing the Visibility of Text  
+### Changing the Visibility of Text
 
 You may decide to retain but turn off the visibility of certain text objects in your design. An example would be to turn off the display of the tolerance values for a family of components such as resistors where they all are assigned a default value.  
 
@@ -173,7 +173,7 @@ You may decide to retain but turn off the visibility of certain text objects in 
 1. Select a part, right-click and click Properties.   
 2. Click Visibility to change the visibility of associated text. See also Controlling Text Visibility for a Part.  
 
-# Changing Part Attributes  
+### Changing Part Attributes
 
 As your design progresses, you may find it necessary to change or modify attributes. You can change the attributes by modifying the part properties.  
 
@@ -182,7 +182,7 @@ As your design progresses, you may find it necessary to change or modify attribu
 1. Select a part, right-click and click Properties.   
 2. Click Attributes to assign or modify part attributes. See also Modifying Part Attributes.  
 
-# Changing PCB Decals  
+### Changing PCB Decals
 
 Use the PCB Decal Assignment dialog box to assign alternate PCB decals to schematic parts. Decal names are included in the netlist file to display the proper decal, or footprint, when the file is imported into the PCB design file. You can select a decal assigned as an alternate during part creation, override the decal with one from the library, or enter a name for an undefined decal you plan to create later in the PCB design.  
 
@@ -216,7 +216,7 @@ i Tip The preview window displays the currently selected decal.
 
 9. Click OK.  
 
-# Assigning Unused Pins as Signal Pins  
+### Assigning Unused Pins as Signal Pins
 
 Use the Part Signal Pins dialog box to assign any unused pins as additional signal pins. When the part type is created and stored in the library, the standard power and ground pins for part types are defined.  
 
@@ -249,7 +249,7 @@ See also “Part Information - Pins” on page 147.
 
 9. Click OK.  
 
-# Reference Designator Renumbering  
+## Reference Designator Renumbering
 
 Manually renumber single or automatically renumber reference designators in the schematic. SailWind Layout can renumber the reference designators automatically in a pattern, to optimize finding your parts on a manufactured printed circuit board. Once the parts are renumbered in SailWind Layout, you can synchronize the designs again by back annotating an .eco file of the changed designators.  
 
@@ -259,7 +259,7 @@ To automatically renumber reference designators in SailWind Logic, see “Automa
 
 To automatically renumber the reference designators in SailWind Layout, see Changing the Reference Designators of Multiple Components in ECO Mode (Autorenumbering) in the SailWind Layout Guide.  
 
-# Automatically Renumbering Reference Designators  
+## Automatically Renumbering Reference Designators
 
 Renumber reference designators on a sheet by sheet basis with control over the starting value, increment, and pattern.  
 
@@ -283,14 +283,14 @@ An ECO file is automatically generated. If the Output window is open, a link to 
 
 8. If the board layout has already been started in SailWind Layout, you must import the ECO file to update the reference designators in SailWind Layout. This exact file must be used. Do not overwrite this file with a new one or generate an ECO file using the Compare/ECO Tools until SailWind Layout has been updated with the renumbering. In SailWind Layout, click the File $>$ Import menu item. Browse for the .eco file and import the changes.  
 
-# Examples  
+**Examples**
 
 The following graphic displays the result of a smaller cell size on the parts in the schematic. Cell borders have been drawn to illustrate how it works. The parts within the cells are renumbered in the Precedence pattern and then the cells also are processed in the same pattern.  
 
 ![](/images/1e9466fcf0b9cdcbeb56363131e9ac0f098246e722771cf02eedda687f1aea6b.jpg)  
 Figure 5. Cell Size Illustration  
 
-# Setting Reference Designators by Sheet in a New Schematic  
+## Setting Reference Designators by Sheet in a New Schematic
 
 Set reference designator start values by sheet. If you will have multiple channels, each occupying one schematic sheet, and you want the reference designators to have predetermined ranges you can set a start value for designated sheets.  
 
@@ -301,11 +301,11 @@ Set reference designator start values by sheet. If you will have multiple channe
 3. Name the schematic sheets.   
 4. In the RefDes Start Value column, for each channel sheet, type the starting value for referenc designators of components added or copied and pasted to the schematic sheet.  
 
-# Setting Reference Designators by Sheet in Completed Schematics  
+## Setting Reference Designators by Sheet in Completed Schematics
 
 Renumber reference designators in schematics that already have assigned reference designators.. If you will have multiple channels, each occupying one schematic sheet, and you want the reference designators to have predetermined ranges you can renumber them.  
 
-# Prerequisites  
+**Prerequisites**
 
 • Determine which schematic sheets need to be renumbered and which reference designators should be renumbered on those sheets.  
 
@@ -321,14 +321,14 @@ Renumber reference designators in schematics that already have assigned referenc
 7. Set the Precedence pattern.   
 8. Click OK.  
 
-# Examples  
+**Examples**
 
 The following graphic displays the result of a smaller cell size on the parts in the schematic. Cell borders have been drawn to illustrate how it works. The parts within the cells are renumbered in the Precedence pattern and then the cells also are processed in the same pattern.  
 
 ![](/images/734f466438bc7fe002f3bac984a44c03eb80f6abeec2b2bc22ac65b10af49b03.jpg)  
 Figure 6. Cell Size Illustration  
 
-# Modifying Part Attributes  
+## Modifying Part Attributes
 
 Use the Part Attributes dialog box to assign or modify part attributes, which is information about the part such as manufacturer and cost.  
 
@@ -357,7 +357,7 @@ Adding or changing attributes in a part at the schematic level does not update t
 
 Part Editor Operations Attributes Overview  
 
-# Modifying Part Attribute Labels  
+## Modifying Part Attribute Labels
 
 Use the Attribute Properties dialog box to provide text and font settings for one or more part attribute labels.  
 
@@ -391,7 +391,7 @@ You can also click a system font style you want applied: B for bold, I for Itali
 8. To set the Justification, click the Horizontal and Vertical options you want.   
 9. Click OK.  
 
-# Modifying Part Type Labels  
+## Modifying Part Type Labels
 
 Use the Part Type Label Properties dialog box to provide text and font settings for one or more part type labels.  
 
@@ -414,7 +414,7 @@ Use the Part Type Label Properties dialog box to provide text and font settings 
 
 9. Click OK.  
 
-# Searching the Library for a Decal  
+## Searching the Library for a Decal
 
 Use the Get Decal from Library dialog box to search a library for a decal. You can use the filters to quickly narrow down your search parameters to find the exact part that you require.  
 
@@ -448,7 +448,7 @@ Decals are displayed as follows:
 
 You return to the PCB Decal Assignment dialog box.  
 
-# Rename Part  
+## Rename Part
 
 Use Rename Part to change the reference designator for the selected part or gate. All gates are renamed if you change the reference designator of one gate of a multi-gated part. You are prevented from assigning an already used reference designator.  
 
@@ -460,7 +460,7 @@ Use Rename Part to change the reference designator for the selected part or gate
 3. Type the new part reference designator information.   
 4. ClickOK.  
 
-# Rename Gate  
+## Rename Gate
 
 Use Rename Gate to change the reference designator of the selected gate. You are prevented from assigning an already used reference designator or an unused gate of a part with a different part type.  
 
@@ -472,7 +472,7 @@ Use Rename Gate to change the reference designator of the selected gate. You are
 3. Type the new gate reference designator information.   
 4. ClickOK.  
 
-# Modifying Reference Designator Labels  
+## Modifying Reference Designator Labels
 
 Use the Reference Designator Properties dialog box to view and modify label size and justification as wel as text and font settings for one or more reference designator labels.  
 
@@ -502,7 +502,7 @@ Type a stroke font size between 10 and 1000 mils or a system font size between 1
 
 9. Click OK.  
 
-# Modifying Pins  
+## Modifying Pins
 
 Use the Pin Properties dialog box to view pin information, to modify parts and nets to which the selected pin is connected, and also to set font settings for pin number and pin name labels.  
 
@@ -522,7 +522,7 @@ See also Modifying Nets.
 
 5. Click OK.  
 
-# Modifying Pin Label Fonts  
+## Modifying Pin Label Fonts
 
 To improve the legibility of your schematic, you can use the Pin Label Fonts dialog box to change the fonts of a pin label.  
 
@@ -540,7 +540,7 @@ Type a stroke font size between 10 and 1000 mils or a system font size between 1
 
 5. Click OK.  
 
-# Modifying Nets  
+## Modifying Nets
 
 To rename a net or edit its attributes and values, you can use the Net Properties dialog box to access net specific properties.  
 
@@ -592,7 +592,7 @@ The new net name is placed over the connection segment.
 
 0 Tip Use Using Move Mode to adjust the placement of the net name text.  
 
-# Modifying Net Name Labels  
+## Modifying Net Name Labels
 
 Use the Net Name Properties dialog box to provide or change text and font settings for one or more net name labels.  
 
@@ -641,13 +641,13 @@ You can also click a system font style you want applied: B for Bold, I for Itali
 
 10. Click OK.  
 
-# Modify Buses  
+## Modify Buses
 
 Use the Bus Properties dialog box to change the name of a bus or change the bus type.  
 
 Changing the Name of a Bus Changing the Bus Type Managing Bus Nets  
 
-# Changing the Name of a Bus  
+### Changing the Name of a Bus
 
 As your design evolves, you may need to add or delete nets to or from a bus. Once you have made these modifications, you can change the name of a bus to reflect those changes.  
 
@@ -664,7 +664,7 @@ If you change the bit range for a bit format bus, the new bit range nn:mm must b
 
 4. Select the Bus Name Label check box to add a visible label to the selected bus.  
 
-# Changing the Bus Type  
+### Changing the Bus Type
 
 As your design evolves, you may find it necessary to change the type of a bus from a bit format bus to a mixed net bus or the other way around. You can use Properties to change the bus type.  
 
@@ -683,7 +683,7 @@ If you change the bus type from bit format to mixed net bus, the bus name change
 
 You can change a mixed net bus to a bit format bus only if all of the connected nets conform to the bit sequenced names, which you define in the Bus Name text box. Before you can change a mixed net bus to a bit format bus, you must delete the bus nets from the Bus Nets list box.  
 
-# Managing Bus Nets  
+### Managing Bus Nets
 
 You may find it necessary to expand the range of a bus to include additional sequential nets. Use Properties to add sequential nets to a bus.  
 
@@ -726,7 +726,7 @@ To add an individual net to the bus, type the net name in the Prefix/Name column
 
 Managing Buses Modifying Bus Name Labels  
 
-# Modifying Bus Name Labels  
+## Modifying Bus Name Labels
 
 Use the Bus Name Properties dialog box to provide or change text and font settings for one or more bus name labels.  
 
@@ -759,7 +759,7 @@ Type a stroke font size between 10 and 1000 mils or a system font size between 1
 
 Font properties you specify in the Net Name Label Properties dialog box are also applied to the off-page reference label.  
 
-# Modifying Off-Page Labels  
+## Modifying Off-Page Labels
 
 Use the Off Page Properties dialog box to set the maximum sheet numbers per line and the rotation settings for off page labels.  
 
@@ -770,7 +770,7 @@ Use the Off Page Properties dialog box to set the maximum sheet numbers per line
 3. In the Rotation box, select the degree of rotation from the Rotation list. Rotation can be 0 or 90 degrees.   
 4. Click OK.  
 
-# Modifying Label Font Sizes  
+## Modifying Label Font Sizes
 
 New labels are created using a system default font size. You can’t change this default, but you can modify the font sizes of labels after they are created.  
 
@@ -788,14 +788,14 @@ All the labels selected must be of the same type; for example, all net name labe
 
 Type a stroke font size between 10 and 1000 mils or a system font size between 1 and 72 points.  
 
-# 3. Click OK.  
+3. Click OK.
 
 Table 32. Related Topics   
 
 
 <table><tr><td>Attribute Properties Dialog Box</td><td>Part Type Label Properties Dialog Box</td></tr><tr><td>Bus Name Properties Dialog Box</td><td>Pin Label Fonts Dialog Box</td></tr><tr><td>Net Name Properties Dialog Box</td><td>Reference Designator Properties Dialog Box</td></tr></table>  
 
-# Modifying Text  
+## Modifying Text
 
 Use the Text Properties dialog box to modify free text or change its size, orientation or justification.  
 
@@ -828,7 +828,7 @@ You can also click a font style: B for bold, I for Italic, or U for Underlined.
 
 Modifying Drafting Objects Combining 2D Lines and Text  
 
-# Modifying Hierarchical Components  
+## Modifying Hierarchical Components
 
 When created and added to an existing sheet, hierarchical components cannot be accessed through the Sheet list in the toolbar unless the parent sheet is displayed. They are also excluded from the Sheet command in the Setup menu. Use the Hierarchical Component Properties dialog box to assign a hierarchical component to the next available sheet number to make it accessible from the Sheet list when a sheet other than the parent sheet is displayed.  
 
