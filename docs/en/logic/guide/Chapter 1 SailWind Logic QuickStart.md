@@ -1,4 +1,4 @@
-# Chapter 1 SailWind Logic QuickStart  
+# Chapter 1 SailWind Logic QuickStart
 
 SailWind Logic is a robust, multi-sheet, schematic capture solution that builds an effective front-end environment for SailWind Layout.  
 
