@@ -99,7 +99,7 @@ Buses are used to consolidate a group of nets into one connection. This eliminat
 
 2. Click to start the bus, click to add the corner, and double-click to finish the shape.  
 
-# 0 Tip  
+!Tip  
 
 To remove the corner you just placed, press the Backspace key. To cancel the bus placement, press the Esc key.  
 
@@ -127,7 +127,7 @@ Add connections to parts, connectors, and buses to define the connectivity of yo
 
 2. At the endpoint of a component pin, click to start a connection and draw the connection. The connections are orthogonal by default, and you must click to create corners.  
 
-# 0 Tip  
+!Tip  
 
 To remove the corner you just placed, press Backspace. To cancel the connection, press Esc.  
 

@@ -252,7 +252,7 @@ You can create a netlist (.asc file) and send it to the layout designer who can 
 
 2. To select a different filename or location for the netlist, in the Netlist to PCB dialog box, click Browse.  
 
-# 0 Tip  
+!Tip  
 
 The default is the design filename with an .asc extension, and is saved in the \SailWind Projects folder.  
 
@@ -294,7 +294,7 @@ You must have the .asc file exported from SailWind Layout, and have the schemati
 2. In the Compare/ECO dialog box, click the Documents Tab on page 505.   
 3. In the Original Design to Compare and Update area, browse for the previous netlist .asc file sent to SailWind Layout. (Optional) You can acquire a new Layout .asc file from SailWind Layout to generate the .eco file of design differences.  
 
-# 0 Tip  
+!Tip  
 
 As long as the PCB design hasn’t undergone engineering changes, the last .asc file from SailWind Logic can be compared to the current design in SailWind Logic to generate the .eco file of the engineering changes in the design. If the last exported .asc file is lost, you can export an .asc file from SailWind Layout to compare to the current schematic to generate the .eco file that gets imported into SailWind Layout to update the PCB layout. The same effect is created by Generating the ECO File in SailWind Layout and the process is semi-automated by automatically importing the .eco file.  
 

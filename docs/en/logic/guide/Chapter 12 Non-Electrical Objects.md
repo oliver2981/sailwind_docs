@@ -57,7 +57,7 @@ For example, typing \READ\WRITE places a bar over READ.
 
 6. In the Size box, type the size (in mils for stroke font, in points for system fonts).  
 
-# 0 Tip  
+!Tip  
 
 Type a stroke font size between 10 and 1000 mils or a system font size between 1 and 72 points.  
 
@@ -239,7 +239,7 @@ Use one of the following:
 
 • Using object mode: a. Select a 2D line item from the group. b. Right-click and click Explode. The combination is no longer combined, and objects are separated.  
 
-# 0 Tip  
+!Tip  
 
 In object mode, you can only explode a combination if it contains text items. Use the verb mode method (below) to explode a combination that does not have text items.  
 

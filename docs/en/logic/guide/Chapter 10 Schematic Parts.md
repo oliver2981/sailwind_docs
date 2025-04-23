@@ -199,7 +199,7 @@ You can save all of the part types in the schematic to a library. This enables y
 
 5. Click OK.  
 
-# 0 Tip  
+!Tip  
 
 When saving part types, observe the following:  
 
@@ -364,7 +364,7 @@ As a corollary, if, for instance, you update CAE decal X to use PINB instead of 
 
 4. Select the parts/gates whose CAE decals you want to compare/update.  
 
-# 0 Tip  
+!Tip  
 
 If you want to update all but a few CAE decals, select all the parts/gates, then in Step 6 clear the check boxes of the decals you do not want to update.  
 
@@ -831,7 +831,7 @@ When deleting a group, you can choose to delete or retain the connections that a
 
 2. To preserve connections that extend outside the group boundary, right-click and click the Preserve by Boundary popup menu item.  
 
-# 0 Tip  
+!Tip  
 
 When preserving connections, note the following:  
 
@@ -881,7 +881,7 @@ To control renaming of reference designators, use the “Preserve Reference Desi
 
 4. Move the pointer to the location for the group, and click to place it.  
 
-# 0 Tip  
+!Tip  
 
 If the design contains parts with the same reference designation as those in the group, a report generates.  
 

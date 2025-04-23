@@ -49,7 +49,7 @@ There are two types of fields: system and user. You cannot modify system fields;
 3. In the Value box, type the value you want displayed. Note that the Value box is unavailable for system fields since the value is derived from your system.   
 4. To place the field at a precise X,Y coordinate location, type the value in the X and Y boxes.  
 
-# 0 Tip  
+!Tip  
 
 If this is blank when you click OK, the field attaches to the pointer until you click to indicate the location.  
 
@@ -87,7 +87,7 @@ You can use the Make Field command to change an existing text string into a fiel
 
 3. To place the field at a precise X,Y coordinate location, type the value in the X and Y boxes.  
 
-# 0 Tip  
+!Tip  
 
 If this is blank when you click OK, the field attaches to the pointer until you click to indicate the location.  
 

@@ -130,7 +130,7 @@ As part of setting up your SPICE netlister, you can set options specifically for
 6. In the Stop box, type the stopping voltage for the sweep.   
 7. In the Step box, type the incrementing values for the sweep.  
 
-# 0 Tip  
+!Tip  
 
 Your simulation setup values are saved for future SPICE netlisting.  
 
@@ -410,7 +410,7 @@ When running a long script, you may need to pause it to perform some other desig
 
 2. As an alternative, on the Basic Script Editor toolbar, click the Pause button.  
 
-# 0 Tip  
+!Tip  
 
 If you paused the script, you can also use Run, Step Over, or Step to Cursor to resume running the script. Right-click and select Run to resume running the script.  
 
@@ -516,7 +516,7 @@ Restriction: You cannot run multiple scripts at the same time.
 
 7. To add a new script to the list, click Load File.  
 
-# 0 Tip  
+!Tip  
 
 When loading scripts, note the following:  
 

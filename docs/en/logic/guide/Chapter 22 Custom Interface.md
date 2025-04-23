@@ -363,7 +363,7 @@ There are some exceptions: Some combinations, like Alt+Tab, are intercepted by W
 2. In the Mode box, select the mode to which you want to apply the shortcut. The available commands for that mode appear in the Commands box.   
 3. In the Commands box, select the command for which you want to create a new shortcut. If a shortcut already exists, it appears in the Current shortcuts box.  
 
-# 0 Tip  
+!Tip  
 
 To replace an existing shortcut, click Delete to remove the existing shortcut, and create a new shortcut for the command.  
 
@@ -373,7 +373,7 @@ To replace an existing shortcut, click Delete to remove the existing shortcut, a
 
 • To assign shortcut keys, select “Press new shortcut key(s)”, and then press the keys that you want to use.  
 
-# 0 Tip  
+!Tip  
 
 As you enter the new shortcut, similar shortcuts appear in the Similar shortcuts assigned to other commands box. This helps you to avoid creating a new shortcut that conflicts with an existing shortcut.  
 
@@ -452,7 +452,7 @@ To assign a macro to a shortcut key, the macro command file (.mcr) must already 
 
 The SailWind tool loads the macro and makes it available for use as a command (the check box to the left of the macro name is selected).  
 
-# 0 Tip  
+!Tip
 
 To close the macro file or make it unavailable in the Customize dialog box, clear the check box next to the macro name.  
 
@@ -503,7 +503,7 @@ To create a command from a macro command file or add it to a menu, the macro com
 
 The SailWind tool loads the macro and makes it available for use as a command (the check box to the left of the macro name is selected).  
 
-# 0 Tip  
+!Tip  
 
 To close the macro file, or make it unavailable in the Customize dialog box, clear the check box next to the macro name.  
 
@@ -593,7 +593,7 @@ The new bar contains a tab that has the same name as the window.
 
 4. Move the pointer away from the window. The window minimizes to a tab.  
 
-# 0 Tip  
+!Tip  
 
 To turn off the Auto Hide feature, hover over the tab in the new bar so the window reappears. Then repeat steps 1-2 in reverse.  
 
@@ -713,7 +713,7 @@ When you start dragging a window, additional graphics appear in the user interfa
 ![](/images/fc06ad6e5469a578f842e784ec8d36dd260e9f049369e6b1c16f61d517877358.jpg)  
 Figure 11. Dragging and Docking a Window—Arrow Commands  
 
-# 0 Tip  
+!Tip  
 
 A similar group of arrows appears at the sides of the user interface. Ignore those arrows for this procedure.  
 

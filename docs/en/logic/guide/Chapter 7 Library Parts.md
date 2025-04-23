@@ -729,7 +729,7 @@ You can view and modify pin information for a CAE decal in the Part Editor. You 
 3. Click the Decal Editing Toolbar button to display the Decal Editing Toolbar, then click the Set Pin Number button.   
 4. In the “Set pin number” dialog box, in the “Start pin number” area, type values in the Prefix and/or Suffix boxes. A preview of pin numbers based on your input is displayed below the boxes.  
 
-# 0 Tip  
+!Tip  
 
 When specifying the pin numbers, note the following:  
 
@@ -850,7 +850,7 @@ Beginning with PADS 9.0, die parts and flip chips are identified by the Special 
 
 When you select a logic family, the default reference designator prefix for this part appears next to Ref. Prefix.  
 
-# 0 Tip  
+!Tip  
 
 The default is UND, or undefined. If you leave the logic family undefined, the software prompts you for the reference designator prefix when you add a part. You can specify an alpha prefix or an alphanumeric prefix.  
 
@@ -1115,7 +1115,7 @@ You can assign gates to a part.
 
 The Browse button opens the Assign Decal to Gate dialog box.  
 
-# 0 Tip  
+!Tip  
 
 You can define up to 4 alternates; you do not have to define alternates.  
 
@@ -1165,7 +1165,7 @@ When assigning decals, observe the following:
 
 9. To assign a decal name of a nonexistent decal in the library, click Assign New. The Assign New Gate Decal dialog box appears.  
 
-# 0 Tip  
+!Tip  
 
 You can specify a decal that does not exist in your library, but may exist in another designer’s library, or that you may create later.  
 
@@ -1319,7 +1319,7 @@ The type column is only used with gate pins.
 
 6. Click the Swap cell and type a swap number, or use the up/down arrows.  
 
-# 0 Tip  
+!Tip  
 
 You swap pins within gates to uncross connections and facilitate routing. Pins with like numbers can swap within a gate. Type 0 to disable swapping.  
 
@@ -1359,7 +1359,7 @@ You can renumber pins in a pins table on the Pins tab of the Part Information di
 3. Click the Renumber button. In the Renumber Pins dialog box, the Number of pins box displays the number of pins selected for renumbering.   
 4. In the Start pin number area, type values in the Prefix and/or Suffix boxes. A preview of pin numbers based on your input is displayed below the boxes.  
 
-# 0 Tip  
+!Tip  
 
 When entering pin numbers, observe the following:  
 
@@ -1598,7 +1598,7 @@ Use the Connector tab to define the alternate Logic decals to display in a schem
 
 The Connector tab is available only when you open an existing connector or create a new connector.  
 
-# 0 Tip  
+!Tip  
 
 Many users like to use a different symbol, or decal, to distinguish between input (Source) and output (Load) pins. You may define multiple symbols for each of the ten different pin types.  
 
