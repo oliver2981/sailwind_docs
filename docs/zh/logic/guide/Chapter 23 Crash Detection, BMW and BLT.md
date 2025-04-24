@@ -36,7 +36,12 @@ BMW（基本媒体向导）和 BLT（基本日志测试）是用于录制和播�
 
 下表指定了您必须使用下面描述的哪些过程来创建会话播放媒体。
 
-<table><thead><tr><th><br>是否启用了日志记录？</th><th><br>SailWind 工具崩溃了吗？</th><th><br>然后使用此过程。</th></tr></thead><tbody><tr><td><br>是的</td><td><br>不</td><td><br>为普通会话创建会话播放媒体</td></tr><tr><td><br>不</td><td><br>不</td><td><br>为普通会话创建会话播放媒体</td></tr><tr><td><br>是的</td><td><br>是的</td><td><br>为崩溃的会话自动创建会话播放媒体</td></tr><tr><td><br>不</td><td><br>是的</td><td><br>为崩溃的会话手动创建会话播放媒体</td></tr></tbody></table>
+| 是否启用了日志记录？ | SailWind 工具崩溃了吗？ | 然后使用此过程。 |
+| --- | --- | --- |
+| 是的 | 不 | 为普通会话创建会话播放媒体 |
+| 不 | 不 | 为普通会话创建会话播放媒体 |
+| 是的 | 是的 | 为崩溃的会话自动创建会话播放媒体 |
+| 不 | 是的 | 为崩溃的会话手动创建会话播放媒体 |
 
 ### 为普通会话创建会话播放媒体
 
@@ -109,7 +114,11 @@ BMW（基本媒体向导）和 BLT（基本日志测试）是用于录制和播�
 
 BMW 对这些文件的命名如下：
 
-<table><thead><tr><th><br>当前会话日志文件</th><th><br>先前会话日志文件</th></tr></thead><tbody><tr><td>_Next.log</td><td>_NextBak.log</td></tr><tr><td>_Next.reg</td><td>_NextBak.reg</td></tr><tr><td>_Next.ini</td><td>_NextBak.ini</td></tr></tbody></table>
+| 当前会话日志文件 | 先前会话日志文件 |
+| --- | --- |
+| _Next.log | _NextBak.log |
+| _Next.reg | _NextBak.reg |
+| _Next.ini | _NextBak.ini |
 
 这些文件是动态的；每次启动会话时，当前会话日志文件都会重命名为之前的会话日志文件，并创建新的当前会话日志文件。旧的之前会话日志文件的内容将丢失。
 

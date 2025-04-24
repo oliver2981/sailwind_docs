@@ -42,11 +42,22 @@ SailWind 更新
 
 表 1. SailWind Logic 命令行选项
 
-<table><thead><tr><th><br>选项</th><th><br>描述</th></tr></thead><tbody><tr><td><br>文件名</td><td><br>启动 SailWind Logic 时打开指定的设计文件。输入文件夹路径和文件名。对于包含空格的目录或文件名，请使用引号。</td></tr><tr><td><br>例如：“C:\SailWind Projects\Sampleslpreviewpart.sch” 限制：</td><td></td></tr><tr><td><br>请勿在命令行中的文件名前使用正斜杠 (/ )。</td><td></td></tr></tbody></table>
+| 选项 | 描述 |
+| --- | --- |
+| 文件名 | 启动 SailWind Logic 时打开指定的设计文件。输入文件夹路径和文件名。对于包含空格的目录或文件名，请使用引号。 |
+| 例如：“C:\SailWind Projects\Sampleslpreviewpart.sch” 限制： |  |
+| 请勿在命令行中的文件名前使用正斜杠 (/ )。 |  |
 
 表 1. SailWind Logic 命令行选项（续）
 
-<table><thead><tr><th><br>选项</th><th><br>描述</th></tr></thead><tbody><tr><td><br>/BMW[首字母]</td><td><br>打开媒体向导。使用媒体向导开始记录会话日志，或将之前的会话日志转换为可由基本日志测试重放的媒体。要为当前 SailWind Logic 会话创建会话媒体文件，请使用 BMW 非模式命令。要使用 BMW 命令行开关，请在命令行中输入 /BMW 或 /BMWxx，其中 xx 是您的姓名首字母。大写。[] 表示可选文本。此选项与另一个非模式命令 BLT 相关联。BLT 是日志测试；它查找并运行 BMW 创建的会话媒体，以播放记录的 SailWind Logic 会话。有关信息，请参阅非模式命令和键盘</td></tr><tr><td>/</td><td><br>第 569 页的快捷方式。</td></tr><tr><td><br>/m 宏名称</td><td><br>打开启动 SailWind Logic 时打开的最后一个文件。运行默认宏文件中指定的宏。例如，要运行宏</td></tr><tr><td><br>/M 宏文件</td><td><br>MyMacro，请键入 /mMyMacro。指定要用作默认宏文件的文件。例如，要运行文件 user1.mcr 中包含的宏 MyMacro，请键入 /Muser1.mcr /mMyMacro。注意</td></tr><tr><td>/nc</td><td><br>需要大写。启动 SailWind Logic 时不显示包含版权信息的启动画面。</td></tr><tr><td>/sXXX</td><td><br>启动 SailWind Logic 时启动 Basic 脚本。文件名带空格时请使用引号，例如：/s"C:\SailWind\Samples\Scripts\Logic\Unsuppo rted\AttributestoExcel.bas"</td></tr></tbody></table>
+| 选项 | 描述 |
+| --- | --- |
+| /BMW[首字母] | 打开媒体向导。使用媒体向导开始记录会话日志，或将之前的会话日志转换为可由基本日志测试重放的媒体。要为当前 SailWind Logic 会话创建会话媒体文件，请使用 BMW 非模式命令。要使用 BMW 命令行开关，请在命令行中输入 /BMW 或 /BMWxx，其中 xx 是您的姓名首字母。大写。[] 表示可选文本。此选项与另一个非模式命令 BLT 相关联。BLT 是日志测试；它查找并运行 BMW 创建的会话媒体，以播放记录的 SailWind Logic 会话。有关信息，请参阅非模式命令和键盘 |
+| / | 第 569 页的快捷方式。 |
+| /m 宏名称 | 打开启动 SailWind Logic 时打开的最后一个文件。运行默认宏文件中指定的宏。例如，要运行宏 |
+| /M 宏文件 | MyMacro，请键入 /mMyMacro。指定要用作默认宏文件的文件。例如，要运行文件 user1.mcr 中包含的宏 MyMacro，请键入 /Muser1.mcr /mMyMacro。注意 |
+| /nc | 需要大写。启动 SailWind Logic 时不显示包含版权信息的启动画面。 |
+| /sXXX | 启动 SailWind Logic 时启动 Basic 脚本。文件名带空格时请使用引号，例如：/s"C:\SailWind\Samples\Scripts\Logic\Unsuppo rted\AttributestoExcel.bas" |
 
 ## 向快捷方式添加启动选项
 
@@ -146,5 +157,13 @@ SailWind Logic 遵循 Microsoft® Windows® 的双键鼠标操作惯例。SailWi
 
 表 2. 数字键盘功能
 
-<table><thead><tr><th><br>点击</th><th><br>到</th></tr></thead><tbody><tr><td><br>家</td><td><br>使板适合视图。</td></tr><tr><td><br>结尾</td><td><br>重绘当前视图。</td></tr><tr><td><br>箭</td><td><br>开启 Num Lock 键时，平移查看窗口。沿箭头方向移动屏幕宽度的一半。关闭 Num Lock 键时，光标以网格为单位移动。</td></tr><tr><td>5</td><td><br>打开数字锁定后，绘制缩放矩形。</td></tr><tr><td><br>向上翻页</td><td><br>以光标位置为中心进行放大。</td></tr><tr><td><br>底线</td><td><br>以光标位置为中心缩小。</td></tr><tr><td><br>进入</td><td><br>将视图置于当前光标位置的中心，不进行缩放。</td></tr></tbody></table>
+| 点击 | 到 |
+| --- | --- |
+| 家 | 使板适合视图。 |
+| 结尾 | 重绘当前视图。 |
+| 箭 | 开启 Num Lock 键时，平移查看窗口。沿箭头方向移动屏幕宽度的一半。关闭 Num Lock 键时，光标以网格为单位移动。 |
+| 5 | 打开数字锁定后，绘制缩放矩形。 |
+| 向上翻页 | 以光标位置为中心进行放大。 |
+| 底线 | 以光标位置为中心缩小。 |
+| 进入 | 将视图置于当前光标位置的中心，不进行缩放。 |
 

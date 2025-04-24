@@ -79,15 +79,31 @@ SailWind Logic 使您能够导入不同类型的文件，包括各种格式的�
 
 表 7. 导入当前原理图的文件类型
 
-<table><thead><tr><th><br>文件类型</th><th><br>描述</th></tr></thead><tbody><tr><td><br>ASCll 文件格式 (*.txt)</td><td><br>PADS 格式的 ASCll 文件。您可以导入的 ASCll 文件包括 PowerLogic 和 SailWind Logic 创建的 ASCll 文件。注意：从 PADS 9.0 开始，裸片和倒装芯片将通过</td></tr><tr><td><br>部件类型中的特殊用途设置，而不是由 DiE 和 FLP 逻辑系列指定。导入由旧版 PADS 创建的 ASCll 文件时，这些特殊用途设置将自动为逻辑系列为 DIE 或 FLP 的部件设置。部件的系列名称保持不变。</td><td></td></tr><tr><td><br>第 65 页上的 OLE 导入/导出 (*.ole)</td><td><br>SailWind Logic 允许您使用“编辑/插入新对象”将其他应用程序中的文件作为 OLE 对象嵌入到原理图中。一旦您的设计中包含了 OLE 对象，您就可以使用“文件导出”将该对象作为单个项目导出到 .ole 文件（参见</td></tr></tbody></table>
+| 文件类型 | 描述 |
+| --- | --- |
+| ASCll 文件格式 (*.txt) | PADS 格式的 ASCll 文件。您可以导入的 ASCll 文件包括 PowerLogic 和 SailWind Logic 创建的 ASCll 文件。注意：从 PADS 9.0 开始，裸片和倒装芯片将通过 |
+| 部件类型中的特殊用途设置，而不是由 DiE 和 FLP 逻辑系列指定。导入由旧版 PADS 创建的 ASCll 文件时，这些特殊用途设置将自动为逻辑系列为 DIE 或 FLP 的部件设置。部件的系列名称保持不变。 |  |
+| 第 65 页上的 OLE 导入/导出 (*.ole) | SailWind Logic 允许您使用“编辑/插入新对象”将其他应用程序中的文件作为 OLE 对象嵌入到原理图中。一旦您的设计中包含了 OLE 对象，您就可以使用“文件导出”将该对象作为单个项目导出到 .ole 文件（参见 |
 
 表 7. 导入当前原理图的文件类型（续）
 
-<table><thead><tr><th><br>文件类型</th><th><br>描述</th></tr></thead><tbody><tr><td></td><td><br>导出文件）。然后，您可以将 .o/e 文件导入到其他 SailWind Logic 原理图中。</td></tr><tr><td><br>ECO 文件 (*eco)</td><td><br>类似于 PADS 格式的 ASCll。每种类型的数据都以标题行开头，标题行中包含一个关键字，关键字周围用星号 (*) 括起来。</td></tr><tr><td><br>（.asc）文件</td><td><br>SailWind 布局规则。</td></tr></tbody></table>
+| 文件类型 | 描述 |
+| --- | --- |
+|  | 导出文件）。然后，您可以将 .o/e 文件导入到其他 SailWind Logic 原理图中。 |
+| ECO 文件 (*eco) | 类似于 PADS 格式的 ASCll。每种类型的数据都以标题行开头，标题行中包含一个关键字，关键字周围用星号 (*) 括起来。 |
+| （.asc）文件 | SailWind 布局规则。 |
 
 表 8. 作为新原理图打开的文件类型
 
-<table><thead><tr><th><br>文件类型</th><th><br>描述</th></tr></thead><tbody><tr><td><br>CAD .csa 文件</td><td><br>CADSTAR 存档文件 (ASCII)</td></tr><tr><td><br>CADSTAR .scm 文件</td><td><br>CADSTAR 原理图文件（二进制）</td></tr><tr><td><br>OrCAD .dsn 文件</td><td><br>OrCAD 捕获文件</td></tr><tr><td><br>P-CAD .sch 文件</td><td><br>P-CAD 2002 及更新版本生成的 P-CAD 原理图文件（ASCll 和二进制）</td></tr><tr><td><br>Protel .sch 文件</td><td><br>Protel 99 原理图文件（ASCll 和二进制）</td></tr><tr><td><br>Protel .schdoc 文件</td><td><br>Protel DXP/Altium Designer 原理图文件（ASCll 和二进制）</td></tr><tr><td><br>Protel .prjpcb 文件</td><td><br>Protel 组合设计/原理图文件</td></tr></tbody></table>
+| 文件类型 | 描述 |
+| --- | --- |
+| CAD .csa 文件 | CADSTAR 存档文件 (ASCII) |
+| CADSTAR .scm 文件 | CADSTAR 原理图文件（二进制） |
+| OrCAD .dsn 文件 | OrCAD 捕获文件 |
+| P-CAD .sch 文件 | P-CAD 2002 及更新版本生成的 P-CAD 原理图文件（ASCll 和二进制） |
+| Protel .sch 文件 | Protel 99 原理图文件（ASCll 和二进制） |
+| Protel .schdoc 文件 | Protel DXP/Altium Designer 原理图文件（ASCll 和二进制） |
+| Protel .prjpcb 文件 | Protel 组合设计/原理图文件 |
 
 ### 导入文件
 
@@ -191,7 +207,18 @@ OLE 对象会放置在创建它们的工作表上。例如，如果您最初将�
 
 表 9. ASCII 文件格式部分
 
-<table><thead><tr><th><br>选项</th><th><br>描述</th></tr></thead><tbody><tr><td><em>TXT</em></td><td><br>工作表中的自由文本项目。</td></tr><tr><td><em>LINES</em></td><td><br>2D 行项目，包括库条目。</td></tr><tr><td><em>CAEDECAL</em></td><td><br>图纸中所有零件的 CAE 符号贴花的描述。</td></tr><tr><td><em>PARTTYPE</em></td><td><br>工作表中出现的零件类型的描述。</td></tr><tr><td><em>BUSSES</em></td><td><br>表格中公交车的描述，包括名称和位置。</td></tr><tr><td><em>PART</em></td><td><br>列出图纸中出现的所有部件及其属性。门和​​连接器引脚均单独列出。</td></tr><tr><td><em><br>页面外引用</em></td><td><br>列出图纸中所有页外标记。其中包括电源和接地符号以及总线连接。</td></tr><tr><td><em>TIE-DOTS</em></td><td><br>工作表中所有连接点的列表。</td></tr><tr><td><em>CONNECTION</em></td><td><br>工作表中的连接列表，包括信号名称和路径。</td></tr><tr><td><em>NETNAMES</em></td><td><br>原理图中显示的所有网络名称的列表。</td></tr></tbody></table>
+| 选项 | 描述 |
+| --- | --- |
+| TXT | 工作表中的自由文本项目。 |
+| LINES | 2D 行项目，包括库条目。 |
+| CAEDECAL | 图纸中所有零件的 CAE 符号贴花的描述。 |
+| PARTTYPE | 工作表中出现的零件类型的描述。 |
+| BUSSES | 表格中公交车的描述，包括名称和位置。 |
+| PART | 列出图纸中出现的所有部件及其属性。门和​​连接器引脚均单独列出。 |
+| 页面外引用 | 列出图纸中所有页外标记。其中包括电源和接地符号以及总线连接。 |
+| TIE-DOTS | 工作表中所有连接点的列表。 |
+| CONNECTION | 工作表中的连接列表，包括信号名称和路径。 |
+| NETNAMES | 原理图中显示的所有网络名称的列表。 |
 
 列出所有工作表后，文件以 \*END\* 结尾。
 

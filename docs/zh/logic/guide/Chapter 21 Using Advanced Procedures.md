@@ -282,7 +282,14 @@ Basic 脚本编辑器使用不同的颜色显示源代码。颜色与上下文�
 
 表 42. 基本脚本编辑器颜色表示
 
-<table><thead><tr><th><br>颜色</th><th><br>代表</th></tr></thead><tbody><tr><td><br>蓝色的</td><td><br>基本关键词</td></tr><tr><td><br>黑色的</td><td><br>用户变量</td></tr><tr><td><br>青色</td><td><br>基本功能</td></tr><tr><td><br>紫色的</td><td><br>SailWind Logic 自动化对象或成员</td></tr><tr><td><br>红色的</td><td><br>错误</td></tr><tr><td><br>绿色的</td><td><br>评论</td></tr></tbody></table>
+| 颜色 | 代表 |
+| --- | --- |
+| 蓝色的 | 基本关键词 |
+| 黑色的 | 用户变量 |
+| 青色 | 基本功能 |
+| 紫色的 | SailWind Logic 自动化对象或成员 |
+| 红色的 | 错误 |
+| 绿色的 | 评论 |
 
 # 基本示例脚本
 
@@ -298,11 +305,25 @@ Basic 脚本编辑器使用不同的颜色显示源代码。颜色与上下文�
 
 表 43. 基本示例脚本列表
 
-<table><thead><tr><th><br>脚本文件名</th><th><br>描述</th></tr></thead><tbody><tr><td><br>00 什么是脚本.BAS</td><td><br>空脚本演示了什么是基本脚本以及如何定义它。</td></tr><tr><td><br>01 使用消息框.BAS</td><td><br>演示如何显示“确定”对话框。</td></tr><tr><td><br>02 使用变量.BAS</td><td><br>演示基本变量：如何分配值以及如何获取其值。</td></tr><tr><td><br>03 使用基本函数.BAS</td><td><br>演示如何使用标准 Basic 函数并在消息框中显示其结果。</td></tr><tr><td><br>04 使用 SailWind 逻辑函数.BAS</td><td><br>演示与 SailWind Logic Automation 功能的基本交互。</td></tr><tr><td><br>05 使用 If 和 Then 语句.BAS</td><td><br>演示 If、Then 语句。</td></tr><tr><td><br>06 使用自定义 Dialog1.BAS</td><td><br>使用基本对话框编辑器演示一个简单的对话框。</td></tr><tr><td><br>07 使用自定义 Dialog2.BAS</td><td><br>使用基本对话框编辑器演示标准对话框。</td></tr><tr><td><br>08 使用自定义 Dialog3.BAS</td><td><br>使用基本对话框编辑器演示复杂的对话框。</td></tr></tbody></table>
+| 脚本文件名 | 描述 |
+| --- | --- |
+| 00 什么是脚本.BAS | 空脚本演示了什么是基本脚本以及如何定义它。 |
+| 01 使用消息框.BAS | 演示如何显示“确定”对话框。 |
+| 02 使用变量.BAS | 演示基本变量：如何分配值以及如何获取其值。 |
+| 03 使用基本函数.BAS | 演示如何使用标准 Basic 函数并在消息框中显示其结果。 |
+| 04 使用 SailWind 逻辑函数.BAS | 演示与 SailWind Logic Automation 功能的基本交互。 |
+| 05 使用 If 和 Then 语句.BAS | 演示 If、Then 语句。 |
+| 06 使用自定义 Dialog1.BAS | 使用基本对话框编辑器演示一个简单的对话框。 |
+| 07 使用自定义 Dialog2.BAS | 使用基本对话框编辑器演示标准对话框。 |
+| 08 使用自定义 Dialog3.BAS | 使用基本对话框编辑器演示复杂的对话框。 |
 
 表 43. 基本示例脚本列表（续）
 
-<table><thead><tr><th><br>脚本文件名</th><th><br>描述</th></tr></thead><tbody><tr><td><br>09 综合运用.BAS</td><td><br>提供一个“真实”示例。列出默认文件目录中的所有设计文件。从列表中选择一个文件将在 SailWind Logic 中打开该文件。</td></tr><tr><td><br>10 比较和净值列表.BAS</td><td><br>列出所有组件和网络。</td></tr><tr><td><br>11 按引脚数选择.BAS</td><td><br>允许您输入引脚数。所有具有该引脚数的元件均会被选中。</td></tr></tbody></table>
+| 脚本文件名 | 描述 |
+| --- | --- |
+| 09 综合运用.BAS | 提供一个“真实”示例。列出默认文件目录中的所有设计文件。从列表中选择一个文件将在 SailWind Logic 中打开该文件。 |
+| 10 比较和净值列表.BAS | 列出所有组件和网络。 |
+| 11 按引脚数选择.BAS | 允许您输入引脚数。所有具有该引脚数的元件均会被选中。 |
 
 # 基本示例脚本 — RGL 报告
 
@@ -312,7 +333,14 @@ Basic 脚本编辑器使用不同的颜色显示源代码。颜色与上下文�
 
 表 44. 基本示例脚本/RGL 报告列表
 
-<table><thead><tr><th><br>脚本文件名</th><th><br>描述</th></tr></thead><tbody><tr><td>RGL.BAS</td><td><br>包含一个函数库，供该组中的其他脚本使用；该组中的脚本必须包含 RGL.BAS 才能运行。</td></tr><tr><td><br>网络统计</td><td><br>列出原理图中的所有网络并识别任何有问题的网络。</td></tr><tr><td><br>零件统计信息</td><td><br>列出原理图中的所有部件。</td></tr><tr><td><br>未使用的门.BAS</td><td><br>列出原理图中所有未使用的门。</td></tr><tr><td><br>未使用的引脚.BAS</td><td><br>列出原理图中所有未使用的引脚。</td></tr><tr><td><br>未使用的.BAS</td><td><br>列出原理图中所有未使用的引脚和门。</td></tr></tbody></table>
+| 脚本文件名 | 描述 |
+| --- | --- |
+| RGL.BAS | 包含一个函数库，供该组中的其他脚本使用；该组中的脚本必须包含 RGL.BAS 才能运行。 |
+| 网络统计 | 列出原理图中的所有网络并识别任何有问题的网络。 |
+| 零件统计信息 | 列出原理图中的所有部件。 |
+| 未使用的门.BAS | 列出原理图中所有未使用的门。 |
+| 未使用的引脚.BAS | 列出原理图中所有未使用的引脚。 |
+| 未使用的.BAS | 列出原理图中所有未使用的引脚和门。 |
 
 # 基本示例脚本 — 高级
 
@@ -320,11 +348,22 @@ Advanced Basic 脚本文件位于 C:<install\_folder><version \> \\Samples\\Scri
 
 表 45. 基本示例脚本/高级列表
 
-<table><thead><tr><th><br>脚本文件名</th><th><br>描述</th></tr></thead><tbody><tr><td><br>添加零件.BAS</td><td><br>向原理图添加一个新门。</td></tr><tr><td><br>活动网络列表</td><td><br>在 Excel 中创建一个网络表，使您能够在 SailWind Logic 对象和包含对象名称的 Excel 单元格之间进行交叉探测。</td></tr><tr><td><br>物料清单</td><td><br>以用户可自定义的格式生成物料清单。</td></tr></tbody></table>
+| 脚本文件名 | 描述 |
+| --- | --- |
+| 添加零件.BAS | 向原理图添加一个新门。 |
+| 活动网络列表 | 在 Excel 中创建一个网络表，使您能够在 SailWind Logic 对象和包含对象名称的 Excel 单元格之间进行交叉探测。 |
+| 物料清单 | 以用户可自定义的格式生成物料清单。 |
 
 表 45. 基本示例脚本/高级列表（续）
 
-<table><thead><tr><th><br>脚本文件名</th><th><br>描述</th></tr></thead><tbody><tr><td><br>非模态属性</td><td><br>生成一个非模式对话框，您可以使用它来管理零件属性。</td></tr><tr><td><br>非模态质量管理部件</td><td><br>生成一个非模式对话框，您可以使用它来管理零件和门的属性。</td></tr><tr><td><br>非模态可视性</td><td><br>生成一个非模式对话框，您可以使用它来管理门和属性的可见性。</td></tr><tr><td><br>SailWind 无规则布局网络表.BAS</td><td><br>生成 ASCll 格式的网表报告。</td></tr><tr><td><br>SailWind 逻辑脚本向导.BAS</td><td><br>生成一个向导对话框，您可以使用它来创建基本报告。</td></tr><tr><td><br>工作表层次结构到 Excel.BAS</td><td><br>在 Excel 中创建工作表层次结构报告，使您能够在 SaiiWind Logic 对象和包含对象名称的 Excel 单元格之间进行交叉探测。</td></tr></tbody></table>
+| 脚本文件名 | 描述 |
+| --- | --- |
+| 非模态属性 | 生成一个非模式对话框，您可以使用它来管理零件属性。 |
+| 非模态质量管理部件 | 生成一个非模式对话框，您可以使用它来管理零件和门的属性。 |
+| 非模态可视性 | 生成一个非模式对话框，您可以使用它来管理门和属性的可见性。 |
+| SailWind 无规则布局网络表.BAS | 生成 ASCll 格式的网表报告。 |
+| SailWind 逻辑脚本向导.BAS | 生成一个向导对话框，您可以使用它来创建基本报告。 |
+| 工作表层次结构到 Excel.BAS | 在 Excel 中创建工作表层次结构报告，使您能够在 SaiiWind Logic 对象和包含对象名称的 Excel 单元格之间进行交叉探测。 |
 
 # 管理许可选项
 
