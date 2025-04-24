@@ -203,12 +203,22 @@ A way for heterogeneous applications to communicate with each other. SailWind pr
 
 Pass types are part of an autorouting strategy that determines how the autorouter routes a design.  
 
-<table><tr><td> Pass</td><td>Description</td></tr><tr><td>Center</td><td>Places traces equidistant from component pins or vias and each other to evenly distribute any available space in the channel.</td></tr><tr><td>Fanout</td><td>Places vias for inaccessible SMD component pins and routes from the vias to the pins.</td></tr><tr><td>Miters</td><td>Converts all route corners of a specified angle to diagonal corners.</td></tr><tr><td>Optimize</td><td>Analyzes each trace and tries to improve the quality of the route pattern by removing extra segments, reducing via usage, and shortening trace lengths.</td></tr><tr><td>Patterns</td><td>Searches for groups of unrouted connections that can be completed using typical C routing patterns, Z routing patterns, and memory patterns and then routes them.</td></tr><tr><td>Route</td><td>Sequentially routes each unroute until all connections are attempted.</td></tr></table>  
+|  Pass    | Description                                                                                                                                                       |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Center   | Places traces equidistant from component pins or vias and each other to evenly distribute any available space in the channel.                                     |
+| Fanout   | Places vias for inaccessible SMD component pins and routes from the vias to the pins.                                                                             |
+| Miters   | Converts all route corners of a specified angle to diagonal corners.                                                                                              |
+| Optimize | Analyzes each trace and tries to improve the quality of the route pattern by removing extra segments, reducing via usage, and shortening trace lengths.           |
+| Patterns | Searches for groups of unrouted connections that can be completed using typical C routing patterns, Z routing patterns, and memory patterns and then routes them. |
+| Route    | Sequentially routes each unroute until all connections are attempted.                                                                                             |
 
 Glossary axial lead   
 
 
-<table><tr><td>Pass</td><td>Description</td></tr><tr><td>Test Point</td><td>Analyzes the testability of the design, determines which nets require testing, adjusts the routes, and inserts test points to improve testability.</td></tr><tr><td>Tune</td><td>Adjusts the length of length-controlled traces. The Tune pass tunes all routed traces with length rules, and automatically adjusts length-controlled traces to meet design rules.</td></tr></table>  
+| Pass       | Description                                                                                                                                                                       |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Test Point | Analyzes the testability of the design, determines which nets require testing, adjusts the routes, and inserts test points to improve testability.                                |
+| Tune       | Adjusts the length of length-controlled traces. The Tune pass tunes all routed traces with length rules, and automatically adjusts length-controlled traces to meet design rules. |
 
 ## axial lead  
 
@@ -2215,7 +2225,11 @@ The order in which the autorouter routes components, nets, and net classes.
 
 There are several pass types, each of which is designed to complete a specific task. Each pass may use more than one algorithm and may also perform a number of subpasses.  
 
-<table><tr><td>·center pass</td><td>· patterns pass</td></tr><tr><td>·fanout</td><td>· route pass</td></tr><tr><td>· miters pass</td><td>· test point pass</td></tr><tr><td>· optimize pass</td><td>· tune pass</td></tr></table>  
+| ·center pass    | · patterns pass   |
+|-----------------|-------------------|
+| ·fanout         | · route pass      |
+| · miters pass   | · test point pass |
+| · optimize pass | · tune pass       |
 
 ## routing strategy  
 
@@ -2690,7 +2704,11 @@ The use of deposited films of conductive or insulating material, which may be pa
 
 A three-state check box helps to identify the state of the check box in a collection of objects.  
 
-<table><tr><td>Check box</td><td>Description</td></tr><tr><td></td><td>Cleared check box. The item or collection of items all have the check box in the cleared or unchecked state.</td></tr><tr><td>中</td><td>Selected check box. The item or collection of items all have the check box in the selected or checked state.</td></tr><tr><td></td><td>Indeterminate or mixed state check box. The collection of items have different states of the check box.</td></tr></table>  
+| Check box | Description                                                                                                  |
+|-----------|--------------------------------------------------------------------------------------------------------------|
+|           | Cleared check box. The item or collection of items all have the check box in the cleared or unchecked state. |
+| 中         | Selected check box. The item or collection of items all have the check box in the selected or checked state. |
+|           | Indeterminate or mixed state check box. The collection of items have different states of the check box.      |
 
 ## through holes  
 
@@ -2812,7 +2830,11 @@ The trace length monitor calculates unrouted length as the distance from the end
 
 The unroute length calculation depends on the current routing angle:  
 
-<table><tr><td>Routing mode:</td><td>The calculation:</td></tr><tr><td>Orthogonal</td><td>Manhattan Length</td></tr><tr><td>Diagonal</td><td>The length of the shortest diagonal path between unroute ends</td></tr><tr><td>Any Angle</td><td>Point-to-point distance</td></tr></table>  
+| Routing mode: | The calculation:                                              |
+|---------------|---------------------------------------------------------------|
+| Orthogonal    | Manhattan Length                                              |
+| Diagonal      | The length of the shortest diagonal path between unroute ends |
+| Any Angle     | Point-to-point distance                                       |
 
 The unrouted length is recalculated as the unroute dynamically reconnects to connection points.   
 The routing angle also effects this calculation.  

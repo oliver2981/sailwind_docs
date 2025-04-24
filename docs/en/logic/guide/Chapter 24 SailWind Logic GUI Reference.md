@@ -165,7 +165,10 @@ Figure 14. AC Analysis Dialog Box
 Table 48. AC Analysis Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Interval area</td><td>Specifies the number of points and the variation: Decade, Octave, or Linear.</td></tr><tr><td>Frequency</td><td>Specifies the Starting and Ending frequencies.</td></tr></table>  
+|  Name         | Description                                                                  |
+|---------------|------------------------------------------------------------------------------|
+| Interval area | Specifies the number of points and the variation: Decade, Octave, or Linear. |
+| Frequency     | Specifies the Starting and Ending frequencies.                               |
 
 **Related Topics**  
 
@@ -188,7 +191,14 @@ Figure 15. Add Attribute Label Dialog Box
 Table 49. Edit Attribute Label Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Attribute Name list</td><td>Lists all of the attributes available to you. Tip You can type the attribute name or browse the Library</td></tr><tr><td>Browse Lib.Attr.button</td><td>Attributes. Opens the Browse Library Attributes Dialog Box.</td></tr><tr><td>Height</td><td>Specifies the height of the text.</td></tr><tr><td>Width</td><td>Specifies the width of the text.</td></tr><tr><td>Rotation</td><td>Specifies the rotation of the text: O or 90 degrees.</td></tr><tr><td>Horizontal/Vertical Justification</td><td>Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.</td></tr></table>  
+| Name                              | Description                                                                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Attribute Name list               | Lists all of the attributes available to you. Tip You can type the attribute name or browse the Library                     |
+| Browse Lib.Attr.button            | Attributes. Opens the Browse Library Attributes Dialog Box.                                                                 |
+| Height                            | Specifies the height of the text.                                                                                           |
+| Width                             | Specifies the width of the text.                                                                                            |
+| Rotation                          | Specifies the rotation of the text: O or 90 degrees.                                                                        |
+| Horizontal/Vertical Justification | Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text. |
 
 ## Add Bus Dialog Box
 
@@ -205,12 +215,33 @@ Use the Add Bus dialog box to create attribute labels while editing or creating 
 Table 50. Add Bus Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td> Description</td></tr><tr><td>Bus Name</td><td>Specifies the name of the bus. Select or type the name you want.</td></tr><tr><td>Rename area</td><td>Specifies to rename this instance or all instances of the bus. Restriction: Available only in query mode.</td></tr><tr><td>Bus Type area</td><td>Specifies which bus names appear in the Bus Name list.</td></tr></table>  
+| Name          |  Description                                                                                              |
+|---------------|-----------------------------------------------------------------------------------------------------------|
+| Bus Name      | Specifies the name of the bus. Select or type the name you want.                                          |
+| Rename area   | Specifies to rename this instance or all instances of the bus. Restriction: Available only in query mode. |
+| Bus Type area | Specifies which bus names appear in the Bus Name list.                                                    |
 
 Table 50. Add Bus Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td rowspan="3">Add Bus Name Label</td><td>Select the Add Bus Name Label check box to add the bus name as a label to the bus at the end of the bus closest to where you selected it.</td></tr><tr><td>Restriction: The check box is unavailable when the end of the selected bus has a label. Tip</td></tr><tr><td>· A bus can have two labels, one on each end. · A bus label is not required. · To delete a bus label, select the label in the schematic and click the Delete button on the standard toolbar.</td></tr><tr><td rowspan="5"></td><td rowspan="2">Lists the name or prefix of the bus net, the starting bit number for a sequence of nets, and the ending bit number for a sequence of</td></tr><tr><td>nets. Restriction:</td></tr><tr><td rowspan="3">Available only if the bus is a mixed net bus. 1 Tip</td></tr><tr><td>· For a single net, type the net name.</td></tr><tr><td>· For a range of sequential nets, type the prefix for the sequence of nets.</td></tr><tr><td rowspan="2"></td><td>Adds a row to the Bus Nets table. Restriction:</td></tr><tr><td>Available only if the bus is a mixed net bus. Makes the selected row available for editing.</td></tr><tr><td rowspan="2"></td><td>Restriction:</td></tr><tr><td>Available only if the bus is a mixed net bus. Removes the selected row from the Bus Nets table.</td></tr><tr><td rowspan="2"></td><td>Restriction:</td></tr><tr><td>Available only if the bus is a mixed net bus.</td></tr><tr><td rowspan="2">Down/Up buttons</td><td>Moves the selected row up or down in the Bus Nets table.</td></tr><tr><td>Restriction: Available only if the bus is a mixed net bus.</td></tr></table>  
+|  Name                                                                                                                                                                                        | Description                                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Add Bus Name Label                                                                                                                                                                           | Select the Add Bus Name Label check box to add the bus name as a label to the bus at the end of the bus closest to where you selected it. |
+| Restriction: The check box is unavailable when the end of the selected bus has a label. Tip                                                                                                  |
+| · A bus can have two labels, one on each end. · A bus label is not required. · To delete a bus label, select the label in the schematic and click the Delete button on the standard toolbar. |
+|                                                                                                                                                                                              | Lists the name or prefix of the bus net, the starting bit number for a sequence of nets, and the ending bit number for a sequence of      |
+| nets. Restriction:                                                                                                                                                                           |
+| Available only if the bus is a mixed net bus. 1 Tip                                                                                                                                          |
+| · For a single net, type the net name.                                                                                                                                                       |
+| · For a range of sequential nets, type the prefix for the sequence of nets.                                                                                                                  |
+|                                                                                                                                                                                              | Adds a row to the Bus Nets table. Restriction:                                                                                            |
+| Available only if the bus is a mixed net bus. Makes the selected row available for editing.                                                                                                  |
+|                                                                                                                                                                                              | Restriction:                                                                                                                              |
+| Available only if the bus is a mixed net bus. Removes the selected row from the Bus Nets table.                                                                                              |
+|                                                                                                                                                                                              | Restriction:                                                                                                                              |
+| Available only if the bus is a mixed net bus.                                                                                                                                                |
+| Down/Up buttons                                                                                                                                                                              | Moves the selected row up or down in the Bus Nets table.                                                                                  |
+| Restriction: Available only if the bus is a mixed net bus.                                                                                                                                   |
 
 **Related Topics**  
 
@@ -230,12 +261,23 @@ Figure 17. Add Command Dialog Box
 Table 51. Add/Edit Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Command name</td><td>The name of the new command. O Tip.</td></tr><tr><td>Based on</td><td>Type an ampersand before the letter you want to use as the Alt keyboard shortcut.</td></tr><tr><td>Arguments</td><td>The command on which you want to base the new command. Any arguments for the new command.</td></tr><tr><td></td><td>Tip Use a space to separate arguments. If an argument contains a space, enclose the argument in quotation marks (""). Restriction: SailWind Router only.</td></tr><tr><td>Description</td><td>Lists what the new command does.</td></tr><tr><td>Use Default Image</td><td>Use the recommended image.</td></tr></table>  
+|  Name             | Description                                                                                                                                              |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Command name      | The name of the new command. O Tip.                                                                                                                      |
+| Based on          | Type an ampersand before the letter you want to use as the Alt keyboard shortcut.                                                                        |
+| Arguments         | The command on which you want to base the new command. Any arguments for the new command.                                                                |
+|                   | Tip Use a space to separate arguments. If an argument contains a space, enclose the argument in quotation marks (""). Restriction: SailWind Router only. |
+| Description       | Lists what the new command does.                                                                                                                         |
+| Use Default Image | Use the recommended image.                                                                                                                               |
 
 Table 51. Add/Edit Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Select User-defined Image</td><td>Select or create your own image to associate with the new command.</td></tr><tr><td>New button</td><td>Open the Edit Button Image Dialog Box.</td></tr><tr><td>Edit button</td><td>Open a button in the Edit Button Image Dialog Box.</td></tr></table>  
+|  Name                     | Description                                                        |
+|---------------------------|--------------------------------------------------------------------|
+| Select User-defined Image | Select or create your own image to associate with the new command. |
+| New button                | Open the Edit Button Image Dialog Box.                             |
+| Edit button               | Open a button in the Edit Button Image Dialog Box.                 |
 
 **Related Topics**  
 
@@ -253,12 +295,26 @@ Figure 18. Add Field Dialog Box
 Table 52. Add Field Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Name list</td><td>Type the name of a new field or select from a list of the fields available to you.</td></tr><tr><td rowspan="3">Value</td><td>The value of the field.</td></tr><tr><td>Restriction:</td></tr><tr><td>The Value box is unavailable for system fields since the value is derived from your system.</td></tr><tr><td>X/Y</td><td>Type coordinates to place the field label in a specified location.</td></tr></table>  
+| Name                                                                                        | Description                                                                        |
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Name list                                                                                   | Type the name of a new field or select from a list of the fields available to you. |
+| Value                                                                                       | The value of the field.                                                            |
+| Restriction:                                                                                |
+| The Value box is unavailable for system fields since the value is derived from your system. |
+| X/Y                                                                                         | Type coordinates to place the field label in a specified location.                 |
 
 Table 52. Add Field Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>Tip Leave these blank to attach the field to your pointer and click to indicate the location.</td></tr><tr><td>Rotation</td><td>Specifies the rotation of the text: O or 90 degrees.</td></tr><tr><td>Line Width</td><td>Specifies the line width for stroke fonts only. text Stroke Line Width</td></tr><tr><td>Size</td><td>Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The 'size refers to the height of the tallest characters. ↑Gg</td></tr><tr><td>Font Style</td><td>Enables you to change the font style to bold, italic, and underlined. Restriction: System fonts only.</td></tr><tr><td></td><td>The fonts available to you. This lists either stroke fonts or system fonts. You choose which type of font to use in the Fonts Dialog Box. 1Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or</td></tr><tr><td>Horizontal/Vertical Justification</td><td>Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.</td></tr></table>  
+|  Name                             | Description                                                                                                                                                                                                                                          |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                   | Tip Leave these blank to attach the field to your pointer and click to indicate the location.                                                                                                                                                        |
+| Rotation                          | Specifies the rotation of the text: O or 90 degrees.                                                                                                                                                                                                 |
+| Line Width                        | Specifies the line width for stroke fonts only. text Stroke Line Width                                                                                                                                                                               |
+| Size                              | Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The 'size refers to the height of the tallest characters. ↑Gg          |
+| Font Style                        | Enables you to change the font style to bold, italic, and underlined. Restriction: System fonts only.                                                                                                                                                |
+|                                   | The fonts available to you. This lists either stroke fonts or system fonts. You choose which type of font to use in the Fonts Dialog Box. 1Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or |
+| Horizontal/Vertical Justification | Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.                                                                                                                          |
 
 **Related Topics**  
 
@@ -278,12 +334,23 @@ Figure 19. Add Free Text Dialog Box
 Table 53. Add Free Text Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Text</td><td>Type the text you want in the schematic.</td></tr><tr><td>X/Y</td><td>Places the text in a specified location. Negative coordinates are not permitted. If you want to place text outside the sheet, you must move it there with the cursor. 1Tip Leave these blank to attach the text to your pointer and click to</td></tr><tr><td>Rotation</td><td>indicate the location. Specifies the rotation of the text: O or 90 degrees.</td></tr><tr><td>Line Width</td><td>Specifies the line width for stroke fonts only.</td></tr></table>  
+|  Name      | Description                                                                                                                                                                                                                                  |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Text       | Type the text you want in the schematic.                                                                                                                                                                                                     |
+| X/Y        | Places the text in a specified location. Negative coordinates are not permitted. If you want to place text outside the sheet, you must move it there with the cursor. 1Tip Leave these blank to attach the text to your pointer and click to |
+| Rotation   | indicate the location. Specifies the rotation of the text: O or 90 degrees.                                                                                                                                                                  |
+| Line Width | Specifies the line width for stroke fonts only.                                                                                                                                                                                              |
 
 Table 53. Add Free Text Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td> Description</td></tr><tr><td></td><td>text Stroke Line Width</td></tr><tr><td></td><td>Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The 'size refers to the height of the tallest characters. Gg</td></tr><tr><td>Font Style</td><td>Enables you to change the font style to bold, italic, and underlined. Restriction: System fonts only.</td></tr><tr><td>Font list</td><td>The fonts available to you. This lists either stroke fonts or system fonts. You choose which type of font to use in the Fonts Dialog Box. Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or</td></tr><tr><td>Horizontal/Vertical Justification</td><td>Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.</td></tr></table>  
+|  Name                             |  Description                                                                                                                                                                                                                                        |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                   | text Stroke Line Width                                                                                                                                                                                                                              |
+|                                   | Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The 'size refers to the height of the tallest characters. Gg          |
+| Font Style                        | Enables you to change the font style to bold, italic, and underlined. Restriction: System fonts only.                                                                                                                                               |
+| Font list                         | The fonts available to you. This lists either stroke fonts or system fonts. You choose which type of font to use in the Fonts Dialog Box. Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or |
+| Horizontal/Vertical Justification | Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.                                                                                                                         |
 
 **Related Topics**  
 
@@ -303,7 +370,15 @@ Figure 20. Add Net to Class Dialog Box
 Table 54. Add Net Class Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Create New Class</td><td>Specifies to create a new class using the selected net(s).</td></tr><tr><td rowspan="2">Add to Existing Class</td><td>Specifies to add the selected net(s) to an existing class. Restriction:</td></tr><tr><td>This is unavailable if there are no existing classes.</td></tr><tr><td>Selected Nets</td><td>Lists all of the nets you selected in the schematic.</td></tr><tr><td rowspan="2">Add to Class</td><td>Specifies the name of the class. Type a new name or accept the default.</td></tr><tr><td>Restriction: This is unavailable if you select Add to Existing Class an only one class exists.</td></tr><tr><td>Existing Classes</td><td>Lists all of the existing classes in the schematic.</td></tr></table>  
+| Name                                                                                           | Description                                                             |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Create New Class                                                                               | Specifies to create a new class using the selected net(s).              |
+| Add to Existing Class                                                                          | Specifies to add the selected net(s) to an existing class. Restriction: |
+| This is unavailable if there are no existing classes.                                          |
+| Selected Nets                                                                                  | Lists all of the nets you selected in the schematic.                    |
+| Add to Class                                                                                   | Specifies the name of the class. Type a new name or accept the default. |
+| Restriction: This is unavailable if you select Add to Existing Class an only one class exists. |
+| Existing Classes                                                                               | Lists all of the existing classes in the schematic.                     |
 
 ## Add New Attribute Dialog Box  
 
@@ -319,7 +394,11 @@ Figure 21. Add New Attribute Dialog Box
 Table 55. Add New Attribute Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td> Description</td></tr><tr><td>Browse Lib. Attr button</td><td>Opens the Browse Library Attributes Dialog Box.</td></tr><tr><td>Attribute Name</td><td>The name of the new attribute.</td></tr><tr><td>Attribute Value</td><td>The value of the new attribute.</td></tr></table>  
+|  Name                   |  Description                                    |
+|-------------------------|-------------------------------------------------|
+| Browse Lib. Attr button | Opens the Browse Library Attributes Dialog Box. |
+| Attribute Name          | The name of the new attribute.                  |
+| Attribute Value         | The value of the new attribute.                 |
 
 **Related Topics**  
 
@@ -339,7 +418,11 @@ Figure 22. Add New Attribute to Library Dialog Box
 Table 56. Add New Attribute to Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Browse Lib. Attr button</td><td>Opens the Browse Library Attributes Dialog Box.</td></tr><tr><td>Attribute Name</td><td>The name of the new attribute.</td></tr><tr><td>Attribute Value</td><td>The value of the new attribute.</td></tr></table>  
+|  Name                   | Description                                     |
+|-------------------------|-------------------------------------------------|
+| Browse Lib. Attr button | Opens the Browse Library Attributes Dialog Box. |
+| Attribute Name          | The name of the new attribute.                  |
+| Attribute Value         | The value of the new attribute.                 |
 
 ## Add Part From Library Dialog Box
 
@@ -356,7 +439,16 @@ Figure 23. Add Part From Library Dialog Box
 Table 57. Add Part From Library Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Preview area</td><td>Shows the selected item.</td></tr><tr><td>Items</td><td>Lists the items in the selected library. The number of objects that appear depends on the filter settings.</td></tr><tr><td>Library list</td><td>Specifies the library you want to use.</td></tr><tr><td>Items</td><td>Narrows the search. You can use wildcards or expressions on page 105. An asterisk (*) displays all parts in the list.</td></tr><tr><td>Apply button</td><td>Searches the library for the specified item.</td></tr><tr><td rowspan="3">Part Name list</td><td>Select a recently used part.</td></tr><tr><td>Tip The sixteen most recently used parts are available in the Part</td></tr><tr><td>Name dropdown list box. You can clear this buffer by removing the entries in the SailWindlogic.ini file, under the [Last Added Parts] heading.</td></tr></table>  
+| Name                                                                                                                                           | Description                                                                                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Preview area                                                                                                                                   | Shows the selected item.                                                                                              |
+| Items                                                                                                                                          | Lists the items in the selected library. The number of objects that appear depends on the filter settings.            |
+| Library list                                                                                                                                   | Specifies the library you want to use.                                                                                |
+| Items                                                                                                                                          | Narrows the search. You can use wildcards or expressions on page 105. An asterisk (*) displays all parts in the list. |
+| Apply button                                                                                                                                   | Searches the library for the specified item.                                                                          |
+| Part Name list                                                                                                                                 | Select a recently used part.                                                                                          |
+| Tip The sixteen most recently used parts are available in the Part                                                                             |
+| Name dropdown list box. You can clear this buffer by removing the entries in the SailWindlogic.ini file, under the [Last Added Parts] heading. |
 
 **Related Topics**  
 
@@ -379,12 +471,24 @@ Figure 24. Add Pins Dialog Box
 Table 58. Add Pins Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Number of pins</td><td>Specifies the number of pins to add using the Add Pins dialog box.</td></tr><tr><td rowspan="3">Prefix</td><td>The prefix you want for your pins.</td></tr><tr><td> Tip</td></tr><tr><td>· Alphabetic and numeric values can be used. For example A1 or 1A. ·For a single numeric, use either Prefix or Suffx box, and void the other box.</td></tr><tr><td>Suffix</td><td>The suffix you want for your pins.</td></tr></table>  
+|  Name                                                                                                                                             | Description                                                        |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Number of pins                                                                                                                                    | Specifies the number of pins to add using the Add Pins dialog box. |
+| Prefix                                                                                                                                            | The prefix you want for your pins.                                 |
+|  Tip                                                                                                                                              |
+| · Alphabetic and numeric values can be used. For example A1 or 1A. ·For a single numeric, use either Prefix or Suffx box, and void the other box. |
+| Suffix                                                                                                                                            | The suffix you want for your pins.                                 |
 
 Table 58. Add Pins Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>Tip · Alphabetic and numeric values can be used. For example, A1 or 1A. · For a single numeric, use either Prefix or Suffix box, and</td></tr><tr><td>Pin numbers</td><td>void the other box. A preview of pin numbers based on your input in the Prefix and Suffix boxes.</td></tr><tr><td>Increment prefix/lncrement suffix</td><td>Indicates whether you want the prefix or the suffix to increment.</td></tr><tr><td>Step value</td><td>A positive or negative number by which to increase or decrease the pin numbers with consecutive or stepped values.</td></tr><tr><td>Verify valid JEDEC pin numbering</td><td>Ensures that legal alphanumeric values are used.</td></tr></table>  
+|  Name                             | Description                                                                                                                          |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+|                                   | Tip · Alphabetic and numeric values can be used. For example, A1 or 1A. · For a single numeric, use either Prefix or Suffix box, and |
+| Pin numbers                       | void the other box. A preview of pin numbers based on your input in the Prefix and Suffix boxes.                                     |
+| Increment prefix/lncrement suffix | Indicates whether you want the prefix or the suffix to increment.                                                                    |
+| Step value                        | A positive or negative number by which to increase or decrease the pin numbers with consecutive or stepped values.                   |
+| Verify valid JEDEC pin numbering  | Ensures that legal alphanumeric values are used.                                                                                     |
 
 ## Archiver Dialog Box  
 
@@ -400,12 +504,23 @@ Figure 25. Archiver Dialog Box
 Table 59. Archiver Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>PCB Design</td><td>Specifies the location and name of the PCB design you want to archive. To choose the file you want, type the location or click the Browse button. Select Create PDF to create a PDF file of the PCB design.</td></tr></table>  
+| Name       | Description                                                                                                                                                                                                 |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PCB Design | Specifies the location and name of the PCB design you want to archive. To choose the file you want, type the location or click the Browse button. Select Create PDF to create a PDF file of the PCB design. |
 
 Table 59. Archiver Dialog Box Fields (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td rowspan="2">Schematic</td><td>Specifies the location and name of the schematic file you want to archive. This is automatically populated with the information from the current design. To change the design, or if no design was opened, type the location or click the Browse button.</td></tr><tr><td>Specifies to create a PDF file of the schematic file. Restriction:</td></tr><tr><td rowspan="2">Add libraries</td><td>design. Specifies that you want to include libraries in the archive. · All — Add all of your libraries to the archive.</td></tr><tr><td>· Select — Add only the libraries you specify. Click the Browse button to open the Archiver Libraries Dialog Box.</td></tr><tr><td>Additional files</td><td>Specifies that you want to include other files and folders in your archive. Click the Browse button to open the Archiver Additional Files Dialog Box.</td></tr><tr><td>Target folder</td><td>Specifies_where you want the archive to be located. Type the path or click the Browse button. Requirement: The target folder must be empty.</td></tr><tr><td rowspan="2">Compress using zip format</td><td>Specifies to create a zip file. The file will be in the following format:</td></tr><tr><td>Where YYYY is the year, MM is the month, DD is the day, HH is the hour - in military time, MM is the minute, and SS is the second of the</td></tr></table>  
+| Name                                                                                                                                     | Description                                                                                                                                                                                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Schematic                                                                                                                                | Specifies the location and name of the schematic file you want to archive. This is automatically populated with the information from the current design. To change the design, or if no design was opened, type the location or click the Browse button. |
+| Specifies to create a PDF file of the schematic file. Restriction:                                                                       |
+| Add libraries                                                                                                                            | design. Specifies that you want to include libraries in the archive. · All — Add all of your libraries to the archive.                                                                                                                                   |
+| · Select — Add only the libraries you specify. Click the Browse button to open the Archiver Libraries Dialog Box.                        |
+| Additional files                                                                                                                         | Specifies that you want to include other files and folders in your archive. Click the Browse button to open the Archiver Additional Files Dialog Box.                                                                                                    |
+| Target folder                                                                                                                            | Specifies_where you want the archive to be located. Type the path or click the Browse button. Requirement: The target folder must be empty.                                                                                                              |
+| Compress using zip format                                                                                                                | Specifies to create a zip file. The file will be in the following format:                                                                                                                                                                                |
+| Where YYYY is the year, MM is the month, DD is the day, HH is the hour - in military time, MM is the minute, and SS is the second of the |
 
 **Related Topics**  
 
@@ -425,7 +540,13 @@ Figure 26. Archiver Additional Files Dialog Box
 Table 60. Archiver Additional Fields Dialog Box   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Additional files list</td><td>Lists the files and folders you want to include in your archive.</td></tr><tr><td>Add File button</td><td>Opens the Additional File dialog box where you can select individual files you want to add to the Additional files list.</td></tr><tr><td>Add folder button</td><td>Opens the Browse for Folder dialog box where you can select an entire folder to add to the Additional files list.</td></tr><tr><td>Remove button</td><td>Removes the selected file or folder from the Additional files list.</td></tr><tr><td>Remove All button</td><td>Removes all of the files and folders from the Additional files list.</td></tr></table>  
+| Name                  | Description                                                                                                              |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Additional files list | Lists the files and folders you want to include in your archive.                                                         |
+| Add File button       | Opens the Additional File dialog box where you can select individual files you want to add to the Additional files list. |
+| Add folder button     | Opens the Browse for Folder dialog box where you can select an entire folder to add to the Additional files list.        |
+| Remove button         | Removes the selected file or folder from the Additional files list.                                                      |
+| Remove All button     | Removes all of the files and folders from the Additional files list.                                                     |
 
 **Related Topics**  
 
@@ -443,7 +564,14 @@ Figure 27. Archiver Libraries Dialog Box
 Table 61. Archiver Libraries Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Available libraries</td><td>Lists all of the libraries available for you to add to the archive. Restriction: If your library is not listed in the Library Manager, it will not appear</td></tr><tr><td>Add >> button</td><td>in this list. Moves the selected library from the Available libraries list to the</td></tr><tr><td><< Remove button</td><td>Selected libraries list. Moves the selected library from the Selected libraries list to the</td></tr><tr><td>Add all >> button</td><td>Available libraries list. Moves all of the libraries from the Available libraries list to the Selected</td></tr><tr><td><< Remove all button</td><td>libraries list.</td></tr><tr><td></td><td>Moves all of the libraries from the Selected libraries list to the Available libraries list.</td></tr></table>  
+|  Name                | Description                                                                                                                                               |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Available libraries  | Lists all of the libraries available for you to add to the archive. Restriction: If your library is not listed in the Library Manager, it will not appear |
+| Add >> button        | in this list. Moves the selected library from the Available libraries list to the                                                                         |
+| << Remove button     | Selected libraries list. Moves the selected library from the Selected libraries list to the                                                               |
+| Add all >> button    | Available libraries list. Moves all of the libraries from the Available libraries list to the Selected                                                    |
+| << Remove all button | libraries list.                                                                                                                                           |
+|                      | Moves all of the libraries from the Selected libraries list to the Available libraries list.                                                              |
 
 ## ASCII Output Dialog Box  
 
@@ -457,12 +585,29 @@ Figure 28. ASCII Output Dialog Box
 Table 62. ASCII Output Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Schematic Params</td><td>Specifies to export the default system settings from the Options tabs.</td></tr><tr><td>Sheet Params</td><td>Specifies to export the specific sheet information such as window scale, centering, etc.</td></tr><tr><td>Text</td><td>Specifies to export the free text together with location, level, and size.</td></tr><tr><td>Lines</td><td>Specifies to export the 2D-line items.</td></tr><tr><td>Plot Params</td><td>Specifies to export the information related to the CAM output settings and configurations generated using the Plot command.</td></tr><tr><td>Fields</td><td>Specifies to export the fields used in the schematic and their values.</td></tr><tr><td>Decals</td><td>Specifies to export the part decals and their contents.</td></tr><tr><td>Part Types</td><td>Specifies to export the library part attributes such as manufacturer, cost, and notes.</td></tr></table>  
+| Name             | Description                                                                                                                 |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Schematic Params | Specifies to export the default system settings from the Options tabs.                                                      |
+| Sheet Params     | Specifies to export the specific sheet information such as window scale, centering, etc.                                    |
+| Text             | Specifies to export the free text together with location, level, and size.                                                  |
+| Lines            | Specifies to export the 2D-line items.                                                                                      |
+| Plot Params      | Specifies to export the information related to the CAM output settings and configurations generated using the Plot command. |
+| Fields           | Specifies to export the fields used in the schematic and their values.                                                      |
+| Decals           | Specifies to export the part decals and their contents.                                                                     |
+| Part Types       | Specifies to export the library part attributes such as manufacturer, cost, and notes.                                      |
 
 Table 62. ASCII Output Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Parts</td><td>Specifies to export the parts used in the schematic and their reference designators.</td></tr><tr><td>Connections</td><td>Specifies to export all connections on the schematic, including paths, tie-dots, and off-page flags.</td></tr><tr><td>Rules</td><td>Specifies to export the clearance, routing, and others specified in Design Rules.</td></tr><tr><td>Select All button</td><td>Selects all items.</td></tr><tr><td>Unselect All button</td><td>Clears all items.</td></tr><tr><td>Output Version</td><td>Specifies the version of the software you are using.</td></tr><tr><td>Filename</td><td>Displays the location and name of the file. This was specified in the File Export dialog box OTip</td></tr></table>  
+|  Name               | Description                                                                                          |
+|---------------------|------------------------------------------------------------------------------------------------------|
+| Parts               | Specifies to export the parts used in the schematic and their reference designators.                 |
+| Connections         | Specifies to export all connections on the schematic, including paths, tie-dots, and off-page flags. |
+| Rules               | Specifies to export the clearance, routing, and others specified in Design Rules.                    |
+| Select All button   | Selects all items.                                                                                   |
+| Unselect All button | Clears all items.                                                                                    |
+| Output Version      | Specifies the version of the software you are using.                                                 |
+| Filename            | Displays the location and name of the file. This was specified in the File Export dialog box OTip    |
 
 **Related Topics**  
 
@@ -482,7 +627,11 @@ For additional information on the creation and use of special schematic symbols,
 Figure 29. Assign Alternatives for Ground Part Dialog Box   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Picture</td><td>Displays a picture of the selected Special Symbol.</td></tr><tr><td>Attribute table</td><td>• Special Symbol — The name of a connector pin decal for use in the schematic. · Pin Type — The function of the special symbol.</td></tr><tr><td></td><td>· Signal Name - The name of the signal. Opens the Browse for Special Symbols Dialog Box.</td></tr></table>  
+|  Name           | Description                                                                                                                     |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Picture         | Displays a picture of the selected Special Symbol.                                                                              |
+| Attribute table | • Special Symbol — The name of a connector pin decal for use in the schematic. · Pin Type — The function of the special symbol. |
+|                 | · Signal Name - The name of the signal. Opens the Browse for Special Symbols Dialog Box.                                        |
 
 **Objects**  
 
@@ -491,7 +640,12 @@ Table 63. Assign Alternatives For Ground Part Dialog Box Fields
 Table 63. Assign Alternatives For Ground Part Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>OTip This button is available only in the Special Symbols columns, and only when the cell is available for editing.</td></tr><tr><td>Edit button</td><td>Makes the selected cell available for editing. Tip You can also double-click the cell to edit the contents.</td></tr><tr><td>Add button</td><td>Adds a new row at the bottom of the table.</td></tr><tr><td>Delete button</td><td>Removes the selected row.</td></tr></table>  
+|  Name         | Description                                                                                                         |
+|---------------|---------------------------------------------------------------------------------------------------------------------|
+|               | OTip This button is available only in the Special Symbols columns, and only when the cell is available for editing. |
+| Edit button   | Makes the selected cell available for editing. Tip You can also double-click the cell to edit the contents.         |
+| Add button    | Adds a new row at the bottom of the table.                                                                          |
+| Delete button | Removes the selected row.                                                                                           |
 
 **Related Topics**  
 
@@ -514,12 +668,21 @@ Figure 30. Assign Alternatives for Off-Page Part Dialog Box
 Table 64. Assign Alternatives for Off-Page Part Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Picture</td><td>Displays a picture of the selected Special Symbol.</td></tr><tr><td>Attribute table</td><td>· Special Symbol — The name of a connector pin decal for use in the schematic. · Pin Type — The function of the special symbol.</td></tr><tr><td></td><td>Opens the Browse for Special Symbols Dialog Box.</td></tr></table>  
+|  Name           | Description                                                                                                                     |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Picture         | Displays a picture of the selected Special Symbol.                                                                              |
+| Attribute table | · Special Symbol — The name of a connector pin decal for use in the schematic. · Pin Type — The function of the special symbol. |
+|                 | Opens the Browse for Special Symbols Dialog Box.                                                                                |
 
 Table 64. Assign Alternatives for Off-Page Part Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>OTip This button is available only in the Special Symbols columns, and only when the cell is available for editing.</td></tr><tr><td>Edit button</td><td>Makes the selected cell available for editing. Tip You can also double-click the cell to edit the contents.</td></tr><tr><td>Add button</td><td>Adds a new row at the bottom of the table.</td></tr><tr><td>Delete button</td><td>Removes the selected row.</td></tr></table>  
+|  Name         | Description                                                                                                         |
+|---------------|---------------------------------------------------------------------------------------------------------------------|
+|               | OTip This button is available only in the Special Symbols columns, and only when the cell is available for editing. |
+| Edit button   | Makes the selected cell available for editing. Tip You can also double-click the cell to edit the contents.         |
+| Add button    | Adds a new row at the bottom of the table.                                                                          |
+| Delete button | Removes the selected row.                                                                                           |
 
 **Related Topics**  
 
@@ -542,12 +705,20 @@ Figure 31. Assign Alternatives for Power Part Dialog Box
 Table 65. Assign Alternatives for Power Part Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Picture</td><td>Displays a picture of the selected Special Symbol.</td></tr><tr><td>Attribute table</td><td>· Special Symbol — The name of a connector pin decal for use in the schematic. · Pin Type — The function of the special symbol. · Signal Name — The name of the signal.</td></tr><tr><td>口</td><td>Opens the Browse for Special Symbols Dialog Box. 0 Tip This button is available only in the Special Symbols columns, and only when the cell is available for editing.</td></tr></table>  
+| Name            | Description                                                                                                                                                             |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Picture         | Displays a picture of the selected Special Symbol.                                                                                                                      |
+| Attribute table | · Special Symbol — The name of a connector pin decal for use in the schematic. · Pin Type — The function of the special symbol. · Signal Name — The name of the signal. |
+| 口               | Opens the Browse for Special Symbols Dialog Box. 0 Tip This button is available only in the Special Symbols columns, and only when the cell is available for editing.   |
 
 Table 65. Assign Alternatives for Power Part Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Edit button</td><td>Makes the selected cell available for editing. OTip You can also double-click the cell to edit the contents.</td></tr><tr><td>Add button</td><td>Adds a new row at the bottom of the table.</td></tr><tr><td>Delete button</td><td>Removes the selected row.</td></tr></table>  
+|  Name         | Description                                                                                                  |
+|---------------|--------------------------------------------------------------------------------------------------------------|
+| Edit button   | Makes the selected cell available for editing. OTip You can also double-click the cell to edit the contents. |
+| Add button    | Adds a new row at the bottom of the table.                                                                   |
+| Delete button | Removes the selected row.                                                                                    |
 
 **Related Topics**  
 
@@ -567,12 +738,23 @@ Figure 32. Assign Decal to Gate Dialog Box
 Table 66. Assign Decal to Gate Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Library list</td><td>Lists all your available libraries. Filters the Unassigned Decals list to only the selected library.</td></tr><tr><td>Filter</td><td>Searches the chosen library (or libraries) for a specific part or item name, or names that match a wildcard or expression on page 105. Type * to view all parts or items in the chosen libraries. Click Apply to search the libraries and display the search results.</td></tr><tr><td>Preview area</td><td>Displays the item selected in the Assigned Decals list.</td></tr><tr><td>Unassigned Decals list</td><td>Lists all of the decals that are available to assign.</td></tr><tr><td>Assign New button</td><td>Opens the Assign New Gate Decal Dialog Box.</td></tr><tr><td>Assign >> button</td><td>Moves the decal from the Unassigned Decals list to the Assigned Decals list.</td></tr><tr><td><< Unassign button</td><td>Moves the decal from the Assigned Decals list to the Unassigned Decals list.</td></tr><tr><td>Assigned Decals list</td><td>Lists all of the decals that have been assigned.</td></tr></table>  
+| Name                   | Description                                                                                                                                                                                                                                                           |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Library list           | Lists all your available libraries. Filters the Unassigned Decals list to only the selected library.                                                                                                                                                                  |
+| Filter                 | Searches the chosen library (or libraries) for a specific part or item name, or names that match a wildcard or expression on page 105. Type * to view all parts or items in the chosen libraries. Click Apply to search the libraries and display the search results. |
+| Preview area           | Displays the item selected in the Assigned Decals list.                                                                                                                                                                                                               |
+| Unassigned Decals list | Lists all of the decals that are available to assign.                                                                                                                                                                                                                 |
+| Assign New button      | Opens the Assign New Gate Decal Dialog Box.                                                                                                                                                                                                                           |
+| Assign >> button       | Moves the decal from the Unassigned Decals list to the Assigned Decals list.                                                                                                                                                                                          |
+| << Unassign button     | Moves the decal from the Assigned Decals list to the Unassigned Decals list.                                                                                                                                                                                          |
+| Assigned Decals list   | Lists all of the decals that have been assigned.                                                                                                                                                                                                                      |
 
 Table 66. Assign Decal to Gate Dialog Box Fields (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Up/Down buttons</td><td>Moves the selected decal up or down in the Assigned Decals list.</td></tr></table>  
+| Name            | Description                                                      |
+|-----------------|------------------------------------------------------------------|
+| Up/Down buttons | Moves the selected decal up or down in the Assigned Decals list. |
 
 **Related Topics**  
 
@@ -592,7 +774,9 @@ Figure 33. Assign New Gate Decal Dialog Box
 Table 67. Assign New Gate Decal Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Text box</td><td>Enter the name of the new gate decal you intend to add to the library.</td></tr></table>  
+|  Name    | Description                                                            |
+|----------|------------------------------------------------------------------------|
+| Text box | Enter the name of the new gate decal you intend to add to the library. |
 
 ## Assign New PCB Decal Dialog Box  
 
@@ -608,7 +792,9 @@ Figure 34. Assign New PCB Decal Dialog Box
 Table 68. Assign New PCB Decal Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Text box</td><td>Enter the name of the new PCB decal you intend to add to the library.</td></tr></table>  
+|  Name    | Description                                                           |
+|----------|-----------------------------------------------------------------------|
+| Text box | Enter the name of the new PCB decal you intend to add to the library. |
 
 ## Assign Shortcut Dialog Box  
 
@@ -624,7 +810,11 @@ Figure 35. Assign Shortcut Dialog Box
 Table 69. Assign Shortcut Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Press new shortcut key</td><td>Type the shortcut you want to use.</td></tr><tr><td>Select a pointer event</td><td>Set a pointer event shortcut</td></tr><tr><td>Similar shortcuts list</td><td>Lists the shortcut keys already assigned to other commands.</td></tr></table>  
+|  Name                  | Description                                                 |
+|------------------------|-------------------------------------------------------------|
+| Press new shortcut key | Type the shortcut you want to use.                          |
+| Select a pointer event | Set a pointer event shortcut                                |
+| Similar shortcuts list | Lists the shortcut keys already assigned to other commands. |
 
 ## Attribute Properties Dialog Box  
 
@@ -640,12 +830,22 @@ Figure 36. Attribute Properties Dialog Box
 Table 70. Attribute Properties Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Name</td><td>The name of the selected attribute.</td></tr><tr><td>Value</td><td>Specifies the label you want in the schematic.</td></tr><tr><td>Rotation</td><td>Specifies the rotation of the label: O or 90 degrees.</td></tr><tr><td>Size</td><td>Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The 'size refers to the height of the tallest characters.</td></tr></table>  
+|  Name    | Description                                                                                                                                                                                                                             |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name     | The name of the selected attribute.                                                                                                                                                                                                     |
+| Value    | Specifies the label you want in the schematic.                                                                                                                                                                                          |
+| Rotation | Specifies the rotation of the label: O or 90 degrees.                                                                                                                                                                                   |
+| Size     | Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The 'size refers to the height of the tallest characters. |
 
 Table 70. Attribute Properties Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>tGg Stroke Font - Size</td></tr><tr><td>Line Width</td><td>Specifies the line width for stroke fonts only. text Stroke Line Width</td></tr><tr><td>Font list</td><td>The fonts available to you. This lists either stroke fonts or system fonts. You choose which type of font to use in the Fonts Dialog Box. 1  Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or any combination of styles: B for bold, I for italic, or U for</td></tr><tr><td>Horizontal/Vertical Justification</td><td>underlined. Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.</td></tr></table>  
+|  Name                             | Description                                                                                                                                                                                                                                                                                                          |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                   | tGg Stroke Font - Size                                                                                                                                                                                                                                                                                               |
+| Line Width                        | Specifies the line width for stroke fonts only. text Stroke Line Width                                                                                                                                                                                                                                               |
+| Font list                         | The fonts available to you. This lists either stroke fonts or system fonts. You choose which type of font to use in the Fonts Dialog Box. 1  Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or any combination of styles: B for bold, I for italic, or U for |
+| Horizontal/Vertical Justification | underlined. Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.                                                                                                                                                                              |
 
 **Related Topics**  
 
@@ -661,12 +861,21 @@ Automatically renumber the reference designators on schematic sheets in a patter
 
 **Objects**  
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td> Sheets</td><td>Choose which sheets to renumber.</td></tr><tr><td></td><td>Hierarchical sheets appear differently depending on whether they have been created from the top down or the bottom up.</td></tr></table>  
+|  Name   | Description                                                                                                            |
+|---------|------------------------------------------------------------------------------------------------------------------------|
+|  Sheets | Choose which sheets to renumber.                                                                                       |
+|         | Hierarchical sheets appear differently depending on whether they have been created from the top down or the bottom up. |
 
 SailWind Logic GUI Reference Basic Script Editor   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>· Bottom-up — Sheets display at the primary level instead of being indented in the list. When using Increment Start Value by Sheet, the reference designators are renumbered on each sheet. · Top-down — Sheets are indented to show they are sub-sheets. When using Increment Start Value by Sheet, the sheets inherit the same base level number as the parent sheet.</td></tr><tr><td>Prefix List</td><td>Choose which reference designator families to renumber. The list displays the total number of reference designators in brackets. The prefix types and totals update based on the sheets selected in the Sheets list.</td></tr><tr><td>Cell size</td><td>Renumbering is applied according to the Precedence pattern within the cell area. Specify the size of cells in which to apply the renumbering pattern. Cells are arranged across the schematic area in selected Precedence pattern. For an illustration explaining cell size, see “Automatically Renumbering Reference Designators" on page 280.</td></tr><tr><td>Renumber</td><td>· Start Value — The number to apply to the first of each type of renumbered reference designator. · Increment — The gap in numbers to apply to the reference designator numbers. · Increment Start Value by Sheet —— Use the sheet number as the start number - the sheet number as shown in the Sheets Dialog Box and not the order of the sheet in this dialog. For example, if the Start Value is 101, then sheet number 1 will start with number 101, but sheet 2 will start with number 201. If used in combination with large start values, the reference designator numbers may quickly run into the software limit. For example, if the start value is set to 10oO, and there are 40 schematic sheets, then reference designators on sheet 40 would start at 40,000 - well over the limit of 32,766. Start value and increment are applied to each reference designator family separately. For example, the schematic has the following components: C1, C2, C3, R1, R2. Start Value is 10 and Increment is 5. The result of renumbering is: C10, C15, C20, R10, R15.Parts on sheets are renumbered in the order of the sheets: first, parts from sheet number 1, then from sheet number 2 and so on. If a part belongs to more than one</td></tr><tr><td>Precedence</td><td>sheet, it gets renumbered on the selected sheet with the lowest number. Specifies the pattern used to renumber parts within a cell area. Also specifies the pattern used for the application of cells to process over the schematic page. Renumbering is performed based upon the first pin of the symbol encountered in the given precedence direction.</td></tr></table>  
+|  Name       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|             | · Bottom-up — Sheets display at the primary level instead of being indented in the list. When using Increment Start Value by Sheet, the reference designators are renumbered on each sheet. · Top-down — Sheets are indented to show they are sub-sheets. When using Increment Start Value by Sheet, the sheets inherit the same base level number as the parent sheet.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prefix List | Choose which reference designator families to renumber. The list displays the total number of reference designators in brackets. The prefix types and totals update based on the sheets selected in the Sheets list.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Cell size   | Renumbering is applied according to the Precedence pattern within the cell area. Specify the size of cells in which to apply the renumbering pattern. Cells are arranged across the schematic area in selected Precedence pattern. For an illustration explaining cell size, see “Automatically Renumbering Reference Designators" on page 280.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Renumber    | · Start Value — The number to apply to the first of each type of renumbered reference designator. · Increment — The gap in numbers to apply to the reference designator numbers. · Increment Start Value by Sheet —— Use the sheet number as the start number - the sheet number as shown in the Sheets Dialog Box and not the order of the sheet in this dialog. For example, if the Start Value is 101, then sheet number 1 will start with number 101, but sheet 2 will start with number 201. If used in combination with large start values, the reference designator numbers may quickly run into the software limit. For example, if the start value is set to 10oO, and there are 40 schematic sheets, then reference designators on sheet 40 would start at 40,000 - well over the limit of 32,766. Start value and increment are applied to each reference designator family separately. For example, the schematic has the following components: C1, C2, C3, R1, R2. Start Value is 10 and Increment is 5. The result of renumbering is: C10, C15, C20, R10, R15.Parts on sheets are renumbered in the order of the sheets: first, parts from sheet number 1, then from sheet number 2 and so on. If a part belongs to more than one |
+| Precedence  | sheet, it gets renumbered on the selected sheet with the lowest number. Specifies the pattern used to renumber parts within a cell area. Also specifies the pattern used for the application of cells to process over the schematic page. Renumbering is performed based upon the first pin of the symbol encountered in the given precedence direction.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 **Basic Script Editor**
 
@@ -693,12 +902,23 @@ Figure 38. Basic Scripts Dialog Box
 Table 71. Basic Scripts Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Basic Script List</td><td>Lists the scripts available to you.</td></tr><tr><td>X button</td><td>Specifies to use the smaller dialog box vs. the entire dialog box. To use_the smaller dialog box, select the script you want to run and press Enter. O Tip</td></tr><tr><td>In Menu</td><td>Specifies to add the selected script to the Basic Scripts menu.</td></tr><tr><td rowspan="2">Run button</td><td>Runs the selected script. Restriction:</td></tr><tr><td>You can not run multiple scripts at the same time. Tip If the selected script has an error during compilation, it automatically opens in the Basic Script editor for correction.</td></tr><tr><td>Edit button</td><td>Opens the Sax Basic Engine dialog box with the selected script loaded. See also Managing the Sax Basic Engine on page 389</td></tr></table>  
+| Name                                                                                                                                                                             | Description                                                                                                                                                |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Basic Script List                                                                                                                                                                | Lists the scripts available to you.                                                                                                                        |
+| X button                                                                                                                                                                         | Specifies to use the smaller dialog box vs. the entire dialog box. To use_the smaller dialog box, select the script you want to run and press Enter. O Tip |
+| In Menu                                                                                                                                                                          | Specifies to add the selected script to the Basic Scripts menu.                                                                                            |
+| Run button                                                                                                                                                                       | Runs the selected script. Restriction:                                                                                                                     |
+| You can not run multiple scripts at the same time. Tip If the selected script has an error during compilation, it automatically opens in the Basic Script editor for correction. |
+| Edit button                                                                                                                                                                      | Opens the Sax Basic Engine dialog box with the selected script loaded. See also Managing the Sax Basic Engine on page 389                                  |
 
 Table 71. Basic Scripts Dialog Box Fields (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Load File button</td><td>Adds a new script to the list. Tip · You can load up to 32,767 scripts. Scripts are not compiled when they are loaded; they are compiled when you run them • The list of scripts you load into this dialog box is saved in the</td></tr><tr><td>Unload button</td><td>Scripts dialog box. Removes the selected script from the list.</td></tr><tr><td>Description area</td><td>Displays the location of the selected script.</td></tr></table>  
+| Name             | Description                                                                                                                                                                                                                    |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Load File button | Adds a new script to the list. Tip · You can load up to 32,767 scripts. Scripts are not compiled when they are loaded; they are compiled when you run them • The list of scripts you load into this dialog box is saved in the |
+| Unload button    | Scripts dialog box. Removes the selected script from the list.                                                                                                                                                                 |
+| Description area | Displays the location of the selected script.                                                                                                                                                                                  |
 
 **Related Topics**  
 
@@ -729,12 +949,25 @@ Figure 39. Attributes tab
 Table 72. Bill of Materials Setup Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td rowspan="5">Attribute table</td><td>Specifies the attributes in, headings for, and width of the BOM report.</td></tr><tr><td>· Part Attribute column — Specifies the attributes you want in the report. You can list up to twelve attribute names. Each</td></tr><tr><td>attribute defines a column in the report. · Field Header column — Specifies the column heading for</td></tr><tr><td>each attribute in the report. You can specify any character except the colon (: ).</td></tr><tr><td>· Width column —— Specifies the number of characters across the column for each attribute in the report: 1 to 200.</td></tr></table>  
+|  Name                                                                                                                      | Description                                                             |
+|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Attribute table                                                                                                            | Specifies the attributes in, headings for, and width of the BOM report. |
+| · Part Attribute column — Specifies the attributes you want in the report. You can list up to twelve attribute names. Each |
+| attribute defines a column in the report. · Field Header column — Specifies the column heading for                         |
+| each attribute in the report. You can specify any character except the colon (: ).                                         |
+| · Width column —— Specifies the number of characters across the column for each attribute in the report: 1 to 200.         |
 
 Table 72. Bill of Materials Setup Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td> Description</td></tr><tr><td>Up button</td><td>Moves the selected row up by one. O Tip</td></tr><tr><td>Down button</td><td>arrangement in the BOM report. Moves the selected row down by one. Tip The attribute order in the content list determines the column</td></tr><tr><td>Add button</td><td>Adds a row to the bottom of the table where you can select a new part attribute. Tip You can list up to twelve attribute names. Each attribute defines</td></tr><tr><td>Edit button</td><td>Makes the selected box editable. Restriction: You cannot edit the part attribute name, but you can select a</td></tr><tr><td>Remove button</td><td>new attribute to replace the one currently listed. Removes the selected row from the table and therefore the</td></tr><tr><td>Reset button</td><td>attribute from the report. Restores the default content from the .ini file.</td></tr></table>  
+|  Name         |  Description                                                                                                                                           |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Up button     | Moves the selected row up by one. O Tip                                                                                                                |
+| Down button   | arrangement in the BOM report. Moves the selected row down by one. Tip The attribute order in the content list determines the column                   |
+| Add button    | Adds a row to the bottom of the table where you can select a new part attribute. Tip You can list up to twelve attribute names. Each attribute defines |
+| Edit button   | Makes the selected box editable. Restriction: You cannot edit the part attribute name, but you can select a                                            |
+| Remove button | new attribute to replace the one currently listed. Removes the selected row from the table and therefore the                                           |
+| Reset button  | attribute from the report. Restores the default content from the .ini file.                                                                            |
 
 **Related Topics**  
 
@@ -754,12 +987,21 @@ Figure 40. BOM Config Tab
 Table 73. Bill of Materials Setup Dialog Box-BOM Config Fields  
 
 
-<table><tr><td> Name</td><td> Description</td><td> Remark</td></tr><tr><td>Report table</td><td>Displays the BOM report in table format for you to select and copy any row or export to a CSV/TXT file. This table shows the data from the attributes you selected on the Attributes tab.</td><td></td></tr><tr><td>Select All button</td><td> Selects all rows in the table.</td><td rowspan="3">Use these func selected rows t</td></tr><tr><td>Copy button</td><td>Specifies to copy the row(s) you've selected to the Windows clipboard.</td></tr><tr><td>Include table header</td><td>Specifies to copy the table header in addition to the row(s) you've selected.</td></tr><tr><td>Export button</td><td>Exports the BOM report to a CSV/TXT file. You can exclude the row(s) you don't want by checking the NC checkbox.</td><td rowspan="2">Use these func allowable rows</td></tr><tr><td>Combine Reference button</td><td>Specifies to include reference designators sharing identical Part Name in the same cell.</td></tr></table>  
+|  Name                    |  Description                                                                                                                                                                              |  Remark                        |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| Report table             | Displays the BOM report in table format for you to select and copy any row or export to a CSV/TXT file. This table shows the data from the attributes you selected on the Attributes tab. |                                |
+| Select All button        |  Selects all rows in the table.                                                                                                                                                           | Use these func selected rows t |
+| Copy button              | Specifies to copy the row(s) you've selected to the Windows clipboard.                                                                                                                    |
+| Include table header     | Specifies to copy the table header in addition to the row(s) you've selected.                                                                                                             |
+| Export button            | Exports the BOM report to a CSV/TXT file. You can exclude the row(s) you don't want by checking the NC checkbox.                                                                          | Use these func allowable rows  |
+| Combine Reference button | Specifies to include reference designators sharing identical Part Name in the same cell.                                                                                                  |
 
 Table 73. Bill of Materials Setup Dialog Box-BOM Config Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td><td>Remark</td></tr><tr><td>Clear NC button</td><td>Specifies to clear all the NC checkboxes selected in the table</td><td></td></tr></table>  
+|  Name           | Description                                                    | Remark |
+|-----------------|----------------------------------------------------------------|--------|
+| Clear NC button | Specifies to clear all the NC checkboxes selected in the table |        |
 
 **Related Topics**  
 
@@ -778,12 +1020,30 @@ Use the Format tab to modify the output format of the Bill of Material report. T
 Table 74. Bill of Materials Setup Dialog Box-Format Tab Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Delimiter area</td><td>Specifies the type of delimiter you want to distinguish the report columns. · None — no delimiter used.</td></tr></table>  
+|  Name          | Description                                                                                             |
+|----------------|---------------------------------------------------------------------------------------------------------|
+| Delimiter area | Specifies the type of delimiter you want to distinguish the report columns. · None — no delimiter used. |
 
 Table 74. Bill of Materials Setup Dialog Box-Format Tab Fields (continued)   
 
 
-<table><tr><td colspan="2">Name Description</td></tr><tr><td></td><td>· Comma — places a comma character between report fields. · Custom — specify any character as a delimiter.</td></tr><tr><td>File Format list</td><td> Specifies the output file format.</td></tr><tr><td>Reset button</td><td>Restores the default content from the .ini file.</td></tr><tr><td>Settings list</td><td> Specifies to use a previously saved report format setting.</td></tr><tr><td>Save As button</td><td>Saves report format settings for the current design to a specified file so you can create different format configurations for different</td></tr><tr><td>Delete button</td><td>designs Removes the selected setting in the Settings list.</td></tr><tr><td colspan="2">Format Options area</td></tr><tr><td>Report Title</td><td> Specifies the title of the report.</td></tr><tr><td>Combine Value/Tolerance</td><td>Specifies to combine the Value and Tolerance attributes of a part in the part name. Example: The 1/4 watt resistor would have a part type name of</td></tr><tr><td>Ref. Designator Separation Mode</td><td>R1/4W or R1/4W.4.7K,+/-5%. SailWind Logic evaluates parts that have either a different Value or Tolerance attribute as different part types. · Single Ref. Designator per line — Although some components are identical, display each component instance on</td></tr><tr><td></td><td>a new line. This increases the BOM report size. · Multiple Ref. Designator per line — Combines identical component instances on one line and lists all reference designators based on the settings below: · Compress Ranges — Displays ranges of components</td></tr><tr><td></td><td>with a dash between min and max value. For example, if components C1, C2, C3, and C4 are identical, they are displayed as C1-4. This can shorten the list of reference designators listed for a component type.</td></tr><tr><td></td><td>If you clear this check box, ranges are not compressed and individual reference designators are listed for the line entry. For example, C1,C2,C3,C4. · Ref designator Delimiter — Specify a single character</td></tr><tr><td></td><td>to place between multiple reference designators. For example, use a comma for "C1,C2,C3", or use an asterisk for "C1*C2*C3". Although you can type multiple characters in this box, only the first character applies.</td></tr><tr><td>Sort By list</td><td>Specifies the attribute in which to sort the report list. Tip</td></tr></table>  
+| Name Description                |
+|---------------------------------|
+|                                 | · Comma — places a comma character between report fields. · Custom — specify any character as a delimiter.                                                                                                                                                  |
+| File Format list                |  Specifies the output file format.                                                                                                                                                                                                                          |
+| Reset button                    | Restores the default content from the .ini file.                                                                                                                                                                                                            |
+| Settings list                   |  Specifies to use a previously saved report format setting.                                                                                                                                                                                                 |
+| Save As button                  | Saves report format settings for the current design to a specified file so you can create different format configurations for different                                                                                                                     |
+| Delete button                   | designs Removes the selected setting in the Settings list.                                                                                                                                                                                                  |
+| Format Options area             |
+| Report Title                    |  Specifies the title of the report.                                                                                                                                                                                                                         |
+| Combine Value/Tolerance         | Specifies to combine the Value and Tolerance attributes of a part in the part name. Example: The 1/4 watt resistor would have a part type name of                                                                                                           |
+| Ref. Designator Separation Mode | R1/4W or R1/4W.4.7K,+/-5%. SailWind Logic evaluates parts that have either a different Value or Tolerance attribute as different part types. · Single Ref. Designator per line — Although some components are identical, display each component instance on |
+|                                 | a new line. This increases the BOM report size. · Multiple Ref. Designator per line — Combines identical component instances on one line and lists all reference designators based on the settings below: · Compress Ranges — Displays ranges of components |
+|                                 | with a dash between min and max value. For example, if components C1, C2, C3, and C4 are identical, they are displayed as C1-4. This can shorten the list of reference designators listed for a component type.                                             |
+|                                 | If you clear this check box, ranges are not compressed and individual reference designators are listed for the line entry. For example, C1,C2,C3,C4. · Ref designator Delimiter — Specify a single character                                                |
+|                                 | to place between multiple reference designators. For example, use a comma for "C1,C2,C3", or use an asterisk for "C1*C2*C3". Although you can type multiple characters in this box, only the first character applies.                                       |
+| Sort By list                    | Specifies the attribute in which to sort the report list. Tip                                                                                                                                                                                               |
 
 **Related Topics**  
 
@@ -803,7 +1063,13 @@ Figure 41. Browse for Connectors Dialog Box
 Table 75. Browse for Connectors Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Preview area</td><td>Shows the selected part.</td></tr><tr><td>Part Types</td><td>Lists the items in the selected library. The number of objects that appear depends on the filter settings.</td></tr><tr><td>Library list</td><td>Specifies the library you want to use.</td></tr><tr><td>Items</td><td>Narrows the search. You can use wildcards or expressions on page 105. An asterisk (*) displays all parts in the list.</td></tr><tr><td>Apply button</td><td>Searches the library for the specified item.</td></tr></table>  
+|  Name        | Description                                                                                                           |
+|--------------|-----------------------------------------------------------------------------------------------------------------------|
+| Preview area | Shows the selected part.                                                                                              |
+| Part Types   | Lists the items in the selected library. The number of objects that appear depends on the filter settings.            |
+| Library list | Specifies the library you want to use.                                                                                |
+| Items        | Narrows the search. You can use wildcards or expressions on page 105. An asterisk (*) displays all parts in the list. |
+| Apply button | Searches the library for the specified item.                                                                          |
 
 **Related Topics**  
 
@@ -823,7 +1089,13 @@ Figure 42. Browse for Special Symbols Dialog Box
 Table 76. Browse for Special Symbols Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Preview area</td><td>Shows the selected item.</td></tr><tr><td>Gate Decals</td><td>Lists the items in the selected library. The number of objects that appear depends on the filter settings.</td></tr><tr><td>Library list</td><td>Specifies the library you want to use.</td></tr><tr><td>Items</td><td>Narrows the search. You can use wildcards or expressions on page 105. An asterisk (*) displays all parts in the list.</td></tr><tr><td>Apply button</td><td>Searches the library for the specified item.</td></tr></table>  
+|  Name        | Description                                                                                                           |
+|--------------|-----------------------------------------------------------------------------------------------------------------------|
+| Preview area | Shows the selected item.                                                                                              |
+| Gate Decals  | Lists the items in the selected library. The number of objects that appear depends on the filter settings.            |
+| Library list | Specifies the library you want to use.                                                                                |
+| Items        | Narrows the search. You can use wildcards or expressions on page 105. An asterisk (*) displays all parts in the list. |
+| Apply button | Searches the library for the specified item.                                                                          |
 
 **Related Topics**  
 
@@ -843,7 +1115,11 @@ Figure 43. Browse Library Attributes Dialog Box
 Table 77. Browse Library Attributes Dialog Box Fields   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Attribute</td><td>Displays the selected attribute.</td></tr><tr><td>Group</td><td>Filters the attribute list. (Includes structured attributes.)</td></tr><tr><td>Refresh button</td><td>Manually updates the attribute list if you change the list of libraries in the Library Manager.</td></tr></table>  
+|  Name          | Description                                                                                     |
+|----------------|-------------------------------------------------------------------------------------------------|
+| Attribute      | Displays the selected attribute.                                                                |
+| Group          | Filters the attribute list. (Includes structured attributes.)                                   |
+| Refresh button | Manually updates the attribute list if you change the list of libraries in the Library Manager. |
 
 **Related Topics**  
 
@@ -863,12 +1139,23 @@ Figure 44. Bus Name Properties Dialog Box
 Table 78. Bus Name Properties Dialog Box FIelds   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Name</td><td>The name of the selected bus.</td></tr><tr><td>Bus button</td><td>Opens the Bus Properties Dialog Box.</td></tr><tr><td>Rotation</td><td>Specifies the rotation of the label: O or 90 degrees.</td></tr><tr><td>Size</td><td>Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The size refers to the height of the tallest characters.</td></tr></table>  
+|  Name      | Description                                                                                                                                                                                                                            |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name       | The name of the selected bus.                                                                                                                                                                                                          |
+| Bus button | Opens the Bus Properties Dialog Box.                                                                                                                                                                                                   |
+| Rotation   | Specifies the rotation of the label: O or 90 degrees.                                                                                                                                                                                  |
+| Size       | Specifies the size of the font. Size (pts): This is font size in points and appears for system fonts Size (mils): This is font character height and appears for stroke fonts. The size refers to the height of the tallest characters. |
 
 Table 78. Bus Name Properties Dialog Box FIelds (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td></td><td>Gg Stroke Font - Size</td></tr><tr><td>Line Width</td><td>Specifies the line width for stroke fonts only. text Stroke Line Width</td></tr><tr><td>Font list</td><td>The fonts available to you. Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or any combination of styles: B for bold, I for italic, or U for</td></tr><tr><td>Font Style</td><td>Enables you to change the font style to bold, italic, and underlined. Restriction: System fonts only.</td></tr><tr><td>Horizontal/Vertical Justification</td><td>Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.</td></tr></table>  
+| Name                              | Description                                                                                                                                                                                         |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                   | Gg Stroke Font - Size                                                                                                                                                                               |
+| Line Width                        | Specifies the line width for stroke fonts only. text Stroke Line Width                                                                                                                              |
+| Font list                         | The fonts available to you. Tip · Select stroke font or a system font. · For system fonts, you can also click a font style button, or any combination of styles: B for bold, I for italic, or U for |
+| Font Style                        | Enables you to change the font style to bold, italic, and underlined. Restriction: System fonts only.                                                                                               |
+| Horizontal/Vertical Justification | Specifies the horizontal (Right, Center, Left) justification and the vertical (Up, Center, Down) justification of the text.                                                                         |
 
 **Related Topics**  
 
@@ -888,12 +1175,34 @@ Figure 45. Bus Properties Dialog Box
 Table 79. Bus Properties Dialog Box Fields   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Bus Name</td><td>Specifies the name of the bus. Select or type the name you want.</td></tr><tr><td>Rename area</td><td>Specifies to rename this instance or all instances of the bus.</td></tr><tr><td>Bus Type area</td><td>Specifies which bus names appear in the Bus Name list.</td></tr><tr><td>Add Bus Name Label</td><td>Select the Add Bus Name Label check box to add the bus name as a label to the bus at the end of the bus closest to where you selected it.</td></tr></table>  
+| Name               | Description                                                                                                                               |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Bus Name           | Specifies the name of the bus. Select or type the name you want.                                                                          |
+| Rename area        | Specifies to rename this instance or all instances of the bus.                                                                            |
+| Bus Type area      | Specifies which bus names appear in the Bus Name list.                                                                                    |
+| Add Bus Name Label | Select the Add Bus Name Label check box to add the bus name as a label to the bus at the end of the bus closest to where you selected it. |
 
 Table 79. Bus Properties Dialog Box Fields (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td rowspan="4"></td><td>Tip ·A bus can have two labels, one on each end.</td></tr><tr><td>· The check box is unavailable when the end of the selected bus has a label.</td></tr><tr><td>·A bus label is not required. ·To delete a bus label, select the label in the schematic and</td></tr><tr><td>click the Delete button on the standard toolbar.</td></tr><tr><td rowspan="4">Bus Nets table</td><td>Lists the name or prefix of the bus net, the starting bit number for a sequence of nets, and the ending bit number for a sequence of nets.</td></tr><tr><td>Restriction: Available only if the bus is a mixed net bus.</td></tr><tr><td>Tip</td></tr><tr><td>· For a single net, type the net name. ·For a range of sequential nets, type the prefix for the sequence of nets.</td></tr><tr><td rowspan="2">Add button</td><td>Adds a row to the Bus Nets table.</td></tr><tr><td>Restriction: Available only if the bus is a mixed net bus.</td></tr><tr><td rowspan="2">Edit button</td><td>Makes the selected row available for editing.</td></tr><tr><td>Restriction: Available only if the bus is a mixed net bus.</td></tr><tr><td rowspan="2">Delete button</td><td>Removes the selected row from the Bus Nets table.</td></tr><tr><td>Restriction: Available only if the bus is a mixed net bus.</td></tr><tr><td rowspan="2">Down/Up buttons</td><td>Moves the selected row up or down in the Bus Nets table.</td></tr><tr><td>Restriction:</td></tr></table>
+|  Name                                                                                                             | Description                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                   | Tip ·A bus can have two labels, one on each end.                                                                                           |
+| · The check box is unavailable when the end of the selected bus has a label.                                      |
+| ·A bus label is not required. ·To delete a bus label, select the label in the schematic and                       |
+| click the Delete button on the standard toolbar.                                                                  |
+| Bus Nets table                                                                                                    | Lists the name or prefix of the bus net, the starting bit number for a sequence of nets, and the ending bit number for a sequence of nets. |
+| Restriction: Available only if the bus is a mixed net bus.                                                        |
+| Tip                                                                                                               |
+| · For a single net, type the net name. ·For a range of sequential nets, type the prefix for the sequence of nets. |
+| Add button                                                                                                        | Adds a row to the Bus Nets table.                                                                                                          |
+| Restriction: Available only if the bus is a mixed net bus.                                                        |
+| Edit button                                                                                                       | Makes the selected row available for editing.                                                                                              |
+| Restriction: Available only if the bus is a mixed net bus.                                                        |
+| Delete button                                                                                                     | Removes the selected row from the Bus Nets table.                                                                                          |
+| Restriction: Available only if the bus is a mixed net bus.                                                        |
+| Down/Up buttons                                                                                                   | Moves the selected row up or down in the Bus Nets table.                                                                                   |
+| Restriction:                                                                                                      |
 
 Related Topics Managing Buses  
 
@@ -911,12 +1220,26 @@ Figure 46. CAE Decal Wizard Dialog Box
 Table 80. CAE Decal Wizard Dialog Box contents   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Preview area</td><td>Displays what the CAE decal looks like based on your settings.</td></tr><tr><td>Pin Length area</td><td>Sets the horizontal and vertical distance from the terminal connection point to the decal outline.</td></tr><tr><td>Pin Spacing area</td><td>Sets the horizontal and vertical distance between pins.</td></tr><tr><td rowspan="4">Box Parameters area</td><td>Sets the width and height of the decal outline.</td></tr><tr><td>Tip</td></tr><tr><td>· Pin decals are moved left or right to accommodate the box width. · If you enter a value larger than needed to accommodate the</td></tr><tr><td>number of input or output pins, space is added to the bottom of the decal.</td></tr><tr><td>Left Pins area</td><td>Specifies the pin decal and pin count for the left, or input, side of the part. · Pin Decal — Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side.</td></tr><tr><td>Right Pins area</td><td>Specifies the pin decal and pin count for the right, or output, side of the part.</td></tr></table>  
+|  Name                                                                                                                           | Description                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Preview area                                                                                                                    | Displays what the CAE decal looks like based on your settings.                                                                                                                                              |
+| Pin Length area                                                                                                                 | Sets the horizontal and vertical distance from the terminal connection point to the decal outline.                                                                                                          |
+| Pin Spacing area                                                                                                                | Sets the horizontal and vertical distance between pins.                                                                                                                                                     |
+| Box Parameters area                                                                                                             | Sets the width and height of the decal outline.                                                                                                                                                             |
+| Tip                                                                                                                             |
+| · Pin decals are moved left or right to accommodate the box width. · If you enter a value larger than needed to accommodate the |
+| number of input or output pins, space is added to the bottom of the decal.                                                      |
+| Left Pins area                                                                                                                  | Specifies the pin decal and pin count for the left, or input, side of the part. · Pin Decal — Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side. |
+| Right Pins area                                                                                                                 | Specifies the pin decal and pin count for the right, or output, side of the part.                                                                                                                           |
 
 Table 80. CAE Decal Wizard Dialog Box contents (continued)   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td></td><td>· Pin Decal — Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side.</td></tr><tr><td>Upper Pins area</td><td>Specifies the pin decal and pin count for the upper side of the part. · Pin Decal - Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side.</td></tr><tr><td>Lower Pins area</td><td>Specifies the pin decal and pin count for the lower side of the part. · Pin Decal - Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side.</td></tr></table>  
+|  Name           | Description                                                                                                                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 | · Pin Decal — Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side.                                                                       |
+| Upper Pins area | Specifies the pin decal and pin count for the upper side of the part. · Pin Decal - Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side. |
+| Lower Pins area | Specifies the pin decal and pin count for the lower side of the part. · Pin Decal - Specifies the pin decal to use for this side. · Pin Count — Specifies the number of pins to use on this side. |
 
 **Related Topics**  
 
@@ -936,7 +1259,10 @@ Figure 47. Capture a New View Dialog Box
 Table 81. Capture a New View Dialog Box contents   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Name</td><td>Specifies the name you want for the view. View n is the default name where n is the next number available.</td></tr><tr><td></td><td>i Tip You can create up to nine views. The view names appear at the bottom of the View menu.</td></tr></table>  
+| Name | Description                                                                                                |
+|------|------------------------------------------------------------------------------------------------------------|
+| Name | Specifies the name you want for the view. View n is the default name where n is the next number available. |
+|      | i Tip You can create up to nine views. The view names appear at the bottom of the View menu.               |
 
 **Related Topics**  
 
@@ -956,12 +1282,23 @@ Figure 48. Change Part Type Dialog Box
 Table 82. Change Part Type Dialog Box Contents   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Picture area</td><td>Displays the part selected in the Part Types list.</td></tr><tr><td>Part Types list</td><td>Lists all of the part types according to the filter settings.</td></tr><tr><td>Update attributes common to design and library</td><td>Updates parts having common attributes with the attribute values contained in the new part.</td></tr><tr><td>Preserve attributes in design not present in library</td><td>Retains attributes that exist in the current part even though they do not exist in the new part.</td></tr></table>  
+|  Name                                                | Description                                                                                      |
+|------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Picture area                                         | Displays the part selected in the Part Types list.                                               |
+| Part Types list                                      | Lists all of the part types according to the filter settings.                                    |
+| Update attributes common to design and library       | Updates parts having common attributes with the attribute values contained in the new part.      |
+| Preserve attributes in design not present in library | Retains attributes that exist in the current part even though they do not exist in the new part. |
 
 Table 82. Change Part Type Dialog Box Contents (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td></td><td>Sets how parts are updated in the Apply update to area: · This Gate — Only updates the selected gate. · Selected Gates — Only updates the selected gates. Restriction: Available only when multiple parts are selected. · This Part — Only updates a part or all associated gates of a part. · Selected Parts —— Only updates a part or all associated gates of the selected parts. Restriction: Available only when multiple parts are selected. · All Parts This Type — Updates all matching gates and/or parts in the design.</td></tr><tr><td></td><td>Unavailable when multiple parts are selected. Tip · You can update the part definition in the schematic with a modified version in the library. Select the same part name, then click All Parts This Type in the Apply Update to Area. · If you change a part type to one with fewer pins, the</td></tr><tr><td>Library list</td><td>connections going to the missing pins are not deleted. They are attached to automatically generated off-page symbols. You are notified of all disconnected pins.</td></tr><tr><td>Items</td><td>Specifies the library you want to use. Narrows the search. You can use wildcards or expressions on</td></tr><tr><td></td><td>page 105. An asterisk (*) displays all parts in the list.</td></tr></table>  
+| Name         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              | Sets how parts are updated in the Apply update to area: · This Gate — Only updates the selected gate. · Selected Gates — Only updates the selected gates. Restriction: Available only when multiple parts are selected. · This Part — Only updates a part or all associated gates of a part. · Selected Parts —— Only updates a part or all associated gates of the selected parts. Restriction: Available only when multiple parts are selected. · All Parts This Type — Updates all matching gates and/or parts in the design. |
+|              | Unavailable when multiple parts are selected. Tip · You can update the part definition in the schematic with a modified version in the library. Select the same part name, then click All Parts This Type in the Apply Update to Area. · If you change a part type to one with fewer pins, the                                                                                                                                                                                                                                   |
+| Library list | connections going to the missing pins are not deleted. They are attached to automatically generated off-page symbols. You are notified of all disconnected pins.                                                                                                                                                                                                                                                                                                                                                                 |
+| Items        | Specifies the library you want to use. Narrows the search. You can use wildcards or expressions on                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|              | page 105. An asterisk (*) displays all parts in the list.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 **Related Topics**  
 
@@ -981,7 +1318,11 @@ Figure 49. Check for Updates Dialog Box
 Table 83. Check for Updates Dialog Box contents   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Check for Updates button</td><td>Manually checks for a new version of the SailWind software.</td></tr><tr><td rowspan="2">Disable“Check for Updates" functionality</td><td>Determines if SailWind automatically checks for a new version of the software.</td></tr><tr><td>Click to stop SailWind from automatically checking for a new version of the SailWind products; click to clear to have SailWind automatically check for a new version.</td></tr></table>  
+| Name                                                                                                                                                                  | Description                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Check for Updates button                                                                                                                                              | Manually checks for a new version of the SailWind software.                    |
+| Disable“Check for Updates" functionality                                                                                                                              | Determines if SailWind automatically checks for a new version of the software. |
+| Click to stop SailWind from automatically checking for a new version of the SailWind products; click to clear to have SailWind automatically check for a new version. |
 
 **Related Topics**  
 
@@ -1001,12 +1342,30 @@ Figure 50. Class Rules Dialog Box
 Table 84. Class Rules Dialog Box Contents   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Class Name</td><td>Specifies the class name for which you want to apply rules.</td></tr><tr><td>Class list</td><td>Defines net classes by name and parenthetically notes the rules that apply, if any, to the class.</td></tr><tr><td>Show Classes with Rules</td><td>Specifies to list only classes with at least one set of rule definitions.</td></tr><tr><td>Add button</td><td>Adds a new Class Name to the Class list.</td></tr><tr><td>Delete button</td><td>Removes the selected Class Name from the Class list.</td></tr><tr><td rowspan="2">Rename button</td><td>Renames the selected Class Name in the Class list.</td></tr><tr><td>Tip Select the name in the list, type the new name in the Class Name box and then click Rename.</td></tr></table>  
+| Name                                                                                            | Description                                                                                       |
+|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Class Name                                                                                      | Specifies the class name for which you want to apply rules.                                       |
+| Class list                                                                                      | Defines net classes by name and parenthetically notes the rules that apply, if any, to the class. |
+| Show Classes with Rules                                                                         | Specifies to list only classes with at least one set of rule definitions.                         |
+| Add button                                                                                      | Adds a new Class Name to the Class list.                                                          |
+| Delete button                                                                                   | Removes the selected Class Name from the Class list.                                              |
+| Rename button                                                                                   | Renames the selected Class Name in the Class list.                                                |
+| Tip Select the name in the list, type the new name in the Class Name box and then click Rename. |
 
 Table 84. Class Rules Dialog Box Contents (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Clearance button</td><td>Opens the Clearance Rules Dialog Box.</td></tr><tr><td>Routing button</td><td>Opens the Routing Rules Dialog Box.</td></tr><tr><td>Hi Speed button</td><td>Opens the HiSpeed Rules Dialog Box.</td></tr><tr><td>Report button</td><td>Opens the Rules Report Dialog Box.</td></tr><tr><td>Available list</td><td>Lists all of the available nets for this Class.</td></tr><tr><td>Add>> button</td><td>Moves the net from the Available list to the Selected list.</td></tr><tr><td><<Remove button</td><td>Moves the net from the Selected list to the Available list.</td></tr><tr><td>Selected list</td><td>Lists all of the selected nets for this Class.</td></tr><tr><td>Default button</td><td>Removes non-default rules from the selected nets, so that only default rules apply.</td></tr></table>  
+| Name             | Description                                                                         |
+|------------------|-------------------------------------------------------------------------------------|
+| Clearance button | Opens the Clearance Rules Dialog Box.                                               |
+| Routing button   | Opens the Routing Rules Dialog Box.                                                 |
+| Hi Speed button  | Opens the HiSpeed Rules Dialog Box.                                                 |
+| Report button    | Opens the Rules Report Dialog Box.                                                  |
+| Available list   | Lists all of the available nets for this Class.                                     |
+| Add>> button     | Moves the net from the Available list to the Selected list.                         |
+| <<Remove button  | Moves the net from the Selected list to the Available list.                         |
+| Selected list    | Lists all of the selected nets for this Class.                                      |
+| Default button   | Removes non-default rules from the selected nets, so that only default rules apply. |
 
 ## Clearance Rules Dialog Box  
 
@@ -1022,12 +1381,20 @@ Figure 51. Clearance Rules Dialog Box
 Table 85. Clearance Rules Dialog Box contents   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Same Net area</td><td>Defines edge-to-edge clearance values between items that are in the same net. Tip · To define the minimum spacing between any two objects, type the value in the corresponding text box. · To define the same spacing value for all text boxes in one matrix column, press the button above the column. Type a value and click OK. · To define the same spacing value for all text boxes in one matrix row, press the button in the left column. Type a value and click OK. · To define the same spacing value for all text boxes in the matrix, press the All button. Type a value and click OK. See also Same NetMatrix</td></tr><tr><td>Trace Width area</td><td>Specifies to restrict the trace width to a range of values.</td></tr></table>  
+| Name             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Same Net area    | Defines edge-to-edge clearance values between items that are in the same net. Tip · To define the minimum spacing between any two objects, type the value in the corresponding text box. · To define the same spacing value for all text boxes in one matrix column, press the button above the column. Type a value and click OK. · To define the same spacing value for all text boxes in one matrix row, press the button in the left column. Type a value and click OK. · To define the same spacing value for all text boxes in the matrix, press the All button. Type a value and click OK. See also Same NetMatrix |
+| Trace Width area | Specifies to restrict the trace width to a range of values.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 Table 85. Clearance Rules Dialog Box contents (continued)   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td></td><td>Tip · In the Recommended box, type the width you want to assign to the trace when routing begins. · In the Minimum and Maximum boxes, values are respected</td></tr><tr><td>Clearance area</td><td>Defines edge-to-edge clearances between two object types: · To define the minimum spacing between any two objects, type the value in the appropriate text box. • To define the same spacing value for all text boxes in one matrix column, press the button above the column and type a value. · To define the same spacing value for all text boxes in one matrix</td></tr><tr><td>Other area</td><td>Specifies other optional clearance values. · Drill to Drill — The minimum edge-to-edge spacing between two drill holes. · Body to Body — The minimum edge-to-edge spacing between two</td></tr><tr><td>Delete button</td><td>Removes this set of Clearance rules from your rules hierarchy. Tip You cannot delete the Default Clearance rules.</td></tr></table>  
+| Name           | Description                                                                                                                                                                                                                                                                                                                                                        |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                | Tip · In the Recommended box, type the width you want to assign to the trace when routing begins. · In the Minimum and Maximum boxes, values are respected                                                                                                                                                                                                         |
+| Clearance area | Defines edge-to-edge clearances between two object types: · To define the minimum spacing between any two objects, type the value in the appropriate text box. • To define the same spacing value for all text boxes in one matrix column, press the button above the column and type a value. · To define the same spacing value for all text boxes in one matrix |
+| Other area     | Specifies other optional clearance values. · Drill to Drill — The minimum edge-to-edge spacing between two drill holes. · Body to Body — The minimum edge-to-edge spacing between two                                                                                                                                                                              |
+| Delete button  | Removes this set of Clearance rules from your rules hierarchy. Tip You cannot delete the Default Clearance rules.                                                                                                                                                                                                                                                  |
 
 **Related Topics**  
 
@@ -1071,7 +1438,14 @@ Figure 52. Compare/ECO Tools Dialog Box, Documents Tab
 Table 86. Compare/ECO Tools Dialog Box, Documents Tab Contents   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td rowspan="2">Original Schematic Design to Compare</td><td>Specify the design you want to update. Do one of the following: · Select Use Current Schematic Design to use the schematic in memory as the original design. · Clear Use Current Schematic Design, and then type or browse</td></tr><tr><td>to the original design file. The original design file format can be binary (.sch) or PADS-format ASCll (.asc) output from the schematic or layout. Restriction:</td></tr><tr><td rowspan="2">New Current Schematic Design</td><td>design. Specify the design containing the changes you want to place into the original design. Do one of the following: · Select Use Current Schematic Design to use the schematic in memory as the new design.</td></tr><tr><td>· Clear Use Current Schematic Design, and then type or browse to the new design file. The new design file format can be binary (.sch) or PADS-format ASCll (.asc) output from the schematic) or layout. Restriction:</td></tr><tr><td colspan="2"></td></tr><tr><td>Generate ECO File</td><td>Logic.rep and is stored in the ISailWind Projects folder. Specifies to create an ECO file. Type or browse to the ECO file. The ECO file contains ECO commands that describe the changes needed to update the original design to match the new design.</td></tr></table>  
+|  Name                                                                                                                                                                                                                | Description                                                                                                                                                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Original Schematic Design to Compare                                                                                                                                                                                 | Specify the design you want to update. Do one of the following: · Select Use Current Schematic Design to use the schematic in memory as the original design. · Clear Use Current Schematic Design, and then type or browse                            |
+| to the original design file. The original design file format can be binary (.sch) or PADS-format ASCll (.asc) output from the schematic or layout. Restriction:                                                      |
+| New Current Schematic Design                                                                                                                                                                                         | design. Specify the design containing the changes you want to place into the original design. Do one of the following: · Select Use Current Schematic Design to use the schematic in memory as the new design.                                        |
+| · Clear Use Current Schematic Design, and then type or browse to the new design file. The new design file format can be binary (.sch) or PADS-format ASCll (.asc) output from the schematic) or layout. Restriction: |
+|                                                                                                                                                                                                                      |
+| Generate ECO File                                                                                                                                                                                                    | Logic.rep and is stored in the ISailWind Projects folder. Specifies to create an ECO file. Type or browse to the ECO file. The ECO file contains ECO commands that describe the changes needed to update the original design to match the new design. |
 
 **Related Topics**  
 
@@ -1094,17 +1468,36 @@ Figure 53. Compare/ECO Tools Dialog Box, Comparison Tab
 Table 87. Compare/ECO Tools Dialog Box, Comparison Tab Contents   
 
 
-<table><tr><td> Name</td><td> Description</td></tr><tr><td>Comparison Options area</td><td></td></tr><tr><td>Compare Part Attributes</td><td>Comparison includes part attributes. Only part attributes are compared and updated or reported. Each part receives attributes</td></tr></table>  
+|  Name                   |  Description                                                                                                                  |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Comparison Options area |                                                                                                                               |
+| Compare Part Attributes | Comparison includes part attributes. Only part attributes are compared and updated or reported. Each part receives attributes |
 
 Table 87. Compare/ECO Tools Dialog Box, Comparison Tab Contents (continued)   
 
 
-<table><tr><td> Name</td><td> Description</td></tr><tr><td></td><td>from its corresponding Decal and Part Type, but modification is performed only at the part level. SailWind Logic categorizes parts that have different attributes as different part types. Therefore, if you select Include Part Atributes</td></tr><tr><td>Compare Net Attributes</td><td>and reports errors. Comparison includes net attributes. SailWind Logic categorizes nets that have different attributes as different nets. Therefore, if you select Include Net Attributes</td></tr><tr><td>Compare PCB Decal Assignments</td><td>Attributes when you perform an ECO comparison of that netlist. Otherwise the comparison considers the net types to be different and reports errors.</td></tr><tr><td>Compare Design Rules</td><td>Comparison includes PCB decal assignments. Comparison includes design rules. Only Default, Net, and Net</td></tr><tr><td></td><td>Class rules are compared. Rules on other objects in the original design are preserved where possible.</td></tr><tr><td colspan="2"> Name Comparison Options area</td></tr><tr><td>Compare Net Names and Reference Designators. Rename as Necessary</td><td>Compare differences using reference designators and net names. Best used to minimize changes to routed traces. Selecting this option may result in the positional swapping of parts.</td></tr><tr><td>Compare Net Names and Reference Designators. Prefer to Add or Delete Parts Instead of Renaming</td><td>Compare differences using reference designators and net names on the basis that few reference designators have been renamed and nets have not been renamed. Best used to minimize the positional swapping of parts, and the design disruption that may result.</td></tr><tr><td>Compare Connectivity and Topology (not names). Rename as necessary.</td><td>Compare differences without using reference designators or net names. Compare differences using pin names, part type names, and so on. Best used to compare designs when parts and nets have been</td></tr><tr><td colspan="2">Unused Pins Net Name area</td></tr><tr><td>Ignore the Unused Pins Net</td><td>Select the check box and type the name of the unused pins net if you want the design comparison to exclude the unused pins net in the original design. The unused pins net contains pins that have no logical net association. An unused pins net may be created in the</td></tr><tr><td rowspan="2"></td><td>PCB design process.</td></tr><tr><td>Restriction: Specify a net name of 47 characters or less. Use any alphanumeric characters except curly braces {}. asterisks *, or</td></tr></table>  
+|  Name                                                                                                                             |  Description                                                                                                                                                                                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                   | from its corresponding Decal and Part Type, but modification is performed only at the part level. SailWind Logic categorizes parts that have different attributes as different part types. Therefore, if you select Include Part Atributes                              |
+| Compare Net Attributes                                                                                                            | and reports errors. Comparison includes net attributes. SailWind Logic categorizes nets that have different attributes as different nets. Therefore, if you select Include Net Attributes                                                                               |
+| Compare PCB Decal Assignments                                                                                                     | Attributes when you perform an ECO comparison of that netlist. Otherwise the comparison considers the net types to be different and reports errors.                                                                                                                     |
+| Compare Design Rules                                                                                                              | Comparison includes PCB decal assignments. Comparison includes design rules. Only Default, Net, and Net                                                                                                                                                                 |
+|                                                                                                                                   | Class rules are compared. Rules on other objects in the original design are preserved where possible.                                                                                                                                                                   |
+|  Name Comparison Options area                                                                                                     |
+| Compare Net Names and Reference Designators. Rename as Necessary                                                                  | Compare differences using reference designators and net names. Best used to minimize changes to routed traces. Selecting this option may result in the positional swapping of parts.                                                                                    |
+| Compare Net Names and Reference Designators. Prefer to Add or Delete Parts Instead of Renaming                                    | Compare differences using reference designators and net names on the basis that few reference designators have been renamed and nets have not been renamed. Best used to minimize the positional swapping of parts, and the design disruption that may result.          |
+| Compare Connectivity and Topology (not names). Rename as necessary.                                                               | Compare differences without using reference designators or net names. Compare differences using pin names, part type names, and so on. Best used to compare designs when parts and nets have been                                                                       |
+| Unused Pins Net Name area                                                                                                         |
+| Ignore the Unused Pins Net                                                                                                        | Select the check box and type the name of the unused pins net if you want the design comparison to exclude the unused pins net in the original design. The unused pins net contains pins that have no logical net association. An unused pins net may be created in the |
+|                                                                                                                                   | PCB design process.                                                                                                                                                                                                                                                     |
+| Restriction: Specify a net name of 47 characters or less. Use any alphanumeric characters except curly braces {}. asterisks *, or |
 
 Table 87. Compare/ECO Tools Dialog Box, Comparison Tab Contents (continued)   
 
 
-<table><tr><td> Name</td><td></td></tr><tr><td></td><td>Tip If you clear this option and you update the PCB layout from SailWind Logic, the unused pins net may be deleted.</td></tr></table>  
+|  Name |                                                                                                                     |
+|-------|---------------------------------------------------------------------------------------------------------------------|
+|       | Tip If you clear this option and you update the PCB layout from SailWind Logic, the unused pins net may be deleted. |
 
 **Related Topics**  
 
@@ -1134,7 +1527,18 @@ Figure 54. Conditional Rule Setup Dialog Box
 Table 88. Conditional Rule Setup Dialog Box Contents   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Source Rule Object area</td><td>Specifies the object you want to use to check rules. Choose Classes, Nets, or All.</td></tr><tr><td>Against Rule Object area</td><td>Specifies which object to use to check the rules against. Choose Layer, Classes, or Nets.</td></tr><tr><td>Apply to Layer list</td><td>Specifies the layer on which you want the rules to be checked.</td></tr><tr><td>Existing Rule Sets list</td><td>Lists rule sets that have already been created.</td></tr><tr><td colspan="2">Current Rule Set area</td></tr><tr><td>Clearance Object to Object</td><td>Specifies the minimum clearance gap you want the source and against items to maintain from each other.</td></tr><tr><td>Matrix button</td><td>Opens the Clearance Rules Dialog Box.</td></tr><tr><td>High Speed</td><td>Specifies the clearance values for parallel and tandem checking for the condition. The source-against entries are used as the victim-aggressor designations for crosstalk conditions checking. For more information, see Setting Up High-Speed Rules.</td></tr><tr><td>Create button</td><td>Compile the new rule set parameters and adds a description to the Existing Rule Sets list box.</td></tr><tr><td>Delete button</td><td>Removes the selected rule set from the Existing Rule Sets list box</td></tr></table>  
+| Name                       | Description                                                                                                                                                                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Source Rule Object area    | Specifies the object you want to use to check rules. Choose Classes, Nets, or All.                                                                                                                                                                    |
+| Against Rule Object area   | Specifies which object to use to check the rules against. Choose Layer, Classes, or Nets.                                                                                                                                                             |
+| Apply to Layer list        | Specifies the layer on which you want the rules to be checked.                                                                                                                                                                                        |
+| Existing Rule Sets list    | Lists rule sets that have already been created.                                                                                                                                                                                                       |
+| Current Rule Set area      |
+| Clearance Object to Object | Specifies the minimum clearance gap you want the source and against items to maintain from each other.                                                                                                                                                |
+| Matrix button              | Opens the Clearance Rules Dialog Box.                                                                                                                                                                                                                 |
+| High Speed                 | Specifies the clearance values for parallel and tandem checking for the condition. The source-against entries are used as the victim-aggressor designations for crosstalk conditions checking. For more information, see Setting Up High-Speed Rules. |
+| Create button              | Compile the new rule set parameters and adds a description to the Existing Rule Sets list box.                                                                                                                                                        |
+| Delete button              | Removes the selected rule set from the Existing Rule Sets list box                                                                                                                                                                                    |
 
 ## Connect to SailWind Layout Dialog Box  
 
@@ -1149,7 +1553,10 @@ Figure 55. Connect to SailWind Layout Dialog Box
 
 Table 89. Connect to SailWind Layout Dialog Box Contents
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>New button</td><td>Opens and connects SailWind Logic to a new session of SailWind Layout then opens the SailWind Layout Link Dialog Box. Tip If there is a delay in launching and connecting to SailWind Layout, the Server Busy Dialog Box may appear. Wait a short time or till SailWind Layout appears on your Windows Taskbar then click Retry.</td></tr><tr><td>Open button</td><td>Opens and connects to an existing design file in a new SailWind Layout session then opens the SailWind Layout Link Dialog Box. Tip If a prompt window is open in SailWind Layout, the Server Busy Dialog Box may appear. Click the Switch To button and take care of the prompt to enable SaiiWind Logic to connect to SailWind Layout.</td></tr></table>  
+|  Name       | Description                                                                                                                                                                                                                                                                                                                             |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| New button  | Opens and connects SailWind Logic to a new session of SailWind Layout then opens the SailWind Layout Link Dialog Box. Tip If there is a delay in launching and connecting to SailWind Layout, the Server Busy Dialog Box may appear. Wait a short time or till SailWind Layout appears on your Windows Taskbar then click Retry.        |
+| Open button | Opens and connects to an existing design file in a new SailWind Layout session then opens the SailWind Layout Link Dialog Box. Tip If a prompt window is open in SailWind Layout, the Server Busy Dialog Box may appear. Click the Switch To button and take care of the prompt to enable SaiiWind Logic to connect to SailWind Layout. |
 
 ## Connect to SailWind Router Dialog Box
 
@@ -1164,7 +1571,10 @@ Figure 56. Connect to SailWind Router Dialog Box
 
 Table 90. Connect to SailWind Router Dialog Box Contents
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>New button</td><td>Opens and connects SailWind Logic to a new session of SailWind Router then opens the SailWind Router Link Dialog Box. Tip If there is a delay in launching and connecting to SailWind Router, the Server Busy Dialog Box may appear. Wait a short time or till SailWind Router appears on your Windows Taskbar then click Retry.</td></tr><tr><td>Open button</td><td>Opens and connects to an existing design file in a new SailWind Router session then opens the SailWind Router Link Dialog Box. Tip If a prompt window is open in SailWind Router, the Server Busy Dialog Box may appear. Click the Switch To button and take care of the prompt to enable SaiiWind Logic to connect to SailWind Router.</td></tr></table>  
+|  Name       | Description                                                                                                                                                                                                                                                                                                                             |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| New button  | Opens and connects SailWind Logic to a new session of SailWind Router then opens the SailWind Router Link Dialog Box. Tip If there is a delay in launching and connecting to SailWind Router, the Server Busy Dialog Box may appear. Wait a short time or till SailWind Router appears on your Windows Taskbar then click Retry.        |
+| Open button | Opens and connects to an existing design file in a new SailWind Router session then opens the SailWind Router Link Dialog Box. Tip If a prompt window is open in SailWind Router, the Server Busy Dialog Box may appear. Click the Switch To button and take care of the prompt to enable SaiiWind Logic to connect to SailWind Router. |
 
 ## Crash Detected Dialog Box  
 
@@ -1177,7 +1587,11 @@ The Crash Detected dialog box opens at a crash and enables you to save a report 
 Table 91. Crash Detected Dialog Box Contents   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Comments box</td><td>You can describe what you were doing when the error occurred or anything else you can think of that might help when investigating the crash.</td></tr><tr><td>Attach BMW data check box</td><td>You can include BMW data and your project files. This will enable customer support to play back what you were doing in your design that led up to the crash. This check box is unavailable if the BMW feature is not enabled. See also BMW and BLT.</td></tr><tr><td>Save button</td><td>You must click the Save button if you want to create a report file. When you click the Save button, you are prompted with a Save As dialog box. The file that is created is called a Dump File and is compressed in the .zip format. This is the file that you must send to customer support. it will include the report, the BMW data and the project files.</td></tr></table>  
+|  Name                     | Description                                                                                                                                                                                                                                                                                                                                                   |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comments box              | You can describe what you were doing when the error occurred or anything else you can think of that might help when investigating the crash.                                                                                                                                                                                                                  |
+| Attach BMW data check box | You can include BMW data and your project files. This will enable customer support to play back what you were doing in your design that led up to the crash. This check box is unavailable if the BMW feature is not enabled. See also BMW and BLT.                                                                                                           |
+| Save button               | You must click the Save button if you want to create a report file. When you click the Save button, you are prompted with a Save As dialog box. The file that is created is called a Dump File and is compressed in the .zip format. This is the file that you must send to customer support. it will include the report, the BMW data and the project files. |
 
 ## Create PDF Dialog Box  
 
@@ -1200,7 +1614,23 @@ Figure 57. Create PDF Dialog Box
 Table 92. Create PDF Dialog Box Contents   
 
 
-<table><tr><td>Name</td><td>Description</td></tr><tr><td>Available list</td><td>List all of the sheets available to you.</td></tr><tr><td>Add >> Button</td><td>Moves the selected sheet to the Sheets to PDF list.</td></tr><tr><td>Add All >> Button</td><td>Moves all sheets to the Sheets to PDF list.</td></tr><tr><td><< Remove button</td><td>Moves the selected sheet to the Available list.</td></tr><tr><td><< Remove All Button</td><td>Moves all sheets to the Available list.</td></tr><tr><td>Sheets to PDF list</td><td>Lists the sheets you want to PDF.</td></tr><tr><td>View PDF after creation</td><td>Specifies to open the PDF after it has been created.</td></tr><tr><td>Replace Stroke font with</td><td>Specifies to replace the Stroke font with a system font. Select the font you want from the list. Use the Font style buttons to add Bold, Italic, or Underline styles.</td></tr><tr><td></td><td> Restriction:</td></tr><tr><td></td><td>· You can only search a PDF if you replace the Stroke font with a System font. There is no font size control. Text heights are already set for each text</td></tr><tr><td>Create hyperlinks</td><td>item in the design. The height will be converted to the nearest point size in the PDF. Specifies to create a listing of the part attributes as a hyperlink.</td></tr><tr><td>that will display part attributes Create hyperlinks that</td><td></td></tr><tr><td>will pan through nets</td><td>Specifies to create a link to pan to the next instance of that net or bus. Restriction: If the net name is not visible in the schematic, you will not be able to pan through the nets.</td></tr><tr><td>Visible rectangle around objects with hyperlinks</td><td>Specifies to create all hyperlinks with visible boxes: yellow around the part attributes, blue around the net and bus names. Restriction:</td></tr><tr><td>Color scheme area</td><td>it is clicked. Specifies the color scheme you want to use. 1 Tip</td></tr></table>  
+| Name                                                     | Description                                                                                                                                                                            |
+|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Available list                                           | List all of the sheets available to you.                                                                                                                                               |
+| Add >> Button                                            | Moves the selected sheet to the Sheets to PDF list.                                                                                                                                    |
+| Add All >> Button                                        | Moves all sheets to the Sheets to PDF list.                                                                                                                                            |
+| << Remove button                                         | Moves the selected sheet to the Available list.                                                                                                                                        |
+| << Remove All Button                                     | Moves all sheets to the Available list.                                                                                                                                                |
+| Sheets to PDF list                                       | Lists the sheets you want to PDF.                                                                                                                                                      |
+| View PDF after creation                                  | Specifies to open the PDF after it has been created.                                                                                                                                   |
+| Replace Stroke font with                                 | Specifies to replace the Stroke font with a system font. Select the font you want from the list. Use the Font style buttons to add Bold, Italic, or Underline styles.                  |
+|                                                          |  Restriction:                                                                                                                                                                          |
+|                                                          | · You can only search a PDF if you replace the Stroke font with a System font. There is no font size control. Text heights are already set for each text                               |
+| Create hyperlinks                                        | item in the design. The height will be converted to the nearest point size in the PDF. Specifies to create a listing of the part attributes as a hyperlink.                            |
+| that will display part attributes Create hyperlinks that |                                                                                                                                                                                        |
+| will pan through nets                                    | Specifies to create a link to pan to the next instance of that net or bus. Restriction: If the net name is not visible in the schematic, you will not be able to pan through the nets. |
+| Visible rectangle around objects with hyperlinks         | Specifies to create all hyperlinks with visible boxes: yellow around the part attributes, blue around the net and bus names. Restriction:                                              |
+| Color scheme area                                        | it is clicked. Specifies the color scheme you want to use. 1 Tip                                                                                                                       |
 
 ## Customize Dialog Box  
 
@@ -1224,7 +1654,11 @@ Figure 58. Commands Tab
 Table 93. Command Tab Contents   
 
 
-<table><tr><td> Name</td><td>Description</td></tr><tr><td>Categories list</td><td>Narrows down the list of commands.</td></tr><tr><td>Commands list</td><td>List of commands available to add to a menu or toolbar.</td></tr><tr><td>X/</td><td>Add a new command, delete a command you've added, or rename a command you've added.</td></tr></table>  
+|  Name           | Description                                                                         |
+|-----------------|-------------------------------------------------------------------------------------|
+| Categories list | Narrows down the list of commands.                                                  |
+| Commands list   | List of commands available to add to a menu or toolbar.                             |
+| X/              | Add a new command, delete a command you've added, or rename a command you've added. |
 
 **Related Topics**  
 
