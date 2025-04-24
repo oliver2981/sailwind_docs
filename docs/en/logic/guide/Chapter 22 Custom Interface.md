@@ -399,14 +399,26 @@ You can substitute a regular expression for characters in shortcut key command a
 Table 46. Expressions in Shortcut Keys   
 
 
-<table><tr><td>Expression</td><td>Use to</td></tr><tr><td>*</td><td>Match any number of characters.</td></tr><tr><td>？</td><td>Match any one character.</td></tr><tr><td>[set] </td><td>Match any character in the specified set. Tip A set is composed of characters or ranges. A range has the form: Character Hyphen Character, such as A-Z or 0-9. The minimum set of characters supported in a set consists of [O-9a-zA-Z_].</td></tr><tr><td>[!set] or [^set]</td><td>Match any character not in the specified set.</td></tr><tr><td>一</td><td>To suppress the special syntactic significance of the characters * []* ? !^ -\' within a set, and to match the character exactly.</td></tr></table>  
+| Expression       | Use to                                                                                                                                                                                                                                    |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *                | Match any number of characters.                                                                                                                                                                                                           |
+| ？                | Match any one character.                                                                                                                                                                                                                  |
+| [set]            | Match any character in the specified set. Tip A set is composed of characters or ranges. A range has the form: Character Hyphen Character, such as A-Z or 0-9. The minimum set of characters supported in a set consists of [O-9a-zA-Z_]. |
+| [!set] or [^set] | Match any character not in the specified set.                                                                                                                                                                                             |
+| 一                | To suppress the special syntactic significance of the characters * []* ? !^ -\' within a set, and to match the character exactly.                                                                                                         |
 
 The following table shows examples of regular expressions used in command arguments using the preview.pcb design, see Table 47.  
 
 Table 47. Shortcut Key Expression Examples   
 
 
-<table><tr><td>Shortcut key</td><td>Result</td></tr><tr><td>HA*</td><td>Highlights all nets starting with A, such as AoO, AO1, A02.</td></tr><tr><td>H+??</td><td>Highlights all nets starting with +, having two digits or characters after O, such as +5V.</td></tr><tr><td>HA?0</td><td>Highlights all nets starting with A, ending with 0, and with any character in between, such as Aoo and A10.</td></tr><tr><td>H [C-D]*</td><td>Highlights all nets starting with C or D, such as CLKIN, D00.</td></tr><tr><td>H [!C-D]*</td><td>Highlights all nets not starting with C or D, such as Aoo, GND.</td></tr></table>  
+| Shortcut key | Result                                                                                                      |
+|--------------|-------------------------------------------------------------------------------------------------------------|
+| HA*          | Highlights all nets starting with A, such as AoO, AO1, A02.                                                 |
+| H+??         | Highlights all nets starting with +, having two digits or characters after O, such as +5V.                  |
+| HA?0         | Highlights all nets starting with A, ending with 0, and with any character in between, such as Aoo and A10. |
+| H [C-D]*     | Highlights all nets starting with C or D, such as CLKIN, D00.                                               |
+| H [!C-D]*    | Highlights all nets not starting with C or D, such as Aoo, GND.                                             |
 
 #### Deleting a Shortcut Key
 

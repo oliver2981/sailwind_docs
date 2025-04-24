@@ -793,7 +793,10 @@ Type a stroke font size between 10 and 1000 mils or a system font size between 1
 Table 32. Related Topics   
 
 
-<table><tr><td>Attribute Properties Dialog Box</td><td>Part Type Label Properties Dialog Box</td></tr><tr><td>Bus Name Properties Dialog Box</td><td>Pin Label Fonts Dialog Box</td></tr><tr><td>Net Name Properties Dialog Box</td><td>Reference Designator Properties Dialog Box</td></tr></table>  
+| Attribute Properties Dialog Box | Part Type Label Properties Dialog Box      |
+|---------------------------------|--------------------------------------------|
+| Bus Name Properties Dialog Box  | Pin Label Fonts Dialog Box                 |
+| Net Name Properties Dialog Box  | Reference Designator Properties Dialog Box |
 
 ## Modifying Text
 

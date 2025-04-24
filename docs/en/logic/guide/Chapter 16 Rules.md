@@ -54,7 +54,13 @@ You can use the Setting Up Conditional Rules dialog box to save a clearance conf
 Table 33. Clearance Rules - Same Net - Edge-to-Edge Clearance Options   
 
 
-<table><tr><td>Clearance</td><td>Description</td></tr><tr><td>SMD to Via</td><td>Minimum spacing between a surface mount pad and escape via.</td></tr><tr><td>SMD to Corner</td><td>Minimum spacing between a surface mount pad and the first trace bend point.</td></tr><tr><td>Via to Via</td><td>Minimum spacing between two vias in the same net.</td></tr><tr><td>Pad to Corner</td><td>Minimum spacing between a through hole pad and the first trace bend point.</td></tr><tr><td>Trace to Corner</td><td>Minimum spacing between a trace and the bend point of another trace; for example, when a trace splits at a T-junction and one of the two traces has a bend point.</td></tr></table>  
+| Clearance       | Description                                                                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SMD to Via      | Minimum spacing between a surface mount pad and escape via.                                                                                                       |
+| SMD to Corner   | Minimum spacing between a surface mount pad and the first trace bend point.                                                                                       |
+| Via to Via      | Minimum spacing between two vias in the same net.                                                                                                                 |
+| Pad to Corner   | Minimum spacing between a through hole pad and the first trace bend point.                                                                                        |
+| Trace to Corner | Minimum spacing between a trace and the bend point of another trace; for example, when a trace splits at a T-junction and one of the two traces has a bend point. |
 
 3. In the Trace Width area, type values in the text boxes to restrict the trace width to a range of values:  
 
@@ -70,7 +76,10 @@ Table 33. Clearance Rules - Same Net - Edge-to-Edge Clearance Options
 
 Table 34. Clearance Rules - Other - Clearance Options  
 
-<table><tr><td>Clearance</td><td>Description</td></tr><tr><td>Drill to Drill</td><td>The minimum edge-to-edge spacing between two drill holes.</td></tr><tr><td>Body to Body</td><td>The minimum edge-to-edge spacing between two component bodies.</td></tr></table>  
+| Clearance      | Description                                                    |
+|----------------|----------------------------------------------------------------|
+| Drill to Drill | The minimum edge-to-edge spacing between two drill holes.      |
+| Body to Body   | The minimum edge-to-edge spacing between two component bodies. |
 
 6. Click OK, or optionally click Delete to remove this set of Clearance rules from your rules hierarchy.  
 
@@ -89,7 +98,13 @@ To define the same spacing value for all text boxes in one matrix column, press 
 Table 35. Same Net Matrix - Clearance Options   
 
 
-<table><tr><td>Clearance</td><td>Description</td></tr><tr><td>SMD to Via</td><td>Minimum spacing between a surface mount pad and escape via.</td></tr><tr><td>SMD to Corner</td><td>Minimum spacing between a surface mount pad and the first trace bend point.</td></tr><tr><td>Via to Via</td><td>Minimum spacing between two vias in the same net.</td></tr><tr><td>Pad to Corner</td><td>Minimum spacing between a through hole pad and the first trace bend point.</td></tr><tr><td>Trace to Corner</td><td>Minimum spacing between a trace and the bend point of another trace; for example, when a trace splits at a T-junction and one of the two traces has a bend point.</td></tr></table>  
+| Clearance       | Description                                                                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SMD to Via      | Minimum spacing between a surface mount pad and escape via.                                                                                                       |
+| SMD to Corner   | Minimum spacing between a surface mount pad and the first trace bend point.                                                                                       |
+| Via to Via      | Minimum spacing between two vias in the same net.                                                                                                                 |
+| Pad to Corner   | Minimum spacing between a through hole pad and the first trace bend point.                                                                                        |
+| Trace to Corner | Minimum spacing between a trace and the bend point of another trace; for example, when a trace splits at a T-junction and one of the two traces has a bend point. |
 
 ## Routing Rules
 
@@ -118,7 +133,10 @@ When working with high-speed rules, observe the following:
 Table 36. High-Speed Rule Options   
 
 
-<table><tr><td>Option</td><td>Description</td></tr><tr><td>Parallelism</td><td>Restricts the distance that traces in different nets on the same layer can run together.</td></tr><tr><td>Tandem</td><td>Restricts the distance that traces in different nets on different layers can run together.</td></tr></table>  
+| Option      | Description                                                                                |
+|-------------|--------------------------------------------------------------------------------------------|
+| Parallelism | Restricts the distance that traces in different nets on the same layer can run together.   |
+| Tandem      | Restricts the distance that traces in different nets on different layers can run together. |
 
 !Tip  
 
@@ -135,7 +153,13 @@ When configuring High-Speed Rule Options, observe these guidelines:
 Table 37. High-Speed Rules - Minimum/Maximum Values   
 
 
-<table><tr><td>Rule</td><td>Description</td></tr><tr><td>Length</td><td>Defines a minimum and maximum length.</td></tr><tr><td>Stub Length</td><td>Specifies a maximum stub length. The stub length is the distance from a T-point to the end of the route.</td></tr><tr><td>Delay</td><td>Defines a minimum and maximum delay time in nanoseconds.</td></tr><tr><td>Capacitance</td><td>Defines a minimum and maximum capacitance in picofarads.</td></tr><tr><td>Impedance</td><td>Defines a minimum and maximum impedance in ohms.</td></tr></table>  
+| Rule        | Description                                                                                              |
+|-------------|----------------------------------------------------------------------------------------------------------|
+| Length      | Defines a minimum and maximum length.                                                                    |
+| Stub Length | Specifies a maximum stub length. The stub length is the distance from a T-point to the end of the route. |
+| Delay       | Defines a minimum and maximum delay time in nanoseconds.                                                 |
+| Capacitance | Defines a minimum and maximum capacitance in picofarads.                                                 |
+| Impedance   | Defines a minimum and maximum impedance in ohms.                                                         |
 
 !Tip  
 
@@ -193,7 +217,11 @@ In the rules hierarchy, certain rules have precedence over other rules. For exam
 Table 38. Rule Hierarchy and Order of Precedence   
 
 
-<table><tr><td>Rules</td><td>Precedence</td><td>Description</td></tr><tr><td>Setting Up DefaultRules</td><td>Least</td><td>Rules that apply to an object if there are no other individually defined rules.</td></tr><tr><td>Setting_ Up Class Rules</td><td></td><td>Rules for a collection of nets, called a class, which needs identical rules.</td></tr><tr><td>Setting Up Net Rules</td><td>Highest</td><td>Rules for a specific net.</td></tr></table>  
+| Rules                   | Precedence | Description                                                                     |
+|-------------------------|------------|---------------------------------------------------------------------------------|
+| Setting Up DefaultRules | Least      | Rules that apply to an object if there are no other individually defined rules. |
+| Setting_ Up Class Rules |            | Rules for a collection of nets, called a class, which needs identical rules.    |
+| Setting Up Net Rules    | Highest    | Rules for a specific net.                                                       |
 
 **Rules Hierarchy Order of Precedence**
 
@@ -416,7 +444,13 @@ Click the Setup $>$ Design Rules menu item, the click the Report button. You can
 Table 39. Rules Report Types   
 
 
-<table><tr><td>Report Type</td><td>Description</td></tr><tr><td>Rule types</td><td>Displays the specified rules for the specified nets and classes. Click any combination of buttons, including Differential Pairs, to report net pairs.</td></tr><tr><td>Nets</td><td>Displays the specified rules for every net or selected nets. Click All Nets or select specific nets in the list box.</td></tr><tr><td>Classes</td><td>Displays the specified rules for every class or selected classes. Click All Classes or select specific net classes in the list box.</td></tr><tr><td>Output </td><td>Click Rule Sets to display all rules in the current hierarchy that are unique from the default rules. Click Rule Values to display all rules in the current hierarchy level, even if the values are the same as the default rules.</td></tr><tr><td>Default Rules</td><td>Displays the default rules for the specified nets and classes.</td></tr></table>  
+| Report Type   | Description                                                                                                                                                                                                                        |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Rule types    | Displays the specified rules for the specified nets and classes. Click any combination of buttons, including Differential Pairs, to report net pairs.                                                                              |
+| Nets          | Displays the specified rules for every net or selected nets. Click All Nets or select specific nets in the list box.                                                                                                               |
+| Classes       | Displays the specified rules for every class or selected classes. Click All Classes or select specific net classes in the list box.                                                                                                |
+| Output        | Click Rule Sets to display all rules in the current hierarchy that are unique from the default rules. Click Rule Values to display all rules in the current hierarchy level, even if the values are the same as the default rules. |
+| Default Rules | Displays the default rules for the specified nets and classes.                                                                                                                                                                     |
 
 ## Import Rules from PCB
 

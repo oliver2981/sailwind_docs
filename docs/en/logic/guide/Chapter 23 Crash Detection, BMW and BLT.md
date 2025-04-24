@@ -36,7 +36,12 @@ Also, depending on whether the problem you want to document caused the SailWind 
 
 The following table specifies which of the procedures described below you must use to create session playback media.  
 
-<table><tr><td>Was logging enabled?</td><td>Did the SailWind tool crash?</td><td>Then use this procedure.</td></tr><tr><td>Yes</td><td>No</td><td>Creating Session Playback Media for a Normal Session</td></tr><tr><td>No</td><td>No</td><td>Creating Session Playback Media for a Normal Session</td></tr><tr><td>Yes</td><td>Yes</td><td>Automatically Creating Session Playback Media for a Crashed Session</td></tr><tr><td>No</td><td>Yes</td><td>Manually Creating Session Playback Media for a Crashed Session</td></tr></table>  
+| Was logging enabled? | Did the SailWind tool crash? | Then use this procedure.                                     |
+| -------------------- | ---------------------------- | ------------------------------------------------------------ |
+| Yes                  | No                           | Creating Session Playback Media for a Normal Session         |
+| No                   | No                           | Creating Session Playback Media for a Normal Session         |
+| Yes                  | Yes                          | Automatically Creating Session Playback Media for a Crashed Session |
+| No                   | Yes                          | Manually Creating Session Playback Media for a Crashed Session |
 
 ### Creating Session Playback Media for a Normal Session
 
@@ -116,7 +121,11 @@ Whenever BMW session logging is enabled, two sets of session log files are maint
 
 BMW names these files as follows:  
 
-<table><tr><td>Current Session Log Files</td><td>Previous Session Log Files</td></tr><tr><td><pads_tool>_Next.log</td><td><pads_tool>_NextBak.log</td></tr><tr><td><pads_tool>_Next.reg</td><td><pads_tool>_NextBak.reg</td></tr><tr><td><pads_tool>_Next.ini</td><td><pads_tool>_NextBak.ini</td></tr></table>  
+| Current Session Log Files | Previous Session Log Files |
+| ------------------------- | -------------------------- |
+| _Next.log                 | _NextBak.log               |
+| _Next.reg                 | _NextBak.reg               |
+| _Next.ini                 | _NextBak.ini               |
 
 These files are dynamic; each time you start a session, the current session log files are renamed as the previous session log files, and new current session log files are created. The contents of the old previous session log files are lost.  
 

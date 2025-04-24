@@ -134,12 +134,24 @@ Refer to the Listing of Default Attributes for Nets table to determine which net
 Table 30. Listing of Default Attributes for Nets   
 
 
-<table><tr><td>Attributes</td><td>Type</td><td>Description and Use</td></tr><tr><td>HyperLynx.Frequency</td><td>Frequency (Measure)</td><td>Lists the working frequency for nets in BoardSim simulations. Range: 0 Hz-1000 GHz Units: Hz kHz MHz GHz (case-sensitive)</td></tr><tr><td>HyperLynx.Duty Cycle</td><td>Percentage (Measure)</td><td>Lists the percent of time the signal is in high state. Used for BoardSim simulations. Range: 0%-100%</td></tr><tr><td>HyperLynx Signal Type</td><td>List</td><td>Lists the signal type. Used in BoardSim simulations. Values (case-insensitive): One of, Clock, Strobe, Data, Address, Power Supply, Analog High Speed, Analog Low Speed, Do Not</td></tr><tr><td>HyperLynx.Default ic.Model</td><td>Free Text</td><td>Analyze Lists the part model in the file used for BoardSim simulations. Values: Text (model name)</td></tr><tr><td>HyperLynx.Default iC.Model File</td><td>Free Text</td><td>Lists the part model file in the file used for BoardSim simulations. Values: Text (filename)</td></tr><tr><td>HyperLynx.Default IC.Model Pin</td><td>Free Text</td><td>Lists the specific pin for the model in the above attribute, if applicable. Used in BoardSim simulations.</td></tr><tr><td>PowerGround</td><td>Yes/No</td><td>Values: Text (pin name or number) Identifies nets as Ground and Power nets.</td></tr></table>  
+| Attributes                      | Type                 | Description and Use                                                                                                                                                             |
+|---------------------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| HyperLynx.Frequency             | Frequency (Measure)  | Lists the working frequency for nets in BoardSim simulations. Range: 0 Hz-1000 GHz Units: Hz kHz MHz GHz (case-sensitive)                                                       |
+| HyperLynx.Duty Cycle            | Percentage (Measure) | Lists the percent of time the signal is in high state. Used for BoardSim simulations. Range: 0%-100%                                                                            |
+| HyperLynx Signal Type           | List                 | Lists the signal type. Used in BoardSim simulations. Values (case-insensitive): One of, Clock, Strobe, Data, Address, Power Supply, Analog High Speed, Analog Low Speed, Do Not |
+| HyperLynx.Default ic.Model      | Free Text            | Analyze Lists the part model in the file used for BoardSim simulations. Values: Text (model name)                                                                               |
+| HyperLynx.Default iC.Model File | Free Text            | Lists the part model file in the file used for BoardSim simulations. Values: Text (filename)                                                                                    |
+| HyperLynx.Default IC.Model Pin  | Free Text            | Lists the specific pin for the model in the above attribute, if applicable. Used in BoardSim simulations.                                                                       |
+| PowerGround                     | Yes/No               | Values: Text (pin name or number) Identifies nets as Ground and Power nets.                                                                                                     |
 
 Table 30. Listing of Default Attributes for Nets (continued)   
 
 
-<table><tr><td>Attributes</td><td> Type</td><td>Description and Use</td></tr><tr><td></td><td></td><td>Values: Yes or No (case-insensitive)</td></tr><tr><td>Voltage</td><td>Measure</td><td>Describes the voltage of the net. Range: -100kV-100kV (-100,000-100,000V) Units: nV uV mV V kV (case-sensitive)</td></tr><tr><td>DFT.Nail Count Per Net</td><td>Number</td><td>Indicates the ID of the probe in the test fixture. Values: (integer) O-2000 (all exact limits are allowed; for example, both 0 and 2000 are acceptable)</td></tr></table>  
+| Attributes             |  Type   | Description and Use                                                                                                                                     |
+|------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                        |         | Values: Yes or No (case-insensitive)                                                                                                                    |
+| Voltage                | Measure | Describes the voltage of the net. Range: -100kV-100kV (-100,000-100,000V) Units: nV uV mV V kV (case-sensitive)                                         |
+| DFT.Nail Count Per Net | Number  | Indicates the ID of the probe in the test fixture. Values: (integer) O-2000 (all exact limits are allowed; for example, both 0 and 2000 are acceptable) |
 
 ## Adding Power and Ground Connections  
 
@@ -346,7 +358,15 @@ All line segments in a 2D line must have the same line width and style. If you n
 Table 31. Splitting Segments Options   
 
 
-<table><tr><td>Option</td><td>Description</td></tr><tr><td>Swap Corner</td><td>Selects the other corner or line segment created by the split.</td></tr><tr><td>Del Corner</td><td>Deletes the current corner.</td></tr><tr><td>Width</td><td>Changes the line width of the item.</td></tr><tr><td>Solid Style and Dotted Style</td><td>Changes the line style to a solid or a dashed line. You cannot specify dotted lines for circles or arcs.</td></tr><tr><td>Orthogonal</td><td>Moves are made in 90-degree increments.</td></tr><tr><td>Diagonal</td><td>Moves are made in 45-degree increments.</td></tr><tr><td>Any Angle</td><td>Moves are made at any angle.</td></tr></table>  
+| Option                       | Description                                                                                              |
+|------------------------------|----------------------------------------------------------------------------------------------------------|
+| Swap Corner                  | Selects the other corner or line segment created by the split.                                           |
+| Del Corner                   | Deletes the current corner.                                                                              |
+| Width                        | Changes the line width of the item.                                                                      |
+| Solid Style and Dotted Style | Changes the line style to a solid or a dashed line. You cannot specify dotted lines for circles or arcs. |
+| Orthogonal                   | Moves are made in 90-degree increments.                                                                  |
+| Diagonal                     | Moves are made in 45-degree increments.                                                                  |
+| Any Angle                    | Moves are made at any angle.                                                                             |
 
 4. Indicate the endpoint of the new segment to complete the split.  
 

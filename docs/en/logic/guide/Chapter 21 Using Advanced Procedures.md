@@ -556,7 +556,14 @@ The Basic Script Editor displays source code using different colors. The color i
 Table 42. Basic Script Editor Color Representations   
 
 
-<table><tr><td>Color</td><td>Represents</td></tr><tr><td>Blue</td><td>Basic Keywords</td></tr><tr><td>Black</td><td>User Variables</td></tr><tr><td>Cyan</td><td>Basic Functions</td></tr><tr><td>Purple</td><td>SailWind Logic Automation Objects or Members</td></tr><tr><td>Red</td><td>Errors</td></tr><tr><td>Green</td><td>Comments</td></tr></table>  
+| Color  | Represents                                   |
+|--------|----------------------------------------------|
+| Blue   | Basic Keywords                               |
+| Black  | User Variables                               |
+| Cyan   | Basic Functions                              |
+| Purple | SailWind Logic Automation Objects or Members |
+| Red    | Errors                                       |
+| Green  | Comments                                     |
 
 # Basic Sample Scripts  
 
@@ -573,12 +580,26 @@ These files are located in C:\<install_folder>\<version>\Samples\Scripts\Logic\t
 Table 43. Basic Sample Script Listing   
 
 
-<table><tr><td> Script Filename</td><td>Description</td></tr><tr><td>00 What is a Script.BAS</td><td>Empty script demonstrating what a Basic script is and how to define it.</td></tr><tr><td>01 Using a Message Box.BAS</td><td>Demonstrates how to display an OK dialog box.</td></tr><tr><td>02 Using a Variable.BAS</td><td>Demonstrates a Basic variable: how to assign a value and how to get its value.</td></tr><tr><td>03 Using a Basic Function.BAS</td><td>Demonstrates how to use a standard Basic function and display its result in a message box.</td></tr><tr><td>04 Using a SailWind Logic Function.BAS</td><td>Demonstrates Basic interaction with a SailWind Logic Automation function.</td></tr><tr><td>05 Using If and Then Statements.BAS</td><td>Demonstrates the If, Then statements.</td></tr><tr><td>06 Using a Custom Dialog1.BAS</td><td>Demonstrates a simple dialog box using the Basic dialog editor.</td></tr><tr><td>07 Using a Custom Dialog2.BAS</td><td>Demonstrates a standard dialog box using the Basic dialog box editor.</td></tr><tr><td>08 Using a Custom Dialog3.BAS</td><td>Demonstrates a complex dialog box using the Basic dialog box editor.</td></tr></table>  
+|  Script Filename                       | Description                                                                                |
+|----------------------------------------|--------------------------------------------------------------------------------------------|
+| 00 What is a Script.BAS                | Empty script demonstrating what a Basic script is and how to define it.                    |
+| 01 Using a Message Box.BAS             | Demonstrates how to display an OK dialog box.                                              |
+| 02 Using a Variable.BAS                | Demonstrates a Basic variable: how to assign a value and how to get its value.             |
+| 03 Using a Basic Function.BAS          | Demonstrates how to use a standard Basic function and display its result in a message box. |
+| 04 Using a SailWind Logic Function.BAS | Demonstrates Basic interaction with a SailWind Logic Automation function.                  |
+| 05 Using If and Then Statements.BAS    | Demonstrates the If, Then statements.                                                      |
+| 06 Using a Custom Dialog1.BAS          | Demonstrates a simple dialog box using the Basic dialog editor.                            |
+| 07 Using a Custom Dialog2.BAS          | Demonstrates a standard dialog box using the Basic dialog box editor.                      |
+| 08 Using a Custom Dialog3.BAS          | Demonstrates a complex dialog box using the Basic dialog box editor.                       |
 
 Table 43. Basic Sample Script Listing (continued)   
 
 
-<table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>09 Using it All Together.BAS</td><td>Provides a "real life" example. Lists all design files in the default files directory. Selecting a file from the list will open that file in SailWind Logic.</td></tr><tr><td>10 List Of Comps and Nets.BAS</td><td>Lists all components and nets.</td></tr><tr><td>11 Select by Pin Count.BAS</td><td>Enables you to enter a number of pins. All parts with that number of pins are selected.</td></tr></table>  
+| Script Filename               | Description                                                                                                                                                  |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 09 Using it All Together.BAS  | Provides a "real life" example. Lists all design files in the default files directory. Selecting a file from the list will open that file in SailWind Logic. |
+| 10 List Of Comps and Nets.BAS | Lists all components and nets.                                                                                                                               |
+| 11 Select by Pin Count.BAS    | Enables you to enter a number of pins. All parts with that number of pins are selected.                                                                      |
 
 # Basic Sample Scripts — RGL Reports  
 
@@ -589,7 +610,14 @@ These files are located in C:\<install_folder>\<version>\Samples\Scripts\Logic\r
 Table 44. Basic Sample Scripts/RGL Reports Listing   
 
 
-<table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>RGL.BAS</td><td>Contains a library of functions, which is used by the_ other scripts in this group; the scripts in this group must contain RGL.BAS to function.</td></tr><tr><td>Net Statistics.BAS</td><td>Lists all nets in the schematic and identifies any questionable nets.</td></tr><tr><td>Part Statistics.BAS</td><td>Lists all parts in the schematic.</td></tr><tr><td>Unused Gates.BAS</td><td>Lists all unused gates in the schematic.</td></tr><tr><td>Unused Pins.BAS</td><td>Lists all unused pins in the schematic.</td></tr><tr><td>Unused.BAS</td><td>Lists all unused pins and gates in the schematic.</td></tr></table>  
+| Script Filename     | Description                                                                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| RGL.BAS             | Contains a library of functions, which is used by the_ other scripts in this group; the scripts in this group must contain RGL.BAS to function. |
+| Net Statistics.BAS  | Lists all nets in the schematic and identifies any questionable nets.                                                                           |
+| Part Statistics.BAS | Lists all parts in the schematic.                                                                                                               |
+| Unused Gates.BAS    | Lists all unused gates in the schematic.                                                                                                        |
+| Unused Pins.BAS     | Lists all unused pins in the schematic.                                                                                                         |
+| Unused.BAS          | Lists all unused pins and gates in the schematic.                                                                                               |
 
 # Basic Sample Scripts — Advanced  
 
@@ -598,12 +626,23 @@ Advanced Basic script files are located in C:\<install_folder>\<version $>$ \Sam
 Table 45. Basic Sample Scripts/Advanced Listing   
 
 
-<table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>Add Part.BAS</td><td>Adds a new gate to the schematic.</td></tr><tr><td>Alive Net List.BAS</td><td>Creates a netlist in Excel, which enables you to cross-probe between SailWind Logic objects and the Excel cells containing the object names.</td></tr><tr><td>Bill of Materials.BAS</td><td>Produces a bill of materials in a user-customizable format.</td></tr></table>  
+| Script Filename       | Description                                                                                                                                  |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Add Part.BAS          | Adds a new gate to the schematic.                                                                                                            |
+| Alive Net List.BAS    | Creates a netlist in Excel, which enables you to cross-probe between SailWind Logic objects and the Excel cells containing the object names. |
+| Bill of Materials.BAS | Produces a bill of materials in a user-customizable format.                                                                                  |
 
 Table 45. Basic Sample Scripts/Advanced Listing (continued)   
 
 
-<table><tr><td>Script Filename</td><td>Description</td></tr><tr><td>Modeless Attributes.BAS</td><td>Generates a modeless dialog box, which you use to manage part attributes.</td></tr><tr><td>Modeless QM Part.BAS</td><td>Generates a modeless dialog box, which you use to manage part and gate properties.</td></tr><tr><td>Modeless Visibility.BAS</td><td>Generates a modeless dialog box, which you use to manage gate and attribute visibility.</td></tr><tr><td>SailWind Layout Net List Without Rules.BAS</td><td>Generates a netlist report in ASCll format.</td></tr><tr><td>SailWind Logic Script Wizard.BAS</td><td>Generates a Wizard dialog box, which you use to create a Basic report.</td></tr><tr><td>Sheet Hierarchy to Excel.BAS</td><td>Creates a sheet hierarchy report in Excel, which enables you to cross-probe between SaiiWind Logic objects and the Excel cells containing the object names.</td></tr></table>  
+| Script Filename                            | Description                                                                                                                                                 |
+|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Modeless Attributes.BAS                    | Generates a modeless dialog box, which you use to manage part attributes.                                                                                   |
+| Modeless QM Part.BAS                       | Generates a modeless dialog box, which you use to manage part and gate properties.                                                                          |
+| Modeless Visibility.BAS                    | Generates a modeless dialog box, which you use to manage gate and attribute visibility.                                                                     |
+| SailWind Layout Net List Without Rules.BAS | Generates a netlist report in ASCll format.                                                                                                                 |
+| SailWind Logic Script Wizard.BAS           | Generates a Wizard dialog box, which you use to create a Basic report.                                                                                      |
+| Sheet Hierarchy to Excel.BAS               | Creates a sheet hierarchy report in Excel, which enables you to cross-probe between SaiiWind Logic objects and the Excel cells containing the object names. |
 
 # Managing Licensed Options  
 
