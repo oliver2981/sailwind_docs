@@ -1,7 +1,5 @@
 # SailWind 原理图指南
 
-PDF原文：https://mikigo.github.io/sailwind3.0_docs/pdfdocs/sailwindlogic_gd.pdf
-
 发布 SailWind 3.0
 文档修订版 1.2
 
