@@ -1,0 +1,13 @@
+# Chapter 17 Reports
+
+![](/pdf2img/logic/guide/c17/c17_page-0001.jpg)
+
+![](/pdf2img/logic/guide/c17/c17_page-0002.jpg)
+
+![](/pdf2img/logic/guide/c17/c17_page-0003.jpg)
+
+![](/pdf2img/logic/guide/c17/c17_page-0004.jpg)
+
+![](/pdf2img/logic/guide/c17/c17_page-0005.jpg)
+
+![](/pdf2img/logic/guide/c17/c17_page-0006.jpg)

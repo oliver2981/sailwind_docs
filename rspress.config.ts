@@ -26,6 +26,12 @@ export default defineConfig({
       title: 'SailWind',
       description: 'SailWind3.0 Docs',
     },
+    {
+      lang: 'pdf',
+      label: '原文',
+      title: 'SailWind',
+      description: 'SailWind3.0 Docs',
+    },
 
   ],
   themeConfig: {
@@ -40,6 +46,20 @@ export default defineConfig({
       },
       {
         lang: 'zh',
+        outlineTitle: '本页目录',
+        outlineTitle: '本页目录',
+        prevPageText: '上一页',
+        nextPageText: '下一页',
+        lastUpdatedText: '最近更新时间',
+        searchPlaceholderText: '搜索文档',
+        overview: {
+          filterNameText: '快速查找',
+          filterPlaceholderText: '输入关键词',
+          filterNoResultText: '未查询到结果',
+        },
+      },
+      {
+        lang: 'pdf',
         outlineTitle: '本页目录',
         outlineTitle: '本页目录',
         prevPageText: '上一页',
