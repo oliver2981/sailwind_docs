@@ -54,7 +54,7 @@ When you end a connection at another connection, SailWind Logic places a tie dot
 
 !Tip  
 
-If you select and move a visible net name, with snap to grid enabled, the new net name snaps to the Labels and Text grid. To set the labels and text grid, use the settings on the Tools $>$ Options $>$ General page. See “Options Dialog Box, General Category” on page 595.  
+If you select and move a visible net name, with snap to grid enabled, the new net name snaps to the Labels and Text grid. To set the labels and text grid, use the settings on the Tools > Options > General page. See “Options Dialog Box, General Category” on page 595.  
 
 **Related Topics**  
 
@@ -194,7 +194,7 @@ You can enable floating connections in your design. This enables you to create c
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, and then click the Design category. 2. In the Parameters area, select the Allow Floating Connections check box to enable Floating Connections in the design.  
+1. Click the Tools > Options menu item, and then click the Design category. 2. In the Parameters area, select the Allow Floating Connections check box to enable Floating Connections in the design.  
 
 ### Disabling Floating Connections and Running the Connectivity Report  
 
@@ -202,13 +202,13 @@ You can disable floating connections in your design. Once you have finished crea
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, and then click the Design category. 2. In the Parameters area, clear the Allow Floating Connections check box to disable Floating Connections in the design. If Floating Connections exist in the design, a warning message appears.  
+1. Click the Tools > Options menu item, and then click the Design category. 2. In the Parameters area, clear the Allow Floating Connections check box to disable Floating Connections in the design. If Floating Connections exist in the design, a warning message appears.  
 
 !Note:  
 
 Warning: Disabling Floating Connections does not remove them from the design. Disabling the preference only prevents additional Floating Connections from being cr Floating Connections are undesirable on a finished schematic. A floating end should either be connected to a pin or terminated on an off-page symbol. Run the Connections Report to find the locations of Floating Connections in your design.  
 
-3. Click the File $>$ Report menu item.  
+3. Click the File > Report menu item.  
 
 4. In the Reports dialog box, select the Connectivity check box.  
 

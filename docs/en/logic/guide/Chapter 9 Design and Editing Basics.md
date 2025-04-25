@@ -221,7 +221,7 @@ For example, you could select all nets or all gates on the sheet.
 
 **Procedure** 
 
-To select all objects of a particular type on the sheet you are viewing, click the Edit $>$ Select All on Sheet menu item, or press Ctr $+\mathsf{A}$ .  
+To select all objects of a particular type on the sheet you are viewing, click the Edit > Select All on Sheet menu item, or press Ctr $+\mathsf{A}$ .  
 
 ### Selecting an Object on All Sheets in a Schematic  
 
@@ -229,7 +229,7 @@ Across the entire schematic, you can select all objects of a particular type, de
 
 **Procedure** 
 
-To select all objects of a particular type on every sheet in the schematic, click the Edit $>$ Select All on Schematic menu item, or press Shift $+\mathsf{C t r l}+\mathsf{A}$ .  
+To select all objects of a particular type on every sheet in the schematic, click the Edit > Select All on Schematic menu item, or press Shift $+\mathsf{C t r l}+\mathsf{A}$ .  
 
 ## Controlling Selections  
 
@@ -271,7 +271,7 @@ You can use the Selection Filter dialog box to specify a specific filter. This e
 
 **Procedure** 
 
-1. Click the Edit $>$ Filter menu item.   
+1. Click the Edit > Filter menu item.   
 2. Select the desired item or items for your filter.  
 
 ## Using the Selection Filter  
@@ -280,7 +280,7 @@ Use the Selection Filter dialog box to control which objects you can select. The
 
 **Procedure** 
 
-1. With nothing selected, right-click and click the Filter popup menu item. As an alternative, click the Edit $>$ Filter menu item.   
+1. With nothing selected, right-click and click the Filter popup menu item. As an alternative, click the Edit > Filter menu item.   
 2. In the Selection Filter dialog box, select the check box beside each design object that you want to turn on or off. Click Anything if you want to select the check boxes for all design objects or click Nothing if you want to clear all check boxes.  
 
 3. Click Close.  

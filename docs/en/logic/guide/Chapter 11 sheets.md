@@ -14,7 +14,7 @@ Use the Sheets dialog box to edit the sheet set of the current schematic in the 
 
 **Procedure** 
 
-1. Click the Setup $>$ Sheets menu item.   
+1. Click the Setup > Sheets menu item.   
 2. Click a sheet in the Numbered Sheets list box, and then click View to view it in the work area.   
 3. Click Add to add a new sheet to the list. The new sheet displays in the work area.  
 

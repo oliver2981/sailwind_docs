@@ -11,7 +11,10 @@ hero:
 #      alt: PZDocs
   actions:
     - theme: brand
-      text: 中文
+      text: 想看中文手册？戳我！
       link: /zh/index
+    - theme: alt
+      text: 快速开始
+      link: /logic/guide/SailWind Logic Guide
 
 ---

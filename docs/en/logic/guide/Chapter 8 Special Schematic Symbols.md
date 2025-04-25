@@ -1,6 +1,6 @@
 # Chapter 8 Special Schematic Symbols  
 
-Special Symbols in SailWind Logic include power symbols, ground symbols, and off-page reference symbols. SailWind Logic enables only one part definition in the library for Special Symbols. For this reason, the options for these types are grayed out and unavailable when you are in the Part Editor and you select File menu $>$ New. You can only modify the existing symbols or add new symbols to the part definition.  
+Special Symbols in SailWind Logic include power symbols, ground symbols, and off-page reference symbols. SailWind Logic enables only one part definition in the library for Special Symbols. For this reason, the options for these types are grayed out and unavailable when you are in the Part Editor and you select File menu > New. You can only modify the existing symbols or add new symbols to the part definition.  
 
 Special Symbol Naming Conventions Assigning Alternative Symbols for the Ground Part Assigning Alternative Symbols for the Off-Page Part Assigning Alternative Symbols for the Power Part Creating New Special Symbols Creating New Special Symbols From Existing Symbols Updating Special Symbol Mappings Management of Special Symbols in the Library  
 
@@ -130,7 +130,7 @@ To add a new power symbol, follow the procedure in Creating New Special Symbols.
 
 ## Creating New Special Symbols  
 
-Special symbols in SailWind Logic include power symbols, ground symbols, and off-page reference symbols. SailWind Logic enables only one part definition in the library for special symbols. For this reason, the options for these types are unavailable when you are in the Part Editor and you select the File $>$ New menu item.  
+Special symbols in SailWind Logic include power symbols, ground symbols, and off-page reference symbols. SailWind Logic enables only one part definition in the library for special symbols. For this reason, the options for these types are unavailable when you are in the Part Editor and you select the File > New menu item.  
 
 See also Creating New Special Symbols From Existing Symbols.  
 
@@ -139,7 +139,7 @@ See also Creating New Special Symbols From Existing Symbols.
 1. In the Part Editor, click the Open button.   
 2. In the Select Type of Editing Item Dialog Box, select the type of symbol to add: Off-page, Power, or Ground.   
 3. Click OK. The currently defined symbols display for the chosen type.   
-4. Click the Edit $>$ Part Type Editor menu item, or on the toolbar, click the Edit Electrical button. The Assign Alternatives dialog box for the type of Special Symbol appears. Refer to the following topics for additional information: • Off-page symbols — Refer to Assigning Alternative Symbols for the Off-Page Part.   
+4. Click the Edit > Part Type Editor menu item, or on the toolbar, click the Edit Electrical button. The Assign Alternatives dialog box for the type of Special Symbol appears. Refer to the following topics for additional information: • Off-page symbols — Refer to Assigning Alternative Symbols for the Off-Page Part.   
    Power symbols — Refer to Assigning Alternative Symbols for the Power Part.   
    • Ground symbols — Refer to Assigning Alternative Symbols for the Ground Part.  
 
@@ -151,7 +151,7 @@ Tip For left side off-page references, select Source, for right side, select Loa
 
 7. Click OK.  
 
-8. Click the Edit $>$ CAE Decal Editor menu item, or on the toolbar, click the CAE Decal Editor button. The Select Pin Decal Dialog Box appears.  
+8. Click the Edit > CAE Decal Editor menu item, or on the toolbar, click the CAE Decal Editor button. The Select Pin Decal Dialog Box appears.  
 
 9. Select the new symbol name and when prompted, click OK to create the new symbol.  
 
@@ -163,13 +163,13 @@ Tip In the schematic, the net connection point will be the origin of the symbol.
 
 11. Reposition the text strings as required.  
 
-12. Click the File $>$ Return to Part menu item, and when prompted, click Yes to keep the gate changes. The new symbol and existing symbols are displayed.  
+12. Click the File > Return to Part menu item, and when prompted, click Yes to keep the gate changes. The new symbol and existing symbols are displayed.  
 
-13. Click the File $>$ Save menu item.  
+13. Click the File > Save menu item.  
 
 If the Save Part Type to Library Dialog Box displays, accept the defaults and click OK.  
 
-14. Click the File $>$ Exit Part Editor menu item.  
+14. Click the File > Exit Part Editor menu item.  
 
 Tip   
 For SailWind Logic to recognize the new special symbol, perform the instructions in The Update From Library Function.  
@@ -185,7 +185,7 @@ See also Creating New Special Symbols.
 1. Do one of the following:  
 
 • Copy an Existing Special Symbol   
-a. In the Library Manager (File $>$ Library menu item), click the Logic button.   
+a. In the Library Manager (File > Library menu item), click the Logic button.   
 b. To filter the symbols, type a wildcard or expression on page 105 in the Filter box, and click Apply. See also Special Symbol Naming Conventions.   
 c. Click Copy. The Save CAE Decal to Library dialog box displays.  
 
@@ -232,7 +232,7 @@ You can change the assignment or “mapping” of a special symbol using the Upd
 
 **Procedure** 
 
-1. Click the Tools $>$ Update from Library menu item.  
+1. Click the Tools > Update from Library menu item.  
 
 2. In the Mode area of the Update From Library Dialog Box, choose “Update design from library.”  
 

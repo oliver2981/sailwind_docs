@@ -211,11 +211,11 @@ Use Save Off-page to Library to update the off-page, ground, or power symbols in
 
 **Procedure** 
 
-1. Click the Tools $>$ Save Off-page to Library menu item.   
+1. Click the Tools > Save Off-page to Library menu item.   
 2. Select the symbol to update.   
 3. Click OK. The selected item is opened in the Part Editor.   
 4. Modify the symbols as required.   
-5. Click the File $>$ Save menu item.   
+5. Click the File > Save menu item.   
 6. Follow the prompts to replace the versions currently in the library and update the symbols in the   
    schematic.  
 
@@ -266,7 +266,7 @@ How to Read the Update Report
 
 The update process creates an undo checkpoint before it begins the update. If after the update you determine that you want to reinstate the design to its previous state you can revert to the previous checkpoint.  
 
-You can undo any update (whether completed, canceled, or failed) to the last-saved checkpoint using the Edit $>$ Undo menu command.  
+You can undo any update (whether completed, canceled, or failed) to the last-saved checkpoint using the Edit > Undo menu command.  
 
 ### Updating a Schematic From the Library  
 
@@ -278,15 +278,15 @@ You can update all items in any or all of these categories:
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, then click the Design category.  
+1. Click the Tools > Options menu item, then click the Design category.  
 
 2. In the Options area, select or clear the “Allow overwriting of attribute values in design with blank values from library” check box as appropriate; click OK to close the Options dialog box.  
 
-3. Click the File $>$ Library menu item, then click the Manage Lib. List button.  
+3. Click the File > Library menu item, then click the Manage Lib. List button.  
 
 4. Set the library list order that Update from Library will use when searching the libraries for items matching the items in the design. (See General Compare/Update Rules.) Click OK then close the Library Manager dialog box.  
 
-5. Click the Tools $>$ Update from Library menu item.  
+5. Click the Tools > Update from Library menu item.  
 
 6. Modify the settings in the Update From Library Dialog Box as appropriate.  
 
@@ -311,12 +311,12 @@ All parts having the same part type as a selected part are updated, but attribut
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, then click the Design category.   
+1. Click the Tools > Options menu item, then click the Design category.   
 2. In the Options area, select or clear the “Allow overwriting of attribute values in design with blank values from library” check box as appropriate and click OK.  
 
 Schematic Parts Updating Selected CAE Decals From the Library  
 
-3. Click the File $>$ Library menu item, then click the Manage Lib. List button.  
+3. Click the File > Library menu item, then click the Manage Lib. List button.  
 
 4. Set the library list order that Update from Library will use when searching the libraries for items matching the items in the design. (See General Compare/Update Rules.) Click OK then close the Library Manager dialog box.  
 
@@ -330,7 +330,7 @@ Schematic Parts Updating Selected CAE Decals From the Library
 
 If you want to update all but a few part types, select all the parts/gates, then in Step 8, clear the check boxes of the part types you do not want to update.  
 
-7. Right-click and click the Update $>$ Part Type popup menu item.  
+7. Right-click and click the Update > Part Type popup menu item.  
 
 8. Modify the settings in the Update Selected Part Type From Library Dialog Box as appropriate.  
 
@@ -356,7 +356,7 @@ As a corollary, if, for instance, you update CAE decal X to use PINB instead of 
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button  
+1. Click the File > Library menu item, then click the Manage Lib. List button  
 
 2. Set the library list order that Update from Library uses when searching the libraries for items matching the items in the design. (See General Compare/Update Rules.) Click OK then close the Library Manager.  
 
@@ -368,7 +368,7 @@ As a corollary, if, for instance, you update CAE decal X to use PINB instead of 
 
 If you want to update all but a few CAE decals, select all the parts/gates, then in Step 6 clear the check boxes of the decals you do not want to update.  
 
-5. Right-click and click the Update $>$ CAE Decal menu item.  
+5. Right-click and click the Update > CAE Decal menu item.  
 
 6. Modify the settings in the Update Selected CAE Decals From Library Dialog Box as appropriate.  
 
@@ -399,9 +399,9 @@ As you make changes and updates to the content in your library, you may need to 
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button   
+1. Click the File > Library menu item, then click the Manage Lib. List button   
 2. Set the library list order that Update from Library will use when searching the libraries for items matching the items in the design. (See General Compare/Update Rules.) Click OK then close the Library Manager dialog box.   
-3. Click the Tools $>$ Update from Library menu item.   
+3. Click the Tools > Update from Library menu item.   
 4. Select the Pin Decals check box, and select the decals you want to compare/update.   
 5. Click OK.  
 
@@ -415,14 +415,14 @@ As you make changes to the content in your library, you may need to refresh your
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button.   
+1. Click the File > Library menu item, then click the Manage Lib. List button.   
 2. Set the library list order that Update from Library will use when searching the libraries for items matching the items in the design. (See General Compare/Update Rules.) Click OK then close the Library Manager dialog box.   
 3. In the Schematic Editor, with nothing selected, right-click and click the Select Pins popup menu item.   
 4. Select the pins you want to compare/update.  
 
 0 Tip If you want to update all but a few pin decals, select all the parts/gates, then in Step 6 clear the check boxes of the decals you do not want to update.  
 
-5. Right-click and click the Update $>$ Pin Decal menu item.  
+5. Right-click and click the Update > Pin Decal menu item.  
 
 6. Modify the settings in the Update Selected Pin Decals From Library Dialog Box as appropriate.  
 
@@ -754,11 +754,11 @@ In a manner similar to other standard applications, you can cut, copy and paste 
 
 ## Copy as Bitmap  
 
-The Copy as Bitmap command lets you define a rectangular area to copy graphics information to the paste buffer as a bitmap image. Once copied, you can, for example switch to Microsoft Word and use the Home $>$ Paste menu item to insert the bitmap into a document.  
+The Copy as Bitmap command lets you define a rectangular area to copy graphics information to the paste buffer as a bitmap image. Once copied, you can, for example switch to Microsoft Word and use the Home > Paste menu item to insert the bitmap into a document.  
 
 **Procedure** 
 
-1. Click the Edit $>$ Copy as Bitmap menu item.   
+1. Click the Edit > Copy as Bitmap menu item.   
 2. Drag the cursor over the area to copy. All items in the rectangle including the background, dot grid, color, etc., are copied.   
 3. Open the application in which to place the bitmap and use the Paste command to place the image.  
 
@@ -934,7 +934,7 @@ To control renaming of reference designators, use the “Preserve Reference Desi
 
 **Procedure** 
 
-1. Click the Edit $>$ Paste from File menu item.  
+1. Click the Edit > Paste from File menu item.  
 
 2. In the Load Group File dialog box, select the group to paste.  
 
@@ -999,7 +999,7 @@ You can create a new attribute and automatically assign it to every part in a de
 
 **Procedure** 
 
-1. Click the Edit $>$ Attribute Manager menu item.  
+1. Click the Edit > Attribute Manager menu item.  
 
 2. In the Manage Schematic Attributes dialog box, click Add Attr.  
 
@@ -1019,7 +1019,7 @@ You can rename an existing attribute and apply the change to each part in the de
 
 **Procedure** 
 
-1. Click the Edit $>$ Attribute Manager menu item.   
+1. Click the Edit > Attribute Manager menu item.   
 2. In the Manage Schematic Attributes dialog box, select one or more attributes in the Attributes in   
    Schematic list.   
 3. Click Add. The attributes are added to the Attributes Selected for Rename list.   
@@ -1041,7 +1041,7 @@ You can delete an attribute from all parts in the design:
 
 **Procedure** 
 
-1. Click the Edit $>$ Attribute Manager menu item.   
+1. Click the Edit > Attribute Manager menu item.   
 2. Select one or more attributes in the Attributes in Schematic list.   
 3. Click Delete Attrs then click Yes at the prompt.   
 4. Click Close.  

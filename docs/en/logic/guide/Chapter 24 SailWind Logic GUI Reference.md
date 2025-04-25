@@ -147,7 +147,7 @@ Update Selected Pin Decals From Library Dialog Box
 
 ## AC Analysis Dialog Box
 
-To access: Tools $>$ SPICE Netlist menu item $>$ Simulation Setup button $>$ AC Analysis button  
+To access: Tools > SPICE Netlist menu item > Simulation Setup button > AC Analysis button  
 
 Set options specifically for an AC analysis.  
 
@@ -178,8 +178,8 @@ Creating a SPICE Netlist Setting Up AC Analysis
 
 To access:  
 
-• Select a part $>$ right-click $>$ Edit Part menu item $>$ Edit Graphics button $>$ select a gate $>$ Decal Editing Toolbar button $>$ Add Attribute Label button   
-• With nothing selected $>$ Tools $>$ Part Editor menu item $>$ Edit Graphics button $>$ Decal Editing Toolbar button $>$ Add Attribute Label button  
+• Select a part > right-click > Edit Part menu item > Edit Graphics button > select a gate > Decal Editing Toolbar button > Add Attribute Label button   
+• With nothing selected > Tools > Part Editor menu item > Edit Graphics button > Decal Editing Toolbar button > Add Attribute Label button  
 
 Use the Add Attribute Label dialog box to create attribute labels while editing or creating a CAE Decal.  
 
@@ -202,7 +202,7 @@ Table 49. Edit Attribute Label Fields
 
 ## Add Bus Dialog Box
 
-To access: Schematic Editing toolbar $>$ Add Bus button $>$ click to indicate starting point $>$ double-click to indicate ending point  
+To access: Schematic Editing toolbar > Add Bus button > click to indicate starting point > double-click to indicate ending point  
 
 Use the Add Bus dialog box to create attribute labels while editing or creating a CAE Decal.  
 
@@ -249,7 +249,7 @@ Managing Buses
 
 ## Add/Edit Command Dialog Box  
 
-To access: Tools $>$ Customize menu item $>$ Commands tab $>$ select a command $>$ New or Edit button  
+To access: Tools > Customize menu item > Commands tab > select a command > New or Edit button  
 
 Use the Add Command dialog box to create commands that you can then use as selections on menus or as buttons on toolbars.  
 
@@ -285,7 +285,7 @@ Creating a Custom Command Creating a Custom Menu
 
 ## Add Field Dialog Box  
 
-To access: Select nothing or a 2D line object $>$ right-click $>$ Add Field menu item Use the Add Field dialog box to add a field to your schematic.  
+To access: Select nothing or a 2D line object > right-click > Add Field menu item Use the Add Field dialog box to add a field to your schematic.  
 
 ![](/images/c1ef2c5bcf7e102b491e9fb20e7aabf9ab135e795927678eebf9181e012e6f84.jpg)  
 Figure 18. Add Field Dialog Box  
@@ -322,7 +322,7 @@ Adding a Field
 
 ## Add Free Text Dialog Box  
 
-To access: Schematic Editing toolbar $>$ Create Text button  
+To access: Schematic Editing toolbar > Create Text button  
 
 Use the Add Free Text dialog box to add free text (not belonging to another object).  
 
@@ -358,7 +358,7 @@ Adding Text
 
 ## Add Net to Class Dialog Box  
 
-To access: With nothing selected, right-click $>$ Select Nets $>$ select one or more nets $>$ right-click $>$ Make Class menu item  
+To access: With nothing selected, right-click > Select Nets > select one or more nets > right-click > Make Class menu item  
 
 Use the Add Net to Class dialog box to create a new class or to add nets to an existing class.  
 
@@ -382,7 +382,7 @@ Table 54. Add Net Class Dialog Box Fields
 
 ## Add New Attribute Dialog Box  
 
-To access: Edit $>$ Attribute Manager menu item $>$ Add Attr button  
+To access: Edit > Attribute Manager menu item > Add Attr button  
 
 Use the Add New Attribute dialog box to set name and value properties when adding new attributes to the schematic.  
 
@@ -406,7 +406,7 @@ Manage Attributes in a Schematic
 
 ## Add New Attribute to Library Dialog Box
 
-To access: File $>$ Library menu item $>$ Library Manager dialog box $>$ Attr Manager button $>$ Add Attr button  
+To access: File > Library menu item > Library Manager dialog box > Attr Manager button > Add Attr button  
 
 Use the Add New Attribute to Library dialog box to set name and value properties when adding new attributes to libraries.  
 
@@ -426,7 +426,7 @@ Table 56. Add New Attribute to Dialog Box Fields
 
 ## Add Part From Library Dialog Box
 
-To access: Schematic Editing toolbar $>$ Add Part button  
+To access: Schematic Editing toolbar > Add Part button  
 
 Use the Add Part from Library dialog box to load a part from a library into the current schematic drawing.   
 SailWind Logic automatically assigns a reference designator when you add the part.  
@@ -458,8 +458,8 @@ Adding Parts
 
 To access:  
 
-File $>$ Library menu item $>$ select a Library $>$ Parts button $>$ New button $>$ on the Part Editor Toolbar click Edit Electrical $>$ Pins tab $>$ Add Pins button   
-• File $>$ Library menu item> select a Library $>$ Parts button $>$ select a part $>$ Edit button $>$ on the Part Editor Toolbar click Edit Electrical $>$ Pins tab $>$ Add Pins button  
+File > Library menu item > select a Library > Parts button > New button > on the Part Editor Toolbar click Edit Electrical > Pins tab > Add Pins button   
+• File > Library menu item> select a Library > Parts button > select a part > Edit button > on the Part Editor Toolbar click Edit Electrical > Pins tab > Add Pins button  
 
 Use the Add Pins dialog box to add pins to a part type.  
 
@@ -492,7 +492,7 @@ Table 58. Add Pins Dialog Box Fields (continued)
 
 ## Archiver Dialog Box  
 
-To access: File $>$ Archive menu item  
+To access: File > Archive menu item  
 
 Use the Archiver dialog box to create archives of your schematics, designs, files and folders, and libraries.  
 
@@ -528,7 +528,7 @@ Archiving Your Schematic
 
 ## Archiver Additional Files Dialog Box  
 
-To access: File $>$ Archive menu item $>$ Additional Files check box $>$ Browse button  
+To access: File > Archive menu item > Additional Files check box > Browse button  
 
 Use the Archiver: Additional dialog box to add files and folders to the schematic you want to archive  
 
@@ -554,7 +554,7 @@ Archiving Your Schematic
 
 ## Archiver Libraries Dialog Box  
 
-To access: File $>$ Archive menu item $>$ Add libraries check box $>$ Select $>$ Browse button Use the Archiver: Libraries dialog box to add libraries to the schematic you want to archive.  
+To access: File > Archive menu item > Add libraries check box > Select > Browse button Use the Archiver: Libraries dialog box to add libraries to the schematic you want to archive.  
 
 ![](/images/a7ca6df0b55bfb3250526db6d1877b3dcdc693757b6b23a06817d6aba759aca3.jpg)  
 Figure 27. Archiver Libraries Dialog Box  
@@ -575,7 +575,7 @@ Table 61. Archiver Libraries Dialog Box Fields
 
 ## ASCII Output Dialog Box  
 
-To access: File $>$ Export menu item $>$ type a filename $>$ Save button Use the ASCII Output dialog box to select the sections you want to export to the ASCII file.  
+To access: File > Export menu item > type a filename > Save button Use the ASCII Output dialog box to select the sections you want to export to the ASCII file.  
 
 ![](/images/5e6d25447c678d8a9e854ce6438c2c23b1fd7f282c4a86824e22b4d3e09cc898.jpg)  
 Figure 28. ASCII Output Dialog Box  
@@ -615,7 +615,7 @@ Exporting to ASCII Output
 
 ## Assign Alternatives for Ground Part Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Part Editor $>$ Open button $>$ Ground $>$ OK button $>$ Edit Electrical button  
+To access: Tools > Part Editor menu item > Part Editor > Open button > Ground > OK button > Edit Electrical button  
 
 Use the Assign Alternatives for Ground Part dialog box to assign or create additional ground symbols.  
 
@@ -653,7 +653,7 @@ Assigning Alternate Logic Decals for Connector Symbols Special Schematic Symbols
 
 ## Assign Alternatives for Off-Page Part Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Open button $>$ Off-page $>$ OK button $>$ Edit Electrical button  
+To access: Tools > Part Editor menu item > Open button > Off-page > OK button > Edit Electrical button  
 
 Use the Assign Alternatives for Off-Page Part dialog box to assign or create additional off-page reference symbols.  
 
@@ -690,7 +690,7 @@ Assigning Alternative Symbols for the Off-Page Part Special Schematic Symbols
 
 ## Assign Alternatives for Power Part Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Open button $>$ Power $>$ OK button $>$ Edit Electrical button  
+To access: Tools > Part Editor menu item > Open button > Power > OK button > Edit Electrical button  
 
 Use the Assign Alternatives for Power Part dialog box to assign or create additional power symbols.  
 
@@ -726,7 +726,7 @@ Assigning Alternative Symbols for the Power Part Special Schematic Symbols
 
 ## Assign Decal to Gate Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Gates tab $>$ (if a new part, clic Add) $>$ double-click a CAE Decal cell $>$ Browse button  
+To access: Tools > Part Editor menu item > Edit Electrical button > Gates tab > (if a new part, clic Add) > double-click a CAE Decal cell > Browse button  
 
 Use the Assign Alternatives for Power Part dialog box to assign or create additional power symbols.  
 
@@ -762,7 +762,7 @@ Assigning CAE Decals to Gates
 
 ## Assign New Gate Decal Dialog Box  
 
-To access: File $>$ Library menu item $>$ select a Library $>$ Parts button $>$ select part $>$ New or Edit button $>$ on Part Editor Toolbar click Edit Electrical $>$ Gates tab $>$ (if new part click Add) $>$ double-click CAE Decal cell $>$ Browse button $>$ Assign New  
+To access: File > Library menu item > select a Library > Parts button > select part > New or Edit button > on Part Editor Toolbar click Edit Electrical > Gates tab > (if new part click Add) > double-click CAE Decal cell > Browse button > Assign New  
 
 Use the Assign New Gate dialog box to assign a new gate decal when it doesn’t yet exist in the Library.  
 
@@ -780,7 +780,7 @@ Table 67. Assign New Gate Decal Dialog Box Fields
 
 ## Assign New PCB Decal Dialog Box  
 
-To access: File $>$ Library menu item $>$ select a Library $>$ Parts button $>$ select part $>$ New or Edit butto $>$ on Part Editor Toolbar click Edit Electrical $>$ PCB Decals tab $>$ Assign New  
+To access: File > Library menu item > select a Library > Parts button > select part > New or Edit butto > on Part Editor Toolbar click Edit Electrical > PCB Decals tab > Assign New  
 
 Use the Assign New PCB Decal dialog box to assign a new PCB Decal when it doesn’t yet exist in the Library.  
 
@@ -798,7 +798,7 @@ Table 68. Assign New PCB Decal Dialog Box Fields
 
 ## Assign Shortcut Dialog Box  
 
-To access: Tools $>$ Customize menu item $>$ Keyboard and Mouse tab $>$ select a mode $>$ select a command folder $>$ select a command $>$ New button  
+To access: Tools > Customize menu item > Keyboard and Mouse tab > select a mode > select a command folder > select a command > New button  
 
 Create a new shortcut key using the Assign Shortcut dialog box.  
 
@@ -818,7 +818,7 @@ Table 69. Assign Shortcut Dialog Box Fields
 
 ## Attribute Properties Dialog Box  
 
-To access: Select a part attribute label $>$ right-click $>$ Properties menu item  
+To access: Select a part attribute label > right-click > Properties menu item  
 
 Use the Attribute Properties dialog box to provide text and font settings for one or more part attribute labels.  
 
@@ -853,7 +853,7 @@ Modifying Part Attribute Labels
 
 ## Auto Renumber Parts Dialog Box
 
-To access: Schematic Editing toolbar $>$ Auto Renumber Parts button  
+To access: Schematic Editing toolbar > Auto Renumber Parts button  
 
 Automatically renumber the reference designators on schematic sheets in a pattern. Choose the sheets, reference designator prefixes, pattern and numbering range.  
 
@@ -883,14 +883,14 @@ Basic is a simple scripting language. Like many Windows applications, such as Mi
 
 You can use the Basic Script Editor to create, edit, run, and troubleshoot Basic scripts from SailWind applications. To open the editor:  
 
-• Tools $>$ Basic Scripts $>$ Basic Script Editor menu item
+• Tools > Basic Scripts > Basic Script Editor menu item
 
 ![](/images/1209b26dfde43c3579cbb23acb54683a7ad688d635b585a3c7e9bf9c4030a951.jpg)  
 Figure 37. Basic Script Editor  
 
 ## Basic Scripts Dialog Box
 
-To access: Tools $>$ Basic Scripts $>$ Basic Scripts menu item  
+To access: Tools > Basic Scripts > Basic Scripts menu item  
 
 The Basic Scripts dialog box provides easy access to your Basic scripts.  
 
@@ -931,13 +931,13 @@ The Bill of Materials report produces a user-configurable list of the parts cont
 Restriction:   
 Including non-ECO-registered parts and non-electrical parts in the bill of materials is constrained. See Options Dialog Box, Design Category for details.  
 
-To access: File $>$ Reports menu item $>$ Setup button  
+To access: File > Reports menu item > Setup button  
 
 Bill of Materials Setup Dialog Box, Attributes Tab Bill of Materials Setup Dialog Box, BOM Config Tab Bill of Materials Setup Dialog Box, Format Tab  
 
 ### Bill of Materials Setup Dialog Box, Attributes Tab
 
-To access: File $>$ Reports menu item $>$ Setup button $>$ Attributes tab  
+To access: File > Reports menu item > Setup button > Attributes tab  
 
 Use the Attributes tab to modify the Attribute content, the corresponding column headings, and column width of the report. The attribute order in the content list determines the column arrangement in the BOM report. There is a limit of 12 attributes in the Bill of Materials report.  
 
@@ -975,7 +975,7 @@ The Bill of Materials Report
 
 ### Bill of Materials Setup Dialog Box, BOM Config Tab
 
-To access: File $>$ Reports menu item $>$ Setup button $>$ BOM Config tab  
+To access: File > Reports menu item > Setup button > BOM Config tab  
 
 Use the BOM Config tab to preview the Bill of Materials report format and copy any selected lines of the file to a Windows clipboard. You can also specify rows to export to a TXT/CSV file. The default view orders the attributes by the sort field you specified on the Format tab.  
 
@@ -1009,7 +1009,7 @@ The Bill of Materials Report
 
 ### Bill of Materials Setup Dialog Box, Format Tab
 
-To access: File $>$ Reports menu item $>$ Setup button $>$ Format tab  
+To access: File > Reports menu item > Setup button > Format tab  
 
 Use the Format tab to modify the output format of the Bill of Material report. The default settings originate from the .ini file.  
 
@@ -1051,7 +1051,7 @@ The Bill of Materials Report
 
 ## Browse for Connectors Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Open button $>$ select Connector $>$ OK button  
+To access: Tools > Part Editor menu item > Open button > select Connector > OK button  
 
 Use the Browse for Connectors dialog box to browse a library and select a connector for editing from the library (or libraries) specified in the Library list.  
 
@@ -1077,7 +1077,7 @@ Browsing for Connectors
 
 ## Browse for Special Symbols Dialog Box
 
-To access: Tools $>$ Part Editor menu item $>$ open an off-page part $>$ Edit Electrical button $>$ double-click in a field in the Special Symbols column $>$ Browse button  
+To access: Tools > Part Editor menu item > open an off-page part > Edit Electrical button > double-click in a field in the Special Symbols column > Browse button  
 
 Use the Browse For Special Symbols dialog box to access the library for decals you want to specify as Special Symbols. Special Symbols are those used to create off-page reference, power and ground symbols, and connectors.  
 
@@ -1103,7 +1103,7 @@ Assigning Alternative Symbols for the Ground Part Assigning Alternative Symbols 
 
 ## Browse Library Attributes Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Attributes tab $>$ Browse Lib. Attr button  
+To access: Tools > Part Editor menu item > Edit Electrical button > Attributes tab > Browse Lib. Attr button  
 
 Use the Browse Library Attributes dialog box to browse and list all attribute names from libraries specifie in the Library List dialog box.  
 
@@ -1127,7 +1127,7 @@ Browsing Library Attributes
 
 ## Bus Name Properties Dialog Box  
 
-To access: Select a bus name label $>$ right-click $>$ Properties menu item  
+To access: Select a bus name label > right-click > Properties menu item  
 
 Use the Bus Name Properties dialog box to provide or change text and font settings for one or more bus name labels.  
 
@@ -1163,7 +1163,7 @@ Modifying Bus Name Labels
 
 ## Bus Properties Dialog Box  
 
-To access: Select a bus $>$ right-click $>$ Properties menu item  
+To access: Select a bus > right-click > Properties menu item  
 
 Use the Bus Properties dialog box to change the name of the bus, change the bus type, and manage bus nets.  
 
@@ -1208,7 +1208,7 @@ Related Topics Managing Buses
 
 ## CAE Decal Wizard Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ New button $>$ CAE Decal $>$ OK button $>$ Decal Editing Toolbar button $>$ CAE Decal Wizard button  
+To access: Tools > Part Editor menu item > New button > CAE Decal > OK button > Decal Editing Toolbar button > CAE Decal Wizard button  
 
 Use the Decal Wizard dialog box to automatically create a new CAE decal. You must be in the Decal Editor mode of the Part Editor, and creating gate information, to use this feature.  
 
@@ -1247,7 +1247,7 @@ Using the Decal Wizard
 
 ## Capture a New View Dialog Box  
 
-To access: View $>$ Save View menu item $>$ Capture button  
+To access: View > Save View menu item > Capture button  
 
 Use the Capture a New View dialog box to name the view you want to save.  
 
@@ -1270,7 +1270,7 @@ Saving and Restoring Views
 
 ## Change Part Type Dialog Box  
 
-To access: Select a part $>$ right-click $>$ Properties $>$ Change Type button  
+To access: Select a part > right-click > Properties > Change Type button  
 
 Use the Change Part Type dialog box to change the selected part to a new part type. The new part type can be one that already exists in the schematic or in the parts library. If multiple parts are selected, all of the selected parts are changed.  
 
@@ -1306,7 +1306,7 @@ Modifying Parts
 
 ## Check for Updates Dialog Box  
 
-To access: Help $>$ Check for Updates menu item  
+To access: Help > Check for Updates menu item  
 
 Use the Check for Updates dialog box to manually check for a new version of SailWind, and to disable or enable automatic checks.  
 
@@ -1330,7 +1330,7 @@ SailWind Updates
 
 ## Class Rules Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ Class button  
+To access: Setup > Design Rules menu item > Class button  
 
 Use the Class Rules dialog box to define rules that apply to a collection of nets known as a net class and to multiple net classes.  
 
@@ -1369,7 +1369,7 @@ Table 84. Class Rules Dialog Box Contents (continued)
 
 ## Clearance Rules Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ a rule hierarchy button $>$ Clearance button  
+To access: Setup > Design Rules menu item > a rule hierarchy button > Clearance button  
 
 Use the Clearance Rules dialog box to define the spacing permitted between objects. When objects are imported, the On-line DRC and Verify Design programs use these rules to check and report clearance violations.  
 
@@ -1409,13 +1409,13 @@ When you compare two versions of a design, you can create an output file that li
 Restriction:   
 Transferring non-ECO-registered parts and non-electrical parts is constrained. See Options Dialog Box, Design Category for details.  
 
-To access: Tools $>$ Compare/ECO menu item
+To access: Tools > Compare/ECO menu item
 
 Compare/ECO Tools Dialog Box, Documents Tab Compare/ECO Tools Dialog Box, Comparison Tab  
 
 ### Compare/ECO Tools Dialog Box, Documents Tab
 
-To access: Tools $>$ Compare/ECO menu item $>$ Documents tab  
+To access: Tools > Compare/ECO menu item > Documents tab  
 
 Use the Documents tab to specify the design netlists to compare and the files to create.  
 
@@ -1453,7 +1453,7 @@ Forward Annotation From SailWind Logic to SailWind Layout Backward Annotation Fr
 
 ### Compare/ECO Tools Dialog Box, Comparison Tab
 
-To access: Tools $>$ Compare/ECO menu item $>$ Comparison tab  
+To access: Tools > Compare/ECO menu item > Comparison tab  
 
 Use the Comparison tab to specify the design elements to include in the design netlists comparison.  
 
@@ -1505,7 +1505,7 @@ Forward Annotation From SailWind Logic to SailWind Layout Backward Annotation Fr
 
 ## Conditional Rule Setup Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ Conditional Rules button  
+To access: Setup > Design Rules menu item > Conditional Rules button  
 
 Once you set up Clearance rules for a group in the hierarchical order, the rules are applied to all other objects. Use the Conditional Rule Setup dialog box to apply a third overriding set of rules that apply only when the item meets other specific levels of the hierarchical order.  
 
@@ -1542,7 +1542,7 @@ Table 88. Conditional Rule Setup Dialog Box Contents
 
 ## Connect to SailWind Layout Dialog Box  
 
-To access: Tools $>$ SailWind Layout menu item  
+To access: Tools > SailWind Layout menu item  
 
 Use the Connect to SailWind Layout dialog box to choose your connection to SailWind Layout. You can then gain access to the SailWind Layout Link dialog box.  
 
@@ -1560,7 +1560,7 @@ Table 89. Connect to SailWind Layout Dialog Box Contents
 
 ## Connect to SailWind Router Dialog Box
 
-To access: Tools $>$ SailWind Router menu item  
+To access: Tools > SailWind Router menu item  
 
 Use the Connect to SailWind Router dialog box to choose your connection to SailWind Router. You can then gain access to the SailWind Router Link dialog box.  
 
@@ -1595,7 +1595,7 @@ Table 91. Crash Detected Dialog Box Contents
 
 ## Create PDF Dialog Box  
 
-To access: File $>$ Create PDF menu item $>$ enter filename $>$ Save  
+To access: File > Create PDF menu item > enter filename > Save  
 
 You can create an intelligent PDF of your schematic, choosing which sheets you want to share and show to others in your organization. You can create the PDF in full-color or black and white, with hyperlinks to part attributes, and with search capabilities, making it easy to locate parts and nets. Once you locate a net, you can find other instances of it through the entire schematic, even when the net is on a different page. You can also create a black and white, non-searchable PDF of your schematic.  
 
@@ -1636,13 +1636,13 @@ Table 92. Create PDF Dialog Box Contents
 
 Use the Commands tab to add commands to menus or toolbars, or to create custom menus.  
 
-To access: Tools $>$ Customize menu item  
+To access: Tools > Customize menu item  
 
 Customize Dialog Box, Commands Tab Customize Dialog Box, Keyboard and Mouse Tab Customize Dialog Box, Macro Files Tab Customize Dialog Box, Options Tab Customize Dialog Box, Toolbars and Menus Tab  
 
 ### Customize Dialog Box, Commands Tab
 
-To access: Tools $>$ Customize menu item $>$ Commands tab  
+To access: Tools > Customize menu item > Commands tab  
 
 Use the Commands tab to add commands to menus or toolbars, or to create custom menus.  
 
@@ -1666,7 +1666,7 @@ Creating a Custom Command Creating a Custom Menu Defining Properties for a New C
 
 ### Customize Dialog Box, Keyboard and Mouse Tab
 
-To access: Tools $>$ Customize menu item $>$ Keyboard and Mouse tab Create and customize shortcut keys using the Keyboard and Mouse tab of the Customize dialog box.  
+To access: Tools > Customize menu item > Keyboard and Mouse tab Create and customize shortcut keys using the Keyboard and Mouse tab of the Customize dialog box.  
 
 ![](/images/1bc47ec1202efbc1dcc0f34e9ac274a0dd1cb80d37b1c3ee2203fac5464492a8.jpg)  
 Figure 59. Keyboard and Mouse Tab  
@@ -1693,7 +1693,7 @@ Table 94. Keyboard and Mouse Tab Contents (continued)
 
 ### Customize Dialog Box, Macro Files Tab
 
-To access: Tools $>$ Customize menu item $>$ Macro Files tab  
+To access: Tools > Customize menu item > Macro Files tab  
 
 Create commands from macro files and add them to toolbars and menus using the Macro Files tab.  
 
@@ -1718,7 +1718,7 @@ Table 95. Macro Files Tab Contents
 
 ### Customize Dialog Box, Options Tab
 
-To access: Tools $>$ Customize menu item $>$ Options tab  
+To access: Tools > Customize menu item > Options tab  
 
 Customize the SailWind interface by changing the appearance of menus and toolbars using the Options tab of the Customize dialog box.  
 
@@ -1756,7 +1756,7 @@ Customized Appearance of the Screen
 
 ### Customize Dialog Box, Toolbars and Menus Tab
 
-To access: Tools $>$ Customize menu item $>$ Toolbars and Menus tab  
+To access: Tools > Customize menu item > Toolbars and Menus tab  
 
 Use the Toolbars and Menus tab on the Customize dialog box to create custom toolbars and shortcut menus.  
 
@@ -1793,7 +1793,7 @@ Customizing the SailWind Interface
 
 ## DC Source Sweep Analysis Dialog Box  
 
-To access: Tools $>$ SPICE Netlist menu item $>$ Simulation Setup button $|>$ DC Sweep button  
+To access: Tools > SPICE Netlist menu item > Simulation Setup button $|>$ DC Sweep button  
 
 Use the DC Source Sweep Analysis dialog box to set options specifically for a DC Sweep analysis.  
 
@@ -1818,7 +1818,7 @@ Creating a SPICE Netlist Setting Up DC Source Sweep Analysis
 
 ## Default Rules Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ Default button  
+To access: Setup > Design Rules menu item > Default button  
 
 Use the Default Rules dialog box to define rules which apply to all objects that are not included in any other rule within the hierarchy.  
 
@@ -1839,7 +1839,7 @@ Table 99. Default Rules Dialog Box Contents
 
 ## Differential Pairs Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ Differential Pairs button  
+To access: Setup > Design Rules menu item > Differential Pairs button  
 
 Use the Differential Pairs dialog box to identify nets or pin pairs that behave electrically as differentia pairs, and to define differential pair design rules.  
 
@@ -1878,7 +1878,7 @@ Table 100. Differential Pairs Dialog Box Contents (continued)
 
 ## Display Colors Dialog Box
 
-To access: Setup $>$ Display Colors menu item  
+To access: Setup > Display Colors menu item  
 
 Use the Display Colors Setup dialog box to Set display colors, save them, and restore them; Change the color palette; make objects visible; and make objects invisible.  
 
@@ -1913,7 +1913,7 @@ Display Colors Dialog Box - Part Editor Setting Display Colors
 
 ## Display Colors Dialog Box - Part Editor  
 
-To access: In the Part Editor, Setup $>$ Display Colors menu item  
+To access: In the Part Editor, Setup > Display Colors menu item  
 
 Use the Display Colors dialog box while in the Part Editor or the CAE Decal Editor to control the colors of objects and the working area. SailWind Logic saves the color settings for part editor items with the schematic. This dialog box is similar to the one used in the schematic editor, with check boxes to display text items.  
 
@@ -1944,7 +1944,7 @@ Table 102. Display Colors Dialog Box contents (continued)
 
 ## Drafting Properties Dialog Box  
 
-To access: Select a drafting object $>$ right-click $>$ Properties menu item  
+To access: Select a drafting object > right-click > Properties menu item  
 
 Use the Drafting Properties dialog box to modify the line width, style, and orientation of selected drafting objects.  
 
@@ -1968,7 +1968,7 @@ Table 103. Drafting Properties Dialog Box Contents
 
 ## Edit Button Image Dialog Box  
 
-To access: Tools $>$ Customize menu item $>$ Commands tab $>$ New button $>$ Select User-Defined Image $>$ New or Edit button  
+To access: Tools > Customize menu item > Commands tab > New button > Select User-Defined Image > New or Edit button  
 
 Use the Edit Button Image dialog box to create or edit button icons.  
 
@@ -1987,7 +1987,7 @@ Table 104. Edit Button Image Dialog Box Contents
 
 ## Fields Dialog Box  
 
-To access: Select nothing or a 2D line object $>$ right-click $>$ Fields menu item  
+To access: Select nothing or a 2D line object > right-click > Fields menu item  
 
 Use the Fields dialog box to manage multiple fields. You can manage the fields in the entire schematic or in a 2D line object.  
 
@@ -2020,7 +2020,7 @@ Related Topics Managing Fields
 
 ## Field Properties Dialog Box  
 
-To access: Select a field $>$ right-click $>$ Properties menu item  
+To access: Select a field > right-click > Properties menu item  
 
 Use the Field Properties dialog box to modify a field name or change its text size, orientation, or justification.  
 
@@ -2113,7 +2113,7 @@ Managing Font Replacement
 
 ## Fonts Dialog Box
 
-To access: Setup $>$ Fonts menu item  
+To access: Setup > Fonts menu item  
 
 Use the Fonts dialog box to set up or change the fonts to be used in your design.  
 
@@ -2147,7 +2147,7 @@ Setting Fonts
 
 ## Get Drafting Items From Library Dialog Box  
 
-To access: Schematic Editing toolbar $>$ Add 2D Line from Library button  
+To access: Schematic Editing toolbar > Add 2D Line from Library button  
 
 Use the Get Drafting Item from Library dialog box to load a 2D line item from the available libraries to the current schematic.  
 
@@ -2173,7 +2173,7 @@ Adding Drafting Items From a Library
 
 ## Get Gate Decal From Library Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Open button $>$ Select CAE Decal $>$ OK button  
+To access: Tools > Part Editor menu item > Open button > Select CAE Decal > OK button  
 
 Use the Get Gate Decal from Library dialog box to open an existing CAE Decal in the Part Editor.  
 
@@ -2199,7 +2199,7 @@ Getting Gate Decals From the Library
 
 ## Get PCB Decal From Library Dialog Box  
 
-To access: Select a part $>$ right-click $>$ Properties $>$ PCB Decals button $>$ Browse button Use the Get PCB Decal from Library dialog box to search a library for a PCB decal.  
+To access: Select a part > right-click > Properties > PCB Decals button > Browse button Use the Get PCB Decal from Library dialog box to search a library for a PCB decal.  
 
 ![](/images/640b031c161aa779e881b9ffc4e58b577121be2debe2d0d535d5f4dfacfd5362.jpg)  
 Figure 76. Get PCB Decal From Library Dialog Box  
@@ -2222,7 +2222,7 @@ Searching the Library for a Decal
 
 ## Hierarchical Symbol Wizard Dialog Box  
 
-To access: Schematic Editing toolbar $>$ New Hierarchical Symbol button  
+To access: Schematic Editing toolbar > New Hierarchical Symbol button  
 
 Use the Hierarchical Symbol Wizard dialog box to create a new hierarchical symbol in either a top-down or bottom-up design structure. The symbol creation methodology varies, depending on the structure you use.  
 
@@ -2255,7 +2255,7 @@ Creating a Top-Down Hierarchy Creating a Bottom-Up Hierarchy
 
 ## HiSpeed Rules Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ a rule hierarchy button $>$ HiSpeed button  
+To access: Setup > Design Rules menu item > a rule hierarchy button > HiSpeed button  
 
 Use the HiSpeed Rules dialog box to define rules for Parallelism, Tandem, Shielding, Routed Length, Stub Length, Delay, Capacitance, Impedance, and Matched Length.  
 
@@ -2307,7 +2307,7 @@ Setting Up High-Speed Rules
 
 ## Installed Options Dialog Box  
 
-To access: Help $>$ Installed Options menu item $>$ License File tab  
+To access: Help > Installed Options menu item > License File tab  
 
 Use the License File tab to select and then view license file information, either the actual license file (for node-locked licensing) or the feature usage status associated with a server license (for floating licensing)  
 
@@ -2335,7 +2335,7 @@ Viewing a License File or License Status
 
 ## Library List Dialog Box  
 
-To access: File $>$ Library menu item $>$ Manage Lib. List button  
+To access: File > Library menu item > Manage Lib. List button  
 
 When you add a part to the design, you retrieve information about that part from a library. The Library List dialog box contains a list of libraries to search. The libraries are searched in the order in which they are listed, beginning with the first library in the list.  
 
@@ -2364,7 +2364,7 @@ Setting the Library List Order
 
 ## Library Manager Dialog Box  
 
-To access: File $>$ Library menu item  
+To access: File > Library menu item  
 
 Use the Library Manager to perform operations associated with editing and copying the contents of libraries.  
 
@@ -2436,7 +2436,7 @@ Table 116. Library Manager Dialog Box Contents (continued)
 
 ## Log Test Dialog Box  
 
-To access: type BLT $>$ press Enter. If nothing happens, close SailWind Logic and restart it.   
+To access: type BLT > press Enter. If nothing happens, close SailWind Logic and restart it.   
 Use BLT to replay session playback media created by BMW.  
 
 ![](/images/5c496ef8c93e242e67e81f71c4c2d4f93108c7a0c8d811fe9269b1dc7e3388b0.jpg)  
@@ -2459,7 +2459,7 @@ Replaying Session Playback Media With BLT
 
 ## Logic Families Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ General tab $>$ Families button Use the Logic Families dialog box to add, delete, or modify logic family names and default reference designator prefixes.  
+To access: Tools > Part Editor menu item > Edit Electrical button > General tab > Families button Use the Logic Families dialog box to add, delete, or modify logic family names and default reference designator prefixes.  
 
 ![](/images/665e45a5338f550ac4bbfb5e9ce20aabe54033c8d9d52adedb1572b7d0294195.jpg)  
 Figure 83. Logic Families Dialog Box  
@@ -2483,7 +2483,7 @@ Editing Logic Families
 
 ## Make Field Dialog Box  
 
-To access: Select a text string $>$ right-click $>$ Make Field menu item Use the Make Field dialog box to change an existing text string into a field.  
+To access: Select a text string > right-click > Make Field menu item Use the Make Field dialog box to change an existing text string into a field.  
 
 ![](/images/95fba7fa46d08c60f61fedb5a1e6ea85a68ce7f85b9c5a4cfb86e47cdc9fd833.jpg)  
 Figure 84. Make Field Dialog Box  
@@ -2519,7 +2519,7 @@ Changing a Text String Into a Field
 
 ## Manage Library Attributes Dialog Box
 
-To access: File $>$ Library menu item $>$ Attr Manager button  
+To access: File > Library menu item > Attr Manager button  
 
 Use the Manage Library Attributes dialog box to list the attribute names in your libraries and to add an attribute to, rename an attribute in, or delete an attribute from, the library.  
 
@@ -2558,7 +2558,7 @@ Managing Library Attributes
 
 ## Manage Schematic Attributes Dialog Box  
 
-To access: Edit $>$ Attribute Manager menu item  
+To access: Edit > Attribute Manager menu item  
 
 Use the Manage Schematic Attributes dialog box to manage attributes at the schematic level. You can create a new attribute and automatically assign it to every part in your design. You can also rename an attribute in, or delete an attribute from, the schematic. All parts are automatically updated.  
 
@@ -2595,7 +2595,7 @@ Manage Attributes in a Schematic
 
 ## Media Wizard Dialog Box  
 
-To access: type BMW $>$ press Enter  
+To access: type BMW > press Enter  
 
 BMW (Basic Media Wizard) is a tool that you can use to record and play back SailWind Logic, SailWind Layout and SailWind Router sessions. It is particularly useful as a means of supplying information to SailWind Technical Support engineers trying to identify and resolve any problematical behavior you may encounter.  
 
@@ -2984,7 +2984,7 @@ Table 144. Mouse Button Substitutions
 
 ## Net Attributes Dialog Box
 
-To access: Select a net $>$ right-click $>$ Attributes menu item  
+To access: Select a net > right-click > Attributes menu item  
 
 Use the Net Attributes dialog box to associate information with a single net or set of nets on the schematic. Attributes are made of two parts, an attribute name and its corresponding value. If connecting to SailWind Layout, these attributes are passed along with the rest of the schematic.  
 
@@ -3009,7 +3009,7 @@ Creating Net Attributes
 
 ## Net Name Properties Dialog Box  
 
-To access: Select a net name label $>$ right-click $>$ Properties menu item  
+To access: Select a net name label > right-click > Properties menu item  
 
 Use the Net Name Properties dialog box to provide or change text and font settings for one or more net name labels.  
 
@@ -3044,7 +3044,7 @@ Modifying Part Type Labels
 
 ## Net Properties Dialog Box  
 
-To access: Select a net $>$ right-click $>$ Properties menu item  
+To access: Select a net > right-click > Properties menu item  
 
 Use the Net Properties dialog box to access net specific properties.  
 
@@ -3079,11 +3079,11 @@ Modifying Nets
 
 To access:  
 
-• Setup $>$ Design Rules menu item $>$ Net button  
+• Setup > Design Rules menu item > Net button  
 
-• Select a net $>$ right-click $>$ Show Rules menu item  
+• Select a net > right-click > Show Rules menu item  
 
-• Select a net $>$ right-click $>$ Properties $>$ Rules button  
+• Select a net > right-click > Properties > Rules button  
 
 Use the Net Rules dialog box to define design rules that apply to nets.  
 
@@ -3116,7 +3116,7 @@ Table 148. Net Rules Dialog Box (continued)
 
 ## Netlist to PCB Dialog Box  
 
-To access: Tools $>$ Layout Netlist menu item  
+To access: Tools > Layout Netlist menu item  
 
 Use the Netlist to PCB dialog box to create a netlist for import to SailWind Layout.  
 
@@ -3149,7 +3149,7 @@ Table 149. Netlist to PCB Dialog Box Contents
 
 ## Off-Page Properties Dialog Box  
 
-To access: Select an off-sheet label $>$ right-click> Properties menu item Use the Off-Page Properties dialog box to set the properties of off-sheet labels.  
+To access: Select an off-sheet label > right-click> Properties menu item Use the Off-Page Properties dialog box to set the properties of off-sheet labels.  
 
 ![](/images/ccd0d490a9cbaaf77335cc7baec4e2d47217495edb1402b52fafcf3be18f98c3.jpg)  
 Figure 93. Off-Page Properties Dialog Box  
@@ -3168,13 +3168,13 @@ Table 150. Off-Page Properties Dialog Box
 
 Using the Options dialog box, you can preset options for commands in SailWind Logic, setting up how those SailWind Logic commands will work and overriding the default settings in the default.txt file. Setting options enables you to set up a working environment that suits your design and the way you work.  
 
-To access: Tools $>$ Options menu item  
+To access: Tools > Options menu item  
 
 Options Dialog Box, Design Category Options Dialog Box, General Category Options Dialog Box, Line Widths Category Options Dialog Box, Text Category  
 
 ### Options Dialog Box, Design Category
 
-To access: Tools $>$ Options menu item $>$ Design category  
+To access: Tools > Options menu item > Design category  
 
 There are six categories of general options for the Schematic Editor; they are organized into six areas in the Design category labeled Parameters, Options, Sheet, Off-sheet Labels, Non-ECO-Registered Parts, and Non-Electrical Parts.  
 
@@ -3238,7 +3238,7 @@ Setting Schematic Editor Options
 
 ### Options Dialog Box, General Category
 
-To access: Tools $>$ Options menu item $>$ General category  
+To access: Tools > Options menu item > General category  
 
 There are six categories of general options for the Schematic Editor; they are organized into six areas in the General category labeled Display, Cursor, Grids, OLE objects, Text Encoding, and Automatic Backups.  
 
@@ -3314,7 +3314,7 @@ Setting Schematic Editor Options Creating a Backup File
 
 ### Options Dialog Box, Line Widths Category
 
-To access: Tools $>$ Options menu item $>$ Line Widths category  
+To access: Tools > Options menu item > Line Widths category  
 
 Use the Line Widths category to change the size of line widths in the workspace.  
 
@@ -3352,7 +3352,7 @@ Setting Line Widths
 
 ### Options Dialog Box, Text Category
 
-To access: Tools menu item $>$ Text category  
+To access: Tools menu item > Text category  
 
 The Text category differs depending on the selection you made in the Fonts dialog box: Stroke or System font.  
 
@@ -3408,7 +3408,7 @@ Table 154. Options Dialog Box, Text Category (continued)
 
 ## Options Dialog Box - Part Editor, General Category  
 
-To access: While in the Schematic Editor, click the Tools $>$ Part Editor menu item. In the Part Editor, click the Edit $>$ CAE Decal Editor menu item. In the CAE Decal Editor, click the Tools $>$ Options menu item, then click the General category.  
+To access: While in the Schematic Editor, click the Tools > Part Editor menu item. In the Part Editor, click the Edit > CAE Decal Editor menu item. In the CAE Decal Editor, click the Tools > Options menu item, then click the General category.  
 
 There are four categories of general options for the Part Editor; they are organized into four areas on the General category labeled Display, Cursor, Grids, and Text Encoding.  
 
@@ -3463,7 +3463,7 @@ Setting Part Editor Options
 
 To access:  
 
-• File $>$ Plot menu item $>$ Options button • File $>$ Print menu item $>$ Options button  
+• File > Plot menu item > Options button • File > Print menu item > Options button  
 
 Use the Options dialog box to set the output options for printing or plotting. Setting options enables you to set the position, orientation, and color of selected sheets and objects.  
 
@@ -3516,7 +3516,7 @@ The Status tab displays information about the current session. It specifies the 
 
 If the Status tab is closed, and you get an error while autorouting - or performing other tasks - the Output window opens with the Status tab active and the error appearing in red. The Output window reappears in its most recent state (floating or docked).  
 
-• Output Window button $>$ Status tab  
+• Output Window button > Status tab  
 
 **Macro Tab**
 
@@ -3524,17 +3524,17 @@ You can edit, run, and debug macro scripts in the Macro tab. You can open multip
 
 A macro is any combination of commands, keystrokes, and mouse clicks that you record to replay as a single action. You can record virtually any set of procedural steps for replay, thereby simplifying redundant activities, such as setting preferences and layer/display settings.  
 
-• Output Window button $>$ Macro tab
+• Output Window button > Macro tab
 
 **CIS Tab**
 
 The CIS tab provides a graphic interface to view part information in the database, to which you connect. You can select and add parts to the design, specify the part information to display, and export database configuration.  
 
-• Output Window button $>$ CIS tab Library Config Dialog Box Part Manager Dialog Box  
+• Output Window button > CIS tab Library Config Dialog Box Part Manager Dialog Box  
 
 ### Library Config Dialog Box
 
-To access: Output Window $>$ CIS tab $>$ New/Edit button  
+To access: Output Window > CIS tab > New/Edit button  
 
 Use the Library Config dialog box to specify the database from which to load part information and specifc part information displayed in the CIS tab.  
 
@@ -3573,7 +3573,7 @@ Table 157. Library Config Dialog Box Contents (continued)
 
 ### Part Manager Dialog Box
 
-To access: Output Window $>$ CIS tab $>$ Part... button  
+To access: Output Window > CIS tab > Part... button  
 
 Use the Part Manager dialog box to compare part attributes in design with those in CIS for consistency checking. For the inconsistent attribute values, you can update from CIS with multiple options.  
 
@@ -3623,7 +3623,7 @@ SailWind Layout Link Dialog Box, Design Tab SailWind Layout Link Dialog Box, Doc
 
 ### SailWind Layout Link Dialog Box, Design Tab
 
-To access: Tools $>$ SailWind Layout menu item $>$ connect to SailWind Layout using the Connect to SailWind Layout Dialog Box $>$ Design tab  
+To access: Tools > SailWind Layout menu item > connect to SailWind Layout using the Connect to SailWind Layout Dialog Box > Design tab  
 
 Use the Design tab of the SailWind Layout Link dialog box to export a netlist to SailWind Layout, compare the schematic to the layout design, or forward and backward annotate design data.  
 
@@ -3668,7 +3668,7 @@ SailWind Layout Link Dialog Box
 
 ### SailWind Layout Link Dialog Box, Document Tab
 
-To access: Tools $>$ SailWind Layout menu item $>$ connect to SailWind Layout using the Connect to SailWind Layout Dialog Box $>$ Document tab  
+To access: Tools > SailWind Layout menu item > connect to SailWind Layout using the Connect to SailWind Layout Dialog Box > Document tab  
 
 Use the Document tab of the SailWind Layout Link dialog box to open and connect to a different design or a new design file within the current SailWind Layout session. The current design path and filename is listed at the top of this tab.  
 
@@ -3694,7 +3694,7 @@ SailWind Layout Link Dialog Box
 
 ### SailWind Layout Link Dialog Box, ECO Names Tab
 
-To access: Tools $>$ SailWind Layout menu item $>$ connect to SailWind Layout using the Connect to SailWind Layout Dialog Box $>$ ECO Names tab  
+To access: Tools > SailWind Layout menu item > connect to SailWind Layout using the Connect to SailWind Layout Dialog Box > ECO Names tab  
 
 Use the ECO Names tab of the SailWind Layout Link dialog box to manage options for the compare and ECO functions on the Design tab.  
 
@@ -3728,7 +3728,7 @@ SailWind Layout Link Dialog Box
 
 ### SailWind Layout Link Dialog Box, Preferences Tab
 
-To access: Tools $>$ SailWind Layout menu item $>$ connect to SailWind Layout using the Connect to SailWind Layout Dialog Box $>$ Preferences tab  
+To access: Tools > SailWind Layout menu item > connect to SailWind Layout using the Connect to SailWind Layout Dialog Box > Preferences tab  
 
 Use the Preferences tab of the SailWind Layout Link dialog box to manage options for the compare and ECO functions on the Design tab.  
 
@@ -3759,7 +3759,7 @@ Table 162. SailWind Layout Link Dialog Box, Preferences Tab Contents (continued)
 
 ### SailWind Layout Link Dialog Box, Selection Tab
 
-To access: Tools $>$ SailWind Layout menu item $>$ connect to SailWind Layout using the Connect to SailWind Layout Dialog Box $>$ Selection tab  
+To access: Tools > SailWind Layout menu item > connect to SailWind Layout using the Connect to SailWind Layout Dialog Box > Selection tab  
 
 Use the Selection tab of the SailWind Layout Link dialog box to manage the selections sent to and received from SailWind Layout.  
 
@@ -3793,7 +3793,7 @@ SailWind Router Link Dialog Box, Document Tab SailWind Router Link Dialog Box, S
 
 ### SailWind Router Link Dialog Box, Document Tab
 
-To access: Tools $>$ SailWind Router menu item $>$ connect to SailWind Router using the Connect to SailWind Router Dialog Box $>$ Document tab  
+To access: Tools > SailWind Router menu item > connect to SailWind Router using the Connect to SailWind Router Dialog Box > Document tab  
 
 Use the Document tab of the SailWind Router Link dialog box to open and connect to a different design or a new design file within the current SailWind Router session. The current design path and filename is listed at the top of this tab.  
 
@@ -3820,7 +3820,7 @@ SailWind Router Link Dialog Box
 
 ### SailWind Router Link Dialog Box, Selection Tab
 
-To access: Tools $>$ SailWind Layout menu item $>$ connect to SailWind Router using the Connect to SailWind Router Dialog Box $>$ Selection tab  
+To access: Tools > SailWind Layout menu item > connect to SailWind Router using the Connect to SailWind Router Dialog Box > Selection tab  
 
 Use the Selection tab of the SailWind Router Link dialog box to manage the selections sent to and received from SailWind Router.  
 
@@ -3846,7 +3846,7 @@ SailWind Router Link Dialog Box
 
 To access:  
 
-• Help $>$ Installed Options menu item $>$ Suite Configuration button • Optional: Opens on program startup the SailWind Suite Configuration dialog box to manage SailWind Suite (composite) licenses.  
+• Help > Installed Options menu item > Suite Configuration button • Optional: Opens on program startup the SailWind Suite Configuration dialog box to manage SailWind Suite (composite) licenses.  
 
 SailWind Suite Configuration
 
@@ -3876,7 +3876,7 @@ SailWind Suite Configuration
 
 ## Part Attributes Dialog Box
 
-To access: Select a part $>$ right-click $>$ Attributes menu item  
+To access: Select a part > right-click > Attributes menu item  
 
 Use the Part Attributes dialog box to assign or modify part attributes, which is information about the part such as manufacturer and cost.  
 
@@ -3915,7 +3915,7 @@ Part Information Dialog Box, Attributes Tab Part Information Dialog Box, Connect
 
 ### Part Information Dialog Box, Attributes Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Attributes tab  
+To access: Tools > Part Editor menu item > Edit Electrical button > Attributes tab  
 
 Use the Attributes tab of the Part Information dialog box to manage attributes for the selected part, and to define default attributes for new parts.  
 
@@ -3950,7 +3950,7 @@ Related Topics Managing Attributes
 
 ### Part Information Dialog Box, Connector Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Connector tab  
+To access: Tools > Part Editor menu item > Edit Electrical button > Connector tab  
 
 Use the Connector tab to define the alternate Logic decals to display in a schematic. Decals are referred to as Special Symbols. You can associate a logical Pin Type with each alternate so that you can have a graphical indication of the connector pin function in the schematic.  
 
@@ -3989,7 +3989,7 @@ Assigning Alternate Logic Decals for Connector Symbols
 
 ### Part Information Dialog Box, Gates Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Gates tab  
+To access: Tools > Part Editor menu item > Edit Electrical button > Gates tab  
 
 Use the Gates tab of the Part Information dialog box to assign gate information to a part, including the number of gates, gate swap information, and CAE Decals for the part.  
 
@@ -4026,7 +4026,7 @@ Assigning Gates to Parts
 
 ### Part Information Dialog Box, General Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ General tab  
+To access: Tools > Part Editor menu item > Edit Electrical button > General tab  
 
 Use the General tab of the Part Information dialog box to view part statistics and set family information.  
 
@@ -4088,7 +4088,7 @@ Viewing and Setting General Part Information
 
 ### Part Information Dialog Box, PCB Decals Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ PCB Decals tab  
+To access: Tools > Part Editor menu item > Edit Electrical button > PCB Decals tab  
 
 Use the PCB Decals tab of the Part Information dialog box to assign decals, or footprints, to library parts.  
 
@@ -4137,7 +4137,7 @@ Assigning PCB Decals
 
 ### Part Information Dialog Box, Pin Mapping Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ General tab. On the General tab, select the “Define mapping of Part Type pin numbers to PCB Decal” check box to make the Pin Mapping tab available. On the PCB Decals tab, assign a decal with sequential numerical pin numbers to use the Pin Mapping tab. The decal determines the number of pins in the part.  
+To access: Tools > Part Editor menu item > Edit Electrical button > General tab. On the General tab, select the “Define mapping of Part Type pin numbers to PCB Decal” check box to make the Pin Mapping tab available. On the PCB Decals tab, assign a decal with sequential numerical pin numbers to use the Pin Mapping tab. The decal determines the number of pins in the part.  
 
 Use the Pin Mapping tab of the Part Information dialog box to overlay alphanumeric pin numbers onto numeric PCB decal pins. Prior to PADS 2007, alphanumeric pin numbers could not be saved in PCB decals.  
 
@@ -4175,7 +4175,7 @@ Part Information - Pin Mapping
 
 ### Part Information Dialog Box, Pins Tab
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Pins tab  
+To access: Tools > Part Editor menu item > Edit Electrical button > Pins tab  
 
 Use the Pins tab of the Part Information dialog box to assign gate pins, signal pins, and unused pins to the part. Pin numbers added to the Pins tab, must match those of the PCB Decal. Use the Pin Mapping tab to overlay logical (schematic) alphanumeric pin numbers onto the physical numeric PCB decal.  
 
@@ -4315,7 +4315,7 @@ Part Information - Pins
 
 ## Part Properties Dialog Box
 
-To access: Select a part $>$ right-click $>$ Properties menu item  
+To access: Select a part > right-click > Properties menu item  
 
 Use the Part Properties dialog box to create and edit part attributes. You can also define signal pins and control the visibility of attributes assigned to the part.  
 
@@ -4358,7 +4358,7 @@ Related Topics Modifying Parts
 
 ## Part Signal Pins Dialog Box  
 
-To access: Select a part $>$ right-click $>$ Properties $>$ SigPins button  
+To access: Select a part > right-click > Properties > SigPins button  
 
 Use the Part Signal Pins dialog box to assign any unused pins as additional signal pins. When the part type is created and stored in the library, the standard power and ground pins for part types are defined. Signal pins assigned during part creation cannot be modified through this dialog box. Instead, use the Assigning Signal Pin Names to Parts dialog box in the Library Manager.  
 
@@ -4398,7 +4398,7 @@ Modifying Parts
 
 ## Part Text Visibility Dialog Box  
 
-To access: Select a part $>$ right-click $>$ Visibility menu item  
+To access: Select a part > right-click > Visibility menu item  
 
 Use the Part Text Visibility dialog box to control the display of text associated with the selected part. You can control the visibility of one part or all parts of the same type.  
 
@@ -4429,7 +4429,7 @@ Controlling Text Visibility for a Part
 
 ## Part Type Label Properties Dialog Box  
 
-To access: Select a part type label $>$ right-click $>$ Properties menu item  
+To access: Select a part type label > right-click > Properties menu item  
 
 Use the Part Type Label Properties dialog box to provide text and font settings for one or more part type labels.  
 
@@ -4464,7 +4464,7 @@ Modifying Part Type Labels
 
 ## Pen Plotter Advanced Setup Dialog Box  
 
-To access: File $>$ Plot menu item $>$ select Pen Plot $>$ Setup button $>$ Advanced button  
+To access: File > Plot menu item > select Pen Plot > Setup button > Advanced button  
 
 Use the Pen Plotter Advanced Setup dialog box to add a new pen plotter to the list of available plotters  
 
@@ -4490,7 +4490,7 @@ Pen Plotter Setup Dialog Box
 
 ## Pen Plotter Setup Dialog Box  
 
-To access: File $>$ Plot menu item $>$ select Pen Plot $>$ Setup button  
+To access: File > Plot menu item > select Pen Plot > Setup button  
 
 Use the Pen Plotter Setup dialog box to set various options for the plotter.  
 
@@ -4521,7 +4521,7 @@ Table 178. Pen Plotter Setup Dialog Box Contents (continued)
 
 ## PCB Decal Assignment Dialog Box  
 
-To access: Select a part $>$ right-click $>$ Properties $>$ PCB Decals button  
+To access: Select a part > right-click > Properties > PCB Decals button  
 
 Use the PCB Decal Assignment dialog box to assign alternate PCB decals to schematic parts. Decal names are included in the netlist file to display the proper decal, or footprint, when the file is imported into the PCB design file. You can select a decal assigned as an alternate during part creation, override the decal with one from the library, or enter a name for an undefined decal you plan to create later in the PCB design.  
 
@@ -4556,7 +4556,7 @@ Modifying Parts
 
 ## Photo Plotter Advanced Setup Dialog Box  
 
-To access: File $>$ Plot menu item $>$ select Photo Plot $>$ Setup button $>$ Advanced button  
+To access: File > Plot menu item > select Photo Plot > Setup button > Advanced button  
 
 Use the Photo Plotter Setup dialog box to define the aperture and other photo plotter options.  
 
@@ -4593,7 +4593,7 @@ Photo Plotter Setup Dialog Box
 
 ## Photo Plotter Setup Dialog Box  
 
-To access: File $>$ Plot menu item $>$ select Photo Plot $>$ Setup button  
+To access: File > Plot menu item > select Photo Plot > Setup button  
 
 Use the Photo Plotter Advanced Setup dialog box to define the units for the photo plotter to use.  
 
@@ -4627,7 +4627,7 @@ Table 181. Photo Plotter Setup Dialog Box Contents (continued)
 
 ## Pin Decal Browse Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Decal Editing Toolbar button $>$ Add Terminal or Change Pin Decal button  
+To access: Tools > Part Editor menu item > Decal Editing Toolbar button > Add Terminal or Change Pin Decal button  
 
 Use the Pin Decal Browse dialog box to add or change a terminal. A terminal consists of a pin decal and a series of text strings that define the terminal's number, swap data, etc.  
 
@@ -4650,7 +4650,7 @@ Adding Terminals Modifying Terminals
 
 ## Pin Decal List Management Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Setup $>$ Pin List Manger  menu item  
+To access: Tools > Part Editor menu item > Setup > Pin List Manger  menu item  
 
 Use the Pin Decal List Management dialog box to control which decals are displayed in the Pin Decal List. The pin decal list contains the decals that can be used as terminal graphics when creating gate or part decals.  
 
@@ -4680,7 +4680,7 @@ Table 183. Pin Decal List Management Box Contents (continued)
 
 ## Pin Label Fonts Dialog Box  
 
-To access: Select a pin $>$ right-click $>$ Properties menu item $>$ Font button Use the Pin Label Fonts dialog box to change the fonts of a pin label.  
+To access: Select a pin > right-click > Properties menu item > Font button Use the Pin Label Fonts dialog box to change the fonts of a pin label.  
 
 ![](/images/e5cca3379fed8d4d3b5b0c7ee7bc6e91878ff300e4793845867b5089f83ba2a8.jpg)  
 Figure 124. Pin Label Fonts Dialog Box  
@@ -4725,7 +4725,7 @@ Modifying Pin Label Fonts
 
 ## Pin Properties Dialog Box  
 
-To access: Select a pin $>$ right-click $>$ Properties menu item  
+To access: Select a pin > right-click > Properties menu item  
 
 Use the Pin Properties dialog box to view pin information, to modify parts and nets to which the selected pin is connected, and also to set font settings for pin number and pin name labels.  
 
@@ -4751,7 +4751,7 @@ Modifying Pins
 
 ## Plot Dialog Box  
 
-To access: File $>$ Plot menu item  
+To access: File > Plot menu item  
 
 You can output your designs to pen plotters or photo plotters.  
 
@@ -4775,7 +4775,7 @@ Table 186. Plot Dialog Box Contents
 
 ## Print Dialog Box  
 
-To access: File $>$ Print menu item  
+To access: File > Print menu item  
 
 A standard Microsoft Print dialog box with access to Print Preview and Options.  
 
@@ -4841,9 +4841,9 @@ Table 187. Object Groups and Subgroups (continued)
 
 ## Query Hierarchical Component Dialog Box
 
-To access: Select a hierarchical component $>$ right-click $>$ Properties menu item  
+To access: Select a hierarchical component > right-click > Properties menu item  
 
-Use the Hierarchical Component Properties dialog box to assign a hierarchical component to the next available sheet number to make it accessible from the Sheet list when a sheet other than the parent sheet is displayed. Use the Setup $>$ Sheets menu item to modify the sheet name or the numeric order.  
+Use the Hierarchical Component Properties dialog box to assign a hierarchical component to the next available sheet number to make it accessible from the Sheet list when a sheet other than the parent sheet is displayed. Use the Setup > Sheets menu item to modify the sheet name or the numeric order.  
 
 ![](/images/110e151d109000f4ae238ff25657ee3214bcc979164538a0df79c4ea263fe941.jpg)  
 Figure 127. Query Hierarchical Component Dialog Box  
@@ -4868,7 +4868,7 @@ Modifying Hierarchical Components
 
 ## Reference Designator Properties Dialog Box  
 
-To access: Select a part type label $>$ right-click $>$ Properties menu item  
+To access: Select a part type label > right-click > Properties menu item  
 
 Use the Reference Designator Properties dialog box to view and modify label size and justification as wel as text and font settings for one or more reference designator labels.  
 
@@ -4901,7 +4901,7 @@ Modifying Reference Designator Labels
 
 ## Remap Special Symbols Dialog Box  
 
-To access: Tools $>$ Update from Library menu item; then, in the Update from Library dialog box, choose the “Update design from library” option and select the Off-page symbols, Ground symbols, or the Power symbols check box.  
+To access: Tools > Update from Library menu item; then, in the Update from Library dialog box, choose the “Update design from library” option and select the Off-page symbols, Ground symbols, or the Power symbols check box.  
 
 Use the Remap Special Symbols dialog box to make updates to power, ground, or off-page schematic symbols in your design. You can use this dialog box to update your schematic symbols with changes in the library or assign a different library symbol to a schematic symbol in the design.  
 
@@ -4942,7 +4942,7 @@ The Update From Library Function Updating Special Symbol Mappings
 
 ## Rename Gate Dialog Box  
 
-To access: select a part $>$ right-click $>$ Properties menu item $>$ Rename Gate button Use the Rename Gate dialog box to change the reference designator of the selected gate.  
+To access: select a part > right-click > Properties menu item > Rename Gate button Use the Rename Gate dialog box to change the reference designator of the selected gate.  
 
 ![](/images/5bb1d2b4ac1722100eaada8214db1d48925aea1da9fe6c920a3a673028a3d23a.jpg)  
 Figure 130. Rename Gate Dialog Box  
@@ -4960,7 +4960,7 @@ Table 191. Rename Gate Dialog Box Contents
 
 ## Rename Part Dialog Box  
 
-To access: select a part $>$ right-click $>$ Properties menu item $>$ Rename Part button Use the Rename Part dialog box to change the reference designator for the selected part or gate.  
+To access: select a part > right-click > Properties menu item > Rename Part button Use the Rename Part dialog box to change the reference designator for the selected part or gate.  
 
 ![](/images/4fdd93a11daa3a37e67d869bc083bf74554a09f0d3232894f056948869b7eed0.jpg)  
 Figure 131. Rename Part Dialog Box  
@@ -4978,7 +4978,7 @@ Table 192. Rename Part Dialog Box Contents
 
 ## Renumber Pins Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ Edit Electrical button $>$ Pins tab $>$ select pin(s) > Renumber button  
+To access: Tools > Part Editor menu item > Edit Electrical button > Pins tab > select pin(s) > Renumber button  
 
 Use the Renumber Pins dialog box to renumber pins (terminals). You can renumber part type pins on the Pins tab of the Part Information dialog box.  
 
@@ -5010,7 +5010,7 @@ Table 193. Renumber Pins Dialog Box Contents (continued)
 
 ## Report Manager Dialog Box  
 
-To access: File $>$ Library menu item $>$ Parts button $>$ select a part $>$ List to File button  
+To access: File > Library menu item > Parts button > select a part > List to File button  
 
 Use the Report Manager dialog box to generate a report about the parts in a library. You can specify the parts and the attributes to include in the report.  
 
@@ -5049,7 +5049,7 @@ Creating a Report of the Parts in a Library Creating a Report of Decals, Lines o
 
 ## Reports Dialog Box  
 
-To access: File $>$ Reports menu item  
+To access: File > Reports menu item  
 
 Use the Reports dialog box to produce any of six different types of reports on the current schematic. You can save these reports as text files on your hard disk or output them to a printer.  
 
@@ -5102,7 +5102,7 @@ Generating Reports
 
 To access:  
 
-• Setup $>$ Design Rules menu item $>$ a rule hierarchy button) $>$ Routing button • Select a net, right-click and click Show Rules, then click the Routing button.  
+• Setup > Design Rules menu item > a rule hierarchy button) > Routing button • Select a net, right-click and click Show Rules, then click the Routing button.  
 
 Use the Routing Rules dialog box to specify rules for interactive and automatic routing. You can specify the default set of routing rules and routing rules for specific nets.  
 
@@ -5185,7 +5185,7 @@ Table 196. Routing Rules Dialog Box Contents (continued)
 
 ## Rules Dialog Box  
 
-To access: Setup $>$ Design Rules menu item  
+To access: Setup > Design Rules menu item  
 
 Use the Rules dialog box to enter item-to-item Clearance rules, routing guidelines, and values for the optional High Speed checking commands. You can also indicate the unit of measure for passing rules to SailWind Logic: mils, metric, or inches.  
 
@@ -5209,7 +5209,7 @@ Table 197. Rules Dialog Box Contents
 
 ## Rules Report Dialog Box  
 
-To access: Setup $>$ Design Rules menu item $>$ Report button  
+To access: Setup > Design Rules menu item > Report button  
 
 Use the Rules Report dialog box to produce a report of some or all of the rules you have defined. By default, a complete report of all rules is reported.  
 
@@ -5236,7 +5236,7 @@ Creating a Rules Report
 
 ## Save CAE Decal to Library Dialog Box  
 
-To access: File $>$ Library menu item $>$ select a library $>$ Logic filter type $>$ select a CAE decal $>$ Copy button  
+To access: File > Library menu item > select a library > Logic filter type > select a CAE decal > Copy button  
 
 Use the Save CAE Decal to Library dialog box to copy a CAE decal to another name or another library.  
 
@@ -5258,7 +5258,7 @@ Copying a Library Item
 
 ## Save Configuration Dialog Box  
 
-To access: Setup $>$ Display Colors menu item $>$ Save button  
+To access: Setup > Display Colors menu item > Save button  
 
 Use the Save Configuration dialog box to save the color assignments and settings you’ve made in the Display Colors dialog box.  
 
@@ -5275,7 +5275,7 @@ Figure 139. Save (color) configuration Dialog Box
 
 ## Save Drafting Item to Library Dialog Box  
 
-To access: Select an item $>$ right-click $>$ Save to Library menu item  
+To access: Select an item > right-click > Save to Library menu item  
 
 Use the Save Drafting Item to Library dialog box save 2D line items or complex 2D line item in the schematic to a library.  
 
@@ -5297,7 +5297,7 @@ Adding Drafting Items to a Library
 
 ## Save Off-Page to Library Dialog Box  
 
-To access: Tools $>$ Save Off-page to Library menu item  
+To access: Tools > Save Off-page to Library menu item  
 
 Use Save Off-page to Library to update the off-page, ground, or power symbols in the library with the current version(s) in the schematic.  
 
@@ -5318,7 +5318,7 @@ Saving Off-Page to Library
 
 ## Save Part and Gate Decals As Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ (in the Part Editor) File $>$ Save as menu item  
+To access: Tools > Part Editor menu item > (in the Part Editor) File > Save as menu item  
 
 The Save Part and Gate Decals As dialog box saves a new or modified part type to the library. You can also rename a modified decal to prevent other parts that use the same decal from being affected.  
 
@@ -5343,7 +5343,7 @@ Saving Part Types
 
 ## Save Part Types to Library Dialog Box  
 
-To access: Select a part $>$ right-click $>$ Save to Library menu item  
+To access: Select a part > right-click > Save to Library menu item  
 
 Use the Save Part Types to Library dialog box to copy the part types of the schematic. If the original part type is deleted from the library, get another copy from the schematic.  
 
@@ -5369,7 +5369,7 @@ Saving Part Types to a Library
 
 ## Save Part Type to Library Dialog Box  
 
-To access: File $>$ Library menu item $>$ select a library $>$ Parts filter type $>$ select a part type $>$ Copy button  
+To access: File > Library menu item > select a library > Parts filter type > select a part type > Copy button  
 
 Use the Save Part Type to Library dialog box to copy a Part Type to another name or another library.  
 
@@ -5391,7 +5391,7 @@ Copying a Library Item
 
 ## Save PCB Decal to Library Dialog Box  
 
-To access: File $>$ Library menu item $>$ select a library $>$ Decal filter type $>$ select a PCB decal $>$ Copy button  
+To access: File > Library menu item > select a library > Decal filter type > select a PCB decal > Copy button  
 
 Use the Save PCB Decal to Library dialog box to copy a PCB decal to another name or another library.  
 
@@ -5413,7 +5413,7 @@ Copying a Library Item
 
 ## Save View Dialog Box  
 
-To access: View $>$ Save View menu item  
+To access: View > Save View menu item  
 
 The Save View dialog box to save a work area view for easy restoration.  
 
@@ -5439,7 +5439,7 @@ Saving and Restoring Views
 
 ## Select Gate Decal Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ open a part type $>$ Edit Graphics button Use the Select Gate Decal dialog box to select the gate decal you want to use.  
+To access: Tools > Part Editor menu item > open a part type > Edit Graphics button Use the Select Gate Decal dialog box to select the gate decal you want to use.  
 
 ![](/images/f2a4fc8983fd161a0d90307a3324404319c013b09e17179c71b33d630a55288d.jpg)  
 Figure 147. Select Gate Decal Dialog Box  
@@ -5461,7 +5461,7 @@ Assigning Pin Information to the CAE Decal
 
 ## Select Pin Decal Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ open an Off-page type (Off-page, Power, or Ground) $>$ Edit Graphics button  
+To access: Tools > Part Editor menu item > open an Off-page type (Off-page, Power, or Ground) > Edit Graphics button  
 
 Use the Select Pin Decal dialog box to access and create graphics for a new Special Symbol. This dialog box is displayed when you use the Extended Selection command from the popup menu to edit a gate for a Special Symbol.  
 
@@ -5482,7 +5482,7 @@ Creating New Special Symbols
 
 ## Select Type of Editing Item Dialog Box  
 
-To access: Tools $>$ Part Editor menu item $>$ New or Open button  
+To access: Tools > Part Editor menu item > New or Open button  
 
 Use the Select type of editing item dialog box to select the type of library item to create or modify.  
 
@@ -5512,9 +5512,9 @@ Getting Gate Decals From the Library
 
 To access:  
 
-Edit $>$ Filter menu item  
+Edit > Filter menu item  
 
-• With nothing selected, right-click $>$ Filter menu item  
+• With nothing selected, right-click > Filter menu item  
 
 Use the Selection Filter to specify which objects you can select. Select a check box to enable the object for selection or clear the check box to disable the object for selection.  
 
@@ -5537,7 +5537,7 @@ Table 211. Selection Filter Dialog Box Contents
 
 To access:  
 
-• File $>$ Plot menu item $>$ Preview button • File $>$ Print menu item $>$ Preview button Use the Selections Preview dialog box to preview your options and output.  
+• File > Plot menu item > Preview button • File > Print menu item > Preview button Use the Selections Preview dialog box to preview your options and output.  
 
 ![](/images/645d42eec822f152a03c81ecdf2f424a068ae617420644f1c2c8ae4575948089.jpg)  
 Figure 151. Selections Preview Dialog Box  
@@ -5583,7 +5583,7 @@ Table 213. Server Busy Dialog Box Contents
 
 ## Sheets Dialog Box  
 
-To access: Setup $>$ Sheets menu item  
+To access: Setup > Sheets menu item  
 
 Use the Sheets dialog box to edit the sheet set of the current schematic in the work area. Using Sheets enables you to add and delete sheets from the set and to modify sheet names and the numeric order of the set. You can create up to 1024 sheets.  
 
@@ -5641,9 +5641,9 @@ Editing Sheets
 
 To access:  
 
-• Edit $>$ Select Signal Pin Nets menu item  
+• Edit > Select Signal Pin Nets menu item  
 
-• With nothing selected $>$ right-click $>$ Select Signal Pin Nets menu item Use the Signal Pin Nets dialog box to help you find and select specific signal pins in the schematic.  
+• With nothing selected > right-click > Select Signal Pin Nets menu item Use the Signal Pin Nets dialog box to help you find and select specific signal pins in the schematic.  
 
 ![](/images/9e1d354e882e61342b9f08d452877606b18154a5cd3c0fe559a8f01738af865e.jpg)  
 Figure 153. Signal Pin Nets Dialog Box  
@@ -5660,7 +5660,7 @@ Table 215. Signal Pin Nets Dialog Box Contents
 
 ## Simulation Setup Dialog Box  
 
-To access: Tools $>$ SPICE Netlist menu item $>$ Simulation Setup button  
+To access: Tools > SPICE Netlist menu item > Simulation Setup button  
 
 After you add parts (with SPICE attributes) to your schematic, or add SPICE attributes to existing parts, you can create a SPICE netlist in preparation for simulation.  
 
@@ -5685,7 +5685,7 @@ Creating a SPICE Netlist
 
 ## SPICEnet Dialog Box  
 
-To access: Tools $>$ SPICE Netlist menu item  
+To access: Tools > SPICE Netlist menu item  
 
 After you add parts (with SPICE attributes) to your schematic, or add SPICE attributes to existing parts, you can create a SPICE netlist in preparation for simulation.  
 
@@ -5713,7 +5713,7 @@ Creating a SPICE Netlist
 
 ## Step and Repeat Dialog Box
 
-To access: Select an object during an add or duplicate operation $>$ right-click $>$ Step and Repeat menu item. When adding a new object in the Schematic Editor, you must place the first object manually before you can use Step and Repeat.  
+To access: Select an object during an add or duplicate operation > right-click > Step and Repeat menu item. When adding a new object in the Schematic Editor, you must place the first object manually before you can use Step and Repeat.  
 
 Use Step and Repeat to multiply objects as you place them during an add or duplicate operation. Step and Repeat is available in the Schematic Editor and the Decal Editor. In the Schematic Editor the Step and Repeat command copies parts, connections, text, or drafting items. In the Decal Editor the Step and Repeat command copies terminals, text, or drafting items.  
 
@@ -5737,7 +5737,7 @@ Step and Repeat
 
 ## Text Properties Dialog Box
 
-To access: Select text $>$ right-click $>$ Properties menu item  
+To access: Select text > right-click > Properties menu item  
 
 Use the Text Properties dialog box to edit the properties of free text in the design.  
 
@@ -5801,7 +5801,7 @@ Modifying Text Add Free Text Dialog Box
 
 ## Transient Analysis Dialog Box  
 
-To access: Tools $>$ SPICE Netlist menu item $>$ Simulation Setup button> Transient button  
+To access: Tools > SPICE Netlist menu item > Simulation Setup button> Transient button  
 
 Use the Transient Analysis dialog box to set options specifically for a Transient analysis.  
 
@@ -5826,7 +5826,7 @@ Creating a SPICE Netlist Setting Up Transient Analysis
 
 ## Update From Library Dialog Box  
 
-To access: Tools $>$ Update from Library menu item  
+To access: Tools > Update from Library menu item  
 
 Use the Update from Library dialog box to update a schematic from the library, or to compare items in a schematic with those in the library.  
 
@@ -5891,7 +5891,7 @@ The Update From Library Function How to Read the Update Report The Compare/Updat
 
 ## Update Selected CAE Decals From Library Dialog Box  
 
-To access: Select a part $>$ Right-click $>$ Update $>$ CAE Decal menu item  
+To access: Select a part > Right-click > Update > CAE Decal menu item  
 
 Use the Update Selected CAE Decals from Library dialog box to update selected CAE decals in a schematic from the library. All instances of the selected CAE decals are updated.  
 
@@ -5932,7 +5932,7 @@ Updating Selected CAE Decals From the Library
 
 ## Update Selected Part Type From Library Dialog Box  
 
-To access: In the Schematic Editor, select the part types you want to compare/update. Right-click $>$ Update $>$ Part Type menu item  
+To access: In the Schematic Editor, select the part types you want to compare/update. Right-click > Update > Part Type menu item  
 
 Use the Update Selected Part Type from Library dialog box to update selected parts in a schematic from the library, or to compare selected parts in a schematic with those in the library.  
 
@@ -5983,7 +5983,7 @@ The Update From Library Function How to Read the Update Report The Compare/Updat
 
 ## Update Selected Pin Decals From Library Dialog Box
 
-To access: Select a pin $>$ Right-click $>$ Update Pin Decal menu item  
+To access: Select a pin > Right-click > Update Pin Decal menu item  
 
 Use the Update Selected Pin Decal from Library dialog box to update selected pin decals from the library, or to compare selected pin decals in a schematic with those in the library. All instances of the selected pin decals are updated.  
 

@@ -122,7 +122,7 @@ Use the Change Part Type dialog box to change the selected part(s) to a new part
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, then click the Design category.   
+1. Click the Tools > Options menu item, then click the Design category.   
 2. Set the “Allow overwriting of attribute values in design with blank values from library” check box appropriately to allow or prevent overwriting of non-blank attribute values with blank (“placeholder”) values from the library.   
 3. Select a part or parts, right-click and click Properties.   
 4. In the Part Type area, click Change Type to change the selected part(s) to a new part type.  
@@ -281,7 +281,7 @@ Renumber reference designators on a sheet by sheet basis with control over the s
 
 An ECO file is automatically generated. If the Output window is open, a link to the file appears in the log. If the output window is closed, the ECO file opens in your default text editor.  
 
-8. If the board layout has already been started in SailWind Layout, you must import the ECO file to update the reference designators in SailWind Layout. This exact file must be used. Do not overwrite this file with a new one or generate an ECO file using the Compare/ECO Tools until SailWind Layout has been updated with the renumbering. In SailWind Layout, click the File $>$ Import menu item. Browse for the .eco file and import the changes.  
+8. If the board layout has already been started in SailWind Layout, you must import the ECO file to update the reference designators in SailWind Layout. This exact file must be used. Do not overwrite this file with a new one or generate an ECO file using the Compare/ECO Tools until SailWind Layout has been updated with the renumbering. In SailWind Layout, click the File > Import menu item. Browse for the .eco file and import the changes.  
 
 **Examples**
 
@@ -296,7 +296,7 @@ Set reference designator start values by sheet. If you will have multiple channe
 
 **Procedure** 
 
-1. Click the Setup $>$ Sheets menu item.   
+1. Click the Setup > Sheets menu item.   
 2. In the “Sheets Dialog Box” on page 717. Click the Add button and add all the sheets for the multiple channels.   
 3. Name the schematic sheets.   
 4. In the RefDes Start Value column, for each channel sheet, type the starting value for referenc designators of components added or copied and pasted to the schematic sheet.  

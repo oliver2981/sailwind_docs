@@ -10,7 +10,7 @@ Use the Reports dialog box to produce any of six different types of reports on t
 
 **Procedure** 
 
-1. Click the File $>$ Reports menu item.   
+1. Click the File > Reports menu item.   
 2. In the Reports Dialog Box, select each report you want to generate.   
 3. To specify or modify the report characteristics of the Bill of Materials report, click Setup. See also The Bill of Materials Report.   
 4. Click OK. The reports are generated and the dialog box closes.  
@@ -35,7 +35,7 @@ Including non-ECO-registered parts and non-electrical parts in the bill of mater
 
 **Procedure** 
 
-1. Click the File $>$ Reports menu item.  
+1. Click the File > Reports menu item.  
 
 2. In the Reports Dialog Box select the Bill of Materials check box and then click Setup to specify or modify the Bill of Materials report characteristics.  
 
@@ -83,7 +83,7 @@ Including non-ECO-registered parts and non-electrical parts in the bill of mater
 
 **Procedure** 
 
-1. Click the File $>$ Reports menu item.   
+1. Click the File > Reports menu item.   
 2. In the Reports Dialog Box select the Bill of Materials check box and then click Setup to specify or modify the Bill of Materials report characteristics.  
 
 3. In the Bill of Materials Setup dialog box on page 483, click the Format tab.  
@@ -136,7 +136,7 @@ Including non-ECO-registered parts and non-electrical parts in the bill of mater
 
 **Procedure** 
 
-1. Click the File $>$ Reports menu item.  
+1. Click the File > Reports menu item.  
 
 2. In the Reports Dialog Box select the Bill of Materials check box and then click Setup to specify or modify the Bill of Materials report characteristics.  
 

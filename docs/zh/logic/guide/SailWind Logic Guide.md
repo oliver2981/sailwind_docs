@@ -3,7 +3,7 @@
 发布 SailWind 3.0
 文档修订版 1.2
 
-SailWind 软件版权及免责声明 Copyright $\circledcirc$ 2023-2025 成都拍子互联电子科技有限公司
+SailWind 软件版权及免责声明 Copyright  2023-2025 成都派兹互连电子技术有限公司
 
 **版权信息**
 

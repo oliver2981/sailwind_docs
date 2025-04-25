@@ -55,7 +55,7 @@ You can use the Selections Preview dialog box to preview your options and output
 
 **Procedure** 
 
-1. Click the File $>$ Plot or the File $>$ Print menu item, then in the Plot or Print dialog box, click the Preview button to open the Selections Preview dialog box and verify the settings for the selected sheets you want to print or plot.  
+1. Click the File > Plot or the File > Print menu item, then in the Plot or Print dialog box, click the Preview button to open the Selections Preview dialog box and verify the settings for the selected sheets you want to print or plot.  
 
 2. In the Selections Preview dialog box, click Print or Plot to send the output to the printer or plotter.  
 
@@ -83,7 +83,7 @@ To search a PDF, you must substitute the Stroke font with a System font.
 
 **Procedure** 
 
-1. Click the File $>$ Create PDF menu item.  
+1. Click the File > Create PDF menu item.  
 
 2. In the File Create PDF file dialog box, type the name of the PDF and then click Save.  
 
@@ -140,7 +140,7 @@ After you have completed you design you can generate output for design review. Y
 
 **Procedure** 
 
-1. Click the File $>$ Plot menu item.   
+1. Click the File > Plot menu item.   
 2. Choose Pen Plot or Photo Plot.   
 3. Set up output options on page 347.   
 4. Set up the pen plotter on page 350 or photo plotter on page 352.   
@@ -166,7 +166,7 @@ Before you can output your design to a pen plotter, specific options need to be 
 
 **Procedure** 
 
-1. Click the File $>$ Plot menu item.   
+1. Click the File > Plot menu item.   
 2. In the Plot dialog box, click Setup.   
 3. Type the number of pens (1-16) in your device, and type the pen line width in mils.   
 4. Select the Rotate Axis check box to reverse the X and Y axes of the design.   
@@ -185,7 +185,7 @@ You can also edit the data for an existing plotter, but only if it is a custom s
 
 **Procedure** 
 
-1. Click the File $>$ Plot menu item.   
+1. Click the File > Plot menu item.   
 2. In the Plot dialog box, click the Setup button.   
 3. In the Pen Plotter Setup dialog box, click the Advanced button.   
 4. Type the name of a different pen plotter you want to use. Exception: Do not reuse one of the existing, supplied device names.   
@@ -205,7 +205,7 @@ Before you can output your design to a photo plotter, specific options need to b
 
 **Procedure** 
 
-1. Click the File $>$ Plot menu item.  
+1. Click the File > Plot menu item.  
 
 2. In the Plot dialog box, select Photo Plot, and then click the Setup button.  
 
@@ -259,7 +259,7 @@ You can output your design to any standard printer that is connected to your sys
 
 **Procedure** 
 
-1. Click the File $>$ Print menu item.  
+1. Click the File > Print menu item.  
 
 ![](/images/cd42e64e4d925febad695dee81dcb33bb9bb67a0084dd1b7bee1f4bb06f86b87.jpg)  
 

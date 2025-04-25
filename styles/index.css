@@ -1,0 +1,13 @@
+/* styles/index.css */
+
+:root {
+  --rp-c-brand: #ffa500;
+  --rp-c-brand-dark: #ffa500;
+  --rp-c-brand-darker: #ffa500;
+  --rp-c-brand-light: #ffa500;
+  --rp-c-brand-lighter: #ffa500;
+  --rp-sidebar-width: 400px;
+  --rp-aside-width: 350px;
+  --rp-code-title-bg: rgba(250, 192, 61, 0.15);
+  --rp-code-block-bg: rgba(214, 188, 70, 0.05);
+}

@@ -35,7 +35,7 @@ You must have both SailWind Logic and SailWind Layout on the same computer.
 
 **Procedure** 
 
-1. Click the Tools $>$ SailWind Layout menu item.  
+1. Click the Tools > SailWind Layout menu item.  
 
 0 Tip If SailWind Layout is not already open, the Connect to SailWind Layout Dialog Box appears. Click New to start a new SailWind Layout session.  
 
@@ -54,7 +54,7 @@ b. Click the Send Net List button.
 
 **Results**  
 
-The import process sources all the part types and decals from the library and stacks the decals at the origin. You can then use the SailWind Layout Tools $>$ Disperse Components menu item to spread out the components.  
+The import process sources all the part types and decals from the library and stacks the decals at the origin. You can then use the SailWind Layout Tools > Disperse Components menu item to spread out the components.  
 
 If an errors report file (ascii.err) is generated and errors are found in the netlist, see Interpreting and Resolving the Netlist Process Error Report for more information.  
 
@@ -70,7 +70,7 @@ If you don’t have both SailWind Logic and SailWind Layout on your computer, yo
 
 **Procedure** 
 
-1. Click the Tools $>$ Layout Netlist menu item.  
+1. Click the Tools > Layout Netlist menu item.  
 
 2. To select a different filename or location for the netlist, in the Netlist to PCB dialog box, click Browse.  
 
@@ -90,7 +90,7 @@ Working With SailWind Layout and SailWind Router Interpreting and Resolving the 
 
 **Results**  
 
-The import process sources all the part types and decals from the library and stacks the decals at the origin. You can then use the Tools $>$ Disperse Components menu item to spread out the components  
+The import process sources all the part types and decals from the library and stacks the decals at the origin. You can then use the Tools > Disperse Components menu item to spread out the components  
 
 If an errors report file (ascii.err) is generated and errors are found in the netlist, see Interpreting and Resolving the Netlist Process Error Report for more information.  
 
@@ -110,7 +110,7 @@ The following are reported in the errors report file:
 
 **Procedure** 
 
-1. In SailWind Layout, click the File $>$ New menu item.   
+1. In SailWind Layout, click the File > New menu item.   
 2. Click No when you are prompted to save the design.   
 3. Add any missing components listed in the ascii.err file to your library, either by adding a library which contains the missing components to your library list, or by creating the missing part types and decals. (See Adding Libraries to the Library List, Creating and Modifying Part Types, and Creating and Editing PCB Decals in the SailWind Layout Guide for instructions.)  
 
@@ -140,7 +140,7 @@ Cross-probe with SailWind Layout to make simultaneous selections in both applica
 
 **Procedure** 
 
-1. Click the Tools $>$ SailWind Layout menu item.  
+1. Click the Tools > SailWind Layout menu item.  
 
 If SailWind Layout is not open, the Connect to SailWind Layout Dialog Box appears. Do one of the following:  
 
@@ -161,7 +161,7 @@ Selecting an object in one of the programs will automatically select the same ob
 
 **Procedure** 
 
-1. Click the Tools $>$ SailWind Router menu item.  
+1. Click the Tools > SailWind Router menu item.  
 
 If SailWind Router is not open, the Connect to SailWind Router Dialog Box appears. Do one of the following:  
 
@@ -205,7 +205,7 @@ You must have both SailWind Logic and SailWind Layout on the same computer.
 
 **Procedure** 
 
-1. Click the Tools $>$ SailWind Layout menu item to open the SailWind Layout Link dialog box.  
+1. Click the Tools > SailWind Layout menu item to open the SailWind Layout Link dialog box.  
 
 ![](/images/a6415d72a5268655466f8d22e837b56a812696257a33e074f343f543f6ed3100.jpg)  
 
@@ -248,7 +248,7 @@ You can create a netlist (.asc file) and send it to the layout designer who can 
 
 **Procedure** 
 
-1. Click the Tools $>$ Layout Netlist menu item.  
+1. Click the Tools > Layout Netlist menu item.  
 
 2. To select a different filename or location for the netlist, in the Netlist to PCB dialog box, click Browse.  
 
@@ -290,7 +290,7 @@ You must have the .asc file exported from SailWind Layout, and have the schemati
 
 **Procedure** 
 
-1. Click the Tools $>$ Compare/ECO menu item.   
+1. Click the Tools > Compare/ECO menu item.   
 2. In the Compare/ECO dialog box, click the Documents Tab on page 505.   
 3. In the Original Design to Compare and Update area, browse for the previous netlist .asc file sent to SailWind Layout. (Optional) You can acquire a new Layout .asc file from SailWind Layout to generate the .eco file of design differences.  
 
@@ -381,7 +381,7 @@ You must have the older schematic open in SailWind Logic, and the newer PCB desi
 
 **Procedure** 
 
-1. In SailWind Logic, click the Tools $>$ SailWind Layout menu item to open the SailWind Layout Link dialog box.  
+1. In SailWind Logic, click the Tools > SailWind Layout menu item to open the SailWind Layout Link dialog box.  
 
 ![](/images/b0477ffe359f5f2a4f37540c7c67ec521a14371772c1948e2385bc68eab4a144.jpg)  
 
@@ -421,11 +421,11 @@ If you neglected to record the .eco changes and you must generate the .eco file 
 
 1. Record the engineering/netlist changes in an .eco file. For more details, see Recording ECO Changes in the SailWind Layout Guide.  
 
-2. In SailWind Logic, click the Tools $>$ Options menu item, then click the Design category.  
+2. In SailWind Logic, click the Tools > Options menu item, then click the Design category.  
 
 3. Set the “Allow overwriting of attribute values in design with blank values from library attributes” check box appropriately to allow or prevent overwriting of non-blank attribute values with blank (“placeholder”) values from the library.  
 
-4. With your design open in SailWind Logic, click the SailWind Logic File $>$ Import menu item.  
+4. With your design open in SailWind Logic, click the SailWind Logic File > Import menu item.  
 
 5. In the File Import dialog box, in the Files of Type: list, select ECO Files (\*.eco).  
 
@@ -453,9 +453,9 @@ You must have an .asc file exported from SailWind Layout. For more details, see 
 
 **Procedure** 
 
-1. In SailWind Logic, click the Tools $>$ Options menu item, then click the Design category.   
+1. In SailWind Logic, click the Tools > Options menu item, then click the Design category.   
 2. Set the “Allow overwriting of attribute values in design with blank values from library attributes” check box appropriately to allow or prevent overwriting of non-blank attribute values with blank (“placeholder”) values from the library.   
-3. In SailWind Logic, click the Tools $>$ Compare/ECO menu item.   
+3. In SailWind Logic, click the Tools > Compare/ECO menu item.   
 4. In the Compare/ECO dialog box, click the Documents Tab on page 505.   
 5. In the Original Design to Compare and Update area, select the Use Current Schematic Design check box.   
 6. In the New Schematic Design with Changes area, browse for the new .asc file exported from SailWind Layout.   
@@ -472,7 +472,7 @@ Output files are written to the \SailWind Projects folder.
 
 0 Tip In addition to the files listed above, messages or errors that occur during comparison are also written to Logic_Session.log and Logic.err in the \SailWind Projects folder.  
 
-11. Click the SailWind Logic File $>$ Import menu item.  
+11. Click the SailWind Logic File > Import menu item.  
 
 12. In the File Import dialog box, in the Files of Type: list, select ECO Files (\*.eco).  
 
@@ -605,7 +605,7 @@ Creating the ECO File in SailWind Layout
 
 ## Contents of the Differences Report
 
-When you compare two versions of a design (Tools $>$ Compare/ECO), you can create an output file that lists the differences between the two versions. The report file is named Logic.rep and is written to the \SailWind Projects folder.  
+When you compare two versions of a design (Tools > Compare/ECO), you can create an output file that lists the differences between the two versions. The report file is named Logic.rep and is written to the \SailWind Projects folder.  
 
 Table 41. Sections of the Difference Report   
 

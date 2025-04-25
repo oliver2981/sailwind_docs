@@ -108,7 +108,7 @@ If you do not want to check for updates automatically, disable the Check for Upd
 
 **Procedure** 
 
-1. Click the Help $>$ Check for Updates  menu item.   
+1. Click the Help > Check for Updates  menu item.   
 2. In the Check for Updates Dialog Box, select the “Disable ‘Check for Updates’ functionality” check box.  
 
 ### Checking for Updates Manually  
@@ -117,7 +117,7 @@ Do not check for updates manually unless you have disabled the automatic check.
 
 **Procedure** 
 
-1. Click the Help $>$ Check for Updates menu item.   
+1. Click the Help > Check for Updates menu item.   
 2. In the Check for Updates Dialog Box, click Check for Updates.  
 
 ## Migrating User Settings  
@@ -130,14 +130,14 @@ For information on how to do this, see User Settings Migration in the SailWind U
 
 Several settings define the default ASCII parameters of operation of SailWind Logic. You can customize the user interface by modifying these system settings and saving the files.  
 
-The file default.txt is a SailWind Logic ASCII file that contains default option settings. It is read into memory when you start SailWind Logic or click the File $>$ New menu item to begin a new design.  
+The file default.txt is a SailWind Logic ASCII file that contains default option settings. It is read into memory when you start SailWind Logic or click the File > New menu item to begin a new design.  
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item.   
+1. Click the Tools > Options menu item.   
 2. Change the settings as desired using the General and Design categories to change the sheet size and design grid, and so forth.   
 3. Click OK to save the changes.   
-4. Click the File $>$ Export menu item, and then set the folder to C:\<install_folder>\SailWind<version> \Settings.   
+4. Click the File > Export menu item, and then set the folder to C:\<install_folder>\SailWind<version> \Settings.   
 5. Select default.txt from the list of files. Type the name in the File name area if it does not exist.   
 6. Click Save. This displays the ASCII Output dialog box.   
 7. In the ASCII Output dialog box, click Select All.   

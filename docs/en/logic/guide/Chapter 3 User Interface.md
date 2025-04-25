@@ -19,9 +19,9 @@ There are a number of different ways to interact with the design environment to 
 
 To control the view, use the scroll bars or the following commands in the View menu:  
 
-• Click the View $>$ Zoom menu item, or the Zoom button on the toolbar to enter Zoom mode. ◦ To zoom in, position the cursor at the desired view center, and click the left mouse button. ◦ To zoom out, position the cursor at the desired view center, and click the right mouse button. ◦ To define a specific view area, position the cursor at the desired view center, click and drag to define the extents, and release. Click the View $>$ Redraw menu item, or the Refresh button on the toolbar to redraw the current view.   
-Click the View $>$ Sheet menu item, or the Sheet button on the toolbar to display the entire sheet.   
-Click the View $>$ Extents menu item to resize the view to display all objects in the design.   
+• Click the View > Zoom menu item, or the Zoom button on the toolbar to enter Zoom mode. ◦ To zoom in, position the cursor at the desired view center, and click the left mouse button. ◦ To zoom out, position the cursor at the desired view center, and click the right mouse button. ◦ To define a specific view area, position the cursor at the desired view center, click and drag to define the extents, and release. Click the View > Redraw menu item, or the Refresh button on the toolbar to redraw the current view.   
+Click the View > Sheet menu item, or the Sheet button on the toolbar to display the entire sheet.   
+Click the View > Extents menu item to resize the view to display all objects in the design.   
 • Use the scroll bars to pan the view.  
 
 ### Middle Mouse Button  
@@ -58,7 +58,7 @@ You can save a view of your design for later recall.
 
 1. Arrange the work area to display the view you want to capture.  
 
-2. Click the View $>$ Save View menu item.  
+2. Click the View > Save View menu item.  
 
 0 Tip In the Save View dialog box, the preview shows you the location of the selected view in relation to the extents of the design.  
 
@@ -78,9 +78,9 @@ You can restore a previously saved view.
 
 **Procedure** 
 
-1. Click the View $>$ Save View menu item.   
+1. Click the View > Save View menu item.   
 2. Select a name from the View Name list and click Apply to apply a previously selected view to the work area. Tip   
-   When you apply a view, the previous view saves automatically. Click the View $>$ Previous View menu item to restore the view.  
+   When you apply a view, the previous view saves automatically. Click the View > Previous View menu item to restore the view.  
 
 3. Select a name from the View Name list and click Delete to remove it from the View Name list.  
 
@@ -257,7 +257,7 @@ You can create macros to simplify redundant activities. You can record any set o
 
 !Tip  
 
-Dialog box actions are recorded as results rather than actions, so when you replay, you don't see the dialog boxes in the replay process. Because of this you can't create a macro that stops on an open dialog box; it must follow through to some result or action. For example, you can create a macro that selects the File $>$ Open menu item, selects a file, and selects OK. The macro, when played back, opens a file.  
+Dialog box actions are recorded as results rather than actions, so when you replay, you don't see the dialog boxes in the replay process. Because of this you can't create a macro that stops on an open dialog box; it must follow through to some result or action. For example, you can create a macro that selects the File > Open menu item, selects a file, and selects OK. The macro, when played back, opens a file.  
 
 Creating a New Macro   
 Recording Mouse Movements   
@@ -364,7 +364,7 @@ Once a macro has been recorded, you can play it back.
 
 **Procedure** 
 
-1. On the Macro tab, click the Open button and open a macro (.mcr) file. Recent macros can be found by clicking the Tools $>$ Macros menu item, and then selecting the desired macro from the list.   
+1. On the Macro tab, click the Open button and open a macro (.mcr) file. Recent macros can be found by clicking the Tools > Macros menu item, and then selecting the desired macro from the list.   
 2. On the Macro tab toolbar, click the Run button. As an alternative, right-click in the Macro tab and click Run.  
 
 #### Pausing a Playing Macro  

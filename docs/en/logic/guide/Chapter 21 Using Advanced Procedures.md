@@ -60,7 +60,7 @@ After you add parts (with SPICE attributes) to your schematic, or add SPICE attr
 
 **Procedure** 
 
-1. Click the Tools $>$ SPICE Netlist menu item.   
+1. Click the Tools > SPICE Netlist menu item.   
 2. In the Output File Name box, use the default or type the path and name of the SPICE netlist file. You can also use the Browse button to search for a path.  
 
 3. In the Select Sheets area, select the sheets to include in the SPICE netlist. You can also use:  
@@ -96,7 +96,7 @@ As part of setting up your SPICE netlister, you can set options specifically for
 
 **Procedure** 
 
-1. Click the Tools $>$ SPICE Netlist menu item.  
+1. Click the Tools > SPICE Netlist menu item.  
 
 2. In the SPICEnet dialog box, click Simulation Setup.  
 
@@ -122,7 +122,7 @@ As part of setting up your SPICE netlister, you can set options specifically for
 
 **Procedure** 
 
-1. Click the Tools $>$ SPICE Netlist menu item.   
+1. Click the Tools > SPICE Netlist menu item.   
 2. In the SPICEnet dialog box, click Simulation Setup.   
 3. On the Simulation Setup dialog box, click DC Sweep.   
 4. In the Source box, type the name of the voltage or current source.   
@@ -146,7 +146,7 @@ After you add parts (with SPICE attributes) to your schematic, or add SPICE attr
 
 **Procedure** 
 
-1. Click the Tools $>$ SPICE Netlist menu item.  
+1. Click the Tools > SPICE Netlist menu item.  
 
 2. In the SPICEnet dialog box, click Simulation Setup.  
 
@@ -175,7 +175,7 @@ As part of setting up your SPICE netlister, you can set options specifically for
 
 **Procedure** 
 
-1. Click the Tools $>$ SPICE Netlist menu item.   
+1. Click the Tools > SPICE Netlist menu item.   
 2. On the Simulation Setup dialog box, click Transient. The Transient Analysis dialog box displays.   
 3. In the Data Step Time box, type the increment for the analysis.  
 
@@ -237,7 +237,7 @@ Scripts are created in and stored in script files that have a .bas extension. Th
 
 **Procedure** 
 
-1. Click the Tools $>$ Basic Scripts $>$ Basic Script Editor menu item, then click the Open button.  
+1. Click the Tools > Basic Scripts > Basic Script Editor menu item, then click the Open button.  
 
 2. Select the script and then click Open. You can have up to nine scripts open at the same time.  
 
@@ -252,19 +252,19 @@ The commands on the Sheet submenu provide script management methods. Since you c
 
 #Uses modules are Basic scripts that are called from within other scripts. To open these secondary scripts:  
 
-• In the Basic Script Editor, right-click and select Sheet $>$ Open Uses.  
+• In the Basic Script Editor, right-click and select Sheet > Open Uses.  
 
 The #uses modules called in the script appear as script sheets in the Basic Script Editor. They are assigned a numbered tab and you can edit or run them.  
 
 Closing an Open Script  
 
-In the Basic Script Editor, right-click and select Sheet $>$ Close.  
+In the Basic Script Editor, right-click and select Sheet > Close.  
 
 Alternatively, you can double-click the script's numbered tab in the gutter.  
 
 Closing all Open Scripts  
 
-• In the Basic Script Editor, right-click and select Sheet $>$ Close All.  
+• In the Basic Script Editor, right-click and select Sheet > Close All.  
 
 Viewing a Particular Script  
 
@@ -282,9 +282,9 @@ You can copy or cut selected text from the Basic Script Editor to the Clipboard.
 
 1. In the Basic Script Editor, select the text you want to copy or cut.  
 
-2. Right-click and click Edit $>$ Copy or Cut.  
+2. Right-click and click Edit > Copy or Cut.  
 
-3. Right-click and click Edit $>$ Paste to paste the script text.  
+3. Right-click and click Edit > Paste to paste the script text.  
 
 Your selection is pasted in the Output window at the insertion point.  
 
@@ -334,7 +334,7 @@ You can create a script using the Basic Script Editor.
 
 **Procedure** 
 
-1. Click the Tools $>$ Basic Scripts $>$ Basic Script Editor menu item. In SailWind Layout and SailWind Logic, the SAX Basic Engine dialog box appears.   
+1. Click the Tools > Basic Scripts > Basic Script Editor menu item. In SailWind Layout and SailWind Logic, the SAX Basic Engine dialog box appears.   
 2. Click the New button.  
 
 # Inserting an Automation Statement Using the Object and Procedure Lists  
@@ -355,7 +355,7 @@ Use the ActiveX Automation Members dialog box to insert a statement from the ext
 
 **Procedure** 
 
-1. In the Basic Script Editor, right-click and click the Debug $>$ Browse menu item.   
+1. In the Basic Script Editor, right-click and click the Debug > Browse menu item.   
 2. Use the ActiveX Automation Members dialog box to select and insert a statement.  
 
 This dialog box contains an extensive list of statements.  
@@ -369,7 +369,7 @@ You can force a particular line in a script to run next. You can only select sta
 **Procedure** 
 
 1. In the Basic Script Editor, put your cursor on the line you want to run next.   
-2. Right-click and click the Debug $>$ Set Next Statement menu item.  
+2. Right-click and click the Debug > Set Next Statement menu item.  
 
 An instruction pointer appears next to the selected line. This line, and only this line, will run next. If you go to other parts of the script, you can return to this line by clicking Show Next Statement.  
 
@@ -379,7 +379,7 @@ In the Basic Script Editor, you can navigate the right mouse button menu to init
 
 **Procedure** 
 
-n the Basic Script Editor, right-click and click Debug $>$ Show Next Statement menu item.  
+n the Basic Script Editor, right-click and click Debug > Show Next Statement menu item.  
 
 An instruction pointer indicates the next statement to run.  
 
@@ -398,7 +398,7 @@ You can run a script using the Macro command in the Basic Script Editor.
 **Procedure** 
 
 1. In the Basic Script Editor, open a script file.   
-2. Right-click and click the Macro $>$ Run menu item. As an alternative, on the Basic Script Editor toolbar, click the Start/Resume button.  
+2. Right-click and click the Macro > Run menu item. As an alternative, on the Basic Script Editor toolbar, click the Start/Resume button.  
 
 # Pausing a Running Script  
 
@@ -406,7 +406,7 @@ When running a long script, you may need to pause it to perform some other desig
 
 **Procedure** 
 
-1. In the Basic Script Editor, right-click and click the Macro $>$ Pause menu item.  
+1. In the Basic Script Editor, right-click and click the Macro > Pause menu item.  
 
 2. As an alternative, on the Basic Script Editor toolbar, click the Pause button.  
 
@@ -420,7 +420,7 @@ You can stop a running script at any time. However, you cannot resume running a 
 
 **Procedure** 
 
-In the Basic Script Editor, right-click and click the Macro $>$ End menu item.   
+In the Basic Script Editor, right-click and click the Macro > End menu item.   
 As an alternative, on the Basic Script Editor toolbar, click the Stop button.  
 
 # Debug Scripts  
@@ -439,7 +439,7 @@ The ability to set or remove breakpoints is useful when you debug a script. If t
 
 2. On the Basic Script Editor toolbar, click the Toggle Breakpoint button.  
 
-As an alternative, in the Basic Editor, right-click and click the Debug $>$ Toggle Break menu item.  
+As an alternative, in the Basic Editor, right-click and click the Debug > Toggle Break menu item.  
 
 This action inserts a breakpoint at the current cursor location. A breakpoint marker appears in the gutter area.  
 
@@ -456,7 +456,7 @@ On the Basic Script Editor toolbar, click the Step over button.
 
 To perform a subroutine call on the current line:  
 
-• On the Basic Script Editor toolbar, click the Step into button. As an alternative, in the Basic Script Editor, right-click and click the Debug $>$ Step Into menu item.  
+• On the Basic Script Editor toolbar, click the Step into button. As an alternative, in the Basic Script Editor, right-click and click the Debug > Step Into menu item.  
 
 To return from the subroutine to the point from which it was called:  
 
@@ -464,11 +464,11 @@ To return from the subroutine to the point from which it was called:
 
 To run a script to a point:  
 
-• In the Basic Script Editor, right-click and click the Debug $>$ Step to cursor menu item.  
+• In the Basic Script Editor, right-click and click the Debug > Step to cursor menu item.  
 
 To continue the execution from the current point:  
 
-• On the Basic Script Editor toolbar, click the Run button. As an alternative, in the Basic Script Editor, right-click and click the Macro $>$ Run menu item.  
+• On the Basic Script Editor toolbar, click the Run button. As an alternative, in the Basic Script Editor, right-click and click the Macro > Run menu item.  
 
 # Removing All Breakpoints in the Script  
 
@@ -476,7 +476,7 @@ You have the option to remove all breakpoints instead of single breakpoints.
 
 **Procedure** 
 
-In the Basic Script Editor, right-click and click the Debug $>$ Clear All Breaks menu item.   
+In the Basic Script Editor, right-click and click the Debug > Clear All Breaks menu item.   
 This removes all breakpoints in the script.  
 
 # Correction of Run-Time Errors  
@@ -498,7 +498,7 @@ The Basic Scripts dialog box provides easy access to your Basic scripts. From th
 
 **Procedure** 
 
-1. Click the Tools $>$ Basic Scripts menu item, then click Basic Scripts.  
+1. Click the Tools > Basic Scripts menu item, then click Basic Scripts.  
 
 2. Select the script you want to manage.  
 
@@ -533,7 +533,7 @@ The Sax Basic Engine dialog box provides access to the Sax Basic Engine Script e
 
 Scripts written in the Basic Script editor comply with all Microsoft requirements in terms of Visual Basic syntax; therefore, you can play these scripts in any other Visual Basic interpreter, such as Word or Excel. However, you cannot run all Basic scripts created outside of the Sax Basic Engine within the Sax Basic Engine because the Sax Basic Engine is a subset of Visual Basic. For example, you cannot run the Automation samples within the Sax Basic Engine.  
 
-• Click the Tools $>$ Basic Scripts $>$ Basic Script Editor menu item, then click New button.  
+• Click the Tools > Basic Scripts > Basic Script Editor menu item, then click New button.  
 
 See also Sax Basic Editor On-line Help.  
 
@@ -621,7 +621,7 @@ Table 44. Basic Sample Scripts/RGL Reports Listing
 
 # Basic Sample Scripts — Advanced  
 
-Advanced Basic script files are located in C:\<install_folder>\<version $>$ \Samples\Scripts\Logic.  
+Advanced Basic script files are located in C:\<install_folder>\<version > \Samples\Scripts\Logic.  
 
 Table 45. Basic Sample Scripts/Advanced Listing   
 
@@ -656,7 +656,7 @@ If you are using node-locked licensing, you can view the contents of a license f
 
 **Procedure** 
 
-1. Click the Help $>$ Installed Options menu item, then click the License File tab.  
+1. Click the Help > Installed Options menu item, then click the License File tab.  
 
 2. Select one of these methods to view the license file:  
 

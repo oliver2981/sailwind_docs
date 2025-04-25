@@ -3,7 +3,7 @@
 Release SailWind 3.0   
 Document Revision 1.2  
 
-Copyright and Disclaimer of SailWind Software Copyright $\circledcirc$ 2023-2025 Chengdu Paizi Interconnect Electronics Technology Co., Ltd.  
+Copyright and Disclaimer of SailWind Software Copyright  2023-2025 Chengdu Paizi Interconnect Electronics Technology Co., Ltd.  
 
 **Copyright Information**  
 

@@ -1,6 +1,10 @@
 import { defineConfig } from 'rspress/config';
+import path from 'path';
 
 export default defineConfig({
+
+  globalStyles: path.join(__dirname, 'styles/index.css'),
+
   root: 'docs',
   base: '/sailwind3.0_docs/',
   title: 'SailWind3.0',

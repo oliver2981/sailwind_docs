@@ -10,7 +10,7 @@ You can customize the SailWind interface to suit your work style and design work
 
 To make customizations, use the Customize dialog box. You can invoke the dialog box in two ways:  
 
-• From the SailWind interface, click the Tools $>$ Customize menu item. All customizations you make are applied to the main view of the SailWind tool. In a window of the interface (for example, the Output Window), right-click and select Customize. You customizations apply only to that window.  
+• From the SailWind interface, click the Tools > Customize menu item. All customizations you make are applied to the main view of the SailWind tool. In a window of the interface (for example, the Output Window), right-click and select Customize. You customizations apply only to that window.  
 
 Your customizations are saved with your current workspace so that all of the changes you make to toolbars, menus, and shortcut keys are present when you work in that workspace again.  
 
@@ -29,7 +29,7 @@ Resizing the Sheets List
 
 ### Customizing Toolbars
 
-Use the Toolbars and Menus tab on the Customize dialog box (Tools $>$ Customize $>$ Toolbars and Menus tab) to create custom toolbars and shortcut menus.  
+Use the Toolbars and Menus tab on the Customize dialog box (Tools > Customize > Toolbars and Menus tab) to create custom toolbars and shortcut menus.  
 
 ![](/images/f25090c6d6fd3504b23048463c61f5a55026079ea49c9e1dacc3f92ecbe75764.jpg)  
 
@@ -47,7 +47,7 @@ To create a custom toolbar, you create a new empty toolbar and add items (comman
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.  
+1. Click the Tools > Customize menu item, then click the Toolbars and Menus tab.  
 
 2. In the Toolbars box, click the New button.  
 
@@ -78,7 +78,7 @@ To increase space in the software interface, you can show the toolbars you need 
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.   
+1. Click the Tools > Customize menu item, then click the Toolbars and Menus tab.   
 2. In the Toolbars list, select the toolbar.   
 3. To display the toolbar in the interface, select the check box to the left of its name. To hide the   
    toolbar, clear the check box.   
@@ -99,7 +99,7 @@ You cannot delete a system toolbar.
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.   
+1. Click the Tools > Customize menu item, then click the Toolbars and Menus tab.   
 2. In the Toolbars list, select a custom toolbar. Then click the Delete button.  
 
 #### Renaming a Custom Toolbar
@@ -112,7 +112,7 @@ You cannot rename a system toolbar.
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.   
+1. Click the Tools > Customize menu item, then click the Toolbars and Menus tab.   
 2. In the Toolbars list, select a custom toolbar and click the Edit button.   
 3. In the Toolbar Name dialog box, type the new name and click OK.  
 
@@ -122,7 +122,7 @@ If you decide changes you have made are no longer needed, you can reset one or a
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Toolbars and Menus tab.  
+1. Click the Tools > Customize menu item, then click the Toolbars and Menus tab.  
 
 2. In the Toolbars list, select the toolbar.  
 
@@ -148,7 +148,7 @@ You can also create a custom command from a macro command file. See Creating a C
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Commands tab.  
+1. Click the Tools > Customize menu item, then click the Commands tab.  
 
 2. In the Categories list, click a menu or toolbar name to display items (commands) specific to that menu or toolbar, or click All Commands.  
 
@@ -176,7 +176,7 @@ Once you create a new command, you can use the Commands tab to set the propertie
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, the click the Commands tab.   
+1. Click the Tools > Customize menu item, the click the Commands tab.   
 2. In the Commands list, click New, then click the New button. The Add command dialog box opens.   
 3. In the Command name box, type the name of the new command.   
 4. (Optional) In the Based on box, type the name of the command on which the new command is based.   
@@ -191,7 +191,7 @@ You can edit only custom commands (commands you created). You cannot edit system
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Commands tab.   
+1. Click the Tools > Customize menu item, then click the Commands tab.   
 2. In the Categories list, click a menu or toolbar name to display items (commands) specific to that menu or toolbar, or click All Commands.   
 3. In the Commands list, select a command and click the Edit button.   
 4. In the Edit commands dialog box, change the properties of your custom command: a. In the Command name box, type the name of the command. b. In the Description box, type a description of the custom command. c. If an image was associated with the original command, select “Use Default Image” to use that same image with your custom command. Choose “Select a User-Defined Image” to use a different image, edit an image, or create a new image. d. Click OK to close the Edit commands dialog box and return to the Customize dialog box.  
@@ -206,7 +206,7 @@ You can delete only custom commands (commands you created). You cannot delete sy
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Commands tab.   
+1. Click the Tools > Customize menu item, then click the Commands tab.   
 2. In the Categories list, click a menu or toolbar name to display items (commands) specific to that   
    menu or toolbar, or click All Commands.   
 3. In the Commands list, select a command and click the Delete button.   
@@ -222,7 +222,7 @@ Create a custom menu, you first create a new empty menu and then add items (comm
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Commands tab.   
+1. Click the Tools > Customize menu item, then click the Commands tab.   
 2. In the Categories list, select New Menu.   
 3. In the Commands list, select New Menu and drag it to the location you want. • To create a top-level menu, drag the new menu to the Menu Bar. • To create a submenu, drag it over an existing menu name.  
 
@@ -246,7 +246,7 @@ If there are commands that you frequently use that are not on the standard toolb
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Commands tab.  
+1. Click the Tools > Customize menu item, then click the Commands tab.  
 
 2. In the Categories list, select a toolbar or menu name to display commands specific to that menu or toolbar, or select All Commands.  
 
@@ -276,7 +276,7 @@ You can rearrange buttons on a toolbar. You can also move or copy a button from 
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item.  
+1. Click the Tools > Customize menu item.  
 
 2. With the Customize dialog box is open, click the toolbar button and drag it to a new place on the same toolbar or to a different toolbar.  
 
@@ -295,7 +295,7 @@ To move menu items, the Customize dialog box must be open.
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item.   
+1. Click the Tools > Customize menu item.   
 2. In the main window of the SailWind application, display the menu containing the item you want to move.   
 3. Click the menu item and drag it to its new location on the same menu or to a different menu. Tip   
    Instead of moving a menu item, you can copy it and move the copy. Press and hold the Ctrl key while dragging the item.  
@@ -314,7 +314,7 @@ If there are items that your do not use or want to appear, you can remove a menu
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item.   
+1. Click the Tools > Customize menu item.   
 2. With the Customize dialog box is open, drag the item outside the toolbar or menu.  
 
 3. Close the Customize dialog box.  
@@ -327,7 +327,7 @@ Adding Items to Toolbars and Menus
 
 ### Customizing Shortcut Keys
 
-You can create and customize shortcut keys by using the Keyboard and Mouse tab of the Customize dialog box (Tools menu $>$ Customize $>$ Keyboard and Mouse tab).  
+You can create and customize shortcut keys by using the Keyboard and Mouse tab of the Customize dialog box (Tools menu > Customize > Keyboard and Mouse tab).  
 
 Creating a New Shortcut Key Listing Shortcut Keys Expressions in Shortcut Keys Deleting a Shortcut Key Resetting Default Shortcut Keys  
 
@@ -359,7 +359,7 @@ There are some exceptions: Some combinations, like Alt+Tab, are intercepted by W
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
+1. Click the Tools > Customize menu item, then click the Keyboard and Mouse tab.   
 2. In the Mode box, select the mode to which you want to apply the shortcut. The available commands for that mode appear in the Commands box.   
 3. In the Commands box, select the command for which you want to create a new shortcut. If a shortcut already exists, it appears in the Current shortcuts box.  
 
@@ -389,7 +389,7 @@ You can create a table of commands and the shortcuts assigned to them in an HTML
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
+1. Click the Tools > Customize menu item, then click the Keyboard and Mouse tab.   
 2. Click Report and then select or type the HTML filename, then click Save. A hyperlink to the file appears in the Output window, under the Status tab.  
 
 #### Expressions in Shortcut Keys
@@ -426,7 +426,7 @@ Delete shortcuts you no longer want to use, or as the first step to changing an 
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
+1. Click the Tools > Customize menu item, then click the Keyboard and Mouse tab.   
 2. In the Mode box, select the mode for the shortcut you want to delete. The available commands for that mode appear in the Commands box.   
 3. In the Commands list, select the command whose shortcut you want to delete.  
 
@@ -440,7 +440,7 @@ If you have made modifications that you no longer require, you can restore all s
 
 **Procedure** 
 
-1. ### Click the Tools $>$ Customize menu item, then click the Keyboard and Mouse tab.   
+1. ### Click the Tools > Customize menu item, then click the Keyboard and Mouse tab.   
 2. Click Reset All.   
 3. On the confirmation dialog box, click Yes.  
 
@@ -456,7 +456,7 @@ To assign a macro to a shortcut key, the macro command file (.mcr) must already 
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Macro Files tab.  
+1. Click the Tools > Customize menu item, then click the Macro Files tab.  
 
 2. In the Macro Command Files area, click the New button.  
 
@@ -507,7 +507,7 @@ To create a command from a macro command file or add it to a menu, the macro com
 
 **Procedure** 
 
-1. Click the Tools $>$ Customize menu item, then click the Macro Files tab.  
+1. Click the Tools > Customize menu item, then click the Macro Files tab.  
 
 2. Click the New button.  
 
@@ -543,7 +543,7 @@ You can change the width of the Sheets list on the Standard toolbar of the Schem
 
 **Procedure** 
 
-1. In the Schematic Editor, click the Tools $>$ Customize menu item.   
+1. In the Schematic Editor, click the Tools > Customize menu item.   
 2. On the Standard toolbar, select the Sheets list box.   
 3. Resize as needed.  
 

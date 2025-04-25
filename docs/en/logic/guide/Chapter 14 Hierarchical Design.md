@@ -44,13 +44,13 @@ Because the symbol is a hierarchical one, it has no pin numbers. The pin name as
 
 6. In the Part Editor, double-click each pin to open the Terminal Properties dialog box on page 131 where you name the selected pin. You must name each pin of the symbol.  
 
-7. Click the File $>$ Complete menu item.  
+7. Click the File > Complete menu item.  
 
 This closes the Part Editor, and the new symbol attaches to the cursor.  
 
 8. Move the cursor to a desired location and click to place the symbol in the schematic.  
 
-9. You can navigate this hierarchy with the View $>$ Push Hierarchy, and View $>$ Pop Hierarchy menu commands.  
+9. You can navigate this hierarchy with the View > Push Hierarchy, and View > Pop Hierarchy menu commands.  
 
 **Related Topics**  
 
@@ -64,7 +64,7 @@ SailWind Logic adds an input or output pin in the symbol for each off-page refer
 
 **Procedure** 
 
-1. Switch to the sheet to which you want to add the hierarchical symbol. If needed, add a new schematic sheet to the sheet set using the Setup $>$ Sheets menu item.   
+1. Switch to the sheet to which you want to add the hierarchical symbol. If needed, add a new schematic sheet to the sheet set using the Setup > Sheets menu item.   
 2. On the Schematic Editing toolbar, click the New Hierarchical Symbol button.   
 3. On the Hierarchical Symbol Wizard dialog box, select an existing sheet from the Sheet Number dropdown list box in the Hierarchical Sheet section.   
 4. Type a name for the symbol in the Sheet Name text box.   
@@ -76,13 +76,13 @@ The Preview area displays the symbol outline. The number of input/output pins on
 
 The hierarchical symbol appears in the Part Editor on page 109 window. An input or output pin is located on the symbol to match each off-page reference on the underlying schematic sheet.  
 
-7. Click the File $>$ Complete menu item.  
+7. Click the File > Complete menu item.  
 
 This closes the Part Editor, and the new symbol attaches to the cursor.  
 
 8. Move the cursor to a desired location and click to place the symbol in the schematic.  
 
-9. You can navigate this hierarchy with the View $>$ Push Hierarchy and View $>$ Pop Hierarchy menu commands.  
+9. You can navigate this hierarchy with the View > Push Hierarchy and View > Pop Hierarchy menu commands.  
 
 **Related Topics**  
 
@@ -94,7 +94,7 @@ Use the Push Hierarchy command to look inside or push down into a hierarchical s
 
 **Procedure** 
 
-1. Click the View $>$ Push Hierarchy menu item.   
+1. Click the View > Push Hierarchy menu item.   
 2. Select the hierarchical symbol.  
 
 Alternatively, you can select the hierarchical symbol, right-click and click Push Hierarchy.  
@@ -107,7 +107,7 @@ Use the Pop Hierarchy command to replace the current sheet with its correspondin
 
 **Procedure** 
 
-In a hierarchical sub-schematic, click the View $>$ Pop Hierarchy menu item.  
+In a hierarchical sub-schematic, click the View > Pop Hierarchy menu item.  
 
 ![](/images/645edc65dd4a328a20b32ff8ecc83f977f8f44d3f825bae23f2a598458dd1d87.jpg)  
 
@@ -123,7 +123,7 @@ Once created, you can modify a hierarchical symbol to add or subtract design det
 
 2. Modify the symbol in the Part Editor on page 109.  
 
-3. Click the File $>$ Complete menu item when you are finished with the changes.  
+3. Click the File > Complete menu item when you are finished with the changes.  
 
 !Tip  
 

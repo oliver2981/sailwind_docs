@@ -40,7 +40,7 @@ For more information, see Adding Libraries to the Library List.
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.   
+1. Click the File > Library menu item.   
 2. In the Library Manager dialog box, click Create New Lib.   
 3. In the New Library dialog box, specify the folder and library filename, and then click Save.   
 4. Click Close.  
@@ -55,7 +55,7 @@ You can display the items that exist in a library in the Library Manager dialog 
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.   
+1. Click the File > Library menu item.   
 2. In the Library Manager Dialog Box, select a library in the Library list or select All Libraries.  
 
 3. Click one of these buttons to display categories of items in the library:  
@@ -106,7 +106,7 @@ You can add new items to a library. When added to the library, the items are ava
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.   
+1. Click the File > Library menu item.   
 2. In the Library Manager Dialog Box, select a library in the Library list.  
 
 Restriction: If you select (All Libraries), the New button is unavailable.  
@@ -142,7 +142,7 @@ You can delete one or more selected items from a library. This enables you to pu
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.  
+1. Click the File > Library menu item.  
 
 2. In the Library Manager Dialog Box, select a library in the Library list.  
 
@@ -179,7 +179,7 @@ You can copy a selected item to another name or another library.
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.   
+1. Click the File > Library menu item.   
 2. In the Library Manager Dialog Box, select a library in the Library list.  
 
 Restriction: If you select (All Libraries), the Copy button is unavailable.  
@@ -211,7 +211,7 @@ As library content is frequently changing, you can use the Library Manager to ed
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.  
+1. Click the File > Library menu item.  
 
 2. In the Library Manager Dialog Box, select a library from the Library list.  
 
@@ -252,7 +252,7 @@ Restriction: You cannot delete the contents of a read-only library.
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.   
+1. Click the File > Library menu item.   
 2. Click Create New Lib. The New Library dialog box displays.   
 3. Select the library file whose contents you want to delete, click Save, and then click Yes when   
    prompted.   
@@ -290,7 +290,7 @@ You add libraries to the library list to make their contents available. The libr
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button.  
+1. Click the File > Library menu item, then click the Manage Lib. List button.  
 
 2. In the Library List Dialog Box, click Add.  
 
@@ -312,7 +312,7 @@ If you want to prevent the contents of a library from being used in a design, re
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button. 2. In the Library List Dialog Box, select one or more libraries from the Library list and then click Remove.  
+1. Click the File > Library menu item, then click the Manage Lib. List button. 2. In the Library List Dialog Box, select one or more libraries from the Library list and then click Remove.  
 
 **Results**  
 
@@ -340,7 +340,7 @@ You can specify the order in which libraries are searched. The libraries are sea
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button. 2. Select the library from the Library list in the Library List Dialog Box, and then click Up or Down as needed.  
+1. Click the File > Library menu item, then click the Manage Lib. List button. 2. Select the library from the Library list in the Library List Dialog Box, and then click Up or Down as needed.  
 
 **Results**  
 
@@ -356,7 +356,7 @@ You can share a library across a networked environment, to enable more than one 
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button.  
+1. Click the File > Library menu item, then click the Manage Lib. List button.  
 
 2. In the Library List Dialog Box, in the Library list, select the library.  
 
@@ -376,7 +376,7 @@ You can enable or disable the searching of a particular library when performing 
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button.  
+1. Click the File > Library menu item, then click the Manage Lib. List button.  
 
 2. In the Library List Dialog Box, in the Library list, select the library.  
 
@@ -422,7 +422,7 @@ Tip To ensure a round-trip synchronization, select the same check box in SailWin
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then click the Manage Lib. List button.   
+1. Click the File > Library menu item, then click the Manage Lib. List button.   
 2. In the Library List Dialog Box, select the Synchronize with SailWind Layout check box.  
 
 ## Managing Library Attributes  
@@ -446,7 +446,7 @@ This process will yield no result or warning if the library you are working with
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then, in the Library Manager dialog box, click the Attr Manager button.   
+1. Click the File > Library menu item, then, in the Library Manager dialog box, click the Attr Manager button.   
 2. In the Manage Library Attributes Dialog Box, in the Select Library list, select an individual library or the (All Libraries) item at the top of the list.   
 3. In the Item Types list, choose whether to apply the new attribute to All Items, or only either Part Types or PCB Decals.   
 4. Click Add Attr. The Add New Attribute to Library Dialog Box appears.   
@@ -478,7 +478,7 @@ This process will yield no result or warning if the library you are working with
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then, in the Library Manager dialog box, click the Attr Manager button.   
+1. Click the File > Library menu item, then, in the Library Manager dialog box, click the Attr Manager button.   
 2. In the Manage Library Attributes Dialog Box, in the Select Library list, select an individual library or the (All Libraries) item at the top of the list.   
 3. In the Item Types list, choose whether to delete the attribute(s) from All Items, or from either Part Types or PCB Decals.   
 4. In the Attributes in Library list, select one or more attributes to delete, and then click Delete Attrs.   
@@ -503,7 +503,7 @@ This process will yield no result or warning if the library you are working with
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item, then, in the Library Manager dialog box, click the Attr Manager button.   
+1. Click the File > Library menu item, then, in the Library Manager dialog box, click the Attr Manager button.   
 2. In the Manage Library Attributes Dialog Box, in the Select Library list, select an individual library or the (All Libraries) item at the top of the list.   
 3. In the Item Types list, choose whether to rename the attribute(s) from All Items, or from either Part Types or PCB Decals.   
 4. In the Attributes in Library list, select one or more attributes to rename, and then click Add.  
@@ -544,7 +544,7 @@ Beginning with PADS 9.0, die parts and flip chips are no longer identified by th
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.  
+1. Click the File > Library menu item.  
 
 2. In the Library Manager Dialog Box, in the Library list, select the library to receive the library data.  
 
@@ -573,7 +573,7 @@ You can export library data into an ASCII file for importing into a library. Thi
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.   
+1. Click the File > Library menu item.   
 2. In the Library Manager Dialog Box, in the Library list, select the library whose data you want to export.  
 
 3. Click any of the following:  
@@ -610,7 +610,7 @@ You can specify the attributes you want reported. Figure 1 and Figure 2 show exa
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.  
+1. Click the File > Library menu item.  
 
 2. In the Library Manager Dialog Box, select a library from the Library list, or select All Libraries.  
 
@@ -671,7 +671,7 @@ From the Library Manager, you can generate a report listing the decals, lines, o
 
 **Procedure** 
 
-1. Click the File $>$ Library menu item.  
+1. Click the File > Library menu item.  
 
 2. In the Library Manager Dialog Box, select a library from the Library list.  
 

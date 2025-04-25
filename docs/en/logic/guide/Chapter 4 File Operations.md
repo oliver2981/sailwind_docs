@@ -13,7 +13,7 @@ You can create a new blank schematic file for your design. SailWind Logic uses p
 
 **Prerequisites**  
 
-• Use the File $>$ New menu item to clear the current schematic from memory and start a new schematic.  
+• Use the File > New menu item to clear the current schematic from memory and start a new schematic.  
 
 **Procedure** 
 
@@ -24,12 +24,12 @@ You can create a new blank schematic file for your design. SailWind Logic uses p
 As an alternative, you can also create a new file from the popup menu in Microsoft® File Explorer.  
 
 a. In File Explorer, go to the folder where you want to create the file.   
-b. Right-click, and then click the New $>$ SailWind Logic Schematic menu item. This action creates a new design file in the current folder.   
-c. Type a name for the file and click Enter. Make sure the file has a .sch extension. This creates a zero byte file. When you open this file in SailWind Logic, SailWind Logic recognizes the zero byte file and performs a File $>$ New command using default.txt.  
+b. Right-click, and then click the New > SailWind Logic Schematic menu item. This action creates a new design file in the current folder.   
+c. Type a name for the file and click Enter. Make sure the file has a .sch extension. This creates a zero byte file. When you open this file in SailWind Logic, SailWind Logic recognizes the zero byte file and performs a File > New command using default.txt.  
 
 ## Saving a Schematic File  
 
-Use the File $>$ Save (or Save As) menu item to write design information to a file. The File Save As dialog box displays the schematic files contained in the default \SailWind Projects folder. The list of displayed files includes those created in PowerLogic and SailWind Logic.  
+Use the File > Save (or Save As) menu item to write design information to a file. The File Save As dialog box displays the schematic files contained in the default \SailWind Projects folder. The list of displayed files includes those created in PowerLogic and SailWind Logic.  
 
 Restriction: Files opened by another user are locked to any edits. See Opening a File That is Already in Use.  
 
@@ -117,7 +117,7 @@ SailWind Logic supports the importing of different file types into the design en
 
 **Procedure** 
 
-1. Click the File $>$ Import menu item.   
+1. Click the File > Import menu item.   
 2. In the displayed prompt, Click Yes to save the existing design before importing the file, or No to import the file without saving changes.   
 3. From the “Files of type” dropdown list, select the type of file you want to import.   
 4. Select the file you want to import, then click Open. Import progress is reported in the Status bar, and logging messages and links to log files are displayed in the Output Window.  
@@ -136,7 +136,7 @@ You can save all or some of the open design in ASCII format.
 
 **Procedure** 
 
-1. Click the File $>$ Export menu item.   
+1. Click the File > Export menu item.   
 2. From the “Save as type” dropdown list, select the type of file you want to export to.   
 3. Type a name for the ASCII file in the File Name text box. The default is the name of the currently open design.  
 4. Click Save.  
@@ -145,7 +145,7 @@ This opens the Exporting to ASCII Output Dialog Box. Select the appropriate chec
 
 !Note:  
 
-SailWind Logic enables you to embed files from other applications as OLE objects in your design by clicking the Edit $>$ Insert New Object menu item. After you have an OLE object in your design, you can export the object as a singular item to an .ole file.  
+SailWind Logic enables you to embed files from other applications as OLE objects in your design by clicking the Edit > Insert New Object menu item. After you have an OLE object in your design, you can export the object as a singular item to an .ole file.  
 
 5. Select the SailWind Logic output version for your exported file.  
 
@@ -173,7 +173,7 @@ You can import an .ole file containing OLE objects into a SailWind Logic schemat
 
 **Procedure** 
 
-1. Click the File $>$ Import menu item.   
+1. Click the File > Import menu item.   
 2. Click Yes at the prompt to save your current design changes or click No to discard them.   
 3. In the File Import dialog box, select “OLE Files (\*.ole)” as the file type to import.   
 4. Browse to and select the file you want to open.   
@@ -194,14 +194,14 @@ You can export OLE objects from SailWind Logic so that they can be utilized by o
 
 **Procedure** 
 
-1. Select an OLE object and click the File $>$ Export menu item.   
+1. Select an OLE object and click the File > Export menu item.   
 2. In the File Export dialog box, select OLE (\*.ole) as the file type.  
 
 3. Name the file and select a location in which to save the file.  
 
 4. Click Save. The .ole file is created and is available for import into other SailWind Logic schematics.  
 
-0 Tip You can also import application files from other sources using the Edit $>$ Insert New Object menu item. You cannot import an .ole file.  
+0 Tip You can also import application files from other sources using the Edit > Insert New Object menu item. You cannot import an .ole file.  
 
 ### ASCII File Format  
 
@@ -236,7 +236,7 @@ Define what information you want to write to an ASCII file.
 
 **Procedure** 
 
-1. Click the File $>$ Export menu item.  
+1. Click the File > Export menu item.  
 
 2. Type a name for the output file, and then click Save.  
 
@@ -258,7 +258,7 @@ You can create a folder, a PDF, and/or a .zip file that contains all of your sch
 **Procedure** 
 
 1. Open the schematic you want to archive.   
-2. Click the File $>$ Archive menu item.   
+2. Click the File > Archive menu item.   
 3. Select the files and folders you want to archive in the Archiver Dialog Box.   
 4. Click OK.  
 

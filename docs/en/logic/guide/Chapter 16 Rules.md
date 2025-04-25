@@ -23,7 +23,7 @@ Export Rules to PCB
 
 Design Rules enable you to assign general routing constraints for your design, such as trace width and spacing. An option in the netlist lets you pass established design rules along with the connectivity and parts information to SailWind Layout.  
 
-To access and examine the Design Rules setup, click the Setup $>$ Design Rules menu item.  
+To access and examine the Design Rules setup, click the Setup > Design Rules menu item.  
 
 ## Rule Categories
 
@@ -47,7 +47,7 @@ You can use the Setting Up Conditional Rules dialog box to save a clearance conf
 
 **Procedure** 
 
-. Click the Setup $>$ Design Rules menu item, click a rule hierarchy, then click the Clearance button.  
+. Click the Setup > Design Rules menu item, click a rule hierarchy, then click the Clearance button.  
 
 2. In the Same Net area, define edge-to-edge clearance values between items that are in the same net: To define the minimum spacing between any two objects, type the value in the appropriate text box. To define the same spacing value for all text boxes in one matrix column, press the button above the column and type a value. • To define the same spacing value for all text boxes in one matrix row, press the button in the left column and type a value. To define the same spacing value for all text boxes in the matrix, press the All button and type a value.  
 
@@ -124,7 +124,7 @@ When working with high-speed rules, observe the following:
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item, click a rule level, then click the Hi Speed button.  
+1. Click the Setup > Design Rules menu item, click a rule level, then click the Hi Speed button.  
 
 2. In the Parallelism area, type a value for length and gap in the parallelism boxes to restrict the distance that traces in different nets on the same layer can run together.  
 
@@ -196,7 +196,7 @@ Use the Rules dialog box to enter item-to-item Clearance rules, routing guidelin
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item.  
+1. Click the Setup > Design Rules menu item.  
 
 2. In the Units list box, select Mils, Metric, or Inches.  
 
@@ -248,7 +248,7 @@ Use the Default Rules dialog box to define rules which apply to all objects that
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item, then click the Default button.   
+1. Click the Setup > Design Rules menu item, then click the Default button.   
 2. To define default Clearance on page 300, Routing on page 302, or High Speed on page 302 rules, click the appropriate button.   
 3. Click the Report on page 310 button to produce a rules report.  
 
@@ -258,7 +258,7 @@ Use the Class Rules dialog box to define rules that apply to a collection of net
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item, then click the Class button.  
+1. Click the Setup > Design Rules menu item, then click the Class button.  
 
 2. In the Class Name list box, select a class name, or specify a new name for which you want to apply rules.  
 
@@ -299,7 +299,7 @@ Use the Net Rules dialog box to define rules that apply to a single net or multi
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item, the click the Net button.  
+1. Click the Setup > Design Rules menu item, the click the Net button.  
 
 2. Select the net(s) for which you want to define Clearance on page 300, Routing on page 302 and High Speed on page 302 rules.  
 
@@ -332,7 +332,7 @@ When working with conditional rules, use the following guidelines:
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item, then click the Conditional Rules button.  
+1. Click the Setup > Design Rules menu item, then click the Conditional Rules button.  
 
 2. In the Source Rule Object area, select Classes, Nets, or All to specify both classes and nets. Then specify the object(s) against which the rule is checked.  
 
@@ -370,7 +370,7 @@ While you can define these rules in SailWind Logic, they are used only in SailWi
 
 **Procedure** 
 
-1. Click the Setup $>$ Design Rules menu item, the click the Differential Pairs button.  
+1. Click the Setup > Design Rules menu item, the click the Differential Pairs button.  
 
 2. In the Available list, double-click the first net, and then double-click the second net.  
 
@@ -439,7 +439,7 @@ Use the Rules Report dialog box to produce a report of some or all of the rules 
 
 **Procedure** 
 
-Click the Setup $>$ Design Rules menu item, the click the Report button. You can produce reports for the following:  
+Click the Setup > Design Rules menu item, the click the Report button. You can produce reports for the following:  
 
 Table 39. Rules Report Types   
 
@@ -458,7 +458,7 @@ Use the Design Tab of SailWind Layout Link to read design rules from a specified
 
 **Procedure** 
 
-1. Click the Tools $>$ SailWind Layout menu item.   
+1. Click the Tools > SailWind Layout menu item.   
 2. Click the Design tab.   
 3. On the Design tab, select the Compare Design Rules check box.   
 4. Click ECO from PCB.  
@@ -471,7 +471,7 @@ Use the Design Tab of SailWind Layout Link to export design rules to a specified
 
 **Procedure** 
 
-1. Click the Tools $>$ SailWind Layout menu item.   
+1. Click the Tools > SailWind Layout menu item.   
 2. Click the Design tab.  
 
 3. On the Design tab, select the Compare Design Rules check box.  

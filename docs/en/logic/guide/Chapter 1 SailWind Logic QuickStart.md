@@ -19,7 +19,7 @@ Launch SailWind Logic and start a new design from the Welcome Screen.
 
 **Procedure** 
 
-1. Click the Windows Start $>$ SailWind [version] $>$ SailWind Logic menu item.   
+1. Click the Windows Start > SailWind [version] > SailWind Logic menu item.   
 2. On the Welcome Screen, click New.  
 
 ## Step 2 - Select the Sheet Size  
@@ -28,7 +28,7 @@ SailWind Logic starts with an empty schematic sheet of the default size. You can
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item.  
+1. Click the Tools > Options menu item.  
 
 2. In the Options dialog box, click the Design category.  
 
@@ -173,7 +173,7 @@ When you have finished editing your design, you can print it for checking and do
 
 **Procedure** 
 
-1. Click the File $>$ Print menu item.   
+1. Click the File > Print menu item.   
 2. In the Print dialog box, click Options.   
 3. In the Options dialog box, examine the Preview window. The outline within the larger area represents the area of the paper that will be taken up by the schematic. This plot area is often oriented perpendicular to the printed sheet. If this is the case, to maximize the design area on the printed sheet, click on the Orientation box (in the “Positioning” area) and select 90 as the orientation angle; then click OK.   
 4. Click the Properties button to make any printer changes before printing/plotting. Do not change the orientation of the sheet (Portrait to Landscape) as this will conflict with the orientation set previously in the Options dialog box.   
@@ -185,7 +185,7 @@ You can generate a number of different reports for design analysis.
 
 **Procedure** 
 
-1. Click the File $>$ Reports menu item.  
+1. Click the File > Reports menu item.  
 
 2. In the Reports dialog box, click what you want to report on, and click OK.  
 
@@ -205,7 +205,7 @@ You can create a Layout netlist to examine the database and to pass the design d
 
 **Procedure** 
 
-1. Click the Tools $>$ Layout Netlist menu item. The default name of the netlist is default.asc, unless you saved the schematic.  
+1. Click the Tools > Layout Netlist menu item. The default name of the netlist is default.asc, unless you saved the schematic.  
 
 2. Give the file a unique name and click OK. The netlist opens in the default text editor for viewing.  
 

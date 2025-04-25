@@ -15,7 +15,7 @@ Part Types
 
 Use the Part Editor to create and modify standard schematic symbols such as gates, resistors, capacitors, connectors, etc., and special symbols such as ground/power and off-page references. You also use the Part Editor to create new CAE decals, pin decals, and assign PCB decals, the physical representation of the part in a PCB design system.  
 
-You can access the Part Editor by clicking the Tools $>$ Part Editor menu item, or clicking the Edit button in the Library Manager dialog box.  
+You can access the Part Editor by clicking the Tools > Part Editor menu item, or clicking the Edit button in the Library Manager dialog box.  
 
 Unneeded menu commands and toolbar buttons are removed or replaced with menu commands and toolbar buttons specific to creating and modifying parts.  
 
@@ -54,7 +54,7 @@ You can control which objects you can select by using the Selection Filter dialo
 
 1. Do one of the following:  
 
-• Click the Edit $>$ Filter menu item.   
+• Click the Edit > Filter menu item.   
 • Right-click in the workspace and click Filter.   
 • Right-click in the Decal Editor and click Filter.  
 
@@ -89,15 +89,15 @@ You can create a new part by adapting an existing part. Make a copy of an existi
 
 **Procedure** 
 
-1. In the Part Editor, click the File $>$ Open menu item, or click the Open button on the toolbar.   
+1. In the Part Editor, click the File > Open menu item, or click the Open button on the toolbar.   
 2. In the Select Type of Editing Item Dialog Box, click CAE Decal and then click OK. The Get Gate Decal from Library dialog box displays.   
 3. In the Items box, type a wildcard or expression on page 105 to filter the symbols, and click Apply.   
 4. Click OK. You enter the Decal Editor and the decal appears.   
 5. Modify the decal as required.   
-6. Click the File $>$ Save As menu item. The Save CAE Decal to Library dialog box displays.   
+6. Click the File > Save As menu item. The Save CAE Decal to Library dialog box displays.   
 7. Type a name for the new CAE decal and select a library folder.   
 8. Click OK.   
-9. Click the File $>$ Exit menu item.  
+9. Click the File > Exit menu item.  
 
 !Note:  
 
@@ -114,12 +114,12 @@ From within the Part Editor, you can save a part/decal to the library. After add
 
 **Procedure** 
 
-1. Click the File $>$ Save As menu item.   
+1. Click the File > Save As menu item.   
    The Save Part and Gate Decals As dialog box appears.   
 2. Select a library folder for the new part. The default is C:\<install_folder>\<version>\Libraries.   
 3. Type a name for the new part or decal.   
 4. Click OK.   
-5. Click the File $>$ Exit Part Editor menu item.  
+5. Click the File > Exit Part Editor menu item.  
 
 ![](/images/c2ff244e1ef9815ba90f686c257069d6b8e84f5de23f9c333d3b83166b507d40.jpg)  
 
@@ -180,7 +180,7 @@ Using the Part Editor you can construct a new CAE decal by adding gates and defi
 
 **Procedure** 
 
-1. Click the Tools $>$ Part Editor menu item.   
+1. Click the Tools > Part Editor menu item.   
 2. In the Part Editor, on the toolbar, click the Edit Electrical button. This displays the “Part Information for Part dialog box” on page 134.   
 3. In the Part Information for Part dialog box, select the PCB Decals tab to assign the PCB decal. The pin count for the assigned PCB decal must be equal to or greater than the number in the electrical description.   
 4. Select the Gates tab.   
@@ -203,7 +203,7 @@ Use the Decal Wizard dialog box to automatically create a new CAE decal. You mus
 
 **Procedure** 
 
-1. Click the Tools $>$ Part Editor menu item.   
+1. Click the Tools > Part Editor menu item.   
 2. In the Part Editor, on the standard toolbar, click the New button.   
 3. In the Select Type of Editing Item dialog box, click CAE Decal, and click OK. You are now in the Decal Editor and ready to create a new CAE decal.   
 4. Click the Decal Editing Toolbar button.   
@@ -248,7 +248,7 @@ You can manually construct a new part for use in your design by creating the 2D 
 
 **Procedure** 
 
-1. Click the Tools $>$ Part Editor menu item.   
+1. Click the Tools > Part Editor menu item.   
 2. In the Part Editor, on the Part Editor toolbar, click the New button.   
 3. In the “Select type of editing” dialog box, click Part Type, and click OK.   
 4. On the Part Editor toolbar, click the Edit Graphics button. When prompted, click OK to confirm the   
@@ -303,7 +303,7 @@ Creating a CAE Decal follows the same basic steps as creating a new packaged par
 
 **Procedure** 
 
-1. Click the Tools $>$ Part Editor menu item.  
+1. Click the Tools > Part Editor menu item.  
 
 2. In the Part Editor, on the Part Editor toolbar, click the New button.  
 
@@ -340,9 +340,9 @@ See also Creating Multigate Parts.
 
 **Procedure** 
 
-1. Click the Tools $>$ Part Editor menu item.  
+1. Click the Tools > Part Editor menu item.  
 
-2. In the Part Editor, click the Edit $>$ CAE Decal Editor menu item, or on the Part Editor toolbar, click the Edit Graphics button.  
+2. In the Part Editor, click the Edit > CAE Decal Editor menu item, or on the Part Editor toolbar, click the Edit Graphics button.  
 
 3. In the Select Gate Decal dialog box, enter a name for the decal and click OK when prompted to create a decal for the new part.  
 
@@ -715,11 +715,11 @@ Use the Terminal Properties dialog box to view or modify the properties of the t
 
 ### Setting the Origin for a Part  
 
-From within the Part Editor, use the Setup $>$ Set Origin menu item to specify a new origin for a CAE Decal. When you add a part in SailWind Logic, the point of insertion is determined by the origin of the decal. You can perform this task while creating or modifying a decal.  
+From within the Part Editor, use the Setup > Set Origin menu item to specify a new origin for a CAE Decal. When you add a part in SailWind Logic, the point of insertion is determined by the origin of the decal. You can perform this task while creating or modifying a decal.  
 
 **Procedure** 
 
-1. Open a CAE Decal in the Decal Editor and click the Setup $>$ Set Origin menu item.   
+1. Open a CAE Decal in the Decal Editor and click the Setup > Set Origin menu item.   
 2. Indicate a new origin. An information window with the new X,Y coordinate appears.   
 3. Click Yes to accept the new origin.  
 
@@ -785,8 +785,8 @@ If you modify a decal associated with a part type, use the Save Part and Gate De
 
 **Procedure** 
 
-1. Click the File $>$ Return to Part menu item, and then click Yes to the “Returning to Part level - Keep changes to Gate?” prompt.   
-2. Click the File $>$ Save As menu item. The “Save Part and Gate Decals As” dialog box appears.   
+1. Click the File > Return to Part menu item, and then click Yes to the “Returning to Part level - Keep changes to Gate?” prompt.   
+2. Click the File > Save As menu item. The “Save Part and Gate Decals As” dialog box appears.   
 3. Select the decal in the Name of Gate Decal multicolumn list box and click Edit.   
 4. Type a new name for the Decal and click OK.   
 5. Click Yes to the “Part Type item exists. Overwrite item?” prompt to replace the current library part with the one containing the modified decal.  
@@ -824,7 +824,7 @@ Use the Part Information dialog box to modify electrical information for a part.
 
 You must identify the electrical or part type information, before assigning a CAE Decal to the part.  
 
-You access this information by clicking the Tools $>$ Part Editor menu item, and then, on the toolbar, click the Edit Electrical button.  
+You access this information by clicking the Tools > Part Editor menu item, and then, on the toolbar, click the Edit Electrical button.  
 
 You can perform the following actions in the Part Information dialog box:  
 
@@ -1655,7 +1655,7 @@ The Change Type option of the Part Properties dialog box will not update the sch
 
 **Procedure** 
 
-1. Click the File $>$ Save As menu item.  
+1. Click the File > Save As menu item.  
 
 2. In the “Save Part and Gate Decals As” dialog box, type a name in the Name of Part text box.  
 
@@ -1697,7 +1697,7 @@ If you modify a part type and want to keep the existing library copy, use the Sa
 
 **Procedure** 
 
-1. Click the File $>$ Save As menu item. The Save Part and Gate Decals As dialog box appears.   
+1. Click the File > Save As menu item. The Save Part and Gate Decals As dialog box appears.   
 2. Type a new name for the part type in the Name of Part text box.   
 3. (Optional) Use the Library dropdown list box to specify a new library location. See also Library Management for Saved Part Types, Saving a Modified Decal With a Different Name.   
 4. Click OK.  
@@ -1720,7 +1720,7 @@ Also, you can assign several CAE Decals to a connector for left and right side l
 6. Add the schematic symbols for the connector in the Special Symbols area. See also Connector Tab on page 159.   
 7. Select the PCB Decals tab to assign PCB decals for the connector. See also PCB Decals Tab on page 141.  
 
-8. Select the Attributes tab to assign attribute information. See the Managing Attributes topic for more information. 9. Click OK to close the Part Information dialog box. The connector symbols display in the Part Editor. 10. Click the File $>$ Save As menu item. 11. Enter a name and library folder location. 12. Click OK. 13. Click the File $>$ Exit Part Editor menu item.  
+8. Select the Attributes tab to assign attribute information. See the Managing Attributes topic for more information. 9. Click OK to close the Part Information dialog box. The connector symbols display in the Part Editor. 10. Click the File > Save As menu item. 11. Enter a name and library folder location. 12. Click OK. 13. Click the File > Exit Part Editor menu item.  
 
 ### Browsing for Connectors  
 
@@ -1753,7 +1753,7 @@ To save design time and promote reuse, you can create a new pin from an existing
 3. Select an existing pin decal from the Pins area. The highlighted decal is displayed in the Picture area.   
 4. Click OK.   
 5. Modify the graphics for the decal and position the text strings as required.   
-6. Click the File $>$ Save As menu item. The Save Item to Library dialog box displays.   
+6. Click the File > Save As menu item. The Save Item to Library dialog box displays.   
 7. Enter a name and library location for the new pin decal.   
 8. Click OK.  
 
@@ -1774,7 +1774,7 @@ When you create a new Pin Decal, SailWind Logic automatically creates the necess
 
 5. Reposition the text strings, if necessary.  
 
-6. Click the File $>$ Save menu item.  
+6. Click the File > Save menu item.  
 
 The Save Item to Library dialog box appears.  
 

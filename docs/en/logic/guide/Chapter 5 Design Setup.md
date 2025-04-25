@@ -21,7 +21,7 @@ SailWind Logic includes an extensive set of options for the Schematic Editor. Th
 
 **Procedure** 
 
-1. While you are in the Schematic Editor, click the Tools $>$ Options menu item.   
+1. While you are in the Schematic Editor, click the Tools > Options menu item.   
 2. In the Options dialog box, select the appropriate category—“General” on page 595, “Design” on page 591, “Text” on page 723, or “Line Widths” on page 599. See also Setting Fonts.   
 3. Set the options you want to change.   
 4. Click another category to set its options.   
@@ -33,7 +33,7 @@ SailWind Logic automatically creates backup files based on the settings you choo
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, and then select the General category. 2. In the Interval box (in the “Automatic backups” area), type the time in minutes between automatic backups to a file. 3. In the Number of backups box, type the quantity (1-9) of different backup files to create.  
+1. Click the Tools > Options menu item, and then select the General category. 2. In the Interval box (in the “Automatic backups” area), type the time in minutes between automatic backups to a file. 3. In the Number of backups box, type the quantity (1-9) of different backup files to create.  
 
 0 Tip Backup files are named <filename>#.sch, where # is a sequential number. For example, logic1.sch,logic2.sch, and so on.  
 
@@ -69,10 +69,10 @@ You can set the options for the Part Editor including specific design properties
 
 **Procedure** 
 
-1. While you are in the Schematic Editor, click the Tools $>$ Part Editor menu item.   
-2. In the Part Editor, click the Edit $>$ CAE Decal Editor menu item.  
+1. While you are in the Schematic Editor, click the Tools > Part Editor menu item.   
+2. In the Part Editor, click the Edit > CAE Decal Editor menu item.  
 
-3. In the CAE Decal Editor, click the Tools $>$ Options menu item.  
+3. In the CAE Decal Editor, click the Tools > Options menu item.  
 
 4. In the Options dialog box, select the appropriate category— General on page 595, Text on page 600, or Line Widths on page 599. See also Setting Fonts.  
 
@@ -82,7 +82,7 @@ You can set the options for the Part Editor including specific design properties
 
 7. If you want to save the options you have set as defaults for creating new parts, click the Save As Default button.  
 
-These defaults are used for any new parts (Part Types, Connectors, CAE Decals and Pin Decals) you create, using either the File $>$ New menu item in the Part Editor, or from the Library Manager dialog. (When you edit existing parts, SailWind Logic begins with the options stored with the part.)  
+These defaults are used for any new parts (Part Types, Connectors, CAE Decals and Pin Decals) you create, using either the File > New menu item in the Part Editor, or from the Library Manager dialog. (When you edit existing parts, SailWind Logic begins with the options stored with the part.)  
 
 Table 11 lists the options that are saved and set as defaults.  
 
@@ -104,7 +104,7 @@ When reference designators are preserved, if conflicts with current parts exist,
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item. In the Options dialog box, select the Design category.  
+1. Click the Tools > Options menu item. In the Options dialog box, select the Design category.  
 
 2. In the Options area, select the “Preserve Ref Des on Paste” check box to preserve group reference designators.  
 
@@ -144,7 +144,7 @@ Use the Display Colors dialog box to control the colors of design objects and th
 
 **Procedure** 
 
-1. Click the Setup $>$ Display Colors menu item.  
+1. Click the Setup > Display Colors menu item.  
 
 2. In the Selected Color area, select a color to assign to items.  
 
@@ -219,7 +219,7 @@ Other symbols such as mathematical, technical, and geometrical symbols, plus arr
 
 **Procedure** 
 
-1. Click the Setup $>$ Fonts menu item.  
+1. Click the Setup > Fonts menu item.  
 
 2. In the Fonts dialog box, select “Stroke” to use stroke font in your design then click OK.  
 
@@ -244,7 +244,7 @@ You can choose which font to use as the system font. “System” fonts are typi
 
 **Procedure** 
 
-1. Click the Setup $>$ Fonts menu item.  
+1. Click the Setup > Fonts menu item.  
 
 2. In the Fonts dialog box, select “System” to use a system font in your design.  
 
@@ -282,7 +282,7 @@ You can set options for the text and line widths of objects in the workspace. Th
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, and then click the Text category.  
+1. Click the Tools > Options menu item, and then click the Text category.  
 
 2. To change the size or width of a text item, select a text Type and click the Edit button, and then type a new value in mils in the size or width lists.  
 
@@ -299,7 +299,7 @@ You can set the system font options to control how text objects in your design w
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, then click the Text category.  
+1. Click the Tools > Options menu item, then click the Text category.  
 
 2. To change the font for a type of text, select a text Type and click the Edit button, and then select the font you want from the list.  
 
@@ -326,7 +326,7 @@ Use the Line Widths category to change the size of line widths in the workspace.
 
 **Procedure** 
 
-1. Click the Tools $>$ Options menu item, and then click the Line Widths category.   
+1. Click the Tools > Options menu item, and then click the Line Widths category.   
 2. Select a line Type and click the Edit button, and then in the Width column, type a new value for the size you want in mils.   
 3. When you have finished making changes, click OK.  
 
@@ -340,7 +340,7 @@ Be sure the non-ASCII symbols, such as $+1-$ , ohm, and degrees are available on
 
 **Procedure** 
 
-1. Click the Setup $>$ Fonts menu item.   
+1. Click the Setup > Fonts menu item.   
 2. In the Fonts dialog box, click System to use a system font in your design.   
 3. Select the name of the font you want to use from the list. The font in use is shown at the top of the list.  
 
@@ -381,7 +381,7 @@ dingbat blocks are not available in a stroke font.
 
 **Procedure** 
 
-1. Click the Setup $>$ Fonts menu item.  
+1. Click the Setup > Fonts menu item.  
 
 2. In the Fonts dialog box, select “Stroke” to use stroke font in your design, and then click OK.  
 

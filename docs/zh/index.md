@@ -8,6 +8,9 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: 英文
+      text: 想看英文手册？戳我！
       link: ../en/index
+    - theme: alt
+      text: 快速开始
+      link: /logic/guide/SailWind Logic Guide
 ---
