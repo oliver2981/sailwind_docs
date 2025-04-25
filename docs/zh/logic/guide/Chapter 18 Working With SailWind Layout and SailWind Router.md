@@ -1,14 +1,6 @@
-# 第 18 章 使用 SailWind 布局和 SailWind 路由器
+# 第 18 章 使用 SailWind Layout 和 Router
 
 使用 SailWind Logic，您可以与 SailWind Layout 和 SailWind Router 无缝交换设计数据。这是一个双向流程，您可以向前注释和向后注释数据，从而保持设计变更的同步。您还可以生成差异报告，以便比较两个设计并突出显示任何差异。
-
-从 SailWind 逻辑设计创建新的 PCB 布局
-Sailwind 产品之间的交叉探测
-将注释从 SailWind Logic 转发到 SailWind Layout
-从 SailWind Layout 到 SailWind Logic 的反向注释
-后向注释结果
-差异报告的内容
-ECO 文件格式
 
 ## 从 SailWind 逻辑设计创建新的 PCB 布局
 

@@ -1,4 +1,4 @@
-# 第 24 章 SailWind Logic GUI 参考
+# 第 24 章 SailWind Logic 对话框
 
 ## AC 分析对话框
 
