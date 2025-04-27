@@ -17,9 +17,11 @@
    或者，您也可以从 Microsoft® 文件资源管理器中的弹出菜单中创建新文件。
 
    a. 在文件资源管理器中，转到要创建文件的文件夹。
+   
    b. 右键单击，然后点击“新建 \> SailWind Logic Schematic 菜单项。此操作会在当前文件夹中创建一个新的设计文件。
-   c. 输入文件名并按 Enter 键。确保文件扩展名为 .sch。这将创建一个零字节文件。
 
+   c. 输入文件名并按 Enter 键。确保文件扩展名为 .sch。这将创建一个零字节文件。
+   
    当您在 SailWind Logic 中打开此文件时，SailWind Logic 会识别该零字节文件，并使用 default.txt 执行 File \> New 命令。
 
 ## 保存原理图文件

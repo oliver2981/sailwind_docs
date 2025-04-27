@@ -3,7 +3,7 @@
 pageType: home
 
 hero:
-  name: SailWind3.0
+  name: SailWind3.0 中文
   text: "Logic / Layout / Router \n中文帮助手册"
   tagline:
   actions:
