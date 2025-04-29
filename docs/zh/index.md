@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 想看英文手册？戳我！
-      link: ../en/index
+      link: /en/index
     - theme: alt
       text: 快速开始
       link: /logic/guide/SailWind Logic Guide
