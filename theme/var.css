@@ -1,5 +1,3 @@
-/* styles/index.css */
-
 :root {
   --rp-c-brand: #ffa500;
   --rp-c-brand-dark: #ffa500;
@@ -10,4 +8,18 @@
   --rp-aside-width: 350px;
   --rp-code-title-bg: rgba(250, 192, 61, 0.15);
   --rp-code-block-bg: rgba(214, 188, 70, 0.05);
+}
+
+h1 {
+    background: var(--rp-c-brand);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    background: var(--rp-c-brand);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -3,7 +3,7 @@ import path from 'path';
 
 export default defineConfig({
 
-  globalStyles: path.join(__dirname, 'styles/index.css'),
+  globalStyles: path.join(__dirname, 'theme/var.css'),
 
   root: 'docs',
   base: '/sailwind3.0_docs/',
