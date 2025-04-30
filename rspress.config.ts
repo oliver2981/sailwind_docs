@@ -6,31 +6,31 @@ export default defineConfig({
     globalStyles: path.join(__dirname, 'theme/var.css'),
 
     root: 'docs',
-    base: '/sailwind3.0_docs/',
-    title: 'SailWind3.0',
+    base: '/sailwind_docs/',
+    title: 'SailWind',
     description: 'SailWind',
     icon: '/favicon.ico',
 //   logo: '/logo.png',
-    logoText: 'SailWind3.0',
+    logoText: 'SailWind Docs',
     lang: 'zh',
     locales: [
         {
             lang: 'zh',
             label: '简体中文',
             title: 'SailWind',
-            description: 'SailWind3.0 文档',
+            description: 'SailWind 文档',
         },
-        {
-            lang: 'en',
-            label: 'English',
-            title: 'SailWind',
-            description: 'SailWind3.0 Docs',
-        },
+        // {
+        //     lang: 'en',
+        //     label: 'English',
+        //     title: 'SailWind',
+        //     description: 'SailWind Docs',
+        // },
         {
             lang: 'pdf',
-            label: '原文',
+            label: 'English',
             title: 'SailWind',
-            description: 'SailWind3.0 Docs',
+            description: 'SailWind Docs',
         },
 
     ],
