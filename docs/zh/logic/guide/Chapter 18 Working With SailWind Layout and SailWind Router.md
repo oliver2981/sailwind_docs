@@ -1,8 +1,8 @@
-# 第 18 章 使用 SailWind Layout 和 SailWind Router
+# 第 18 章 使用 Layout 和 Router
 
 使用 SailWind Logic，您可以与 SailWind Layout 和 SailWind Router 无缝交换设计数据。这是一个双向流程，您可以向前注释和向后注释数据，从而保持设计变更的同步。您还可以生成差异报告，以便比较两个设计并突出显示任何差异。
 
-## 从 SailWind Logic设计创建新的 PCB Layout
+## 从 SailWind Logic 设计创建新的 PCB Layout
 
 有两种方法可以从 SailWind Logic 设计创建新的 PCB 设计：您可以使用 SailWind Layout Link，也可以在 SailWind Logic 和 SailWind Layout 之间手动交换网络表。
 
@@ -14,7 +14,7 @@
 SailWind Logic 和 SailWind Layout 之间的手动网表流程 
 解释和解决网表流程错误报告
 
-### 使用 SailWind Layout链接的自动网表流程
+### 使用 SailWind Layout 链接的自动网表流程
 
 如果您的计算机上同时安装了 SailWind Logic 和 SailWind Layout，您可以使用 SailWind Layout Link 自动处理 SailWind Logic 网表。 这种自动化方法是最简单的。
 
@@ -29,7 +29,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 **步骤**
 
-1. 单击工具 > SailWind Layout菜单项。
+1. 单击工具 > SailWind Layout 菜单项。
 
     > [!TIP]
     > 
