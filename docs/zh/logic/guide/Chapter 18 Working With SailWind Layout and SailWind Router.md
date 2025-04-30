@@ -164,7 +164,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
     如果 SailWind 路由器未打开，则会出现“连接到 SailWind 路由器”对话框。请执行以下操作之一：
     
     - 点击“新建”以使用新的、未命名的设计启动新的 SailWind Router 会话。
-   
+     
     - 点击“打开”以使用现有设计启动新的 SailWind Router 会话。在“文件打开”对话框中，选择一个设计文件，然后点击“打开”。
 
 2. 在 SailWind Router Link 对话框的 Selection 选项卡上，选中 Receive Selections 复选框，以使 SailWind Router 中的选择能够在 SailWind Logic 中接收。
