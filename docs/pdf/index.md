@@ -14,7 +14,15 @@ hero:
       text: 想看中文手册？戳我！
       link: ../zh/index
     - theme: alt
-      text: 快速开始
+      text: QuickStart
       link: /logic/guide/SailWind Logic Guide
+features:
+  - title: 'Logic'
+    details: SailWind Logic is a robust, multi-sheet, schematic capture solution that builds an effective front-end environment for SailWind Layout.
+    link: /logic/guide/SailWind Logic Guide
+  - title: 'Layout'
+    details: SailWind Layout provides the tools you need to lay out your PCB design, from creating a decal library for your components to generating output for fabrication.
+  - title: 'Router'
+    details: SailWind Router is a product containing an autorouter implemented on Latium technology.
 
 ---
