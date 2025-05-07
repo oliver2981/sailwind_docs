@@ -67,7 +67,7 @@
 
 > [!TIP]
 >
-> 您的系统不需要 Adob​​e® Acrobat® Distiller™ 来创建 PDF。
+> 您的系统不需要 Adobe® Acrobat® Distiller™ 来创建 PDF。
 
 **限制和局限性**
 
@@ -277,7 +277,7 @@
 
 **限制和局限性**
 
-您必须先安装 PDF 生成器（例如 Adob​​e PDF、Cute PDF 或 Microsoft Print to PDF），然后才能打印为 PDF。
+您必须先安装 PDF 生成器（例如 Adobe PDF、Cute PDF 或 Microsoft Print to PDF），然后才能打印为 PDF。
 
 **步骤**
 
