@@ -128,7 +128,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 **限制和局限性**
 
-- 在 SailWind Logic 中选择项目之前，应将第 712 页上的 SailWind Logic 选择过滤器设置为元件、门、网络或管脚。
+- 在 SailWind Logic 中选择项目之前，应将第 712 页上的 SailWind Logic 选择筛选条件设置为元件、门、网络或管脚。
 
 - 某些元件可能不存在于两个数据库中。未在 ECO 注册的元件和非电气元件可能已受到约束。有关详细信息，请参见“选项”对话框的“设计”类别。
 
@@ -153,7 +153,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 **限制和局限性**
 
-- 在 SailWind Logic 中选择项目之前，应将第 712 页上的 SailWind Logic 选择过滤器设置为元件、门、网络或管脚。
+- 在 SailWind Logic 中选择项目之前，应将第 712 页上的 SailWind Logic 选择筛选条件设置为元件、门、网络或管脚。
 
 - 某些元件可能不存在于两个数据库中。未注册 ECO 的元件和非电气元件可能已受到约束。有关详细信息，请参见“选项”对话框的“设计类别”。
 
