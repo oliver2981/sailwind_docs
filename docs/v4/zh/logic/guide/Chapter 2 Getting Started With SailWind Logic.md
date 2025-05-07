@@ -1,4 +1,4 @@
-# 第 2 章 开始 SailWind Logic🚧
+# 第 2 章 开始 SailWind Logic 🚧
 
 SailWind Logic 工作流程将指导您完成创建原理图设计所需的步骤。
 
@@ -71,7 +71,7 @@ SailWind Logic 工作流程将指导您完成创建原理图设计所需的步�
 
    ```“<install\_folder><version>\\Programs\\SailWindLogic.exe” “C:\\SailWind projects\\Samples\\preview.sch”```
 
-## SailWind 更新🚧
+## SailWind 更新 🚧
 
 :::danger{title=问题说明}
 

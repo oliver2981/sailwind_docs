@@ -1,4 +1,4 @@
-# 第 24 章 SailWind Logic 对话框🚧
+# 第 24 章 SailWind Logic 对话框 🚧
 
 ## AC 分析对话框
 
@@ -2343,7 +2343,7 @@ BMW（(Basic Media Wizard 基本媒体向导）是一款用于录制和播放 Sa
 | 包括网络特性 | 指定在网表中包含网络特性 |
 | 提示：运行连接报告来检查可能的连接错误 | 要运行“连接性报告”，请在 SailWind Logic 中点击“文件”菜单项“报告”。在“报告”对话框中，选中“连接性”复选框，然后单击“确定”。 |
 
-## 页间连接符特性对话框🚧
+## 页间连接符特性对话框 🚧
 
 :::danger{title=问题说明}
 
@@ -2823,7 +2823,7 @@ SailWind Layout Link 对话框允许您连接到 SailWind Layout，以自动发�
 | 接收选择复选框 | 选择此项可使 SailWind Logic 通过更改原理图图页并在 SailWind Logic 中选择项目来自动定位与 SailWind Router 选择相对应的项目。 |
 | 断开按钮 | 断开与 SailWind Router 的连接并关闭对话框。 |
 
-## SailWind Suite 配置对话框🚧
+## SailWind Suite 配置对话框 🚧
 
 :::danger{title=问题说明}
 
@@ -3171,7 +3171,7 @@ Figure 106. Part Attributes Dialog Box
 |  | · 此门 — 更新选定的门。· 此元件 — 更新某个元件或该元件的所有关联门。· 所有元件 此类型 — 更新设计中所有匹配的门或元件。限制：选择多个元件时，此区域不可用。指定要在原理图中显示的属性。 |
 
 
-## 元件类型标签属性对话框🚧
+## 元件类型标签属性对话框 🚧
 
 :::danger{title=问题说明}
 
@@ -3494,7 +3494,7 @@ Figure 106. Part Attributes Dialog Box
 | CAE 封装 | SailWind Logic |  | 列出设计中使用的 CAE 封装 |
 | PCB 封装 | SailWind 逻辑 SailWind 布局 |  | 列出设计中使用的 PCB 封装 |
 
-## 查询分层组件对话框🚧
+## 查询分层组件对话框 🚧
 
 :::danger{title=问题说明}
 
@@ -3545,7 +3545,7 @@ Figure 106. Part Attributes Dialog Box
 | 字体列表 | 可用的字体。这里列出了描边字体或系统字体。<br/>您可以在“字体”对话框中选择要使用的字体类型。<br/>提示<br/>• 选择描边字体或系统字体。<br/>• 对于系统字体，您还可以点击字体样式按钮，或<br/>任意组合样式：B 表示粗体，I 表示斜体，U 表示下划线。 |
 | 水平/垂直对齐 | 指定文本的水平（右、中、左）对齐和垂直（上、中、下）对齐。 |
 
-## 重新映射特殊符号对话框🚧
+## 重新映射特殊符号对话框 🚧
 
 :::danger{title=问题说明}
 
@@ -3934,7 +3934,7 @@ To access: Setup > Design Rules menu item
 | 应用按钮 | 视图菜单底部。将选定的先前保存的视图应用到工作区。 |
 | 删除按钮 | 从视图名称列表中删除选定的视图。 |
 
-## 选择门封装对话框🚧
+## 选择门封装对话框 🚧
 
 :::danger{title=问题说明}
 
@@ -4043,7 +4043,7 @@ To access: Setup > Design Rules menu item
 | 绘图/打印按钮 | 将输出发送到打印机或绘图仪。 |
 | 预览区域 | 以图形方式显示您将打印或绘制的内容。 |
 
-## 服务器繁忙对话框🚧
+## 服务器繁忙对话框 🚧
 
 :::danger{title=问题说明}
 
