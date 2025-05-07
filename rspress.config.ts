@@ -1,16 +1,23 @@
 import {defineConfig} from 'rspress/config';
-import path from 'path';
+import path from 'node:path';
+
 
 export default defineConfig({
 
     globalStyles: path.join(__dirname, 'theme/var.css'),
+    multiVersion: {
+        default: 'v4',
+        versions: ['v3', 'v4'],
+    },
+    search: {
+        versioned: true,
+    },
 
     root: 'docs',
     base: '/sailwind_docs/',
     title: 'SailWind',
     description: 'SailWind',
     icon: '/favicon.ico',
-//   logo: '/logo.png',
     logoText: 'SailWind Docs',
     lang: 'zh',
     locales: [
@@ -20,12 +27,6 @@ export default defineConfig({
             title: 'SailWind',
             description: 'SailWind 文档',
         },
-        // {
-        //     lang: 'en',
-        //     label: 'English',
-        //     title: 'SailWind',
-        //     description: 'SailWind Docs',
-        // },
         {
             lang: 'pdf',
             label: 'English',
@@ -41,12 +42,7 @@ export default defineConfig({
         lastUpdated: true,
         locales: [
             {
-                lang: 'en',
-                outlineTitle: 'ON THIS PAGE',
-            },
-            {
                 lang: 'zh',
-                outlineTitle: '本页目录',
                 outlineTitle: '本页目录',
                 prevPageText: '上一页',
                 nextPageText: '下一页',
@@ -57,11 +53,11 @@ export default defineConfig({
                     filterPlaceholderText: '输入关键词',
                     filterNoResultText: '未查询到结果',
                 },
+                label: ''
             },
             {
                 lang: 'pdf',
                 outlineTitle: '本页目录',
-                outlineTitle: '本页目录',
                 prevPageText: '上一页',
                 nextPageText: '下一页',
                 lastUpdatedText: '最近更新时间',
@@ -71,7 +67,15 @@ export default defineConfig({
                     filterPlaceholderText: '输入关键词',
                     filterNoResultText: '未查询到结果',
                 },
+                label: ''
             },
+        ],
+        socialLinks: [
+            {
+                icon: 'github',
+                mode: 'link',
+                content: 'https://github.com/mikigo/sailwind_docs',
+            }
         ],
 
         footer: {
