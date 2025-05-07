@@ -10,16 +10,16 @@
   --rp-code-block-bg: rgba(214, 188, 70, 0.05);
 }
 
-h1 {
-    background: var(--rp-c-brand);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+/*h1 {*/
+/*    background: var(--rp-c-brand);*/
+/*    background-clip: text;*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*}*/
 
-h2 {
-    background: var(--rp-c-brand);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+/*h2 {*/
+/*    background: var(--rp-c-brand);*/
+/*    background-clip: text;*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*}*/
