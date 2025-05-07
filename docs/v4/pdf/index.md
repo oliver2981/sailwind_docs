@@ -15,11 +15,11 @@ hero:
       link: ../zh/index
     - theme: alt
       text: QuickStart
-      link: /logic/guide/SailWind Logic Guide
+      link: /logic/guide/Chapter 1 SailWind Logic QuickStart
 features:
   - title: 'Logic'
     details: SailWind Logic is a robust, multi-sheet, schematic capture solution that builds an effective front-end environment for SailWind Layout.
-    link: /logic/guide/SailWind Logic Guide
+    link: /logic/guide/Chapter 1 SailWind Logic QuickStart
   - title: 'Layout'
     details: SailWind Layout provides the tools you need to lay out your PCB design, from creating a decal library for your components to generating output for fabrication.
   - title: 'Router'
