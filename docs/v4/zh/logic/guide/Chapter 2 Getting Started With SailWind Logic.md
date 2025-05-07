@@ -1,4 +1,4 @@
-# 第 2 章 开始 SailWind Logic
+# 第 2 章 开始 SailWind Logic🚧
 
 SailWind Logic 工作流程将指导您完成创建原理图设计所需的步骤。
 
@@ -71,15 +71,21 @@ SailWind Logic 工作流程将指导您完成创建原理图设计所需的步�
 
    ```“<install\_folder><version>\\Programs\\SailWindLogic.exe” “C:\\SailWind projects\\Samples\\preview.sch”```
 
-## SailWind 更新
+## SailWind 更新🚧
+
+:::danger{title=问题说明}
+
+点击：帮助-检查更新 后，无任何反应
+
+:::
 
 SailWind 产品会在您启动应用程序时自动检查软件新版本。如果检测到新版本，系统托盘中会显示工具提示。
 
-​    下载更新
+    下载更新
 
-​    禁用检查更新
+    禁用检查更新
 
-​    手动检查更新
+    手动检查更新
 
 ### 下载更新
 
