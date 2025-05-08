@@ -1,8 +1,13 @@
 # 第 18 章 使用 Layout 和 Router 🚧
+:::danger{title=问题说明}
+
+因 Layout 和 Router 当前不完善，和 Layout 和 Router 交互相关暂不整理
+
+:::
 
 使用 SailWind Logic，您可以与 SailWind Layout 和 SailWind Router 无缝交换设计数据。这是一个双向流程，您可以向前注释和向后注释数据，从而保持设计变更的同步。您还可以生成差异报告，以便比较两个设计并突出显示任何差异。
 
-## 从 SailWind Logic 设计创建新的 PCB Layout
+## 从 SailWind Logic 设计创建新的 PCB Layout 🚧
 
 有两种方法可以从 SailWind Logic 设计创建新的 PCB 设计：您可以使用 SailWind Layout Link，也可以在 SailWind Logic 和 SailWind Layout 之间手动交换网络表。
 
@@ -14,7 +19,7 @@
 SailWind Logic 和 SailWind Layout 之间的手动网表流程 
 解释和解决网表流程错误报告
 
-### 使用 SailWind Layout 链接的自动网表流程
+### 使用 SailWind Layout 链接的自动网表流程 🚧
 
 如果您的计算机上同时安装了 SailWind Logic 和 SailWind Layout，您可以使用 SailWind Layout Link 自动处理 SailWind Logic 网表。 这种自动化方法是最简单的。
 
@@ -52,7 +57,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 如果生成了错误报告文件（ascii.err）并且在网络表中发现错误，请参阅解释和解决网络表流程错误报告以获取更多信息。
 
-### SailWind Logic 和 SailWind Layout 之间的手动网表流程
+### SailWind Logic 和 SailWind Layout 之间的手动网表流程 🚧
 
 如果您的计算机上没有安装 SailWind Logic 和 SailWind Layout，您可以手动处理网表。此手动方法需要您手动从 SailWind Logic 导出网表，然后将其导入 SailWind Layout。
 
@@ -87,7 +92,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 如果生成了错误报告文件（ascii.err）并且在网络表中发现错误，请参阅解释和解决网络表流程错误报告以获取更多信息。
 
-### 解释和解决网表流程错误报告
+### 解释和解决网表流程错误报告 🚧
 
 如果在网表导入过程中发现错误，则会生成错误报告文件 (ascii.err)，并在记事本窗口中显示该错误报告文件。如果没有发现错误，则不会生成错误文件。
 
@@ -113,7 +118,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 从 SailWind Logic设计创建新的 PCB Layout
 
-## Sailwind 产品之间的交叉探测
+## Sailwind 产品之间的交叉探测 🚧
 
 您可以在 SailWind Logic 和 SailWind Layout 之间进行交叉探测，或者如果应用程序位于同一台计算机上，则可以在 SailWind Logic 和 SailWind Router 之间进行交叉探测。一次只能在两个应用程序之间进行交叉探测。在 SailWind Logic 中，无论 SailWind Layout 或 SailWind Router 是否打开，您都可以启动交叉探测。
 
@@ -122,7 +127,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 使用 SailWind Layout进行交叉探测 
 使用 SailWind 路由器进行交叉探测
 
-### 同 SailWind Layout 进行交叉探测
+### 同 SailWind Layout 进行交叉探测 🚧
 
 使用 SailWind Layout 进行交叉探测，以便在两个应用程序中同时进行选择。在其中一个程序中选择一个对象将自动在另一个程序中选择相同的对象。
 
@@ -146,7 +151,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 现在您可以继续使用 SailWind Layout 进行交叉探测。
 
-### 同 SailWind 路由器进行交叉探测
+### 同 SailWind 路由器进行交叉探测 🚧
 
 与 SailWind Router 进行交叉探测，以便在两个应用程序中主动同时进行选择。
 在其中一个程序中选择一个对象将自动在另一个程序中选择相同的对象。
@@ -171,7 +176,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
 您现在可以继续使用 SailWind Router 进行交叉探测。
 
-## 将注释从 SailWind Logic 转发到 SailWind Layout
+## 将注释从 SailWind Logic 转发到 SailWind Layout 🚧
 
 您可以将原理图更改“转发”（称为转发注释）导出到现有的 PCB Layout中。您可以选择三种方法中的任意一种来转发注释设计更改。
 
@@ -186,7 +191,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 在 SailWind Logic 中生成 ECO 
 文件正向注释结果
 
-### 自动前向注释过程
+### 自动前向注释过程 🚧
 
 如果 SailWind Logic 和 SailWind Layout 位于同一台计算机上，您可以使用 SailWind Layout Link 对话框将较新的原理图与较旧的 PCB 设计进行比较，并使用 Logic 中的新设计更新 Layout 中的原始设计。您还可以创建差异报告。
 
@@ -231,7 +236,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
     参见“正向注释结果”。
 
-### 在 SailWind Layout 中生成 ECO 文件
+### 在 SailWind Layout 中生成 ECO 文件 🚧
 
 您可以创建一个网络表（.asc 文件）并将其发送给Layout设计师，Layout设计师可以通过比较设计生成 ECO 文件，然后将更改导入 SailWind Layout。
 
@@ -266,7 +271,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 
     参见“正向注释结果”。
 
-### 在 SailWind Logic 中生成 ECO 文件
+### 在 SailWind Logic 中生成 ECO 文件 🚧
 
 使用“比较/ECO”对话框比较较新原理图和较旧 PCB 设计的网表，并创建 ECO（工程变更单）文件以导入 PCB 设计。您还可以创建差异报告文件。
 
@@ -319,7 +324,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
     
     参见“正向注释结果”。
 
-### 正向注释结果
+### 正向注释结果 🚧
 
 正向注释过程会生成一组文件（即使在自动正向注释过程中也在后台生成）。这些文件包括 ECO 文件、差异报告、ASCII 网表文件以及（可选）错误报告。
 
@@ -347,7 +352,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 ECO 文件格式
 差异报告的内容
 
-## 从 SailWind Layout 到 SailWind Logic 的反向注释
+## 从 SailWind Layout 到 SailWind Logic 的反向注释 🚧
 
 您可以将 PCB Layout更改“导出回”（称为反向注释）到原理图。您可以选择三种方法来反向注释设计更改。
 
@@ -363,7 +368,7 @@ ECO 文件格式
 在 SailWind Layout 中创建 ECO 文件
 在 SailWind Logic 中创建 ECO 文件
 
-### 自动反向注释过程
+### 自动反向注释过程 🚧
 
 如果 SailWind Logic 和 SailWind Layout 位于同一台计算机上，您可以使用 SailWind Layout Link 对话框将较新的 PCB 设计与较旧的原理图进行比较，并根据较新的 PCB 设计更新较旧的原理图。您还可以创建差异报告。
 
@@ -398,7 +403,7 @@ ECO 文件格式
     a. 如果需要，请选中比较设计规则和显示网络列表错误报告复选框。
     b. 单击“ECO From PCB”按钮。
 
-### 在 SailWind Layout 中创建 ECO 文件
+### 在 SailWind Layout 中创建 ECO 文件 🚧
 
 使用 SailWind Layout 创建包含设计变更的 .eco 文件，然后将其导入 SailWind Logic 设计。这样您就可以将 SailWind Layout 中的更改同步到原理图。
 
@@ -426,7 +431,7 @@ ECO 文件格式
 
     如果没有发生错误，则原理图会更新。如果发生错误，则原理图不会更新，错误信息以及指向 ECO 导入错误文件的链接将写入输出窗口。
 
-### 在 SailWind Logic 中创建 ECO 文件
+### 在 SailWind Logic 中创建 ECO 文件 🚧
 
 以 .asc 文件格式获取Layout设计，使用 SailWind Logic Compare/ECO 工具将其与原理图设计进行比较，然后将设计变更的 .eco 文件导入 SailWind Logic 原理图设计中。
 
@@ -477,7 +482,7 @@ ECO 文件格式
 
 后向注释结果
 
-## 后向注释结果
+## 后向注释结果 🚧
 
 反向注释支持多个设计活动层级。您可以使用反向注释交换设计更新以及属性、元件、门电路、网络和管脚的更改。结果取决于您正在更新的设计对象数据类型。
 
@@ -487,7 +492,7 @@ ECO 文件格式
 网络级后向注释 
 管脚级后向注释
 
-### 属性级后向注释
+### 属性级后向注释 🚧
 
 如果在 SailWind Layout 中添加、删除或修改属性，则可以向后注释新的属性和已删除的属性。
 
@@ -510,7 +515,7 @@ ECO 文件格式
 
 在 SailWind Layout 中创建 ECO 文件
 
-### 元件级后向注释
+### 元件级后向注释 🚧
 
 您可以向后注释添加的部分、更改的部分、删除的部分以及参考指示器名称。
 
@@ -546,7 +551,7 @@ ECO 文件格式
 
 在 SailWind Layout 中创建 ECO 文件
 
-### 门级后向注释
+### 门级后向注释 🚧
 
 如果您在 SailWind Layout 中交换门以改善路线，则可以将交换的门反向注释到示意图中。
 
@@ -556,7 +561,7 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 
 在 SailWind Layout 中创建 ECO 文件
 
-### 网络层后向注释
+### 网络层后向注释 🚧
 
 您可以向后注释已连接的网络、通过拆分现有网络创建的网络以及重命名的网络。
 
@@ -578,7 +583,7 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 
 在 SailWind Layout 中创建 ECO 文件
 
-### 管脚级后向注释
+### 管脚级后向注释 🚧
 
 您可以向后注释交换的管脚、添加到网络的管脚以及与网络断开的管脚。
 
@@ -601,7 +606,7 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 
 在 SailWind Layout 中创建 ECO 文件
 
-## 差异报告的内容
+## 差异报告的内容 🚧
 
 当您比较设计的两个版本时（工具 > 比较/ECO），您可以创建一个输出文件，列出两个版本之间的差异。报告文件名为 Logic.rep，并写入 \\SailWind Projects 文件夹。
 
@@ -630,7 +635,7 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 
 比较/ECO 工具对话框，比较选项卡
 
-## ECO 文件格式
+## ECO 文件格式 🚧
 
 使用的格式类似于 PADS 格式的 ASCII。每种类型的数据都以一个标题行开头，标题行中包含一个关键字，关键字周围用星号 (^{\star}) 括起来。
 
