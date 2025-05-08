@@ -1,4 +1,4 @@
-# 第 6 章 管理库和库数据 🚧
+# 第 6 章 管理库和库数据
 
 使用 SailWind Logic，您可以创建和修改库、设置可搜索性、管理库属性、导入和导出库、报告内容以及使用搜索参数。
 
@@ -14,20 +14,6 @@
 | .In | 线条——您可以存储在库中的一般图形数据，例如公司徽标，以便在任何设计文件中使用。 |
 
 有关创建 PCB 封装的信息，请参阅 SailWind 布局指南中的“创建新封装”。
-
-## 将 PADS 库转换为当前格式 🚧
-
-:::danger{title=问题说明}
-
-暂未找到：“SailWind 元件库转换程序对话框”
-
-有关如何将旧 PADS 库转换为当前 SailWind 格式的信息，请参阅 SailWind Netlist Library Converter Guide 中的 Converting Your Libraries。 --> 在“SailWind 元件库转换程序对话框”中，使用“添加库”按钮或“查找库列表的 INI 文件”按钮将库加载到转换器中。
-
-:::
-
-您可以将 PADS 旧版本中的库转换为当前格式。这样，您就可以重用旧设计中的库内容，并在新设计环境中编辑这些内容。
-
-有关如何将旧 PADS 库转换为当前 SailWind 格式的信息，请参阅 SailWind Netlist Library Converter Guide 中的 Converting Your Libraries。
 
 ## 创建库
 
