@@ -3906,7 +3906,7 @@ To access: Setup > Design Rules menu item
 
 **对象**
 
-#Table 206. 将 PCB 封装保存到库对话框内容
+表 206. 将 PCB 封装保存到库对话框内容
 
 | 名称 | 描述 |
 | --- | --- |
