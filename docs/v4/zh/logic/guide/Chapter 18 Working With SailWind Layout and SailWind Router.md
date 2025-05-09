@@ -1,4 +1,4 @@
-# 第 18 章 使用 Layout 和 Router 🚧
+# 第 18 章 与 Layout 和 Router 协作 🚧
 :::danger{title=问题说明}
 
 因 Layout 和 Router 当前不完善，和 Layout 和 Router 交互相关暂不整理
@@ -114,10 +114,6 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 4. 解决 ascii.err 文件中发现的任何其他错误。
 5. 解决所有错误后，重复将网络表从 SailWind Logic 传递到 SailWind Layout 的过程。
 
-**相关主题**
-
-从 SailWind Logic设计创建新的 PCB Layout
-
 ## Sailwind 产品之间的交叉探测 🚧
 
 您可以在 SailWind Logic 和 SailWind Layout 之间进行交叉探测，或者如果应用程序位于同一台计算机上，则可以在 SailWind Logic 和 SailWind Router 之间进行交叉探测。一次只能在两个应用程序之间进行交叉探测。在 SailWind Logic 中，无论 SailWind Layout 或 SailWind Router 是否打开，您都可以启动交叉探测。
@@ -169,7 +165,7 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
     如果 SailWind 路由器未打开，则会出现“连接到 SailWind 路由器”对话框。请执行以下操作之一：
     
     - 点击“新建”以使用新的、未命名的设计启动新的 SailWind Router 会话。
-     
+    
     - 点击“打开”以使用现有设计启动新的 SailWind Router 会话。在“文件打开”对话框中，选择一个设计文件，然后点击“打开”。
 
 2. 在 SailWind Router Link 对话框的 Selection 选项卡上，选中 Receive Selections 复选框，以使 SailWind Router 中的选择能够在 SailWind Logic 中接收。
@@ -347,11 +343,6 @@ SailWind Logic 和 SailWind Layout 之间的手动网表流程
 - 单子网网络，带有页间连接符（单独子网警告） 
 - 用户命名的子网，没有可见的网络名称标签
 
-**相关主题**
-
-ECO 文件格式
-差异报告的内容
-
 ## 从 SailWind Layout 到 SailWind Logic 的反向注释 🚧
 
 您可以将 PCB Layout更改“导出回”（称为反向注释）到原理图。您可以选择三种方法来反向注释设计更改。
@@ -478,9 +469,6 @@ ECO 文件格式
 
     如果没有发生错误，则原理图会更新。如果发生错误，则原理图不会更新，错误信息以及指向 ECO 导入错误文件的链接将写入输出窗口。
 
-**相关主题**
-
-后向注释结果
 
 ## 后向注释结果 🚧
 
@@ -510,10 +498,6 @@ ECO 文件格式
 - 删除某个元件类型的属性会删除设计中该类型所有元件的属性。
 - 如果元件或属性名称不存在，则会生成错误消息。
 - 如果属性命令指定的对象类型不支持通用属性，例如网络或网络类，则该属性命令将被忽略。
-
-**相关主题**
-
-在 SailWind Layout 中创建 ECO 文件
 
 ### 元件级后向注释 🚧
 
@@ -547,9 +531,6 @@ ECO 文件格式
 - 如果被重命名的元件是多门元件，则所有门都会被更新。
 - 如果旧参考指示器不存在，则会生成错误消息。
 
-**相关主题**
-
-在 SailWind Layout 中创建 ECO 文件
 
 ### 门级后向注释 🚧
 
@@ -557,9 +538,6 @@ ECO 文件格式
 
 SailWind Logic 会在每个交换的门处创建一个页间连接符。如果门不存在，则会生成一条错误消息。
 
-**相关主题**
-
-在 SailWind Layout 中创建 ECO 文件
 
 ### 网络层后向注释 🚧
 
@@ -579,9 +557,6 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 
 - 如果新网络已经存在，则会创建一条错误消息。
 
-**相关主题**
-
-在 SailWind Layout 中创建 ECO 文件
 
 ### 管脚级后向注释 🚧
 
@@ -602,9 +577,6 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 - 如果管脚是门极管脚，则当其连接到连接点或页间连接符时，连接将被删除。如果连接到另一个门极管脚，则连接将被断开，并添加页间连接符。
 - 如果管脚未连接到相关网络，此命令将生成错误消息。
 
-**相关主题**
-
-在 SailWind Layout 中创建 ECO 文件
 
 ## 差异报告的内容 🚧
 
@@ -628,12 +600,6 @@ SailWind Logic 会在每个交换的门处创建一个页间连接符。如果�
 | 已添加组引脚对 | （新设计中的引脚对组包含原始设计中未包含或包含在原始设计不同组中的引脚对。）ECO 操作会添加这些引脚对。本节列出： • 新设计中添加的每个引脚对组及其名称 • 如果组是新建的（原始设计中不存在），则列出该组中的所有引脚对 |
 
 
-
-**相关主题**
-
-比较/ECO 工具对话框，文档选项卡
-
-比较/ECO 工具对话框，比较选项卡
 
 ## ECO 文件格式 🚧
 

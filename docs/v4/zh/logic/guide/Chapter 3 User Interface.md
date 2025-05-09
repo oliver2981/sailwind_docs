@@ -355,9 +355,6 @@ HKEY\_CURRENT\_USER\\Software\\Mentor Graphics<version>\\SailWind Layout\\Status
 1. 单击“保存”按钮。
 2. 在标准 Windows“另存为”对话框中，输入文件名（如果需要），然后单击“保存”。
 
-**相关主题**
-
-使用带有宏的命令行开关 \[SailWind Logic 命令参考手册\]
 
 ### 宏播放
 
@@ -400,9 +397,6 @@ HKEY\_CURRENT\_USER\\Software\\Mentor Graphics<version>\\SailWind Layout\\Status
 
 宏一旦停止，就无法恢复播放。单击“运行”后，宏将从头开始播放。
 
-**相关主题**
-
-使用带有宏的命令行开关 \[SailWind Logic 命令参考手册\]
 
 ### 宏脚本调试
 
@@ -470,9 +464,6 @@ HKEY\_CURRENT\_USER\\Software\\Mentor Graphics<version>\\SailWind Layout\\Status
 
 如果发生运行时错误，宏调试器将切换到逐步模式，并在状态栏上显示详细信息。指令指针将指向产生错误的行。修复错误后，您可以继续播放宏。
 
-**相关主题**
-
-使用带有宏的命令行开关 \[SailWind Logic 命令参考手册\]
 
 ### 访问宏语言帮助
 
