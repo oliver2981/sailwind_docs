@@ -263,7 +263,7 @@ HKEY\_CURRENT\_USER\\Software\\Mentor Graphics<version>\\SailWind Layout\\Status
 > [!TIP]
 对话框操作会被记录为结果而非操作，因此在回放时，您不会在回放过程中看到对话框。因此，您无法创建在打开对话框时停止的宏；它必须遵循某些结果或操作。例如，您可以创建一个宏，选择“主页 > “ 打开”菜单项，选择一个文件，然后选择“确定”。该宏在回放时会打开一个文件。
 
-#### 创建新宏🚧
+#### 创建新宏 🚧
 
 :::danger{title=问题说明}
 
@@ -282,7 +282,7 @@ HKEY\_CURRENT\_USER\\Software\\Mentor Graphics<version>\\SailWind Layout\\Status
 5. 执行要包含在宏中的击键、命令和鼠标单击。
 6. 在“宏”选项卡工具栏上，单击“停止”按钮。或者，您也可以编写宏脚本，而不是录制鼠标操作。
 
-#### 记录鼠标移动🚧
+#### 记录鼠标移动 🚧
 
 :::danger{title=问题说明}
 
@@ -361,7 +361,7 @@ HKEY\_CURRENT\_USER\\Software\\Mentor Graphics<version>\\SailWind Layout\\Status
 您可以使用“运行”来播放现有宏。“运行”还可以恢复暂停的宏的播放。
 播放宏时，您无法在工作区中使用鼠标。
 
-#### 播放宏🚧
+#### 播放宏 🚧
 
 :::danger{title=问题说明}
 
