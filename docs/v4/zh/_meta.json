@@ -3,10 +3,5 @@
     "text": "原理图",
     "link": "/zh/logic/guide/Chapter 1 SailWind Logic QuickStart",
     "activeMatch": "/logic/"
-  },
-  {
-    "text": "贡献文档",
-    "link": "https://github.com/mikigo/sailwind_docs/blob/main/docs/how_to_update.md",
-    "activeMatch": "/how_to_update/"
   }
 ]
