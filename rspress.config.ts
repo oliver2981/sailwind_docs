@@ -74,7 +74,7 @@ export default defineConfig({
             {
                 icon: 'github',
                 mode: 'link',
-                content: 'https://github.com/mikigo/sailwind_docs/blob/main/about.md',
+                content: 'https://github.com/mikigo/sailwind_docs/blob/main/docs/about.md',
             }
         ],
 
