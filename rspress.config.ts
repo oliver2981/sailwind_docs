@@ -74,12 +74,12 @@ export default defineConfig({
             {
                 icon: 'github',
                 mode: 'link',
-                content: 'https://github.com/mikigo/sailwind_docs/blob/main/docs/about.md',
+                content: 'https://github.com/mikigo/sailwind_docs/',
             }
         ],
 
         footer: {
-            message: `版权所有 © 2020-${new Date().getFullYear()} 派兹互连`,
+            message: `版权所有 © 2023-${new Date().getFullYear()} 派兹互连`,
         },
         hideNavbar: 'auto',
     },

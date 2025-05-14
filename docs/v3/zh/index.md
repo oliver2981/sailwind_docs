@@ -8,11 +8,11 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: 想看英文手册？戳我！
-      link: /pdf/index
-    - theme: alt
       text: 快速开始
       link: /logic/guide/Chapter 1 SailWind Logic QuickStart
+    - theme: alt
+      text: 关于
+      link: /about
 features:
   - title: 'Logic'
     details: SailWind Logic 是一种强大的多页原理图捕获解决方案，可为 SailWind Layout 构建有效的前端环境。

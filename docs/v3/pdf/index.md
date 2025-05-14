@@ -6,16 +6,13 @@ hero:
   name: SailWind 3.X
   text: "Logic / Layout / Router \nEnglish Help Manual"
   tagline: 
-#  image:
-#      src: /hero.png
-#      alt: PZDocs
   actions:
     - theme: brand
-      text: 想看中文手册？戳我！
-      link: ../zh/index
-    - theme: alt
       text: QuickStart
       link: /logic/guide/Chapter 1 SailWind Logic QuickStart
+    - theme: alt
+      text: About
+      link: /about
 features:
   - title: 'Logic'
     details: SailWind Logic is a robust, multi-sheet, schematic capture solution that builds an effective front-end environment for SailWind Layout.
