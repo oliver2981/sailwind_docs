@@ -27,6 +27,22 @@ export default defineConfig({
         enableAppearanceAnimation: true,
         enableScrollToTop: true,
         lastUpdated: true,
+        locales: [
+            {
+                lang: '',
+                outlineTitle: '本页目录',
+                prevPageText: '上一页',
+                nextPageText: '下一页',
+                lastUpdatedText: '最近更新时间',
+                searchPlaceholderText: '搜索文档',
+                overview: {
+                    filterNameText: '快速查找',
+                    filterPlaceholderText: '输入关键词',
+                    filterNoResultText: '未查询到结果',
+                },
+                label: ''
+            }
+        ],
         socialLinks: [
             {
                 icon: 'github',
