@@ -10,21 +10,17 @@ SailWind Layout 链接的另一个优势是工具间通信。使用这项自动�
 
 SailWind Logic 支持 OLE 自动化。此功能允许您使用 Visual Basic、Microsoft Visual $^ { \mathsf { C } + + }$ 或其他工具开发自定义应用程序，以从 SailWind Logic 数据库中提取特定数据。
 
-# 在本课中：
-
-使用 SailWind 布局链接创建网络表
-
-# 准备
+**准备**
 
 如果它尚未运行，请启动 SailWind Logic 并打开 \\SailWind Projects\\Samples 文件夹中名为 preview.sch 的文件。
 
 要求：本教程要求示例库保持其原始搜索顺序。在 SailWind 布局搜索顺序中，预览库必须位于通用库之前，否则将导致错误。
 
-# 创建网表
+## 创建网表
 
 创建网表是将原理图数据传入 SailWind Layout 以启动 PCB 设计流程的基本方法。网表包含元件列表、元件类型及其所有网络连接。网表还可以包含设计规则和层堆栈（可选）。
 
-# 要创建网表：
+**要创建网表：**
 
 1.  工具菜单 $>$ 布局网表。
     
@@ -33,7 +29,7 @@ SailWind Logic 支持 OLE 自动化。此功能允许您使用 Visual Basic、Mi
 3.  在继续下一部分之前，请检查网表文件的内容并关闭该文件。
     
 
-# 使用 SailWind 布局链接
+## 使用 SailWind 布局链接
 
 您可以使用 SailWind Layout Link 的功能在 SailWind Logic 和 SailWind Layout 之间进行交叉探测。使用此功能可以执行原理图驱动的布局或布局的后期设计审查。
 
@@ -51,7 +47,7 @@ SailWind Logic 支持 OLE 自动化。此功能允许您使用 Visual Basic、Mi
 a. 在 SailWind Layout 中的文件菜单上，单击导入。
 b. 在 \\SailWind Projects\\Samples 文件夹中找到并导入逻辑 tutorial.asc 文件。
 
-# 将网络表发送到 SailWind Layout
+**将网络表发送到 SailWind Layout**
 
 使用 SailWind Layout Link 自动生成并将网络表发送到 SailWind Layout。
 
@@ -59,11 +55,11 @@ b. 在 \\SailWind Projects\\Samples 文件夹中找到并导入逻辑 tutorial.a
 
 提示：如果出现提示“原理图网络列表可能有错误。是否要继续？”，请单击“是”。
 
-# 原理图驱动的布局
+**原理图驱动的布局**
 
 现在您已经拥有了包含原理图中元件和网络的 SailWind Layout 设计，接下来需要准备元件进行放置。您还需要将 SailWind Layout 设置为“移动”模式，以便在 SailWind Logic 中选择元件时，所选元件会随之移动。
 
-# 在 SailWind 布局中
+**在 SailWind 布局中**
 
 使用“分散元件”命令将元件分布在电路板轮廓的外部。
 
@@ -74,7 +70,7 @@ b. 在 \\SailWind Projects\\Samples 文件夹中找到并导入逻辑 tutorial.a
 
 L 1. 在工具栏上，单击设计工具栏按钮打开设计工具栏。由 2. 在设计工具栏上，单击移动按钮将 SailWind Layout 置于移动组件模式。
 
-# 在 SailWind Logic 中
+**在 SailWind Logic 中**
 
 在 SailWind Logic 中选择 J1 组件。
 
@@ -82,7 +78,7 @@ L 1. 在工具栏上，单击设计工具栏按钮打开设计工具栏。由 2.
 2.  选择原理图逻辑表左侧的 J1 连接器的任意引脚。
 3.  将鼠标指针移至 SailWind Layout 窗口。您现在正在 SailWind Layout 中移动 J1。
 
-# 在 SailWind 布局中
+**在 SailWind 布局中**
 
 将组件放置在 SailWind 布局中。
 
@@ -91,11 +87,11 @@ L 1. 在工具栏上，单击设计工具栏按钮打开设计工具栏。由 2.
 3.  按空格键放置 J1。
 4.  在设计工具栏上，单击选择按钮退出移动模式
 
-# SailWind Logic 中的多项选择
+**SailWind Logic 中的多项选择**
 
 您还可以通过在 SailWind Logic 中进行组选择并在 SailWind Layout 中应用“移动顺序”命令来按顺序移动多个组件
 
-# 在 SailWind Logic 中
+**在 SailWind Logic 中**
 
 在 SailWind Logic 中进行组选择。
 
@@ -103,7 +99,7 @@ L 1. 在工具栏上，单击设计工具栏按钮打开设计工具栏。由 2.
 2.  当多个组件被包含在选择矩形内时，松开鼠标按钮。
 3.  一旦完成选择，SailWind Logic 中与您选择相对应的组件就会在 SailWind Layout 中被选中。
 
-# 在 SailWind 布局中
+**在 SailWind 布局中**
 
 按顺序移动组件。
 
@@ -116,18 +112,18 @@ L 1. 在工具栏上，单击设计工具栏按钮打开设计工具栏。由 2.
 4.  继续放置零件，直到不再有组件附着到指针上。
     
 
-# 布局驱动的选择
+**布局驱动的选择**
 
 您还可以根据 SailWind Layout 中的选择来驱动 SailWind Logic 中的选择。
 
-# 在 SailWind Logic 中
+**在 SailWind Logic 中**
 
 启用 SailWind Logic 来接收在 SailWind Layout 中所做的选择。
 
 1.  在 SailWind Layout Link 对话框中，单击 Selection 选项卡。
 2.  选中“接收选择”复选框以使 SailWind Logic 能够接收在 SailWind Layout 中所做的选择。
 
-# 在 SailWind 布局中
+**在 SailWind 布局中**
 
 在 SailWind Layout 中选择 Y1 组件。
 
@@ -135,7 +131,7 @@ L 1. 在工具栏上，单击设计工具栏按钮打开设计工具栏。由 2.
 2.  输入 ssc3 并按 Enter 键，搜索并选择 C3。这将演示 SailWind Logic 如何响应 SailWind Layout 中的选择，并自动更改工作表以显示该零件。
 3.  输入 ssu6 并按 Enter 键，搜索并选择 U6。由于 U6 是多门控器件，因此在 SailWind Logic 中会选中该器件的所有门控。器件的每个门控都会在“选择”工具栏上的“搜索和选择”框中单独列出。
 
-# 在 SailWind Logic 中
+**在 SailWind Logic 中**
 
 选择 U6 的特定实例。
 

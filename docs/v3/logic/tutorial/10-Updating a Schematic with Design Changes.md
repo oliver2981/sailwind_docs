@@ -4,15 +4,11 @@
 
 在 SailWind Layout 中执行的 ECO 变更会记录在一个扩展名为 \*.eco 的 ASCII 文件中。该文件以其原生格式，可以被 SailWind Logic 读取，从而将 SailWind Layout 中所做的变更添加到原理图注释中。
 
-# 在本课中：
-
-导入 ECO 文件比较文件并导出 ECO 文件
-
-# 准备
+**准备**
 
 如果它尚未运行，请启动 SailWind Logic 并打开 \\SailWind Projects\\Samples 文件夹中名为 preview.sch 的文件。
 
-# 导入 ECO 文件
+## 导入 ECO 文件
 
 检查原理图中的几个参考指示器。现在导入一个 .eco 文件。
 
@@ -27,7 +23,7 @@
 5.  单击“确定”。
     
 
-# 比较文件并导出 ECO 文件
+## 比较文件并导出 ECO 文件
 
 您可以使用 Compare/ECO 命令比较原理图和设计文件，并创建用于更新 SailWind Layout 的 ECO 文件。
 
@@ -54,9 +50,9 @@
 11.  点击“确定”。新的电容 C11 将位于原点附近。
     
 12.  关闭 SailWind Layout 而不保存任何更改。
-    
 
-# 使用 SailWind Layout Link 自动进行前向注释
+
+## 使用 SailWind Layout Link 自动进行前向注释
 
 您可以使用 SailWind Layout Link，只需单击按钮即可自动将原理图中的注释更改转发到 SailWind Layout。
 
@@ -71,4 +67,14 @@
     
 4.  可选：如果您想在更新前检查设计差异，请点击“比较 PCB”按钮。系统会比较两个版本，并将差异写入 \\SailWind Projects 文件夹中的 logic.rep 文件。要查看报告，请点击“输出窗口”中的 logic.rep 链接。
     
-5.  在“设计”选项卡上：
+5. 在“设计”选项卡上：
+
+   a. 如果需要，请选中比较设计规则和显示网络列表错误报告复选框。
+   b. 单击 ECO To PCB 按钮发送更改。
+   提示：当 SailWind Layout Link 对话框打开时，您可以进行交叉探测。
+
+   6.  在 SailWind 布局中，新的电容器 C11 将位于原点附近。
+
+   7.  关闭 SailWind Layout 而不保存任何更改。
+
+   您已完成 ECO 教程。

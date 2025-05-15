@@ -2,15 +2,11 @@
 
 您可以使用库管​​理器和 PCB 贴花编辑器在 SailWind 库中创建组成零件类型的库元素。
 
-# 在本课中：
-
-了解 SailWind 零件类型 创建 CAE 贴花 创建新的零件类型
-
-# 准备
+**准备**
 
 如果尚未运行，请启动 SailWind Logic。
 
-# 了解零件类型
+## 了解零件类型
 
 在将零件添加到原理图之前，它必须作为零件类型存在于库中。零件类型由三个元素组成：
 
@@ -18,13 +14,18 @@
 组件封装，或库中所谓的 PCB 贴花。
 电气参数，例如引脚编号和门分配。
 
-# 零件类型的一个例子是 7404。
+**零件类型的一个例子是 7404。**
 
-<table data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><tbody data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">元素</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">描述</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">零件类型名称：</td><td>7404</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">CAE 标贴：</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">INV（逆变器）</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">PCB 贴花：</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">DIP14（14 针双列直插式封装）</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">电气参数：</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">六个逻辑门（A 到 F）使用 14 个引脚中的 12 个，以及一个电源引脚和一个接地引脚。</td></tr></tbody></table>
+| 元素 | 描述 |
+| --- | --- |
+| 零件类型名称： | 7404 |
+| CAE 标贴： | INV（逆变器） |
+| PCB 贴花： | DIP14（14 针双列直插式封装） |
+| 电气参数： | 六个逻辑门（A 到 F）使用 14 个引脚中的 12 个，以及一个电源引脚和一个接地引脚。 |
 
 您可以在 SailWind Logic 或 SailWind Layout 中创建零件类型；但是，您只能在 SailWind Logic 中创建 CAE 贴花，在 SailWind Layout 中创建 PCB 贴花。
 
-# CAE 贴花
+**CAE 贴花**
 
 添加到原理图中的每个零件都必须有一个 CAE 贴图，以图形方式表示该零件的逻辑功能。有些零件完全用一个 CAE 贴图表示，而有些零件则由多个相同 CAE 贴图的实例组成，例如上文提到的 7404 号零件（即多门逆变器）。
 
@@ -32,13 +33,13 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 ![](/logic/tutorial/6ff17865925f458daac770e4081799f58f70b2204ed10e0b313e9f85c7f68b13.jpg)
 
-# 创建 CAE 贴花
+## 创建 CAE 贴花
 
 在本练习中，您将使用 CAE 贴花向导和其他功能为下图所示的 87C256 零件类型创建 CAE 贴花。
 
 ![](/logic/tutorial/2ad3bcd26cf498c6c91f976adb549cef6ccd5145a6875d4cb24d5b1c26d0d271.jpg)
 
-# 创建 CAE 贴花
+**创建 CAE 贴花**
 
 1.  工具菜单 $>$ 零件编辑器。
     
@@ -49,9 +50,9 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 这些标签都是 CAE 贴图相关文本对象的占位符。这些标签在 CAE 贴图上的位置决定了 CAE 贴图文本对象在原理图中的显示位置。原点标记用作在原理图上移动或定位 CAE 贴图的原点。选择标签并将其移动到所需位置。
 
-# 标签
+**标签**
 
-# 占位符
+**占位符**
 
 参考零件类型 \*自由标签 1 \*自由标签 2
 
@@ -59,7 +60,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 提示：属性是一种特定类型的零件信息，可以包含在零件库描述中并导出到零件列表中。例如，零件制造商、封装类型和零件编号。
 
-# 使用 CAE 贴花向导创建 CAE 贴花
+**使用 CAE 贴花向导创建 CAE 贴花**
 
 1.  贴花编辑器工具栏按钮 > CAE 贴花向导按钮
 2.  在 Box Parameters 区域的 Min Width 框中键入 800。
@@ -69,7 +70,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 另请参阅：SailWind Logic 帮助，了解有关终端和引脚贴花之间关系的详细信息
 
-# 添加新终端
+**添加新终端**
 
 现阶段，CAE 贴花尚未完成。您必须添加输出引脚并修改输入引脚上的一些符号。
 
@@ -80,7 +81,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 3.  将新终端连接到指针后，右键单击，然后单击“X 镜像”。这将在 X 轴（即水平方向）上镜像终端。
 4.  将端子定位在符号的右侧，位于 X1000,Y1900，然后单击以放置端子。
 
-# 使用步骤和重复添加新终端
+**使用步骤和重复添加新终端**
 
 添加终端后，SailWind Logic 仍处于“添加终端动词”模式；下一个新终端将附加到指针上。无需像上面那样逐个添加终端，而是使用“步进重复”功能快速添加多个终端。
 
@@ -89,7 +90,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 3.  单击“确定”。
 4.  右键单击并单击取消以退出添加终端动词模式。
 
-# 修改终端
+**修改终端**
 
 现在您已添加输出引脚，请使用其他终端命令修改输入引脚排列并完成 CAE 贴花。输入引脚包含 15 个地址输入、3 个控制输入和一个额外的输入引脚。其中两个控制输入的引脚贴花需要修改，并且必须移除额外的终端。
 
@@ -112,7 +113,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 备选方案：按 $S t r l + A l t + E$ 查看范围。
 
-# 为门分配引脚编号和引脚名称
+**为门分配引脚编号和引脚名称**
 
 1.  设置引脚名称按钮。
     
@@ -135,7 +136,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 10.  按顺序选择剩余的输入引脚，分配名称 A2 到 A14。
     
 11.  右键单击并单击取消以退出当前模式。
-    
+
 
 剩余两个引脚具有逻辑“非”引脚名称标签（名称上方有横线）。要创建此类文本，请使用 \\ 字符。分配剩余的引脚名称。
 
@@ -160,7 +161,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 6.  选择引脚 Q4 并将其指定为 16。
 7.  继续为剩余的引脚分配引脚号。如果分配了错误的引脚号，请再次点击“设置引脚号”按钮，输入新的引脚号，然后点击端子。
 
-# 命名 CAE 贴花和零件类型
+**命名 CAE 贴花和零件类型**
 
 1.  文件菜单 $>$ 返回部分。
     
@@ -179,11 +180,11 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 8.  对于未分配 PCB 贴花的警告，单击“确定”。如果零件类型已存在，请确认覆盖该零件类型。
     
 
-# 为 CAE 贴花创建零件类型
+## 为 CAE 贴花创建零件类型
 
 现在，您将为 87C256 零件类型添加电气属性并为其分配 PCB 贴花。
 
-# 指定家庭类型
+**指定家庭类型**
 
 创建零件类型的第一步是指定零件的族类型。
 
@@ -194,7 +195,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 注意：引脚数仅显示 26 个引脚。
 
-# 分配 PCB 贴花
+**分配 PCB 贴花**
 
 创建零件类型的下一步是分配 87C256 CAE 贴花并分配 28 针 PCB 贴花。
 
@@ -204,7 +205,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 4.  单击 SO28 PCB 贴花，然后单击“分配”将 PCB 贴花指定为第一个（也是唯一一个）
     针对该零件类型的 PCB 贴花。这也增加了 87C256 零件类型的引脚数。
 
-# 更新引脚设置
+**更新引脚设置**
 
 1.  引脚标签。
 2.  检查门 A，这是该零件类型的第一个（也是唯一一个）门。
@@ -214,7 +215,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 
 提示：如果您想在 SailWind Layout 中使用引脚交换、终结器分配和拓扑工具，则必须设置门的 Swap（引脚交换）和 Type（引脚类型）值。在本练习中，您可以保留这些值。
 
-# 分配信号引脚
+**分配信号引脚**
 
 接下来，分配标准电源和接地引脚。在 SailWind Logic 中，这些引脚称为信号引脚。
 
@@ -224,7 +225,7 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 4.  双击引脚 14 的名称框，然后键入 GND。
 5.  双击引脚 28 的名称框，然后输入 $+ 5 V$ 。
 
-# 添加用户定义属性
+**添加用户定义属性**
 
 最后，您将添加用户定义的零件类型属性。
 
@@ -237,18 +238,23 @@ CAE 贴花由引脚贴花组成，这些贴花连接到图形符号周围间隔�
 4.  在“浏览库属性”对话框中，点击“描述”，点击“确定”。5. 按 Tab 键切换到“值”单元格，输入“32K X 8 BIT CMOS EPROM/LATCH”。6. 点击“添加”，再次点击“浏览库属性”，重复上述步骤，添加以下属性和值：
     
 
-<table data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><tbody data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">属性</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">价值观</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">成本</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">（留空）</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">零件编号</td><td>87C256</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">制造商 #1</td><td>SIGNETICS</td></tr><tr data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2"><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">制造商 #2</td><td data-immersive-translate-walked="93a7031e-7997-46a7-897c-5730b14e73e2" data-immersive-translate-paragraph="1">（留空）</td></tr></tbody></table>
+| 属性 | 价值观 |
+| --- | --- |
+| 成本 | （留空） |
+| 零件编号 | 87C256 |
+| 制造商 #1 | SIGNETICS |
+| 制造商 #2 | （留空） |
 
 7.  完成所有属性的添加后，单击“确定”以完成分配电气特性的过程并关闭“零件信息”对话框。
 
-# 将零件类型保存到库中
+**将零件类型保存到库中**
 
 1.  在“文件”菜单上，单击“保存”。
     
 2.  在文件菜单上，单击退出零件编辑器以退出零件编辑器并返回原理图编辑器。
     
 
-# 使用库管理器
+**使用库管理器**
 
 您可以从库管理器对话框中编辑库中现有的零件类型。
 
