@@ -1,0 +1,14 @@
+[
+  {
+    "type": "dir",
+    "name": "tutorial",
+    "label": "教程",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "guide",
+    "label": "指南",
+    "collapsed": true
+  }
+]
