@@ -2,11 +2,7 @@
 
 :::danger{title=问题说明}
 
-1、崩溃日志开关当前暂未找到
-
-崩溃日志当前存储于：C:\Users\Administrator\SailWind_Crash_xxx.dmp中
-
-2、BMW和BLT功能正在迁移中
+本章节功能待产品确认
 
 :::
 

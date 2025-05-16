@@ -1,14 +1,11 @@
-# 第 21 章 使用高级程序 🚧
+# 第 21 章 使用高级程序 ❌
 
 SailWind Logic 支持与 SPICE 仿真和 基本脚本等高级程序进行交互。您可以设置高级 SPICE 设计仿真来分析设计行为，并使用 基本脚本自动执行许多重复性设计任务。您还可以查看和管理许可证文件信息。
 
-## SPICE 模拟 🚧
 
-:::danger{title=问题说明}
 
-仿真模块不迁移，此功能会进行全新设计
-
-:::
+:::details{title=SPICE 模拟，功能会进行全新设计}
+## SPICE 模拟
 
 SailWind Logic 中的 SPICE 模拟使您能够使用高级程序设置和分析您的设计，包括设置 SPICE 网络表、AC 分析、DC 源扫描分析、瞬态分析以及将属性应用于您的模拟设计。
 
@@ -166,14 +163,12 @@ misc 库中提供了多个模拟器件作为示例。此外，库中的 Analog M
 这里有一系列可应用于模拟设计的属性。请查看列表并选择与您的设计意图相关的属性。
 
 请参阅 SailWind Logic 命令参考中的“SPICE Netlist 属性词汇表”。
-
-## 基本脚本🚧
-
-:::danger{title=问题说明}
-
-SailWind4.0 会使用 python 脚本，功能正在开发中
-
 :::
+
+
+
+:::details{title=基本脚本，基于 Python 实现，还在开发中}
+## 基本脚本
 
 ### 管理脚本
 SailWind Logic 提供了多种灵活的脚本管理选项。您可以打开现有脚本、管理打开的脚本、编辑脚本、编辑用户对话框以启用用户交互、查找自动化语句以及监视变量。这让您能够高度掌控脚本的设置和管理。
@@ -588,14 +583,13 @@ Advanced 基本脚本文件位于 C:<install\_folder><version > \\Samples\\Scrip
 | SailWind 逻辑脚本向导.BAS | 生成一个向导对话框，您可以使用它来创建基本报告。 |
 | 图页层次结构到 Excel.BAS | 在 Excel 中创建图页层次结构报告，使您能够在 SaiiWind Logic 对象和包含对象名称的 Excel 单元格之间进行交叉探测。 |
 
-## 管理许可选项🚧
-
-:::danger{title=问题说明}
-
-暂实现此功能
-经沟通：SailWind 4.0 计划重新做个新的 
 
 :::
+
+
+
+:::details{title=许可方案重新开发中}
+## 管理许可选项
 
 您可以查看和管理已授权的 SailWind Logic 选项。您可以查看节点锁定或浮动许可证的可用选项。
 
@@ -628,5 +622,9 @@ Advanced 基本脚本文件位于 C:<install\_folder><version > \\Samples\\Scrip
 SailWindLogic 特色
 
 控制进入程序并提供对基本 SailWind Logic 示意图功能的访问。
+
 此功能未在“已安装选项”对话框中列出。
+:::
+
+
 
