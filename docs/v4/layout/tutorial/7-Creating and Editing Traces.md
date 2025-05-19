@@ -17,11 +17,11 @@ SailWind Layout包含多种交互式和半自动布线工具，旨在缩短设�
 
 ![](/layout/tutorial/7/_page_0_Figure_12.jpeg)
 
-### 限制条件
+**限制条件**
 
 本教程需要"通用编辑"和"分割平面"许可选项。在帮助菜单中点击**已安装选项**以确认您是否可以继续。
 
-### 准备工作
+**准备工作**
 
 如果尚未运行，请启动SailWind Layout并打开\SailWind Projects\Samples文件夹中的**previewplaced.pcb**文件。
 

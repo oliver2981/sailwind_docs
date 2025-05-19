@@ -8,11 +8,11 @@ SailWind Layout提供自动化工具帮助您快速定义平面分隔和划分�
 2. 创建铜平面
 3. 连接铜平面
 
-### 限制条件
+**限制条件**
 
 本教程需要Split Planes授权选项。在帮助菜单中，点击**已安装选项**确认您是否可以使用此功能。
 
-### 准备工作
+**准备工作**
 
 如果尚未运行，请启动SailWind Layout并打开\SailWind Projects\Samples文件夹中的**previewrouted.pcb**文件。
 
