@@ -1,11 +1,11 @@
 [
   {
-    "text": "SailWind Logic",
+    "text": "原理图 (Logic)",
     "link": "/logic/guide/Chapter 1 SailWind Logic QuickStart",
     "activeMatch": "/logic/"
   },
   {
-    "text": "SailWind Layout",
+    "text": "布局 (Layout)",
     "link": "/layout/tutorial/1-Learning the User Interface",
     "activeMatch": "/layout/"
   },

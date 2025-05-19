@@ -2,6 +2,19 @@
   {
     "type": "dir",
     "name": "tutorial",
-    "label": "教程(Tutorial)"
+    "label": "教程(Tutorial)",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "guide",
+    "label": "指南(Guide)",
+    "collapsed": true
+  },
+  {
+    "type": "file",
+    "name": "QuickReference",
+    "label": "快速参考(Quick Reference)",
+    "collapsed": true
   }
 ]

@@ -8,18 +8,19 @@
   --rp-aside-width: 350px;
   --rp-code-title-bg: rgba(250, 192, 61, 0.15);
   --rp-code-block-bg: rgba(214, 188, 70, 0.05);
+  --rp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--rp-c-brand) 50%, #244e9e);
 }
 
-/*h1 {*/
-/*    background: var(--rp-c-brand);*/
-/*    background-clip: text;*/
-/*    -webkit-background-clip: text;*/
-/*    -webkit-text-fill-color: transparent;*/
-/*}*/
+h1 {
+    background: var(--rp-home-hero-name-background);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-/*h2 {*/
-/*    background: var(--rp-c-brand);*/
-/*    background-clip: text;*/
-/*    -webkit-background-clip: text;*/
-/*    -webkit-text-fill-color: transparent;*/
-/*}*/
+h2 {
+    background: var(--rp-home-hero-name-background);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

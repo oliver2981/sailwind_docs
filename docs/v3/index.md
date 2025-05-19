@@ -4,7 +4,7 @@ pageType: home
 
 hero:
   name: SailWind 3.X
-  text: "Logic / Layout / Router \n使用文档"
+  text: "Logic / Layout / Router \n教程&指南&快速参考文档"
   tagline:
   actions:
     - theme: brand
@@ -14,11 +14,11 @@ hero:
       text: 关于
       link: /about
 features:
-  - title: 'Logic'
+  - title: '原理图 (Logic)'
     details: SailWind Logic 是一种强大的多页原理图捕获解决方案，可为 SailWind Layout 构建有效的前端环境。
     link: /logic/guide/Chapter 1 SailWind Logic QuickStart
-  - title: 'Layout'
+  - title: '布局 (Layout)'
     details: SailWind Layout 提供您布局 PCB 设计所需的工具，从为组件创建封装库到生成制造输出。
-  - title: 'Router'
+  - title: '布线 (Router)'
     details: SailWind Router 是一款基于 Latium 技术实现的自动布线器产品。
 ---
