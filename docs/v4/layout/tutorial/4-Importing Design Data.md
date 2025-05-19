@@ -11,13 +11,13 @@
 
 如果尚未运行，请启动SailWind Layout并打开位于\SailWind Projects\Samples文件夹中的**previewbrd.pcb**文件。
 
-### 从ASCII文件导入网络表
+## 从ASCII文件导入网络表
 
 网络表通常包含PCB上使用的所有元件列表以及连接这些元件的网络。
 
 **提示：** 以下是导入从SailWind Logic导出的SailWind Layout网络表的典型步骤。
 
-### 导入文件
+**导入文件**
 
 1. **文件**菜单 > **导入**
 2. 导航至**Samples**文件夹并点击名为**previewnet.asc**的文件
