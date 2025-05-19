@@ -5,6 +5,11 @@
     "activeMatch": "/logic/"
   },
   {
+    "text": "SailWind Layout",
+    "link": "/layout/tutorial/1-Learning the User Interface",
+    "activeMatch": "/layout/"
+  },
+  {
     "text": "关于",
     "link": "/about",
     "activeMatch": "/about"
