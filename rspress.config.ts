@@ -7,7 +7,7 @@ export default defineConfig({
     globalStyles: path.join(__dirname, 'theme/var.css'),
     multiVersion: {
         default: 'v4',
-        versions: ['v3', 'v4'],
+        versions: ['v4'],
     },
     search: {
         versioned: true,
