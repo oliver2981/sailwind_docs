@@ -1,5 +1,6 @@
 import { Card } from '@theme';
 import { SourceCode } from '@theme';
+import { normalizeImagePath } from 'rspress/runtime';
 
 # 关于
 
@@ -17,25 +18,25 @@ import { SourceCode } from '@theme';
 
 有任何问题请联系：
 <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-    <img src={'/avatar/mikigo.png'} alt="mikigo" style={{ width: '25px', height: '25px', borderRadius: '50%' }} />
-    <a style={{ textDecoration: 'none', borderBottom: 'none' }}>huangmingqiang@pzeda.com</a>
+    <img src={normalizeImagePath('/avatar/mikigo.png')} alt="mikigo" style={{ width: '25px', height: '25px', borderRadius: '50%' }} />
+    <p style={{ textDecoration: 'none', borderBottom: 'none' }}>huangmingqiang@pzeda.com</p>
 </div>
 :::
 
+
 ## SailWind 3.0 原文
 
-| 名称                     | 外网-查看链接                                                | 内网-查看链接                                                | 完成进度 |
-| ----------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ | :------: |
-| Logic 教程               | [Logic Tutorial](https://mikigo.github.io/sailwind_docs/pdf/sailwindlogic_tut.pdf) | [Logic Tutorial](http://10.0.4.162/sailwind_docs/pdf/sailwindlogic_tut.pdf) |    ✔️     |
-| Logic 指南               | [Logic Guide](https://mikigo.github.io/sailwind_docs/pdf/sailwindlogic_gd.pdf) | [Logic Guide](http://10.0.4.162/sailwind_docs/pdf/sailwindlogic_gd.pdf) |    ✔️     |
-| Logic 快捷键 + 无模命令  | [Logic Quick Reference](https://mikigo.github.io/sailwind_docs/pdf/sailwindlogic_qr.pdf) | [Logic Quick Reference](http://10.0.4.162/sailwind_docs/pdf/sailwindlogic_qr.pdf) |    ✔️     |
-| Layout 教程              | [Layout Tutorial](https://mikigo.github.io/sailwind_docs/pdf/sailwindlayout_tut.pdf) | [Layout Tutorial](http://10.0.4.162/sailwind_docs/pdf/sailwindlayout_tut.pdf) |    ✔️     |
-| Layout 指南              | [Layout Guide](https://mikigo.github.io/sailwind_docs/pdf/sailwindlayout_gd.pdf) | [Layout Guide](http://10.0.4.162/sailwind_docs/pdf/sailwindlayout_gd.pdf) |    ✔️     |
-| Layout 快捷键 + 无模命令 | [Layout Quick Reference](https://mikigo.github.io/sailwind_docs/pdf/sailwindlayout_qr.pdf) | [Layout Quick Reference](http://10.0.4.162/sailwind_docs/pdf/sailwindlayout_qr.pdf) |    ✔️     |
-| Router 教程              | [Router Tutorial](https://mikigo.github.io/sailwind_docs/pdf/sailwindrouter_tut.pdf) | [Router Tutorial](http://10.0.4.162/sailwind_docs/pdf/sailwindrouter_tut.pdf) |    /     |
-| Router 指南              | [Router Guide](https://mikigo.github.io/sailwind_docs/pdf/sailwindrouter_gd.pdf) | [Router Guide](http://10.0.4.162/sailwind_docs/pdf/sailwindrouter_gd.pdf) |    /     |
-| Router 快捷键 + 无模命令 | [Router Quick Reference](https://mikigo.github.io/sailwind_docs/pdf/sailwindrouter_qr.pdf) | [Router Quick Reference](http://10.0.4.162/sailwind_docs/pdf/sailwindrouter_qr.pdf) |    /     |
-
+| 名称                     | 点击查看链接                                                 | 完成进度 |
+| ------------------------ | ------------------------------------------------------------ | :------: |
+| Logic 教程               | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_tut.pdf')} target={"_blank"}>Logic Tutorial</a> |    ✔️     |
+| Logic 指南               | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_gd.pdf')} target={"_blank"}>Logic Guide</a> |    ✔️     |
+| Logic 快捷键 + 无模命令  | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_qr.pdf')} target={"_blank"}>Logic Quick Reference</a> |    ✔️     |
+| Layout 教程              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_tut.pdf')} target={"_blank"}>Layout Tutorial</a> |    ✔️     |
+| Layout 指南              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_gd.pdf')} target={"_blank"}>Layout Guide</a> |    ✔️     |
+| Layout 快捷键 + 无模命令 | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_qr.pdf')} target={"_blank"}>Layout Quick Reference</a> |    ✔️     |
+| Router 教程              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_tut.pdf')} target={"_blank"}>Router Tutorial</a> |    /     |
+| Router 指南              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_gd.pdf')} target={"_blank"}>Router Guide</a> |    /     |
+| Router 快捷键 + 无模命令 | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_qr.pdf')} target={"_blank"}>Router Quick Reference</a> |    /     |
 
 
 ## 贡献者
