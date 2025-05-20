@@ -77,14 +77,17 @@ def main(input_dir):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="处理文档目录")
-    parser.add_argument(
-        "--document-dir",
-        type=str,
-        default="docs/v4/layout/guide",  # 默认已替换为 public
-        help="文档相对路径（默认：docs/v4/layout/guide）"
-    )
+    # parser = argparse.ArgumentParser(description="处理文档目录")
+    # parser.add_argument(
+    #     "--document_dir",
+    #     type=str,
+    #     default="docs/v4/layout/guide",  # 默认已替换为 public
+    #     help="文档相对路径（默认：docs/v4/layout/guide）"
+    # )
+    #
+    # args = parser.parse_args()
+    # document_dir = args.document_dir
 
-    args = parser.parse_args()
-    input_dir = project_path / args.document_dir
+    document_dir = "docs/v4/layout/guide"
+    input_dir = project_path / document_dir
     main(input_dir)
