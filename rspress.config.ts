@@ -12,9 +12,6 @@ export default defineConfig({
     search: {
         versioned: true,
     },
-    route: {
-        cleanUrls: true,
-    },
 
     root: 'docs',
     base: '/sailwind_docs/',

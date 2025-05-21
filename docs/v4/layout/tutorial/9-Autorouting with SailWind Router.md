@@ -53,16 +53,23 @@
 5. 点击**确定**。
 6. 准备开始在 SailWind Router 中自动布线时，点击**继续**。片刻之后，SailWind Router 会话将出现并自动开始布线设计。
 
-**例外情况**：如果您没有高级规则许可选项，此过程将在此处停滞。设计文件会在 SailWind Router 中打开，并显示以下消息：“您未被许可使用设计中的高级规则进行布线。必须删除规则或获取高级规则许可。”按照以下步骤删除条件规则并继续：
+**例外情况**：如果您没有高级规则许可选项，此过程将在此处停滞。设计文件会在 SailWind Router 中打开，并显示以下消息：“您未被许可使用设计中的高级规则进行布线。必须删除规则或获取高级规则许可。
+
+按照以下步骤删除条件规则并继续：
 
 a. 在消息框中点击**确定**。  
+
 b. 在**视图**菜单中，确保**项目资源管理器**已启用。  
-c. 在项目资源管理器窗口中，展开**网络对象**分支。  
+
+c. 在项目资源管理器窗口中，展开**网络对象**分支。
+
 d. 在网络对象分支中，展开**条件规则**分支。  
+
 e. 在条件规则分支中，右键点击条件规则“**+12V: +5V (所有层)**”并点击**删除**。  
+
 f. 在**工具**菜单中，指向**自动布线**并在子菜单中点击**开始**。
 
-**提示**：如果是首次运行 SailWind Router 链接，点击继续后会出现 SailWind Router 监视器。详细信息请参阅下一节。
+​	**提示**：如果是首次运行 SailWind Router 链接，点击继续后会出现 SailWind Router 监视器。详细信息请参阅下一节。
 
 如果之前运行过 SailWind Router 链接，点击继续后 SailWind Router 监视器将保留在 Windows 任务栏上。点击任务栏上的 SailWind Router 监视器按钮以打开其对话框。
 
@@ -75,9 +82,9 @@ f. 在**工具**菜单中，指向**自动布线**并在子菜单中点击**开�
 3. 点击**完成后关闭**，并确保**加载结果文件**和**完成后退出 SailWind Router**也已勾选。
 4. 等待 SailWind Router 完成自动布线。
 
-当 SailWind Router 完成自动布线后，SailWind Router 监视器对话框和 SailWind Router 会话将关闭。已布线的文件将在新的 SailWind Layout 会话中打开。
+   当 SailWind Router 完成自动布线后，SailWind Router 监视器对话框和 SailWind Router 会话将关闭。已布线的文件将在新的 SailWind Layout 会话中打开。
 
-**结果**：SailWind Router 完成自动布线后，SailWind Router 链接会将文件返回到新的 SailWind Layout 会话中。此时，应关闭原始的 SailWind Layout 会话，以避免因重复实例导致的混淆。
+   **结果**：SailWind Router 完成自动布线后，SailWind Router 链接会将文件返回到新的 SailWind Layout 会话中。此时，应关闭原始的 SailWind Layout 会话，以避免因重复实例导致的混淆。
 
 5. 不要保存设计副本。
 
