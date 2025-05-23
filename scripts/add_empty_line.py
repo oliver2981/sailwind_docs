@@ -36,10 +36,10 @@ if __name__ == '__main__':
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     docs_dir = os.path.join(root_dir, "docs")
 
-    for file in os.listdir(os.path.join(docs_dir, "v4", "layout", "tutorial")):
-        # if not file.endswith("zh.md"):
-        #     continue
-        md_files = os.path.join(docs_dir, "v4", "layout", "tutorial", file)
+    for file in os.listdir(os.path.join(docs_dir, "v4", "logic", "tutorial")):
+        if not file.endswith("zh.md"):
+            continue
+        md_files = os.path.join(docs_dir, "v4", "logic", "tutorial", file)
         with  open(md_files, 'r', encoding='utf-8') as f:
             markdown_text = f.read()
 
