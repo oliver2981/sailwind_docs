@@ -1,20 +1,12 @@
 [
   {
     "text": "原理图 (Logic)",
-    "items": [
-      {"text": "教程(Tutorial)", "link": "/logic/tutorial/2_zh"},
-      {"text": "指南(Guide)", "link": "/logic/guide/Chapter 1 SailWind Logic QuickStart"},
-      {"text": "快速参考(Quick Reference)", "link": "/logic/QuickReference/QuickReference"}
-    ],
+    "link": "/logic/tutorial/2_zh",
     "activeMatch": "/logic/"
   },
   {
     "text": "布局 (Layout)",
-    "items": [
-      {"text": "教程(Tutorial)", "link": "/layout/tutorial/1-Learning the User Interface"},
-      {"text": "指南(Guide)", "link": "/layout/guide/2_zh"},
-      {"text": "快速参考(Quick Reference)", "link": "/layout/QuickReference/QuickReference"}
-    ],
+    "link": "/layout/tutorial/1-Learning the User Interface",
     "activeMatch": "/layout/"
   },
   {
