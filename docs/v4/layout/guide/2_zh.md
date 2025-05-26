@@ -6,7 +6,6 @@ SailWind Layout 界面包含用于访问命令和设置的标准菜单和按钮�
 
 以下描述 SailWind Layout 界面元素。
 
-![](/layout/guide/2/_page_0_Picture_5.jpeg)
 
 **注意：**
 
@@ -103,7 +102,6 @@ SailWind Layout 界面包含用于访问命令和设置的标准菜单和按钮�
 
 2. 点击新原点位置。系统提示接受新原点，并给出基于原始原点网格的新原点坐标。
 
-![](/layout/guide/2/_page_5_Picture_10.jpeg)
 
 **提示** 提示信息同时显示基于工作区中心点的新原点坐标。
 
@@ -179,7 +177,6 @@ SailWind Layout 界面包含用于访问命令和设置的标准菜单和按钮�
 
 可在快捷方式属性中添加各种启动选项，例如启动时自动打开特定项目。
 
-![](/layout/guide/2/_page_8_Picture_5.jpeg)
 
 **提示**
 
@@ -389,7 +386,6 @@ SailWind 产品可帮助避免修改其他用户已打开的文件。在共享�
 
 相关信息参见"移动或复制菜单命令"。
 
-![](/layout/guide/2/_page_17_Picture_4.jpeg)
 
 **提示** 要创建自定义主菜单，使用自定义对话框的**命令**选项卡。
 
@@ -681,7 +677,6 @@ SailWind Layout 提供编辑创建(自定义)命令的能力。但不能编辑�
 
 - 如自定义对话框关闭，按住 Alt 键。然后将项拖动到工具栏或菜单外
 
-![](/layout/guide/2/_page_25_Picture_19.jpeg)
 
 **提示**
 
@@ -735,7 +730,6 @@ SailWind Layout 在使用键序列创建快捷键时有特定限制。
 
 - 后续字符可包含字母数字字符(a-z0-9)
 
-![](/layout/guide/2/_page_27_Picture_10.jpeg)
 
 **提示** 某些组合如 Alt+Tab 被 Windows 拦截不可用。
 

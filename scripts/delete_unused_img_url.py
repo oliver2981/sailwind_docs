@@ -25,4 +25,6 @@ for md in os.listdir(md_path):
                 continue
         new_md_content.append(line)
 
+    with open(md_file, "w", encoding="utf-8") as f:
+        f.writelines(new_md_content)
         print()
