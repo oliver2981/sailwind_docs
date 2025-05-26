@@ -9,9 +9,6 @@ export default defineConfig({
         default: 'v4',
         versions: ['v4'],
     },
-    search: {
-        versioned: true,
-    },
 
     root: 'docs',
     base: '/sailwind_docs/',

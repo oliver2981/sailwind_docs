@@ -1,11 +1,10 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 pageType: home
 
 hero:
   name: SailWind 4.X
-  text: "Logic / Layout / Router \n教程&指南&快速参考文档"
-  tagline:
+  text: "Logic / Layout / Router \n教程 & 指南"
+  tagline: 文档适配最新的 SailWind Logic、SailWind Layout 和 SailWind Router。
   actions:
     - theme: brand
       text: 快速开始

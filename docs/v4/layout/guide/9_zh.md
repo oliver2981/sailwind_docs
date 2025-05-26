@@ -56,11 +56,11 @@
 
 5. 在显示的报告复制标题行，类似如下：
 
-!PADS-POWERPCB-V3.0-MILLS! DESIGN DATABASE ASCII FILE 2.0
+   !PADS-POWERPCB-V3.0-MILLS! DESIGN DATABASE ASCII FILE 2.0
 
 6. 将标题行粘贴到 OrCAD 网表中，替换原标题行，原标题行类似：
 
-\*PADS-PCB\*
+   \*PADS-PCB\*
 
 7. 在新标题行中，将软件版本号(V3.0)替换为您运行的软件版本号。
 
