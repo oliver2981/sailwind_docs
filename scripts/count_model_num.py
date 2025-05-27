@@ -3,94 +3,75 @@ import re
 
 
 def convert_md_headings(md_content):
-    headers = []
-    current_hierarchy = []
+    headings = []
+    hierarchy = []
 
-    lines = md_content.split('\n')
-
-    for line in lines:
+    for line in md_content.splitlines():
         line = line.strip()
-        match = re.match(r'^(#+)(.+)', line)
+        match = re.match(r'^(#+)\s*(.*)', line)
         if match:
             level = len(match.group(1))
-            original_title = match.group(2).strip()
-            has_problem = '🚧' in original_title
-            if level == 1 and has_problem:
-                processed_title = original_title.replace('🚧', '').strip()
-            else:
-                processed_title = original_title.replace('🚧', 'XXXX').strip()
+            title = match.group(2).replace('🚧', '' if level == 1 else 'XXXX').strip()
+            # 更新层级
+            hierarchy = hierarchy[:level - 1] + [title]
+            headings.append({'level': level, 'hierarchy': hierarchy.copy()})
 
-            # 维护层级结构
-            current_hierarchy = current_hierarchy[:level - 1]
-            processed_part = [processed_title]
-
-            # 更新当前层级路径
-            if level <= len(current_hierarchy):
-                current_hierarchy = current_hierarchy[:level - 1]
-            current_hierarchy = current_hierarchy[:level - 1] + processed_part
-
-            headers.append({
-                'level': level,
-                'hierarchy': current_hierarchy.copy(),
-                'original': original_title
-            })
-
-    # 判断叶子节点
-    for i in range(len(headers)):
-        current_level = headers[i]['level']
-        is_leaf = True
-        for j in range(i + 1, len(headers)):
-            if headers[j]['level'] > current_level:
-                is_leaf = False
-                break
-            elif headers[j]['level'] <= current_level:
-                break
-        headers[i]['is_leaf'] = is_leaf
+    # 标记叶子节点
+    for i, h in enumerate(headings):
+        h['is_last'] = not any(
+            hh['level'] > h['level'] and j > i and (
+                all(headings[k]['level'] > h['level'] for k in range(i + 1, j))
+            )
+            for j, hh in enumerate(headings[i + 1:], start=i + 1)
+        )
 
     # 生成结果
-    result = []
-    for header in headers:
-        if header['is_leaf'] and header['level'] > 1:
-            # 清理最后可能的"这里有问题"前的空字符串
-            clean_hierarchy = [part for part in header['hierarchy'] if part]
-            result_line = " - ".join(clean_hierarchy)
-            result.append(result_line)
-
-    return result
+    return [
+        " - ".join(filter(None, h['hierarchy']))
+        for h in headings if h['is_last'] and h['level'] > 1
+    ]
 
 
-def process_directory(directory):
+def process_directory(directory, ignore_files=None):
     all_rows = []
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.lower().endswith('.md'):
+            if file.lower().endswith('.md') and (not ignore_files or file not in ignore_files):
                 file_path = os.path.join(root, file)
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
-                        md_content = f.read()
-                    rows = convert_md_headings(md_content)
+                        rows = convert_md_headings(f.read())
+                    print(f"{file}，模块数：{len(rows)}")
                     all_rows.extend(rows)
                 except Exception as e:
-                    print(f"Error processing {file_path}: {str(e)}")
-    print(f"模块数：{all_rows}")
+                    print(f"处理 {file_path} 出错: {e}")
+    print(f"模块：{all_rows}")
     return all_rows
 
 
 def export_to_csv(data, output_path):
-    with open(output_path, 'w', newline='', encoding='utf-8') as f:
-        count = 0
-        total_rows = len(data)
-        print(f'Exporting {total_rows} rows')
-        for row in data:
-            f.write(row + '\n')
-            if "XXXX" in row:
-                count += 1
-        print(f"{count} rows exported")
+    count = sum('XXXX' in row for row in data)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(data))
+    print(f'导出 {len(data)} 行，其中包含"XXXX"的有 {count} 行')
 
 
 if __name__ == "__main__":
-    input_dir = "layout/guide"
-    output_csv = "test.csv"
+    input_dir = r"D:\hugh\code\sailwind3.0_docs\docs\v4\layout\guide"
+    ignore_files = [
+        "45_zh.md",
+        "46_zh.md",
+        "47_zh.md",
+        "48_zh.md",
+        "49_zh.md",
+        "50_zh.md",
+        "51_zh.md",
+        "52_zh.md",
+        "53_zh.md",
+        "54_zh.md",
+        "55_zh.md",
 
-    results = process_directory(input_dir)
+    ]
+    output_csv = "test.csv"
+    results = process_directory(input_dir, ignore_files)
     export_to_csv(results, output_csv)
