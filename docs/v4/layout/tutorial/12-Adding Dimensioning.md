@@ -92,9 +92,7 @@ SailWind Layout 提供了用于记录 PCB 物理尺寸和形状的工具。您�
 
 板轮廓左侧的两个角有斜切。添加引线标注来标注倒角细节。
 
-![](/layout/tutorial/12/_page_2_Figure_11.jpeg)
-
-![](/layout/tutorial/12/_page_2_Picture_12.jpeg)
+1. 前缀按钮。
 
 2. 选择板轮廓左下角倒角中心附近的点。新引线标注附着在指针上。
 3. 将指针向左下方移动，双击完成引线。
@@ -115,7 +113,7 @@ SailWind Layout 提供了用于记录 PCB 物理尺寸和形状的工具。您�
 
 尝试使用尺寸标注功能定义 PCB 中开孔的大小和位置。使用本教程中的方法为开孔添加尺寸标注。
 
-**另请参阅：**SailWind Layout 帮助
+**另请参阅：** SailWind Layout 帮助
 
 不要保存设计副本。
 
