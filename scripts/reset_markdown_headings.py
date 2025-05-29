@@ -197,39 +197,39 @@ def process_markdown_files(pdf_path, markdown_dir, output_dir=None, backup=True)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="将 PDF 转换为 Markdown 或覆盖现有文件")
+    # parser = argparse.ArgumentParser(description="将 PDF 转换为 Markdown 或覆盖现有文件")
+    #
+    # # 必选参数
+    # parser.add_argument(
+    #     "--pdf",
+    #     type=Path,
+    #     required=True,
+    #     help="PDF 文件路径（如 sailwindlayout_gd.pdf）",
+    # )
+    # parser.add_argument(
+    #     "--markdown_dir",
+    #     type=Path,
+    #     required=True,
+    #     help="Markdown 根目录（如 docs/v4/layout/guide）",
+    # )
+    #
+    # # 可选参数（--output 不提供时，默认覆盖原文件）
+    # parser.add_argument(
+    #     "--output_dir",
+    #     type=Path,
+    #     default=None,
+    #     help="输出目录（如不提供，则覆盖原文件）",
+    # )
+    #
+    # args = parser.parse_args()
 
-    # 必选参数
-    parser.add_argument(
-        "--pdf",
-        type=Path,
-        required=True,
-        help="PDF 文件路径（如 sailwindlayout_gd.pdf）",
-    )
-    parser.add_argument(
-        "--markdown_dir",
-        type=Path,
-        required=True,
-        help="Markdown 根目录（如 docs/v4/layout/guide）",
-    )
+    # pdf = args.pdf  # 替换为您的PDF路径
+    # markdown_dir = args.markdown_dir  # Markdown根目录
+    # output_dir = args.output_dir  # 设为None覆盖原文件，或指定输出目录
 
-    # 可选参数（--output 不提供时，默认覆盖原文件）
-    parser.add_argument(
-        "--output_dir",
-        type=Path,
-        default=None,
-        help="输出目录（如不提供，则覆盖原文件）",
-    )
-
-    args = parser.parse_args()
-
-    # pdf = "sailwindlayout_gd.pdf"  # 替换为您的PDF路径
-    # markdown_dir = r"D:\hugh\code\pz\guide_md"  # Markdown根目录
-    # output_dir = None  # 设为None覆盖原文件，或指定输出目录
-
-    pdf = args.pdf  # 替换为您的PDF路径
-    markdown_dir = args.markdown_dir  # Markdown根目录
-    output_dir = args.output_dir  # 设为None覆盖原文件，或指定输出目录
+    pdf = r"D:\hugh\code\sailwind3.0_docs\docs\public\pdf\lpcreator_gd.pdf"  # 替换为您的PDF路径
+    markdown_dir = r"D:\hugh\code\sailwind3.0_docs\docs\v4\lpcreator"  # Markdown根目录
+    output_dir = None  # 设为 None 覆盖原文件，或指定输出目录
 
     # 处理文件
     process_markdown_files(

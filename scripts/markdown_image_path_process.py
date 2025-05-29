@@ -24,7 +24,7 @@ def process_image_links(input_dir):
             img_path = match.group(2)
             if img_path.startswith(('http://', 'https://', '/')):
                 return match.group(0)
-            new_path = f'/layout/guide/{relative_path}/{img_path}'.replace('\\', '/')
+            new_path = f'/lpcreator/{relative_path}/{img_path}'.replace('\\', '/')
             return f'![{match.group(1)}]({new_path})'
 
         new_content = re.sub(r'!\[(.*?)\]\((.*?)\)', replace_image, content)
@@ -33,7 +33,7 @@ def process_image_links(input_dir):
 
 def copy_and_clean_public(input_dir):
     # 获取基目录（docs目录）
-    base_dir = input_dir.parent.parent.parent
+    base_dir = input_dir.parent.parent
     # 获取相对于v4的子路径（layout/guide）
     relative_path = input_dir.relative_to(base_dir / 'v4')
     # 构造新路径
@@ -88,6 +88,7 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # document_dir = args.document_dir
 
-    document_dir = "docs/v4/layout/guide"
+    document_dir = r"docs/v4/lpcreator"
     input_dir = project_path / document_dir
+    # input_dir = r"D:\hugh\code\sailwind3.0_docs\docs\v4\lpcreator"
     main(input_dir)
