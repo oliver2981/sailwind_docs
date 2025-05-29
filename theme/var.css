@@ -11,7 +11,7 @@
   --rp-home-hero-name-background: linear-gradient(120deg, #244e9e 10%, #8a57c8);
 }
 
-h1,  h2 {
+h1, h2 {
     background: var(--rp-home-hero-name-background);
     background-clip: text;
     -webkit-background-clip: text;

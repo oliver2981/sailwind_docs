@@ -10,6 +10,11 @@
     "activeMatch": "/layout/"
   },
   {
+    "text": "焊盘 (LPCreator)",
+    "link": "/lpcreator/1_zh",
+    "activeMatch": "/lpcreator/"
+  },
+  {
     "text": "关于",
     "link": "/about",
     "activeMatch": "/about"
