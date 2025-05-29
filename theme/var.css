@@ -8,17 +8,10 @@
   --rp-aside-width: 350px;
   --rp-code-title-bg: rgba(250, 192, 61, 0.15);
   --rp-code-block-bg: rgba(214, 188, 70, 0.05);
-  --rp-home-hero-name-background: -webkit-linear-gradient(120deg, #6253b7 50%, #244e9e);
+  --rp-home-hero-name-background: linear-gradient(120deg, #244e9e 10%, #8a57c8);
 }
 
-h1 {
-    background: var(--rp-home-hero-name-background);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-h2 {
+h1,  h2 {
     background: var(--rp-home-hero-name-background);
     background-clip: text;
     -webkit-background-clip: text;

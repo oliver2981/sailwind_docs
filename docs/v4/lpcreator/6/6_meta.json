@@ -1,0 +1,473 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Chapter 6\nHole and Via Calculators",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          278.87645959854126,
+          82.63336336612701
+        ],
+        [
+          542.07421875,
+          81.08648836612701
+        ],
+        [
+          540.87890625,
+          134.48858642578125
+        ],
+        [
+          277.68114709854126,
+          135.45736491680145
+        ]
+      ]
+    },
+    {
+      "title": "Hole Size Calculator",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0,
+          258.2437663078308
+        ],
+        [
+          275.26582646369934,
+          256.6968913078308
+        ],
+        [
+          274.07051396369934,
+          281.493896484375
+        ],
+        [
+          70.88921195268631,
+          281.65115547180176
+        ]
+      ]
+    },
+    {
+      "title": "Figure 17. Hole Size Calculator",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          230.69049739837646,
+          323.107079744339
+        ],
+        [
+          380.480064868927,
+          321.560204744339
+        ],
+        [
+          379.284752368927,
+          335.2325744628906
+        ],
+        [
+          229.49518489837646,
+          335.2325744628906
+        ]
+      ]
+    },
+    {
+      "title": "Hole Pad Stack Calculator",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          72.0,
+          296.87152647972107
+        ],
+        [
+          334.60644578933716,
+          296.87152647972107
+        ],
+        [
+          333.41113328933716,
+          321.9088439941406
+        ],
+        [
+          70.9730476140976,
+          321.9088439941406
+        ]
+      ]
+    },
+    {
+      "title": "Via Calculator",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.31069293618202,
+          164.77602303028107
+        ],
+        [
+          215.66717970371246,
+          163.22914803028107
+        ],
+        [
+          214.47186720371246,
+          190.27685546875
+        ],
+        [
+          70.11538043618202,
+          190.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "Via Viewer",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.03446751832962,
+          82.58683508634567
+        ],
+        [
+          124.47005778551102,
+          81.03996008634567
+        ],
+        [
+          124.47005778551102,
+          94.0845947265625
+        ],
+        [
+          71.03446751832962,
+          94.73320037126541
+        ]
+      ]
+    },
+    {
+      "title": "Calculating Vias",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.81403064727783,
+          203.72206377983093
+        ],
+        [
+          236.91514706611633,
+          202.17518877983093
+        ],
+        [
+          235.71983456611633,
+          227.94287109375
+        ],
+        [
+          70.61871814727783,
+          228.61595034599304
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.93032264709473,
+          268.3034813404083
+        ],
+        [
+          138.47055852413177,
+          266.7566063404083
+        ],
+        [
+          137.27524602413177,
+          282.5618591308594
+        ],
+        [
+          70.73501014709473,
+          282.5618591308594
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          172
+        ],
+        [
+          "TableCell",
+          65
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          280
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          257
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\6"
+}
