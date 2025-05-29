@@ -102,6 +102,8 @@ def reset_markdown_headings(heading_structure, input_file, output_file=None, fir
     first_heading_processed = False
 
     for line in lines:
+        if "<span id=" in line:
+            line = re.sub(r"\<span id\=.+\/span\>", "", line)  # 去除 <span id=...> 标签
         match = re.match(r'^(#+)\s+(.+)$', line)
         if match:
             hashes, title = match.groups()

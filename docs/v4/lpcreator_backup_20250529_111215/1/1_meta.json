@@ -1,0 +1,1831 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Chapter 1\nGetting Started Guide",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          312.89398193359375,
+          82.89989930391312
+        ],
+        [
+          541.8483467102051,
+          81.35302430391312
+        ],
+        [
+          540.6530342102051,
+          134.48858642578125
+        ],
+        [
+          312.59953451156616,
+          135.49037432670593
+        ]
+      ]
+    },
+    {
+      "title": "PLB File Explanation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.73213744163513,
+          307.74053263664246
+        ],
+        [
+          282.3395755290985,
+          306.19365763664246
+        ],
+        [
+          281.1442630290985,
+          331.8178405761719
+        ],
+        [
+          70.53682494163513,
+          331.9568588733673
+        ]
+      ]
+    },
+    {
+      "title": "Tutorial",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.80826711654663,
+          95.67713731527328
+        ],
+        [
+          150.1868863105774,
+          94.13026231527328
+        ],
+        [
+          150.1868863105774,
+          120.11181640625
+        ],
+        [
+          71.80826711654663,
+          120.30622279644012
+        ]
+      ]
+    },
+    {
+      "title": "Creating Your Personal Preference XML Rule File",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.10192453861237,
+          292.114111661911
+        ],
+        [
+          516.5426530838013,
+          290.567236661911
+        ],
+        [
+          516.5426530838013,
+          314.8603210449219
+        ],
+        [
+          71.10192453861237,
+          315.5813591480255
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.98430103063583,
+          355.65041613578796
+        ],
+        [
+          137.21094435453415,
+          354.10354113578796
+        ],
+        [
+          136.24600219726562,
+          369.6328430175781
+        ],
+        [
+          70.78898853063583,
+          369.6328430175781
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.95845419168472,
+          479.96248483657837
+        ],
+        [
+          128.7196767926216,
+          478.41560983657837
+        ],
+        [
+          127.52436429262161,
+          495.17811155319214
+        ],
+        [
+          106.76314169168472,
+          496.72498655319214
+        ]
+      ]
+    },
+    {
+      "title": "Note:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          110.15947544574738,
+          453.31693983078003
+        ],
+        [
+          157.5399932861328,
+          451.77006483078003
+        ],
+        [
+          157.5399932861328,
+          467.07236337661743
+        ],
+        [
+          110.15947544574738,
+          468.61923837661743
+        ]
+      ]
+    },
+    {
+      "title": "Adding Personal Attributes to Your PLB File",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.89419114589691,
+          528.1309204101562
+        ],
+        [
+          470.5439147949219,
+          528.1309204101562
+        ],
+        [
+          470.5439147949219,
+          551.9593505859375
+        ],
+        [
+          71.89419114589691,
+          551.9593505859375
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          72.0,
+          613.3657722473145
+        ],
+        [
+          136.65867590904236,
+          611.8188972473145
+        ],
+        [
+          136.65867590904236,
+          628.3978271484375
+        ],
+        [
+          72.0,
+          628.3978271484375
+        ]
+      ]
+    },
+    {
+      "title": "Creating Your Personal PLB File",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.1720262169838,
+          568.0474047660828
+        ],
+        [
+          364.1059875488281,
+          566.5005297660828
+        ],
+        [
+          364.1059875488281,
+          589.3303527832031
+        ],
+        [
+          71.1720262169838,
+          589.3303527832031
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.51416289806366,
+          85.98301005363464
+        ],
+        [
+          136.52812099456787,
+          84.43613505363464
+        ],
+        [
+          136.52812099456787,
+          100.96478271484375
+        ],
+        [
+          71.51416289806366,
+          100.96478271484375
+        ]
+      ]
+    },
+    {
+      "title": "Loading Your Personal PLB File into the Library \nManager",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          70.77013850212097,
+          442.0427098274231
+        ],
+        [
+          509.53192138671875,
+          442.0427098274231
+        ],
+        [
+          509.53192138671875,
+          486.5273132324219
+        ],
+        [
+          70.77013850212097,
+          486.5273132324219
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.43275302648544,
+          548.7673602104187
+        ],
+        [
+          137.4213861823082,
+          547.2204852104187
+        ],
+        [
+          137.4213861823082,
+          562.9658203125
+        ],
+        [
+          71.43275302648544,
+          562.9658203125
+        ]
+      ]
+    },
+    {
+      "title": "Loading Your Personal PLB File into the Default \n\"Save-to\" PLB Library",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          72.0,
+          469.4656105041504
+        ],
+        [
+          509.53192138671875,
+          469.4656105041504
+        ],
+        [
+          509.53192138671875,
+          513.7423095703125
+        ],
+        [
+          70.95601236820221,
+          513.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.91421303153038,
+          86.4219868183136
+        ],
+        [
+          138.69533622264862,
+          84.8751118183136
+        ],
+        [
+          138.69533622264862,
+          100.96478271484375
+        ],
+        [
+          71.91421303153038,
+          100.96478271484375
+        ]
+      ]
+    },
+    {
+      "title": "Selecting Your Default CAD Tool",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.96608024835587,
+          399.03823471069336
+        ],
+        [
+          369.03216075897217,
+          397.49135971069336
+        ],
+        [
+          367.83684825897217,
+          420.9583435058594
+        ],
+        [
+          70.77076774835587,
+          422.16998291015625
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.99024695158005,
+          472.07936096191406
+        ],
+        [
+          137.6295846104622,
+          470.53248596191406
+        ],
+        [
+          136.4342721104622,
+          486.5638122558594
+        ],
+        [
+          70.79493445158005,
+          486.5638122558594
+        ]
+      ]
+    },
+    {
+      "title": "Using the Calculator and Wizard",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.03388386964798,
+          93.29370331764221
+        ],
+        [
+          364.7845845222473,
+          93.29370331764221
+        ],
+        [
+          364.7845845222473,
+          115.75830078125
+        ],
+        [
+          71.03388386964798,
+          115.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          72.0,
+          165.73026287555695
+        ],
+        [
+          136.9645716547966,
+          165.73026287555695
+        ],
+        [
+          136.9645716547966,
+          181.36383056640625
+        ],
+        [
+          72.0,
+          181.36383056640625
+        ]
+      ]
+    },
+    {
+      "title": "Note:",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          129.1345415711403,
+          412.77737188339233
+        ],
+        [
+          160.8025985956192,
+          412.77737188339233
+        ],
+        [
+          160.8025985956192,
+          424.2875671386719
+        ],
+        [
+          129.1345415711403,
+          424.2875671386719
+        ]
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          70.89273208379745,
+          96.14246731996536
+        ],
+        [
+          357.99671387672424,
+          94.59559231996536
+        ],
+        [
+          357.99671387672424,
+          120.11181640625
+        ],
+        [
+          70.89273208379745,
+          120.11181640625
+        ]
+      ]
+    },
+    {
+      "title": "What is a 'Pin Package'?",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          71.87995558977127,
+          162.30753993988037
+        ],
+        [
+          226.1037483215332,
+          160.76066493988037
+        ],
+        [
+          224.9084358215332,
+          176.52880859375
+        ],
+        [
+          70.68464308977127,
+          176.91733717918396
+        ]
+      ]
+    },
+    {
+      "title": "How can I create a 3-pin SOT23 ?",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          71.63421213626862,
+          219.4187285900116
+        ],
+        [
+          278.3616632223129,
+          217.8718535900116
+        ],
+        [
+          277.1663507223129,
+          233.62481689453125
+        ],
+        [
+          70.43889963626862,
+          233.62481689453125
+        ]
+      ]
+    },
+    {
+      "title": "How can I copy data from one PLB to another PLB ?",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          72.0,
+          298.3108878135681
+        ],
+        [
+          396.95205330848694,
+          296.7640128135681
+        ],
+        [
+          395.75674080848694,
+          312.3868103027344
+        ],
+        [
+          70.810702085495,
+          312.3868103027344
+        ]
+      ]
+    },
+    {
+      "title": "What do the Calculator Advisory message mean?",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          71.4214174747467,
+          409.14154529571533
+        ],
+        [
+          378.28131437301636,
+          407.59467029571533
+        ],
+        [
+          378.28131437301636,
+          423.6478271484375
+        ],
+        [
+          71.4214174747467,
+          423.6478271484375
+        ]
+      ]
+    },
+    {
+      "title": "Example:",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          72.0,
+          511.6019983291626
+        ],
+        [
+          118.62430554628372,
+          510.0551233291626
+        ],
+        [
+          117.42899304628372,
+          523.3975830078125
+        ],
+        [
+          70.84416157007217,
+          523.9202556610107
+        ]
+      ]
+    },
+    {
+      "title": "How can I stop the Calculator from changing a land shape when it trims the \nland?",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          71.47389113903046,
+          604.6327829360962
+        ],
+        [
+          540.2600708007812,
+          603.0859079360962
+        ],
+        [
+          540.2600708007812,
+          632.6708374023438
+        ],
+        [
+          71.47389113903046,
+          632.6708374023438
+        ]
+      ]
+    },
+    {
+      "title": "Why does the manufacturer's recommended land pattern appear to be\nrotated 90 degrees from the calculator land pattern?",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          72.0,
+          86.98879390954971
+        ],
+        [
+          510.7578556537628,
+          86.98879390954971
+        ],
+        [
+          509.5625431537628,
+          117.19281005859375
+        ],
+        [
+          70.85487699508667,
+          117.19281005859375
+        ]
+      ]
+    },
+    {
+      "title": "Calculator Tips",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          71.86303889751434,
+          186.9620522260666
+        ],
+        [
+          225.29149174690247,
+          186.9620522260666
+        ],
+        [
+          224.09617924690247,
+          213.3038330078125
+        ],
+        [
+          70.66772639751434,
+          213.3038330078125
+        ]
+      ]
+    },
+    {
+      "title": "Main Toolbar Options",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          72.0,
+          427.96217250823975
+        ],
+        [
+          289.0169177055359,
+          427.96217250823975
+        ],
+        [
+          287.8216052055359,
+          453.9531469345093
+        ],
+        [
+          71.0772380232811,
+          453.9531469345093
+        ]
+      ]
+    },
+    {
+      "title": "Operating Modes",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          71.59564572572708,
+          213.73584651947021
+        ],
+        [
+          245.52060914039612,
+          212.18897151947021
+        ],
+        [
+          244.32529664039612,
+          238.973876953125
+        ],
+        [
+          70.40033322572708,
+          239.20556259155273
+        ]
+      ]
+    },
+    {
+      "title": "Figure 2. Operating Mode Example - Calculator",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          194.9849853515625,
+          281.1903691291809
+        ],
+        [
+          417.2486550807953,
+          279.6434941291809
+        ],
+        [
+          417.2486550807953,
+          292.7125549316406
+        ],
+        [
+          194.9849853515625,
+          294.0869107246399
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          503
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          323
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          161
+        ],
+        [
+          "TableCell",
+          107
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "TableCell",
+          56
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          73
+        ],
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          165
+        ],
+        [
+          "TableCell",
+          63
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          163
+        ],
+        [
+          "TableCell",
+          72
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          103
+        ],
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          221
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          247
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "TableCell",
+          39
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          63
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          66
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          330
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          373
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          167
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\1"
+}
