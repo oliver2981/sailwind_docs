@@ -1,0 +1,1132 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Chapter 3\nLand Pattern Calculator",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          291.8760849237442,
+          81.51194036006927
+        ],
+        [
+          542.887095451355,
+          81.51194036006927
+        ],
+        [
+          541.691782951355,
+          134.48858642578125
+        ],
+        [
+          290.6807724237442,
+          134.48858642578125
+        ]
+      ]
+    },
+    {
+      "title": "Calculator Toolbar Controls",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.78537714481354,
+          478.5304169654846
+        ],
+        [
+          350.2681474685669,
+          478.5304169654846
+        ],
+        [
+          349.38897705078125,
+          501.8138732910156
+        ],
+        [
+          70.59006464481354,
+          501.8138732910156
+        ]
+      ]
+    },
+    {
+      "title": "Figure 12. Calculator Toolbar",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          235.56646263599396,
+          543.3959255218506
+        ],
+        [
+          374.72998046875,
+          543.3959255218506
+        ],
+        [
+          374.72998046875,
+          555.5525665283203
+        ],
+        [
+          235.56646263599396,
+          555.5525665283203
+        ]
+      ]
+    },
+    {
+      "title": "Table 6. Calculator Toolbar Controls",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          217.53465485572815,
+          590.001482963562
+        ],
+        [
+          392.63801407814026,
+          590.001482963562
+        ],
+        [
+          392.63801407814026,
+          602.8385620117188
+        ],
+        [
+          217.53465485572815,
+          602.8385620117188
+        ]
+      ]
+    },
+    {
+      "title": "Generic Tab Controls",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.38063502311707,
+          624.3314580917358
+        ],
+        [
+          285.07860231399536,
+          622.7845830917358
+        ],
+        [
+          285.07860231399536,
+          648.8198547363281
+        ],
+        [
+          71.38063502311707,
+          649.0535116195679
+        ]
+      ]
+    },
+    {
+      "title": "Figure 13. (Vertical) Calculator Tabs",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          221.4300079345703,
+          88.46548408269882
+        ],
+        [
+          391.9143261909485,
+          86.91860908269882
+        ],
+        [
+          391.9143261909485,
+          100.0845947265625
+        ],
+        [
+          221.4300079345703,
+          100.8435230255127
+        ]
+      ]
+    },
+    {
+      "title": "Component Tab",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.92990770936012,
+          140.14465391635895
+        ],
+        [
+          170.3075362443924,
+          138.59777891635895
+        ],
+        [
+          169.87698364257812,
+          153.798828125
+        ],
+        [
+          70.73459520936012,
+          153.99468004703522
+        ]
+      ]
+    },
+    {
+      "title": "Note:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          92.8300067782402,
+          262.82094526290894
+        ],
+        [
+          127.54000091552734,
+          262.82094526290894
+        ],
+        [
+          127.54000091552734,
+          275.66013050079346
+        ],
+        [
+          91.6346942782402,
+          275.66013050079346
+        ]
+      ]
+    },
+    {
+      "title": "Optional Entries",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          72.0,
+          329.00109457969666
+        ],
+        [
+          150.8133784532547,
+          329.00109457969666
+        ],
+        [
+          149.6180659532547,
+          341.09974551200867
+        ],
+        [
+          70.8523782491684,
+          341.09974551200867
+        ]
+      ]
+    },
+    {
+      "title": "Land Pattern Tab",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.99237635731697,
+          163.76279819011688
+        ],
+        [
+          179.3889820575714,
+          163.76279819011688
+        ],
+        [
+          178.1936695575714,
+          179.0948486328125
+        ],
+        [
+          70.79706385731697,
+          179.0948486328125
+        ]
+      ]
+    },
+    {
+      "title": "Calculator Settings Tab",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.05287981033325,
+          523.8872580528259
+        ],
+        [
+          217.8386628627777,
+          523.8872580528259
+        ],
+        [
+          217.8386628627777,
+          539.5167999267578
+        ],
+        [
+          71.05287981033325,
+          539.5167999267578
+        ]
+      ]
+    },
+    {
+      "title": "Global Settings Tab",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.5218597650528,
+          643.890070438385
+        ],
+        [
+          193.9353311061859,
+          643.890070438385
+        ],
+        [
+          193.9353311061859,
+          658.7778167724609
+        ],
+        [
+          71.5218597650528,
+          658.7778167724609
+        ]
+      ]
+    },
+    {
+      "title": "Statistics Tab",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.52993053197861,
+          86.80926024913788
+        ],
+        [
+          156.8748800754547,
+          86.80926024913788
+        ],
+        [
+          156.8748800754547,
+          102.7628173828125
+        ],
+        [
+          71.52993053197861,
+          102.7628173828125
+        ]
+      ]
+    },
+    {
+      "title": "Surface Mount Grid Array Specific Tab\nControls",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.27523171901703,
+          151.6545878648758
+        ],
+        [
+          458.69766998291016,
+          151.6545878648758
+        ],
+        [
+          458.69766998291016,
+          200.307861328125
+        ],
+        [
+          71.27523171901703,
+          200.307861328125
+        ]
+      ]
+    },
+    {
+      "title": "Component Tab for SM Grid Array Devices",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.31191039085388,
+          263.0132896900177
+        ],
+        [
+          335.6719694137573,
+          263.0132896900177
+        ],
+        [
+          335.6719694137573,
+          278.39080810546875
+        ],
+        [
+          71.31191039085388,
+          278.39080810546875
+        ]
+      ]
+    },
+    {
+      "title": "Notes:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.4016965329647,
+          571.4431843757629
+        ],
+        [
+          105.30781370401382,
+          569.8963093757629
+        ],
+        [
+          105.30781370401382,
+          583.4685668945312
+        ],
+        [
+          71.4016965329647,
+          584.1154932975769
+        ]
+      ]
+    },
+    {
+      "title": "Statistics Tab for SM Grid Array Devices",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.32424908876419,
+          194.8834136724472
+        ],
+        [
+          263.5159206390381,
+          194.8834136724472
+        ],
+        [
+          263.5159206390381,
+          207.58160400390625
+        ],
+        [
+          71.32424908876419,
+          207.58160400390625
+        ]
+      ]
+    },
+    {
+      "title": "Surface Mount Device Non-Grid Array Specific \nTab Controls",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.3710960149765,
+          257.22836995124817
+        ],
+        [
+          540.6779174804688,
+          257.22836995124817
+        ],
+        [
+          540.6779174804688,
+          305.20782470703125
+        ],
+        [
+          71.3710960149765,
+          305.20782470703125
+        ]
+      ]
+    },
+    {
+      "title": "Component Tab for SM Non-Grid Array Devices",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.14822429418564,
+          356.83814120292664
+        ],
+        [
+          365.08684158325195,
+          356.83814120292664
+        ],
+        [
+          365.08684158325195,
+          372.4577941894531
+        ],
+        [
+          71.14822429418564,
+          372.4577941894531
+        ]
+      ]
+    },
+    {
+      "title": "Optional Entries",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.49782073497772,
+          438.10844135284424
+        ],
+        [
+          150.48206663131714,
+          438.10844135284424
+        ],
+        [
+          150.48206663131714,
+          450.5415344238281
+        ],
+        [
+          71.49782073497772,
+          450.5415344238281
+        ]
+      ]
+    },
+    {
+      "title": "Notes:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.73089718818665,
+          703.0620517730713
+        ],
+        [
+          104.08146750926971,
+          703.0620517730713
+        ],
+        [
+          104.08146750926971,
+          714.7525253295898
+        ],
+        [
+          71.73089718818665,
+          714.7525253295898
+        ]
+      ]
+    },
+    {
+      "title": "Land Pattern Tab for SM Non-Grid Array Devices",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.748142182827,
+          179.3114458322525
+        ],
+        [
+          303.73635506629944,
+          179.3114458322525
+        ],
+        [
+          303.73635506629944,
+          191.08258056640625
+        ],
+        [
+          71.748142182827,
+          191.08258056640625
+        ]
+      ]
+    },
+    {
+      "title": "Note:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          92.09257578849792,
+          268.079083442688
+        ],
+        [
+          128.48146605491638,
+          268.079083442688
+        ],
+        [
+          128.48146605491638,
+          280.2475891113281
+        ],
+        [
+          92.09257578849792,
+          280.2475891113281
+        ]
+      ]
+    },
+    {
+      "title": "Through-Hole Device Specific Tab Controls",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.52395725250244,
+          95.27472227811813
+        ],
+        [
+          506.88224601745605,
+          95.27472227811813
+        ],
+        [
+          505.68693351745605,
+          120.11181640625
+        ],
+        [
+          70.32864475250244,
+          120.11181640625
+        ]
+      ]
+    },
+    {
+      "title": "Component Tab for TH Devices",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.3826048374176,
+          172.22050058841705
+        ],
+        [
+          264.98514676094055,
+          172.22050058841705
+        ],
+        [
+          264.98514676094055,
+          187.36181640625
+        ],
+        [
+          71.3826048374176,
+          187.36181640625
+        ]
+      ]
+    },
+    {
+      "title": "Optional Entries",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.4892620742321,
+          252.7676739692688
+        ],
+        [
+          150.30237579345703,
+          252.7676739692688
+        ],
+        [
+          150.30237579345703,
+          265.445556640625
+        ],
+        [
+          71.4892620742321,
+          265.445556640625
+        ]
+      ]
+    },
+    {
+      "title": "Note:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          91.54299759864807,
+          323.89354634284973
+        ],
+        [
+          127.54000091552734,
+          323.89354634284973
+        ],
+        [
+          127.54000091552734,
+          335.7775573730469
+        ],
+        [
+          91.54299759864807,
+          335.7775573730469
+        ]
+      ]
+    },
+    {
+      "title": "Notes:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.75981515645981,
+          604.8944978713989
+        ],
+        [
+          103.87110775709152,
+          604.8944978713989
+        ],
+        [
+          103.87110775709152,
+          616.8204660415649
+        ],
+        [
+          71.75981515645981,
+          616.8204660415649
+        ]
+      ]
+    },
+    {
+      "title": "Analyzing Results",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.18517655134201,
+          300.6769437789917
+        ],
+        [
+          254.33180737495422,
+          300.6769437789917
+        ],
+        [
+          254.33180737495422,
+          326.00286769866943
+        ],
+        [
+          71.18517655134201,
+          326.00286769866943
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          263
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          205
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "TableCell",
+          32
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          341
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          448
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          432
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          301
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          426
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          421
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          277
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\3"
+}

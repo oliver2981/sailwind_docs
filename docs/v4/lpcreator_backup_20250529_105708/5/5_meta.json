@@ -1,0 +1,1011 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Chapter 5\nLand Pattern Wizard",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          327.70001220703125,
+          81.92973893880844
+        ],
+        [
+          542.2151699066162,
+          81.92973893880844
+        ],
+        [
+          541.0198574066162,
+          134.48858642578125
+        ],
+        [
+          326.77482891082764,
+          134.48858642578125
+        ]
+      ]
+    },
+    {
+      "title": "Land Pattern Wizard Dialog Box",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.44231033325195,
+          95.75992047786713
+        ],
+        [
+          392.75135135650635,
+          94.21304547786713
+        ],
+        [
+          392.75135135650635,
+          120.11181640625
+        ],
+        [
+          70.44231033325195,
+          120.11181640625
+        ]
+      ]
+    },
+    {
+      "title": "Objects",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.70640218257904,
+          436.73023653030396
+        ],
+        [
+          121.24145007133484,
+          435.18336153030396
+        ],
+        [
+          121.24145007133484,
+          451.5128173828125
+        ],
+        [
+          71.70640218257904,
+          451.88912057876587
+        ]
+      ]
+    },
+    {
+      "title": "Table 10. Land Pattern Wizard Dialog Box Objects (continued)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          157.2911674976349,
+          78.04218757152557
+        ],
+        [
+          453.51527094841003,
+          78.04218757152557
+        ],
+        [
+          453.51527094841003,
+          91.08576679229736
+        ],
+        [
+          157.2911674976349,
+          91.08576679229736
+        ]
+      ]
+    },
+    {
+      "title": "SailWind Layout Preference",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.78063505887985,
+          321.0933287143707
+        ],
+        [
+          349.5617501735687,
+          321.0933287143707
+        ],
+        [
+          349.5617501735687,
+          345.3198547363281
+        ],
+        [
+          70.78063505887985,
+          345.3198547363281
+        ]
+      ]
+    },
+    {
+      "title": "Table 11. Preferences Dialog Box, SailWind Layout Output Content",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          146.9011813402176,
+          78.30435687303543
+        ],
+        [
+          465.97846841812134,
+          78.30435687303543
+        ],
+        [
+          465.97846841812134,
+          91.0845947265625
+        ],
+        [
+          146.9011813402176,
+          91.0845947265625
+        ]
+      ]
+    },
+    {
+      "title": "SailWind Layout Part Type and Decal Names",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.30570912361145,
+          370.66305327415466
+        ],
+        [
+          516.3043420314789,
+          370.66305327415466
+        ],
+        [
+          516.3043420314789,
+          395.56982421875
+        ],
+        [
+          71.30570912361145,
+          395.56982421875
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.70379400253296,
+          544.4989614486694
+        ],
+        [
+          92.66898357868195,
+          542.9520864486694
+        ],
+        [
+          92.66898357868195,
+          564.425929069519
+        ],
+        [
+          71.70379400253296,
+          565.972804069519
+        ]
+      ]
+    },
+    {
+      "title": "Importing Files into SailWind Layout",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.96697402000427,
+          602.8570489883423
+        ],
+        [
+          436.66606307029724,
+          601.3101739883423
+        ],
+        [
+          436.66606307029724,
+          626.6658630371094
+        ],
+        [
+          70.96697402000427,
+          626.985523223877
+        ]
+      ]
+    },
+    {
+      "title": "Choose one of the following:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.44811028242111,
+          87.28505247831345
+        ],
+        [
+          250.15196228027344,
+          87.28505247831345
+        ],
+        [
+          250.15196228027344,
+          102.7628173828125
+        ],
+        [
+          71.44811028242111,
+          102.7628173828125
+        ]
+      ]
+    },
+    {
+      "title": "Importing into a SailWind Layout Library \nAutomatically",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.50770628452301,
+          267.57786440849304
+        ],
+        [
+          482.1509094238281,
+          267.57786440849304
+        ],
+        [
+          482.1509094238281,
+          316.13885498046875
+        ],
+        [
+          70.31239378452301,
+          316.13885498046875
+        ]
+      ]
+    },
+    {
+      "title": "Restrictions and Limitations",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.60884165763855,
+          346.040842294693
+        ],
+        [
+          248.33423352241516,
+          346.040842294693
+        ],
+        [
+          247.13892102241516,
+          361.72283935546875
+        ],
+        [
+          70.41352915763855,
+          361.72283935546875
+        ]
+      ]
+    },
+    {
+      "title": "Prerequisites",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.98959040641785,
+          454.439661026001
+        ],
+        [
+          154.87148773670197,
+          452.892786026001
+        ],
+        [
+          154.87148773670197,
+          468.3528137207031
+        ],
+        [
+          70.98959040641785,
+          468.3528137207031
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          72.0,
+          569.7627611160278
+        ],
+        [
+          138.19796723127365,
+          568.2158861160278
+        ],
+        [
+          137.00265473127365,
+          583.6178283691406
+        ],
+        [
+          71.09461981058121,
+          583.7668704986572
+        ]
+      ]
+    },
+    {
+      "title": "Importing Manually Using the SailWind Library \nManager",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.28070342540741,
+          386.26603603363037
+        ],
+        [
+          542.7988891601562,
+          386.26603603363037
+        ],
+        [
+          542.7988891601562,
+          434.83087158203125
+        ],
+        [
+          71.28070342540741,
+          434.83087158203125
+        ]
+      ]
+    },
+    {
+      "title": "Restrictions and Limitations",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.28664022684097,
+          474.9163999557495
+        ],
+        [
+          247.31160807609558,
+          474.9163999557495
+        ],
+        [
+          247.31160807609558,
+          491.247802734375
+        ],
+        [
+          71.28664022684097,
+          491.247802734375
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.93295818567276,
+          583.6294512748718
+        ],
+        [
+          136.7446820139885,
+          582.0825762748718
+        ],
+        [
+          136.7446820139885,
+          597.8778076171875
+        ],
+        [
+          71.93295818567276,
+          597.895275592804
+        ]
+      ]
+    },
+    {
+      "title": "Importing to a SailWind Library Using an ASCII \nFile into a Design",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.77727901935577,
+          501.7286796569824
+        ],
+        [
+          545.087890625,
+          500.1818046569824
+        ],
+        [
+          545.087890625,
+          548.0888366699219
+        ],
+        [
+          71.77727901935577,
+          548.8874073028564
+        ]
+      ]
+    },
+    {
+      "title": "Restrictions and Limitations",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          72.0,
+          652.96719789505
+        ],
+        [
+          247.77203392982483,
+          651.42032289505
+        ],
+        [
+          246.6289520263672,
+          666.6707992553711
+        ],
+        [
+          71.14884442090988,
+          666.6707992553711
+        ]
+      ]
+    },
+    {
+      "title": "Procedure",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.92965692281723,
+          118.11314463615417
+        ],
+        [
+          138.02121287584305,
+          118.11314463615417
+        ],
+        [
+          138.02121287584305,
+          133.46380615234375
+        ],
+        [
+          71.92965692281723,
+          133.46380615234375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          86
+        ],
+        [
+          "Span",
+          52
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          79
+        ],
+        [
+          "Span",
+          61
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          106
+        ],
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          365
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          322
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          136
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          220
+        ],
+        [
+          "TableCell",
+          30
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          319
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Handwriting",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          270
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          17
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          54
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          18
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\5"
+}
