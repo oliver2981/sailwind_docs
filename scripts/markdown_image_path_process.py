@@ -24,7 +24,9 @@ def process_image_links(input_dir):
             img_path = match.group(2)
             if img_path.startswith(('http://', 'https://', '/')):
                 return match.group(0)
-            new_path = f'/lpcreator/{relative_path}/{img_path}'.replace('\\', '/')
+            base_dir = input_dir.parent.parent
+            _path = input_dir.relative_to(base_dir / 'v4')
+            new_path = f'/{_path}/{relative_path}/{img_path}'.replace('\\', '/')
             return f'![{match.group(1)}]({new_path})'
 
         new_content = re.sub(r'!\[(.*?)\]\((.*?)\)', replace_image, content)
