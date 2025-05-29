@@ -24,7 +24,7 @@ export default defineConfig({
                 prevPageText: '上一页',
                 nextPageText: '下一页',
                 lastUpdatedText: '最近更新时间',
-                searchPlaceholderText: '搜索文档',
+                searchPlaceholderText: '搜索',
                 sourceCodeText: '源码',
                 overview: {
                     filterNameText: '快速查找',
