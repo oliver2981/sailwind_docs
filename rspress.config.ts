@@ -5,10 +5,6 @@ import path from 'node:path';
 export default defineConfig({
 
     globalStyles: path.join(__dirname, 'theme/var.css'),
-    multiVersion: {
-        default: 'v4',
-        versions: ['v4'],
-    },
 
     root: 'docs',
     base: '/sailwind_docs/',

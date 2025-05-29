@@ -6,12 +6,12 @@
   },
   {
     "text": "布局 (Layout)",
-    "link": "/layout/tutorial/1-Learning the User Interface",
+    "link": "/layout/tutorial/1_zh",
     "activeMatch": "/layout/"
   },
   {
-    "text": "焊盘 (LPCreator)",
-    "link": "/lpcreator/1_zh",
+    "text": "焊盘图形 (LPC)",
+    "link": "/lpcreator/guide/1_zh",
     "activeMatch": "/lpcreator/"
   },
   {
