@@ -43,14 +43,10 @@
   "43_zh",
   "44_zh",
   "45_zh",
-  "46_zh",
-  "47_zh",
-  "48_zh",
-  "49_zh",
-  "50_zh",
-  "51_zh",
-  "52_zh",
-  "53_zh",
-  "54_zh",
-  "55_zh"
+  {
+    "type": "dir",
+    "name": "Dialogs",
+    "label": "第 45 - 55 章 Dialogs",
+    "collapsed": true
+  }
 ]
