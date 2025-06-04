@@ -57,9 +57,15 @@ def export_to_csv(data, output_path):
 
 
 if __name__ == "__main__":
-    input_dir = r"D:\hugh\code\sailwind3.0_docs\docs\v4\layout\guide"
+    input_dir = r"D:\hugh\code\sailwind3.0_docs\docs\layout\guide"
     ignore_files = [
-        "45_zh.md",
+        "20_zh.md",
+        "22_zh.md",
+        "23_zh.md",
+        "33_zh.md",
+        "42_zh.md",
+        "43_zh.md",
+        "44_zh.md",
         "46_zh.md",
         "47_zh.md",
         "48_zh.md",
@@ -70,7 +76,6 @@ if __name__ == "__main__":
         "53_zh.md",
         "54_zh.md",
         "55_zh.md",
-
     ]
     output_csv = "test.csv"
     results = process_directory(input_dir, ignore_files)
