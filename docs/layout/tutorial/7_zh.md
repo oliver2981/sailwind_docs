@@ -23,7 +23,7 @@
 
 **准备工作**
 
-如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewplaced.pcb**文件。
+如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewplaced.pcb**主页。
 
 ## 布线前准备步骤
 
@@ -335,7 +335,7 @@
 
 之前，您使禁止布线区不可见。对于以下练习，打开禁止布线区的显示。
 
-1. 打开\SailWind Projects\Samples 文件夹中的**previewpreroute.pcb**文件。不要保存对先前设计的更改。
+1. 打开\SailWind Projects\Samples 文件夹中的**previewpreroute.pcb**主页。不要保存对先前设计的更改。
 2. **设置**菜单 > **显示颜色**
 3. 在显示颜色设置对话框中，点击**黄色**并点击主元件面上的**禁止布线区**
 4. 点击**浅蓝色**并点击次元件面上的**禁止布线区**

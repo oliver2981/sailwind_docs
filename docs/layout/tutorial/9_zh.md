@@ -15,7 +15,7 @@
 
 **准备工作**
 
-如果 `SailWind Layout` 尚未运行，请启动并打开位于\SailWind Projects\Samples 文件夹中的**previewpreroute.pcb**文件。
+如果 `SailWind Layout` 尚未运行，请启动并打开位于\SailWind Projects\Samples 文件夹中的**previewpreroute.pcb**主页。
 
 ## 为自动布线准备设计文件
 

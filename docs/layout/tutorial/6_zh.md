@@ -17,7 +17,7 @@
 
 **准备工作**
 
-如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewrules.pcb**文件。
+如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewrules.pcb**主页。
 
 ## 预放置流程
 

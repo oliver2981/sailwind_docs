@@ -14,7 +14,7 @@
 
 **准备工作**
 
-如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewnet.pcb**文件。
+如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewnet.pcb**主页。
 
 ## 设置默认间距规则
 

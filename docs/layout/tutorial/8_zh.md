@@ -17,7 +17,7 @@
 
 **准备工作**
 
-如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind 项目\示例文件夹中的**previewpreroute.pcb**文件。
+如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind 项目\示例文件夹中的**previewpreroute.pcb**主页。
 
 ## 使用动态路由编辑器
 
