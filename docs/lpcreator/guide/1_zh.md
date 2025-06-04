@@ -66,7 +66,7 @@ Wizard `PLB` 文件主要用于练习构建库部件。它不包含任何部件�
 
    ![](/lpcreator/1/_page_2_Picture_9.jpeg)
 
-   **注意：** 本文档中的图片仅供参考。如因版本变更等因素导致界面差异，以实际使用的 `SailWind Land Pattern Creator` 界面为准。
+   > [!warning] 本文档中的图片仅供参考。如因版本变更等因素导致界面差异，以实际使用的 `SailWind Land Pattern Creator` 界面为准。
 
 2. 默认 XML 文件名为 DefaultUser.xml。要复制它，请选择右侧的按钮。
 
@@ -262,7 +262,7 @@ Wizard `PLB` 文件主要用于练习构建库部件。它不包含任何部件�
 
   - 自动将焊盘图形添加到 `CAD` 库中。
 
-  如果您使用 SailWind Layout 作为 `CAD` 工具，则必须在选择"Create and Close"按钮之前打开 SailWind Layout。
+  如果您使用 `SailWind Layout` 作为 `CAD` 工具，则必须在选择"Create and Close"按钮之前打开 SailWind Layout。
 
 ## 常见问题
 

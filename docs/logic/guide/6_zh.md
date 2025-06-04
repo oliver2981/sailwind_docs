@@ -48,7 +48,7 @@
 
      >  [!TIP]
      >
-     > 提示使用 SailWind Layout 编辑 PCB 封装。
+     > 提示使用 `SailWind Layout` 编辑 PCB 封装。
 
    - 元件 — 元件
 
@@ -96,7 +96,7 @@
 
 4. 单击新建按钮。
 
-   - 封装 — 不可用。当前分配的 PCB 封装将显示。使用 SailWind Layout 中的库管理器将 PCB 封装添加到库中。另请参阅 SailWind Layout 指南中的“创建新封装”。
+   - 封装 — 不可用。当前分配的 PCB 封装将显示。使用 `SailWind Layout` 中的库管理器将 PCB 封装添加到库中。另请参阅 `SailWind Layout` 指南中的“创建新封装”。
 
    - 元件 — 您将进入元件编辑器。单击“编辑电参数”按钮。系统将显示“元件信息”对话框，您可以在其中定义新元件。另请参阅修改元件的电气信息。
 
@@ -387,11 +387,11 @@
 
 ### 与 SailWind 布局同步
 
-您可以启用或禁用 SailWind Logic 和 SailWind Layout 之间的库设置同步。在 SailWind Logic 中选中“与 SailWind Layout 同步”复选框后，SailWind Logic 中库的所有更改都将推送到 SailWind Layout。
+您可以启用或禁用 SailWind Logic 和 `SailWind Layout` 之间的库设置同步。在 SailWind Logic 中选中“与 `SailWind Layout` 同步”复选框后，SailWind Logic 中库的所有更改都将推送到 SailWind Layout。
 
 > [!TIP]
 > 
-> 为确保往返同步，请在 SailWind Layout 中选中相同的复选框。
+> 为确保往返同步，请在 `SailWind Layout` 中选中相同的复选框。
 
 **步骤**
 
@@ -676,7 +676,7 @@
 - 使用各种对话框搜索库项目 
 - 将原理图网表导入 SailWind Layout
 - 从库更新设计 
-- 使用原理图上的新元件注释 SailWind Layout 
+- 使用原理图上的新元件注释 `SailWind Layout` 
 
 您可以使用“库列表”对话框更改库的搜索顺序。
 

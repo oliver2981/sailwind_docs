@@ -14,7 +14,7 @@
 
 **准备工作**
 
-如果尚未运行，请启动 SailWind Layout 并打开\SailWind Projects\Samples 文件夹中的**previewnet.pcb**文件。
+如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewnet.pcb**文件。
 
 ## 设置默认间距规则
 
@@ -59,7 +59,7 @@
 7. 点击**确定**完成间距规则对话框中的定义。
 8. 点击**关闭**关闭网络规则对话框。
 
-**另请参阅：** *SailWind Layout 帮助*了解定义其他层次规则详情。
+**另请参阅：** *`SailWind Layout` 帮助*了解定义其他层次规则详情。
 
 ## 设置条件规则
 

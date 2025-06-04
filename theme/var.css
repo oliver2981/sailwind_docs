@@ -27,3 +27,7 @@ h1, h2 {
     width: 100%;
     height: 35px;
 }
+
+.font-semibold {
+    color: #6253b7;
+}

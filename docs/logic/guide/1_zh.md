@@ -1,6 +1,6 @@
 # 第 1 章 SailWind Logic 快速开始
 
-SailWind Logic 是一种强大的多页原理图捕获解决方案，可为 SailWind Layout 构建有效的前端环境。
+SailWind Logic 是一种强大的多页原理图捕获解决方案，可为 `SailWind Layout` 构建有效的前端环境。
 
 ## 步骤 1 - 开始新设计
 

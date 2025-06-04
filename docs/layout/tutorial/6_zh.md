@@ -1,6 +1,6 @@
 # 移动与放置组件
 
-SailWind Layout 提供多种组件放置方法。
+`SailWind Layout` 提供多种组件放置方法。
 
 **本课内容：**
 
@@ -17,7 +17,7 @@ SailWind Layout 提供多种组件放置方法。
 
 **准备工作**
 
-如果尚未运行，请启动 SailWind Layout 并打开\SailWind Projects\Samples 文件夹中的**previewrules.pcb**文件。
+如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewrules.pcb**文件。
 
 ## 预放置流程
 
@@ -113,7 +113,7 @@ SailWind Layout 提供多种组件放置方法。
 
 使用相同方法定位、选择和移动振荡器 Y1。您还将体验当存在放置禁止区时放置命令的行为。
 
-**要求：** 此时教程中 DRC 模式设为关闭。要启用放置禁止区检查，必须将 DRC 模式改为阻止。
+**要求：** 此时教程中 `DRC` 模式设为关闭。要启用放置禁止区检查，必须将 `DRC` 模式改为阻止。
 
 1. 输入无模命令**drp**并按**Enter**启用在线 DRC
 2. 移动激活时，输入无模命令**ssy1**并按**Enter**搜索选择 Y1。Y1 附着到指针
@@ -127,7 +127,7 @@ SailWind Layout 提供多种组件放置方法。
 6. 输入无模命令**dro**并按**Enter**禁用在线 DRC
 7. 点击**确定**确认操作
 
-**另请参阅：**在线 DRC 操作和行为在《设计验证教程》中介绍。
+**另请参阅：**在线 `DRC` 操作和行为在《设计验证教程》中介绍。
 
 ## 使用查找命令放置组件
 

@@ -34,8 +34,8 @@ SailWind Logic 工作流程将指导您完成创建原理图设计所需的步�
    - 生成报告（请参阅报告）
 6. 执行设计注释 
 
-   - 将设计变更向前注释到 SailWind Layout（参见从 SailWind Logic 到 SailWind Layout 的前向注释）
-   -  将设计变更从 SailWind Layout 向后注释（参见从 SailWind Layout 到 SailWind Logic 的向后注释）
+   - 将设计变更向前注释到 SailWind Layout（参见从 SailWind Logic 到 `SailWind Layout` 的前向注释）
+   -  将设计变更从 `SailWind Layout` 向后注释（参见从 `SailWind Layout` 到 SailWind Logic 的向后注释）
 
 ## 启动选项
 
