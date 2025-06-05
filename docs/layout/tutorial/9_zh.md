@@ -9,11 +9,11 @@
 - 为自动布线准备设计文件
 - 将设计传输至 `SailWind Router` 进行自动布线
 
-**限制条件**
+🙊**限制**
 
 本教程需要通用编辑许可选项。在帮助菜单中点击**已安装选项**以确认是否可继续。
 
-**准备工作**
+😎**前提**
 
 如果 `SailWind Layout` 尚未运行，请启动并打开位于\SailWind Projects\Samples 文件夹中的**previewpreroute.pcb**主页。
 

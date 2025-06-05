@@ -8,7 +8,7 @@
 - 设置网络间距规则
 - 设置条件规则
 
-**准备工作**
+😎**前提**
 
 如果尚未运行，请启动 SailWind Logic 并打开 `\SailWind Projects\Sample` 文件夹中的**previewchange.sch**文件。
 

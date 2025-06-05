@@ -7,7 +7,7 @@
 1. 从 ASCII 文件导入网络表
 2. 将网络分配到平面层
 
-**准备工作**
+😎**前提**
 
 如果尚未运行，请启动 `SailWind Layout` 并打开位于 ·\SailWind Projects\Samples· 文件夹中的 **previewbrd.pcb** 文件。
 

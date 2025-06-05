@@ -17,11 +17,11 @@
 
 ![](/layout/tutorial/7/_page_0_Figure_12.jpeg)
 
-**限制条件**
+🙊**限制**
 
 本教程需要"通用编辑"和"分割平面"许可选项。在帮助菜单中点击**已安装选项**以确认您是否可以继续。
 
-**准备工作**
+😎**前提**
 
 如果尚未运行，请启动 `SailWind Layout` 并打开\SailWind Projects\Samples 文件夹中的**previewplaced.pcb**主页。
 

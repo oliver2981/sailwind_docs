@@ -6,7 +6,7 @@
 - 修改原理图数据
 - 对象分组
 
-**准备工作**
+😎**前提**
 
 如果尚未运行，请启动 SailWind Logic 并打开\ SailWind Projects\Samples 文件夹中的**previewbus.sch**文件。
 
