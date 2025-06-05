@@ -78,7 +78,7 @@
 
 将计算器焊盘图形数据自动传输到您选择的 SailWind 库名称。
 
-**限制与局限**
+🙊**限制**
 
 - 包含的扩展库文件；*PCBM-STARTER.plb09*、*SM\_MFR.plb09*、*CONNECTORS.plb09*和*TH.plb09*包含特殊用户定义属性。为了在 SailWind 焊盘图形中包含所有这些属性，必须在 SailWind 中使用属性字典定义它们，否则将收到预期警告。如果您不希望导入这些属性，可以简单地忽略警告。您应查看提供的*plb09 文件属性以确定其预期用途。
 
@@ -131,7 +131,7 @@
 
 创建 SailWind .p & .d 文件并使用 SailWind 库管理器将它们导入到库中。此选项不需要 SailWind 会话来生成 SailWind `CAD` 输出。
 
-**限制与局限**
+🙊**限制**
 
 - 包含的扩展库文件；PCBM-STARTER.plb09、SM\_MFR.plb09、CONNECTORS.plb09 和 TH.plb09 包含特殊用户定义属性。为了在 SailWind 焊盘图形中包含所有这些属性，必须在 SailWind 中使用属性字典定义它们，否则将收到预期警告。如果您不希望导入这些属性，可以简单地忽略警告。您应查看提供的*plb09 文件属性以确定其预期用途。
 
@@ -180,7 +180,7 @@
 
 您可以将 SailWind ASCII 用于单部件或多部件 `CAD` 输出。使用 SailWind ASCII `CAD` 输出时，始终会创建包含所有元件类型和封装定义的*.asc*(ASCII)文件。使用多部件向导时的默认文件名为"NewParts"，但您可以将其重命名为您选择的任何名称。导入*.asc*文件后，您将元件类型和封装保存到库中。一旦进入 SailWind 库，它们就可以在新设计中使用。
 
-**限制与局限**
+🙊**限制**
 
 • 包含的扩展库文件；*PCBM-STARTER.plb09*、*SM\_MFR.plb09*、*CONNECTORS.plb09*和*TH.plb09*包含特殊用户定义属性。为了在 SailWind 焊盘图形中包含所有这些属性，必须在 SailWind 中使用
 
