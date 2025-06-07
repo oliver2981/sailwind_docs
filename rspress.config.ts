@@ -12,7 +12,7 @@ export default defineConfig({
     description: 'SailWind',
     icon: '/favicon.ico',
     logo:  '/logo.png',
-    logoText: 'SailWind Docs',
+    logoText: 'SailWind',
     themeConfig: {
         enableContentAnimation: true,
         enableAppearanceAnimation: true,

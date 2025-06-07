@@ -30,4 +30,6 @@ h1, h2 {
 
 .font-semibold {
     color: #6253b7;
+    font-weight: bold;
+    font-size: medium;
 }
