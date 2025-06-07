@@ -229,8 +229,8 @@ if __name__ == "__main__":
     # markdown_dir = args.markdown_dir  # Markdown根目录
     # output_dir = args.output_dir  # 设为None覆盖原文件，或指定输出目录
 
-    pdf = r"D:\hugh\code\sailwind3.0_docs\docs\public\pdf\lpcreator_gd.pdf"  # 替换为您的PDF路径
-    markdown_dir = r"D:\hugh\code\sailwind3.0_docs\docs\v4\lpcreator"  # Markdown根目录
+    pdf = r"C:\Users\Administrator\Desktop\code\sailwind3.0_docs\docs\public\pdf\sailwindrouter_gd.pdf"  # 替换为您的PDF路径
+    markdown_dir = r"C:\Users\Administrator\Desktop\code\sailwind3.0_docs\docs\router\guide"  # Markdown根目录
     output_dir = None  # 设为 None 覆盖原文件，或指定输出目录
 
     # 处理文件
