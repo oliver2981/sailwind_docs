@@ -1,7 +1,7 @@
 import os
 
 
-def split_markdown_by_heading(input_file, lines_per_chunk=300):
+def split_markdown_by_heading(input_file, lines_per_chunk=250):
     """
     拆分Markdown文件，每100行之后的第一个#号开头的标题处拆分
 
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     docs_dir = os.path.join(root_dir, "docs")
 
-    input_file = os.path.join(docs_dir, "v4", "layout", "guide", "55.md")
+    input_file = os.path.join(docs_dir, "router", "guide", "26.md")
     if os.path.isfile(input_file):
         split_markdown_by_heading(input_file)
     else:

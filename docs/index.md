@@ -19,6 +19,7 @@ features:
   - title: '物理版图 (Layout)'
     details: SailWind Layout 提供您布局 PCB 设计所需的工具，从为组件创建封装库到生成制造输出。
     link: "/layout/tutorial/1_zh"
-  - title: '布线 (Router)'
+  - title: '自动布线 (Router)'
     details: SailWind Router 是一款基于 Latium 技术实现的自动布线器产品。
+    link: "/router/tutorial/1_zh"
 ---

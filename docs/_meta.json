@@ -10,8 +10,8 @@
     "activeMatch": "/layout/"
   },
   {
-    "text": "\uD83D\uDEA7布线 (Router)",
-    "link": "/router/tutorial/1",
+    "text": "自动布线 (Router)",
+    "link": "/router/tutorial/1_zh",
     "activeMatch": "/router/"
   },
   {
