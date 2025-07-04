@@ -827,7 +827,7 @@ You should always speak and think in the "简体中文" (zh-CN) language unless 
 if __name__ == "__main__":
     # 配置参数
     CONFIG = {
-        "api_key": "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",  # 替换为你的DeepSeek API密钥
+        "api_key": "",  # 替换为你的DeepSeek API密钥
         "prompt_template": """
 您是一位专业的EDA电子设计行业技术文档翻译专家，负责将英文技术文档翻译为中文，同时严格保留原始Markdown格式。请遵循以下规则：
 
