@@ -14,7 +14,7 @@ SailWind Router 用户界面设计简洁高效。SailWind Router 既满足高级
 
 5. 选择对象
 
-**准备工作**
+😎**前提**
 
 如果尚未运行，请启动 SailWind Router 并打开 \SailWind Projects\Samples 文件夹中的 **preview.pcb** 文件。
 
@@ -62,7 +62,7 @@ SailWind Router 用户界面设计简洁高效。SailWind Router 既满足高级
 
     - 释放鼠标完成操作
 
-3. 缩小操作：重复步骤2但向下拖动指针（朝向身体方向）
+3. 缩小操作：重复步骤 2 但向下拖动指针（朝向身体方向）
 
 4. 练习使用缩放调整视图
 

@@ -16,7 +16,7 @@ SailWind Router 提供全面的交互式布线命令选择。
 
 本教程需要 Dynamic Route Editing、Advanced Rules 和 General Editing 安全选项。在 SailWind Router 中，点击帮助菜单中的 **Installed Options** 以确定是否可以继续。
 
-**准备工作**
+😎**前提**
 
 如果尚未运行，请启动 SailWind Router 并打开 \SailWind Projects\Samples 文件夹中名为 **previewpreroute.pcb** 的文件。
 
