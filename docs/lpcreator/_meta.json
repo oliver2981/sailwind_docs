@@ -1,8 +1,14 @@
 [
   {
+    "type": "file",
+    "name": "index",
+    "label": "章节预览"
+  },
+  {
     "type": "dir",
     "name": "guide",
     "label": "指南(Guide)",
-    "collapsed": false
+    "collapsed": true,
+    "overviewHeaders": [1]
   }
 ]

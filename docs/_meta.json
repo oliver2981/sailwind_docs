@@ -1,22 +1,22 @@
 [
   {
     "text": "原理图 (Logic)",
-    "link": "/logic/tutorial/2_zh",
+    "link": "/logic/index",
     "activeMatch": "/logic/"
   },
   {
     "text": "物理版图 (Layout)",
-    "link": "/layout/tutorial/1_zh",
+    "link": "/layout/index",
     "activeMatch": "/layout/"
   },
   {
     "text": "自动布线 (Router)",
-    "link": "/router/tutorial/1_zh",
+    "link": "/router/index",
     "activeMatch": "/router/"
   },
   {
     "text": "焊盘图形 (LPW)",
-    "link": "/lpcreator/guide/1_zh",
+    "link": "/lpcreator/index",
     "activeMatch": "/lpcreator/"
   },
   {

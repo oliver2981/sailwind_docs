@@ -1,20 +1,28 @@
 [
   {
-    "type": "dir",
-    "name": "tutorial",
-    "label": "教程(Tutorial)",
-    "collapsed": true
+    "type": "file",
+    "name": "index",
+    "label": "章节预览"
   },
   {
     "type": "dir",
     "name": "guide",
     "label": "指南(Guide)",
-    "collapsed": true
+    "collapsed": true,
+    "overviewHeaders": [1]
   },
   {
     "type": "dir",
-    "name": "QuickReference",
+    "name": "tutorial",
+    "label": "教程(Tutorial)",
+    "collapsed": true,
+    "overviewHeaders": [1]
+  },
+  {
+    "type": "dir",
+    "name": "qr",
     "label": "快速参考(Quick Reference)",
-    "collapsed": true
+    "collapsed": true,
+    "overviewHeaders": [1]
   }
 ]
