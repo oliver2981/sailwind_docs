@@ -1,6 +1,6 @@
 # 设计规则检查
 
-Design Verification 命令可检查设计中的间距、连通性、高速和平面层错误。这种高级间距检查快速准确，精度达 0 .0000 1 英寸。通过 S ailWind Route r 的Design Verificatio n 命令，您可以检查以下间距规则违规：
+Design Verification 命令可检查设计中的间距、连通性、高速和平面层错误。这种高级间距检查快速准确，精度达 0 .00001 英寸。通过 S ailWind Route r 的Design Verificatio n 命令，您可以检查以下间距规则违规：
 
 - 网络与所有对象的间距
 
