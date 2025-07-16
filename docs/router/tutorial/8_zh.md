@@ -56,7 +56,7 @@ SailWind Router 中的 Design Verification 工具会扫描设计数据库，查�
 
 3. 在 Conduct checks 区域，选中**On visible objects and layers only**复选框以仅检查可见对象。清除该复选框可检查设计中的所有内容，即使对象或整个层不可见。
 
-**提示：** 使用 Options 对话框中的 Display 选项卡更改对象和层的可见性。
+> [!tip] 使用 Options 对话框中的 Display 选项卡更改对象和层的可见性。
 
 4. 在 Check design for 区域，选中**Object Clearance**复选框。
 

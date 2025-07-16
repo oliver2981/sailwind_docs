@@ -7,7 +7,7 @@
 SailWind Router 提供的高级功能使您能够执行布线、布局和设计规则检查，其详细程度超越 SailWind Layout。
 
 
-**提示** 您也可以观看 SailWind Router 中用于布局和布线设计的高级功能视频。请参阅 SailWind Router 网络表项目介绍视频。
+> [!tip] 您也可以观看 SailWind Router 中用于布局和布线设计的高级功能视频。请参阅 SailWind Router 网络表项目介绍视频。
 
 SailWind Router 包含以下高级功能：
 
@@ -53,21 +53,11 @@ SailWind Router 包含以下高级功能：
 
 - **自动布线能力** 您可以选择执行批量自动布线，也可以选择单个网络、元件或引脚对进行选择性自动布线。
 
-◦ 对于批量自动布线，首先确定您的策略。例如，在布线其他元件之前，先布线或计划布线密度较高的元件（如 BGA）。
+  - 对于批量自动布线，首先确定您的策略。例如，在布线其他元件之前，先布线或计划布线密度较高的元件（如 BGA）。
 
-**提示**
+    > [!tip] 即使您计划手动布线设计，也可以使用自动布线器对设计进行"首次尝试"，以确定最紧密的通道和最有问题的区域。
 
-即使您计划手动布线设计，也可以使用自动布线器对设计进行"首次尝试"，以确定最紧密的通道和最有问题的区域。
-
-◦ 对于选择性自动布线，选择一个元件或网络，然后**右键**单击并选择其中一个手动布线选项（布线、扇出、优化、调谐或居中）。为获得最佳效果，完成后保护布线以确保在后续任何批量自动布线期间保持不变。
-
-**相关主题**
-
-**Spreadsheet 窗口**
-
-选项对话框，全局类别，常规子类别
-
-选项对话框，覆铜类别
+  - 对于选择性自动布线，选择一个元件或网络，然后**右键**单击并选择其中一个手动布线选项（布线、扇出、优化、调谐或居中）。为获得最佳效果，完成后保护布线以确保在后续任何批量自动布线期间保持不变。
 
 ## 在 SailWind Router 中打开设计的先决条件
 
@@ -129,9 +119,7 @@ SailWind Router 包含以下高级功能：
 
 如果您执行不受支持的命令或更改不受支持的选项，非活动程序将变得不同步。
 
-**注意：**
-
-您必须然后重新启动 SailWind Layout 才能使同步模式生效。
+> [!warning] 您必须然后重新启动 SailWind Layout 才能使同步模式生效。
 
 尽管与 SailWind Router 同步，但您必须主动切换回 SailWind Layout 才能在 SailWind Layout 中处理您的设计。
 
@@ -144,11 +132,9 @@ SailWind Router 包含以下高级功能：
 同步模式链接 SailWind Layout 和SailWind Router，使设计同时出现在两个程序中，使您能够在任一工具中工作而无需先在一个程序中关闭设计。
 
 
-**警告：**
+> [!danger] 同步模式只能从 SailWind Layout 设置，并且必须在尝试将设计发送到 SailWind Router 之前启动。
 
-同步模式只能从 SailWind Layout 设置，并且必须在尝试将设计发送到 SailWind Router 之前启动。
-
-**步骤**
+🏃‍♂️‍**步骤**
 
 1. 在 SailWind Layout 中，单击**设置 > 选项**菜单项。
 
@@ -168,7 +154,7 @@ SailWind Router 包含以下高级功能：
 
 使用同步模式将您的设计传输到 SailWind Router，同时保持设计在 SailWind Layout 中打开。
 
-**步骤**
+🏃‍♂️‍**步骤**
 
 1. 按照["启用同步模式"第 33 页](#page-4-1)所述启用同步模式。
 
@@ -182,26 +168,19 @@ SailWind Router 包含以下高级功能：
 
 SailWind Router 打开并加载您的设计。
 
-**相关主题**
-
-[ 退出同步模式 ](#page-7-1)
-
-[ 设计不同步时重新同步 ](#page-7-0)
-
-[ 同步模式中不支持的操作 ](#page-6-0)
 
 ### 切换到 SailWind Layout
 
 您可以快速将设计从 SailWind Router 移回 SailWind Layout 环境。
 
-**步骤**
+🏃‍♂️‍**步骤**
 
 1. 在主工具栏上，单击**Layout**按钮。
 
 2. SailWind Layout 打开并加载您的设计。
 
 
-**提示** 要切换回 SailWind Router，请单击 SailWind Layout 主工具栏上的**布线**按钮。
+> [!tip] 要切换回 SailWind Router，请单击 SailWind Layout 主工具栏上的**布线**按钮。
 
 ### 同步模式中不支持的操作
 
@@ -249,15 +228,12 @@ SailWind Router 打开并加载您的设计。
 
 - 过孔图案
 
-**相关主题**
-
-[ 设计不同步时重新同步 ](#page-7-0)
 
 ### 设计不同步时重新同步
 
 如果您执行不受支持的命令或更改不受支持的选项，非活动程序将变得不同步。状态栏显示同步状态 - 活动、非活动或不同步。您必须在 SailWind Layout 或SailWind Router 中重新同步设计。
 
-**步骤**
+🏃‍♂️‍**步骤**
 
 要重新同步两个程序：
 
@@ -266,9 +242,7 @@ SailWind Router 打开并加载您的设计。
 - 如果 SailWind Layout 为"活动"且 SailWind Router 为"不同步"，请在 SailWind Layout 的主工具栏上单击**布线**按钮。
 
 
-**注意：**
-
-要在 SailWind Layout 和SailWind Router 之间切换时关闭许可证警告的显示，请在*SailWindRouter.ini*文件中键入以下文本（之后不需要重新启动 SailWind Router）：
+> [!warning] 要在 SailWind Layout 和SailWind Router 之间切换时关闭许可证警告的显示，请在*SailWindRouter.ini*文件中键入以下文本（之后不需要重新启动 SailWind Router）：
 
 ```
 
@@ -282,15 +256,12 @@ DisplayWarnings=0
 
 之前不同步的程序会更新为最新的设计更改并成为活动程序。
 
-**相关主题**
-
-[ 同步模式中不支持的操作 ](#page-6-0)
 
 ### 退出同步模式
 
 您可以在进行设计更改后随时退出同步模式。
 
-**步骤**
+🏃‍♂️‍**步骤**
 
 1. 确定您希望继续使用哪个应用程序。
 

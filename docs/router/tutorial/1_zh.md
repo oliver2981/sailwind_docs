@@ -44,7 +44,7 @@ SailWind Router 用户界面设计简洁高效。SailWind Router 既满足高级
 
 - 带滚轮的鼠标可结合快捷键进行滚动和缩放
 
-**提示：** 平移和缩放功能也可通过视图菜单命令、数字小键盘和 Windows 滚动条实现。详情参阅 *SailWind Router 帮助*。
+> [!tip] 平移和缩放功能也可通过视图菜单命令、数字小键盘和 Windows 滚动条实现。详情参阅 *SailWind Router 帮助*。
 
 **缩放练习**
 
@@ -66,7 +66,7 @@ SailWind Router 用户界面设计简洁高效。SailWind Router 既满足高级
 
 4. 练习使用缩放调整视图
 
-**提示：** 点击标准工具栏的 **View Board** 按钮可恢复原始视图
+> [!tip] 点击标准工具栏的 **View Board** 按钮可恢复原始视图
 
 5. 点击标准工具栏的 **Zoom** 按钮退出缩放模式
 
