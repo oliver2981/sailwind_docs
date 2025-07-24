@@ -747,13 +747,13 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 **图 10. 引脚/过孔横截面**
 
-**选择组件**
+**选择元器件**
 
-当选择组件时，导航窗口会放大所选组件（[图](#page-29-0) 11）。导航窗口显示连接的走线和扇出以及组件。
+当选择元器件时，导航窗口会放大所选元器件（[图](#page-29-0) 11）。导航窗口显示连接的走线和扇出以及元器件。
 
 ![](/router/guide/5/_page_29_Picture_1.jpeg)
 
-**图 11. 导航窗口中选择的组件**
+**图 11. 导航窗口中选择的元器件**
 
 **选择网络**
 
@@ -827,7 +827,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 🏃‍♂️‍**步骤**
 
-点击标准工具栏上的**Spreadsheet Window**按钮可切换电子表格窗口的显示状态（或点击**View > Spreadsheet Window**菜单项）。
+点击标准工具栏上的**电子表格**按钮可切换电子表格窗口的显示状态（或点击**视图 > 电子表格**菜单项）。
 
 ### 电子表格窗口标签页内容
 
@@ -841,7 +841,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 - 以下*某一类*对象的所有实例：
 
-	- 元件
+	- 元器件
 
 	- 封装
 
@@ -877,7 +877,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 您可以在电子表格窗口中更改某些设计属性的值，如元件位置、走线宽度和层。
 
-> [!warning] 您可以选择让 SailWind Router 通过点击**Auto update data**按钮自动将更改保存到数据库。否则，每次需要保存更改时都必须点击**Update data and apply changes**按钮。
+> [!warning]您可以选择让 SailWind Router 通过点击Auto update data按钮自动将更改保存到数据库。否则，每次需要保存更改时都必须点击Update data and apply changes按钮。
 
 如果复制一个单元格，可以将其内容粘贴到多个单元格中。这些单元格不必连续。
 
@@ -890,8 +890,8 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 1. 在电子表格中，双击要更改值的单元格。
 
 2. 在单元格中输入新值，然后按 Enter 键。
-
-3. 如果已点击**Auto update data**按钮，更改将自动保存到数据库；否则，点击**Update data and apply changes**按钮保存更改。
+   
+3. 如果已点击Auto update data按钮，更改将自动保存到数据库；否则，点击Update data and apply changes按钮保存更改。
 
 
 ### 与电子表格之间的复制粘贴
@@ -944,13 +944,13 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 打开要粘贴数据的应用程序，按照该应用程序的适当方式进行粘贴。
 
-### 同步标签页与项目资源管理器
+### 同步标签页与项目浏览器
 
-与项目资源管理器同步的标签页会显示当前在项目资源管理器中选择的对象。
+与项目浏览器同步的标签页会显示当前在项目浏览器中选择的对象。
 
 同步操作如下：
 
-- 如果在项目资源管理器中选择特定对象类型（如 Pin Pair），则电子表格窗口会显示该类型的所有对象。
+- 如果在项目浏览器中选择特定对象类型（如管脚对），则电子表格窗口会显示该类型的所有对象。
 
 - 如果选择某些特定对象（如特定网络），则仅显示这些对象。
 
@@ -958,7 +958,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 🏃‍♂️‍**步骤**
 
-在 Display data for object type 下拉列表中，选择"Sync with Project Explorer"。（可能需要关闭 Output 窗口和/或 Navigation 窗口才能看到下拉列表。）
+在 Display data for object type 下拉列表中，选择"Sync with Project Explorer"。（可能需要关闭控制台和/或导航窗口才能看到对齐按钮。）
 
 
 > [!tip]要暂停同步，从 Display data for object type 列表中选择"Keep current objects"。要恢复同步，再次点击"Sync with Project Explorer"。
@@ -973,7 +973,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 🏃‍♂️‍**步骤**
 
-在 Display data for object type 下拉列表中，选择"Sync with selection"。（可能需要关闭 Output 窗口和/或 Navigation 窗口才能看到下拉列表。）
+在 Display data for object type 下拉列表中，选择"Sync with selection"。（可能需要关闭控制台和/或导航窗口才能看到下拉列表。）
 
 > [!tip]要暂停同步，从 Display data for object type 下拉列表中选择"Keep current objects"。要恢复同步，再次点击"Sync with Project Explorer"。
 
@@ -984,7 +984,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 🏃‍♂️‍**步骤**
 
-1. 在电子表格窗口中，点击**Organize columns**按钮打开 Column Organizer 对话框。（可能需要关闭 Output 窗口和/或 Navigation 窗口才能看到该按钮。）
+1. 在电子表格窗口中，点击**Organize columns**按钮打开 Column Organizer 对话框。（可能需要关闭控制台和/或导航窗口才能看到该按钮。）
 
 2. 要向标签页添加列，在 Available columns 框中选择要包含的列，点击右箭头按钮（**>>**）将其移至 Displayed columns 框。
 
@@ -1039,7 +1039,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 1. 选择要调整大小的列。
 
-2. 点击**AutoFit to Contents**按钮。（可能需要关闭 Output 窗口和/或 Navigation 窗口才能看到该按钮。）
+2. 点击**AutoFit to Contents**按钮。（可能需要关闭控制台和/或导航窗口才能看到对齐按钮。）
 
 
 > [!tip]也可以双击列的右侧分隔线自动调整大小。
@@ -1052,7 +1052,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 1. 选择要对齐的列。
 
-2. 点击所需对齐类型的对应按钮（"Align left"、"Center"或"Align right"）。（可能需要关闭 Output 窗口和/或 Navigation 窗口才能看到对齐按钮。）
+2. 点击所需对齐类型的对应按钮（"Align left"、"Center"或"Align right"）。（可能需要关闭控制台和/或导航窗口才能看到对齐按钮。）
 
 ### 电子表格排序
 
@@ -1060,7 +1060,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 🏃‍♂️‍**步骤**
 
-1. 点击**Define sort order**按钮。（可能需要关闭 Output 窗口和/或 Navigation 窗口才能看到该按钮。）
+1. 点击**Define sort order**按钮。（可能需要关闭控制台和/或导航窗口才能看到对齐按钮。）
 
 2. 按照要创建的排序顺序双击每个列标题，从最重要的列开始。
 
