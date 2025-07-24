@@ -877,7 +877,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 您可以在电子表格窗口中更改某些设计属性的值，如元件位置、走线宽度和层。
 
-> [!warning]您可以选择让 SailWind Router 通过点击Auto update data按钮自动将更改保存到数据库。否则，每次需要保存更改时都必须点击Update data and apply changes按钮。
+> [!warning]您可以选择让 SailWind Router 通过点击**Auto update data**按钮自动将更改保存到数据库。否则，每次需要保存更改时都必须点击**Update data and apply changes**按钮。
 
 如果复制一个单元格，可以将其内容粘贴到多个单元格中。这些单元格不必连续。
 
@@ -891,7 +891,7 @@ Sheet 子菜单上的命令提供脚本管理命令。由于您可以同时打�
 
 2. 在单元格中输入新值，然后按 Enter 键。
    
-3. 如果已点击Auto update data按钮，更改将自动保存到数据库；否则，点击Update data and apply changes按钮保存更改。
+3. 如果已点击**Auto update data**按钮，更改将自动保存到数据库；否则，点击**Update data and apply changes**按钮保存更改。
 
 
 ### 与电子表格之间的复制粘贴
