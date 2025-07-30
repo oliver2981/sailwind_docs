@@ -1,5 +1,6 @@
 import { Card } from '@theme';
 import { SourceCode } from '@theme';
+import { Tab, Tabs } from 'rspress/theme';
 import { normalizeImagePath } from 'rspress/runtime';
 
 # 关于
@@ -8,8 +9,6 @@ import { normalizeImagePath } from 'rspress/runtime';
 
 :::tip{title=NOTICE}
 本文档内容基于 `SailWind 4.0` 内容构建。
-
-仅限 **`派兹互联-测试部`** 内部使用，不具备官方支持。
 
 更新策略：
 - 本文档通过外网仓库 <SourceCode href="https://github.com/mikigo/sailwind_docs" /> 维护更新；
@@ -26,22 +25,38 @@ import { normalizeImagePath } from 'rspress/runtime';
 
 ## SailWind 3.0 原文
 
-| 名称                     | 点击查看                                                 | 完成进度 |
-| ------------------------ | ------------------------------------------------------------ | :------: |
-| Logic 教程               | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_tut.pdf')} target={"_blank"}>Logic Tutorial</a> |    ✔️     |
-| Logic 指南               | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_gd.pdf')} target={"_blank"}>Logic Guide</a> |    ✔️     |
-| Logic 快速参考  | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_qr.pdf')} target={"_blank"}>Logic Quick Reference</a> |    ✔️     |
-| Layout 教程              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_tut.pdf')} target={"_blank"}>Layout Tutorial</a> |    ✔️     |
-| Layout 指南              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_gd.pdf')} target={"_blank"}>Layout Guide</a> |    ✔️     |
-| Layout 快速参考 | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_qr.pdf')} target={"_blank"}>Layout Quick Reference</a> |    ✔️     |
-| Router 教程              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_tut.pdf')} target={"_blank"}>Router Tutorial</a> |    ✔️     |
-| Router 指南              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_gd.pdf')} target={"_blank"}>Router Guide</a> |    ✔️     |
-| Router 快速参考 | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_qr.pdf')} target={"_blank"}>Router Quick Reference</a> |    ✔️     |
-| Land Pattern Creator | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/lpcreator_gd.pdf')} target={"_blank"}>Land Pattern Creator</a> |    ✔️     |
+<Tabs>
+    <Tab label="Logic">
+        | 名称                     | 查看链接                                                 | 完成进度 |
+        | ------------------------ | ------------------------------------------------------------ | :------: |
+        | Logic 教程               | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_tut.pdf')} target={"_blank"}>Logic Tutorial</a> |    ✔️     |
+        | Logic 指南               | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_gd.pdf')} target={"_blank"}>Logic Guide</a> |    ✔️     |
+        | Logic 快速参考  | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlogic_qr.pdf')} target={"_blank"}>Logic Quick Reference</a> |    ✔️     |
+    </Tab>
+    <Tab label="Layout">
+        | 名称                     | 查看链接                                                 | 完成进度 |
+        | ------------------------ | ------------------------------------------------------------ | :------: |
+        | Layout 教程              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_tut.pdf')} target={"_blank"}>Layout Tutorial</a> |    ✔️     |
+        | Layout 指南              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_gd.pdf')} target={"_blank"}>Layout Guide</a> |    ✔️     |
+        | Layout 快速参考 | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindlayout_qr.pdf')} target={"_blank"}>Layout Quick Reference</a> |    ✔️     |
+    </Tab>
+    <Tab label="Router">
+        | 名称                     | 查看链接                                                 | 完成进度 |
+        | ------------------------ | ------------------------------------------------------------ | :------: |
+        | Router 教程              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_tut.pdf')} target={"_blank"}>Router Tutorial</a> |    ✔️     |
+        | Router 指南              | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_gd.pdf')} target={"_blank"}>Router Guide</a> |    ✔️     |
+        | Router 快速参考 | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/sailwindrouter_qr.pdf')} target={"_blank"}>Router Quick Reference</a> |    ✔️     |
+    </Tab>
+    <Tab label="LPW">
+        | 名称                     | 查看链接                                                 | 完成进度 |
+        | ------------------------ | ------------------------------------------------------------ | :------: |
+        | Land Pattern Creator | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/lpcreator_gd.pdf')} target={"_blank"}>Land Pattern Creator</a> |    ✔️     |
+    </Tab>
+</Tabs>
 
 ## 参考书籍
 
-| 书籍                                                         | 点击查看                                                     |
+| 书籍                                                         | 查看链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src={normalizeImagePath('/book/PADSLogicLayout原理图与电路板设计.png')} alt="book" style={{ width: '125px', height: '180px' }} /> | <a style={{ textDecoration: 'underline', color: '#6253b7' }} href={normalizeImagePath('/pdf/PADSLogicLayout原理图与电路板设计.pdf')} target={"_blank"}>PADS Logic/Layout 原理图与电路板设计</a> |
 
