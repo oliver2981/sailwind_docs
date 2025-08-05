@@ -17,7 +17,18 @@ import { normalizeImagePath } from 'rspress/runtime';
 
 有任何问题请联系：
 <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-    <img src={normalizeImagePath('/avatar/mikigo.png')} alt="mikigo" style={{ width: '25px', height: '25px', borderRadius: '50%' }} />
+    <img
+        src={normalizeImagePath('/avatar/mikigo.png')}
+        alt="mikigo"
+        style={{
+            width: '25px',
+            height: '25px',
+            borderRadius: '50%',
+            marginLeft: '0',
+            marginRight: '0',
+            display: 'inline-block'
+    }}
+    />
     <p style={{ textDecoration: 'none', borderBottom: 'none' }}>huangmingqiang@pzeda.com</p>
 </div>
 :::
