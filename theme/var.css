@@ -33,3 +33,11 @@ h1, h2 {
     font-weight: bold;
     font-size: medium;
 }
+
+.medium-zoom-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 12px rgba(100, 80, 200, 0.3);
+    border-radius: 8px;
+}
