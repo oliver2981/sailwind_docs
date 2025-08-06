@@ -37,7 +37,7 @@ SailWind Logic 工作流程将指导您完成创建原理图设计所需的步�
    - 将设计变更向前注释到 SailWind Layout（参见从 SailWind Logic 到 `SailWind Layout` 的前向注释）
    -  将设计变更从 `SailWind Layout` 向后注释（参见从 `SailWind Layout` 到 SailWind Logic 的向后注释）
 
-## 启动选项
+## 启动选项 ಠ_ಠ
 
 您可以使用启动选项（称为命令行开关）来控制 SailWind Logic 的初始配置。使用命令行开关可以启用不同的选项、打开文件、启动宏以及录制 SailWind Logic 会话。您可以输入多个命令行选项。
 
@@ -113,7 +113,7 @@ SailWind 产品会在您启动应用程序时自动检查软件新版本。如�
 1. 单击“帮助 > 检查更新菜单项。
 2. 在检查更新对话框中，单击检查更新。
 
-## 迁移用户设置
+## 迁移用户设置 ಠ_ಠ
 
 您可以使用 SailWind 用户设置迁移工具从 SailWind Logic、Layout 和 Router 的一个安装中提取您的设置，并将其导入到另一个安装或版本中。
 
@@ -136,7 +136,7 @@ default.txt 文件是一个 SailWind Logic ASCII 文件，其中包含默认选�
 7. 在 ASCII 输出对话框中，单击全选。
 8. 保留当前设置的输出格式并单击“确定”。
 
-## 鼠标按钮操作
+## 鼠标按钮操作 ಠ_ಠ
 
 SailWind Logic 遵循 Microsoft® Windows® 的双键鼠标操作惯例。SailWind Logic 也支持使用三键鼠标。中间的按钮可以快速访问平移和缩放命令。
 
