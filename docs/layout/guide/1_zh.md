@@ -1,4 +1,4 @@
-# 第 1 章 快速开始
+# 第 1 章 快速开始 ಠ_ಠ
 
 Welcome to SailWind Layout, a powerful yet easy to use printed circuit board layout application.
 
