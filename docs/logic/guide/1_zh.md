@@ -1,4 +1,4 @@
-# 第 1 章 SailWind Logic 快速开始
+# 第 1 章 SailWind Logic 快速开始 ಠ_ಠ
 
 SailWind Logic 是一种强大的多页原理图捕获解决方案，可为 `SailWind Layout` 构建有效的前端环境。
 

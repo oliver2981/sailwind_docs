@@ -2,7 +2,7 @@
 
 在将设计导入 SailWind Router 之前，您的设计必须满足特定要求。仔细准备设计以满足所有先决条件后，您可以使用同步流程在 SailWind Layout 和SailWind Router 之间来回切换进行导入。
 
-## SailWind Router 高级功能
+## SailWind Router 高级功能 ಠ_ಠ
 
 SailWind Router 提供的高级功能使您能够执行布线、布局和设计规则检查，其详细程度超越 SailWind Layout。
 
@@ -59,7 +59,7 @@ SailWind Router 包含以下高级功能：
 
   - 对于选择性自动布线，选择一个元件或网络，然后**右键**单击并选择其中一个手动布线选项（布线、扇出、优化、调谐或居中）。为获得最佳效果，完成后保护布线以确保在后续任何批量自动布线期间保持不变。
 
-## 在 SailWind Router 中打开设计的先决条件
+## 在 SailWind Router 中打开设计的先决条件 ಠ_ಠ
 
 在将设计导入 SailWind Router 工作区之前，您必须完成许多先决任务。您的特定设计可能需要也可能不需要某些任务。
 
@@ -182,7 +182,7 @@ SailWind Router 打开并加载您的设计。
 
 > [!tip] 要切换回 SailWind Router，请单击 SailWind Layout 主工具栏上的**布线**按钮。
 
-### 同步模式中不支持的操作
+### 同步模式中不支持的操作 ಠ_ಠ
 
 同步模式不支持某些命令和选项。如果您执行这些命令之一或更改其中一个选项，SailWind Layout 和SailWind Router 将变得不同步。
 
